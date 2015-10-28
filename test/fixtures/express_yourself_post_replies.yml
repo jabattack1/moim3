@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  express_yourself_postid: MyString
+  username: MyString
+  content: MyString
+  date: 
+
+two:
+  title: MyString
+  express_yourself_postid: MyString
+  username: MyString
+  content: MyString
+  date: 
