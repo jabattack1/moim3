@@ -2,6 +2,8 @@
 
 one:
   name: MyString
+  username: MyString
+  count: MyString
   guests: MyString
   individuals: MyString
   collaborations: MyString
@@ -73,6 +75,8 @@ one:
 
 two:
   name: MyString
+  username: MyString
+  count: MyString
   guests: MyString
   individuals: MyString
   collaborations: MyString

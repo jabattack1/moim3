@@ -2,6 +2,8 @@
 
 one:
   file: MyString
+  username: MyString
+  count: MyString
   description: MyString
   eventdate: MyString
   event: MyString
@@ -10,6 +12,8 @@ one:
 
 two:
   file: MyString
+  username: MyString
+  count: MyString
   description: MyString
   eventdate: MyString
   event: MyString

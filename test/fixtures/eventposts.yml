@@ -1,12 +1,12 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  guests: MyString
-  individuals: MyString
-  collaborations: MyString
+  title: MyString
+  username: MyString
+  count: MyString
+  place: MyString
   poster: MyString
-  eventdate: MyString
+  blogdate: MyString
   date: 
   link: MyString
   eventid: MyString
@@ -72,12 +72,12 @@ one:
   att20: MyString
 
 two:
-  name: MyString
-  guests: MyString
-  individuals: MyString
-  collaborations: MyString
+  title: MyString
+  username: MyString
+  count: MyString
+  place: MyString
   poster: MyString
-  eventdate: MyString
+  blogdate: MyString
   date: 
   link: MyString
   eventid: MyString

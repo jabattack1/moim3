@@ -1,10 +1,11 @@
-class CreateExpressYourselfPosts < ActiveRecord::Migration
+class CreateHotspotPosts < ActiveRecord::Migration
   def change
-    create_table :express_yourself_posts do |t|
+    create_table :hotspot_posts do |t|
       t.string :title
-      t.timestamptz :date
       t.string :username
-      t.string :expres_yourselfid
+      t.string :count
+      t.timestamptz :date
+      t.string :hotspotid
       t.string :content1-eng
       t.string :content2-eng
       t.string :content3-eng

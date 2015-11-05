@@ -1,10 +1,11 @@
-class CreateHotspotPosts < ActiveRecord::Migration
+class CreateFreeboardPosts < ActiveRecord::Migration
   def change
-    create_table :hotspot_posts do |t|
+    create_table :freeboard_posts do |t|
       t.string :title
-      t.timestamptz :date
       t.string :username
-      t.string :hotspotid
+      t.string :count
+      t.timestamptz :date
+      t.string :freeboardid
       t.string :content1-eng
       t.string :content2-eng
       t.string :content3-eng

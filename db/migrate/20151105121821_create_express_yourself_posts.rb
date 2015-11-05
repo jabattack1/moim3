@@ -1,15 +1,9 @@
-class CreateEventposts < ActiveRecord::Migration
+class CreateExpressYourselfPosts < ActiveRecord::Migration
   def change
-    create_table :eventposts do |t|
-      t.string :name
-      t.string :guests
-      t.string :individuals
-      t.string :collaborations
-      t.string :poster
-      t.string :eventdate
-      t.timestamptz :date
-      t.string :link
-      t.string :eventid
+    create_table :express_yourself_posts do |t|
+      t.string :title
+      t.string :count
+      t.string :express_yourselfid
       t.string :content1-eng
       t.string :content2-eng
       t.string :content3-eng

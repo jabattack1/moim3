@@ -2,6 +2,8 @@ class CreatePressPosts < ActiveRecord::Migration
   def change
     create_table :press_posts do |t|
       t.string :title
+      t.string :username
+      t.string :count
       t.string :writer
       t.string :poster
       t.string :pressdate

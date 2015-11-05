@@ -2,9 +2,8 @@
 
 one:
   title: MyString
-  date: 
-  username: MyString
-  expres_yourselfid: MyString
+  count: MyString
+  express_yourselfid: MyString
   content1-eng: MyString
   content2-eng: MyString
   content3-eng: MyString
@@ -68,9 +67,8 @@ one:
 
 two:
   title: MyString
-  date: 
-  username: MyString
-  expres_yourselfid: MyString
+  count: MyString
+  express_yourselfid: MyString
   content1-eng: MyString
   content2-eng: MyString
   content3-eng: MyString

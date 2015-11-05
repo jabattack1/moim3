@@ -2,6 +2,8 @@
 
 one:
   title: MyString
+  username: MyString
+  count: MyString
   writer: MyString
   poster: MyString
   pressdate: MyString
@@ -71,6 +73,8 @@ one:
 
 two:
   title: MyString
+  username: MyString
+  count: MyString
   writer: MyString
   poster: MyString
   pressdate: MyString

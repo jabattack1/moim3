@@ -1,13 +1,17 @@
-class CreateBlogPosts < ActiveRecord::Migration
+class CreateExternalEventposts < ActiveRecord::Migration
   def change
-    create_table :blog_posts do |t|
-      t.string :title
-      t.string :place
+    create_table :external_eventposts do |t|
+      t.string :name
+      t.string :username
+      t.string :count
+      t.string :guests
+      t.string :individuals
+      t.string :collaborations
       t.string :poster
-      t.string :blogdate
+      t.string :eventdate
       t.timestamptz :date
       t.string :link
-      t.string :blogid
+      t.string :eventid
       t.string :content1-eng
       t.string :content2-eng
       t.string :content3-eng

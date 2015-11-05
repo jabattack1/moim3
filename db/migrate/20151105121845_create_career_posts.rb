@@ -1,15 +1,12 @@
-class CreateExternalEventposts < ActiveRecord::Migration
+class CreateCareerPosts < ActiveRecord::Migration
   def change
-    create_table :external_eventposts do |t|
-      t.string :name
-      t.string :guests
-      t.string :individuals
-      t.string :collaborations
-      t.string :poster
-      t.string :eventdate
+    create_table :career_posts do |t|
+      t.string :title
+      t.string :username
+      t.string :count
       t.timestamptz :date
-      t.string :link
-      t.string :eventid
+      t.string :careerid
+      t.string :location
       t.string :content1-eng
       t.string :content2-eng
       t.string :content3-eng

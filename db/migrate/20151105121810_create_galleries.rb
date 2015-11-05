@@ -2,6 +2,8 @@ class CreateGalleries < ActiveRecord::Migration
   def change
     create_table :galleries do |t|
       t.string :file
+      t.string :username
+      t.string :count
       t.string :description
       t.string :eventdate
       t.string :event

@@ -1,10 +1,15 @@
-class CreateFreeboardPosts < ActiveRecord::Migration
+class CreateBlogPosts < ActiveRecord::Migration
   def change
-    create_table :freeboard_posts do |t|
+    create_table :blog_posts do |t|
       t.string :title
-      t.timestamptz :date
       t.string :username
-      t.string :freeboardid
+      t.string :count
+      t.string :place
+      t.string :poster
+      t.string :blogdate
+      t.timestamptz :date
+      t.string :link
+      t.string :blogid
       t.string :content1-eng
       t.string :content2-eng
       t.string :content3-eng
