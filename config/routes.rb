@@ -5,6 +5,59 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'welcome#index'
 
+  resources :users, only: [:index, :create]
+  resources :session, only: [:create, :destroy, :new]
+  resources :teams, only: [:index, :create]
+  resources :teams_session
+  
+  resources :galleries
+
+  resources :events, { only: [] } do
+    resources :eventposts, { shallow: true }
+  end
+
+
+  resources :external_events, { only: [] } do
+    resources :external_eventposts, { shallow: true }
+  end
+
+
+  resources :blogs, { only: [] } do
+    resources :blog_posts, { shallow: true }
+  end
+
+
+ resources :presses, { only: [] } do
+    resources :press_posts, { shallow: true }
+  end
+
+
+  resources :express_yourselves, { only: [] } do
+    resources :express_yourself_posts, { shallow: true }
+  end
+
+
+  resources :careers, { only: [] } do
+    resources :career_posts, { shallow: true }
+  end
+
+
+  resources :hotspots, { only: [] } do
+    resources :hotspot_posts, { shallow: true }
+  end
+
+
+  resources :freeboards, { only: [] } do
+    resources :freeboard_posts, { shallow: true }
+  end
+  
+
+
+
+
+
+
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
