@@ -12,42 +12,42 @@ Rails.application.routes.draw do
   
   resources :galleries
 
-  resources :events, { only: [] } do
+  resources :events do
     resources :eventposts, { shallow: true }
   end
 
 
-  resources :external_events, { only: [] } do
+  resources :external_events do
     resources :external_eventposts, { shallow: true }
   end
 
 
-  resources :blogs, { only: [] } do
+  resources :blogs do
     resources :blog_posts, { shallow: true }
   end
 
 
- resources :presses, { only: [] } do
+ resources :presses do
     resources :press_posts, { shallow: true }
   end
 
 
-  resources :express_yourselves, { only: [] } do
+  resources :express_yourselves do
     resources :express_yourself_posts, { shallow: true }
   end
 
 
-  resources :careers, { only: [] } do
+  resources :careers do
     resources :career_posts, { shallow: true }
   end
 
 
-  resources :hotspots, { only: [] } do
+  resources :hotspots do
     resources :hotspot_posts, { shallow: true }
   end
 
 
-  resources :freeboards, { only: [] } do
+  resources :freeboards do
     resources :freeboard_posts, { shallow: true }
   end
   
