@@ -5,8 +5,7 @@ class CreateExternalEvents < ActiveRecord::Migration
       t.string :eventdate
       t.string :poster
       t.string :link
-      t.timestamptz :date
-
+      t.datetime :date
       t.timestamps null: false
     end
   end

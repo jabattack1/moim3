@@ -4,8 +4,7 @@ class CreateExpressYourselves < ActiveRecord::Migration
       t.string :title
       t.string :content
       t.string :poster
-      t.timestamptz :date
-
+      t.datetime :date
       t.timestamps null: false
     end
   end

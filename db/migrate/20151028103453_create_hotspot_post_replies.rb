@@ -5,8 +5,7 @@ class CreateHotspotPostReplies < ActiveRecord::Migration
       t.string :hotspot_postid
       t.string :username
       t.string :content
-      t.timestamptz :date
-
+      t.datetime :date
       t.timestamps null: false
     end
   end

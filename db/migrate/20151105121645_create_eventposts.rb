@@ -7,49 +7,49 @@ class CreateEventposts < ActiveRecord::Migration
       t.string :place
       t.string :poster
       t.string :blogdate
-      t.timestamptz :date
+      t.datetime :date
       t.string :link
       t.string :eventid
-      t.string :content1-eng
-      t.string :content2-eng
-      t.string :content3-eng
-      t.string :content4-eng
-      t.string :content5-eng
-      t.string :content6-eng
-      t.string :content7-eng
-      t.string :content8-eng
-      t.string :content9-eng
-      t.string :content10-eng
-      t.string :content11-eng
-      t.string :content12-eng
-      t.string :content13-eng
-      t.string :content14-eng
-      t.string :content15-eng
-      t.string :content16-eng
-      t.string :content17-eng
-      t.string :content18-eng
-      t.string :content19-eng
-      t.string :content20-eng
-      t.string :content1-kor
-      t.string :content2-kor
-      t.string :content3-kor
-      t.string :content4-kor
-      t.string :content5-kor
-      t.string :content6-kor
-      t.string :content7-kor
-      t.string :content8-kor
-      t.string :content9-kor
-      t.string :content10-kor
-      t.string :content11-kor
-      t.string :content12-kor
-      t.string :content13-kor
-      t.string :content14-kor
-      t.string :content15-kor
-      t.string :content16-kor
-      t.string :content17-kor
-      t.string :content18-kor
-      t.string :content19-kor
-      t.string :content20-kor
+      t.string :content1_eng
+      t.string :content2_eng
+      t.string :content3_eng
+      t.string :content4_eng
+      t.string :content5_eng
+      t.string :content6_eng
+      t.string :content7_eng
+      t.string :content8_eng
+      t.string :content9_eng
+      t.string :content10_eng
+      t.string :content11_eng
+      t.string :content12_eng
+      t.string :content13_eng
+      t.string :content14_eng
+      t.string :content15_eng
+      t.string :content16_eng
+      t.string :content17_eng
+      t.string :content18_eng
+      t.string :content19_eng
+      t.string :content20_eng
+      t.string :content1_kor
+      t.string :content2_kor
+      t.string :content3_kor
+      t.string :content4_kor
+      t.string :content5_kor
+      t.string :content6_kor
+      t.string :content7_kor
+      t.string :content8_kor
+      t.string :content9_kor
+      t.string :content10_kor
+      t.string :content11_kor
+      t.string :content12_kor
+      t.string :content13_kor
+      t.string :content14_kor
+      t.string :content15_kor
+      t.string :content16_kor
+      t.string :content17_kor
+      t.string :content18_kor
+      t.string :content19_kor
+      t.string :content20_kor
       t.string :att1
       t.string :att2
       t.string :att3
