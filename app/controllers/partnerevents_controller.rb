@@ -1,0 +1,2 @@
+class PartnereventsController < ApplicationController
+end

@@ -51,8 +51,10 @@ Rails.application.routes.draw do
     resources :freeboard_posts, { shallow: true }
   end
   
-
-
+  get '/mission' => 'abouts#mission'
+  get '/chronicle' => 'abouts#chronicle'
+  get '/team' => 'abouts#team'
+  get '/getinvolved' => 'abouts#getinvolved'
 
 
 
