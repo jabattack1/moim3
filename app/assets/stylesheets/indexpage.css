@@ -1,0 +1,26 @@
+body {
+	font-family: "Franklin Gothic Book", "Franklin Gothic";
+}
+
+#welcomepage-background-image {
+	background-image: url(http://i.imgur.com/jNj9ahY.jpg);
+	max-width: 100%;
+	height: 720px;
+	width: auto\9; /* ie8 */
+	background-repeat: no-repeat;
+}
+
+#welcomepage-whoweare-summary,
+#welcomepage-featuredblogs-summary,
+#welcomepage-sponsors-summary {
+	text-align: center;
+}
+
+.footer {
+	color: #8C8989;
+	background-color: #2D2E2F;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-color: #2D2E2F;
+}
