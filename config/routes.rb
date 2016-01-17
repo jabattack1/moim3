@@ -14,7 +14,7 @@ Rails.application.routes.draw do
   resources :expresses
   resources :localhotspots
   resources :careerboards
-  resources :externalevents
+  resources :partnerevents
 
   resources :events do
     resources :eventposts, { shallow: true }
