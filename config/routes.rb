@@ -13,6 +13,8 @@ Rails.application.routes.draw do
   resources :galleries
   resources :expresses
   resources :localhotspots
+  resources :careerboards
+  resources :externalevents
 
   resources :events do
     resources :eventposts, { shallow: true }
