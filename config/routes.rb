@@ -11,6 +11,8 @@ Rails.application.routes.draw do
   resources :teams_session
   
   resources :galleries
+  resources :expresses
+  resources :localhotspots
 
   resources :events do
     resources :eventposts, { shallow: true }
@@ -51,6 +53,7 @@ Rails.application.routes.draw do
     resources :freeboard_posts, { shallow: true }
   end
   
+
   get '/mission' => 'abouts#mission'
   get '/chronicle' => 'abouts#chronicle'
   get '/team' => 'abouts#team'
