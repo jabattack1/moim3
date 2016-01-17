@@ -1,0 +1,2 @@
+class FreeboardsController < ApplicationController
+end

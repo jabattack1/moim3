@@ -1,2 +1,0 @@
-class LocalhospotsController < ApplicationController
-end
