@@ -1,0 +1,352 @@
+body {
+  /*background: url() no-repeat;*/
+  /*background-color:black;*/
+  background:url()center top;
+  background-size: 1260px;
+  background-color:#232323;
+  /*background-repeat: repeat-y;*/
+	width:1260px;
+  	height: 4500px;
+  	margin: 0 auto;
+  position:relative;
+  overflow:auto;
+}
+
+#container{
+	position:fixed;
+}
+
+#mainLogo{
+	position: absolute;
+	z-index: 10;
+	margin-left:10px;
+	margin-top:10px;
+	width:250px;
+	/*height:50px;*/
+}
+
+#logo{
+	width:100%;
+}
+
+#top_banner {
+	background-image: url();
+	position: absolute;
+/*	background-size:cover;*/
+	margin-top:10px;
+	margin-left:300px;
+	width: 990px;
+ 	height: 20px;
+ 	/*border: #CEAC00;
+ 	border-style:solid;
+ 	border-width:2.5px;*/ 
+ 	/*background-repeat: no-repeat;
+ 	background-color:white;
+ 	border-radius: 5px;*/
+ 	z-index: 10;
+}
+
+.navigation {
+            width:700px;
+        }
+        .navigation ul{
+        /* positioning */
+        	position:relative;
+            z-index:1000;
+        /* remove the dots next to list items: */
+            list-style:none; 
+        /* get rid of any default or inherited margins and padding: */
+            margin-top:1px; 
+            margin-left:0px; 
+            
+        /* styling: */
+            font-family:"Belleza",Arial,sans-serif;
+            font-weight: normal;
+            font-size: 15px;
+        }
+        
+        /* we're using the direct descendant selectors > to ONLY affect the main menu items */
+        .navigation > ul > li {
+        /* positioning */ 
+            position: relative;
+            float: left;
+        /* styling: */
+            margin-right: 20px;
+            /*margin-top:5px;*/
+        }
+        .navigation > ul > li > a {
+        /* positioning */ 
+            /*display:block;*/
+        /* styling: */
+            
+            padding:8px 14px;
+            text-decoration:none;
+            color:white; 
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+            
+        }
+        .navigation > ul > li > a:hover{
+        /* styling: */
+            
+            color:#CEAC00; /* light grey */
+        }
+                
+
+.navigation ul ul{
+            
+            
+            width:340px; /* you need a width to accommodate tertiary menus */
+            margin-left: -50px;
+            position:absolute;
+            z-index:100;
+            
+            height: 0;
+            overflow: hidden;
+
+
+            -webkit-transition: height 0.3s ease-in;
+            -moz-transition: height 0.3s ease-in;
+            -o-transition: height 0.3s ease-in;
+            -ms-transition: height 0.3s ease-in;
+            transition: height 0.3s ease-in;
+        }
+        
+
+        /* don't display tertiary box yet */
+        .navigation > ul > li:hover ul ul, .navigation > ul > li > a:hover ul ul{
+            height:0;
+            
+        }
+        /* tertiary drop-down box */
+        .navigation ul ul ul{
+            left:150px;
+            width:130px;
+
+        }
+        
+        .navigation > ul > li:hover ul, .navigation > ul > li > a:hover ul,
+        .navigation ul ul li:hover > ul, .navigation ul ul li a:hover > ul{
+            height:80px;  
+        }
+        
+        /* drop-down item styles */
+        /* if you want different styling for tertiary menus, just copy the 4 rules below and insert an additional ul: for example: ".navigation ul ul li", becomes: ".navigation ul ul ul li" */
+        
+        .navigation ul ul li{
+        	margin-left: 10px;
+            background-color:rgba(0,0,0,0.5);
+            width:100px;
+           /* border: #CEAC00;
+ 			border-style:solid;
+ 			border-width:2.5px;
+ 			border-radius:5px;*/
+
+            -webkit-transition: background-color 1s ease;
+            -moz-transition: background-color 1s ease;
+            -o-transition: background-color 1s ease;
+            -ms-transition: background-color 1s ease;
+            transition: background-color 1s ease;
+        }
+        
+        .navigation ul ul li:hover {
+            /*background-color:#999; /* grey */
+        }
+        
+        .navigation ul ul li a {
+            display:block;
+            text-decoration:none;
+            margin:0 12px;
+            padding:5px 0;
+            color:white; /* grey */
+        }
+        .navigation ul ul li a:hover, .navigation ul ul li:hover > a {
+            color:#CEAC00;
+        }
+
+.navigation ul ul ul li a{
+            border:0 !important;
+        }
+        .navigation ul ul ul li + li a{
+            border-top:1px dotted #999 !important;
+        }
+        .navigation ul ul li + li a{
+            border-top:1px dotted #999;
+        }
+        .navigation ul ul li:hover + li a{
+            /*border-top:1px solid #eaeaea;*/
+        }
+        .navigation ul ul ul li:hover + li a{
+            border: 0 !important;
+        }
+        .navigation ul ul ul li:hover + li{
+            /*border-top:1px dotted #999 !important;*/
+        }
+
+        .arrow{background:url(http://upload.wikimedia.org/wikipedia/commons/e/e8/ArrowRight-gray.svg) right center no-repeat;}
+
+#arrow {
+	position:absolute;
+	margin-top:-20px;
+	margin-left:80px;
+	width:15px;
+}
+
+#welcomeSlideShow{
+	position: fixed;
+}
+
+#eventsSlideShow{
+	position:absolute;
+}
+
+#crossfade > img { 
+   width: 1260px;
+	height: 700px;
+    position: fixed;
+    /*margin-top: 120px;
+	margin-left:252px;*/
+    color: transparent;
+    opacity: 0;
+    z-index: -5;
+    -webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 40s linear infinite 0s;
+    -moz-animation: imageAnimation 40s linear infinite 0s;
+    -o-animation: imageAnimation 40s linear infinite 0s;
+    -ms-animation: imageAnimation 40s linear infinite 0s;
+    animation: imageAnimation 40s linear infinite 0s; 
+}
+
+#crossfade > img:nth-child(2)  { 
+    background-image: url(../images/2.jpg);
+    -webkit-animation-delay: 9s;
+    -moz-animation-delay: 9s;
+    -o-animation-delay: 9s;
+    -ms-animation-delay: 9s;
+    animation-delay: 9s; 
+}
+#crossfade > img:nth-child(3) { 
+    background-image: url(../images/3.jpg);
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s; 
+}
+#crossfade > img:nth-child(4) { 
+    background-image: url(../images/4.jpg);
+    -webkit-animation-delay: 27s;
+    -moz-animation-delay: 27s;
+    -o-animation-delay: 27s;
+    -ms-animation-delay: 27s;
+    animation-delay: 27s; 
+}
+#crossfade > img:nth-child(5) { 
+    background-image: url(../images/5.jpg);
+    -webkit-animation-delay: 36s;
+    -moz-animation-delay: 36s;
+    -o-animation-delay: 36s;
+    -ms-animation-delay: 36s;
+    animation-delay: 36s; 
+}
+
+
+@-webkit-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -webkit-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -webkit-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@-moz-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -moz-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -moz-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@-o-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -o-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -o-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@-ms-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -ms-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -ms-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@keyframes imageAnimation { 
+    0% { opacity: 0;
+    animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+#crossfade2 > img { 
+   width: 250px;
+	height: 335px;
+    position: absolute;
+    margin-top: 200px;
+	margin-left:10px;
+    opacity: 0;
+    z-index: 10;
+    /*font-family:"Belleza",Arial,sans-serif;*/
+    /*color:#CEAC00;*/
+    /*text-align: center;*/
+    -webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 45s linear infinite 0s;
+    -moz-animation: imageAnimation 45s linear infinite 0s;
+    -o-animation: imageAnimation 45s linear infinite 0s;
+    -ms-animation: imageAnimation 45s linear infinite 0s;
+    animation: imageAnimation 45s linear infinite 0s; 
+}
+
+#crossfade2 > img:nth-child(2)  { 
+    /*background-image: url(../images/2.jpg);*/
+    -webkit-animation-delay: 15s;
+    -moz-animation-delay: 15s;
+    -o-animation-delay: 15s;
+    -ms-animation-delay: 15s;
+    animation-delay: 15-s; 
+}
+#crossfade2 > img:nth-child(3) { 
+    /*background-image: url(../images/3.jpg);*/
+    -webkit-animation-delay: 30s;
+    -moz-animation-delay: 30s;
+    -o-animation-delay: 30s;
+    -ms-animation-delay: 30s;
+    animation-delay: 30s; 
+}
+#crossfade2 > img:nth-child(4) { 
+    /*background-image: url(../images/4.jpg);*/
+    -webkit-animation-delay: 45s;
+    -moz-animation-delay: 45s;
+    -o-animation-delay: 45s;
+    -ms-animation-delay: 45s;
+    animation-delay: 45s; 
+}
+#crossfade2 > img:nth-child(5) { 
+    /*background-image: url(../images/5.jpg);*/
+    -webkit-animation-delay: 36s;
+    -moz-animation-delay: 36s;
+    -o-animation-delay: 36s;
+    -ms-animation-delay: 36s;
+} 

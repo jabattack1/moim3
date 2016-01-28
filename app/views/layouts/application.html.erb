@@ -7,7 +7,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-	<nav class="navbar navbar-inverse navbar-fixed-top">
+	<!-- <nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -67,7 +67,125 @@
 				</ul>
 			</div>
 		</div>
-	</nav>
+	</nav> -->
+
+<div id='mainLogo' class='animated slideInLeft'>
+<img id='logo' src="http://i1301.photobucket.com/albums/ag119/jabattack1/Screen%20Shot%202016-01-28%20at%204.47.11%20PM_zpsam2ytnos.png" id='logo_back'>
+</div>
+
+<div id='top_banner' class='navigation animated slideInRight'>
+  <!-- <nav> -->
+<ul>
+                <li><a href="#" onclick="home_thing();return false;">About</a>
+                   <!--  <ul>
+                        <li><a href="#">Level 2 - 1</a></li>
+                        <li><a href="#">Level 2 - 2</a></li>
+                        <li><a href="#">Level 2 - 3</a></li>
+                        <li><a href="#">Level 2 - 4</a></li>
+                    </ul> -->
+                </li>
+                <li><a href="#">Blogs</a>
+                    <ul>
+                        <li>
+                            <ul>
+                                <li id="manicure"><a href='#' onclick="manicure_thing();return false;"></a></li>
+                                <li><a href='#' onclick="pedicure_thing();return false;"></a></li>
+                            </ul>
+                            <a href="" id='nails'></a><img id="arrow" src="http://i1301.photobucket.com/albums/ag119/jabattack1/white%20arrow_zps8kxxsehb.png"/>
+                        </li>
+                        <li>
+                            <a href='#' onclick="massage_thing();return false;"></a></li>
+                        <li>
+                            <ul>
+                                <li><a href="#">Level 3 - 1</a></li>
+                                <li><a href="#">Level 3 - 2</a></li>
+                                <li><a href="#">Level 3 - 3</a></li>
+                                <li><a href="#">Level 3 - 4</a></li>
+                                <li><a href="#">Level 3 - 5</a></li>
+                            </ul>
+                    </ul>
+                </li>
+                <li><a href='#' onclick="about_thing();return false;">Careerboards</a></li>
+                <li><a href='#' onclick="menu_thing();return false;">Events</a></li>
+                <li><a href='#' onclick="gallery_thing();return false;">Gallery</a></li>
+                <li><a href='#' onclick="review_thing();return false;">Express Yourself</a></li>
+                <li><a href='#' onclick="visit_thing();return false;">Press</a></li>
+                <li><a href='#' onclick="visit_thing();return false;">Local Hot Spots</a></li>
+            </ul>
+                
+<!-- </nav> -->
+	<!-- <nav id="primary_nav_wrap">
+<ul>
+  <li class="current-menu-item"><a id='link' href="/">Home</a></li>
+  <li><a id='link' class="dir" href="#">Services</a>
+    <ul id='services' class='animated flipInY'>
+      
+      <li><a id='link' href="">Nails</a>
+      <ul>
+          <li><a href="/manicure">Manicure Set</a></li>
+          <li><a href="/pedicure">Pedicure</a></li>
+        </ul>
+      </li>
+    
+      <li><a id='link' href="/feet">Feet</a></li>
+      <li><a id='link' href="/massage">Massage</a></li>
+      
+        <ul>
+          <li><a href="#">Deep Menu 1</a>
+            <ul>
+              <li><a href="#">Sub Deep 1</a></li>
+              <li><a href="#">Sub Deep 2</a></li>
+              <li><a href="#">Sub Deep 3</a></li>
+              <li><a href="#">Sub Deep 4</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+      </li>
+  
+    </ul>
+  </li>
+  <li><a id='link' href="#">About Us</a>
+    <ul>
+      <li><a href="#">Sub Menu 1</a></li>
+      <li><a href="#">Sub Menu 2</a></li>
+      <li><a href="#">Sub Menu 3</a></li>
+    </ul>
+  </li>
+  <li><a id='link' href="#">Menu</a>
+    <ul>
+      <li class="dir"><a href="#">Sub Menu 1</a></li>
+      <li class="dir"><a href="#">Sub Menu 2 THIS IS SO LONG IT MIGHT CAUSE AN ISSEUE BUT MAYBE NOT?</a>
+        <ul>
+          <li><a href="#">Category 1</a></li>
+          <li><a href="#">Category 2</a></li>
+          <li><a href="#">Category 3</a></li>
+          <li><a href="#">Category 4</a></li>
+          <li><a href="#">Category 5</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Sub Menu 3</a></li>
+      <li><a href="#">Sub Menu 4</a></li>
+      <li><a href="#">Sub Menu 5</a></li>
+    </ul>
+  </li>
+  <li><a id='link' href="#">Gallery</a></li>
+  <li><a id='link' href="#">Contact Us</a></li>
+  
+</ul>
+</nav> -->
+</div>
+
+<div id='eventsSlideShow' class='animated slideInLeft'>
+	<div id='crossfade2'>
+ 	 <img class = "cone" src = "http://i1301.photobucket.com/albums/ag119/jabattack1/grey-movie-poster_zpsuopukpio.jpg">
+     <img class = "ctwo" src = "http://i1301.photobucket.com/albums/ag119/jabattack1/reel%20steel_zpsvm0rnv2f.jpg">
+     <img class = "cthree" src = "http://i1301.photobucket.com/albums/ag119/jabattack1/postersilence_zpsgse1tzl1.jpg">
+	</div>
+</div>
+
+
+
 <%= yield %>
 
 </body>
