@@ -218,7 +218,7 @@ a.back-to-top {
 }
 
 #firstQuote{
-	position:absolute;
+	position:fixed;
 	margin-top:440px;
 	margin-left: 350px;
 	width:800px;
