@@ -60,7 +60,7 @@ body {
             margin-left:0px; 
             
         /* styling: */
-            font-family:"Belleza",Arial,sans-serif;
+            font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
             font-weight: normal;
             font-size: 15px;
         }
@@ -224,7 +224,7 @@ a.back-to-top {
 	width:800px;
 	z-index:10;
 	color:white;
-	font-family:"Belleza",Arial,sans-serif;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
             font-weight: normal;
             font-size: 15px;
    	text-align: center;
