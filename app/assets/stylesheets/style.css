@@ -207,6 +207,10 @@ a.back-to-top {
 	border-radius: 30px;
 }
 
+a.back-to-top:hover{
+	background: rgba(0,0,0,0.3)
+}
+
 #eventsSlideShow{
 	position:absolute;
 }
