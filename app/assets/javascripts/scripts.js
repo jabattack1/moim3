@@ -32,7 +32,7 @@ $('a.back-to-top').click(function() {
 	return false;
 });
 
-var logo ="<div id='aboutLogo' class='animated slideInLeft'><img id='logoSlide' src='http://i1301.photobucket.com/albums/ag119/jabattack1/Screen%20Shot%202016-01-28%20at%204.47.11%20PM_zpsam2ytnos.png' id='logo_back'></div>";
+var logo ="<div id='aboutLogo' class='animated slideInLeft'><img id='logoSlide' src='/assets/moimLogo.png' id='logo_back'></div>";
 
 function aLogo(){
 	$('#aboutLogo').empty();
