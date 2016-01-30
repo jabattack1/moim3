@@ -33,9 +33,9 @@ body {
 	background-image: url();
 	position: fixed;
 /*	background-size:cover;*/
-	margin-top:10px;
-	margin-left:300px;
-	width: 990px;
+	margin-top:13px;
+	margin-left:280px;
+	width: 1020px;
  	height: 20px;
  	/*border: #CEAC00;
  	border-style:solid;
@@ -61,8 +61,8 @@ body {
             
         /* styling: */
             font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-            font-weight: normal;
-            font-size: 15px;
+            font-weight: bold;
+            font-size: 12px;
         }
         
         /* we're using the direct descendant selectors > to ONLY affect the main menu items */
