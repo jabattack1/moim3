@@ -33,10 +33,26 @@ $('a.back-to-top').click(function() {
 });
 
 var logo ="<div id='aboutLogo' class='animated slideInLeft'><img id='logoSlide' src='/assets/moimLogo.png' id='logo_back'></div>";
+var logoOut ="<div id='aboutLogo' class='animated slideOutLeft'><img id='logoSlide' src='/assets/moimLogo.png' id='logo_back'></div>";
+var sensor = false;
+
+
 
 function aLogo(){
 	$('#aboutLogo').empty();
 	setTimeout(function() {
-		$('body').append(logo);
+		$('body').append(logo);	
     }, 2000); 
+	setTimeout(function() {
+		sensor=true;	
+    }, 2500);
+} 
+
+function removeLogo(){	
+	if (sensor){
+		console.log('true');
+	$('#aboutLogo').empty();
+	$('body').append(logoOut);
+	sensor = false;
+    }    
 } 
