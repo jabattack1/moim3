@@ -64,7 +64,7 @@ body {
             font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
             font-weight: thin;
             font-size: 15px;
-            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+            /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
        
         }
         
@@ -144,7 +144,7 @@ body {
         
         .navigation #aboutDrop{
         	margin-left:0px;
-            background-color:rgba(0,0,0,0.1);
+            background-color:rgba(0,0,0,0.5);
 
             width:175px;
             padding-left: 20px;
@@ -163,7 +163,7 @@ body {
 
 		 .navigation #communityDrop{
         	margin-left: 0px;
-            background-color:rgba(0,0,0,0.1);
+            background-color:rgba(0,0,0,0.5);
             
             width:200px;
             padding-left: 20px;
