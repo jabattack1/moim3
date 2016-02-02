@@ -579,3 +579,68 @@ width:100px;
 	width:35px;
 }
 
+#termsOfUse{
+	position:absolute;
+	width:900px;
+	height:500px;
+	margin-top:1170px;
+	margin-left:180px;
+	background-color:rgba(0,0,0,0.7);
+	border-style:solid;
+	border-color:#2B2B2B;
+	border-width:2px;
+	z-index:10;
+	/*border-radius: 10px;*/
+}
+
+#privacyPolicy{
+	position:absolute;
+	width:900px;
+	height:500px;
+	margin-top:1170px;
+	margin-left:180px;
+	background-color:rgba(0,0,0,0.7);
+	border-style:solid;
+	border-color:#2B2B2B;
+	border-width:2px;
+	z-index:10;
+	/*border-radius: 10px;*/
+}
+
+#close-img{
+	position:absolute;
+    /*float:right;*/
+    margin-left:792px;   
+}
+#close{
+	position:absolute;
+	margin-top:3px;
+    margin-right:3px;
+    width:25px;
+    height:25px;
+    -webkit-filter: invert(100%) !important;
+    
+}
+
+#close-img:hover img{
+    -webkit-filter: invert(0%) !important;
+    cursor: pointer;
+}
+
+#termsWords{
+	position:absolute;
+	color:white;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
+	font-size: 13px;
+}
+
+#privacyWords{
+	position:absolute;
+	color:white;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
+	font-size: 13px;
+}
+
+
