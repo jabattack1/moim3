@@ -41,16 +41,15 @@ var sensor = false;
 function aLogo(){
 	$('#aboutLogo').empty();
 	setTimeout(function() {
-		$('body').append(logo);	
+	$('body').append(logo);	
     }, 2000); 
 	setTimeout(function() {
-		sensor=true;	
+	sensor=true;	
     }, 2500);
 } 
 
 function removeLogo(){	
 	if (sensor){
-		console.log('true');
 	$('#aboutLogo').empty();
 	$('body').append(logoOut);
 	sensor = false;
