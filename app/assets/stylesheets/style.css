@@ -6,7 +6,7 @@ body {
   background-color:black;
   /*background-repeat: repeat-y;*/
 	width:1260px;
-  	height: 1200px;
+  	height: 3400px;
   	margin: 0 auto;
   position:relative;
   overflow:auto;
@@ -33,16 +33,19 @@ body {
 	background-image: url();
 	position: fixed;
 /*	background-size:cover;*/
-	margin-top:12px;
+	margin-top:0px;
 	margin-left:260px;
 	width: 1020px;
- 	height: 20px;
+ 	height: 42px;
+ 	text-shadow: 2px 2px 2px #000;
+ 	/*padding-top:10px;*/
+ 	/*padding-bottom:10px;*/
  	/*border: #CEAC00;
  	border-style:solid;
  	border-width:2.5px;*/ 
- 	/*background-repeat: no-repeat;
- 	background-color:white;
- 	border-radius: 5px;*/
+ 	/*background-repeat: no-repeat;*/
+ 	/*background-color:rgba(0,0,0,0.8);*/
+ 	/*border-radius: 5px;*/
  	z-index: 10;
 }
 
@@ -57,15 +60,15 @@ body {
         /* remove the dots next to list items: */
             list-style:none; 
         /* get rid of any default or inherited margins and padding: */
-            margin-top:1px; 
+            margin-top:12px; 
             margin-left:0px; 
             
         /* styling: */
             font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
             font-weight: thin;
             font-size: 15px;
+            /*text-align: center;*/
             /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
-       
         }
         
         /* we're using the direct descendant selectors > to ONLY affect the main menu items */
@@ -85,7 +88,7 @@ body {
             padding:12px 14px;
             text-decoration:none;
             color:white; 
-            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+            /*text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;*/
         
         }
         
@@ -218,7 +221,9 @@ body {
         .arrow{background:url(http://upload.wikimedia.org/wikipedia/commons/e/e8/ArrowRight-gray.svg) right center no-repeat;
 }
 
-
+.aboutSelect:hover{
+	cursor:pointer;
+}
 
 #aboutArrow {
 	position:absolute;
@@ -261,11 +266,11 @@ a.back-to-top:hover{
 #frontPic{
 	width: 1260px;
 	height: 620px;
-    position: fixed;
+    position:fixed;
 }
 
 #firstQuote{
-	position:fixed;
+	position:absolute;
 	margin-top:435px;
 	margin-left: 350px;
 	width:800px;
@@ -382,18 +387,69 @@ a.back-to-top:hover{
     animation-delay: 36s; 
 }
 
-#bottom{
+#theMission{
 	position:absolute;
 	margin-top:580px;
 }
 
-#welcomeContent {
+#missionContent {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
 	margin-top:625px;
 	margin-left:0px;
 	width:100%;
-	height:920px;
+	height:620px;
+	background-color:white;
+	z-index:;
+	/*width:1800px;*/
+}
+
+#theChronicle{
+	position:absolute;
+	margin-top:1250px;
+}
+
+#chronicleContent {
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-top:1295px;
+	margin-left:0px;
+	width:100%;
+	height:620px;
+	background-color:white;
+	z-index:;
+	/*width:1800px;*/
+}
+
+#theTeam{
+	position:absolute;
+	margin-top:1920px;
+}
+
+#teamContent {
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-top:1965px;
+	margin-left:0px;
+	width:100%;
+	height:620px;
+	background-color:white;
+	z-index:;
+	/*width:1800px;*/
+}
+
+#getInvolved{
+	position:absolute;
+	margin-top:2590px;
+}
+
+#getInvolvedContent {
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-top:2635px;
+	margin-left:0px;
+	width:100%;
+	height:620px;
 	background-color:white;
 	z-index:;
 	/*width:1800px;*/
@@ -404,13 +460,28 @@ a.back-to-top:hover{
 	margin-top:580px;
 }
 
+#chronicleLogo {
+	position:absolute;
+	margin-top:1250px;
+}
+
+#teamLogo {
+	position:absolute;
+	margin-top:1920px;
+}
+
+#getInvolvedLogo {
+	position:absolute;
+	margin-top:2590px;
+}
+
 #logoSlide {
 	width:75px;
 }
 
 #contactUs{
 	position:absolute;
-    margin-top:1500px;
+    margin-top:3250px;
     margin-left:0px;
     z-index:8;
     width:1260px;
@@ -583,7 +654,7 @@ width:100px;
 	position:absolute;
 	width:900px;
 	height:500px;
-	margin-top:1170px;
+	margin-top:2920px;
 	margin-left:180px;
 	background-color:rgba(0,0,0,0.7);
 	border-style:solid;
@@ -597,7 +668,7 @@ width:100px;
 	position:absolute;
 	width:900px;
 	height:500px;
-	margin-top:1170px;
+	margin-top:2920px;
 	margin-left:180px;
 	background-color:rgba(0,0,0,0.7);
 	border-style:solid;

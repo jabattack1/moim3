@@ -7,6 +7,14 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+<script type="text/javascript">
+$(".aboutSelect").mouseover(function(){
+	console.log('drop');
+  $("#aboutDrop").addClass('animated slideInDown');
+})
+</script> 
+
 	<!-- <nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
@@ -76,19 +84,19 @@
 <div id='top_banner' class='navigation animated slideInRight'>
   <!-- <nav> -->
 <ul>
-                <li><a href='#bottom' onclick="aLogo();return false;" class='aboutSelect'>ABOUT</a><img id="aboutArrow" src='/assets/downArrow.PNG'/>
+                <li><a class='aboutSelect'>ABOUT</a><img id="aboutArrow" src='/assets/downArrow.PNG'/>
                 	<ul id='aboutDrop'>
                         <li>
-                            <a href='#'>THE MISSION</a>
+                            <a href='#theMission' onclick="aLogo();return false;">THE MISSION</a>
                       	</li>
                         <li>
-                        	<a href='#'>THE CHRONICLE</a>
+                        	<a href='#theChronicle'>THE CHRONICLE</a>
                         </li>
                         <li>
-                        	<a href='#'>THE TEAM</a>
+                        	<a href='#theTeam'>THE TEAM</a>
                         </li>
                         <li>
-                        	<a href='#'>GET INVOLVED</a>
+                        	<a href='#getInvolved'>GET INVOLVED</a>
                         </li>
                      </ul>
             	</li>
