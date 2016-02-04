@@ -419,7 +419,22 @@ a.back-to-top:hover{
 #missionContent {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
-	margin-top:625px;
+	margin-top:65px;
+	margin-left:0px;
+	width:100%;
+	height:670px;
+	background-color:white;
+	z-index:;
+	/*width:1800px;*/
+	/*border-top:solid;
+	border-width:7px;
+	border-color:#1BAAC6;*/
+}
+
+#chronicleContent {
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-top:65px;
 	margin-left:0px;
 	width:100%;
 	height:670px;
@@ -436,20 +451,7 @@ a.back-to-top:hover{
 	margin-top:1295px;
 }
 
-#chronicleContent {
-	font-family: 'Arvo', Georgia, Times, serif;
-	position: absolute;
-	margin-top:1295px;
-	margin-left:0px;
-	width:100%;
-	height:670px;
-	background-color:white;
-	z-index:;
-	/*width:1800px;*/
-	/*border-top:solid;
-	border-width:7px;
-	border-color:#1BAAC6;*/
-}
+
 
 #theTeam{
 	position:absolute;
@@ -459,7 +461,7 @@ a.back-to-top:hover{
 #teamContent {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
-	margin-top:1965px;
+	margin-top:65px;
 	margin-left:0px;
 	width:100%;
 	height:670px;
@@ -479,7 +481,7 @@ a.back-to-top:hover{
 #getInvolvedContent {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
-	margin-top:2635px;
+	margin-top:65px;
 	margin-left:0px;
 	width:100%;
 	height:670px;
