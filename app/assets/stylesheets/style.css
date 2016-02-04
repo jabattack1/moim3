@@ -826,7 +826,7 @@ width:100px;
 #fb_small{
 	position:absolute;
 	margin-top:8px;
-	margin-left:1120px;
+	margin-left:1000px;
 	height:35px;
 	width:35px;
 }
@@ -834,12 +834,36 @@ width:100px;
 #insta_small{
 	position:absolute;
 	margin-top:8px;
-	margin-left:1160px;
+	margin-left:1040px;
 	height:35px;
 	width:35px;
 }
 
 #youtube_small{
+	position:absolute;
+	margin-top:8px;
+	margin-left:1080px;
+	height:35px;
+	width:35px;
+}
+
+#fb_smallWelcome{
+	position:absolute;
+	margin-top:8px;
+	margin-left:1120px;
+	height:35px;
+	width:35px;
+}
+
+#insta_smallWelcome{
+	position:absolute;
+	margin-top:8px;
+	margin-left:1160px;
+	height:35px;
+	width:35px;
+}
+
+#youtube_smallWelcome{
 	position:absolute;
 	margin-top:8px;
 	margin-left:1200px;
