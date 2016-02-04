@@ -357,7 +357,7 @@ a.back-to-top:hover{
     margin-top: 63px;
 	margin-left:0px;
 	z-index:8;
-	background-color:black;
+	background-color:rgba(0,0,0,0.8);
 }
 
 
