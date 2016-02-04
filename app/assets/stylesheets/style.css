@@ -17,7 +17,7 @@ body {
 }
 
 #container{
-	position:fixed;
+	position:absolute;
 }
 
 #mainLogo{
@@ -282,7 +282,7 @@ a.back-to-top:hover{
 	margin-top:0px;
 	width: 1260px;
 	height: 620px;
-    position:fixed;
+    position:absolute;
 }
 
 #firstQuote{
@@ -352,7 +352,7 @@ a.back-to-top:hover{
 
 #backdrop{
 	width: 380px;
-	height: 556px;
+	height: 557px;
     position: absolute;
     margin-top: 63px;
 	margin-left:0px;
@@ -735,6 +735,16 @@ a.back-to-top:hover{
 	width:1260px;
 	height:50px;
 	margin-top:160px;
+	/*bottom:0;*/
+	z-index:9;
+}
+
+#welcomeBottom{
+	position:absolute;
+	background-color:black;
+	width:1260px;
+	height:50px;
+	margin-top:620px;
 	/*bottom:0;*/
 	z-index:9;
 }
