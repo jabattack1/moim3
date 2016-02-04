@@ -1,7 +1,7 @@
 class PartnereventsController < ApplicationController
 	def index
 
-		@external_event = External_event.all
+		@external_event = ExternalEvent.all
 
 	end
 

@@ -30,7 +30,14 @@ body {
 }
 
 #logo{
-	width:100%;
+	position:absolute;
+	width:100px;
+	top:2px;
+	margin-left:30px;
+}
+
+#logo:hover{
+	cursor:pointer;
 }
 
 #top_banner {
@@ -65,7 +72,7 @@ body {
             list-style:none; 
         /* get rid of any default or inherited margins and padding: */
             margin-top:32px; 
-            margin-left:240px; 
+            margin-left:250px; 
             
         /* styling: */
             font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
@@ -229,6 +236,10 @@ body {
 	cursor:pointer;
 }
 
+.communitySelect:hover{
+	cursor:pointer;
+}
+
 #aboutArrow {
 	position:absolute;
 	margin-top:3px;
@@ -339,15 +350,23 @@ a.back-to-top:hover{
     100% { opacity: 0 }
 }
 
-
+#backdrop{
+	width: 380px;
+	height: 556px;
+    position: absolute;
+    margin-top: 63px;
+	margin-left:0px;
+	z-index:8;
+	background-color:black;
+}
 
 
 #crossfade2 > img { 
-   width: 250px;
-	height: 335px;
+   width: 380px;
+	height: 556px;
     position: absolute;
-    margin-top: 264px;
-	margin-left:10px;
+    margin-top: 63px;
+	margin-left:0px;
     color: transparent;
     opacity: 0;
     z-index: 9;
@@ -461,6 +480,141 @@ a.back-to-top:hover{
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
 	margin-top:2635px;
+	margin-left:0px;
+	width:100%;
+	height:670px;
+	background-color:white;
+	z-index:;
+	/*width:1800px;*/
+	/*border-top:solid;
+	border-width:7px;
+	border-color:#1BAAC6;*/
+}
+
+#eventsContent {
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-top:65px;
+	margin-left:0px;
+	width:100%;
+	height:670px;
+	background-color:white;
+	z-index:;
+	/*width:1800px;*/
+	/*border-top:solid;
+	border-width:7px;
+	border-color:#1BAAC6;*/
+}
+
+#blogsContent {
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-top:65px;
+	margin-left:0px;
+	width:100%;
+	height:670px;
+	background-color:white;
+	z-index:;
+	/*width:1800px;*/
+	/*border-top:solid;
+	border-width:7px;
+	border-color:#1BAAC6;*/
+}
+
+#galleriesContent {
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-top:65px;
+	margin-left:0px;
+	width:100%;
+	height:670px;
+	background-color:white;
+	z-index:;
+	/*width:1800px;*/
+	/*border-top:solid;
+	border-width:7px;
+	border-color:#1BAAC6;*/
+}
+
+#expressYourselvesContent {
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-top:65px;
+	margin-left:0px;
+	width:100%;
+	height:670px;
+	background-color:white;
+	z-index:;
+	/*width:1800px;*/
+	/*border-top:solid;
+	border-width:7px;
+	border-color:#1BAAC6;*/
+}
+
+#pressesContent {
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-top:65px;
+	margin-left:0px;
+	width:100%;
+	height:670px;
+	background-color:white;
+	z-index:;
+	/*width:1800px;*/
+	/*border-top:solid;
+	border-width:7px;
+	border-color:#1BAAC6;*/
+}
+
+#externalEventsContent {
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-top:65px;
+	margin-left:0px;
+	width:100%;
+	height:670px;
+	background-color:white;
+	z-index:;
+	/*width:1800px;*/
+	/*border-top:solid;
+	border-width:7px;
+	border-color:#1BAAC6;*/
+}
+
+#careerboardsContent {
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-top:65px;
+	margin-left:0px;
+	width:100%;
+	height:670px;
+	background-color:white;
+	z-index:;
+	/*width:1800px;*/
+	/*border-top:solid;
+	border-width:7px;
+	border-color:#1BAAC6;*/
+}
+
+#localhotspotsContent {
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-top:65px;
+	margin-left:0px;
+	width:100%;
+	height:670px;
+	background-color:white;
+	z-index:;
+	/*width:1800px;*/
+	/*border-top:solid;
+	border-width:7px;
+	border-color:#1BAAC6;*/
+}
+
+#freeboardsContent {
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-top:65px;
 	margin-left:0px;
 	width:100%;
 	height:670px;
@@ -675,9 +829,9 @@ width:100px;
 	position:absolute;
 	width:900px;
 	height:500px;
-	margin-top:2920px;
+	margin-top:2730px;
 	margin-left:180px;
-	background-color:rgba(0,0,0,0.7);
+	background-color:white;
 	border-style:solid;
 	border-color:#2B2B2B;
 	border-width:2px;
@@ -689,9 +843,9 @@ width:100px;
 	position:absolute;
 	width:900px;
 	height:500px;
-	margin-top:2920px;
+	margin-top:2730px;
 	margin-left:180px;
-	background-color:rgba(0,0,0,0.7);
+	background-color:white;
 	border-style:solid;
 	border-color:#2B2B2B;
 	border-width:2px;
@@ -710,18 +864,18 @@ width:100px;
     margin-right:3px;
     width:25px;
     height:25px;
-    -webkit-filter: invert(100%) !important;
+    -webkit-filter: invert(0%) !important;
     
 }
 
 #close-img:hover img{
-    -webkit-filter: invert(0%) !important;
+    -webkit-filter: invert(70%) !important;
     cursor: pointer;
 }
 
 #termsWords{
 	position:absolute;
-	color:white;
+	color:black;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight: normal;
 	font-size: 13px;
@@ -729,7 +883,7 @@ width:100px;
 
 #privacyWords{
 	position:absolute;
-	color:white;
+	color:black;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight: normal;
 	font-size: 13px;
