@@ -40,6 +40,8 @@ var logoOutChronicle ="<div id='chronicleLogo' class='animated slideOutLeft'><im
 
 var termsOf ="<div id='termsOfUse' class='animated zoomIn'><p id='termsWords'>Terms of Use<span id='close-img' class='img-span pull-right'><img id='close' class='animated zoomIn' onclick='closeTerms();return false;' src = '/assets/closeIcon.png'></span></p></div>";
 var privacyPol ="<div id='privacyPolicy' class='animated zoomIn'><p id='privacyWords'>Privacy Policy<span id='close-img' class='img-span pull-right'><img id='close' class='animated zoomIn' onclick='closePrivacy();return false;' src = '/assets/closeIcon.png'></span></p></div>";
+var termsOfWelcome ="<div id='termsOfUseWelcome' class='animated zoomIn'><p id='termsWords'>Terms of Use<span id='close-img' class='img-span pull-right'><img id='close' class='animated zoomIn' onclick='closeTermsWelcome();return false;' src = '/assets/closeIcon.png'></span></p></div>";
+var privacyPolWelcome ="<div id='privacyPolicyWelcome' class='animated zoomIn'><p id='privacyWords'>Privacy Policy<span id='close-img' class='img-span pull-right'><img id='close' class='animated zoomIn' onclick='closePrivacyWelcome();return false;' src = '/assets/closeIcon.png'></span></p></div>";
 
 var sensor = false;
 
@@ -84,4 +86,28 @@ function privacy(){
 function closePrivacy(){
 	console.log('hit');	
 	$('#privacyPolicy').remove(); 
+}
+
+function termsWelcome(){
+	console.log('hit');	
+	$('#termsOfUseWelcome').remove();
+	$('#privacyPolicyWelcome').remove();
+	$('body').append(termsOfWelcome);    
+} 
+
+function closeTermsWelcome(){
+	console.log('hit');	
+	$('#termsOfUseWelcome').remove(); 
+}
+
+function privacyWelcome(){	
+	console.log('hit');	
+	$('#termsOfUseWelcome').remove();
+	$('#privacyPolicyWelcome').remove();
+	$('body').append(privacyPolWelcome); 
+} 
+
+function closePrivacyWelcome(){
+	console.log('hit');	
+	$('#privacyPolicyWelcome').remove(); 
 }

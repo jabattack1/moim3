@@ -759,6 +759,16 @@ a.back-to-top:hover{
 	font-size: 13px;
 }
 
+#bottomContentWelcome{
+	position:absolute;
+	color:white;
+	margin-left:15px;
+	padding-top:15px;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
+	font-size: 13px;
+}
+
 #link{
 	color: #1BAAC6; 
 	text-decoration: none;
@@ -816,7 +826,7 @@ width:100px;
 #fb_small{
 	position:absolute;
 	margin-top:8px;
-	margin-left:950px;
+	margin-left:1120px;
 	height:35px;
 	width:35px;
 }
@@ -824,7 +834,7 @@ width:100px;
 #insta_small{
 	position:absolute;
 	margin-top:8px;
-	margin-left:1000px;
+	margin-left:1160px;
 	height:35px;
 	width:35px;
 }
@@ -832,7 +842,7 @@ width:100px;
 #youtube_small{
 	position:absolute;
 	margin-top:8px;
-	margin-left:1050px;
+	margin-left:1200px;
 	height:35px;
 	width:35px;
 }
@@ -856,6 +866,34 @@ width:100px;
 	width:900px;
 	height:500px;
 	margin-top:2730px;
+	margin-left:180px;
+	background-color:white;
+	border-style:solid;
+	border-color:#2B2B2B;
+	border-width:2px;
+	z-index:10;
+	/*border-radius: 10px;*/
+}
+
+#termsOfUseWelcome{
+	position:absolute;
+	width:900px;
+	height:500px;
+	margin-top:100px;
+	margin-left:180px;
+	background-color:white;
+	border-style:solid;
+	border-color:#2B2B2B;
+	border-width:2px;
+	z-index:10;
+	/*border-radius: 10px;*/
+}
+
+#privacyPolicyWelcome{
+	position:absolute;
+	width:900px;
+	height:500px;
+	margin-top:100px;
 	margin-left:180px;
 	background-color:white;
 	border-style:solid;
