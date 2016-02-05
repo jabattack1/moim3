@@ -20,15 +20,19 @@ body {
   /*background: url() no-repeat;*/
   /*background-color:black;*/
   background:url()center top;
-  background-size: 1200px;
+  /*background-size: 1200px;*/
+  background-size: 100% 100%;
   background-color:black;
-  /*background-repeat: repeat-y;*/
-	width:100%;
+  background-repeat: no-repeat;
+	min-width:1260px ;
   	height: 100%;
   	margin: 0 auto;
   position:relative;
   overflow:auto;
 }
+
+
+
 
 #container{
 	position:absolute;
