@@ -32,6 +32,10 @@ $('a.back-to-top').click(function() {
 	return false;
 });
 
+var logInSensor = false;
+
+var logIn ="<div id='logIn' class='animated slideInDown'><form><img id='closeFlap' onclick='closeLogin();return false;' src = '/assets/upup_arrow.png'><p id='usernameField'>USERNAME</p><input type='text' id='username'><br><p id='passwordField'>PASSWORD</P><input type='text' id='password'><button id='logInButton' type='button'>LOG IN</button></form><p id='forgotPW'>FORGOT PASSWORD<span><a href=''> CLICK HERE</a></span></p><p id='forgotUsername'>FORGOT USERNAME<span><a href=''> CLICK HERE</a></span></p></div>" 
+var logInClose ="<div id='logIn' class='animated slideOutUp'><form><img id='closeFlap' onclick='closeLogin();return false;' src = '/assets/upup_arrow.png'><p id='usernameField'>USERNAME</p><input type='text' id='username'><br><p id='passwordField'>PASSWORD</P><input type='text' id='password'><button id='logInButton' type='button'>LOG IN</button></form><p id='forgotPW'>FORGOT PASSWORD<span><a href=''> CLICK HERE</a></span></p></div><p id='forgotUsername'>FORGOT USERNAME<span><a href=''> CLICK HERE</a></span></p></div>" 
 
 
 var logo ="<div id='aboutLogo' class='animated slideInLeft'><img id='logoSlide' src='/assets/moimLogo.png' id='logo_back'></div>";
@@ -46,6 +50,28 @@ var privacyPolWelcome ="<div id='privacyPolicyWelcome' class='animated zoomIn'><
 
 var sensor = false;
 
+
+function logInScreen(){
+	$('#logIn').remove();
+	console.log('boom')
+	$('body').append(logIn);
+	logInSensor=true;	
+	console.log(logInSensor);
+} 
+
+function closeLogin(){
+	if (logInSensor===false){	
+		$('#logIn').remove();
+		logInSensor = false;
+		console.log(logInSensor);
+	}
+	else {
+		$('#logIn').remove(); 
+		$('body').append(logInClose);
+		logInSensor = false;
+		console.log(logInSensor);
+	}
+}
 
 function aLogo(){
 	$('#aboutLogo').remove();
