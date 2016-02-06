@@ -57,6 +57,7 @@ body {
 
 #logoMoim:hover{
 	cursor:pointer;
+	-webkit-filter: invert(50%) !important;
 }
 
 #top_banner {
@@ -707,12 +708,18 @@ a.back-to-top:hover{
 	width:800px;
 	z-index:7;
 	color:white;
-	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-            font-weight: normal;
-            font-size: 15px;
+	/*font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+            font-weight: normal;*/
+            font-size: 25px;
    	text-align: center;
 }
 
+#firstQuoteContent{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+            font-weight: normal;
+            font-size: 17px;
+            text-shadow: 2px 2px 2px #000;
+}
 
 
 @-webkit-keyframes imageAnimation { 
