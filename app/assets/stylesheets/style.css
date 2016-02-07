@@ -7,7 +7,7 @@ body {
   /*background-color:black;*/
   background:url()center top;
   background-size: 1200px;
-  background-color:black;
+  background-color:#262626;
   /*background-repeat: repeat-y;*/
 	width:1260px;
   	/*height: 3300px;*/
@@ -22,7 +22,7 @@ body {
   background:url()center top;
   /*background-size: 1200px;*/
   background-size: 100% 100%;
-  background-color:black;
+  background-color:#262626;
   background-repeat: no-repeat;
 	/*min-width:1260px ;*/
   	/*height: 100%;*/
@@ -75,7 +75,7 @@ body {
  	border-style:solid;
  	border-width:2.5px;*/ 
  	/*background-repeat: no-repeat;*/
- 	background-color:black;
+ 	background-color:#262626;
  	/*border-radius: 5px;*/
  	z-index: 10;
 }
@@ -92,7 +92,7 @@ body {
             list-style:none; 
         /* get rid of any default or inherited margins and padding: */
             margin-top:32px; 
-            margin-left:100px; 
+            margin-left:200px; 
             
         /* styling: */
             font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
@@ -116,7 +116,7 @@ body {
             /*display:block;*/
         /* styling: */
             
-            padding:32px 14px;
+            padding:32px 6px;
             text-decoration:none;
             color:white; 
             /*text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;*/
@@ -533,17 +533,28 @@ a.back-to-top:hover{
     }
 }
 
+#glass{
+	position:absolute;
+	width:20px;
+	margin-left:-10px;
+	margin-top:-10px;
+	
+}
+
+/*#glass:hover{
+	-webkit-filter: invert(70%) !important;
+}*/
 
 #logInBanner{
 	position:absolute;
 	margin-left:1055px;
-	margin-top:9px;
+	margin-top:11px;
 }
 
 #logInIcon{
 	position:absolute;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-	font-size:11px;
+	font-size:9px;
 	color:white;
 	width:40px;
 }
@@ -560,7 +571,7 @@ a.back-to-top:hover{
 #signUpIcon{
 	position:absolute;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-	font-size:11px;
+	font-size:9px;
 	color:white;
 	width:48px;
 	margin-left:50px;
@@ -575,7 +586,7 @@ a.back-to-top:hover{
 #contactUsIcon{
 	position:absolute;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-	font-size:11px;
+	font-size:9px;
 	color:white;
 	width:75px;
 	margin-left:108px;
@@ -592,7 +603,7 @@ a.back-to-top:hover{
 	margin-left:1055px;
 	margin-top:64px;
 	z-index:9;
-	background:black;
+	background:#262626;
 	width:200px;
 	height:200px;
 	border-bottom-left-radius: 10px;
@@ -1153,7 +1164,7 @@ a.back-to-top:hover{
 
 #contactBottom{
 	position:absolute;
-	background-color:black;
+	background-color:#262626;
 	width:1260px;
 	height:50px;
 	margin-top:160px;
@@ -1163,7 +1174,7 @@ a.back-to-top:hover{
 
 #welcomeBottom{
 	position:absolute;
-	background-color:black;
+	background-color:#262626;
 	width:1260px;
 	height:50px;
 	margin-top:620px;
