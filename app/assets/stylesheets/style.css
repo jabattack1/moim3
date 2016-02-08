@@ -2,30 +2,33 @@ html {
   height: 100%;
 }
 
-body {
-  /*background: url() no-repeat;*/
-  /*background-color:black;*/
-  background:url()center top;
-  background-size: 1200px;
-  background-color:#161616;
-  /*background-repeat: repeat-y;*/
-	width:1260px;
-  	/*height: 3300px;*/
-  	margin: 0 auto;
-  position:relative;
-  overflow:auto;
-}
+
 
 #welcomeBody {
   /*background: url() no-repeat;*/
   /*background-color:black;*/
   background:url()center top;
   /*background-size: 1200px;*/
-  background-size: 100% 100%;
+  background-size: 1200px;
   background-color:#161616;
   background-repeat: no-repeat;
 	/*min-width:1260px ;*/
   	/*height: 100%;*/
+  	width:1260px;
+  	margin: 0 auto;
+  position:relative;
+  overflow:auto;
+}
+
+#chroniclePage{
+	  /*background: url() no-repeat;*/
+  /*background-color:black;*/
+  background:url()center top;
+  background-size: 1200px;
+  background-color:#161616;
+  /*background-repeat: repeat-y;*/
+	width:1260px;
+  	height: 3150px;
   	margin: 0 auto;
   position:relative;
   overflow:auto;
@@ -872,7 +875,7 @@ a.back-to-top:hover{
 	margin-top:65px;
 	margin-left:0px;
 	width:100%;
-	height:670px;
+	height:3030px;
 	background-color:white;
 	z-index:;
 	/*width:1800px;*/
@@ -1417,5 +1420,34 @@ width:100px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-size:9px;
 }
+
+
+
+#chronicleHead{
+	position:absolute;
+	display: block;
+    margin-left: 470px;
+    margin-top:60px;
+    margin-right: auto;
+    text-decoration: normal;
+	/*text-align: center;*/
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+}
+
+#chronicle{
+	position:absolute;
+	display: block;
+    margin-top:200px;
+    margin-left:150px;
+}
+
+.chronicBottom{
+	position:absolute;
+    margin-top:2500px;
+    z-index: 10;
+    /*color:black;*/
+}
+
+
 
 

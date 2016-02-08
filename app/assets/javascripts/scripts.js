@@ -51,6 +51,7 @@ var privacyPolWelcome ="<div id='privacyPolicyWelcome' class='animated zoomIn'><
 var sensor = false;
 
 
+
 function logInScreen(){
 	$('#logIn').remove();
 	console.log('boom')
@@ -138,3 +139,5 @@ function closePrivacyWelcome(){
 	console.log('hit');	
 	$('#privacyPolicyWelcome').remove(); 
 }
+
+
