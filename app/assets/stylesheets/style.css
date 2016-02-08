@@ -383,7 +383,7 @@ a.back-to-top:hover{
 }
 
 .webdesigntuts-workshop input:hover{
-	border: 1px solid #1BAAC6; 
+	/*border: 1px solid #1BAAC6; */
 }
 
 .ie .webdesigntuts-workshop input {
@@ -698,6 +698,7 @@ a.back-to-top:hover{
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px
 }
+
 #logInButton:hover{
 	color:#66E5FF;
 }
