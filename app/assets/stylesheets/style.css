@@ -594,6 +594,7 @@ a.back-to-top:hover{
 	color:white;
 	width:75px;
 	margin-left:108px;
+	text-decoration: none;
 }
 
 #contactUsIcon:hover{
@@ -715,6 +716,14 @@ a.back-to-top:hover{
 	width: 1260px;
 	height: 620px;
     position:absolute;
+}
+
+#whiteGuyPic{
+	margin-top:0px;
+	width: 1260px;
+	height: 620px;
+    position:fixed;
+    z-index:1;
 }
 
 #firstQuote{
@@ -872,12 +881,12 @@ a.back-to-top:hover{
 #chronicleContent {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
-	margin-top:65px;
+	margin-top:625px;
 	margin-left:0px;
 	width:100%;
-	height:3030px;
+	height:2900px;
 	background-color:white;
-	z-index:;
+	z-index:8;
 	/*width:1800px;*/
 	/*border-top:solid;
 	border-width:7px;
@@ -889,6 +898,32 @@ a.back-to-top:hover{
 	margin-top:1295px;
 }
 
+#chronicleBlend{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
+	color:white;
+	z-index:5;
+	position:absolute;
+	margin-left:510px;
+	margin-top:320px;
+	text-shadow: 1px 1px 1px #000;
+	position:fixed;
+}
+
+#chornicleLine{
+	z-index:5;
+	position:fixed;
+	margin-left:610px;
+	margin-top:370px;
+	-webkit-filter: invert(100%);
+    /*filter: invert(100%);*/
+    width:50px;
+    height:3px;
+}
+
+#chronicleTop{
+	position:fixed;
+}
 
 
 #theTeam{
@@ -897,7 +932,8 @@ a.back-to-top:hover{
 }
 
 #teamContent {
-	font-family: 'Arvo', Georgia, Times, serif;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
 	position: absolute;
 	margin-top:65px;
 	margin-left:0px;
@@ -917,7 +953,8 @@ a.back-to-top:hover{
 }
 
 #getInvolvedContent {
-	font-family: 'Arvo', Georgia, Times, serif;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
 	position: absolute;
 	margin-top:65px;
 	margin-left:0px;
@@ -932,7 +969,8 @@ a.back-to-top:hover{
 }
 
 #eventsContent {
-	font-family: 'Arvo', Georgia, Times, serif;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
 	position: absolute;
 	margin-top:65px;
 	margin-left:0px;
@@ -947,7 +985,8 @@ a.back-to-top:hover{
 }
 
 #blogsContent {
-	font-family: 'Arvo', Georgia, Times, serif;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
 	position: absolute;
 	margin-top:65px;
 	margin-left:0px;
@@ -962,7 +1001,8 @@ a.back-to-top:hover{
 }
 
 #galleriesContent {
-	font-family: 'Arvo', Georgia, Times, serif;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
 	position: absolute;
 	margin-top:65px;
 	margin-left:0px;
@@ -977,7 +1017,8 @@ a.back-to-top:hover{
 }
 
 #expressYourselvesContent {
-	font-family: 'Arvo', Georgia, Times, serif;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
 	position: absolute;
 	margin-top:65px;
 	margin-left:0px;
@@ -992,7 +1033,8 @@ a.back-to-top:hover{
 }
 
 #pressesContent {
-	font-family: 'Arvo', Georgia, Times, serif;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
 	position: absolute;
 	margin-top:65px;
 	margin-left:0px;
@@ -1007,7 +1049,8 @@ a.back-to-top:hover{
 }
 
 #externalEventsContent {
-	font-family: 'Arvo', Georgia, Times, serif;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
 	position: absolute;
 	margin-top:65px;
 	margin-left:0px;
@@ -1022,7 +1065,8 @@ a.back-to-top:hover{
 }
 
 #careerboardsContent {
-	font-family: 'Arvo', Georgia, Times, serif;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
 	position: absolute;
 	margin-top:65px;
 	margin-left:0px;
@@ -1037,7 +1081,8 @@ a.back-to-top:hover{
 }
 
 #localhotspotsContent {
-	font-family: 'Arvo', Georgia, Times, serif;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
 	position: absolute;
 	margin-top:65px;
 	margin-left:0px;
@@ -1052,7 +1097,8 @@ a.back-to-top:hover{
 }
 
 #freeboardsContent {
-	font-family: 'Arvo', Georgia, Times, serif;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
 	position: absolute;
 	margin-top:65px;
 	margin-left:0px;
@@ -1092,15 +1138,15 @@ a.back-to-top:hover{
 
 #contactUs{
 	position:absolute;
-    /*margin-top:3270px;*/
+    margin-top:3300px;
     margin-left:0px;
     z-index:8;
     width:1260px;
     height:240px;
     background-color:#2B2B2B;
-    right: 0;
+/*    right: 0;
   	bottom: 0;
-  	left: 0;
+  	left: 0;*/
 }
 
 #contactContent{
@@ -1437,13 +1483,14 @@ width:100px;
 #chronicle{
 	position:absolute;
 	display: block;
-    margin-top:200px;
+    margin-top:60px;
     margin-left:150px;
+    z-index:9;
 }
 
 .chronicBottom{
 	position:absolute;
-    margin-top:2500px;
+    margin-top:2880px;
     z-index: 10;
     /*color:black;*/
 }
