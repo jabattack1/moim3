@@ -7,7 +7,7 @@ body {
   /*background-color:black;*/
   background:url()center top;
   background-size: 1200px;
-  background-color:#262626;
+  background-color:#161616;
   /*background-repeat: repeat-y;*/
 	width:1260px;
   	/*height: 3300px;*/
@@ -22,7 +22,7 @@ body {
   background:url()center top;
   /*background-size: 1200px;*/
   background-size: 100% 100%;
-  background-color:#262626;
+  background-color:#161616;
   background-repeat: no-repeat;
 	/*min-width:1260px ;*/
   	/*height: 100%;*/
@@ -75,7 +75,7 @@ body {
  	border-style:solid;
  	border-width:2.5px;*/ 
  	/*background-repeat: no-repeat;*/
- 	background-color:#262626;
+ 	background-color:#161616;
  	/*border-radius: 5px;*/
  	z-index: 10;
 }
@@ -117,7 +117,7 @@ body {
             /*display:block;*/
         /* styling: */
             
-            padding:32px 6px;
+            padding:32px 9px;
             text-decoration:none;
             color:white; 
             /*text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;*/
@@ -604,7 +604,7 @@ a.back-to-top:hover{
 	margin-left:1055px;
 	margin-top:64px;
 	z-index:9;
-	background:#262626;
+	background:#161616;
 	width:200px;
 	height:200px;
 	border-bottom-left-radius: 10px;
@@ -1165,7 +1165,7 @@ a.back-to-top:hover{
 
 #contactBottom{
 	position:absolute;
-	background-color:#262626;
+	background-color:#161616;
 	width:1260px;
 	height:50px;
 	margin-top:160px;
@@ -1175,7 +1175,7 @@ a.back-to-top:hover{
 
 #welcomeBottom{
 	position:absolute;
-	background-color:#262626;
+	background-color:#161616;
 	width:1260px;
 	height:50px;
 	margin-top:620px;
