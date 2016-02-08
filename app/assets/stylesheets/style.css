@@ -92,7 +92,8 @@ body {
             list-style:none; 
         /* get rid of any default or inherited margins and padding: */
             margin-top:32px; 
-            margin-left:200px; 
+            margin-right:200px; 
+            float:right;
             
         /* styling: */
             font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
@@ -538,7 +539,7 @@ a.back-to-top:hover{
 	width:20px;
 	margin-left:-10px;
 	margin-top:-10px;
-	
+
 }
 
 /*#glass:hover{
