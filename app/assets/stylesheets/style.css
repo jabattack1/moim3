@@ -1,6 +1,6 @@
-html {
+/*html {
   height: 100%;
-}
+}*/
 
 
 
@@ -864,14 +864,14 @@ a.back-to-top:hover{
 }
 
 #missionContent {
-	font-family: 'Arvo', Georgia, Times, serif;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	position: absolute;
-	margin-top:65px;
+	margin-top:625px;
 	margin-left:0px;
-	width:100%;
-	height:670px;
+	width:1260px;
+	height:2900px;
 	background-color:white;
-	z-index:;
+	z-index:8;
 	/*width:1800px;*/
 	/*border-top:solid;
 	border-width:7px;
@@ -883,7 +883,7 @@ a.back-to-top:hover{
 	position: absolute;
 	margin-top:625px;
 	margin-left:0px;
-	width:100%;
+	width:1260px;
 	height:2900px;
 	background-color:white;
 	z-index:8;
@@ -904,7 +904,7 @@ a.back-to-top:hover{
 	color:white;
 	z-index:5;
 	position:absolute;
-	margin-left:510px;
+	margin-left:495px;
 	margin-top:320px;
 	text-shadow: 1px 1px 1px #000;
 	position:fixed;
@@ -940,7 +940,7 @@ a.back-to-top:hover{
 	width:100%;
 	height:670px;
 	background-color:white;
-	z-index:;
+	z-index:8;
 	/*width:1800px;*/
 	/*border-top:solid;
 	border-width:7px;
@@ -961,7 +961,7 @@ a.back-to-top:hover{
 	width:100%;
 	height:670px;
 	background-color:white;
-	z-index:;
+	z-index:8;
 	/*width:1800px;*/
 	/*border-top:solid;
 	border-width:7px;
@@ -977,7 +977,7 @@ a.back-to-top:hover{
 	width:100%;
 	height:670px;
 	background-color:white;
-	z-index:;
+	z-index:8;
 	/*width:1800px;*/
 	/*border-top:solid;
 	border-width:7px;
@@ -993,7 +993,7 @@ a.back-to-top:hover{
 	width:100%;
 	height:670px;
 	background-color:white;
-	z-index:;
+	z-index:8;
 	/*width:1800px;*/
 	/*border-top:solid;
 	border-width:7px;
@@ -1009,7 +1009,7 @@ a.back-to-top:hover{
 	width:100%;
 	height:670px;
 	background-color:white;
-	z-index:;
+	z-index:8;
 	/*width:1800px;*/
 	/*border-top:solid;
 	border-width:7px;
@@ -1025,7 +1025,7 @@ a.back-to-top:hover{
 	width:100%;
 	height:670px;
 	background-color:white;
-	z-index:;
+	z-index:8;
 	/*width:1800px;*/
 	/*border-top:solid;
 	border-width:7px;
@@ -1041,7 +1041,7 @@ a.back-to-top:hover{
 	width:100%;
 	height:670px;
 	background-color:white;
-	z-index:;
+	z-index:8;
 	/*width:1800px;*/
 	/*border-top:solid;
 	border-width:7px;
@@ -1057,7 +1057,7 @@ a.back-to-top:hover{
 	width:100%;
 	height:670px;
 	background-color:white;
-	z-index:;
+	z-index:8;
 	/*width:1800px;*/
 	/*border-top:solid;
 	border-width:7px;
@@ -1073,7 +1073,7 @@ a.back-to-top:hover{
 	width:100%;
 	height:670px;
 	background-color:white;
-	z-index:;
+	z-index:8;
 	/*width:1800px;*/
 	/*border-top:solid;
 	border-width:7px;
@@ -1089,7 +1089,7 @@ a.back-to-top:hover{
 	width:100%;
 	height:670px;
 	background-color:white;
-	z-index:;
+	z-index:8;
 	/*width:1800px;*/
 	/*border-top:solid;
 	border-width:7px;
@@ -1105,7 +1105,7 @@ a.back-to-top:hover{
 	width:100%;
 	height:670px;
 	background-color:white;
-	z-index:;
+	z-index:8;
 	/*width:1800px;*/
 	/*border-top:solid;
 	border-width:7px;
@@ -1452,8 +1452,6 @@ width:100px;
 	color:white;
 	margin-left:38px;
 	margin-top:-1px;
-	font-size:;
-	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-size:9px;
 }
 
@@ -1462,8 +1460,7 @@ width:100px;
 	color:white;
 	margin-left:96px;
 	margin-top:-1px;
-	font-size:;
-	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+
 	font-size:9px;
 }
 
@@ -1495,6 +1492,185 @@ width:100px;
     /*color:black;*/
 }
 
+#missionPage{
+	/*background: url() no-repeat;*/
+  /*background-color:black;*/
+  background:url()center top;
+  background-size: 1200px;
+  background-color:#161616;
+  /*background-repeat: repeat-y;*/
+	width:1260px;
+  	height: 3150px;
+  	margin: 0 auto;
+  position:absolute;
+  overflow:auto;
+}
 
 
 
+#whoHead{
+	position:absolute;
+	margin-top:14px;
+	margin-left:560px;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	z-index: 10;
+	font-size:19px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#whoWeAreLine{
+	z-index:10;
+	position:fixed;
+	margin-left:598px;
+	margin-top:45px;
+	/*-webkit-filter: invert(100%);*/
+    /*filter: invert(100%);*/
+    width:50px;
+    height:3px;
+}
+
+
+#missionIntro{
+	position:absolute;
+    margin-top:80px;
+    margin-left:220px;
+    font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+    z-index: 10;
+    text-align: center;
+    font-size:14px;
+    display: inline;
+}
+
+#missionBlend{
+		font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
+	color:white;
+	z-index:5;
+	position:absolute;
+	margin-left:495px;
+	margin-top:320px;
+	text-shadow: 1px 1px 1px #000;
+	position:fixed;
+}
+
+#missionLine{
+	z-index:5;
+	position:fixed;
+	margin-left:610px;
+	margin-top:370px;
+	-webkit-filter: invert(100%);
+    /*filter: invert(100%);*/
+    width:50px;
+    height:3px;
+}
+
+#longLineFour{
+	position:absolute;
+	z-index: 10;
+	margin-top:400px;
+}
+
+#fourHead{
+	position:absolute;
+	margin-top:464px;
+	margin-left:560px;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	z-index: 10;
+	font-size:19px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#pillarsLine{
+	z-index:10;
+	position:fixed;
+	margin-left:618px;
+	margin-top:495px;
+	/*-webkit-filter: invert(100%);*/
+    /*filter: invert(100%);*/
+    width:50px;
+    height:3px;
+}
+
+
+#pillarsIntro{
+	position:absolute;
+    margin-top:540px;
+    margin-left:220px;
+    font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+    z-index: 10;
+    text-align: center;
+    font-size:14px;
+    display: inline;
+}
+
+#networkingPic{
+	background-image: url('/assets/networking.png');
+	position:absolute;
+    margin-top:610px;
+    margin-left:60px;
+    z-index: 10;
+    display: inline;
+    width:265px;
+    height:265px;
+}
+
+#networkingPic:hover{
+	cursor:pointer;
+	background-image: url('/assets/networking1.png');
+}
+
+#creativityPic{
+	background-image: url('/assets/creativity.png');
+	position:absolute;
+    margin-top:610px;
+    margin-left:340px;
+    z-index: 10;
+    display: inline;
+    width:265px;
+    height:265px;
+}
+
+#creativityPic:hover{
+	cursor:pointer;
+	background-image: url('/assets/creativity1.png');
+}
+
+#entertainmentPic{
+	background-image: url('/assets/entertainment.png');
+	position:absolute;
+    margin-top:610px;
+    margin-left:620px;
+    z-index: 10;
+    display: inline;
+    width:265px;
+    height:265px;
+}
+
+#entertainmentPic:hover{
+	cursor:pointer;
+	background-image: url('/assets/entertainment1.png');
+}
+
+#inspirationPic{
+	background-image: url('/assets/inspiration.png');
+	position:absolute;
+    margin-top:610px;
+    margin-left:900px;
+    z-index: 10;
+    display: inline;
+    width:265px;
+    height:265px;
+}
+
+#inspirationPic:hover{
+	cursor:pointer;
+	background-image: url('/assets/inspiration1.png');
+}
+
+#longLinePillar{
+	position:absolute;
+	z-index: 10;
+	margin-top:960px;
+}
