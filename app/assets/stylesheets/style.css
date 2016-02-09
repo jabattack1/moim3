@@ -869,7 +869,7 @@ a.back-to-top:hover{
 	margin-top:625px;
 	margin-left:0px;
 	width:1260px;
-	height:2900px;
+	height:1800px;
 	background-color:white;
 	z-index:8;
 	/*width:1800px;*/
@@ -1136,9 +1136,22 @@ a.back-to-top:hover{
 	width:75px;
 }
 
-#contactUs{
+#contactUsChronicle{
 	position:absolute;
     margin-top:3300px;
+    margin-left:0px;
+    z-index:8;
+    width:1260px;
+    height:240px;
+    background-color:#2B2B2B;
+/*    right: 0;
+  	bottom: 0;
+  	left: 0;*/
+}
+
+#contactUsMission{
+	position:absolute;
+    margin-top:2300px;
     margin-left:0px;
     z-index:8;
     width:1260px;
@@ -1500,7 +1513,7 @@ width:100px;
   background-color:#161616;
   /*background-repeat: repeat-y;*/
 	width:1260px;
-  	height: 3150px;
+  	height: 1900px;
   	margin: 0 auto;
   position:absolute;
   overflow:auto;
@@ -1674,3 +1687,204 @@ width:100px;
 	z-index: 10;
 	margin-top:960px;
 }
+
+#sinceHead{
+	position:absolute;
+	margin-top:1024px;
+	margin-left:560px;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	z-index: 10;
+	font-size:19px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#sinceLine{
+	z-index:10;
+	position:fixed;
+	margin-left:618px;
+	margin-top:1055px;
+	/*-webkit-filter: invert(100%);*/
+    /*filter: invert(100%);*/
+    width:50px;
+    height:3px;
+}
+
+#stat1 {
+	position:absolute;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  	width: 100px;
+	height: 100px;
+	color:#357FFF;
+	/*background: red;*/
+	/*-moz-border-radius: 50px;*/
+	/*-webkit-border-radius: 50px;*/
+	/*border-radius: 50px;*/
+  	/*float:left;*/
+  	/*margin:5px;*/
+  	margin-top:1155px;
+  	font-size:50px;
+  	/*font-weight:bold;*/
+  	margin-left:600px;
+  	text-align:center;
+}
+
+
+
+#stat2 {
+	position:absolute;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  	width: 100px;
+	height: 100px;
+	color: #357FFF;
+	/*background: red;*/
+	/*-moz-border-radius: 50px;*/
+	/*-webkit-border-radius: 50px;*/
+	/*border-radius: 50px;*/
+  	/*float:left;*/
+  	/*margin:5px;*/
+  	margin-top:1245px;
+  	font-size:50px;
+  	/*font-weight:bold;*/
+  	margin-left:600px;
+  	text-align:center;
+}
+
+#stat3 {
+	position:absolute;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  	width: 100px;
+	height: 100px;
+	color:#357FFF;
+	/*background: red;*/
+	/*-moz-border-radius: 50px;*/
+	/*-webkit-border-radius: 50px;*/
+	/*border-radius: 50px;*/
+  	/*float:left;*/
+  	/*margin:5px;*/
+  	margin-top:1335px;
+  	font-size:50px;
+  	/*font-weight:bold;*/
+  	margin-left:600px;
+  	text-align:center;
+}
+
+#stat4 {
+	position:absolute;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  	width: 100px;
+	height: 100px;
+	color:#357FFF;
+	/*background: red;*/
+	/*-moz-border-radius: 50px;*/
+	/*-webkit-border-radius: 50px;*/
+	/*border-radius: 50px;*/
+  	/*float:left;*/
+  	/*margin:5px;*/
+  	margin-top:1425px;
+  	font-size:50px;
+  	/*font-weight:bold;*/
+  	margin-left:600px;
+  	text-align:center;
+}
+
+/*.count
+{
+  line-height: 100px;
+  color:white;
+  margin-left:30px;
+  font-size:25px;
+}
+*/
+
+#boast1 {
+	position:absolute;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  	width: 100px;
+	height: 100px;
+	color:black;
+	/*background: red;*/
+	/*-moz-border-radius: 50px;*/
+	/*-webkit-border-radius: 50px;*/
+	/*border-radius: 50px;*/
+  	/*float:left;*/
+  	/*margin:5px;*/
+  	margin-top:1155px;
+  	font-size:15px;
+  	font-weight:bold;
+  	margin-left:600px;
+  	text-align:center;
+  	width:600px;
+}
+
+#boast2 {
+	position:absolute;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  	width: 100px;
+	height: 100px;
+	color:black;
+	/*background: red;*/
+	/*-moz-border-radius: 50px;*/
+	/*-webkit-border-radius: 50px;*/
+	/*border-radius: 50px;*/
+  	/*float:left;*/
+  	/*margin:5px;*/
+  	margin-top:1245px;
+  	font-size:15px;
+  	font-weight:bold;
+  	margin-left:600px;
+  	text-align:center;
+  	width:600px;
+}
+
+#boast3 {
+	position:absolute;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  	width: 100px;
+	height: 100px;
+	color:black;
+	/*background: red;*/
+	/*-moz-border-radius: 50px;*/
+	/*-webkit-border-radius: 50px;*/
+	/*border-radius: 50px;*/
+  	/*float:left;*/
+  	/*margin:5px;*/
+  	margin-top:1335px;
+  	font-size:15px;
+  	font-weight:bold;
+  	margin-left:600px;
+  	text-align:center;
+  	width:600px;
+}
+
+#boast4 {
+	position:absolute;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  	width: 100px;
+	height: 100px;
+	color:black;
+	/*background: red;*/
+	/*-moz-border-radius: 50px;*/
+	/*-webkit-border-radius: 50px;*/
+	/*border-radius: 50px;*/
+  	/*float:left;*/
+  	/*margin:5px;*/
+  	margin-top:1425px;
+  	font-size:15px;
+  	font-weight:bold;
+  	margin-left:600px;
+  	text-align:center;
+  	width:600px;
+}
+
+#boastOutro{
+		position:absolute;
+    margin-top:1550px;
+    margin-left:220px;
+    font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+    z-index: 10;
+    text-align: center;
+    font-size:14px;
+    display: inline;
+}
+

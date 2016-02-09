@@ -5,6 +5,7 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <script src="/application/html/js/inorganik/countup.js/countup.min.js"></script>
 </head>
 <body>
 
@@ -97,7 +98,7 @@ $(".aboutSelect").mouseover(function(){
 
 <a id='logInIcon' onclick='logInScreen();return false;'>LOG IN</A><p id='line1'>|</p>
 <a id='signUpIcon'>SIGN UP</A><p id='line2'>|</p>
-<a href='#bottom'id='contactUsIcon'>CONTACT US</A>
+<a href='#bottom'id='contactUsIcon' onclick='countUp();return false;'>CONTACT US</A>
 
 
 </div>

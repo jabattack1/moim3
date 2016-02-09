@@ -32,8 +32,9 @@
 <html>
 <head>
 	<title></title>
+	<script src="/application/html/js/inorganik/countup.js/countup.min.js"></script>
 </head>
-<body id="mission Page">
+<body id="missionPage">
 
 <img id='whiteGuyPic' class='animated slideInLeft' src = "/assets/city.jpg">
 <h2 id='missionBlend' class='animated slideInRight'>THE MISSION</h2>
@@ -61,6 +62,7 @@ MOI’M New York, Inc. 은 미국 뉴욕 주 소재한 비영리 단체입니다
 돌아볼 수 있는 기회를 마련해 드립니다. MOI’M은 한국 문화에 관심이 있는 사람이면 누구나 참여 가능한 네트워킹 이벤트를 기획하는 단체입니다.  
 </p>
 <img id='longLineFour' src = "/assets/longLine.png">
+
 <h1 id='fourHead'>FOUR PILLARS</h1>
 <img id='pillarsLine' src = "/assets/line.png">
 <p id='pillarsIntro'>
@@ -75,8 +77,82 @@ We are something different. All of our events reflect our four key pillars: crea
 
 <img id='longLinePillar' src = "/assets/longLine.png">
 
+<h1 id='sinceHead'>SINCE 2013</h1>
+<img id='sinceLine' src = "/assets/line.png">
+
+
+<div id="stat1"><span class="count1">5092</span></div>
+<div id="stat2"><span class="count">164166</span></div>
+<div id="stat3"><span class="count">26</span></div>
+<div id="stat4"><span class="count">11</span></div>
+
+<p id='boast1'>WE HAVE ENGAGED GUESTS</p>
+<p id='boast2'>TO POSITIVELY INFLUENCE INDIVIDUALS</p>
+<p id='boast3'>THROUGH COLLABORATIONS</p>
+<p id='boast4'>AT EVENTS</p>
+
+<script type="text/javascript">
+	$('#stat1').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+</script>
+<script type="text/javascript">
+	$('#stat2').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+</script>
+<script type="text/javascript">
+	$('#stat3').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+</script>
+<script type="text/javascript">
+	$('#stat4').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+</script>
+
+<p id='boastOutro'>
+MOI’M believes that a network of talented young people can lead to a self-propelling synergy with great implications.<br>
+Through our connections, we hope to empower and inspire individuals to give back to the communities around us.
+</p>
+
 
 </div>
+
+
 
 
 
@@ -84,7 +160,7 @@ We are something different. All of our events reflect our four key pillars: crea
 	$('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
 </script>
 
-<div id='contactUs' class='animated slideInLeft'>
+<div id='contactUsMission' class='animated slideInLeft'>
 
 <div id='contactContent'>
 
