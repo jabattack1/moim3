@@ -1301,11 +1301,28 @@ a.back-to-top:hover{
 #emailLink{
 	color: #1BAAC6; 
 	text-decoration: none;
+	z-index:10;
 }
 
 #emailLink:hover{
 	color:#66E5FF;
 	text-decoration: underline;
+}
+
+#infoLink{
+	color: #1BAAC6; 
+	text-decoration: none;
+	
+	position:relative; 
+	z-index:10;
+}
+
+
+#infoLink:hover{
+	color:#66E5FF;
+	text-decoration: underline;
+	position:relative; 
+	z-index:10;
 }
 
 #contactBottom{
@@ -1626,9 +1643,10 @@ width:100px;
 	width:1260px;
   	height: 1900px;
   	margin: 0 auto;
-  position:absolute;
+  position:relative;
   overflow:auto;
 }
+
 
 #involvedPage{
 	/*background: url() no-repeat;*/
@@ -1640,8 +1658,9 @@ width:100px;
 	width:1260px;
   	height: 1000px;
   	margin: 0 auto;
-  position:absolute;
+  position:relative;
   overflow:auto;
+  z-index: 10px;
 }
 
 
