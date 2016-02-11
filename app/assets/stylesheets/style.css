@@ -604,7 +604,7 @@ a.back-to-top:hover{
 }
 
 #logIn{
-	position:absolute;
+	position:fixed;
 	margin-left:1055px;
 	margin-top:64px;
 	z-index:9;
