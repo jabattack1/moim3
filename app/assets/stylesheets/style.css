@@ -889,7 +889,7 @@ a.back-to-top:hover{
 	margin-top:623px;
 	margin-left:0px;
 	width:1260px;
-	height:1800px;
+	height:1500px;
 	background-color:white;
 	z-index:8;
 	/*width:1800px;*/
@@ -899,7 +899,7 @@ a.back-to-top:hover{
 }
 
 #chronicleContent {
-	font-family: 'Arvo', Georgia, Times, serif;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	position: absolute;
 	margin-top:623px;
 	margin-left:0px;
@@ -912,6 +912,9 @@ a.back-to-top:hover{
 	border-width:7px;
 	border-color:#1BAAC6;*/
 }
+
+
+
 
 #theChronicle{
 	position:absolute;
@@ -951,21 +954,7 @@ a.back-to-top:hover{
 	margin-top:1965px;
 }
 
-#teamContent {
-	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-	font-weight: normal;
-	position: absolute;
-	margin-top:623px;
-	margin-left:0px;
-	width:100%;
-	height:670px;
-	background-color:white;
-	z-index:8;
-	/*width:1800px;*/
-	/*border-top:solid;
-	border-width:7px;
-	border-color:#1BAAC6;*/
-}
+
 
 #getInvolved{
 	position:absolute;
@@ -980,6 +969,22 @@ a.back-to-top:hover{
 	margin-left:0px;
 	width:1260px;
 	height:580px;
+	background-color:white;
+	z-index:8;
+	/*width:1800px;*/
+	/*border-top:solid;
+	border-width:7px;
+	border-color:#1BAAC6;*/
+}
+
+
+#teamContent {
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	position: absolute;
+	margin-top:623px;
+	margin-left:0px;
+	width:1260px;
+	height:530px;
 	background-color:white;
 	z-index:8;
 	/*width:1800px;*/
@@ -1185,6 +1190,19 @@ a.back-to-top:hover{
 #contactUsInvolved{
 	position:absolute;
     margin-top:1205px;
+    margin-left:0px;
+    z-index:8;
+    width:1260px;
+    height:240px;
+    background-color:#2B2B2B;
+/*    right: 0;
+  	bottom: 0;
+  	left: 0;*/
+}
+
+#contactUsTeam{
+	position:absolute;
+    margin-top:1150px;
     margin-left:0px;
     z-index:8;
     width:1260px;
@@ -1607,7 +1625,7 @@ width:100px;
 #chronicle{
 	position:absolute;
 	display: block;
-    margin-top:60px;
+    margin-top:20px;
     margin-left:150px;
     z-index:9;
 }
@@ -1629,6 +1647,13 @@ width:100px;
 .involvedBottom{
 	position:absolute;
     margin-top:785px;
+    z-index: 10;
+    /*color:black;*/
+}
+
+.teamBottom{
+	position:absolute;
+    margin-top:729px;
     z-index: 10;
     /*color:black;*/
 }
@@ -1660,9 +1685,22 @@ width:100px;
   	margin: 0 auto;
   position:relative;
   overflow:auto;
-  z-index: 10px;
+ /* z-index: 10px;*/
 }
 
+#teamPage{
+	/*background: url() no-repeat;*/
+  /*background-color:black;*/
+  background:url()center top;
+  background-size: 1200px;
+  background-color:#161616;
+  /*background-repeat: repeat-y;*/
+	width:1260px;
+  	height: 1250px;
+  	margin: 0 auto;
+  position:relative;
+  overflow:auto;
+}
 
 
 
@@ -1678,6 +1716,28 @@ width:100px;
 }
 
 #whoWeAreLine{
+	z-index:10;
+	position:fixed;
+	margin-left:598px;
+	margin-top:45px;
+	/*-webkit-filter: invert(100%);*/
+    /*filter: invert(100%);*/
+    width:50px;
+    height:3px;
+}
+
+#meetHead{
+	position:absolute;
+	margin-top:14px;
+	margin-left:560px;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	z-index: 10;
+	font-size:19px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#meetLine{
 	z-index:10;
 	position:fixed;
 	margin-left:598px;
@@ -1724,6 +1784,29 @@ width:100px;
 }
 
 #involvedBlend{
+		font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
+	color:white;
+	z-index:5;
+	position:absolute;
+	margin-left:495px;
+	margin-top:320px;
+	text-shadow: 1px 1px 1px #000;
+	position:fixed;
+}
+
+#teamLine{
+	z-index:5;
+	position:fixed;
+	margin-left:610px;
+	margin-top:370px;
+	-webkit-filter: invert(100%);
+    /*filter: invert(100%);*/
+    width:50px;
+    height:3px;
+}
+
+#teamBlend{
 		font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight: normal;
 	color:white;
@@ -1849,6 +1932,141 @@ width:100px;
 	cursor:pointer;
 	background-image: url('/assets/inspiration1.png');
 }
+
+/*meet the team*/
+
+#leadershipTeamPic{
+	background-image: url('/assets/Leadership.jpg');
+	position:absolute;
+    margin-top:10px;
+    margin-left:110px;
+    z-index: 10;
+    display: inline;
+   	width:251px;
+    height:251px;
+}
+
+#leadershipTeamPic:hover{
+	cursor:pointer;
+	background-image: url('/assets/leadership1.jpg');
+}
+
+#eventTeamPic{
+	background-image: url('/assets/eventTeam.jpg');
+	position:absolute;
+    margin-top:10px;
+    margin-left:370px;
+    z-index: 10;
+    display: inline;
+    width:251px;
+    height:251px;
+}
+
+#eventTeamPic:hover{
+	cursor:pointer;
+	background-image: url('/assets/eventTeam1.jpg');
+}
+
+#creativeTeamPic{
+	background-image: url('/assets/creativeTeam.jpg');
+	position:absolute;
+    margin-top:10px;
+    margin-left:630px;
+    z-index: 10;
+    display: inline;
+     width:251px;
+    height:251px;
+}
+
+#creativeTeamPic:hover{
+	cursor:pointer;
+	background-image: url('/assets/creativeTeam1.jpg');
+}
+
+#prTeamPic{
+	background-image: url('/assets/prTeam.jpg');
+	position:absolute;
+    margin-top:10px;
+    margin-left:890px;
+    z-index: 10;
+    display: inline;
+     width:251px;
+    height:251px;
+}
+
+#prTeamPic:hover{
+	cursor:pointer;
+	background-image: url('/assets/prTeam1.jpg');
+}
+
+#soarTeamPic{
+	background-image: url('/assets/soarTeam.jpg');
+	position:absolute;
+    margin-top:270px;
+    margin-left:110px;
+    z-index: 10;
+    display: inline;
+     width:251px;
+    height:251px;
+}
+
+#soarTeamPic:hover{
+	cursor:pointer;
+	background-image: url('/assets/soarTeam1.jpg');
+}
+
+#itTeamPic{
+	background-image: url('/assets/itTeam.jpg');
+	position:absolute;
+    margin-top:270px;
+    margin-left:370px;
+    z-index: 10;
+    display: inline;
+     width:251px;
+    height:251px;
+}
+
+#itTeamPic:hover{
+	cursor:pointer;
+	background-image: url('/assets/itTeam1.jpg');
+}
+
+#advisoryTeamPic{
+	background-image: url('/assets/advisoryTeam.jpg');
+	position:absolute;
+    margin-top:270px;
+    margin-left:630px;
+    z-index: 10;
+    display: inline;
+     width:251px;
+    height:251px;
+}
+
+#advisoryTeamPic:hover{
+	cursor:pointer;
+	background-image: url('/assets/advisoryTeam1.jpg');
+}
+
+#contributorsPic{
+	background-image: url('/assets/contributors.jpg');
+	position:absolute;
+    margin-top:270px;
+    margin-left:890px;
+    z-index: 10;
+    display: inline;
+     width:251px;
+    height:251px;
+}
+
+#contributorsPic:hover{
+	cursor:pointer;
+	background-image: url('/assets/contributors1.jpg');
+}
+
+/******/
+
+
+
 
 #longLinePillar{
 	position:absolute;
