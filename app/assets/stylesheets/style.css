@@ -735,15 +735,15 @@ a.back-to-top:hover{
 	color:white;
 	/*font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
             font-weight: normal;*/
-            font-size: 50px;
+    /*font-size: 50px;*/
    	text-align: center;
 }
 
 #firstQuoteContent{
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
             font-weight: normal;
-            font-size:17px;
-            text-shadow: 2px 2px 2px #000;
+            font-size:16px;
+            /*text-shadow: 2px 2px 2px #000;*/
 }
 
 #missionQuote{
