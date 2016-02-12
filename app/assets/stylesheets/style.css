@@ -2298,6 +2298,129 @@ width:100px;
 	font-weight:bold;
 }
 
+#backArrowTeam{
+	/*background-image: url('/assets/backArrow.png');*/
+	position:absolute;
+    margin-top:10px;
+    margin-left:20px;
+    z-index: 10;
+    display: inline;
+   	width:36px;
+    height:31px;
+}
+
+#backArrowTeam:hover{
+	-webkit-filter: invert(50%);
+	cursor:pointer;
+}
+
+.memeberOne{
+	position:absolute;
+    margin-top:50px;
+    margin-left:120px;
+    z-index: 10;
+    display: inline;
+    width:250px;
+    height:250px;
+    /*background-color:black;*/
+}
+
+#leaderMemberOnePic{
+	position:absolute;
+	z-index: 10;
+	width:220px;
+    height:220px;
+    border-radius: 50%;
+    behavior: url(PIE.htc);
+}
+
+#leaderMemberOnePic:hover{
+	cursor:pointer;
+}
+
+.memeberTwo{
+	position:absolute;
+    margin-top:50px;
+    margin-left:390px;
+    z-index: 10;
+    display: inline;
+    width:220px;
+    height:220px;
+    /*background-color:black;*/
+}
+
+#leaderMemberTwoPic{
+	position:absolute;
+	z-index: 10;
+	width:220px;
+    height:220px;
+    border-radius: 50%;
+    behavior: url(PIE.htc);
+}
+
+#leaderMemberTwoPic:hover{
+	cursor:pointer;
+}
+
+.memeberThree{
+	position:absolute;
+    margin-top:50px;
+    margin-left:660px;
+    z-index: 10;
+    display: inline;
+    width:220px;
+    height:220px;
+    /*background-color:black;*/
+}
+
+#leaderMemberThreePic{
+	position:absolute;
+	z-index: 10;
+	width:220px;
+    height:220px;
+    border-radius: 50%;
+    behavior: url(PIE.htc);
+}
+
+#leaderMemberThreePic:hover{
+	cursor:pointer;
+}
+
+.memeberFour{
+	position:absolute;
+    margin-top:50px;
+    margin-left:930px;
+    z-index: 10;
+    display: inline;
+    width:220px;
+    height:220px;
+    /*background-color:black;*/
+}
+
+#leaderMemberFourPic{
+	position:absolute;
+	z-index: 10;
+	width:220px;
+    height:220px;
+    border-radius: 50%;
+    behavior: url(PIE.htc);
+}
+
+#leaderMemberFourPic:hover{
+	cursor:pointer;
+}
+
+#leaderHeading{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size:23px;
+	font-style:bold;
+	position:absolute;
+	margin-top:10px;
+	margin-left:400px;
+}
+
+
+/****TEST*/
 #blue{
 	position:absolute;
 	width:100px;
@@ -2313,3 +2436,5 @@ width:100px;
 	background-color:red;
 	z-index:100;
 }
+
+/******/
