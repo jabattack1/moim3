@@ -53,9 +53,13 @@ var privacyPolWelcome ="<div id='privacyPolicyWelcome' class='animated zoomIn'><
 
 var teamIn ="<div id='teamContent' class='animated slideInLeft' onclick='closeLogin();return false;'><div id='leadershipTeamPic' onclick='leaders();return false;'></div><div id='eventTeamPic'></div><div id='creativeTeamPic'></div><div id='prTeamPic'></div><div id='soarTeamPic'></div><div id='itTeamPic'></div><div id='advisoryTeamPic'></div><div id='contributorsPic'></div></div>"
 var teamOut ="<div id='teamContent' class='animated slideOutLeft' onclick='closeLogin();return false;'><div id='leadershipTeamPic'></div><div id='eventTeamPic'></div><div id='creativeTeamPic'></div><div id='prTeamPic'></div><div id='soarTeamPic'></div><div id='itTeamPic'></div><div id='advisoryTeamPic'></div><div id='contributorsPic'></div></div>"
-var leaderIn="<div id='teamContent' class='animated slideInRight' onclick='closeLogin();return false;'><img id='backArrowTeam' src = '/assets/backArrow.png' onclick='leadershipOut();return false;'><h2 id='leaderHeading'>LEADERSHIP TEAM</h2><div class='memeberOne'><img id='leaderMemberOnePic' src='/assets/yeongLim.png'></div><div class='memeberTwo'><img id='leaderMemberTwoPic' src='/assets/doYoonKim.png'></div><div class='memeberThree'><img id='leaderMemberThreePic' src='/assets/annieChoi.png'></div><div class='memeberFour'><img id='leaderMemberFourPic' src='/assets/eunYoungKang.png'></div></div>"
-var leaderOut="<div id='teamContent' class='animated slideOutRight' onclick='closeLogin();return false;'><img id='backArrowTeam' src = '/assets/backArrow.png' onclick='leadershipOut();return false;'><h2 id='leaderHeading'>LEADERSHIP TEAM</h2><div class='memeberOne'><img id='leaderMemberOnePic' src='/assets/yeongLim.png'></div><div class='memeberTwo'><img id='leaderMemberTwoPic' src='/assets/doYoonKim.png'></div><div class='memeberThree'><img id='leaderMemberThreePic' src='/assets/annieChoi.png'></div><div class='memeberFour'><img id='leaderMemberFourPic' src='/assets/eunYoungKang.png'></div></div>"
+var leaderIn="<div id='teamContent' class='animated slideInRight' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='leadershipOut();return false;'><img id='forwardArrow' src = '/assets/forwardArrow.png' onclick='leaders1();return false;'><h2 id='leaderHeading'>LEADERSHIP TEAM</h2><div class='memeberOne'><div id='leaderMemberOnePic'></div></div><div class='memeberTwo'><div id='leaderMemberTwoPic'></div></div><div class='memeberThree'><div id='leaderMemberThreePic'></div></div></div>"
+var leaderIn1="<div id='teamContent' class='animated slideInRight' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='leadershipOut1();return false;'><h2 id='leaderHeading'>LEADERSHIP TEAM</h2><div class='memeberOne'><div id='leaderMemberFourPic'></div></div></div>"
+var leaderIn2="<div id='teamContent' class='animated slideInLeft' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='leadershipOut();return false;'><img id='forwardArrow' src = '/assets/forwardArrow.png' onclick='leaders1();return false;'><h2 id='leaderHeading'>LEADERSHIP TEAM</h2><div class='memeberOne'><div id='leaderMemberOnePic'></div></div><div class='memeberTwo'><div id='leaderMemberTwoPic'></div></div><div class='memeberThree'><div id='leaderMemberThreePic'></div></div></div>"
 
+var leaderOut="<div id='teamContent' class='animated slideOutRight' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='leadershipOut();return false;'><img id='forwardArrow' src = '/assets/forwardArrow.png' onclick='leaders1();return false;'><h2 id='leaderHeading'>LEADERSHIP TEAM</h2><div class='memeberOne'><div id='leaderMemberOnePic'></div></div><div class='memeberTwo'><div id='leaderMemberTwoPic'></div></div><div class='memeberThree'><div id='leaderMemberThreePic'></div></div></div>"
+var leaderOut1="<div id='teamContent' class='animated slideOutLeft' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='leadershipOut();return false;'><img id='forwardArrow' src = '/assets/forwardArrow.png' onclick='leaders1();return false;'><h2 id='leaderHeading'>LEADERSHIP TEAM</h2><div class='memeberOne'><div id='leaderMemberOnePic'></div></div><div class='memeberTwo'><div id='leaderMemberTwoPic'></div></div><div class='memeberThree'><div id='leaderMemberThreePic'></div></div></div>"
+var leaderOut2="<div id='teamContent' class='animated slideOutRight' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='leadershipOut1();return false;'><h2 id='leaderHeading'>LEADERSHIP TEAM</h2><div class='memeberOne'><div id='leaderMemberFourPic'></div></div></div>"
 
 var sensor = false;
 
@@ -69,6 +73,16 @@ function leaders(){
     }, 0);
 }
 
+function leaders1(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(leaderOut1);
+}, 10);
+	setTimeout(function() {
+	$('body').append(leaderIn1);	
+    }, 0);
+}
+
 function leadershipOut(){
 	setTimeout(function() {
 	$('#teamContent').remove();
@@ -76,6 +90,16 @@ function leadershipOut(){
 }, 10);
 	setTimeout(function() {
 	$('body').append(teamIn);	
+    }, 0);
+}
+
+function leadershipOut1(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(leaderOut2);
+}, 10);
+	setTimeout(function() {
+	$('body').append(leaderIn2);	
     }, 0);
 }
 
