@@ -2307,6 +2307,22 @@ width:100px;
 	font-weight:bold;
 }
 
+#x{
+	/*background-image: url('/assets/backArrow.png');*/
+	position:absolute;
+    margin-top:230px;
+    margin-left:20px;
+    z-index: 10;
+    display: inline;
+   	width:30px;
+    height:31px;
+}
+
+#x:hover{
+	-webkit-filter: invert(50%);
+	cursor:pointer;
+}
+
 #backArrow{
 	/*background-image: url('/assets/backArrow.png');*/
 	position:absolute;
