@@ -77,7 +77,7 @@ function showProfileLeader(){
 	setTimeout(function() {
 	$('#teamContent').remove();
 	$('body').append(leaderOutForProfile);
-}, 10);
+}, 0);
 	setTimeout(function() {
 	$('body').append(YeongIn);	
     }, 0);
@@ -87,7 +87,7 @@ function profileOutLeader(){
 	setTimeout(function() {
 	$('#teamContent').remove();
 	$('body').append(YeongOut);
-}, 10);
+}, 0);
 	setTimeout(function() {
 	$('body').append(leaderInFromProfile);	
     }, 0);
