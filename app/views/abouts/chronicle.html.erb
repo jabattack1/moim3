@@ -10,16 +10,30 @@
 </head>
 <body id="chroniclePage">
 
+<script type="text/javascript">
+
+
+function startChronicle(){
+	console.log('chronic');
+	$('#chronicleContainer').animate({maxHeight:"3150px"}, 15000);
+}
+
+</script>
+
 
 <img id='whiteGuyPic' class='animated slideInLeft' src = '/assets/whiteguy.jpg' onclick='closeLogin();return false;'>
 <h2 id='chronicleBlend' class='animated slideInRight'>THE CHRONICLE</h2>
 <img id='chornicleLine'  class='animated slideInRight' src = "/assets/line.png">
 
-
 <a href="#top" class="back-to-top">Back to Top</a>
 <div id='chronicleContent' class='animated slideInUp' onclick='closeLogin();return false;'>
 <!-- <h1 id='chronicleHead'>MOI'M CHRONICLE</h1> -->
+
+
+<h1 id='startChronicle' onclick='startChronicle();return false;'>CLICK ME</h1>
+<div id='chronicleContainer'>
 <img id='chronicle' src='/assets/chronicle.png'>
+</div>
 
 </div>
 

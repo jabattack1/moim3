@@ -28,7 +28,7 @@
   background-color:#161616;
   /*background-repeat: repeat-y;*/
 	width:1260px;
-  	height: 3150px;
+  	height: 3250px;
   	margin: 0 auto;
   position:relative;
   overflow:auto;
@@ -979,6 +979,7 @@ a.back-to-top:hover{
 	/*border-top:solid;
 	border-width:7px;
 	border-color:#1BAAC6;*/
+	overflow: auto;
 }
 
 #eventsContent {
@@ -1151,7 +1152,7 @@ a.back-to-top:hover{
 
 #contactUsChronicle{
 	position:absolute;
-    margin-top:3300px;
+    margin-top:3400px;
     margin-left:0px;
     z-index:8;
     width:1260px;
@@ -1192,7 +1193,7 @@ a.back-to-top:hover{
 	position:absolute;
     margin-top:1150px;
     margin-left:0px;
-    z-index:8;
+    z-index:100;
     width:1260px;
     height:240px;
     background-color:#2B2B2B;
@@ -1610,17 +1611,37 @@ width:100px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 }
 
-#chronicle{
-	position:absolute;
-	display: block;
-    margin-top:20px;
-    margin-left:150px;
+#startChronicle{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: bold;
+	margin-top:10px;
+    margin-left:550px;
     z-index:9;
+}
+
+#startChronicle:hover{
+	cursor:pointer;
+	color:#E2E2E2;
+}
+
+#chronicle{
+	position:relative;
+	display: block;
+    margin-top:5px;
+    margin-left:150px;
+    /*z-index:9;*/
+}
+
+#chronicleContainer{
+	position:absolute;
+    max-height:0px;
+  	overflow:hidden;
+  	/*z-index:10;*/
 }
 
 .chronicBottom{
 	position:absolute;
-    margin-top:2880px;
+    margin-top:2980px;
     z-index: 10;
     /*color:black;*/
 }
@@ -1684,7 +1705,7 @@ width:100px;
   background-color:#161616;
   /*background-repeat: repeat-y;*/
 	width:1260px;
-  	height: 1250px;
+  	height: 1200px;
   	margin: 0 auto;
   position:relative;
   overflow:auto;
@@ -2419,6 +2440,78 @@ width:100px;
 	margin-top:10px;
 	margin-left:400px;
 }
+
+
+
+/*****team member profile*/
+
+#profilePic{
+	position:absolute;
+	margin-top:20px;
+	margin-left:200px;
+	width:400px;
+	height:400px;
+}
+
+#profileHead{
+	position:absolute;
+	margin-left:700px;
+	margin-top:160px;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:bold;
+}
+
+#profileStat{
+	position:absolute;
+	margin-left:700px;
+	margin-top:220px;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:bold;
+}
+
+#profileBio{
+	position:absolute;
+	margin-left:90px;
+	margin-top:460px;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	/*font-weight:bold;*/
+	font-size:13px;
+	text-align: center;
+}
+
+#longLineQuestions{
+	position:absolute;
+	margin-left:80px;
+	margin-top:680px;
+}
+
+#question{
+	font-weight:bold;
+}
+
+#profileQuestions1{
+	position:absolute;
+	margin-left:100px;
+	margin-top:760px;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	/*font-weight:bold;*/
+	font-size:13px;
+	text-align: right;
+}
+
+#profileQuestions2{
+	position:absolute;
+	margin-left:630px;
+	margin-top:760px;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	/*font-weight:bold;*/
+	font-size:13px;
+	text-align: center;
+	text-align: left;
+}
+
+/********/
+
 
 
 /****TEST*/
