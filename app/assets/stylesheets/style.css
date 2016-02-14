@@ -2485,9 +2485,22 @@ width:100px;
 	font-weight:bold;
 }
 
+#mainButton{
+	position:absolute;
+	margin-left:810px;
+	margin-top:20px;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:bold;
+}
+
+#mainButton:hover{
+	color:#66E5FF;
+	cursor:pointer;
+}
+
 #bioButton{
 	position:absolute;
-	margin-left:900px;
+	margin-left:905px;
 	margin-top:20px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight:bold;
