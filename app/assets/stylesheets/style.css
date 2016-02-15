@@ -1723,9 +1723,11 @@ width:100px;
   	margin: 0 auto;
   position:relative;
   overflow:auto;
-
-  /*overflow-x: hidden;*/
+  /*margin-bottom: 400px;*/
+  overflow-x: hidden;
 }
+
+
 
 
 
@@ -2582,6 +2584,27 @@ width:100px;
 	position:absolute;
 	margin-left:650px;
 	margin-top:80px;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	/*font-weight:bold;*/
+	font-size:13px;
+	text-align: center;
+	text-align: left;
+}
+
+#profileQuestionsShort1{
+	position:absolute;
+	margin-left:270px;
+	margin-top:130px;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	/*font-weight:bold;*/
+	font-size:13px;
+	text-align: right;
+}
+
+#profileQuestionsShort2{
+	position:absolute;
+	margin-left:650px;
+	margin-top:130px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	/*font-weight:bold;*/
 	font-size:13px;
