@@ -2382,6 +2382,8 @@ width:100px;
     display: inline;
 }
 
+/****leaders*/
+
 #leaderMemberOnePic{
 	position:absolute;
 	background: url('/assets/yeongLim.png');
@@ -2465,6 +2467,70 @@ width:100px;
 	cursor:pointer;
 	background: url('/assets/eunYoungKangThumbnail.png');
 }
+
+/******/
+
+/*###event****/
+
+#eventsMemberOnePic{
+	position:absolute;
+	background: url('/assets/SarahSin.png');
+	z-index: 10;
+	width:300px;
+    height:300px;
+
+}
+
+#eventsMemberOnePic:hover{
+	cursor:pointer;
+	background: url('/assets/SarahSinThumbnail.png');
+
+}
+
+
+#eventsMemberTwoPic{
+	position:absolute;
+	background: url('/assets/RyanJeong.png');
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#eventsMemberTwoPic:hover{
+	cursor:pointer;
+	background: url('/assets/RyanJeongThumbnail.png');
+}
+
+
+#eventsMemberThreePic{
+	background: url('/assets/BrentKim.png');
+	position:absolute;
+	z-index: 10;
+	width:300px;
+    height:300px;
+
+}
+
+#eventsMemberThreePic:hover{
+	cursor:pointer;
+	background: url('/assets/BrentKimThumbnail.png');
+}
+
+
+#eventsMemberFourPic{
+	background: url('/assets/AmyYoo.png');
+	position:absolute;
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#eventsMemberFourPic:hover{
+	cursor:pointer;
+	background: url('/assets/AmyYooThumbnail.png');
+}
+
+/*****/
 
 #leaderHeading{
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
