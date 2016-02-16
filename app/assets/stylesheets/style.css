@@ -2534,6 +2534,121 @@ width:100px;
 
 /*****/
 
+/*###creative****/
+
+#creativeMemberOnePic{
+	position:absolute;
+	background: url('/assets/RichardShim.png');
+	z-index: 10;
+	width:300px;
+    height:300px;
+
+}
+
+#creativeMemberOnePic:hover{
+	cursor:pointer;
+	background: url('/assets/RichardShimThumbnail.png');
+
+}
+
+
+#creativeMemberTwoPic{
+	position:absolute;
+	background: url('/assets/AngieHong.png');
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#creativeMemberTwoPic:hover{
+	cursor:pointer;
+	background: url('/assets/AngieHongThumbnail.png');
+}
+
+
+#creativeMemberThreePic{
+	background: url('/assets/HyobeeKim.png');
+	position:absolute;
+	z-index: 10;
+	width:300px;
+    height:300px;
+
+}
+
+#creativeMemberThreePic:hover{
+	cursor:pointer;
+	background: url('/assets/HyobeeKimThumbnail.png');
+}
+
+
+#creativeMemberFourPic{
+	background: url('/assets/SamRahman.png');
+	position:absolute;
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#creativeMemberFourPic:hover{
+	cursor:pointer;
+	background: url('/assets/SamRahmanThumbnail.png');
+}
+
+#creativeMemberFivePic{
+	background: url('/assets/BellaPark.png');
+	position:absolute;
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#creativeMemberFivePic:hover{
+	cursor:pointer;
+	background: url('/assets/BellaParkThumbnail.png');
+}
+
+#creativeMemberSixPic{
+	background: url('/assets/EunsungJeon.png');
+	position:absolute;
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#creativeMemberSixPic:hover{
+	cursor:pointer;
+	background: url('/assets/EunsungJeonThumbnail.png');
+}
+
+#creativeMemberSevenPic{
+	background: url('/assets/SeunghoPark.png');
+	position:absolute;
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#creativeMemberSevenPic:hover{
+	cursor:pointer;
+	background: url('/assets/SeunghoParkThumbnail.png');
+}
+
+#creativeMemberEightPic{
+	background: url('/assets/WhitneyLovett.png');
+	position:absolute;
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#creativeMemberEightPic:hover{
+	cursor:pointer;
+	background: url('/assets/WhitneyLovettThumbnail.png');
+}
+/*****/
+
+
+
 #leaderHeading{
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-size:23px;

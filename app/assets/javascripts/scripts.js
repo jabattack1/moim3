@@ -159,8 +159,8 @@ var SarahFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLo
 var SarahBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSarahBio();return false;'><h3 id='profileHeadBio'>SARAH SIN   |   신영은</h3><p id='profileBio'>Sarah Sin calls Kenya her birthplace and Russia and New York her hometown. She studied Communication Design at Pratt Institute, and is currently working as a Print<br> Designer for swimwear at LF USA. Over the years she has volunteered for non-profit organizations (D2 fashion non-profit) and most recently traveled to Benin, Africa for<br> a series of teen fashion projects. Sarah is passionate about the arts, philanthropy and mission based work.<br>Side note: Sarah’s work philosophy is – get fed first and work hard.<br><br>케냐에서 태어나 러시아와 뉴욕에서 자랐으며 Pratt Institute 에서 광고 디자인 학과를 전공. 현재 스윔웨어 Print Designer 로서 활동 중. 여러 선교 및 비영리 단체활동에 꾸준히 종사해 왔으며,<br>최근 2년동안 벤닌, 아프리카 청소년 패션 프로젝트에 참여. 예술과 봉사, 자선 활동에 큰 열정을 가지고 있다.</p><h4 id='mainButton' onclick='showSarah();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQASarah();return false;'>FUN FACTS</h4></div>";
 var SarahBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSarah();return false;'><h3 id='profileHeadBio'>SARAH SIN   |   신영은</h3><p id='profileBio'>Sarah Sin calls Kenya her birthplace and Russia and New York her hometown. She studied Communication Design at Pratt Institute, and is currently working as a Print<br> Designer for swimwear at LF USA. Over the years she has volunteered for non-profit organizations (D2 fashion non-profit) and most recently traveled to Benin, Africa for<br> a series of teen fashion projects. Sarah is passionate about the arts, philanthropy and mission based work.<br>Side note: Sarah’s work philosophy is – get fed first and work hard.<br><br>케냐에서 태어나 러시아와 뉴욕에서 자랐으며 Pratt Institute 에서 광고 디자인 학과를 전공. 현재 스윔웨어 Print Designer 로서 활동 중. 여러 선교 및 비영리 단체활동에 꾸준히 종사해 왔으며,<br>최근 2년동안 벤닌, 아프리카 청소년 패션 프로젝트에 참여. 예술과 봉사, 자선 활동에 큰 열정을 가지고 있다.</p><h4 id='mainButton' onclick='showSarah();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQASarah();return false;'>FUN FACTS</h4></div>";
 
-var SarahQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSarahQA();return false;'><h3 id='profileHeadBio'>SARAH SIN   |   신영은</h3><p id='profileQuestions1'><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would withdraw all of my cash and give food and allowance to the homeless,<br> enjoy the most delicious meal with my loved ones, and attend church service to<br> look back on my life before the \“end\”.<br><br><span id='question'>Q: The word/phrase you say the most?</span><br>A: No problem! & Thank you! (in speech) Fighting! (in messages)<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: A: Soundcloud for its dynamic gathering of musical talents and Instagram for<br> its beautiful images and interesting storytelling.<br><br><span id='question'>Q: Something that your friends do not know about you?</span><br>A: Regardless of the season, I always need to keep my toes covered and ears<br> warm when I sleep.<br><br><span id='question'>Q: Inspiration?</span><br>A: I am inspired by those who have overcome adversity: whether it be physical,<br> emotional, or financial.<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Living life to the fullest. An ongoing challenge!</p><p id='profileQuestions2'><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 내 통장에 있는 모든 돈을 뽑아서 길 거리에 있는 노숙자들에게 배불이 먹을 양식과 그들 또한 마지막<br>을 즐길 용돈을 나눠주고 내가 제일 사랑하는 사람들과 세상에서 제일 맛있는 음식을 먹고, 교회에서 예<br>배를 드리면서 나의 인생을 돌아보고 마지막을 준비한다.<br><br><span id='question'>Q: 하루중 가장 많이 하는 말은?</span><br>A: No problem! & 고마워요! (말할때) / 파이팅! (문자)<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 다양한 사람들의 음악과 재능을 들을수 있는 Soundcloud와 아름다운 사진들이 전해주는 독특한<br> 이야기 공간인 인스타그램을 자주 사용한다.<br><br><span id='question'>Q: 친구들이 잘 모르는 당신에 대한 한 가지는?</span><br>A: 계절과 상관없이 잘때는 발과 귀를 꼭 따뜻하게 해야된다.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 여러가지 어려움들을 (육체적, 심리적, 재정적 등등) 극복한 사람들의 삶을 통해 많은 영감과 희망을<br> 얻는다.<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 세상을 알차게, 후회없이 사는 것 – 끊이지 않는 도전.</p><h4 id='mainButton' onclick='showSarah();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioSarah();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
-var SarahQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSarah();return false;'><h3 id='profileHeadBio'>SARAH SIN   |   신영은</h3><p id='profileQuestions1'><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would withdraw all of my cash and give food and allowance to the homeless,<br> enjoy the most delicious meal with my loved ones, and attend church service to<br> look back on my life before the \“end\”.<br><br><span id='question'>Q: The word/phrase you say the most?</span><br>A: No problem! & Thank you! (in speech) Fighting! (in messages)<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: A: Soundcloud for its dynamic gathering of musical talents and Instagram for<br> its beautiful images and interesting storytelling.<br><br><span id='question'>Q: Something that your friends do not know about you?</span><br>A: Regardless of the season, I always need to keep my toes covered and ears<br> warm when I sleep.<br><br><span id='question'>Q: Inspiration?</span><br>A: I am inspired by those who have overcome adversity: whether it be physical,<br> emotional, or financial.<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Living life to the fullest. An ongoing challenge!</p><p id='profileQuestions2'><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 내 통장에 있는 모든 돈을 뽑아서 길 거리에 있는 노숙자들에게 배불이 먹을 양식과 그들 또한 마지막<br>을 즐길 용돈을 나눠주고 내가 제일 사랑하는 사람들과 세상에서 제일 맛있는 음식을 먹고, 교회에서 예<br>배를 드리면서 나의 인생을 돌아보고 마지막을 준비한다.<br><br><span id='question'>Q: 하루중 가장 많이 하는 말은?</span><br>A: No problem! & 고마워요! (말할때) / 파이팅! (문자)<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 다양한 사람들의 음악과 재능을 들을수 있는 Soundcloud와 아름다운 사진들이 전해주는 독특한<br> 이야기 공간인 인스타그램을 자주 사용한다.<br><br><span id='question'>Q: 친구들이 잘 모르는 당신에 대한 한 가지는?</span><br>A: 계절과 상관없이 잘때는 발과 귀를 꼭 따뜻하게 해야된다.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 여러가지 어려움들을 (육체적, 심리적, 재정적 등등) 극복한 사람들의 삶을 통해 많은 영감과 희망을<br> 얻는다.<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 세상을 알차게, 후회없이 사는 것 – 끊이지 않는 도전.</p><h4 id='mainButton' onclick='showSarah();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioSarah();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var SarahQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSarahQA();return false;'><h3 id='profileHeadBio'>SARAH SIN   |   신영은</h3><p id='profileQuestions1'><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would withdraw all of my cash and give food and allowance to the homeless,<br> enjoy the most delicious meal with my loved ones, and attend church service to<br> look back on my life before the \“end\”.<br><br><span id='question'>Q: The word/phrase you say the most?</span><br>A: No problem! & Thank you! (in speech) Fighting! (in messages)<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: Soundcloud for its dynamic gathering of musical talents and Instagram for<br> its beautiful images and interesting storytelling.<br><br><span id='question'>Q: Something that your friends do not know about you?</span><br>A: Regardless of the season, I always need to keep my toes covered and ears<br> warm when I sleep.<br><br><span id='question'>Q: Inspiration?</span><br>A: I am inspired by those who have overcome adversity: whether it be physical,<br> emotional, or financial.<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Living life to the fullest. An ongoing challenge!</p><p id='profileQuestions2'><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 내 통장에 있는 모든 돈을 뽑아서 길 거리에 있는 노숙자들에게 배불이 먹을 양식과 그들 또한 마지막<br>을 즐길 용돈을 나눠주고 내가 제일 사랑하는 사람들과 세상에서 제일 맛있는 음식을 먹고, 교회에서 예<br>배를 드리면서 나의 인생을 돌아보고 마지막을 준비한다.<br><br><span id='question'>Q: 하루중 가장 많이 하는 말은?</span><br>A: No problem! & 고마워요! (말할때) / 파이팅! (문자)<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 다양한 사람들의 음악과 재능을 들을수 있는 Soundcloud와 아름다운 사진들이 전해주는 독특한<br> 이야기 공간인 인스타그램을 자주 사용한다.<br><br><span id='question'>Q: 친구들이 잘 모르는 당신에 대한 한 가지는?</span><br>A: 계절과 상관없이 잘때는 발과 귀를 꼭 따뜻하게 해야된다.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 여러가지 어려움들을 (육체적, 심리적, 재정적 등등) 극복한 사람들의 삶을 통해 많은 영감과 희망을<br> 얻는다.<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 세상을 알차게, 후회없이 사는 것 – 끊이지 않는 도전.</p><h4 id='mainButton' onclick='showSarah();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioSarah();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var SarahQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSarah();return false;'><h3 id='profileHeadBio'>SARAH SIN   |   신영은</h3><p id='profileQuestions1'><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would withdraw all of my cash and give food and allowance to the homeless,<br> enjoy the most delicious meal with my loved ones, and attend church service to<br> look back on my life before the \“end\”.<br><br><span id='question'>Q: The word/phrase you say the most?</span><br>A: No problem! & Thank you! (in speech) Fighting! (in messages)<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: Soundcloud for its dynamic gathering of musical talents and Instagram for<br> its beautiful images and interesting storytelling.<br><br><span id='question'>Q: Something that your friends do not know about you?</span><br>A: Regardless of the season, I always need to keep my toes covered and ears<br> warm when I sleep.<br><br><span id='question'>Q: Inspiration?</span><br>A: I am inspired by those who have overcome adversity: whether it be physical,<br> emotional, or financial.<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Living life to the fullest. An ongoing challenge!</p><p id='profileQuestions2'><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 내 통장에 있는 모든 돈을 뽑아서 길 거리에 있는 노숙자들에게 배불이 먹을 양식과 그들 또한 마지막<br>을 즐길 용돈을 나눠주고 내가 제일 사랑하는 사람들과 세상에서 제일 맛있는 음식을 먹고, 교회에서 예<br>배를 드리면서 나의 인생을 돌아보고 마지막을 준비한다.<br><br><span id='question'>Q: 하루중 가장 많이 하는 말은?</span><br>A: No problem! & 고마워요! (말할때) / 파이팅! (문자)<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 다양한 사람들의 음악과 재능을 들을수 있는 Soundcloud와 아름다운 사진들이 전해주는 독특한<br> 이야기 공간인 인스타그램을 자주 사용한다.<br><br><span id='question'>Q: 친구들이 잘 모르는 당신에 대한 한 가지는?</span><br>A: 계절과 상관없이 잘때는 발과 귀를 꼭 따뜻하게 해야된다.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 여러가지 어려움들을 (육체적, 심리적, 재정적 등등) 극복한 사람들의 삶을 통해 많은 영감과 희망을<br> 얻는다.<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 세상을 알차게, 후회없이 사는 것 – 끊이지 않는 도전.</p><h4 id='mainButton' onclick='showSarah();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioSarah();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ****
 
 // ***Ryan
@@ -197,6 +197,68 @@ var AmyBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='close
 
 var AmyQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAmyQA();return false;'><h3 id='profileHeadBio'>AMY YOO   |   유채영</h3><p id='profileQuestions1'><span id='question'>Q: Inspirational Film?</span><br>A: 200 Pounds Beauty because I like its message that no matter how beautiful<br> you are on the outside, the inside is what counts.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: I really want to go to Venice, Italy<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: Nowadays an app called MOCI. I can interact with other people and my<br> network and can ask for advice or suggestions and share stories.<br><br><span id='question'>Q: Perfect Day?</span><br>A: A day when I don’t have to go to work and can just stay at home with a cup of<br> coffee and relax on my bed watching Korean dramas and show programs all<br> day.</p><p id='profileQuestions2'><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 미녀는 괴로워. 아무리 외면이 예뻐도 사람의 내면이 가장 중요하다는 메세지가 마음에 들어서.<br><br><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 이탈리아 베니스에 꼭 가고 싶어요.<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 요즘엔 모씨라는 어플. 사람들과 익명으로 소통하고 조언도 구하고 스토리도 공유한다는게 마음에 들<br>어요.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 일 안하고 커피한잔의 여유를 가지며 침대에서 뒹굴거리면서 한국 드라마와 쇼프로 하루종일 보기.</p><h4 id='mainButton' onclick='showAmy();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioAmy();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 var AmyQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAmy();return false;'><h3 id='profileHeadBio'>AMY YOO   |   유채영</h3><p id='profileQuestionsShort1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Elephant & Castle<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: I find Zio, hold him and sleep for five more minutes.<br><br><span id='question'>Q: The word/phrase you say the most?</span><br>A: zi~o~~~ zio~~~ z • i • o!!!!!!!!!!!!<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Exercising every day</p><p id='profileQuestionsShort2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Elephant & Castle<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: 지오찾아 안고 오분만 더자기.<br><br><span id='question'>Q: 하루중 가장 많이 하는 말은?</span><br>A: 지~오~~~ 지오~~~ ㅈㅣㅇㅗ!!!!<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 매일 운동하기.</p><h4 id='mainButton' onclick='showAmy();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioAmy();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+// ***
+
+
+// ***creative**
+var creativeIn="<div id='teamContent' class='animated slideInRight' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='creativeTeamOut();return false;'><img id='forwardArrow' src = '/assets/forwardArrow.png' onclick='creative1();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><div class='memeberOne'><div id='creativeMemberOnePic' onclick='showProfileRichard();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberTwoPic' onclick='showProfileAngie();return false;'></div></div><div class='memeberThree'><div id='creativeMemberThreePic' onclick='showProfileHyoBee();return false;'></div></div></div>";
+var creativeIn1="<div id='teamContent' class='animated slideInRight' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='creativeTeamOut1();return false;'><img id='forwardArrow' src = '/assets/forwardArrow.png' onclick='creative2();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><div class='memeberOne'><div id='creativeMemberFourPic' onclick='showProfileSam();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberFivePic' onclick='showProfileBella();return false;'></div></div><div class='memeberThree'><div id='creativeMemberSixPic' onclick='showProfileEunSung();return false;'></div></div></div>";
+var creativeIn1a="<div id='teamContent' class='animated slideInRight' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='creativeTeamOut2();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><div class='memeberOne'><div id='creativeMemberSevenPic' onclick='showProfileSeung();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberEightPic' onclick='showProfileWhitney();return false;'></div></div></div>";
+
+var creativeIn2="<div id='teamContent' class='animated slideInLeft' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='creativeTeamOut();return false;'><img id='forwardArrow' src = '/assets/forwardArrow.png' onclick='creative1();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><div class='memeberOne'><div id='creativeMemberOnePic' onclick='showProfileRichard();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberTwoPic' onclick='showProfileAngie();return false;'></div></div><div class='memeberThree'><div id='creativeMemberThreePic' onclick='showProfileHyoBee();return false;'></div></div></div>";
+var creativeIn3="<div id='teamContent' class='animated slideInLeft' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='creativeTeamOut1();return false;'><img id='forwardArrow' src = '/assets/forwardArrow.png' onclick='creative2();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><div class='memeberOne'><div id='creativeMemberFourPic' onclick='showProfileSam();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberFivePic' onclick='showProfileBella();return false;'></div></div><div class='memeberThree'><div id='creativeMemberSixPic' onclick='showProfileEunSung();return false;'></div></div></div>";
+
+var creativeOut="<div id='teamContent' class='animated slideOutRight' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='creativeTeamOut();return false;'><img id='forwardArrow' src = '/assets/forwardArrow.png' onclick='creative1();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><div class='memeberOne'><div id='creativeMemberOnePic'></div></div><div class='memeberTwo'><div id='creativeMemberTwoPic'></div></div><div class='memeberThree'><div id='creativeMemberThreePic'></div></div></div>";
+var creativeOut1="<div id='teamContent' class='animated slideOutLeft' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='creativeTeamOut();return false;'><img id='forwardArrow' src = '/assets/forwardArrow.png' onclick='creative1();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><div class='memeberOne'><div id='creativeMemberOnePic'></div></div><div class='memeberTwo'><div id='creativeMemberTwoPic'></div></div><div class='memeberThree'><div id='creativeMemberThreePic'></div></div></div>";
+var creativeOut2="<div id='teamContent' class='animated slideOutRight' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='creativeTeamOut1();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><div class='memeberOne'><div id='creativeMemberFourPic'></div></div><div class='memeberTwo'><div id='creativeMemberFivePic'></div></div><div class='memeberThree'><div id='creativeMemberSixPic'></div></div></div>";
+var creativeOut3="<div id='teamContent' class='animated slideOutLeft' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='creativeTeamOut1();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><div class='memeberOne'><div id='creativeMemberFourPic'></div></div><div class='memeberTwo'><div id='creativeMemberFivePic'></div></div><div class='memeberThree'><div id='creativeMemberSixPic'></div></div></div>";
+var creativeOut4="<div id='teamContent' class='animated slideOutRight' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='creativeTeamOut1();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><div class='memeberOne'><div id='creativeMemberSevenPic'></div></div><div class='memeberTwo'><div id='creativeMemberEightPic'></div></div></div>";
+var creativeOut5="<div id='teamContent' class='animated slideOutLeft' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='creativeTeamOut1();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><div class='memeberOne'><div id='creativeMemberSevenPic'></div></div><div class='memeberTwo'><div id='creativeMemberEightPic'></div></div></div>";
+
+
+var creativeOutForProfile="<div id='teamContent' class='animated slideOutDown' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='creativeTeamOut();return false;'><img id='forwardArrow' src = '/assets/forwardArrow.png' onclick='creative1();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><div class='memeberOne'><div id='creativeMemberOnePic'></div></div><div class='memeberTwo'><div id='creativeMemberTwoPic'></div></div><div class='memeberThree'><div id='creativeMemberThreePic'></div></div></div>";
+var creativeInFromProfile="<div id='teamContent' class='animated slideInUp' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='creativeTeamOut();return false;'><img id='forwardArrow' src = '/assets/forwardArrow.png' onclick='creative1();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><div class='memeberOne'><div id='creativeMemberOnePic' onclick='showProfileRichard();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberTwoPic' onclick='showProfileAngie();return false;'></div></div><div class='memeberThree'><div id='creativeMemberThreePic' onclick='showProfileHyoBee();return false;'></div></div></div>";
+var creative1OutForProfile="<div id='teamContent' class='animated slideOutDown' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='creativeTeamOut1();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><div class='memeberOne'><div id='creativeMemberFourPic' onclick='showProfileSam();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberFivePic' onclick='showProfileBella();return false;'></div></div><div class='memeberThree'><div id='creativeMemberSixPic' onclick='showProfileEunSung();return false;'></div></div></div>";
+var creative1InFromProfile="<div id='teamContent' class='animated slideInUp' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='creativeTeamOut1();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><div class='memeberOne'><div id='creativeMemberFourPic' onclick='showProfileSam();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberFivePic' onclick='showProfileBella();return false;'></div></div><div class='memeberThree'><div id='creativeMemberSixPic' onclick='showProfileEunSung();return false;'></div></div></div>";
+var creative2OutForProfile="<div id='teamContent' class='animated slideOutDown' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='creativeTeamOut2();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><div class='memeberOne'><div id='creativeMemberSevenPic' onclick='showProfileSeung();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberEightPic' onclick='showProfileWhitney();return false;'></div></div></div>";
+var creative2InFromProfile="<div id='teamContent' class='animated slideInUp' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='creativeTeamOut2();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><div class='memeberOne'><div id='creativeMemberSevenPic' onclick='showProfileSeung();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberEightPic' onclick='showProfileWhitney();return false;'></div></div></div>";
+
+// ***Richard
+var RichardIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRichard();return false;'><img id='profilePic' src = '/assets/RichardShimBig.png'><h3 id='profileHead'>RICHARD SHIM   |   심민중</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, CREATIVE<br>Industry: ARCHITECTURE<br>Email: minjoong@moimnewyork.com<br><br>MOTTO: Take the slower but more rewarding path.<br>모토: 조금 느리더라도 보람있는 길을 택하라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioRichard();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQARichard();return false;'>FUN FACTS</h4></div>";
+var RichardOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRichard();return false;'><img id='profilePic' src = '/assets/RichardShimBig.png'><h3 id='profileHead'>RICHARD SHIM   |   심민중</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, CREATIVE<br>Industry: ARCHITECTURE<br>Email: minjoong@moimnewyork.com<br><br>MOTTO: Take the slower but more rewarding path.<br>모토: 조금 느리더라도 보람있는 길을 택하라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioRichard();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQARichard();return false;'>FUN FACTS</h4></div>";
+var RichardFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRichard();return false;'><img id='profilePic' src = '/assets/RichardShimBig.png'><h3 id='profileHead'>RICHARD SHIM   |   심민중</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, CREATIVE<br>Industry: ARCHITECTURE<br>Email: minjoong@moimnewyork.com<br><br>MOTTO: Take the slower but more rewarding path.<br>모토: 조금 느리더라도 보람있는 길을 택하라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioRichard();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQARichard();return false;'>FUN FACTS</h4></div>";
+
+var RichardBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRichardBio();return false;'><h3 id='profileHeadBio'>RICHARD SHIM   |   심민중</h3><p id='profileBio'>Richard is currently an architectural designer at Ewingcole. He graduated from Trinity College majoring in Studio Art and Architectural Studies. He continued to create<br> art during his fellowship at Trinity, focusing on metal sculpting before studying architecture at the University of Pennsylvania. While in graduate school, Richard served<br> as president for the Penn Korean Graduate Student Association and Korean Architecture Student Association. Richard has also studied abroad in Copenhagen, Denmark<br> for architecture. Aside from designing buildings, Richard also enjoys traveling, singing, and DJ’ing.<br><br>현재 EwingCole 건축사무소에서 건축가로 근무중이다. 2010년 트리니티 대학에서 미술을 전공하면서 조각 연구장학생으로 1년간 트리니티에서 연구하기도 하였다.<br>2014년 펜실베니아대학교 펜디자인 대학원 건축석사학위를 취득하였고, 재학중에 대학원 한인 학생회, 펜디자인 한인학생회 회장으로 활동하였다. 대학시절 덴마크 코펜하겐에서 건축 공부를 한 경험도 있다.</p><h4 id='mainButton' onclick='showRichard();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQARichard();return false;'>FUN FACTS</h4></div>";
+var RichardBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRichard();return false;'><h3 id='profileHeadBio'>RICHARD SHIM   |   심민중</h3><p id='profileBio'>Richard is currently an architectural designer at Ewingcole. He graduated from Trinity College majoring in Studio Art and Architectural Studies. He continued to create<br> art during his fellowship at Trinity, focusing on metal sculpting before studying architecture at the University of Pennsylvania. While in graduate school, Richard served<br> as president for the Penn Korean Graduate Student Association and Korean Architecture Student Association. Richard has also studied abroad in Copenhagen, Denmark<br> for architecture. Aside from designing buildings, Richard also enjoys traveling, singing, and DJ’ing.<br><br>현재 EwingCole 건축사무소에서 건축가로 근무중이다. 2010년 트리니티 대학에서 미술을 전공하면서 조각 연구장학생으로 1년간 트리니티에서 연구하기도 하였다.<br>2014년 펜실베니아대학교 펜디자인 대학원 건축석사학위를 취득하였고, 재학중에 대학원 한인 학생회, 펜디자인 한인학생회 회장으로 활동하였다. 대학시절 덴마크 코펜하겐에서 건축 공부를 한 경험도 있다.</p><h4 id='mainButton' onclick='showRichard();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQARichard();return false;'>FUN FACTS</h4></div>";
+
+var RichardQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRichardQA();return false;'><h3 id='profileHeadBio'>RICHARD SHIM   |   심민중</h3><p id='profileQuestions1'><span id='question'>Q: Dream Vacation?</span><br>A: Rome, Italy<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Cedar Rapids because it is a calm, funny and down-to-earth American<br> comedy.<br><br><span id='question'>Q: Perfect Day?</span><br>A: Sipping on an espresso in front of the San Quattro Fontane in Rome.<br><br><span id='question'>Q: Inspiration?</span><br>A: Simple people who work hard every day</p><p id='profileQuestions2'><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 로마<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 시더 래피즈. 조금 유치하지만 미국적이고 차분한 코메디 영화.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 로마의 산 카를로 알레 콰트로 폰타네 성당 앞에서 커피 한잔.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 매일 열심히 일하는 일반인들.</p><h4 id='mainButton' onclick='showRichard();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioRichard();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var RichardQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRichard();return false;'><h3 id='profileHeadBio'>RICHARD SHIM   |   심민중</h3><p id='profileQuestions1'><span id='question'>Q: Dream Vacation?</span><br>A: Rome, Italy<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Cedar Rapids because it is a calm, funny and down-to-earth American<br> comedy.<br><br><span id='question'>Q: Perfect Day?</span><br>A: Sipping on an espresso in front of the San Quattro Fontane in Rome.<br><br><span id='question'>Q: Inspiration?</span><br>A: Simple people who work hard every day</p><p id='profileQuestions2'><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 로마<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 시더 래피즈. 조금 유치하지만 미국적이고 차분한 코메디 영화.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 로마의 산 카를로 알레 콰트로 폰타네 성당 앞에서 커피 한잔.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 매일 열심히 일하는 일반인들.</p><h4 id='mainButton' onclick='showRichard();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioRichard();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+// ****
+
+// ***Angie
+var AngieIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAngie();return false;'><img id='profilePic' src = '/assets/AngieHongBig.png'><h3 id='profileHead'>ANGIE HONG   |   홍은지</h3><h5 id='profileStat'>Title in MOI’M: DESIGNER<br>Industry: ARCHITECTURE & GRAPHIC DESIGN<br><br>MOTTO: When life doesn’t go right, go left.<br>모토: 막힌 길은 돌아가라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioAngie();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAAngie();return false;'>FUN FACTS</h4></div>";
+var AngieOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAngie();return false;'><img id='profilePic' src = '/assets/AngieHongBig.png'><h3 id='profileHead'>ANGIE HONG   |   홍은지</h3><h5 id='profileStat'>Title in MOI’M: DESIGNER<br>Industry: ARCHITECTURE & GRAPHIC DESIGN<br><br>MOTTO: When life doesn’t go right, go left.<br>모토: 막힌 길은 돌아가라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioAngie();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAAngie();return false;'>FUN FACTS</h4></div>";
+var AngieFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAngie();return false;'><img id='profilePic' src = '/assets/AngieHongBig.png'><h3 id='profileHead'>ANGIE HONG   |   홍은지</h3><h5 id='profileStat'>Title in MOI’M: DESIGNER<br>Industry: ARCHITECTURE & GRAPHIC DESIGN<br><br>MOTTO: When life doesn’t go right, go left.<br>모토: 막힌 길은 돌아가라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioAngie();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAAngie();return false;'>FUN FACTS</h4></div>";
+
+var AngieBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAngieBio();return false;'><h3 id='profileHeadBio'>ANGIE HONG   |   홍은지</h3><p id='profileBio'>Angie Hong graduated from the University of Pennsylvania, PennDesign in 2015 and currently works as a Junior Architect in New York.<br>Angie received her B.S. in Management from SUNY Binghamton, with a minor in Fine Arts. She loves traveling and has many working experiences in different countries.<br>Although her background is architecture, she loves every design-related field, such as furniture design, interior design, product design, and fashion design.<br><br>2015년 펜실베니아 대학교 건축과 대학원을 졸업. 현재 뉴욕에서 Junior Architect로 근무중. 학부는 뉴욕주립대학교에서 비지니스 전공 & 미술 부전공.<br>여행을 좋아해서 학부와 대학원시절 다양한 나라에서 인턴 경험. 건축뿐만 아니라 가구 디자인, 인테리어 디자인, 제품 디자인, 패션 디자인 등 디자인에 관련된 다양한 분야에 관심이 많음.</p><h4 id='mainButton' onclick='showAngie();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAAngie();return false;'>FUN FACTS</h4></div>";
+var AngieBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAngie();return false;'><h3 id='profileHeadBio'>ANGIE HONG   |   홍은지</h3><p id='profileBio'>Angie Hong graduated from the University of Pennsylvania, PennDesign in 2015 and currently works as a Junior Architect in New York.<br>Angie received her B.S. in Management from SUNY Binghamton, with a minor in Fine Arts. She loves traveling and has many working experiences in different countries.<br>Although her background is architecture, she loves every design-related field, such as furniture design, interior design, product design, and fashion design.<br><br>2015년 펜실베니아 대학교 건축과 대학원을 졸업. 현재 뉴욕에서 Junior Architect로 근무중. 학부는 뉴욕주립대학교에서 비지니스 전공 & 미술 부전공.<br>여행을 좋아해서 학부와 대학원시절 다양한 나라에서 인턴 경험. 건축뿐만 아니라 가구 디자인, 인테리어 디자인, 제품 디자인, 패션 디자인 등 디자인에 관련된 다양한 분야에 관심이 많음.</p><h4 id='mainButton' onclick='showAngie();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAAngie();return false;'>FUN FACTS</h4></div>";
+
+var AngieQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAngieQA();return false;'><h3 id='profileHeadBio'>ANGIE HONG   |   홍은지</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Rockin’ Raw. The best raw vegan restaurant with good service and a great<br> location.<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: The first thing I do when I open my eyes in the morning is eat breakfast.<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: Google Maps because I have no sense of direction.<br><br><span id='question'>Q: Celebrity Look-alike?</span><br>A: I’ve heard that I look like Jung Ilwoo and Lee Ji Ah. I guess Jung Ilwoo + Lee Ji<br> Ah = what…? :(</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Rockin’ Raw. 좋은 위치에 있고 훌륭한 서비스를 자랑하는 곳. 생식 위주의 엄격한 채식주의 레스토<br>랑으로 웰빙을 지향하는 사람들에게 최고를 선사한다.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: ‘눈뜨자마자’ 아침 먹어요.<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 구글맵 – 길치에게 필수앱.<br><br><span id='question'>Q: 닮은꼴 연예인?</span><br>A: 예쁜남자 정일우랑 여배우 이지아 닮았다는 소리를 들어봤어요. 아마 둘을 합친것이 저와 비슷한가 봅<br>니다…</p><h4 id='mainButton' onclick='showAngie();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioAngie();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var AngieQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAngie();return false;'><h3 id='profileHeadBio'>ANGIE HONG   |   홍은지</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Rockin’ Raw. The best raw vegan restaurant with good service and a great<br> location.<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: The first thing I do when I open my eyes in the morning is eat breakfast.<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: Google Maps because I have no sense of direction.<br><br><span id='question'>Q: Celebrity Look-alike?</span><br>A: I’ve heard that I look like Jung Ilwoo and Lee Ji Ah. I guess Jung Ilwoo + Lee Ji<br> Ah = what…? :(</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Rockin’ Raw. 좋은 위치에 있고 훌륭한 서비스를 자랑하는 곳. 생식 위주의 엄격한 채식주의 레스토<br>랑으로 웰빙을 지향하는 사람들에게 최고를 선사한다.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: ‘눈뜨자마자’ 아침 먹어요.<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 구글맵 – 길치에게 필수앱.<br><br><span id='question'>Q: 닮은꼴 연예인?</span><br>A: 예쁜남자 정일우랑 여배우 이지아 닮았다는 소리를 들어봤어요. 아마 둘을 합친것이 저와 비슷한가 봅<br>니다…</p><h4 id='mainButton' onclick='showAngie();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioAngie();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+// ****
+
+// ***HyoBee
+var HyoBeeIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHyoBee();return false;'><img id='profilePic' src = '/assets/HyobeeKimBig.png'><h3 id='profileHead'>HYOBEE KIM   |   김효비</h3><h5 id='profileStat'>Title in MOI’M: DESIGNER<br>Industry: ADVERTISING<br><br>MOTTO: Don’t limit yourself – Mary Kay Ash<br>모토: 스스로를 제한하지 말라 – 메리 케이 애시</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioHyoBee();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAHyoBee();return false;'>FUN FACTS</h4></div>";
+var HyoBeeOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHyoBee();return false;'><img id='profilePic' src = '/assets/HyobeeKimBig.png'><h3 id='profileHead'>HYOBEE KIM   |   김효비</h3><h5 id='profileStat'>Title in MOI’M: DESIGNER<br>Industry: ADVERTISING<br><br>MOTTO: Don’t limit yourself – Mary Kay Ash<br>모토: 스스로를 제한하지 말라 – 메리 케이 애시</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioHyoBee();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAHyoBee();return false;'>FUN FACTS</h4></div>";
+var HyoBeeFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHyoBee();return false;'><img id='profilePic' src = '/assets/HyobeeKimBig.png'><h3 id='profileHead'>HYOBEE KIM   |   김효비</h3><h5 id='profileStat'>Title in MOI’M: DESIGNER<br>Industry: ADVERTISING<br><br>MOTTO: Don’t limit yourself – Mary Kay Ash<br>모토: 스스로를 제한하지 말라 – 메리 케이 애시</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioHyoBee();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAHyoBee();return false;'>FUN FACTS</h4></div>";
+
+var HyoBeeBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHyoBeeBio();return false;'><h3 id='profileHeadBio'>HYOBEE KIM   |   김효비</h3><p id='profileBio'>Hyobee Kim is a Junior Art Director at Erwin Penland Advertising Agency in New York City. A graduate from the School of Visual Arts in 2013 for advertising,<br>Hyobee was the Director of Event Planning for the SVA Korean International Student Association. Personality wise,<br>Hyobee is an optimistic and experimental person who loves interactive advertising.<br><br>현재 Erwin Penland 라는 Advertising agency에서 Jr. Art Director로 활동하고있는 사회 새내기. 토론토에 있는 예술특목고 재학당시 더 크고 넓은 크리에이티브 세계를 꿈꾸며<br>2013년에 School of Visual Arts 광고과 졸업. 대학교 재학당시 SVA KISA (한인학생회) 1기로 시작하여 기획부장으로 활동함. SVAD (학교내 광고동아리), KANA (뉴욕한인예술연합) 를 거쳐<br>현재는 MOI’M에 합류하게 됨. 인터렉티브광고에 관심이 많고, 새로운것들을 시도하거나 보고 느끼는것을 좋아하며, 자연을 즐기고 요리가 취미인 초긍정주의자임.</p><h4 id='mainButton' onclick='showHyoBee();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAHyoBee();return false;'>FUN FACTS</h4></div>";
+var HyoBeeBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHyoBee();return false;'><h3 id='profileHeadBio'>HYOBEE KIM   |   김효비</h3><p id='profileBio'>Hyobee Kim is a Junior Art Director at Erwin Penland Advertising Agency in New York City. A graduate from the School of Visual Arts in 2013 for advertising,<br>Hyobee was the Director of Event Planning for the SVA Korean International Student Association. Personality wise,<br>Hyobee is an optimistic and experimental person who loves interactive advertising.<br><br>현재 Erwin Penland 라는 Advertising agency에서 Jr. Art Director로 활동하고있는 사회 새내기. 토론토에 있는 예술특목고 재학당시 더 크고 넓은 크리에이티브 세계를 꿈꾸며<br>2013년에 School of Visual Arts 광고과 졸업. 대학교 재학당시 SVA KISA (한인학생회) 1기로 시작하여 기획부장으로 활동함. SVAD (학교내 광고동아리), KANA (뉴욕한인예술연합) 를 거쳐<br>현재는 MOI’M에 합류하게 됨. 인터렉티브광고에 관심이 많고, 새로운것들을 시도하거나 보고 느끼는것을 좋아하며, 자연을 즐기고 요리가 취미인 초긍정주의자임.</p><h4 id='mainButton' onclick='showHyoBee();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAHyoBee();return false;'>FUN FACTS</h4></div>";
+
+var HyoBeeQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHyoBeeQA();return false;'><h3 id='profileHeadBio'>HYOBEE KIM   |   김효비</h3><p id='profileQuestions1'><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: (If 100% certain) After having a long phone call with loved ones, I would take<br> sleeping pills and go into a deep sleep. (If 90% certain) After having a long<br> phone call with loved ones, with 1% of hope I would go into an underground<br> shelter with food and necessities.<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: After quickly calculating how much longer I can sleep, I go back to sleep.<br><br><span id='question'>Q: Something that your friends do not know about you?</span><br>A: It’s a secret.<br><br><span id='question'>Q: Inspiration?</span><br>A: Everything in the world.</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Martha’s Bakery – Very Berry Napoleon은 정말 최고임. 뉴욕에 3곳밖에 없어서 그런지 사<br>람들이 잘 모른다. 구지 이걸 먹으러 N,Q 종점까지 가야한다는건 비밀. 그렇지만 한번 중독되면 이것만<br> 사먹게 된다는건 안비밀.<br><br><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: (지구가 꼭. 100% 종말한다는 전제하에) 내 소중한 사람들과 길고 긴 전화통화를 한뒤, 미리 수면제<br>를 잔뜩먹고 잠에들겠다. (지구가 99% 종말한다는 전제하에) 마찬가지로 내 소중한 사람들과 길고 긴<br> 전화통화를 한뒤, 1%의 희망을 가지고 지하벙커를 사고 식량을 가득 채워넣겠다.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: 얼마나 더 잘수있는지 빠른계산을 한뒤 다시잔다.<br><br><span id='question'>Q: 친구들이 잘 모르는 당신에 대한 한 가지는?</span><br>A: 비밀.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 지구안에 모든것.</p><h4 id='mainButton' onclick='showHyoBee();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioHyoBee();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var HyoBeeQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHyoBee();return false;'><h3 id='profileHeadBio'>HYOBEE KIM   |   김효비</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Rockin’ Raw. The best raw vegan restaurant with good service and a great<br> location.<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: The first thing I do when I open my eyes in the morning is eat breakfast.<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: Google Maps because I have no sense of direction.<br><br><span id='question'>Q: Celebrity Look-alike?</span><br>A: I’ve heard that I look like Jung Ilwoo and Lee Ji Ah. I guess Jung Ilwoo + Lee Ji<br> Ah = what…? :(</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Rockin’ Raw. 좋은 위치에 있고 훌륭한 서비스를 자랑하는 곳. 생식 위주의 엄격한 채식주의 레스토<br>랑으로 웰빙을 지향하는 사람들에게 최고를 선사한다.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: ‘눈뜨자마자’ 아침 먹어요.<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 구글맵 – 길치에게 필수앱.<br><br><span id='question'>Q: 닮은꼴 연예인?</span><br>A: 예쁜남자 정일우랑 여배우 이지아 닮았다는 소리를 들어봤어요. 아마 둘을 합친것이 저와 비슷한가 봅<br>니다…</p><h4 id='mainButton' onclick='showHyoBee();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioHyoBee();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+// ****
+
 // ***
 
 var sensor = false;
@@ -661,6 +723,177 @@ function showAmy(){
 }
 // ***
 
+// **Richard - creative
+function showProfileRichard(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(creativeOutForProfile);
+}, 0);
+	setTimeout(function() {
+	$('body').append(RichardIn);	
+    }, 0);
+}
+
+function profileOutRichard(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(RichardOut);
+}, 0);
+	setTimeout(function() {
+	$('body').append(creativeInFromProfile);	
+    }, 0);
+}
+
+function profileOutRichardBio(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(RichardBioOut);
+}, 0);
+	setTimeout(function() {
+	$('body').append(creativeInFromProfile);	
+    }, 0);
+}
+
+function profileOutRichardQA(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(RichardQAOut);
+}, 0);
+	setTimeout(function() {
+	$('body').append(creativeInFromProfile);	
+    }, 0);
+}
+
+function showBioRichard(){
+	$('#teamContent').remove();
+	$('body').append(RichardBio);	
+}
+
+function showQARichard(){
+	$('#teamContent').remove();
+	$('body').append(RichardQA);	
+}
+
+function showRichard(){
+	$('#teamContent').remove();
+	$('body').append(RichardFadeIn);
+}
+// ***
+
+// **Angie - creative
+function showProfileAngie(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(creativeOutForProfile);
+}, 0);
+	setTimeout(function() {
+	$('body').append(AngieIn);	
+    }, 0);
+}
+
+function profileOutAngie(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(AngieOut);
+}, 0);
+	setTimeout(function() {
+	$('body').append(creativeInFromProfile);	
+    }, 0);
+}
+
+function profileOutAngieBio(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(AngieBioOut);
+}, 0);
+	setTimeout(function() {
+	$('body').append(creativeInFromProfile);	
+    }, 0);
+}
+
+function profileOutAngieQA(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(AngieQAOut);
+}, 0);
+	setTimeout(function() {
+	$('body').append(creativeInFromProfile);	
+    }, 0);
+}
+
+function showBioAngie(){
+	$('#teamContent').remove();
+	$('body').append(AngieBio);	
+}
+
+function showQAAngie(){
+	$('#teamContent').remove();
+	$('body').append(AngieQA);	
+}
+
+function showAngie(){
+	$('#teamContent').remove();
+	$('body').append(AngieFadeIn);
+}
+// ***
+
+// **HyoBee - creative
+function showProfileHyoBee(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(creativeOutForProfile);
+}, 0);
+	setTimeout(function() {
+	$('body').append(HyoBeeIn);	
+    }, 0);
+}
+
+function profileOutHyoBee(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(HyoBeeOut);
+}, 0);
+	setTimeout(function() {
+	$('body').append(creativeInFromProfile);	
+    }, 0);
+}
+
+function profileOutHyoBeeBio(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(HyoBeeBioOut);
+}, 0);
+	setTimeout(function() {
+	$('body').append(creativeInFromProfile);	
+    }, 0);
+}
+
+function profileOutHyoBeeQA(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(HyoBeeQAOut);
+}, 0);
+	setTimeout(function() {
+	$('body').append(creativeInFromProfile);	
+    }, 0);
+}
+
+function showBioHyoBee(){
+	$('#teamContent').remove();
+	$('body').append(HyoBeeBio);	
+}
+
+function showQAHyoBee(){
+	$('#teamContent').remove();
+	$('body').append(HyoBeeQA);	
+}
+
+function showHyoBee(){
+	$('#teamContent').remove();
+	$('body').append(HyoBeeFadeIn);
+}
+// ***
+
 // ******
 
 
@@ -747,6 +980,69 @@ function eventTeamOut1(){
 }, 10);
 	setTimeout(function() {
 	$('body').append(eventsIn2);	
+    }, 0);
+}
+// *****
+
+// ***creative
+
+function creative(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(teamOut);
+}, 10);
+	setTimeout(function() {
+	$('body').append(creativeIn);	
+    }, 0);
+}
+
+function creative1(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(creativeOut1);
+}, 10);
+	setTimeout(function() {
+	$('body').append(creativeIn1);	
+    }, 0);
+}
+
+function creative2(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(creativeOut3);
+}, 10);
+	setTimeout(function() {
+	$('body').append(creativeIn1a);	
+    }, 0);
+}
+
+function creativeTeamOut(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(creativeOut);
+}, 10);
+	setTimeout(function() {
+	$('body').append(teamIn);	
+    }, 0);
+}
+
+function creativeTeamOut1(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(creativeOut2);
+}, 10);
+	setTimeout(function() {
+	$('body').append(creativeIn2);	
+    }, 0);
+}
+
+function creativeTeamOut2(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(creativeOut4);
+}, 10);
+	setTimeout(function() {
+	$('body').append(creativeIn3);	
     }, 0);
 }
 // *****
