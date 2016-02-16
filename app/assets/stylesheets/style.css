@@ -119,8 +119,10 @@
         /* positioning */ 
             /*display:block;*/
         /* styling: */
-            
-            padding:32px 9px;
+            padding-top:32px;
+            padding-bottom:15px;
+            padding-left:9px;
+            padding-right:9px;
             text-decoration:none;
             color:white; 
             /*text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;*/

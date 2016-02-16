@@ -151,10 +151,10 @@ var events1OutForProfile="<div id='teamContent' class='animated slideOutDown' on
 var events1InFromProfile="<div id='teamContent' class='animated slideInUp' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/backArrow.png' onclick='eventTeamOut1();return false;'><h2 id='leaderHeading'>EVENTS TEAM</h2><div class='memeberOne'><div id='eventsMemberFourPic' onclick='showProfileAmy();return false;'></div></div></div>";
 // ***
 
-// ***Yeong
+// ***Sarah
 var SarahIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSarah();return false;'><img id='profilePic' src = '/assets/SarahSinBig.png'><h3 id='profileHead'>SARAH SIN   |   신영은</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, EVENTS<br>Industry: FASHION PRINT DESIGN<br>Email: sarah@moimnewyork.com<br><br>MOTTO: Hold the vision, Trust the Process – Unknown<br>모토: 비전을 가지고, 방법을 신뢰하라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioSarah();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQASarah();return false;'>FUN FACTS</h4></div>";
 var SarahOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSarah();return false;'><img id='profilePic' src = '/assets/SarahSinBig.png'><h3 id='profileHead'>SARAH SIN   |   신영은</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, EVENTS<br>Industry: FASHION PRINT DESIGN<br>Email: sarah@moimnewyork.com<br><br>MOTTO: Hold the vision, Trust the Process – Unknown<br>모토: 비전을 가지고, 방법을 신뢰하라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioSarah();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQASarah();return false;'>FUN FACTS</h4></div>";
-var SarahFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSarh();return false;'><img id='profilePic' src = '/assets/SarahSinBig.png'><h3 id='profileHead'>SARAH SIN   |   신영은</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, EVENTS<br>Industry: FASHION PRINT DESIGN<br>Email: sarah@moimnewyork.com<br><br>MOTTO: Hold the vision, Trust the Process – Unknown<br>모토: 비전을 가지고, 방법을 신뢰하라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioSarah();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQASarah();return false;'>FUN FACTS</h4></div>";
+var SarahFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSarah();return false;'><img id='profilePic' src = '/assets/SarahSinBig.png'><h3 id='profileHead'>SARAH SIN   |   신영은</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, EVENTS<br>Industry: FASHION PRINT DESIGN<br>Email: sarah@moimnewyork.com<br><br>MOTTO: Hold the vision, Trust the Process – Unknown<br>모토: 비전을 가지고, 방법을 신뢰하라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioSarah();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQASarah();return false;'>FUN FACTS</h4></div>";
 
 var SarahBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSarahBio();return false;'><h3 id='profileHeadBio'>SARAH SIN   |   신영은</h3><p id='profileBio'>Sarah Sin calls Kenya her birthplace and Russia and New York her hometown. She studied Communication Design at Pratt Institute, and is currently working as a Print<br> Designer for swimwear at LF USA. Over the years she has volunteered for non-profit organizations (D2 fashion non-profit) and most recently traveled to Benin, Africa for<br> a series of teen fashion projects. Sarah is passionate about the arts, philanthropy and mission based work.<br>Side note: Sarah’s work philosophy is – get fed first and work hard.<br><br>케냐에서 태어나 러시아와 뉴욕에서 자랐으며 Pratt Institute 에서 광고 디자인 학과를 전공. 현재 스윔웨어 Print Designer 로서 활동 중. 여러 선교 및 비영리 단체활동에 꾸준히 종사해 왔으며,<br>최근 2년동안 벤닌, 아프리카 청소년 패션 프로젝트에 참여. 예술과 봉사, 자선 활동에 큰 열정을 가지고 있다.</p><h4 id='mainButton' onclick='showSarah();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQASarah();return false;'>FUN FACTS</h4></div>";
 var SarahBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSarah();return false;'><h3 id='profileHeadBio'>SARAH SIN   |   신영은</h3><p id='profileBio'>Sarah Sin calls Kenya her birthplace and Russia and New York her hometown. She studied Communication Design at Pratt Institute, and is currently working as a Print<br> Designer for swimwear at LF USA. Over the years she has volunteered for non-profit organizations (D2 fashion non-profit) and most recently traveled to Benin, Africa for<br> a series of teen fashion projects. Sarah is passionate about the arts, philanthropy and mission based work.<br>Side note: Sarah’s work philosophy is – get fed first and work hard.<br><br>케냐에서 태어나 러시아와 뉴욕에서 자랐으며 Pratt Institute 에서 광고 디자인 학과를 전공. 현재 스윔웨어 Print Designer 로서 활동 중. 여러 선교 및 비영리 단체활동에 꾸준히 종사해 왔으며,<br>최근 2년동안 벤닌, 아프리카 청소년 패션 프로젝트에 참여. 예술과 봉사, 자선 활동에 큰 열정을 가지고 있다.</p><h4 id='mainButton' onclick='showSarah();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQASarah();return false;'>FUN FACTS</h4></div>";
@@ -163,7 +163,44 @@ var SarahQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin(
 var SarahQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSarah();return false;'><h3 id='profileHeadBio'>SARAH SIN   |   신영은</h3><p id='profileQuestions1'><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would withdraw all of my cash and give food and allowance to the homeless,<br> enjoy the most delicious meal with my loved ones, and attend church service to<br> look back on my life before the \“end\”.<br><br><span id='question'>Q: The word/phrase you say the most?</span><br>A: No problem! & Thank you! (in speech) Fighting! (in messages)<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: A: Soundcloud for its dynamic gathering of musical talents and Instagram for<br> its beautiful images and interesting storytelling.<br><br><span id='question'>Q: Something that your friends do not know about you?</span><br>A: Regardless of the season, I always need to keep my toes covered and ears<br> warm when I sleep.<br><br><span id='question'>Q: Inspiration?</span><br>A: I am inspired by those who have overcome adversity: whether it be physical,<br> emotional, or financial.<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Living life to the fullest. An ongoing challenge!</p><p id='profileQuestions2'><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 내 통장에 있는 모든 돈을 뽑아서 길 거리에 있는 노숙자들에게 배불이 먹을 양식과 그들 또한 마지막<br>을 즐길 용돈을 나눠주고 내가 제일 사랑하는 사람들과 세상에서 제일 맛있는 음식을 먹고, 교회에서 예<br>배를 드리면서 나의 인생을 돌아보고 마지막을 준비한다.<br><br><span id='question'>Q: 하루중 가장 많이 하는 말은?</span><br>A: No problem! & 고마워요! (말할때) / 파이팅! (문자)<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 다양한 사람들의 음악과 재능을 들을수 있는 Soundcloud와 아름다운 사진들이 전해주는 독특한<br> 이야기 공간인 인스타그램을 자주 사용한다.<br><br><span id='question'>Q: 친구들이 잘 모르는 당신에 대한 한 가지는?</span><br>A: 계절과 상관없이 잘때는 발과 귀를 꼭 따뜻하게 해야된다.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 여러가지 어려움들을 (육체적, 심리적, 재정적 등등) 극복한 사람들의 삶을 통해 많은 영감과 희망을<br> 얻는다.<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 세상을 알차게, 후회없이 사는 것 – 끊이지 않는 도전.</p><h4 id='mainButton' onclick='showSarah();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioSarah();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ****
 
+// ***Ryan
+var RyanIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRyan();return false;'><img id='profilePic' src = '/assets/RyanJeongBig.png'><h3 id='profileHead'>RYAN JEONG   |   정진훈</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, PROGRAM DEVELOPMENT<br>Industry: DENTISTRY<br>Email: Ryan@moimnewyork.com<br><br>MOTTO: Relax<br>모토: 릴랙스~</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioRyan();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQARyan();return false;'>FUN FACTS</h4></div>";
+var RyanOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRyan();return false;'><img id='profilePic' src = '/assets/RyanJeongBig.png'><h3 id='profileHead'>RYAN JEONG   |   정진훈</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, PROGRAM DEVELOPMENT<br>Industry: DENTISTRY<br>Email: Ryan@moimnewyork.com<br><br>MOTTO: Relax<br>모토: 릴랙스~</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioRyan();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQARyan();return false;'>FUN FACTS</h4></div>";
+var RyanFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRyan();return false;'><img id='profilePic' src = '/assets/RyanJeongBig.png'><h3 id='profileHead'>RYAN JEONG   |   정진훈</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, PROGRAM DEVELOPMENT<br>Industry: DENTISTRY<br>Email: Ryan@moimnewyork.com<br><br>MOTTO: Relax<br>모토: 릴랙스~</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioRyan();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQARyan();return false;'>FUN FACTS</h4></div>";
+
+var RyanBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRyanBio();return false;'><h3 id='profileHeadBio'>RYAN JEONG   |   정진훈</h3><p id='profileBio'>Born and raised in a beach-town of Los Angeles, Ryan Jeong first stepped on the concrete blocks of NYC in 2006 as an undergraduate student at NYU. He graduated<br> from NYU College of Dentistry in 2013, and currently works as a resident at Jersey City Medical Center in NJ. Throughout the long years of studying, Ryan depended<br> heavily on music to relieve stress and keep himself motivated. Having played in a jazz band all throughout his teenage years, Ryan absolutely loves jazz. A couple years<br> ago he found a new passion in drums which he practices every day. He currently lives with a 1 year old parakeet named 꼬몽 (Kkomong).<br><br>LA에 있는 한 바닷가 마을에서 태어나고 자랐으며, 2006년 NYU에 입학하면서 뉴욕으로 건너옴. 2013년에 NYU 치과대학을 졸업하고, 현재 뉴저지에 있는 저지시티 메디컬 센터에서 레지던트로 근무중.<br>10대 시절 재즈 밴드에서 활동하기도 하였으며, 치과대학 재학기간 동안 음악이 없이는 버틸 수 없었다고 할 정도로 재즈음악을 사랑함.<br>몇 년 전 처음 시작하여, 이제는 매일 연습하고 있는 드럼실력은 꽤나 수준급이다. 1살 된 잉꼬앵무새 ‘꼬몽’과 함께 살고 있다.</p><h4 id='mainButton' onclick='showRyan();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQARyan();return false;'>FUN FACTS</h4></div>";
+var RyanBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRyan();return false;'><h3 id='profileHeadBio'>RYAN JEONG   |   정진훈</h3><p id='profileBio'>Born and raised in a beach-town of Los Angeles, Ryan Jeong first stepped on the concrete blocks of NYC in 2006 as an undergraduate student at NYU. He graduated<br> from NYU College of Dentistry in 2013, and currently works as a resident at Jersey City Medical Center in NJ. Throughout the long years of studying, Ryan depended<br> heavily on music to relieve stress and keep himself motivated. Having played in a jazz band all throughout his teenage years, Ryan absolutely loves jazz. A couple years<br> ago he found a new passion in drums which he practices every day. He currently lives with a 1 year old parakeet named 꼬몽 (Kkomong).<br><br>LA에 있는 한 바닷가 마을에서 태어나고 자랐으며, 2006년 NYU에 입학하면서 뉴욕으로 건너옴. 2013년에 NYU 치과대학을 졸업하고, 현재 뉴저지에 있는 저지시티 메디컬 센터에서 레지던트로 근무중.<br>10대 시절 재즈 밴드에서 활동하기도 하였으며, 치과대학 재학기간 동안 음악이 없이는 버틸 수 없었다고 할 정도로 재즈음악을 사랑함.<br>몇 년 전 처음 시작하여, 이제는 매일 연습하고 있는 드럼실력은 꽤나 수준급이다. 1살 된 잉꼬앵무새 ‘꼬몽’과 함께 살고 있다.</p><h4 id='mainButton' onclick='showRyan();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQARyan();return false;'>FUN FACTS</h4></div>";
+
+var RyanQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRyanQA();return false;'><h3 id='profileHeadBio'>RYAN JEONG   |   정진훈</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: The deli on 14th St. and 3rd Ave. makes really good philly cheesesteak.<br><br><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would go to the New York Auto Show and steal a Ferrari.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: I want to go dog-sledding in Alaska.<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: 2048. I wont stop until I beat it.<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Love.</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: 14번가와 3번애비뉴 코너에 있는 델리가게. 거기서 파는 필리치즈스테이크는 진짜 맛있다.<br><br><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 뉴욕오토쇼에가서 페라리를 훔칠 것이다.<br><br><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 알래스카에 가서 개썰매를 타고 싶다.<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 2048 (게임). 다 깰때 까지 계속 할 것이다.<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 사랑..</p><h4 id='mainButton' onclick='showRyan();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioRyan();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var RyanQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRyan();return false;'><h3 id='profileHeadBio'>RYAN JEONG   |   정진훈</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: The deli on 14th St. and 3rd Ave. makes really good philly cheesesteak.<br><br><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would go to the New York Auto Show and steal a Ferrari.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: I want to go dog-sledding in Alaska.<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: 2048. I wont stop until I beat it.<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Love.</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: 14번가와 3번애비뉴 코너에 있는 델리가게. 거기서 파는 필리치즈스테이크는 진짜 맛있다.<br><br><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 뉴욕오토쇼에가서 페라리를 훔칠 것이다.<br><br><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 알래스카에 가서 개썰매를 타고 싶다.<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 2048 (게임). 다 깰때 까지 계속 할 것이다.<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 사랑..</p></p><h4 id='mainButton' onclick='showRyan();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioRyan();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+// ****
+
+// ***Brent
+var BrentIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBrent();return false;'><img id='profilePic' src = '/assets/BrentKimBig.png'><h3 id='profileHead'>BRENT KIM   |   김하규</h3><h5 id='profileStat'>Title in MOI’M: EVENT PRODUCER<br>Industry: FINANCE<br><br>MOTTO: “It ain’t over ‘till it’s over.” – Yogi Berra<br>모토: 끝날 때까지 끝난 게 아니다. –요기 베라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioBrent();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQABrent();return false;'>FUN FACTS</h4></div>";
+var BrentOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBrent();return false;'><img id='profilePic' src = '/assets/BrentKimBig.png'><h3 id='profileHead'>BRENT KIM   |   김하규</h3><h5 id='profileStat'>Title in MOI’M: EVENT PRODUCER<br>Industry: FINANCE<br><br>MOTTO: “It ain’t over ‘till it’s over.” – Yogi Berra<br>모토: 끝날 때까지 끝난 게 아니다. –요기 베라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioBrent();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQABrent();return false;'>FUN FACTS</h4></div>";
+var BrentFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBrent();return false;'><img id='profilePic' src = '/assets/BrentKimBig.png'><h3 id='profileHead'>BRENT KIM   |   김하규</h3><h5 id='profileStat'>Title in MOI’M: EVENT PRODUCER<br>Industry: FINANCE<br><br>MOTTO: “It ain’t over ‘till it’s over.” – Yogi Berra<br>모토: 끝날 때까지 끝난 게 아니다. –요기 베라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioBrent();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQABrent();return false;'>FUN FACTS</h4></div>";
+
+var BrentBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBrentBio();return false;'><h3 id='profileHeadBio'>BRENT KIM   |   김하규</h3><p id='profileBio'>Hakyu Kim graduated from Corona Del Mar High School in California in 2010 and currently pursues a B.A. in Economics from New York University. For his mandatory<br> military service, he served as an interpreter in the Republic of Korea Air Force Materiel Command and the Republic of Korea Joint Support Group in the Philippines.<br> Hakyu was discharged from service on January 2015. Since then he has worked at a consulting company and a start-up company and prepared to go back to school on<br> August 2015. After graduating from NYU, he wants to work in the finance industry.<br><br>2010년 미국 캘리포니아 Corona Del Mar High School을 졸업 후 뉴욕대학교에서 경제학 학사 과정을 수료 중임. 공군 물자사령부와 필리핀 합동 지원단에서 통역병으로 군 복무를 하였으며<br>2015년 1월 군 복무를 마침. 전역 이후 컨설팅 회사와 스타트업 업체에서 인턴 경험을 하면서 2015년 가을학기 복학 준비를 하고 있으며, 졸업 후 금융권에 종사하기를 희망.</p><h4 id='mainButton' onclick='showBrent();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQABrent();return false;'>FUN FACTS</h4></div>";
+var BrentBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBrent();return false;'><h3 id='profileHeadBio'>BRENT KIM   |   김하규</h3><p id='profileBio'>Hakyu Kim graduated from Corona Del Mar High School in California in 2010 and currently pursues a B.A. in Economics from New York University. For his mandatory<br> military service, he served as an interpreter in the Republic of Korea Air Force Materiel Command and the Republic of Korea Joint Support Group in the Philippines.<br> Hakyu was discharged from service on January 2015. Since then he has worked at a consulting company and a start-up company and prepared to go back to school on<br> August 2015. After graduating from NYU, he wants to work in the finance industry.<br><br>2010년 미국 캘리포니아 Corona Del Mar High School을 졸업 후 뉴욕대학교에서 경제학 학사 과정을 수료 중임. 공군 물자사령부와 필리핀 합동 지원단에서 통역병으로 군 복무를 하였으며<br>2015년 1월 군 복무를 마침. 전역 이후 컨설팅 회사와 스타트업 업체에서 인턴 경험을 하면서 2015년 가을학기 복학 준비를 하고 있으며, 졸업 후 금융권에 종사하기를 희망.</p><h4 id='mainButton' onclick='showBrent();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQABrent();return false;'>FUN FACTS</h4></div>";
+
+var BrentQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBrentQA();return false;'><h3 id='profileHeadBio'>BRENT KIM   |   김하규</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Shopsin’s. A small restaurant in Essex St Market with a unique name and a vast<br> menu with a variety of different dishes.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Eternal Sunshine of the Spotless Mind. A movie featuring a new side of Jim<br> Carrey and highlighting Michel Gondry’s amazing ability to portray memory and<br> time. Also, it is a great story that depicts the essence of love.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: Montauk in the winter (Eternal Sunshine has left a great impression…)<br><br><span id='question'>Q: Inspiration?</span><br>A: Henry Kissinger, Alain de Botton, Billy Beane, my dad</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: 독특한 이름인 Shopsin’s 라고 불리는 조그만 레스토랑. Essex St Market에 위치하고 있고 다양<br>한 메뉴가 매력적이다.<br><br><span id='question'>Q: 가장 감명깊게 본 영화? 이유?</span><br>A: 이터널 선샤인. 짐 캐리의 새로운 모습, 기억과 시간을 멋지게 엮은 미셀 공드리 감독, 그리고 사랑의<br> 본질에 관한 최고의 이야기.<br><br><span id='question'>Q: 가고 싶은 휴양지?</span><br>A: 겨울의 Montauk (Eternal Sunshine을 너무 감명 깊게 본 나머지…)<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 헨리 키신저, 알랭 드 보통, 빌리 빈, 우리 아빠</p><h4 id='mainButton' onclick='showBrent();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioBrent();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var BrentQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBrent();return false;'><h3 id='profileHeadBio'>BRENT KIM   |   김하규</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Shopsin’s. A small restaurant in Essex St Market with a unique name and a vast<br> menu with a variety of different dishes.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Eternal Sunshine of the Spotless Mind. A movie featuring a new side of Jim<br> Carrey and highlighting Michel Gondry’s amazing ability to portray memory and<br> time. Also, it is a great story that depicts the essence of love.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: Montauk in the winter (Eternal Sunshine has left a great impression…)<br><br><span id='question'>Q: Inspiration?</span><br>A: Henry Kissinger, Alain de Botton, Billy Beane, my dad</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: 독특한 이름인 Shopsin’s 라고 불리는 조그만 레스토랑. Essex St Market에 위치하고 있고 다양<br>한 메뉴가 매력적이다.<br><br><span id='question'>Q: 가장 감명깊게 본 영화? 이유?</span><br>A: 이터널 선샤인. 짐 캐리의 새로운 모습, 기억과 시간을 멋지게 엮은 미셀 공드리 감독, 그리고 사랑의<br> 본질에 관한 최고의 이야기.<br><br><span id='question'>Q: 가고 싶은 휴양지?</span><br>A: 겨울의 Montauk (Eternal Sunshine을 너무 감명 깊게 본 나머지…)<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 헨리 키신저, 알랭 드 보통, 빌리 빈, 우리 아빠</p></p><h4 id='mainButton' onclick='showBrent();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioBrent();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+// ****
+
+// ****Amy - Leader
+var AmyIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAmy();return false;'><img id='profilePic' src = '/assets/AmyYooBig.png'><h3 id='profileHead'>AMY YOO   |   유채영</h3><h5 id='profileStat'>Title in MOI’M: EVENT PRODUCER<br>Industry: ACCOUNTING<br><br>MOTTO: Communicate with others open-mindedly.<br>모토: 오픈마인드로 사람들과 소통하라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioAmy();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAAmy();return false;'>FUN FACTS</h4></div>";
+var AmyOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAmy();return false;'><img id='profilePic' src = '/assets/AmyYooBig.png'><h3 id='profileHead'>AMY YOO   |   유채영</h3><h5 id='profileStat'>Title in MOI’M: EVENT PRODUCER<br>Industry: ACCOUNTING<br><br>MOTTO: Communicate with others open-mindedly.<br>모토: 오픈마인드로 사람들과 소통하라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioAmy();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAAmy();return false;'>FUN FACTS</h4></div>";
+var AmyFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAmy();return false;'><img id='profilePic' src = '/assets/AmyYooBig.png'><h3 id='profileHead'>AMY YOO   |   유채영</h3><h5 id='profileStat'>Title in MOI’M: EVENT PRODUCER<br>Industry: ACCOUNTING<br><br>MOTTO: Communicate with others open-mindedly.<br>모토: 오픈마인드로 사람들과 소통하라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioAmy();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAAmy();return false;'>FUN FACTS</h4></div>";
+
+var AmyBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAmyBio();return false;'><h3 id='profileHeadBio'>AMY YOO   |   유채영</h3><p id='profileBio'>Amy Yoo is currently enrolled at Baruch College as an Accounting student. She works part-time at Take 31 INC as a staff accountant. She plans to minor in both Business<br> Communication and Computer Information Systems (CIS). Her goal is to become a professional accountant.<br><br>현재 버룩 대학교 회계학과 재학중. Take 31에서 파트타임 경리로 근무. 비지니스 커뮤니케이션과 컴퓨터 정보 시스템 복수 부전공 계획중. 공인회계사가 되길 희망.</p><h4 id='mainButton' onclick='showAmy();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAAmy();return false;'>FUN FACTS</h4></div>";
+var AmyBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAmy();return false;'><h3 id='profileHeadBio'>AMY YOO   |   유채영</h3><p id='profileBio'>Amy Yoo is currently enrolled at Baruch College as an Accounting student. She works part-time at Take 31 INC as a staff accountant. She plans to minor in both Business<br> Communication and Computer Information Systems (CIS). Her goal is to become a professional accountant.<br><br>현재 버룩 대학교 회계학과 재학중. Take 31에서 파트타임 경리로 근무. 비지니스 커뮤니케이션과 컴퓨터 정보 시스템 복수 부전공 계획중. 공인회계사가 되길 희망.</p><h4 id='mainButton' onclick='showAmy();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAAmy();return false;'>FUN FACTS</h4></div>";
+
+var AmyQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAmyQA();return false;'><h3 id='profileHeadBio'>AMY YOO   |   유채영</h3><p id='profileQuestions1'><span id='question'>Q: Inspirational Film?</span><br>A: 200 Pounds Beauty because I like its message that no matter how beautiful<br> you are on the outside, the inside is what counts.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: I really want to go to Venice, Italy<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: Nowadays an app called MOCI. I can interact with other people and my<br> network and can ask for advice or suggestions and share stories.<br><br><span id='question'>Q: Perfect Day?</span><br>A: A day when I don’t have to go to work and can just stay at home with a cup of<br> coffee and relax on my bed watching Korean dramas and show programs all<br> day.</p><p id='profileQuestions2'><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 미녀는 괴로워. 아무리 외면이 예뻐도 사람의 내면이 가장 중요하다는 메세지가 마음에 들어서.<br><br><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 이탈리아 베니스에 꼭 가고 싶어요.<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 요즘엔 모씨라는 어플. 사람들과 익명으로 소통하고 조언도 구하고 스토리도 공유한다는게 마음에 들<br>어요.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 일 안하고 커피한잔의 여유를 가지며 침대에서 뒹굴거리면서 한국 드라마와 쇼프로 하루종일 보기.</p><h4 id='mainButton' onclick='showAmy();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioAmy();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var AmyQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAmy();return false;'><h3 id='profileHeadBio'>AMY YOO   |   유채영</h3><p id='profileQuestionsShort1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Elephant & Castle<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: I find Zio, hold him and sleep for five more minutes.<br><br><span id='question'>Q: The word/phrase you say the most?</span><br>A: zi~o~~~ zio~~~ z • i • o!!!!!!!!!!!!<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Exercising every day</p><p id='profileQuestionsShort2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Elephant & Castle<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: 지오찾아 안고 오분만 더자기.<br><br><span id='question'>Q: 하루중 가장 많이 하는 말은?</span><br>A: 지~오~~~ 지오~~~ ㅈㅣㅇㅗ!!!!<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 매일 운동하기.</p><h4 id='mainButton' onclick='showAmy();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioAmy();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+// ***
+
 var sensor = false;
+
 
 
 // ***see team member profile
@@ -450,6 +487,177 @@ function showQASarah(){
 function showSarah(){
 	$('#teamContent').remove();
 	$('body').append(SarahFadeIn);
+}
+// ***
+
+// **Ryan - events
+function showProfileRyan(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(eventsOutForProfile);
+}, 0);
+	setTimeout(function() {
+	$('body').append(RyanIn);	
+    }, 0);
+}
+
+function profileOutRyan(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(RyanOut);
+}, 0);
+	setTimeout(function() {
+	$('body').append(eventsInFromProfile);	
+    }, 0);
+}
+
+function profileOutRyanBio(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(RyanBioOut);
+}, 0);
+	setTimeout(function() {
+	$('body').append(eventsInFromProfile);	
+    }, 0);
+}
+
+function profileOutRyanQA(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(RyanQAOut);
+}, 0);
+	setTimeout(function() {
+	$('body').append(eventsInFromProfile);	
+    }, 0);
+}
+
+function showBioRyan(){
+	$('#teamContent').remove();
+	$('body').append(RyanBio);	
+}
+
+function showQARyan(){
+	$('#teamContent').remove();
+	$('body').append(RyanQA);	
+}
+
+function showRyan(){
+	$('#teamContent').remove();
+	$('body').append(RyanFadeIn);
+}
+// ***
+
+// **Brent - events
+function showProfileBrent(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(eventsOutForProfile);
+}, 0);
+	setTimeout(function() {
+	$('body').append(BrentIn);	
+    }, 0);
+}
+
+function profileOutBrent(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(BrentOut);
+}, 0);
+	setTimeout(function() {
+	$('body').append(eventsInFromProfile);	
+    }, 0);
+}
+
+function profileOutBrentBio(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(BrentBioOut);
+}, 0);
+	setTimeout(function() {
+	$('body').append(eventsInFromProfile);	
+    }, 0);
+}
+
+function profileOutBrentQA(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(BrentQAOut);
+}, 0);
+	setTimeout(function() {
+	$('body').append(eventsInFromProfile);	
+    }, 0);
+}
+
+function showBioBrent(){
+	$('#teamContent').remove();
+	$('body').append(BrentBio);	
+}
+
+function showQABrent(){
+	$('#teamContent').remove();
+	$('body').append(BrentQA);	
+}
+
+function showBrent(){
+	$('#teamContent').remove();
+	$('body').append(BrentFadeIn);
+}
+// ***
+
+// **Amy - Events
+function showProfileAmy(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(events1OutForProfile);
+}, 0);
+	setTimeout(function() {
+	$('body').append(AmyIn);	
+    }, 0);
+}
+
+function profileOutAmy(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(AmyOut);
+}, 0);
+	setTimeout(function() {
+	$('body').append(events1InFromProfile);	
+    }, 0);
+}
+
+function profileOutAmyBio(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(AmyBioOut);
+}, 0);
+	setTimeout(function() {
+	$('body').append(events1InFromProfile);	
+    }, 0);
+}
+
+function profileOutAmyQA(){
+	setTimeout(function() {
+	$('#teamContent').remove();
+	$('body').append(AmyQAOut);
+}, 0);
+	setTimeout(function() {
+	$('body').append(events1InFromProfile);	
+    }, 0);
+}
+
+function showBioAmy(){
+	$('#teamContent').remove();
+	$('body').append(AmyBio);	
+}
+
+function showQAAmy(){
+	$('#teamContent').remove();
+	$('body').append(AmyQA);	
+}
+
+function showAmy(){
+	$('#teamContent').remove();
+	$('body').append(AmyFadeIn);
 }
 // ***
 
