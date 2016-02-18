@@ -1,4 +1,4 @@
-/*html {
+html {
   height: 100%;
 }*/
 
@@ -2859,6 +2859,37 @@ width:100px;
 	background: url('/assets/JunhoRhee Thumbnail.png');
 }
 
+/**advisory*****/
+
+#advisoryMemberOnePic{
+	position:absolute;
+	background: url('/assets/SungChoi.png');
+	z-index: 10;
+	width:300px;
+    height:300px;
+
+}
+
+#advisoryMemberOnePic:hover{
+	cursor:pointer;
+	background: url('/assets/SungChoi Thumbnail.png');
+
+}
+
+
+#advisoryMemberTwoPic{
+	position:absolute;
+	background: url('/assets/JayYu.png');
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#advisoryMemberTwoPic:hover{
+	cursor:pointer;
+	background: url('/assets/JayYu Thumbnail.png');
+}
+
 
 /*****/
 
@@ -3049,4 +3080,4 @@ width:100px;
 	z-index:100;
 }
 
-/******/
+/*****
