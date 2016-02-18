@@ -2407,7 +2407,6 @@ width:100px;
     margin-left:490px;
     z-index: 10;
     display: inline;
-
 }
 
 #leaderMemberTwoPic{
@@ -2645,6 +2644,96 @@ width:100px;
 	cursor:pointer;
 	background: url('/assets/WhitneyLovettThumbnail.png');
 }
+/*****/
+
+
+/*###pr****/
+
+#prMemberOnePic{
+	position:absolute;
+	background: url('/assets/SungjunYoon.png');
+	z-index: 10;
+	width:300px;
+    height:300px;
+
+}
+
+#prMemberOnePic:hover{
+	cursor:pointer;
+	background: url('/assets/SungjunYoon Thumbnail.png');
+
+}
+
+
+#prMemberTwoPic{
+	position:absolute;
+	background: url('/assets/DoYonKwon.png');
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#prMemberTwoPic:hover{
+	cursor:pointer;
+	background: url('/assets/DoYonKwon Thumbnail.png');
+}
+
+
+#prMemberThreePic{
+	background: url('/assets/CharlotteKwon.png');
+	position:absolute;
+	z-index: 10;
+	width:300px;
+    height:300px;
+
+}
+
+#prMemberThreePic:hover{
+	cursor:pointer;
+	background: url('/assets/CharlotteKwon Thumbnail.png');
+}
+
+
+#prMemberFourPic{
+	background: url('/assets/HenryKwon.png');
+	position:absolute;
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#prMemberFourPic:hover{
+	cursor:pointer;
+	background: url('/assets/HenryKwon Thumbnail.png');
+}
+
+#prMemberFivePic{
+	background: url('/assets/HannaLee.png');
+	position:absolute;
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#prMemberFivePic:hover{
+	cursor:pointer;
+	background: url('/assets/HannaLee Thumbnail.png');
+}
+
+#prMemberSixPic{
+	background: url('/assets/MinjiSong.png');
+	position:absolute;
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#prMemberSixPic:hover{
+	cursor:pointer;
+	background: url('/assets/MinjiSong Thumbnail.png');
+}
+
+
 /*****/
 
 

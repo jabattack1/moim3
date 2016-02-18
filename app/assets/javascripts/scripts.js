@@ -187,7 +187,7 @@ var BrentQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin(
 var BrentQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBrent();return false;'><h3 id='profileHeadBio'>BRENT KIM   |   김하규</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Shopsin’s. A small restaurant in Essex St Market with a unique name and a vast<br> menu with a variety of different dishes.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Eternal Sunshine of the Spotless Mind. A movie featuring a new side of Jim<br> Carrey and highlighting Michel Gondry’s amazing ability to portray memory and<br> time. Also, it is a great story that depicts the essence of love.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: Montauk in the winter (Eternal Sunshine has left a great impression…)<br><br><span id='question'>Q: Inspiration?</span><br>A: Henry Kissinger, Alain de Botton, Billy Beane, my dad</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: 독특한 이름인 Shopsin’s 라고 불리는 조그만 레스토랑. Essex St Market에 위치하고 있고 다양<br>한 메뉴가 매력적이다.<br><br><span id='question'>Q: 가장 감명깊게 본 영화? 이유?</span><br>A: 이터널 선샤인. 짐 캐리의 새로운 모습, 기억과 시간을 멋지게 엮은 미셀 공드리 감독, 그리고 사랑의<br> 본질에 관한 최고의 이야기.<br><br><span id='question'>Q: 가고 싶은 휴양지?</span><br>A: 겨울의 Montauk (Eternal Sunshine을 너무 감명 깊게 본 나머지…)<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 헨리 키신저, 알랭 드 보통, 빌리 빈, 우리 아빠</p></p><h4 id='mainButton' onclick='showBrent();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioBrent();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ****
 
-// ****Amy - Leader
+// ****Amy - events
 var AmyIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAmy();return false;'><img id='profilePic' src = '/assets/AmyYooBig.png'><h3 id='profileHead'>AMY YOO   |   유채영</h3><h5 id='profileStat'>Title in MOI’M: EVENT PRODUCER<br>Industry: ACCOUNTING<br><br>MOTTO: Communicate with others open-mindedly.<br>모토: 오픈마인드로 사람들과 소통하라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioAmy();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAAmy();return false;'>FUN FACTS</h4></div>";
 var AmyOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAmy();return false;'><img id='profilePic' src = '/assets/AmyYooBig.png'><h3 id='profileHead'>AMY YOO   |   유채영</h3><h5 id='profileStat'>Title in MOI’M: EVENT PRODUCER<br>Industry: ACCOUNTING<br><br>MOTTO: Communicate with others open-mindedly.<br>모토: 오픈마인드로 사람들과 소통하라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioAmy();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAAmy();return false;'>FUN FACTS</h4></div>";
 var AmyFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAmy();return false;'><img id='profilePic' src = '/assets/AmyYooBig.png'><h3 id='profileHead'>AMY YOO   |   유채영</h3><h5 id='profileStat'>Title in MOI’M: EVENT PRODUCER<br>Industry: ACCOUNTING<br><br>MOTTO: Communicate with others open-mindedly.<br>모토: 오픈마인드로 사람들과 소통하라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioAmy();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAAmy();return false;'>FUN FACTS</h4></div>";
@@ -320,19 +320,90 @@ var WhitneyQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='cl
 // ***
 
 // ***pr**
-var prIn="<div id='teamContent' class='animated slideInRight' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='pr1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberOnePic' onclick='showProfileSungJun();return false;'></div></div><div class='memeberTwo'><div id='prMemberTwoPic' onclick='showProfileDodo();return false;'></div></div><div class='memeberThree'><div id='prMemberThreePic' onclick='showProfileCharlotte();return false;'></div></div></div>";
-var prIn1="<div id='teamContent' class='animated slideInRight' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberFourPic' onclick='showProfileHenry();return false;'></div></div><div class='memebertwo'><div id='prMemberFivePic' onclick='showProfileHanna();return false;'></div></div><div class='memeberThree'><div id='prMemberSixPic' onclick='showProfileMinji();return false;'></div></div></div>";
-var prIn2="<div id='teamContent' class='animated slideInLeft' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='pr1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberOnePic' onclick='showProfileSungJun();return false;'></div></div><div class='memeberTwo'><div id='prMemberTwoPic' onclick='showProfileDodo();return false;'></div></div><div class='memeberThree'><div id='prMemberThreePic'onclick='showProfileCharlotte();return false;'></div></div></div>";
+var prIn="<div id='teamContent' class='animated slideInRight' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='pr1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberOnePic' onclick='showProfileSungjun();return false;'></div></div><div class='memeberTwo'><div id='prMemberTwoPic' onclick='showProfiledodo();return false;'></div></div><div class='memeberThree'><div id='prMemberThreePic' onclick='showProfileCharlotte();return false;'></div></div></div>";
+var prIn1="<div id='teamContent' class='animated slideInRight' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberFourPic' onclick='showProfileHenry();return false;'></div></div><div class='memeberTwo'><div id='prMemberFivePic' onclick='showProfileHanna();return false;'></div></div><div class='memeberThree'><div id='prMemberSixPic' onclick='showProfileMinji();return false;'></div></div></div>";
+var prIn2="<div id='teamContent' class='animated slideInLeft' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='pr1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberOnePic' onclick='showProfileSungjun();return false;'></div></div><div class='memeberTwo'><div id='prMemberTwoPic' onclick='showProfiledodo();return false;'></div></div><div class='memeberThree'><div id='prMemberThreePic'onclick='showProfileCharlotte();return false;'></div></div></div>";
 var prOut="<div id='teamContent' class='animated slideOutRight' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='pr1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberOnePic'></div></div><div class='memeberTwo'><div id='prMemberTwoPic'></div></div><div class='memeberThree'><div id='prMemberThreePic'></div></div></div>";
 var prOut1="<div id='teamContent' class='animated slideOutLeft' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='pr1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberOnePic'></div></div><div class='memeberTwo'><div id='prMemberTwoPic'></div></div><div class='memeberThree'><div id='prMemberThreePic'></div></div></div>";
-var prOut2="<div id='teamContent' class='animated slideOutRight' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberFourPic' onclick='showProfileHenry();return false;'></div></div><div class='memebertwo'><div id='prMemberFivePic' onclick='showProfileHanna();return false;'></div></div><div class='memeberThree'><div id='prMemberSixPic' onclick='showProfileMinji();return false;'></div></div></div>";
+var prOut2="<div id='teamContent' class='animated slideOutRight' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberFourPic' onclick='showProfileHenry();return false;'></div></div><div class='memeberTwo'><div id='prMemberFivePic' onclick='showProfileHanna();return false;'></div></div><div class='memeberThree'><div id='prMemberSixPic' onclick='showProfileMinji();return false;'></div></div></div>";
 
 var prOutForProfile="<div id='teamContent' class='animated slideOutDown' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='pr1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberOnePic'></div></div><div class='memeberTwo'><div id='prMemberTwoPic'></div></div><div class='memeberThree'><div id='prMemberThreePic'></div></div></div>";
-var prInFromProfile="<div id='teamContent' class='animated slideInUp' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='pr1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberOnePic' onclick='showProfileSungJun();return false;'></div></div><div class='memeberTwo'><div id='prMemberTwoPic' onclick='showProfileDodo();return false;'></div></div><div class='memeberThree'><div id='prMemberThreePic' onclick='showProfileCharlotte();return false;'></div></div></div>";
-var pr1OutForProfile="<div id='teamContent' class='animated slideOutDown' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberFourPic' onclick='showProfileHenry();return false;'></div></div><div class='memebertwo'><div id='prMemberFivePic' onclick='showProfileHanna();return false;'></div></div><div class='memeberThree'><div id='prMemberSixPic' onclick='showProfileMinji();return false;'></div></div></div>";
-var pr1InFromProfile="<div id='teamContent' class='animated slideInUp' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberFourPic' onclick='showProfileHenry();return false;'></div></div><div class='memebertwo'><div id='prMemberFivePic' onclick='showProfileHanna();return false;'></div></div><div class='memeberThree'><div id='prMemberSixPic' onclick='showProfileMinji();return false;'></div></div></div>";
+var prInFromProfile="<div id='teamContent' class='animated slideInUp' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='pr1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberOnePic' onclick='showProfileSungjun();return false;'></div></div><div class='memeberTwo'><div id='prMemberTwoPic' onclick='showProfiledodo();return false;'></div></div><div class='memeberThree'><div id='prMemberThreePic' onclick='showProfileCharlotte();return false;'></div></div></div>";
+var pr1OutForProfile="<div id='teamContent' class='animated slideOutDown' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberFourPic' onclick='showProfileHenry();return false;'></div></div><div class='memeberTwo'><div id='prMemberFivePic' onclick='showProfileHanna();return false;'></div></div><div class='memeberThree'><div id='prMemberSixPic' onclick='showProfileMinji();return false;'></div></div></div>";
+var pr1InFromProfile="<div id='teamContent' class='animated slideInUp' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberFourPic' onclick='showProfileHenry();return false;'></div></div><div class='memeberTwo'><div id='prMemberFivePic' onclick='showProfileHanna();return false;'></div></div><div class='memeberThree'><div id='prMemberSixPic' onclick='showProfileMinji();return false;'></div></div></div>";
 // ***
 
+// ***Sungjun
+var SungjunIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSungjun();return false;'><img id='profilePic' src = '/assets/SungjunYoonBig.png'><h3 id='profileHead'>SUNGJUN YOON   |   윤성준</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, PUBLIC RELATIONS<br>Industry: INDUSTRIAL DESIGN<br>Email: Sungjun@moimnewyork.com<br><br>MOTTO: Always turn a negative situation into a positive<br> situation – Michael Jordan<br>모토: 부정적인 상황이 오면 그것을 긍정적인 상황으로 바꾸어라 – 마이클 조던</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioSungjun();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQASungjun();return false;'>FUN FACTS</h4></div>";
+var SungjunOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSungjun();return false;'><img id='profilePic' src = '/assets/SungjunYoonBig.png'><h3 id='profileHead'>SUNGJUN YOON   |   윤성준</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, PUBLIC RELATIONS<br>Industry: INDUSTRIAL DESIGN<br>Email: Sungjun@moimnewyork.com<br><br>MOTTO: Always turn a negative situation into a positive<br> situation – Michael Jordan<br>모토: 부정적인 상황이 오면 그것을 긍정적인 상황으로 바꾸어라 – 마이클 조던</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioSungjun();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQASungjun();return false;'>FUN FACTS</h4></div>";
+var SungjunFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSungjun();return false;'><img id='profilePic' src = '/assets/SungjunYoonBig.png'><h3 id='profileHead'>SUNGJUN YOON   |   윤성준</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, PUBLIC RELATIONS<br>Industry: INDUSTRIAL DESIGN<br>Email: Sungjun@moimnewyork.com<br><br>MOTTO: Always turn a negative situation into a positive<br> situation – Michael Jordan<br>모토: 부정적인 상황이 오면 그것을 긍정적인 상황으로 바꾸어라 – 마이클 조던</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioSungjun();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQASungjun();return false;'>FUN FACTS</h4></div>";
+
+var SungjunBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSungjunBio();return false;'><h3 id='profileHeadBio'>SUNGJUN YOON   |   윤성준</h3><p id='profileBio'>Sungjun Yoon is currently studying Product Design at Parsons The New School of Design. Prior to coming to the U.S., Sungjun studied Mechanical Engineering at Dankook<br> University in South Korea and served in the Republic of Korea Air Force for two years. In high school, Sungjun was a member of the planning team of his high school<br> magazine editorial department.<br><br>파슨스 디자인 스쿨에 2학년 제품 디자인과 재학중. 미국에 오기전 단국대학교 기계공학과에 1년간 재학후 2년동안 공군에서 헌병으로 군복무를 마친후<br>파슨스 디자인스쿨에 재입학하였음. 고등학교때 교지편집 부 “씨알소리” 에서 3년동안 기획부 활동.</p><h4 id='mainButton' onclick='showSungjun();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQASungjun();return false;'>FUN FACTS</h4></div>";
+var SungjunBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSungjun();return false;'><h3 id='profileHeadBio'>SUNGJUN YOON   |   윤성준</h3><p id='profileBio'>Sungjun Yoon is currently studying Product Design at Parsons The New School of Design. Prior to coming to the U.S., Sungjun studied Mechanical Engineering at Dankook<br> University in South Korea and served in the Republic of Korea Air Force for two years. In high school, Sungjun was a member of the planning team of his high school<br> magazine editorial department.<br><br>파슨스 디자인 스쿨에 2학년 제품 디자인과 재학중. 미국에 오기전 단국대학교 기계공학과에 1년간 재학후 2년동안 공군에서 헌병으로 군복무를 마친후<br>파슨스 디자인스쿨에 재입학하였음. 고등학교때 교지편집 부 “씨알소리” 에서 3년동안 기획부 활동.</p><h4 id='mainButton' onclick='showSungjun();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQASungjun();return false;'>FUN FACTS</h4></div>";
+
+var SungjunQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSungjunQA();return false;'><h3 id='profileHeadBio'>SUNGJUN YOON   |   윤성준</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Tea Drunk (Chinese tea bar, 123 E 7th St).<br><br><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would eat delicious food, aka Korean barbecue.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Oblivion because it has a good story and amazing scenes.<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: Turn off my alarm.<br><br><span id='question'>Q: Perfect Day?</span><br>A: Sitting on a couch, drinking beer and taking a nap.</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Tea Drunk (Chinese tea bar, 123 E 7th St).<br><br><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 맛있는 음식을 먹겠다. 고기.<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 오블리비언. 멋진 장면들과 참신한 스토리를 보여준 오블리비언.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: 알람끄기.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 소파에 앉아 맥주마시면서 낮잠 청하기.</p><h4 id='mainButton' onclick='showSungjun();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioSungjun();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var SungjunQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSungjun();return false;'><h3 id='profileHeadBio'>SUNGJUN YOON   |   윤성준</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Tea Drunk (Chinese tea bar, 123 E 7th St).<br><br><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would eat delicious food, aka Korean barbecue.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Oblivion because it has a good story and amazing scenes.<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: Turn off my alarm.<br><br><span id='question'>Q: Perfect Day?</span><br>A: Sitting on a couch, drinking beer and taking a nap.</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Tea Drunk (Chinese tea bar, 123 E 7th St).<br><br><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 맛있는 음식을 먹겠다. 고기.<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 오블리비언. 멋진 장면들과 참신한 스토리를 보여준 오블리비언.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: 알람끄기.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 소파에 앉아 맥주마시면서 낮잠 청하기.</p><h4 id='mainButton' onclick='showSungjun();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioSungjun();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+// ****
+
+// ***dodo
+var dodoIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutdodo();return false;'><img id='profilePic' src = '/assets/DoYonKwonBig.png'><h3 id='profileHead'>DO YON KWON   |   권도연</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, PUBLIC RELATIONS<br>Industry: FINANCE<br>Email: doyon@moimnewyork.com<br><br>MOTTO: Boys, Be ambitious! – Williams S. Clark<br>모토: 소년이여, 야망을 가져라! – 윌리엄 S. 클라크</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBiododo();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAdodo();return false;'>FUN FACTS</h4></div>";
+var dodoOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutdodo();return false;'><img id='profilePic' src = '/assets/DoYonKwonBig.png'><h3 id='profileHead'>DO YON KWON   |   권도연</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, PUBLIC RELATIONS<br>Industry: FINANCE<br>Email: doyon@moimnewyork.com<br><br>MOTTO: Boys, Be ambitious! – Williams S. Clark<br>모토: 소년이여, 야망을 가져라! – 윌리엄 S. 클라크</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBiododo();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAdodo();return false;'>FUN FACTS</h4></div>";
+var dodoFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutdodo();return false;'><img id='profilePic' src = '/assets/DoYonKwonBig.png'><h3 id='profileHead'>DO YON KWON   |   권도연</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, PUBLIC RELATIONS<br>Industry: FINANCE<br>Email: doyon@moimnewyork.com<br><br>MOTTO: Boys, Be ambitious! – Williams S. Clark<br>모토: 소년이여, 야망을 가져라! – 윌리엄 S. 클라크</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBiododo();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAdodo();return false;'>FUN FACTS</h4></div>";
+
+var dodoBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutdodoBio();return false;'><h3 id='profileHeadBio'>DO YON KWON   |   권도연</h3><p id='profileBio'>Do Yon Kwon graduated from Columbia University School of Applied Sciences and Engineering in 2013, with both a Bachelor of Science in Financial Engineering<br>and a Master of Science in Operations Research. She is currently in finance, working as a Market Research Assistant in the Portfolio Management Team<br>of WBI Investments. During her time at Columbia, Do Yon participated in various student activities including the Korean Students Association,<br>Smart Woman Securities, and Multicultural Business Association. Do Yon is very excited to be out of school. She likes movies, speakeasy bars, teddy bears,<br>and sleeping in late. She is also a pretty good squash player.<br><br>2013년 컬럼비아 공과대학교에서 금융공학 학사와 산업공학 및 운용 과학 석사 졸업. 현재는 WBI Investments 자산운용사에서 Market Research Assistant로 일하고 있음.<br>학부시절 교내외의 다양한 학생활동에 참여. 영화감상, speakeasy 바, 테디 베어와 늦잠자는 것을 즐기고 스쿼시 실력이 뛰어남.</p><h4 id='mainButton' onclick='showdodo();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAdodo();return false;'>FUN FACTS</h4></div>";
+var dodoBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutdodo();return false;'><h3 id='profileHeadBio'>DO YON KWON   |   권도연</h3><p id='profileBio'>Do Yon Kwon graduated from Columbia University School of Applied Sciences and Engineering in 2013, with both a Bachelor of Science in Financial Engineering<br>and a Master of Science in Operations Research. She is currently in finance, working as a Market Research Assistant in the Portfolio Management Team<br>of WBI Investments. During her time at Columbia, Do Yon participated in various student activities including the Korean Students Association,<br>Smart Woman Securities, and Multicultural Business Association. Do Yon is very excited to be out of school. She likes movies, speakeasy bars, teddy bears,<br>and sleeping in late. She is also a pretty good squash player.<br><br>2013년 컬럼비아 공과대학교에서 금융공학 학사와 산업공학 및 운용 과학 석사 졸업. 현재는 WBI Investments 자산운용사에서 Market Research Assistant로 일하고 있음.<br>학부시절 교내외의 다양한 학생활동에 참여. 영화감상, speakeasy 바, 테디 베어와 늦잠자는 것을 즐기고 스쿼시 실력이 뛰어남.</p><h4 id='mainButton' onclick='showdodo();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAdodo();return false;'>FUN FACTS</h4></div>";
+
+var dodoQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutdodoQA();return false;'><h3 id='profileHeadBio'>DO YON KWON   |   권도연</h3><p id='profileQuestions1'><span id='question'>Q: Something that your friends do not know about you?</span><br>A: I weigh more than I look.<br><br><span id='question'>Q: Wildest Dream?</span><br>A: I eloped with one of the hottest Korean movie stars and he actually courted me<br> first.<br><br><span id='question'>Q: Perfect Day?</span><br>A: A day with a full schedule from dawn to midnight.<br><br><span id='question'>Q: Inspiration?</span><br>A: Still seeking for a life-lasting inspiration<br><br><span id='question'>Q: Celebrity Look-alike?</span><br>A: An application told me I am a 90% match to Seo Taiji with my hair up and my<br> glasses on</p><p id='profileQuestions2'><span id='question'>Q: 친구들이 잘 모르는 당신에 대한 한 가지는?</span><br>A: 보기보다 무거움.<br><br><span id='question'>Q: 최고의 꿈?</span><br>A: 한국 톱 남자배우와 사랑의 도피를 했는데 믿거나 말거나 그분이 먼저 대쉬했음.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 아침부터 저녁까지 스케쥴이 꽉찬 날.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 계속 영감을 받기 위해 사방팔방으로 노력 중.<br><br><span id='question'>Q: 닮은꼴 연예인?</span><br>A: 아이폰 푸딩카메라 앱으로 머리묶고 안경쓰고 사진 찍으니 90% 서태지 닮았다고 나옴. 매우 영광이<br>었음.</p><h4 id='mainButton' onclick='showdodo();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBiododo();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var dodoQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutdodo();return false;'><h3 id='profileHeadBio'>DO YON KWON   |   권도연</h3><p id='profileQuestions1'><span id='question'>Q: Something that your friends do not know about you?</span><br>A: I weigh more than I look.<br><br><span id='question'>Q: Wildest Dream?</span><br>A: I eloped with one of the hottest Korean movie stars and he actually courted me<br> first.<br><br><span id='question'>Q: Perfect Day?</span><br>A: A day with a full schedule from dawn to midnight.<br><br><span id='question'>Q: Inspiration?</span><br>A: Still seeking for a life-lasting inspiration<br><br><span id='question'>Q: Celebrity Look-alike?</span><br>A: An application told me I am a 90% match to Seo Taiji with my hair up and my<br> glasses on</p><p id='profileQuestions2'><span id='question'>Q: 친구들이 잘 모르는 당신에 대한 한 가지는?</span><br>A: 보기보다 무거움.<br><br><span id='question'>Q: 최고의 꿈?</span><br>A: 한국 톱 남자배우와 사랑의 도피를 했는데 믿거나 말거나 그분이 먼저 대쉬했음.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 아침부터 저녁까지 스케쥴이 꽉찬 날.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 계속 영감을 받기 위해 사방팔방으로 노력 중.<br><br><span id='question'>Q: 닮은꼴 연예인?/span><br>A: 아이폰 푸딩카메라 앱으로 머리묶고 안경쓰고 사진 찍으니 90% 서태지 닮았다고 나옴. 매우 영광이<br>었음.</p><h4 id='mainButton' onclick='showdodo();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBiododo();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+// ****
+
+// ***Charlotte
+var CharlotteIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutCharlotte();return false;'><img id='profilePic' src = '/assets/CharlotteKwonBig.png'><h3 id='profileHead'>CHARLOTTE KWON   |   권예은</h3><h5 id='profileStat'>Title in MOI’M: PR TEAM ANALYST<br>Industry: BUSINESS<br><br>MOTTO: Live as if you were to die tomorrow. Learn as if you<br> were to live forever. – MAHATMA GANDHI<br>모토: 내일 죽을 것처럼 살고 영원히 살 것처럼 배우라 – 마하트마 간디</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioCharlotte();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQACharlotte();return false;'>FUN FACTS</h4></div>";
+var CharlotteOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutCharlotte();return false;'><img id='profilePic' src = '/assets/CharlotteKwonBig.png'><h3 id='profileHead'>CHARLOTTE KWON   |   권예은</h3><h5 id='profileStat'>Title in MOI’M: PR TEAM ANALYST<br>Industry: BUSINESS<br><br>MOTTO: Live as if you were to die tomorrow. Learn as if you<br> were to live forever. – MAHATMA GANDHI<br>모토: 내일 죽을 것처럼 살고 영원히 살 것처럼 배우라 – 마하트마 간디</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioCharlotte();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQACharlotte();return false;'>FUN FACTS</h4></div>";
+var CharlotteFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutCharlotte();return false;'><img id='profilePic' src = '/assets/CharlotteKwonBig.png'><h3 id='profileHead'>CHARLOTTE KWON   |   권예은</h3><h5 id='profileStat'>Title in MOI’M: PR TEAM ANALYST<br>Industry: BUSINESS<br><br>MOTTO: Live as if you were to die tomorrow. Learn as if you<br> were to live forever. – MAHATMA GANDHI<br>모토: 내일 죽을 것처럼 살고 영원히 살 것처럼 배우라 – 마하트마 간디</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioCharlotte();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQACharlotte();return false;'>FUN FACTS</h4></div>";
+
+var CharlotteBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutCharlotteBio();return false;'><h3 id='profileHeadBio'>CHARLOTTE KWON   |   권예은</h3><p id='profileBio'>Charlotte Kwon is currently a student at New York University pursuing a bachelor’s degree in Economics while double minoring in Child and Adolescent Mental Health<br> Studies (CAMS) and Chemistry. She is an editor for the CAMS newsletter, a Global Ambassador for NYU London and holds a position in the Publicity Committee for the<br> NYU Student Senators Council. She is also currently working at Scholastic Corporation as an Operations Analyst and is preparing to start her career post graduation.<br><br>뉴욕대학교경제학과 전공이며, 여러 학교활동에 참여를 하면서 Scholastic Corporation에서 Operations Analyst으로 일을하고있다.<br>지난 1년동안 유럽에 있으면서 세계 여행을 꿈꾸게되고, 긴 산책과 요리를 즐겨한다.</p><h4 id='mainButton' onclick='showCharlotte();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQACharlotte();return false;'>FUN FACTS</h4></div>";
+var CharlotteBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutCharlotte();return false;'><h3 id='profileHeadBio'>CHARLOTTE KWON   |   권예은</h3><p id='profileBio'>Charlotte Kwon is currently a student at New York University pursuing a bachelor’s degree in Economics while double minoring in Child and Adolescent Mental Health<br> Studies (CAMS) and Chemistry. She is an editor for the CAMS newsletter, a Global Ambassador for NYU London and holds a position in the Publicity Committee for the<br> NYU Student Senators Council. She is also currently working at Scholastic Corporation as an Operations Analyst and is preparing to start her career post graduation.<br><br>뉴욕대학교경제학과 전공이며, 여러 학교활동에 참여를 하면서 Scholastic Corporation에서 Operations Analyst으로 일을하고있다.<br>지난 1년동안 유럽에 있으면서 세계 여행을 꿈꾸게되고, 긴 산책과 요리를 즐겨한다.</p><h4 id='mainButton' onclick='showCharlotte();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQACharlotte();return false;'>FUN FACTS</h4></div>";
+
+var CharlotteQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutCharlotteQA();return false;'><h3 id='profileHeadBio'>CHARLOTTE KWON   |   권예은</h3><p id='profileQuestions1'><span id='question'>Q: Dream Vacation?</span><br>A: Turkey. As the center of the Eastern and Western world, it has always been a<br> destination of mine.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: One of my favorite movies is L’intouchable. It is a perfectly funny and touching<br> story of two men.<br><br><span id='question'>Q: The word/phrase you say the most?</span><br>A: Since we are always walking in New York, I feel like I say “Excuse Me” the most.<br><br><span id='question'>Q: Perfect Day?</span><br>A: Wouldn’t a perfect day just be about relaxing and spending time with loved<br> ones?</p><p id='profileQuestions2'><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 터키. 세계의 중심으로서, 터키 문화와 사람들을 더 알고싶은 마음에 정말 가고싶은 곳중에 하나다.<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 내가 최근에 감명깊게 본 영화는 프랑스의 언터처블이다. 너무나 코믹하면서 뜻 깊은 두 사람에 대한<br> 얘기통해서 인종차별, 믿음 과 아픔을 극복하는 것까지 다 느낀 영화다.<br><br><span id='question'>Q: 하루중 가장 많이 하는 말은?</span><br>A: 뉴욕에서는 걸어다니는게 끊임 없는것 같아서 “Excuse Me” 를 가장 많이 말하지 않을까…<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 완벽한 하루는 아마 사랑하는 가족과 친구들과 함께 시간을 보내면서 먹고 쉬는게 아닐까…</p><h4 id='mainButton' onclick='showCharlotte();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioCharlotte();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var CharlotteQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutCharlotte();return false;'><h3 id='profileHeadBio'>CHARLOTTE KWON   |   권예은</h3><p id='profileQuestions1'><span id='question'>Q: Dream Vacation?</span><br>A: Turkey. As the center of the Eastern and Western world, it has always been a<br> destination of mine.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: One of my favorite movies is L’intouchable. It is a perfectly funny and touching<br> story of two men.<br><br><span id='question'>Q: The word/phrase you say the most?</span><br>A: Since we are always walking in New York, I feel like I say “Excuse Me” the most.<br><br><span id='question'>Q: Perfect Day?</span><br>A: Wouldn’t a perfect day just be about relaxing and spending time with loved<br> ones?</p><p id='profileQuestions2'><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 터키. 세계의 중심으로서, 터키 문화와 사람들을 더 알고싶은 마음에 정말 가고싶은 곳중에 하나다.<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 내가 최근에 감명깊게 본 영화는 프랑스의 언터처블이다. 너무나 코믹하면서 뜻 깊은 두 사람에 대한<br> 얘기통해서 인종차별, 믿음 과 아픔을 극복하는 것까지 다 느낀 영화다.<br><br><span id='question'>Q: 하루중 가장 많이 하는 말은?</span><br>A: 뉴욕에서는 걸어다니는게 끊임 없는것 같아서 “Excuse Me” 를 가장 많이 말하지 않을까…<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 완벽한 하루는 아마 사랑하는 가족과 친구들과 함께 시간을 보내면서 먹고 쉬는게 아닐까…</p><h4 id='mainButton' onclick='showCharlotte();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioCharlotte();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+// ****
+
+// ****Henry - pr
+var HenryIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHenry();return false;'><img id='profilePic' src = '/assets/HenryKwonBig.png'><h3 id='profileHead'>HENRY KWON   |   권흥선</h3><h5 id='profileStat'>Title in MOI’M: PR TEAM ANALYST<br>Industry: FINANCE<br><br>MOTTO: “Hey look, did you try doing it?” – Ju-yung Chung,<br> the founder of Hyundai Group.<br>모토: “이봐, 해봤어?” -현대그룹 창업주 고 아산 정주영 명예회장</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioHenry();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAHenry();return false;'>FUN FACTS</h4></div>";
+var HenryOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHenry();return false;'><img id='profilePic' src = '/assets/HenryKwonBig.png'><h3 id='profileHead'>HENRY KWON   |   권흥선</h3><h5 id='profileStat'>Title in MOI’M: PR TEAM ANALYST<br>Industry: FINANCE<br><br>MOTTO: “Hey look, did you try doing it?” – Ju-yung Chung,<br> the founder of Hyundai Group.<br>모토: “이봐, 해봤어?” -현대그룹 창업주 고 아산 정주영 명예회장</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioHenry();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAHenry();return false;'>FUN FACTS</h4></div>";
+var HenryFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHenry();return false;'><img id='profilePic' src = '/assets/HenryKwonBig.png'><h3 id='profileHead'>HENRY KWON   |   권흥선</h3><h5 id='profileStat'>Title in MOI’M: PR TEAM ANALYST<br>Industry: FINANCE<br><br>MOTTO: “Hey look, did you try doing it?” – Ju-yung Chung,<br> the founder of Hyundai Group.<br>모토: “이봐, 해봤어?” -현대그룹 창업주 고 아산 정주영 명예회장</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioHenry();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAHenry();return false;'>FUN FACTS</h4></div>";
+
+var HenryBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHenryBio();return false;'><h3 id='profileHeadBio'>HENRY KWON   |   권흥선</h3><p id='profileBio'>Heung Sun (Henry) Kwon grew up in four different cities (Seoul, Auckland, Dallas, and New York) before coming to New York University Leonard N. Stern School of<br> Business in 2010 to major in Finance and Statistics. He served as an interpretation sergeant in the Ministry of National Defense, Republic of Korea Army from 2013 to 2015<br>. Since his military service, he has been through a couple of boutique investment banking internships. Upon graduation (which he anticipates in May 2016), Henry plans to<br> work in the financial industry.<br><br>서울, 오클랜드, 댈러스, 뉴욕 등에서 자랐으며 2010년 뉴욕대학교에 금융과 통계학 전공으로 입학. 2013년부터 2015년까지 국방부 육군 통역병으로 군 복무를 하였으며, 복학 후 여러 투자은행에서 인턴사원으로 재<br>직. 2016년 5월에 학부 졸업 예정이며 추후 금융권에 종사하길 희망.</p><h4 id='mainButton' onclick='showHenry();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAHenry();return false;'>FUN FACTS</h4></div>";
+var HenryBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHenry();return false;'><h3 id='profileHeadBio'>HENRY KWON   |   권흥선</h3><p id='profileBio'>Heung Sun (Henry) Kwon grew up in four different cities (Seoul, Auckland, Dallas, and New York) before coming to New York University Leonard N. Stern School of<br> Business in 2010 to major in Finance and Statistics. He served as an interpretation sergeant in the Ministry of National Defense, Republic of Korea Army from 2013 to 2015<br>. Since his military service, he has been through a couple of boutique investment banking internships. Upon graduation (which he anticipates in May 2016), Henry plans to<br> work in the financial industry.<br><br>서울, 오클랜드, 댈러스, 뉴욕 등에서 자랐으며 2010년 뉴욕대학교에 금융과 통계학 전공으로 입학. 2013년부터 2015년까지 국방부 육군 통역병으로 군 복무를 하였으며, 복학 후 여러 투자은행에서 인턴사원으로 재<br>직. 2016년 5월에 학부 졸업 예정이며 추후 금융권에 종사하길 희망.</p><h4 id='mainButton' onclick='showHenry();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAHenry();return false;'>FUN FACTS</h4></div>";
+
+var HenryQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHenryQA();return false;'><h3 id='profileHeadBio'>HENRY KWON   |   권흥선</h3><p id='profileQuestions1'><span id='question'>Q: Dream Vacation?</span><br>A: Hawaii. Waikiki gives you peace of mind.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: The Pursuit of Happyness. The greatness of hope, diligence and faithfulness in<br> the midst of extreme adversity. A 117-minute-long vitamin when life gives you<br> lemons.<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Being positive.<br><br><span id='question'>Q: Inspiration?</span><br>A: The founder of the Hyundai Group Ju-yung Chung, my father, The Quiett.</p><p id='profileQuestions2'><span id='question'>Q. 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 하와이. 와이키키 해변가는 지상 낙원.<br><br><span id='question'>Q. 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 행복을 찾아서. 극한의 역경 속에서 희망과 근면 및 성실의 위대함을 잘 보여주는 영화. 지치고 힘들때<br> 나에게 117분짜리 비타민이 되는 영화.<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 긍정적인 마음 가짐 유지.<br><br><span id='question'>Q: 당신만의 우상?</span><br>A: 고 아산 정주영, 내 아버지, The Quiett</p><h4 id='mainButton' onclick='showHenry();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioHenry();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var HenryQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHenry();return false;'><h3 id='profileHeadBio'>HENRY KWON   |   권흥선</h3><p id='profileQuestions1'><span id='question'>Q: Dream Vacation?</span><br>A: Hawaii. Waikiki gives you peace of mind.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: The Pursuit of Happyness. The greatness of hope, diligence and faithfulness in<br> the midst of extreme adversity. A 117-minute-long vitamin when life gives you<br> lemons.<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Being positive.<br><br><span id='question'>Q: Inspiration?</span><br>A: The founder of the Hyundai Group Ju-yung Chung, my father, The Quiett.</p><p id='profileQuestions2'><span id='question'>Q. 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 하와이. 와이키키 해변가는 지상 낙원.<br><br><span id='question'>Q. 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 행복을 찾아서. 극한의 역경 속에서 희망과 근면 및 성실의 위대함을 잘 보여주는 영화. 지치고 힘들때<br> 나에게 117분짜리 비타민이 되는 영화.<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 긍정적인 마음 가짐 유지.<br><br><span id='question'>Q: 당신만의 우상?</span><br>A: 고 아산 정주영, 내 아버지, The Quiett</p><h4 id='mainButton' onclick='showHenry();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioHenry();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+// ***
+
+// ****Hanna - pr
+var HannaIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHanna();return false;'><img id='profilePic' src = '/assets/HannaLeeBig.png'><h3 id='profileHead'>HANNA LEE   |   이한나</h3><h5 id='profileStat'>Title in MOI’M: PR TEAM ANALYST<br>Industry: MARKETING<br><br>MOTTO: “Success occurs when opportunity meets<br> preparation.” – Zig Ziglar<br>모토: “성공은 기회는 준비된 자에게만 주어진다.” – 지그 지글러</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioHanna();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAHanna();return false;'>FUN FACTS</h4></div>";
+var HannaOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHanna();return false;'><img id='profilePic' src = '/assets/HannaLeeBig.png'><h3 id='profileHead'>HANNA LEE   |   이한나</h3><h5 id='profileStat'>Title in MOI’M: PR TEAM ANALYST<br>Industry: MARKETING<br><br>MOTTO: “Success occurs when opportunity meets<br> preparation.” – Zig Ziglar<br>모토: “성공은 기회는 준비된 자에게만 주어진다.” – 지그 지글러</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioHanna();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAHanna();return false;'>FUN FACTS</h4></div>";
+var HannaFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHanna();return false;'><img id='profilePic' src = '/assets/HannaLeeBig.png'><h3 id='profileHead'>HANNA LEE   |   이한나</h3><h5 id='profileStat'>Title in MOI’M: PR TEAM ANALYST<br>Industry: MARKETING<br><br>MOTTO: “Success occurs when opportunity meets<br> preparation.” – Zig Ziglar<br>모토: “성공은 기회는 준비된 자에게만 주어진다.” – 지그 지글러</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioHanna();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAHanna();return false;'>FUN FACTS</h4></div>";
+
+var HannaBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHannaBio();return false;'><h3 id='profileHeadBio'>HANNA LEE   |   이한나</h3><p id='profileBio'>Hanna Lee is currently a senior at Baruch College majoring in Marketing and Psychology. She is interested in advertising, planning, customer analysis and branding.<br> Recently she worked as a Production Intern and as an online marketing intern.<br>버룩대학교 마케팅 전공과 심리학 부전공으로 4학년에 재학 중임. 광고와 기획, 소비자 행동 분석과 브랜딩에 관심이 있으며. 최근에는 Production Intern과 온라인 마케팅 인턴으로 일함.</p><h4 id='mainButton' onclick='showHanna();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAHanna();return false;'>FUN FACTS</h4></div>";
+var HannaBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHanna();return false;'><h3 id='profileHeadBio'>HANNA LEE   |   이한나</h3><p id='profileBio'>Hanna Lee is currently a senior at Baruch College majoring in Marketing and Psychology. She is interested in advertising, planning, customer analysis and branding.<br> Recently she worked as a Production Intern and as an online marketing intern.<br>버룩대학교 마케팅 전공과 심리학 부전공으로 4학년에 재학 중임. 광고와 기획, 소비자 행동 분석과 브랜딩에 관심이 있으며. 최근에는 Production Intern과 온라인 마케팅 인턴으로 일함.</p><h4 id='mainButton' onclick='showHanna();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAHanna();return false;'>FUN FACTS</h4></div>";
+
+var HannaQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHannaQA();return false;'><h3 id='profileHeadBio'>HANNA LEE   |   이한나</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: The Bronte Burger at Ruby’s is much better than Shake Shack’s burger! Since<br> everything on the menu tastes delicious, it is highly recommended to go with a<br> large group and share multiple dishes.<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)? Why?</span><br>A: I use Yelp the most because I like to look for good restaurants with my friends.<br> Since I can find a good restaurant no matter where I am with the Yelp app, I use<br> it often.<br><br><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would use all of the money in my savings.<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Although I say that I’m going to start exercising every month, it is extremely<br> difficult to put it into action.</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야 하는 레스토랑은?</span><br>A: Ruby’s 의 Bronte 햄버거는 Shake Shack 햄버거보다 훨씬 더 맛있음.<br> 이 곳 메뉴는 다 맛있으니 여러 명이 가서 나눠 먹는 것을 추천.<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: Yelp. 친구들과 맛집 찾아다니길 좋아해 Yelp 앱을 자주 사용함. 어디에 있든 Yelp 앱만 있으면 그<br> 근처 맛집을 찾을 수 있어서 애용함.<br><br><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 내일 지구가 종말 한다면 난 오늘 통장에 있는 돈을 모두 쓰겠다.<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 매번 운동하기로 항상 마음은 먹지만 행동으로 실천하는 것이 너무 어려움.</p><h4 id='mainButton' onclick='showHanna();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioHanna();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var HannaQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHanna();return false;'><h3 id='profileHeadBio'>HANNA LEE   |   이한나</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: The Bronte Burger at Ruby’s is much better than Shake Shack’s burger! Since<br> everything on the menu tastes delicious, it is highly recommended to go with a<br> large group and share multiple dishes.<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)? Why?</span><br>A: I use Yelp the most because I like to look for good restaurants with my friends.<br> Since I can find a good restaurant no matter where I am with the Yelp app, I use<br> it often.<br><br><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would use all of the money in my savings.<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Although I say that I’m going to start exercising every month, it is extremely<br> difficult to put it into action.</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야 하는 레스토랑은?</span><br>A: Ruby’s 의 Bronte 햄버거는 Shake Shack 햄버거보다 훨씬 더 맛있음.<br> 이 곳 메뉴는 다 맛있으니 여러 명이 가서 나눠 먹는 것을 추천.<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: Yelp. 친구들과 맛집 찾아다니길 좋아해 Yelp 앱을 자주 사용함. 어디에 있든 Yelp 앱만 있으면 그<br> 근처 맛집을 찾을 수 있어서 애용함.<br><br><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 내일 지구가 종말 한다면 난 오늘 통장에 있는 돈을 모두 쓰겠다.<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 매번 운동하기로 항상 마음은 먹지만 행동으로 실천하는 것이 너무 어려움.</p><h4 id='mainButton' onclick='showHanna();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioHanna();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+// ***
+
+// ****Minji - pr
+var MinjiIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutMinji();return false;'><img id='profilePic' src = '/assets/MinjiSongBig.png'><h3 id='profileHead'>MINJI SONG | 송민지</h3><h5 id='profileStat'>Title in MOI’M: PR TEAM ANALYST<br>Industry: FASHION<br><br>MOTTO: Rowing with just one oar, I lost that oar. For the first<br> time I looked round at the wide stretch of water – Ko Un<br> (Flowers of a Moment)<br>모토: 노를 젓다가 노를 놓쳐버렸다. 비로소 넒은 물을 돌아다보았다 – 고은 (순<br>간의꽃)</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioMinji();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAMinji();return false;'>FUN FACTS</h4></div>";
+var MinjiOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutMinji();return false;'><img id='profilePic' src = '/assets/MinjiSongBig.png'><h3 id='profileHead'>MINJI SONG | 송민지</h3><h5 id='profileStat'>Title in MOI’M: PR TEAM ANALYST<br>Industry: FASHION<br><br>MOTTO: Rowing with just one oar, I lost that oar. For the first<br> time I looked round at the wide stretch of water – Ko Un<br> (Flowers of a Moment)<br>모토: 노를 젓다가 노를 놓쳐버렸다. 비로소 넒은 물을 돌아다보았다 – 고은 (순<br>간의꽃)</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioMinji();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAMinji();return false;'>FUN FACTS</h4></div>";
+var MinjiFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutMinji();return false;'><img id='profilePic' src = '/assets/MinjiSongBig.png'><h3 id='profileHead'>MINJI SONG | 송민지</h3><h5 id='profileStat'>Title in MOI’M: PR TEAM ANALYST<br>Industry: FASHION<br><br>MOTTO: Rowing with just one oar, I lost that oar. For the first<br> time I looked round at the wide stretch of water – Ko Un<br> (Flowers of a Moment)<br>모토: 노를 젓다가 노를 놓쳐버렸다. 비로소 넒은 물을 돌아다보았다 – 고은 (순<br>간의꽃)</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioMinji();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAMinji();return false;'>FUN FACTS</h4></div>";
+
+var MinjiBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutMinjiBio();return false;'><h3 id='profileHeadBio'>MINJI SONG | 송민지</h3><p id='profileBio'>Minji Song received her B.A. in Biological Sciences from the University of Connecticut (UConn) in 2013. During her time at UConn, Minji was an exchange student at<br> Yonsei University in Korea. She was a member of the 7 Wonders of Jeju Global Student Representative Group and also the Event Coordinator and Publicist of the UConn Korea Student Association. After graduating from UConn,<br> Minji worked as a Marketing Assistant at Prudential Douglas Elliman in New York and is currently a student in<br> Fashion Business at the Fashion Institute of Technology (FIT). She also writes articles about fashion and culture for the ONE STEP AHEAD webpage<br> (http://studynsurvive.tistory.com).<br><br>코네티컷대학교에서 생물과학(Biological Sciences)을 전공하고 2013년 졸업. 학부 재학당시 한국 연세대학교에서 교환학생으로도 공부하였고 제주-세계7대자연경관 글로벌유학생홍보대사단 활동경험도 있다.<br> UConn 한인회에서 Event Coordinator/Publicist로 활동. 졸업 후 뉴욕 Prudential Douglas Elliman Real Estate회사에서 Marketing Assistant로 일하다가 2014년 부터 Fashion Institute of<br> Technology 패션비지니스 전공으로 재학중이다. 현재 ONE STEP 앞서가는 남자S 페이지에서 (http://studynsurvive.tistory.com) 패션/컬처 관련 글을 쓰고있다.</p><h4 id='mainButton' onclick='showMinji();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAMinji();return false;'>FUN FACTS</h4></div>";
+var MinjiBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutMinji();return false;'><h3 id='profileHeadBio'>MINJI SONG | 송민지</h3><p id='profileBio'>Minji Song received her B.A. in Biological Sciences from the University of Connecticut (UConn) in 2013. During her time at UConn, Minji was an exchange student at<br> Yonsei University in Korea. She was a member of the 7 Wonders of Jeju Global Student Representative Group and also the Event Coordinator and Publicist of the UConn Korea Student Association. After graduating from UConn,<br> Minji worked as a Marketing Assistant at Prudential Douglas Elliman in New York and is currently a student in<br> Fashion Business at the Fashion Institute of Technology (FIT). She also writes articles about fashion and culture for the ONE STEP AHEAD webpage<br> (http://studynsurvive.tistory.com).<br><br>코네티컷대학교에서 생물과학(Biological Sciences)을 전공하고 2013년 졸업. 학부 재학당시 한국 연세대학교에서 교환학생으로도 공부하였고 제주-세계7대자연경관 글로벌유학생홍보대사단 활동경험도 있다.<br> UConn 한인회에서 Event Coordinator/Publicist로 활동. 졸업 후 뉴욕 Prudential Douglas Elliman Real Estate회사에서 Marketing Assistant로 일하다가 2014년 부터 Fashion Institute of<br> Technology 패션비지니스 전공으로 재학중이다. 현재 ONE STEP 앞서가는 남자S 페이지에서 (http://studynsurvive.tistory.com) 패션/컬처 관련 글을 쓰고있다.</p><h4 id='mainButton' onclick='showMinji();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAMinji();return false;'>FUN FACTS</h4></div>";
+
+var MinjiQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutMinjiQA();return false;'><h3 id='profileHeadBio'>MINJI SONG | 송민지</h3><p id='profileQuestions1'><span id='question'>Q: Inspirational Film?</span><br>A: 500 Days of Summer. 1. It makes you to think about fate and destiny in your<br> daily life; 2. It is a typical movie that is atypical. It is a really good movie. 3. It<br> features my favorite actor, Zooey Deschanel.<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps) and<br> why?</span><br>A: Instagram. 1. It has the charm to make something out of nothing. It encourages<br> you to think creatively and brings inspiration from everyday items. 2. It is more<br> private than other apps.<br><br><span id='question'>Q: Inspiration?</span><br>A: Biking. Taking pictures of food. Eating. Late nights before I go to sleep.<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Not dropping my phone. Exercising on an empty stomach.</p><p id='profileQuestions2'><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 500일의 썸머. 1. 살아가면서 생각해보게 되는 우연과 운명의 관계들에 대한 여운2. 평범한데 평범하<br>지않은 / 그냥 정말 괜찮은 영화3. 제일좋아하는 주이디샤넬 주연영화<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 인스타그램 / 1.무에서 유를 창조해주는 매력. 그냥 길거리를 걸어도 항상 창의적으로 생각하게끔 자극<br>해주는, 평범함에서 영감을 주는 매력?! 2. 다른 앱들보다 더 개인적인 (private) 매력!<br><br><span id='question'>Q: 영감을 주는 것들?</span><br>A: 자전거타기. 음식사진찍기. 먹을 때. 자기전 늦은 밤시간.<br><br><span id='question'>Q: 가장 어려운 것들?</span><br>A: 핸드폰 안 떨어뜨리기. 공복에 운동하기.</p><h4 id='mainButton' onclick='showMinji();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioMinji();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var MinjiQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutMinji();return false;'><h3 id='profileHeadBio'>MINJI SONG | 송민지</h3><p id='profileQuestions1'><span id='question'>Q: Inspirational Film?</span><br>A: 500 Days of Summer. 1. It makes you to think about fate and destiny in your<br> daily life; 2. It is a typical movie that is atypical. It is a really good movie. 3. It<br> features my favorite actor, Zooey Deschanel.<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps) and<br> why?</span><br>A: Instagram. 1. It has the charm to make something out of nothing. It encourages<br> you to think creatively and brings inspiration from everyday items. 2. It is more<br> private than other apps.<br><br><span id='question'>Q: Inspiration?</span><br>A: Biking. Taking pictures of food. Eating. Late nights before I go to sleep.<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Not dropping my phone. Exercising on an empty stomach.</p><p id='profileQuestions2'><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 500일의 썸머. 1. 살아가면서 생각해보게 되는 우연과 운명의 관계들에 대한 여운2. 평범한데 평범하<br>지않은 / 그냥 정말 괜찮은 영화3. 제일좋아하는 주이디샤넬 주연영화<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 인스타그램 / 1.무에서 유를 창조해주는 매력. 그냥 길거리를 걸어도 항상 창의적으로 생각하게끔 자극<br>해주는, 평범함에서 영감을 주는 매력?! 2. 다른 앱들보다 더 개인적인 (private) 매력!<br><br><span id='question'>Q: 영감을 주는 것들?</span><br>A: 자전거타기. 음식사진찍기. 먹을 때. 자기전 늦은 밤시간.<br><br><span id='question'>Q: 가장 어려운 것들?</span><br>A: 핸드폰 안 떨어뜨리기. 공복에 운동하기.</p><h4 id='mainButton' onclick='showMinji();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioMinji();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+// ***
 
 // ***soar**
 var soarIn="<div id='teamContent' class='animated slideInRight' onclick='closeLogin();return false;'><img id='backArrow' src = '/assets/arrowBack.png' onclick='soarTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='soar1();return false;'><h2 id='leaderHeading'>SOCIAL OUTREACH AND RESPONSIBILITY (SOAR) TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>The Social Outreach & Responsibility Team (SOAR) understands the power of connecting MOI’M’s activities with organizations with the pursuit of shared value.<br>It works to partner with organizations to implement meaningful ways to transform the quality of life in local and international communities<br>and inspire action in MOI’M’s network.</h5><div class='memeberOne'><div id='soarMemberOnePic' onclick='showProfileEsther();return false;'></div></div><div class='memeberTwo'><div id='soarMemberTwoPic' onclick='showProfileAlison();return false;'></div></div><div class='memeberThree'><div id='soarMemberThreePic' onclick='showProfileYooSun();return false;'></div></div></div>";
@@ -1315,6 +1386,349 @@ function showWhitney(){
 	$('body').append(WhitneyFadeIn);
 }
 // ***
+
+// **Sungjun - pr
+function showProfileSungjun(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(prOutForProfile);
+}, 0);
+  setTimeout(function() {
+  $('body').append(SungjunIn); 
+    }, 0);
+}
+
+function profileOutSungjun(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(SungjunOut);
+}, 0);
+  setTimeout(function() {
+  $('body').append(prInFromProfile);  
+    }, 0);
+}
+
+function profileOutSungjunBio(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(SungjunBioOut);
+}, 0);
+  setTimeout(function() {
+  $('body').append(prInFromProfile);  
+    }, 0);
+}
+
+function profileOutSungjunQA(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(SungjunQAOut);
+}, 0);
+  setTimeout(function() {
+  $('body').append(prInFromProfile);  
+    }, 0);
+}
+
+function showBioSungjun(){
+  $('#teamContent').remove();
+  $('body').append(SungjunBio);  
+}
+
+function showQASungjun(){
+  $('#teamContent').remove();
+  $('body').append(SungjunQA); 
+}
+
+function showSungjun(){
+  $('#teamContent').remove();
+  $('body').append(SungjunFadeIn);
+}
+// ***
+
+// **dodo - pr
+function showProfiledodo(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(prOutForProfile);
+}, 0);
+  setTimeout(function() {
+  $('body').append(dodoIn); 
+    }, 0);
+}
+
+function profileOutdodo(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(dodoOut);
+}, 0);
+  setTimeout(function() {
+  $('body').append(prInFromProfile);  
+    }, 0);
+}
+
+function profileOutdodoBio(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(dodoBioOut);
+}, 0);
+  setTimeout(function() {
+  $('body').append(prInFromProfile);  
+    }, 0);
+}
+
+function profileOutdodoQA(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(dodoQAOut);
+}, 0);
+  setTimeout(function() {
+  $('body').append(prInFromProfile);  
+    }, 0);
+}
+
+function showBiododo(){
+  $('#teamContent').remove();
+  $('body').append(dodoBio);  
+}
+
+function showQAdodo(){
+  $('#teamContent').remove();
+  $('body').append(dodoQA); 
+}
+
+function showdodo(){
+  $('#teamContent').remove();
+  $('body').append(dodoFadeIn);
+}
+// ***
+
+// **Charlotte - pr
+function showProfileCharlotte(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(prOutForProfile);
+}, 0);
+  setTimeout(function() {
+  $('body').append(CharlotteIn); 
+    }, 0);
+}
+
+function profileOutCharlotte(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(CharlotteOut);
+}, 0);
+  setTimeout(function() {
+  $('body').append(prInFromProfile);  
+    }, 0);
+}
+
+function profileOutCharlotteBio(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(CharlotteBioOut);
+}, 0);
+  setTimeout(function() {
+  $('body').append(prInFromProfile);  
+    }, 0);
+}
+
+function profileOutCharlotteQA(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(CharlotteQAOut);
+}, 0);
+  setTimeout(function() {
+  $('body').append(prInFromProfile);  
+    }, 0);
+}
+
+function showBioCharlotte(){
+  $('#teamContent').remove();
+  $('body').append(CharlotteBio);  
+}
+
+function showQACharlotte(){
+  $('#teamContent').remove();
+  $('body').append(CharlotteQA); 
+}
+
+function showCharlotte(){
+  $('#teamContent').remove();
+  $('body').append(CharlotteFadeIn);
+}
+// ***
+
+// **Henry - pr
+function showProfileHenry(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(pr1OutForProfile);
+}, 0);
+  setTimeout(function() {
+  $('body').append(HenryIn);  
+    }, 0);
+}
+
+function profileOutHenry(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(HenryOut);
+}, 0);
+  setTimeout(function() {
+  $('body').append(pr1InFromProfile); 
+    }, 0);
+}
+
+function profileOutHenryBio(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(HenryBioOut);
+}, 0);
+  setTimeout(function() {
+  $('body').append(pr1InFromProfile); 
+    }, 0);
+}
+
+function profileOutHenryQA(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(HenryQAOut);
+}, 0);
+  setTimeout(function() {
+  $('body').append(pr1InFromProfile); 
+    }, 0);
+}
+
+function showBioHenry(){
+  $('#teamContent').remove();
+  $('body').append(HenryBio); 
+}
+
+function showQAHenry(){
+  $('#teamContent').remove();
+  $('body').append(HenryQA);  
+}
+
+function showHenry(){
+  $('#teamContent').remove();
+  $('body').append(HenryFadeIn);
+}
+// ***
+
+// **Hanna = pr
+function showProfileHanna(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(pr1OutForProfile);
+}, 0);
+  setTimeout(function() {
+  $('body').append(HannaIn);  
+    }, 0);
+}
+
+function profileOutHanna(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(HannaOut);
+}, 0);
+  setTimeout(function() {
+  $('body').append(pr1InFromProfile); 
+    }, 0);
+}
+
+function profileOutHannaBio(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(HannaBioOut);
+}, 0);
+  setTimeout(function() {
+  $('body').append(pr1InFromProfile); 
+    }, 0);
+}
+
+function profileOutHannaQA(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(HannaQAOut);
+}, 0);
+  setTimeout(function() {
+  $('body').append(pr1InFromProfile); 
+    }, 0);
+}
+
+function showBioHanna(){
+  $('#teamContent').remove();
+  $('body').append(HannaBio); 
+}
+
+function showQAHanna(){
+  $('#teamContent').remove();
+  $('body').append(HannaQA);  
+}
+
+function showHanna(){
+  $('#teamContent').remove();
+  $('body').append(HannaFadeIn);
+}
+// ***
+
+// **Minji = pr
+function showProfileMinji(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(pr1OutForProfile);
+}, 0);
+  setTimeout(function() {
+  $('body').append(MinjiIn);  
+    }, 0);
+}
+
+function profileOutMinji(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(MinjiOut);
+}, 0);
+  setTimeout(function() {
+  $('body').append(pr1InFromProfile); 
+    }, 0);
+}
+
+function profileOutMinjiBio(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(MinjiBioOut);
+}, 0);
+  setTimeout(function() {
+  $('body').append(pr1InFromProfile); 
+    }, 0);
+}
+
+function profileOutMinjiQA(){
+  setTimeout(function() {
+  $('#teamContent').remove();
+  $('body').append(MinjiQAOut);
+}, 0);
+  setTimeout(function() {
+  $('body').append(pr1InFromProfile); 
+    }, 0);
+}
+
+function showBioMinji(){
+  $('#teamContent').remove();
+  $('body').append(MinjiBio); 
+}
+
+function showQAMinji(){
+  $('#teamContent').remove();
+  $('body').append(MinjiQA);  
+}
+
+function showMinji(){
+  $('#teamContent').remove();
+  $('body').append(MinjiFadeIn);
+}
+// ***
+
 // ******
 
 
@@ -1362,7 +1776,7 @@ function leadershipOut1(){
 }
 // *****
 
-// ***events
+// ***pr
 
 function events(){
 	setTimeout(function() {
