@@ -2799,6 +2799,69 @@ width:100px;
 
 /*****/
 
+/*###it****/
+
+#itMemberOnePic{
+	position:absolute;
+	background: url('/assets/NahLee.png');
+	z-index: 10;
+	width:300px;
+    height:300px;
+
+}
+
+#itMemberOnePic:hover{
+	cursor:pointer;
+	background: url('/assets/NahLee Thumbnail.png');
+
+}
+
+
+#itMemberTwoPic{
+	position:absolute;
+	background: url('/assets/LarryKim.png');
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#itMemberTwoPic:hover{
+	cursor:pointer;
+	background: url('/assets/LarryKim Thumbnail.png');
+}
+
+
+#itMemberThreePic{
+	background: url('/assets/PeterHahn.png');
+	position:absolute;
+	z-index: 10;
+	width:300px;
+    height:300px;
+
+}
+
+#itMemberThreePic:hover{
+	cursor:pointer;
+	background: url('/assets/PeterHahn Thumbnail.png');
+}
+
+
+#itMemberFourPic{
+	background: url('/assets/JunhoRhee.png');
+	position:absolute;
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#itMemberFourPic:hover{
+	cursor:pointer;
+	background: url('/assets/JunhoRhee Thumbnail.png');
+}
+
+
+/*****/
+
 
 
 
