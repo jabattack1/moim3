@@ -2736,6 +2736,70 @@ width:100px;
 
 /*****/
 
+/*###soar****/
+
+#soarMemberOnePic{
+	position:absolute;
+	background: url('/assets/EstherSin.png');
+	z-index: 10;
+	width:300px;
+    height:300px;
+
+}
+
+#soarMemberOnePic:hover{
+	cursor:pointer;
+	background: url('/assets/EstherSin Thumbnail.png');
+
+}
+
+
+#soarMemberTwoPic{
+	position:absolute;
+	background: url('/assets/AlisonChang.png');
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#soarMemberTwoPic:hover{
+	cursor:pointer;
+	background: url('/assets/AlisonChang Thumbnail.png');
+}
+
+
+#soarMemberThreePic{
+	background: url('/assets/YooSunHong.png');
+	position:absolute;
+	z-index: 10;
+	width:300px;
+    height:300px;
+
+}
+
+#soarMemberThreePic:hover{
+	cursor:pointer;
+	background: url('/assets/YooSunHong Thumbnail.png');
+}
+
+
+#soarMemberFourPic{
+	background: url('/assets/KatieSuh.png');
+	position:absolute;
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#soarMemberFourPic:hover{
+	cursor:pointer;
+	background: url('/assets/KatieSuh Thumbnail.png');
+}
+
+
+/*****/
+
+
 
 
 #leaderHeading{
