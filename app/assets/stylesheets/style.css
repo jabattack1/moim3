@@ -1,4 +1,4 @@
-html {
+/*html {
   height: 100%;
 }*/
 
@@ -15,6 +15,7 @@ html {
 	/*min-width:1260px ;*/
   	/*height: 100%;*/
   	width:1260px;
+  	height: 3250px;
   	margin: 0 auto;
   position:relative;
   overflow:auto;
@@ -2891,6 +2892,132 @@ width:100px;
 }
 
 
+/*****/
+
+/*###contributors****/
+
+#contributorsMemberOnePic{
+	position:absolute;
+	background: url('/assets/JoslynKim.png');
+	z-index: 10;
+	width:300px;
+    height:300px;
+
+}
+
+#contributorsMemberOnePic:hover{
+	cursor:pointer;
+	background: url('/assets/JoslynKim Thumbnail.png');
+
+}
+
+
+#contributorsMemberTwoPic{
+	position:absolute;
+	background: url('/assets/AndrewLee.png');
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#contributorsMemberTwoPic:hover{
+	cursor:pointer;
+	background: url('/assets/AndrewLee Thumbnail.png');
+}
+
+
+#contributorsMemberThreePic{
+	background: url('/assets/FeiWang.png');
+	position:absolute;
+	z-index: 10;
+	width:300px;
+    height:300px;
+
+}
+
+#contributorsMemberThreePic:hover{
+	cursor:pointer;
+	background: url('/assets/FeiWang Thumbnail.png');
+}
+
+
+#contributorsMemberFourPic{
+	background: url('/assets/YoonKyungCho.png');
+	position:absolute;
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#contributorsMemberFourPic:hover{
+	cursor:pointer;
+	background: url('/assets/YoonKyungCho Thumbnail.png');
+}
+
+#contributorsMemberFivePic{
+	background: url('/assets/JiInYoo.png');
+	position:absolute;
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#contributorsMemberFivePic:hover{
+	cursor:pointer;
+	background: url('/assets/JiInYoo Thumbnail.png');
+}
+
+#contributorsMemberSixPic{
+	background: url('/assets/JieunLim.png');
+	position:absolute;
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#contributorsMemberSixPic:hover{
+	cursor:pointer;
+	background: url('/assets/JieunLim Thumbnail.png');
+}
+
+#contributorsMemberSevenPic{
+	background: url('/assets/GraceBatista.png');
+	position:absolute;
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#contributorsMemberSevenPic:hover{
+	cursor:pointer;
+	background: url('/assets/GraceBatista Thumbnail.png');
+}
+
+#contributorsMemberEightPic{
+	background: url('/assets/JongSunPark.png');
+	position:absolute;
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#contributorsMemberEightPic:hover{
+	cursor:pointer;
+	background: url('/assets/JongSunPark Thumbnail.png');
+}
+
+#contributorsMemberNinePic{
+	background: url('/assets/JaiYoonLee.png');
+	position:absolute;
+	z-index: 10;
+	width:300px;
+    height:300px;
+}
+
+#contributorsMemberNinePic:hover{
+	cursor:pointer;
+	background: url('/assets/JaiYoonLee Thumbnail.png');
+}
 /*****/
 
 
