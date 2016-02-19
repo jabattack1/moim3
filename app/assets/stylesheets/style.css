@@ -2376,6 +2376,21 @@ width:100px;
 	cursor:pointer;
 }
 
+#rewindArrow{
+	/*background-image: url('/assets/backArrow.png');*/
+	position:absolute;
+    margin-top:70px;
+    margin-left:20px;
+    z-index: 10;
+    display: inline;
+   	width:40px;
+    height:42px;
+}
+
+#rewindArrow:hover{
+	-webkit-filter: invert(50%);
+	cursor:pointer;
+}
 
 .memeberOne{
 	position:absolute;
