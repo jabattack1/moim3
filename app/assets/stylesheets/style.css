@@ -2377,19 +2377,30 @@ width:100px;
 }
 
 #rewindArrow{
-	/*background-image: url('/assets/backArrow.png');*/
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size:11px;
+	background-color:black;
+	color:white;
 	position:absolute;
     margin-top:70px;
-    margin-left:20px;
+    margin-left:0px;
     z-index: 10;
     display: inline;
-   	width:40px;
-    height:42px;
+   	width:75px;
+    height:22px;
+    padding-left:3px;
+    padding-top:3px;
+    border: 1px solid white;
+    /*outline: 1px solid black;*/
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow:0 0 0 1px hsl(0, 0%, 20%);
 }
 
 #rewindArrow:hover{
-	-webkit-filter: invert(50%);
 	cursor:pointer;
+	background-color:white;
+	color:black;
 }
 
 .memeberOne{
