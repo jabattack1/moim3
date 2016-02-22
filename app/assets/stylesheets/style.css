@@ -3161,7 +3161,7 @@ width:100px;
 
 #mainButton{
 	position:absolute;
-	margin-left:810px;
+	margin-left:870px;
 	margin-top:20px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight:bold;
@@ -3174,7 +3174,7 @@ width:100px;
 
 #bioButton{
 	position:absolute;
-	margin-left:905px;
+	margin-left:965px;
 	margin-top:20px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight:bold;
@@ -3187,7 +3187,7 @@ width:100px;
 
 #qaButton{
 	position:absolute;
-	margin-left:1050px;
+	margin-left:1110px;
 	margin-top:20px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight:bold;
@@ -3200,20 +3200,26 @@ width:100px;
 
 #profileHeadBio{
 	position:absolute;
-	margin-left:520px;
+	/*margin-left:520px;*/
 	margin-top:20px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight:bold;
+	width:1260px;
+	display: block;
+	text-align:center;
 }
 
 #profileBio{
 	position:absolute;
-	margin-left:70px;
+	/*margin-left:70px;*/
 	margin-top:150px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	/*font-weight:bold;*/
 	font-size:14px;
 	text-align: center;
+	width:1260px;
+	display: block;
+	text-align:center;
 }
 
 #longLineQuestions{
@@ -3243,7 +3249,7 @@ width:100px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	/*font-weight:bold;*/
 	font-size:13px;
-	text-align: center;
+	/*text-align: center;*/
 	text-align: left;
 }
 
