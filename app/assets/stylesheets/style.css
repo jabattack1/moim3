@@ -738,15 +738,20 @@ a.back-to-top:hover{
 }
 
 #missionQuote{
-	position:fixed;
-	margin-top:479px;
-	margin-left: 370px;
-	width:800px;
-	z-index:8;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
 	color:white;
-	/*font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-            font-weight: normal;*/
-            font-size: 25px;
+	z-index:5;
+	/*position:absolute;*/
+/*	margin-left:495px;
+	margin-top:320px;*/
+	text-shadow: 1px 1px 1px #000;
+	position:fixed;
+	top: 70%;
+	width:1260px;
+	display: block;
+	text-align:center;
+    font-size: 25px;
    	text-align: center;
 }
 
@@ -917,18 +922,22 @@ a.back-to-top:hover{
 	font-weight: normal;
 	color:white;
 	z-index:5;
-	position:absolute;
-	margin-left:495px;
-	margin-top:320px;
+	/*position:absolute;*/
+/*	margin-left:495px;
+	margin-top:320px;*/
 	text-shadow: 1px 1px 1px #000;
 	position:fixed;
+	top: 40%;
+	width:1260px;
+	display: block;
+	text-align:center;
 }
 
-#chornicleLine{
+#chronicleLine{
 	z-index:5;
 	position:fixed;
-	margin-left:610px;
-	margin-top:370px;
+	margin-left:605px;
+	margin-top:335px;
 	-webkit-filter: invert(100%);
     /*filter: invert(100%);*/
     width:50px;
@@ -975,7 +984,7 @@ a.back-to-top:hover{
 	margin-top:623px;
 	margin-left:0px;
 	width:1260px;
-	height:530px;
+	height:570px;
 	background-color:white;
 	z-index:8;
 	/*width:1800px;*/
@@ -1206,7 +1215,7 @@ a.back-to-top:hover{
 
 #contactUsTeam{
 	position:absolute;
-    margin-top:1150px;
+    margin-top:1190px;
     margin-left:0px;
     z-index:100;
     width:1260px;
@@ -1720,7 +1729,7 @@ width:100px;
   background-color:#161616;
   /*background-repeat: repeat-y;*/
 	width:1260px;
-  	height: 1200px;
+  	height: 1220px;
   	max-width:1260px;
   	max-height:1200px;
   	margin: 0 auto;
@@ -1791,22 +1800,26 @@ width:100px;
 }
 
 #missionBlend{
-		font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight: normal;
 	color:white;
 	z-index:5;
-	position:absolute;
-	margin-left:495px;
-	margin-top:320px;
+	/*position:absolute;*/
+/*	margin-left:495px;
+	margin-top:320px;*/
 	text-shadow: 1px 1px 1px #000;
 	position:fixed;
+	top: 40%;
+	width:1260px;
+	display: block;
+	text-align:center;
 }
 
 #missionLine{
 	z-index:5;
 	position:fixed;
-	margin-left:610px;
-	margin-top:370px;
+	margin-left:605px;
+	margin-top:335px;
 	-webkit-filter: invert(100%);
     /*filter: invert(100%);*/
     width:50px;
@@ -1814,22 +1827,26 @@ width:100px;
 }
 
 #involvedBlend{
-		font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight: normal;
 	color:white;
 	z-index:5;
-	position:absolute;
-	margin-left:495px;
-	margin-top:320px;
+	/*position:absolute;*/
+/*	margin-left:495px;
+	margin-top:320px;*/
 	text-shadow: 1px 1px 1px #000;
 	position:fixed;
+	top: 40%;
+	width:1260px;
+	display: block;
+	text-align:center;
 }
 
 #teamLine{
 	z-index:5;
 	position:fixed;
-	margin-left:610px;
-	margin-top:370px;
+	margin-left:605px;
+	margin-top:335px;
 	-webkit-filter: invert(100%);
     /*filter: invert(100%);*/
     width:50px;
@@ -1837,22 +1854,28 @@ width:100px;
 }
 
 #teamBlend{
-		font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight: normal;
 	color:white;
 	z-index:5;
-	position:absolute;
-	margin-left:495px;
-	margin-top:320px;
+	/*position:absolute;*/
+/*	margin-left:495px;
+	margin-top:320px;*/
 	text-shadow: 1px 1px 1px #000;
 	position:fixed;
+	top: 40%;
+	width:1260px;
+	display: block;
+	text-align:center;
 }
+
+
 
 #involvedLine{
 	z-index:5;
 	position:fixed;
-	margin-left:610px;
-	margin-top:370px;
+	margin-left:605px;
+	margin-top:335px;
 	-webkit-filter: invert(100%);
     /*filter: invert(100%);*/
     width:50px;
@@ -1968,7 +1991,7 @@ width:100px;
 #leadershipTeamPic{
 	background-image: url('/assets/Leadership.jpg');
 	position:absolute;
-    margin-top:10px;
+    margin-top:30px;
     margin-left:110px;
     z-index: 10;
     display: inline;
@@ -1984,7 +2007,7 @@ width:100px;
 #eventTeamPic{
 	background-image: url('/assets/eventTeam.jpg');
 	position:absolute;
-    margin-top:10px;
+    margin-top:30px;
     margin-left:370px;
     z-index: 10;
     display: inline;
@@ -2000,7 +2023,7 @@ width:100px;
 #creativeTeamPic{
 	background-image: url('/assets/creativeTeam.jpg');
 	position:absolute;
-    margin-top:10px;
+    margin-top:30px;
     margin-left:630px;
     z-index: 10;
     display: inline;
@@ -2016,7 +2039,7 @@ width:100px;
 #prTeamPic{
 	background-image: url('/assets/prTeam.jpg');
 	position:absolute;
-    margin-top:10px;
+    margin-top:30px;
     margin-left:890px;
     z-index: 10;
     display: inline;
@@ -2032,7 +2055,7 @@ width:100px;
 #soarTeamPic{
 	background-image: url('/assets/soarTeam.jpg');
 	position:absolute;
-    margin-top:270px;
+    margin-top:290px;
     margin-left:110px;
     z-index: 10;
     display: inline;
@@ -2048,7 +2071,7 @@ width:100px;
 #itTeamPic{
 	background-image: url('/assets/itTeam.jpg');
 	position:absolute;
-    margin-top:270px;
+    margin-top:290px;
     margin-left:370px;
     z-index: 10;
     display: inline;
@@ -2064,7 +2087,7 @@ width:100px;
 #advisoryTeamPic{
 	background-image: url('/assets/advisoryTeam.jpg');
 	position:absolute;
-    margin-top:270px;
+    margin-top:290px;
     margin-left:630px;
     z-index: 10;
     display: inline;
@@ -2080,7 +2103,7 @@ width:100px;
 #contributorsPic{
 	background-image: url('/assets/contributors.jpg');
 	position:absolute;
-    margin-top:270px;
+    margin-top:290px;
     margin-left:890px;
     z-index: 10;
     display: inline;
@@ -2405,7 +2428,7 @@ width:100px;
 
 .memeberOne{
 	position:absolute;
-    margin-top:150px;
+    margin-top:50px;
     margin-left:120px;
     z-index: 10;
     display: inline;
@@ -2430,7 +2453,7 @@ width:100px;
 
 .memeberTwo{
 	position:absolute;
-    margin-top:150px;
+    margin-top:50px;
     margin-left:490px;
     z-index: 10;
     display: inline;
@@ -2451,7 +2474,7 @@ width:100px;
 
 .memeberThree{
 	position:absolute;
-    margin-top:150px;
+    margin-top:50px;
     margin-left:860px;
     z-index: 10;
     display: inline;
@@ -3053,27 +3076,39 @@ width:100px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-size:23px;
 	font-style:bold;
-	position:absolute;
-	margin-top:10px;
-	margin-left:400px;
+	/*position:absolute;*/
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+	width:700px;
+	display: block;
+	text-align:center;
 }
 
 #membersLine{
-	position:absolute;
-	margin-top:40px;
-	margin-left:550px;
+	/*position:absolute;?*/
+	margin-top:10px;
+	/*margin-left:550px;*/
 	height:3px;
 	width:25px;
+	margin-left:auto;
+	margin-right:auto;
+	width:30px;
+	display: block;
 }
 
 #teamIntro{
-	position:absolute;
+	/*position:absolute;*/
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-size:15px;
 	/*font-style:bold;*/
-	margin-top:70px;
-	margin-left:100px;
+	margin-top:30px;
+	/*margin-left:100px;*/
 	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	width:1100px;
+	display: block;
 }
 
 
