@@ -2389,12 +2389,12 @@ width:100px;
 #backArrow{
 	/*background-image: url('/assets/backArrow.png');*/
 	position:absolute;
-    margin-top:270px;
-    margin-left:20px;
+    margin-top:240px;
+    margin-left:10px;
     z-index: 10;
     display: inline;
-   	width:36px;
-    height:47px;
+   	width:80px;
+    height:80px;
 }
 
 #backArrow:hover{
@@ -2405,12 +2405,14 @@ width:100px;
 #forwardArrow{
 	/*background-image: url('/assets/backArrow.png');*/
 	position:absolute;
-    margin-top:270px;
-    margin-left:1205px;
+    margin-top:240px;
+    margin-left:1175px;
     z-index: 10;
     display: inline;
-   	width:36px;
-    height:47px;
+   	width:80px;
+    height:80px;
+    /*vertical-align: middle*/
+
 }
 
 #forwardArrow:hover{
@@ -2448,7 +2450,7 @@ width:100px;
 .memeberOne{
 	position:absolute;
     margin-top:50px;
-    margin-left:120px;
+    margin-left:115px;
     z-index: 10;
     display: inline;
 }
@@ -2473,7 +2475,7 @@ width:100px;
 .memeberTwo{
 	position:absolute;
     margin-top:50px;
-    margin-left:490px;
+    margin-left:485px;
     z-index: 10;
     display: inline;
 }
@@ -2494,7 +2496,7 @@ width:100px;
 .memeberThree{
 	position:absolute;
     margin-top:50px;
-    margin-left:860px;
+    margin-left:855px;
     z-index: 10;
     display: inline;
     /*background-color:black;*/
@@ -3094,7 +3096,7 @@ width:100px;
 #leaderHeading{
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-size:23px;
-	font-style:bold;
+	font-weight:bold;
 	/*position:absolute;*/
 	margin-top:30px;
 	margin-left:auto;
@@ -3108,7 +3110,7 @@ width:100px;
 	/*position:absolute;?*/
 	margin-top:10px;
 	/*margin-left:550px;*/
-	height:3px;
+	height:4px;
 	width:25px;
 	margin-left:auto;
 	margin-right:auto;
@@ -3120,7 +3122,7 @@ width:100px;
 	/*position:absolute;*/
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-size:15px;
-	/*font-style:bold;*/
+	/*font-weight:bold;*/
 	margin-top:30px;
 	/*margin-left:100px;*/
 	text-align: center;
