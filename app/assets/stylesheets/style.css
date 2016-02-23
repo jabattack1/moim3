@@ -3242,6 +3242,46 @@ width:100px;
 	text-align: right;
 }
 
+#profileQuestions1a{
+	position:absolute;
+	margin-left:230px;
+	margin-top:80px;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	/*font-weight:bold;*/
+	font-size:13px;
+	text-align: right;
+}
+
+#profileQuestions1b{
+	position:absolute;
+	margin-left:290px;
+	margin-top:80px;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	/*font-weight:bold;*/
+	font-size:13px;
+	text-align: right;
+}
+
+#profileQuestions1c{
+	position:absolute;
+	margin-left:150px;
+	margin-top:80px;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	/*font-weight:bold;*/
+	font-size:13px;
+	text-align: right;
+}
+
+#profileQuestions1d{
+	position:absolute;
+	margin-left:0px;
+	margin-top:80px;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	/*font-weight:bold;*/
+	font-size:13px;
+	text-align: right;
+}
+
 #profileQuestions2{
 	position:absolute;
 	margin-left:650px;
@@ -3256,6 +3296,16 @@ width:100px;
 #profileQuestionsShort1{
 	position:absolute;
 	margin-left:270px;
+	margin-top:130px;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	/*font-weight:bold;*/
+	font-size:13px;
+	text-align: right;
+}
+
+#profileQuestionsShort1a{
+	position:absolute;
+	margin-left:170px;
 	margin-top:130px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	/*font-weight:bold;*/
