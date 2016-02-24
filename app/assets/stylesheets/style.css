@@ -3349,7 +3349,7 @@ width:100px;
 /* Make it move */
 @keyframes marquee {
     0%   { text-indent: 57em }
-    100% { text-indent: -70em }
+    100% { text-indent: -65em }
 }
 
 
