@@ -1354,6 +1354,7 @@ a.back-to-top:hover{
 	text-decoration: underline;
 	position:relative; 
 	z-index:10;
+	cursor: pointer;
 }
 
 #contactBottom{
