@@ -36,6 +36,35 @@
 </head>
 <body id="missionPage">
 
+<script>
+$(function() {
+    var oTop = $('.count').offset().top - window.innerHeight;
+    $(window).scroll(function(){
+
+        var pTop = $('body').scrollTop();
+        console.log( pTop + ' - ' + oTop );   //just for your debugging
+        if( pTop > oTop ){
+            start_count();
+        }
+    });
+});
+
+function start_count(){
+    alert('start_count');
+     $({countNum: $('.count').text()}).animate({countNum: 63  }, {
+          duration: 3000,
+          easing:'linear',
+          step: function() {
+            $('#counter').text(Math.floor(this.countNum));
+          },
+          complete: function() {
+            $('#counter').text(this.countNum);
+
+          }
+        });
+}        
+</script>
+
 <img id='whiteGuyPic' class='animated slideInLeft' src = '/assets/city.jpg' onclick='closeLogin();return false;'>
 <h2 id='missionBlend' class='animated slideInLeft'>THE MISSION</h2>
 <!-- <img id='missionLine'  class='animated slideInLeft' src = "/assets/line.png"> -->

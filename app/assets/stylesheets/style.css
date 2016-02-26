@@ -2,7 +2,19 @@
   height: 100%;
 }*/
 
+#test { width:100px; 
+	min-height:100px; 
+z-index:100;
+position:absolute;
+margin-top:200px;
+}
 
+#hello { width:100px; 
+	min-height:100px; 
+z-index:100;
+position:absolute;
+margin-top:150px;
+}
 
 #welcomeBody {
   /*background: url() no-repeat;*/
@@ -1516,13 +1528,13 @@ width:100px;
 
 #termsOfUse{
 	position:absolute;
-	width:900px;
-	height:500px;
+	width:600px;
+	height:900px;
 	margin-top:2730px;
 	margin-left:180px;
-	background-color:white;
+	background-color:rgba(0,0,0, 0.5);
 	border-style:solid;
-	border-color:#2B2B2B;
+	border-color:black;
 	border-width:2px;
 	z-index:10;
 	/*border-radius: 10px;*/
@@ -1530,13 +1542,13 @@ width:100px;
 
 #privacyPolicy{
 	position:absolute;
-	width:900px;
-	height:500px;
+	width:600px;
+	height:900px;
 	margin-top:2730px;
 	margin-left:180px;
-	background-color:white;
+	background-color:rgba(0,0,0, 0.5);
 	border-style:solid;
-	border-color:#2B2B2B;
+	border-color:black;
 	border-width:2px;
 	z-index:10;
 	/*border-radius: 10px;*/
@@ -1544,13 +1556,13 @@ width:100px;
 
 #termsOfUseWelcome{
 	position:absolute;
-	width:900px;
-	height:500px;
+	width:700px;
+	height:700px;
 	margin-top:100px;
 	margin-left:180px;
-	background-color:white;
+	background-color:rgba(0,0,0, 0.5);
 	border-style:solid;
-	border-color:#2B2B2B;
+	border-color:black;
 	border-width:2px;
 	z-index:10;
 	/*border-radius: 10px;*/
@@ -1558,13 +1570,13 @@ width:100px;
 
 #privacyPolicyWelcome{
 	position:absolute;
-	width:900px;
-	height:500px;
+	width:700px;
+	height:700px;
 	margin-top:100px;
 	margin-left:180px;
-	background-color:white;
+	background-color:rgba(0,0,0, 0.5);
 	border-style:solid;
-	border-color:#2B2B2B;
+	border-color:black;
 	border-width:2px;
 	z-index:10;
 	/*border-radius: 10px;*/
@@ -1581,7 +1593,7 @@ width:100px;
     margin-right:3px;
     width:25px;
     height:25px;
-    -webkit-filter: invert(0%) !important;
+    -webkit-filter: invert(100%) !important;
     
 }
 
@@ -1592,7 +1604,7 @@ width:100px;
 
 #termsWords{
 	position:absolute;
-	color:black;
+	color:white;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight: normal;
 	font-size: 13px;
@@ -1600,7 +1612,7 @@ width:100px;
 
 #privacyWords{
 	position:absolute;
-	color:black;
+	color:white;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight: normal;
 	font-size: 13px;
@@ -2427,7 +2439,7 @@ width:100px;
 	background-color:black;
 	color:white;
 	position:absolute;
-    margin-top:70px;
+    margin-top:150px;
     margin-left:0px;
     z-index: 10;
     display: inline;
@@ -2455,6 +2467,8 @@ width:100px;
     z-index: 10;
     display: inline;
 }
+
+
 
 /****leaders*/
 
@@ -3332,7 +3346,7 @@ width:100px;
 	position:absolute;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight:bold;
-	font-size:21px;
+	font-size:19px;
     width: 1030px;
     margin-left:120px;
     margin-top:500px;

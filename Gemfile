@@ -28,6 +28,8 @@ gem 'pry'
 gem 'bcrypt', '~> 3.1.7'
 
 gem 'heroku'
+
+gem 'jquery-ui-rails'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
