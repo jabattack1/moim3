@@ -6,6 +6,9 @@ Rails.application.routes.draw do
   root 'welcome#index'
 
   resources :users, only: [:index, :create]
+  resources :admins
+  resources :admin_session
+  resources :adminlands
   resources :session, only: [:create, :destroy, :new]
   resources :teams, only: [:index, :create]
   resources :teams_session

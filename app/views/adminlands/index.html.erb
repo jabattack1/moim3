@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body id='adminlandsPage'>
+<form method="POST" id='logout_button' action=<%= "/admin_session/" + session[:user_id].to_s%>>
+  		<input type="hidden" name="_method" value="DELETE" />
+  		<input type="hidden" name="id" value=<%=session[:user_id].to_s%>/>
+  		<input id='adminLogOut' type="submit" value="LOG OUT" class="admin_logout"/>
+</form>
+
+<div class="iform" id="account" style="overflow-y: auto">
+<form method="POST" action="/admins">
+
+	<p class="iheader">CREATE ADMIN ACCOUNT</p>
+
+	<label class="ilabel">
+		<input type="text" name="first_name" placeholder="First Name"class="itext"/>
+	</label><br>
+
+	<label class="ilabel">
+		<input type="text" name="last_name" placeholder="Last Name" class="itext"/>
+	</label><br>
+	<label class="ilabel">
+		<input type="text" name="email" placeholder="Email" class="itext"/>
+	</label><br>
+	<label class="ilabel">
+		<input type="text" name="password" placeholder="Password(at least 5 characters)"class="itext"/><br>
+		<input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+	</label>
+
+	<input type="submit" id="account_submit" class="ibutton"/>
+
+</form>
+</div>
+
+
+
+
+
+</body>
+</html>
