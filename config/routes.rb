@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   resources :session, only: [:create, :destroy, :new]
   resources :teams, only: [:index, :create]
   resources :teams_session
+  resources :admin_error
   
   resources :galleries
   resources :expresses

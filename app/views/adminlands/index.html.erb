@@ -3,6 +3,15 @@
 	<title></title>
 </head>
 <body id='adminlandsPage'>
+	
+	<% if @popup1 %> 
+    <script type="text/javascript">
+    alert("hello");
+    </script>
+	<% end %>
+
+<img id='logoMoimAdminConsole' src='/assets/moimLogo.png'>
+<h2 id='adminConsoleHeading'>ADMIN CONSOLE</h2>
 <form method="POST" id='logout_button' action=<%= "/admin_session/" + session[:user_id].to_s%>>
   		<input type="hidden" name="_method" value="DELETE" />
   		<input type="hidden" name="id" value=<%=session[:user_id].to_s%>/>

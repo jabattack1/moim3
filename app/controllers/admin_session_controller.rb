@@ -16,6 +16,7 @@ class AdminSessionController < ApplicationController
       @popup_message = "username/password incorrect"
 
       redirect_to '/admins'
+      
     end
   end
 

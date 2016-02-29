@@ -6,14 +6,13 @@ class AdminsController < ApplicationController
   end
 
 def create
-    # Create the user from params
-    # @user = User.new(params[:user])
-    if Admin.find_by(email: params['email'])
-        status = ({Status: 'Error', Message: 'A user with that email already exists'})
 
-      render :action => 'index'
-    	# @user.save
-      # Deliver the signup email
+    if Admin.find_by(email: params['email'])
+        
+      
+
+      redirect_to "/adminlands"
+
     else
     	adminNew = Admin.create({
         first_name: params["first_name"],
