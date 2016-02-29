@@ -18,6 +18,13 @@
   		<input id='adminLogOut' type="submit" value="LOG OUT" class="admin_logout"/>
 </form>
 
+<div class="iform2" id="account" style="overflow-y: auto">
+	<p class='iheader'>CURRENT ADMINS</p>
+	<% @admin.each do |i| %>
+	<%= i.first_name + " " + i.last_name%> <br>
+	<% end %>
+</div>
+
 <div class="iform" id="account" style="overflow-y: auto">
 <form method="POST" action="/admins">
 
@@ -42,6 +49,43 @@
 
 </form>
 </div>
+
+
+<div class="iform1" id="account" style="overflow-y: auto">
+<form method='POST' action=<%= "/admins/" + session[:user_id].to_s%>>
+<input type='hidden' name='_method' value='PUT'>
+	
+	<p class="iheader">CHANGE ADMIN PASSWORD</p>
+
+	<label class="ilabel">
+		<input type="text" name="email" placeholder="Email" class="itext"/>
+	</label><br>
+	<label class="ilabel">
+		<input type="text" name="password" placeholder="Password(at least 5 characters)"class="itext"/><br>
+		<input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+	</label>
+
+	<input type="submit" value="Update" id="admin_edit" class="edit ibutton"/>
+
+</form>
+</div>
+
+<div class="iform3" id="account" style="overflow-y: auto">
+<form method="POST" action=<%= "/admins/" + session[:user_id].to_s%>>
+<input type="hidden" name="_method" value="DELETE" />
+
+		<p class="iheader">DELETE ADMIN ACCOUNT</p>
+  		
+  		<label class="ilabel">
+		<input type="text" name="email" placeholder="Email" class="itext"/>
+		</label>
+  		
+  		<input type="submit" value="DELETE" class="ibutton"/>
+</form>
+
+</div>
+
+
 
 
 

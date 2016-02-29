@@ -3,7 +3,7 @@ class AdminlandsController < ApplicationController
   def index
   	# binding.pry
   	if session[:user_id]  
- 	@event = Event.all
+ 	  @admin = Admin.all
  	else
       redirect_to '/admins'
     end

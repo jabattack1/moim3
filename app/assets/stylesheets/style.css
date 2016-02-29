@@ -3417,9 +3417,9 @@ width:100px;
 	position: absolute;
 	margin-top:100px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-	font-weight:bold;
+	/*font-weight:bold;*/
 	font-size:14px;
-    
+    /*width:300px;*/
 }
 
 #adminLogOut{
@@ -3438,9 +3438,82 @@ width:100px;
 
 }
 
+/******/
+
+.iform0 {font: 12px/26px 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif; position:absolute; width:300px; margin-left:30px; margin-top: 190px; }
+.iform0 ul { margin:0; padding:0; list-style:none;}
+.iform0 ul ul { overflow:auto}
+.iform0 li { padding-bottom:5px;}
+.iform0 label { 
+ width:130px; display:block; float:left; line-height:26px; 
+}
+.iform0 label.ilabel { 
+ width:auto; display:inline; float:none; margin-bottom: 10px;line-height:26px; padding:5px; 
+}
+
+.iform0 .itext,.iform0 .itextarea,.iform0 .iselect,.iform0 .ibutton { 	
+	width:200px;
+	border:1px solid #999;
+	-webkit-border-radius: 3px;-khtml-border-radius:3px;-moz-border-radius:3px;border-radius:3px;
+	margin-top:10px;
+	padding:5px;
+	background: #fff;
+	background: -webkit-gradient(linear, left top, left 25, from(#fff), color-stop(6%, #eee), to(#fff));
+	background: -moz-linear-gradient(top, #fff, #eee 2px, #fff 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	color: #000000;
 
 
-.iform {font: 12px/26px 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif; position:absolute; width:400px; margin-left:20px; margin-top: 190px; }
+}
+
+.iform0 .itext:hover,.iform0 .itextarea:hover,.iform0 .iselect:hover,.iform0 .ibutton:hover,
+.iform0 .itext:focus,.iform0 .itextarea:focus,.iform0 .iselect:focus,.iform0 .ibutton:focus{
+
+border-color: #333;
+background:#fff;
+
+}
+
+.iform0 .itext {
+/*color: #000000;*/
+width: 150px;
+}
+.itexts {
+	width: 100px;
+	background:#FF0000;
+}
+
+.iform0 .itextarea{ 
+	height:100px; width: 250px; 
+}
+.iform0 .ibutton {
+
+	width:auto;
+	background: #efefef;
+	background: -webkit-gradient(linear, left top, left 25, from(#dadada), color-stop(6%, #efefef), to(#dadada));
+	background: -moz-linear-gradient(top, #dadada, #efefef 2px, #dadada 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	padding:5px
+}
+.iform0 .ibutton:hover,.iform0 .ibutton:focus { background:#dadada;}
+.iheader { font:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif; display:block; font-size:18px; border-bottom:1px solid #000; padding:5px; margin:0px 0 5px;}
+.iform0 li.iseparator { display:block; text-indent:-9999px; height:10px; line-height:10px; border-bottom:1px solid #999;margin:5px 0 15px }
+
+.iform0 .required { border-color:#F00; }
+
+#imessageOK,#imessageERROR{ border:1px solid #F60; padding:10px; font-size:16px; font-weight:bold; text-align: center; display:none; margin-bottom:20px;
+
+	background: #F90;
+	background: -webkit-gradient(linear, left top, left 25, from(#F90), color-stop(4%, #FC0), to(#F90));
+	background: -moz-linear-gradient(top, #F90, #FC0 1px, #F90 25px);
+	color:#fff;
+	}
+
+/******/
+
+.iform {font: 12px/26px 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif; position:absolute; width:300px; margin-left:350px; margin-top: 190px; }
 .iform ul { margin:0; padding:0; list-style:none;}
 .iform ul ul { overflow:auto}
 .iform li { padding-bottom:5px;}
@@ -3511,6 +3584,237 @@ width: 150px;
 	color:#fff;
 	}
 
+/*********/
+
+.iform1 {font: 12px/26px 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif; position:absolute; width:300px; margin-left:700px; margin-top: 190px; }
+.iform1 ul { margin:0; padding:0; list-style:none;}
+.iform1 ul ul { overflow:auto}
+.iform1 li { padding-bottom:5px;}
+.iform1 label { 
+ width:130px; display:block; float:left; line-height:26px; 
+}
+.iform1 label.ilabel { 
+ width:auto; display:inline; float:none; margin-bottom: 10px;line-height:26px; padding:5px; 
+}
+
+.iform1 .itext,.iform1 .itextarea,.iform1 .iselect,.iform1 .ibutton { 	
+	width:200px;
+	border:1px solid #999;
+	-webkit-border-radius: 3px;-khtml-border-radius:3px;-moz-border-radius:3px;border-radius:3px;
+	margin-top:10px;
+	padding:5px;
+	background: #fff;
+	background: -webkit-gradient(linear, left top, left 25, from(#fff), color-stop(6%, #eee), to(#fff));
+	background: -moz-linear-gradient(top, #fff, #eee 2px, #fff 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	color: #000000;
+
+
+}
+
+.iform1 .itext:hover,.iform1 .itextarea:hover,.iform1 .iselect:hover,.iform1 .ibutton:hover,
+.iform1 .itext:focus,.iform1 .itextarea:focus,.iform1 .iselect:focus,.iform1 .ibutton:focus{
+
+border-color: #333;
+background:#fff;
+
+}
+
+.iform1 .itext {
+/*color: #000000;*/
+width: 150px;
+}
+.itexts {
+	width: 100px;
+	background:#FF0000;
+}
+
+.iform1 .itextarea{ 
+	height:100px; width: 250px; 
+}
+.iform1 .ibutton {
+
+	width:auto;
+	background: #efefef;
+	background: -webkit-gradient(linear, left top, left 25, from(#dadada), color-stop(6%, #efefef), to(#dadada));
+	background: -moz-linear-gradient(top, #dadada, #efefef 2px, #dadada 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	padding:5px
+}
+.iform1 .ibutton:hover,.iform1 .ibutton:focus { background:#dadada;}
+.iheader { font:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif; display:block; font-size:18px; border-bottom:1px solid #000; padding:5px; margin:0px 0 5px;}
+.iform1 li.iseparator { display:block; text-indent:-9999px; height:10px; line-height:10px; border-bottom:1px solid #999;margin:5px 0 15px }
+
+.iform1 .required { border-color:#F00; }
+
+#imessageOK,#imessageERROR{ border:1px solid #F60; padding:10px; font-size:16px; font-weight:bold; text-align: center; display:none; margin-bottom:20px;
+
+	background: #F90;
+	background: -webkit-gradient(linear, left top, left 25, from(#F90), color-stop(4%, #FC0), to(#F90));
+	background: -moz-linear-gradient(top, #F90, #FC0 1px, #F90 25px);
+	color:#fff;
+	}
+
+/******/
+
+.iform2 {font: 12px/26px 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif; position:absolute; width:300px; margin-left:10px; margin-top: 190px; }
+.iform2 ul { margin:0; padding:0; list-style:none;}
+.iform2 ul ul { overflow:auto}
+.iform2 li { padding-bottom:5px;}
+.iform2 label { 
+ width:130px; display:block; float:left; line-height:26px; 
+}
+.iform2 label.ilabel { 
+ width:auto; display:inline; float:none; margin-bottom: 10px;line-height:26px; padding:5px; 
+}
+
+.iform2 .itext,.iform2 .itextarea,.iform2 .iselect,.iform2 .ibutton { 	
+	width:200px;
+	border:1px solid #999;
+	-webkit-border-radius: 3px;-khtml-border-radius:3px;-moz-border-radius:3px;border-radius:3px;
+	margin-top:10px;
+	padding:5px;
+	background: #fff;
+	background: -webkit-gradient(linear, left top, left 25, from(#fff), color-stop(6%, #eee), to(#fff));
+	background: -moz-linear-gradient(top, #fff, #eee 2px, #fff 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	color: #000000;
+
+
+}
+
+.iform2 .itext:hover,.iform2 .itextarea:hover,.iform2 .iselect:hover,.iform2 .ibutton:hover,
+.iform2 .itext:focus,.iform2 .itextarea:focus,.iform2 .iselect:focus,.iform2 .ibutton:focus{
+
+border-color: #333;
+background:#fff;
+
+}
+
+.iform2 .itext {
+/*color: #000000;*/
+width: 150px;
+}
+.itexts {
+	width: 100px;
+	background:#FF0000;
+}
+
+.iform2 .itextarea{ 
+	height:100px; width: 250px; 
+}
+.iform2 .ibutton {
+
+	width:auto;
+	background: #efefef;
+	background: -webkit-gradient(linear, left top, left 25, from(#dadada), color-stop(6%, #efefef), to(#dadada));
+	background: -moz-linear-gradient(top, #dadada, #efefef 2px, #dadada 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	padding:5px
+}
+.iform2 .ibutton:hover,.iform2 .ibutton:focus { background:#dadada;}
+.iheader { font:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif; display:block; font-size:18px; border-bottom:1px solid #000; padding:5px; margin:0px 0 5px;}
+.iform2 li.iseparator { display:block; text-indent:-9999px; height:10px; line-height:10px; border-bottom:1px solid #999;margin:5px 0 15px }
+
+.iform2 .required { border-color:#F00; }
+
+#imessageOK,#imessageERROR{ border:1px solid #F60; padding:10px; font-size:16px; font-weight:bold; text-align: center; display:none; margin-bottom:20px;
+
+	background: #F90;
+	background: -webkit-gradient(linear, left top, left 25, from(#F90), color-stop(4%, #FC0), to(#F90));
+	background: -moz-linear-gradient(top, #F90, #FC0 1px, #F90 25px);
+	color:#fff;
+	}
+
+/*********/
+
+/*********/
+
+.iform3 {font: 12px/26px 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif; position:absolute; width:300px; margin-left:350px; margin-top: 500px; }
+.iform3 ul { margin:0; padding:0; list-style:none;}
+.iform3 ul ul { overflow:auto}
+.iform3 li { padding-bottom:5px;}
+.iform3 label { 
+ width:130px; display:block; float:left; line-height:26px; 
+}
+.iform3 label.ilabel { 
+ width:auto; display:inline; float:none; margin-bottom: 10px;line-height:26px; padding:5px; 
+}
+
+.iform3 .itext,.iform3 .itextarea,.iform3 .iselect,.iform3 .ibutton { 	
+	width:200px;
+	border:1px solid #999;
+	-webkit-border-radius: 3px;-khtml-border-radius:3px;-moz-border-radius:3px;border-radius:3px;
+	margin-top:10px;
+	padding:5px;
+	background: #fff;
+	background: -webkit-gradient(linear, left top, left 25, from(#fff), color-stop(6%, #eee), to(#fff));
+	background: -moz-linear-gradient(top, #fff, #eee 2px, #fff 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	color: #000000;
+
+
+}
+
+.iform3 .itext:hover,.iform3 .itextarea:hover,.iform3 .iselect:hover,.iform3 .ibutton:hover,
+.iform3 .itext:focus,.iform3 .itextarea:focus,.iform3 .iselect:focus,.iform3 .ibutton:focus{
+
+border-color: #333;
+background:#fff;
+
+}
+
+.iform3 .itext {
+/*color: #000000;*/
+width: 150px;
+}
+.itexts {
+	width: 100px;
+	background:#FF0000;
+}
+
+.iform3 .itextarea{ 
+	height:100px; width: 250px; 
+}
+.iform3 .ibutton {
+
+	width:auto;
+	background: #efefef;
+	background: -webkit-gradient(linear, left top, left 25, from(#dadada), color-stop(6%, #efefef), to(#dadada));
+	background: -moz-linear-gradient(top, #dadada, #efefef 2px, #dadada 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	padding:5px
+}
+.iform3 .ibutton:hover,.iform3 .ibutton:focus { background:#dadada;}
+.iheader { font:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif; display:block; font-size:18px; border-bottom:1px solid #000; padding:5px; margin:0px 0 5px;}
+.iform3 li.iseparator { display:block; text-indent:-9999px; height:10px; line-height:10px; border-bottom:1px solid #999;margin:5px 0 15px }
+
+.iform3 .required { border-color:#F00; }
+
+#imessageOK,#imessageERROR{ border:1px solid #F60; padding:10px; font-size:16px; font-weight:bold; text-align: center; display:none; margin-bottom:20px;
+
+	background: #F90;
+	background: -webkit-gradient(linear, left top, left 25, from(#F90), color-stop(4%, #FC0), to(#F90));
+	background: -moz-linear-gradient(top, #F90, #FC0 1px, #F90 25px);
+	color:#fff;
+	}
+
+/******/
+
+#adminList{
+	position:absolute;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size:17px;
+	margin-left:30px;
+	margin-top: 190px;
+	/*font-weight:bold;*/
+}
 
 /****TEST*/
 #blue{
