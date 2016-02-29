@@ -12,11 +12,11 @@
 
 <form action="/admin_session" method="POST">
   <label class="ilabel">
-    <input type="text" name="email" placeholder="Email:"class="itext"/>
+    <input type="text" name="email" placeholder="Email:"class="itext" required/>
   </label><br>
 
   <label class="ilabel">
-  <input type="password" name="password" placeholder="Password" class="itext" />
+  <input type="password" name="password" placeholder="Password" class="itext" minlength='5' required/>
   <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden"/>
   </label><br>
 

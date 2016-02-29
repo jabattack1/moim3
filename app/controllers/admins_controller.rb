@@ -6,12 +6,13 @@ def index
 end
 
 def create
-
+    admin_item = Admin.find_by(email: params['email'])
+    binding.pry
     if Admin.find_by(email: params['email'])
         
 
       redirect_to "/adminlands"
-
+    elsif admin_item.password 
     else
     	adminNew = Admin.create({
         first_name: params["first_name"],
@@ -25,6 +26,7 @@ def create
   end
 
 def update
+  if Admin.find_by(email: params['email'])
     admin_item = Admin.find_by(email: params['email'])
     admin_item.update({
     email: params["email"],
@@ -33,15 +35,21 @@ def update
 
   redirect_to "/adminlands"
 
+  else
+  redirect_to "/adminlands"
+  end
 end
 
- def destroy
+def destroy
+  if Admin.find_by(email: params['email'])
     admin_item = Admin.find_by(email: params['email'])
     # binding.pry
 
     admin_item.destroy
     redirect_to "/adminlands"
-
+  else
+  redirect_to "/adminlands"
   end
+end
 
 end

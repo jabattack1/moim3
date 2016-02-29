@@ -31,17 +31,17 @@
 	<p class="iheader">CREATE ADMIN ACCOUNT</p>
 
 	<label class="ilabel">
-		<input type="text" name="first_name" placeholder="First Name"class="itext"/>
+		<input type="text" name="first_name" placeholder="First Name"class="itext" required/>
 	</label><br>
 
 	<label class="ilabel">
-		<input type="text" name="last_name" placeholder="Last Name" class="itext"/>
+		<input type="text" name="last_name" placeholder="Last Name" class="itext" required/>
 	</label><br>
 	<label class="ilabel">
-		<input type="text" name="email" placeholder="Email" class="itext"/>
+		<input type="text" name="email" placeholder="Email" class="itext" required/>
 	</label><br>
 	<label class="ilabel">
-		<input type="text" name="password" placeholder="Password(at least 5 characters)"class="itext"/><br>
+		<input type="text" name="password" placeholder="Password(at least 5 characters)" class="itext" minlength='5' required/><br>
 		<input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
 	</label>
 
@@ -58,10 +58,10 @@
 	<p class="iheader">CHANGE ADMIN PASSWORD</p>
 
 	<label class="ilabel">
-		<input type="text" name="email" placeholder="Email" class="itext"/>
+		<input type="text" name="email" placeholder="Email" class="itext" required/>
 	</label><br>
 	<label class="ilabel">
-		<input type="text" name="password" placeholder="Password(at least 5 characters)"class="itext"/><br>
+		<input type="text" name="password" placeholder="Password(at least 5 characters)" class="itext" minlength='5' required/><br>
 		<input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
 	</label>
 
@@ -77,7 +77,7 @@
 		<p class="iheader">DELETE ADMIN ACCOUNT</p>
   		
   		<label class="ilabel">
-		<input type="text" name="email" placeholder="Email" class="itext"/>
+		<input type="text" name="email" placeholder="Email" class="itext" required/>
 		</label>
   		
   		<input type="submit" value="DELETE" class="ibutton"/>
