@@ -4,11 +4,9 @@
 </head>
 <body id='adminlandsPage'>
 	
-	<% if @popup1 %> 
-    <script type="text/javascript">
-    alert("hello");
-    </script>
-	<% end %>
+	
+  
+	
 
 <img id='logoMoimAdminConsole' src='/assets/moimLogo.png'>
 <h2 id='adminConsoleHeading'>ADMIN CONSOLE</h2>
@@ -17,6 +15,18 @@
   		<input type="hidden" name="id" value=<%=session[:user_id].to_s%>/>
   		<input id='adminLogOut' type="submit" value="LOG OUT" class="admin_logout"/>
 </form>
+
+<div id="loginx" class="modal hide fade in" style="display: none;">
+   <div class="modal-header">             
+      ...
+   </div>
+   <div class="modal-body">              
+      ...
+   </div>
+   <div class="modal-footer">
+      ...
+   </div>
+</div>
 
 <div class="iform2" id="account" style="overflow-y: auto">
 	<p class='iheader'>CURRENT ADMINS</p>

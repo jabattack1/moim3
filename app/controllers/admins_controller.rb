@@ -7,12 +7,15 @@ end
 
 def create
     admin_item = Admin.find_by(email: params['email'])
-    binding.pry
+    
     if Admin.find_by(email: params['email'])
-        
+      
+    
+  
+      render :js => "<script type='text/javascript'>('#loginx').modal('show');</script>"
+  
 
-      redirect_to "/adminlands"
-    elsif admin_item.password 
+      
     else
     	adminNew = Admin.create({
         first_name: params["first_name"],

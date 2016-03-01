@@ -1,8 +1,6 @@
 console.log("connected")
 
-function nonono(){
- alert("Hello! This is a test site.  Please go to www.nfcimplus.com to message us!!");   
-}
+$('#login').modal({ ... });
 
 // $(document).ready(function(){
 //     var eTop = $("#teamPage").offset().top;
