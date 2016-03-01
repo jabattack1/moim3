@@ -9,13 +9,21 @@ def create
     admin_item = Admin.find_by(email: params['email'])
     
     if Admin.find_by(email: params['email'])
-      
     
-  
-      render :js => "<script type='text/javascript'>('#loginx').modal('show');</script>"
+    @admin = Admin.all
+
+      @trigger = []
+
+  @admin.each do |person|
   
 
-      
+      @trigger.push(person)
+  end
+    # binding.pry
+    
+
+    # @popup = render :js => "alert('Hello Rails');"
+    # redirect_to "/adminlands"  
     else
     	adminNew = Admin.create({
         first_name: params["first_name"],

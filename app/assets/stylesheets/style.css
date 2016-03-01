@@ -3434,8 +3434,8 @@ width:100px;
 
 #adminLogOut:hover {
 	border-color: #333;
-	background:#6B6B6B;
-
+	background:#AFAFAF;
+	cursor:pointer;
 }
 
 /******/
@@ -3456,7 +3456,7 @@ width:100px;
 	border:1px solid #999;
 	-webkit-border-radius: 3px;-khtml-border-radius:3px;-moz-border-radius:3px;border-radius:3px;
 	margin-top:10px;
-	padding:15px;
+	padding:10px;
 	background: #fff;
 	background: -webkit-gradient(linear, left top, left 25, from(#fff), color-stop(6%, #eee), to(#fff));
 	background: -moz-linear-gradient(top, #fff, #eee 2px, #fff 25px);
@@ -3529,7 +3529,7 @@ width: 250px;
 	border:1px solid #999;
 	-webkit-border-radius: 3px;-khtml-border-radius:3px;-moz-border-radius:3px;border-radius:3px;
 	margin-top:10px;
-	padding:15px;
+	padding:10px;
 	background: #fff;
 	background: -webkit-gradient(linear, left top, left 25, from(#fff), color-stop(6%, #eee), to(#fff));
 	background: -moz-linear-gradient(top, #fff, #eee 2px, #fff 25px);
@@ -3602,7 +3602,7 @@ width: 250px;
 	border:1px solid #999;
 	-webkit-border-radius: 3px;-khtml-border-radius:3px;-moz-border-radius:3px;border-radius:3px;
 	margin-top:10px;
-	padding:15px;
+	padding:10px;
 	background: #fff;
 	background: -webkit-gradient(linear, left top, left 25, from(#fff), color-stop(6%, #eee), to(#fff));
 	background: -moz-linear-gradient(top, #fff, #eee 2px, #fff 25px);
@@ -3675,7 +3675,7 @@ width: 250px;
 	border:1px solid #999;
 	-webkit-border-radius: 3px;-khtml-border-radius:3px;-moz-border-radius:3px;border-radius:3px;
 	margin-top:10px;
-	padding:15px;
+	padding:10px;
 	background: #fff;
 	background: -webkit-gradient(linear, left top, left 25, from(#fff), color-stop(6%, #eee), to(#fff));
 	background: -moz-linear-gradient(top, #fff, #eee 2px, #fff 25px);
@@ -3750,7 +3750,7 @@ width: 250px;
 	border:1px solid #999;
 	-webkit-border-radius: 3px;-khtml-border-radius:3px;-moz-border-radius:3px;border-radius:3px;
 	margin-top:10px;
-	padding:15px;
+	padding:10px;
 	background: #fff;
 	background: -webkit-gradient(linear, left top, left 25, from(#fff), color-stop(6%, #eee), to(#fff));
 	background: -moz-linear-gradient(top, #fff, #eee 2px, #fff 25px);
@@ -3834,3 +3834,6 @@ width: 250px;
 }
 
 /*****
+
+
+
