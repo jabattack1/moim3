@@ -3438,6 +3438,7 @@ width:100px;
 	cursor:pointer;
 }
 
+
 /******/
 
 .iform0 {font: 12px/26px 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif; position:absolute; width:300px; margin-left:30px; margin-top: 190px; }
@@ -3814,6 +3815,16 @@ width: 250px;
 	margin-left:30px;
 	margin-top: 190px;
 	/*font-weight:bold;*/
+}
+
+#leaderSlide1{
+	width:1150px; 
+	height:350px; 
+}
+
+#leaderSlide2{
+	width:1150px; 
+	height:350px; 
 }
 
 /****TEST*/
