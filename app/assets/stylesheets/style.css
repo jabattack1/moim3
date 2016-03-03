@@ -243,8 +243,8 @@ margin-top:150px;
         .navigation #aboutDrop{
         	margin-left:0px;
             background-color:rgba(0,0,0,0.5);
-
-            width:175px;
+            max-height:120px;
+            width:140px;
             padding-left: 20px;
             padding-right: 20px;
            /* border: #CEAC00;
@@ -257,8 +257,8 @@ margin-top:150px;
 		 .navigation #communityDrop{
         	margin-left: 0px;
             background-color:rgba(0,0,0,0.5);
-            
-            width:200px;
+            max-height:120px;
+            width:140px;
             padding-left: 20px;
             padding-right: 20px;
            /* border: #CEAC00;
