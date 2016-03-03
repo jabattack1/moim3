@@ -1796,7 +1796,7 @@ width:100px;
   position:relative;
   overflow:auto;
   /*margin-bottom: 400px;*/
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
 }
 
 
@@ -3817,15 +3817,66 @@ width: 250px;
 	/*font-weight:bold;*/
 }
 
+/****SLIDE****/
+
+#teamMainSlide{
+	position:absolute;
+}
 #leaderSlide1{
-	width:1150px; 
+	position:absolute;
+	width:100%;
 	height:350px; 
 }
 
 #leaderSlide2{
-	width:1150px; 
+	position:absolute;
+	width:100%;
 	height:350px; 
 }
+
+#teamMainSlide{
+	position:absolute;
+	width:100%; 
+	height:550px; 
+}
+
+#megaTeam{
+	position:absolute;
+	width:100%; 
+	height:550px; 
+}
+
+#megaTeamA{
+	position:absolute;
+	width:100%; 
+	height:360px; 
+}
+
+#megaPerson{
+	position:absolute;
+	width:100%; 
+	height:460px; 
+}
+
+#megaPersona{
+	position:absolute;
+	width:100%; 
+	height:460px; 
+}
+
+#megaPersona2{
+	position:absolute;
+	width:100%; 
+	height:460px; 
+}
+
+#megaPersona3{
+	position:absolute;
+	width:100%; 
+	height:460px; 
+}
+
+
 
 /****TEST*/
 #blue{
