@@ -77,6 +77,89 @@ function leaderSlideFunction2(){
 }, 502);
 }
 
+
+// ******event***
+
+function events(){
+  $('#teamMainSlide').hide( "slide", { direction: "left"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(eventsIn);
+  $('#megaTeam').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaTeam').show( "slide", { direction: "right" }, 500 );
+}, 502);
+}
+
+function eventsOut(){
+  $('#megaTeam').hide( "slide", { direction: "right"  }, 500 );
+  setTimeout(function() {
+  $('#megaTeam').remove();
+  $('#teamMainSlide').show( "slide", { direction: "left" }, 500 );
+}, 502);
+}
+
+function eventsSlideFunction1(){
+  $('#eventsSlide1').hide( "slide", { direction: "left"  }, 500 );
+  setTimeout(function() {
+  $('#megaTeam').append(eventsIn1);
+  $('#eventsSlide2').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#eventsSlide2').show( "slide", { direction: "right" }, 500 );
+}, 502);
+}
+
+function eventsSlideFunction2(){
+  $('#eventsSlide2').hide( "slide", { direction: "right"  }, 500 );
+  setTimeout(function() {
+  $('#megaTeamA').remove();
+  $('#eventsSlide1').show( "slide", { direction: "left" }, 500 );
+}, 502);
+}
+
+// ******pr***
+
+function pr(){
+  $('#teamMainSlide').hide( "slide", { direction: "left"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(prIn);
+  $('#megaTeam').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaTeam').show( "slide", { direction: "right" }, 500 );
+}, 502);
+}
+
+function prOut(){
+  $('#megaTeam').hide( "slide", { direction: "right"  }, 500 );
+  setTimeout(function() {
+  $('#megaTeam').remove();
+  $('#teamMainSlide').show( "slide", { direction: "left" }, 500 );
+}, 502);
+}
+
+function prSlideFunction1(){
+  $('#prSlide1').hide( "slide", { direction: "left"  }, 500 );
+  setTimeout(function() {
+  $('#megaTeam').append(prIn1);
+  $('#prSlide2').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#prSlide2').show( "slide", { direction: "right" }, 500 );
+}, 502);
+}
+
+function prSlideFunction2(){
+  $('#prSlide2').hide( "slide", { direction: "right"  }, 500 );
+  setTimeout(function() {
+  $('#megaTeamA').remove();
+  $('#prSlide1').show( "slide", { direction: "left" }, 500 );
+}, 502);
+}
+// *****
+
+
 // ***yeong***
 
 function showProfileYeong(){
@@ -329,6 +412,324 @@ function profileOutEun(){
 }
 // *****
 
+// ***Sarah***
+
+function showProfileSarah(){
+ $('#megaTeam').hide( "slide", { direction: "down"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(SarahIn);
+  $('#megaPerson').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaPerson').show( "slide", { direction: "up" }, 500 );
+}, 502);
+}
+
+function showSarah(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(SarahIn);
+  $('#megaPersona1').fadeIn();
+  }, 502);
+}
+
+function showBioSarah(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(SarahBio);
+  $('#megaPersona2').fadeIn();
+  }, 502);
+}
+
+function showQASarah(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(SarahQA);
+  $('#megaPersona3').fadeIn();
+  }, 502);
+}
+
+
+
+function profileOutSarah(){
+  $('#megaPerson').hide( "slide", { direction: "up"  }, 500 );
+  setTimeout(function() {
+  $('#megaPerson').remove();
+  $('#megaTeam').show( "slide", { direction: "down" }, 500 );
+}, 502);
+}
+// *****
+
+// ***Ryan***
+
+function showProfileRyan(){
+ $('#megaTeam').hide( "slide", { direction: "down"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(RyanIn);
+  $('#megaPerson').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaPerson').show( "slide", { direction: "up" }, 500 );
+}, 502);
+}
+
+function showRyan(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(RyanIn);
+  $('#megaPersona1').fadeIn();
+  }, 502);
+}
+
+function showBioRyan(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(RyanBio);
+  $('#megaPersona2').fadeIn();
+  }, 502);
+}
+
+function showQARyan(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(RyanQA);
+  $('#megaPersona3').fadeIn();
+  }, 502);
+}
+
+
+
+function profileOutRyan(){
+  $('#megaPerson').hide( "slide", { direction: "up"  }, 500 );
+  setTimeout(function() {
+  $('#megaPerson').remove();
+  $('#megaTeam').show( "slide", { direction: "down" }, 500 );
+}, 502);
+}
+// *****
+
+// ***Brent***
+
+function showProfileBrent(){
+ $('#megaTeam').hide( "slide", { direction: "down"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(BrentIn);
+  $('#megaPerson').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaPerson').show( "slide", { direction: "up" }, 500 );
+}, 502);
+}
+
+function showBrent(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(BrentIn);
+  $('#megaPersona1').fadeIn();
+  }, 502);
+}
+
+function showBioBrent(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(BrentBio);
+  $('#megaPersona2').fadeIn();
+  }, 502);
+}
+
+function showQABrent(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(BrentQA);
+  $('#megaPersona3').fadeIn();
+  }, 502);
+}
+
+
+
+function profileOutBrent(){
+  $('#megaPerson').hide( "slide", { direction: "up"  }, 500 );
+  setTimeout(function() {
+  $('#megaPerson').remove();
+  $('#megaTeam').show( "slide", { direction: "down" }, 500 );
+}, 502);
+}
+// *****
+
+// ***Amy***
+
+function showProfileAmy(){
+ $('#megaTeam').hide( "slide", { direction: "down"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(AmyIn);
+  $('#megaPerson').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaPerson').show( "slide", { direction: "up" }, 500 );
+}, 502);
+}
+
+function showAmy(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(AmyIn);
+  $('#megaPersona1').fadeIn();
+  }, 502);
+}
+
+function showBioAmy(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(AmyBio);
+  $('#megaPersona2').fadeIn();
+  }, 502);
+}
+
+function showQAAmy(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(AmyQA);
+  $('#megaPersona3').fadeIn();
+  }, 502);
+}
+
+
+
+function profileOutAmy(){
+  $('#megaPerson').hide( "slide", { direction: "up"  }, 500 );
+  setTimeout(function() {
+  $('#megaPerson').remove();
+  $('#megaTeam').show( "slide", { direction: "down" }, 500 );
+}, 502);
+}
+// *****
+
+
+// ***Sungjun***
+
+function showProfileSungjun(){
+ $('#megaTeam').hide( "slide", { direction: "down"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(SungjunIn);
+  $('#megaPerson').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaPerson').show( "slide", { direction: "up" }, 500 );
+}, 502);
+}
+
+function showSungjun(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(SungjunIn);
+  $('#megaPersona1').fadeIn();
+  }, 502);
+}
+
+function showBioSungjun(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(SungjunBio);
+  $('#megaPersona2').fadeIn();
+  }, 502);
+}
+
+function showQASungjun(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(SungjunQA);
+  $('#megaPersona3').fadeIn();
+  }, 502);
+}
+
+
+
+function profileOutSungjun(){
+  $('#megaPerson').hide( "slide", { direction: "up"  }, 500 );
+  setTimeout(function() {
+  $('#megaPerson').remove();
+  $('#megaTeam').show( "slide", { direction: "down" }, 500 );
+}, 502);
+}
+// *****
+
+
+
 // *****
 
 
@@ -348,8 +749,8 @@ var privacyPol ="<div id='privacyPolicy' class='animated zoomIn'><p id='privacyW
 var termsOfWelcome ="<div id='termsOfUseWelcome' class='animated zoomIn'><p id='termsWords'>Terms of Use<span id='close-img' class='img-span pull-right'><img id='close' class='animated zoomIn' onclick='closeTermsWelcome();return false;' src = '/assets/closeIcon.png'></span></p></div>";
 var privacyPolWelcome ="<div id='privacyPolicyWelcome' class='animated zoomIn'><p id='privacyWords'>Privacy Policy<span id='close-img' class='img-span pull-right'><img id='close' class='animated zoomIn' onclick='closePrivacyWelcome();return false;' src = '/assets/closeIcon.png'></span></p></div>";
 
-var teamIn ="<div id='teamContent' class='animated slideInLeft' onclick='closeLogin();return false;'><div id='leadershipTeamPic' onclick='leaders();return false;'></div><div id='eventTeamPic' onclick='events();return false;'></div><div id='creativeTeamPic' onclick='creative();return false;'></div><div id='prTeamPic' onclick='pr();return false;'></div><div id='soarTeamPic' onclick='soar();return false;'></div><div id='itTeamPic' onclick='it();return false;'></div><div id='advisoryTeamPic' onclick='advisory();return false;'></div><div id='contributorsPic' onclick='contributors();return false;'></div></div>";
-var teamOut ="<div id='teamContent' class='animated slideOutLeft' onclick='closeLogin();return false;'><div id='leadershipTeamPic'></div><div id='eventTeamPic'></div><div id='creativeTeamPic'></div><div id='prTeamPic'></div><div id='soarTeamPic'></div><div id='itTeamPic'></div><div id='advisoryTeamPic'></div><div id='contributorsPic'></div></div>";
+// var teamIn ="<div id='teamContent' class='animated slideInLeft' onclick='closeLogin();return false;'><div id='leadershipTeamPic' onclick='leaders();return false;'></div><div id='eventTeamPic' onclick='events();return false;'></div><div id='creativeTeamPic' onclick='creative();return false;'></div><div id='prTeamPic' onclick='pr();return false;'></div><div id='soarTeamPic' onclick='soar();return false;'></div><div id='itTeamPic' onclick='it();return false;'></div><div id='advisoryTeamPic' onclick='advisory();return false;'></div><div id='contributorsPic' onclick='contributors();return false;'></div></div>";
+// var teamOut ="<div id='teamContent' class='animated slideOutLeft' onclick='closeLogin();return false;'><div id='leadershipTeamPic'></div><div id='eventTeamPic'></div><div id='creativeTeamPic'></div><div id='prTeamPic'></div><div id='soarTeamPic'></div><div id='itTeamPic'></div><div id='advisoryTeamPic'></div><div id='contributorsPic'></div></div>";
 
 // ***leaders**
 var leaderIn="<div id='megaTeam'><p class='marquee'>“If your actions inspire others to dream more, learn more, do more and become more, you are a leader.” John Quincy Adams</p><span id='core'><h2 id='leaderHeading'>LEADERSHIP TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>The Leadership communicates with every team to ensure everything runs smoothly and everyone is on the same page.<br>As the main liaison to sponsors, vendors, and other external constituents, the Chief Officers also align MOI’M’s enterprises and activities with our mission.</h5><div id='leaderSlide1'><img id='backArrow' src = '/assets/arrowBack.png' onclick='leadershipOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='leaderSlideFunction1();return false;'><div class='memeberOne'><div id='leaderMemberOnePic' onclick='showProfileYeong();return false;'></div></div><div class='memeberTwo'><div id='leaderMemberTwoPic' onclick='showProfileDK();return false;'></div></div><div class='memeberThree'><div id='leaderMemberThreePic' onclick='showProfileAnnie();return false;'></div></div></div></div>";
@@ -357,6 +758,7 @@ var leaderIn1="<div id='megaTeamA'><div id='leaderSlide2'><div id='rewindArrow' 
 var leaderIn2="<div id='leaderSlide1'><img id='backArrow' src = '/assets/arrowBack.png' onclick='leadershipOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='leaderSlideFunction1();return false;'><div class='memeberOne'><div id='leaderMemberOnePic' onclick='showProfileYeong();return false;'></div></div><div class='memeberTwo'><div id='leaderMemberTwoPic' onclick='showProfileDK();return false;'></div></div><div class='memeberThree'><div id='leaderMemberThreePic' onclick='showProfileAnnie();return false;'></div></div></div>";
 
 // ***
+
 
 // ***Yeong
 var YeongIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutYeong();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/yeongLimBig.png'><h3 id='profileHead'>YEONG LIM   |   임영광</h3><h5 id='profileStat'>Title in MOI’M: Co-CEO & Co-Founder<br>Industry: MEDIA<br>Email: yeong@moimnewyork.com<br><br>MOTTO: When life give you mangos…<br>모토: 삶이 우리에게 망고를 준다면</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioYeong();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAYeong();return false;'>FUN FACTS</h4></div></div></div>";
@@ -383,65 +785,35 @@ var EunQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>EUNYOUNG KANG   |   �
 // ***
 
 // ***events**
-var eventsIn="<div id='teamContent' class='animated slideInRight' onclick='closeLogin();return false;'><p class='marquee'>“It’s not about ideas. It’s about making ideas happen.” Scott Belsky</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='eventTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='events1();return false;'><h2 id='leaderHeading'>EVENTS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>The Event Team defines who we are by producing events that have never been attempted before.<br>The team handles the logistics and planning of MOI’M events starting from pre-production to post-production.</h5><div class='memeberOne'><div id='eventsMemberOnePic' onclick='showProfileSarah();return false;'></div></div><div class='memeberTwo'><div id='eventsMemberTwoPic' onclick='showProfileRyan();return false;'></div></div><div class='memeberThree'><div id='eventsMemberThreePic' onclick='showProfileBrent();return false;'></div></div></div>";
-var eventsIn1="<div id='teamContent' class='animated slideInRight' onclick='closeLogin();return false;'><p class='marquee'>“It’s not about ideas. It’s about making ideas happen.” Scott Belsky</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='eventsRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='eventTeamOut1();return false;'><h2 id='leaderHeading'>EVENTS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>The Event Team defines who we are by producing events that have never been attempted before.<br>The team handles the logistics and planning of MOI’M events starting from pre-production to post-production.</h5><div class='memeberOne'><div id='eventsMemberFourPic' onclick='showProfileAmy();return false;'></div></div></div>";
-var eventsIn2="<div id='teamContent' class='animated slideInLeft' onclick='closeLogin();return false;'><p class='marquee'>“It’s not about ideas. It’s about making ideas happen.” Scott Belsky</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='eventTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='events1();return false;'><h2 id='leaderHeading'>EVENTS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>The Event Team defines who we are by producing events that have never been attempted before.<br>The team handles the logistics and planning of MOI’M events starting from pre-production to post-production.</h5><div class='memeberOne'><div id='eventsMemberOnePic' onclick='showProfileSarah();return false;'></div></div><div class='memeberTwo'><div id='eventsMemberTwoPic' onclick='showProfileRyan();return false;'></div></div><div class='memeberThree'><div id='eventsMemberThreePic'onclick='showProfileBrent();return false;'></div></div></div>";
-var eventsOut="<div id='teamContent' class='animated slideOutRight' onclick='closeLogin();return false;'><p class='marquee'>“It’s not about ideas. It’s about making ideas happen.” Scott Belsky</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='eventTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='events1();return false;'><h2 id='leaderHeading'>EVENTS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>The Event Team defines who we are by producing events that have never been attempted before.<br>The team handles the logistics and planning of MOI’M events starting from pre-production to post-production.</h5><div class='memeberOne'><div id='eventsMemberOnePic'></div></div><div class='memeberTwo'><div id='eventsMemberTwoPic'></div></div><div class='memeberThree'><div id='eventsMemberThreePic'></div></div></div>";
-var eventsOut1="<div id='teamContent' class='animated slideOutLeft' onclick='closeLogin();return false;'><p class='marquee'>“It’s not about ideas. It’s about making ideas happen.” Scott Belsky</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='eventTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='events1();return false;'><h2 id='leaderHeading'>EVENTS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>The Event Team defines who we are by producing events that have never been attempted before.<br>The team handles the logistics and planning of MOI’M events starting from pre-production to post-production.</h5><div class='memeberOne'><div id='eventsMemberOnePic'></div></div><div class='memeberTwo'><div id='eventsMemberTwoPic'></div></div><div class='memeberThree'><div id='eventsMemberThreePic'></div></div></div>";
-var eventsOut2="<div id='teamContent' class='animated slideOutRight' onclick='closeLogin();return false;'><p class='marquee'>“It’s not about ideas. It’s about making ideas happen.” Scott Belsky</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='eventsRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='eventTeamOut1();return false;'><h2 id='leaderHeading'>EVENTS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>The Event Team defines who we are by producing events that have never been attempted before.<br>The team handles the logistics and planning of MOI’M events starting from pre-production to post-production.</h5><div class='memeberOne'><div id='eventsMemberFourPic'></div></div></div>";
+var eventsIn="<div id='megaTeam'><p class='marquee'>“It’s not about ideas. It’s about making ideas happen.” Scott Belsky</p><h2 id='leaderHeading'>EVENTS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>The Event Team defines who we are by producing events that have never been attempted before.<br>The team handles the logistics and planning of MOI’M events starting from pre-production to post-production.</h5><div id='eventsSlide1'><img id='backArrow' src = '/assets/arrowBack.png' onclick='eventsOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='eventsSlideFunction1();return false;'><div class='memeberOne'><div id='eventsMemberOnePic' onclick='showProfileSarah();return false;'></div></div><div class='memeberTwo'><div id='eventsMemberTwoPic' onclick='showProfileRyan();return false;'></div></div><div class='memeberThree'><div id='eventsMemberThreePic' onclick='showProfileBrent();return false;'></div></div></div></div>";
+var eventsIn1="<div id='megaTeamA'><div id='eventsSlide2'><div id='rewindArrow' src = '/assets/rewind.png' onclick='eventsRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='eventsSlideFunction2();return false;'><div class='memeberOne'><div id='eventsMemberFourPic' onclick='showProfileAmy();return false;'></div></div></div></div>";
+var eventsIn2="<div id='eventsSlide1'><img id='backArrow' src = '/assets/arrowBack.png' onclick='eventsOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='eventsSlideFunction1();return false;'><div class='memeberOne'><div id='eventsMemberOnePic' onclick='showProfileSarah();return false;'></div></div><div class='memeberTwo'><div id='eventsMemberTwoPic' onclick='showProfileRyan();return false;'></div></div><div class='memeberThree'><div id='eventsMemberThreePic'onclick='showProfileBrent();return false;'></div></div></div>";
 
-var eventsOutForProfile="<div id='teamContent' class='animated slideOutDown' onclick='closeLogin();return false;'><p class='marquee'>“It’s not about ideas. It’s about making ideas happen.” Scott Belsky</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='eventTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='events1();return false;'><h2 id='leaderHeading'>EVENTS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>The Event Team defines who we are by producing events that have never been attempted before.<br>The team handles the logistics and planning of MOI’M events starting from pre-production to post-production.</h5><div class='memeberOne'><div id='eventsMemberOnePic'></div></div><div class='memeberTwo'><div id='eventsMemberTwoPic'></div></div><div class='memeberThree'><div id='eventsMemberThreePic'></div></div></div>";
-var eventsInFromProfile="<div id='teamContent' class='animated slideInUp' onclick='closeLogin();return false;'><p class='marquee'>“It’s not about ideas. It’s about making ideas happen.” Scott Belsky</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='eventTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='events1();return false;'><h2 id='leaderHeading'>EVENTS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>The Event Team defines who we are by producing events that have never been attempted before.<br>The team handles the logistics and planning of MOI’M events starting from pre-production to post-production.</h5><div class='memeberOne'><div id='eventsMemberOnePic' onclick='showProfileSarah();return false;'></div></div><div class='memeberTwo'><div id='eventsMemberTwoPic' onclick='showProfileRyan();return false;'></div></div><div class='memeberThree'><div id='eventsMemberThreePic' onclick='showProfileBrent();return false;'></div></div></div>";
-var events1OutForProfile="<div id='teamContent' class='animated slideOutDown' onclick='closeLogin();return false;'><p class='marquee'>“It’s not about ideas. It’s about making ideas happen.” Scott Belsky</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='eventsRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='eventTeamOut1();return false;'><h2 id='leaderHeading'>EVENTS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>The Event Team defines who we are by producing events that have never been attempted before.<br>The team handles the logistics and planning of MOI’M events starting from pre-production to post-production.</h5><div class='memeberOne'><div id='eventsMemberFourPic' onclick='showProfileAmy();return false;'></div></div></div>";
-var events1InFromProfile="<div id='teamContent' class='animated slideInUp' onclick='closeLogin();return false;'><p class='marquee'>“It’s not about ideas. It’s about making ideas happen.” Scott Belsky</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='eventsRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='eventTeamOut1();return false;'><h2 id='leaderHeading'>EVENTS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>The Event Team defines who we are by producing events that have never been attempted before.<br>The team handles the logistics and planning of MOI’M events starting from pre-production to post-production.</h5><div class='memeberOne'><div id='eventsMemberFourPic' onclick='showProfileAmy();return false;'></div></div></div>";
 // ***
 
+
 // ***Sarah
-var SarahIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSarah();return false;'><img id='profilePic' src = '/assets/SarahSinBig.png'><h3 id='profileHead'>SARAH SIN   |   신영은</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, EVENTS<br>Industry: FASHION PRINT DESIGN<br>Email: sarah@moimnewyork.com<br><br>MOTTO: Hold the vision, Trust the Process – Unknown<br>모토: 비전을 가지고, 방법을 신뢰하라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioSarah();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQASarah();return false;'>FUN FACTS</h4></div>";
-var SarahOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSarah();return false;'><img id='profilePic' src = '/assets/SarahSinBig.png'><h3 id='profileHead'>SARAH SIN   |   신영은</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, EVENTS<br>Industry: FASHION PRINT DESIGN<br>Email: sarah@moimnewyork.com<br><br>MOTTO: Hold the vision, Trust the Process – Unknown<br>모토: 비전을 가지고, 방법을 신뢰하라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioSarah();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQASarah();return false;'>FUN FACTS</h4></div>";
-var SarahFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSarah();return false;'><img id='profilePic' src = '/assets/SarahSinBig.png'><h3 id='profileHead'>SARAH SIN   |   신영은</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, EVENTS<br>Industry: FASHION PRINT DESIGN<br>Email: sarah@moimnewyork.com<br><br>MOTTO: Hold the vision, Trust the Process – Unknown<br>모토: 비전을 가지고, 방법을 신뢰하라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioSarah();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQASarah();return false;'>FUN FACTS</h4></div>";
-
-var SarahBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSarahBio();return false;'><h3 id='profileHeadBio'>SARAH SIN   |   신영은</h3><p id='profileBio'>Sarah Sin calls Kenya her birthplace and Russia and New York her hometown. She studied Communication Design at Pratt Institute, and is currently working as a Print<br> Designer for swimwear at LF USA. Over the years she has volunteered for non-profit organizations (D2 fashion non-profit) and most recently traveled to Benin, Africa for<br> a series of teen fashion projects. Sarah is passionate about the arts, philanthropy and mission based work.<br>Side note: Sarah’s work philosophy is – get fed first and work hard.<br><br>케냐에서 태어나 러시아와 뉴욕에서 자랐으며 Pratt Institute 에서 광고 디자인 학과를 전공. 현재 스윔웨어 Print Designer 로서 활동 중. 여러 선교 및 비영리 단체활동에 꾸준히 종사해 왔으며,<br>최근 2년동안 벤닌, 아프리카 청소년 패션 프로젝트에 참여. 예술과 봉사, 자선 활동에 큰 열정을 가지고 있다.</p><h4 id='mainButton' onclick='showSarah();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQASarah();return false;'>FUN FACTS</h4></div>";
-var SarahBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSarah();return false;'><h3 id='profileHeadBio'>SARAH SIN   |   신영은</h3><p id='profileBio'>Sarah Sin calls Kenya her birthplace and Russia and New York her hometown. She studied Communication Design at Pratt Institute, and is currently working as a Print<br> Designer for swimwear at LF USA. Over the years she has volunteered for non-profit organizations (D2 fashion non-profit) and most recently traveled to Benin, Africa for<br> a series of teen fashion projects. Sarah is passionate about the arts, philanthropy and mission based work.<br>Side note: Sarah’s work philosophy is – get fed first and work hard.<br><br>케냐에서 태어나 러시아와 뉴욕에서 자랐으며 Pratt Institute 에서 광고 디자인 학과를 전공. 현재 스윔웨어 Print Designer 로서 활동 중. 여러 선교 및 비영리 단체활동에 꾸준히 종사해 왔으며,<br>최근 2년동안 벤닌, 아프리카 청소년 패션 프로젝트에 참여. 예술과 봉사, 자선 활동에 큰 열정을 가지고 있다.</p><h4 id='mainButton' onclick='showSarah();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQASarah();return false;'>FUN FACTS</h4></div>";
-
-var SarahQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSarahQA();return false;'><h3 id='profileHeadBio'>SARAH SIN   |   신영은</h3><p id='profileQuestions1'><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would withdraw all of my cash and give food and allowance to the homeless,<br> enjoy the most delicious meal with my loved ones, and attend church service to<br> look back on my life before the \“end\”.<br><br><span id='question'>Q: The word/phrase you say the most?</span><br>A: No problem! & Thank you! (in speech) Fighting! (in messages)<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: Soundcloud for its dynamic gathering of musical talents and Instagram for<br> its beautiful images and interesting storytelling.<br><br><span id='question'>Q: Something that your friends do not know about you?</span><br>A: Regardless of the season, I always need to keep my toes covered and ears<br> warm when I sleep.<br><br><span id='question'>Q: Inspiration?</span><br>A: I am inspired by those who have overcome adversity: whether it be physical,<br> emotional, or financial.<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Living life to the fullest. An ongoing challenge!</p><p id='profileQuestions2'><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 내 통장에 있는 모든 돈을 뽑아서 길 거리에 있는 노숙자들에게 배불이 먹을 양식과 그들 또한 마지막<br>을 즐길 용돈을 나눠주고 내가 제일 사랑하는 사람들과 세상에서 제일 맛있는 음식을 먹고, 교회에서 예<br>배를 드리면서 나의 인생을 돌아보고 마지막을 준비한다.<br><br><span id='question'>Q: 하루중 가장 많이 하는 말은?</span><br>A: No problem! & 고마워요! (말할때) / 파이팅! (문자)<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 다양한 사람들의 음악과 재능을 들을수 있는 Soundcloud와 아름다운 사진들이 전해주는 독특한<br> 이야기 공간인 인스타그램을 자주 사용한다.<br><br><span id='question'>Q: 친구들이 잘 모르는 당신에 대한 한 가지는?</span><br>A: 계절과 상관없이 잘때는 발과 귀를 꼭 따뜻하게 해야된다.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 여러가지 어려움들을 (육체적, 심리적, 재정적 등등) 극복한 사람들의 삶을 통해 많은 영감과 희망을<br> 얻는다.<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 세상을 알차게, 후회없이 사는 것 – 끊이지 않는 도전.</p><h4 id='mainButton' onclick='showSarah();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioSarah();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
-var SarahQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSarah();return false;'><h3 id='profileHeadBio'>SARAH SIN   |   신영은</h3><p id='profileQuestions1'><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would withdraw all of my cash and give food and allowance to the homeless,<br> enjoy the most delicious meal with my loved ones, and attend church service to<br> look back on my life before the \“end\”.<br><br><span id='question'>Q: The word/phrase you say the most?</span><br>A: No problem! & Thank you! (in speech) Fighting! (in messages)<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: Soundcloud for its dynamic gathering of musical talents and Instagram for<br> its beautiful images and interesting storytelling.<br><br><span id='question'>Q: Something that your friends do not know about you?</span><br>A: Regardless of the season, I always need to keep my toes covered and ears<br> warm when I sleep.<br><br><span id='question'>Q: Inspiration?</span><br>A: I am inspired by those who have overcome adversity: whether it be physical,<br> emotional, or financial.<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Living life to the fullest. An ongoing challenge!</p><p id='profileQuestions2'><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 내 통장에 있는 모든 돈을 뽑아서 길 거리에 있는 노숙자들에게 배불이 먹을 양식과 그들 또한 마지막<br>을 즐길 용돈을 나눠주고 내가 제일 사랑하는 사람들과 세상에서 제일 맛있는 음식을 먹고, 교회에서 예<br>배를 드리면서 나의 인생을 돌아보고 마지막을 준비한다.<br><br><span id='question'>Q: 하루중 가장 많이 하는 말은?</span><br>A: No problem! & 고마워요! (말할때) / 파이팅! (문자)<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 다양한 사람들의 음악과 재능을 들을수 있는 Soundcloud와 아름다운 사진들이 전해주는 독특한<br> 이야기 공간인 인스타그램을 자주 사용한다.<br><br><span id='question'>Q: 친구들이 잘 모르는 당신에 대한 한 가지는?</span><br>A: 계절과 상관없이 잘때는 발과 귀를 꼭 따뜻하게 해야된다.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 여러가지 어려움들을 (육체적, 심리적, 재정적 등등) 극복한 사람들의 삶을 통해 많은 영감과 희망을<br> 얻는다.<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 세상을 알차게, 후회없이 사는 것 – 끊이지 않는 도전.</p><h4 id='mainButton' onclick='showSarah();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioSarah();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var SarahIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSarah();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/SarahSinBig.png'><h3 id='profileHead'>SARAH SIN   |   신영은</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, EVENTS<br>Industry: FASHION PRINT DESIGN<br>Email: sarah@moimnewyork.com<br><br>MOTTO: Hold the vision, Trust the Process – Unknown<br>모토: 비전을 가지고, 방법을 신뢰하라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioSarah();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQASarah();return false;'>FUN FACTS</h4></div></div></div>";
+var SarahBio ="<div id='megaPersona2'><h3 id='profileHeadBio'>SARAH SIN   |   신영은</h3><p id='profileBio'>Sarah Sin calls Kenya her birthplace and Russia and New York her hometown. She studied Communication Design at Pratt Institute, and is currently working as a Print<br> Designer for swimwear at LF USA. Over the years she has volunteered for non-profit organizations (D2 fashion non-profit) and most recently traveled to Benin, Africa for<br> a series of teen fashion projects. Sarah is passionate about the arts, philanthropy and mission based work.<br>Side note: Sarah’s work philosophy is – get fed first and work hard.<br><br>케냐에서 태어나 러시아와 뉴욕에서 자랐으며 Pratt Institute 에서 광고 디자인 학과를 전공. 현재 스윔웨어 Print Designer 로서 활동 중. 여러 선교 및 비영리 단체활동에 꾸준히 종사해 왔으며,<br>최근 2년동안 벤닌, 아프리카 청소년 패션 프로젝트에 참여. 예술과 봉사, 자선 활동에 큰 열정을 가지고 있다.</p><h4 id='mainButton' onclick='showSarah();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQASarah();return false;'>FUN FACTS</h4></div>";
+var SarahQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>SARAH SIN   |   신영은</h3><p id='profileQuestions1'><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would withdraw all of my cash and give food and allowance to the homeless,<br> enjoy the most delicious meal with my loved ones, and attend church service to<br> look back on my life before the \“end\”.<br><br><span id='question'>Q: The word/phrase you say the most?</span><br>A: No problem! & Thank you! (in speech) Fighting! (in messages)<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: Soundcloud for its dynamic gathering of musical talents and Instagram for<br> its beautiful images and interesting storytelling.<br><br><span id='question'>Q: Something that your friends do not know about you?</span><br>A: Regardless of the season, I always need to keep my toes covered and ears<br> warm when I sleep.<br><br><span id='question'>Q: Inspiration?</span><br>A: I am inspired by those who have overcome adversity: whether it be physical,<br> emotional, or financial.<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Living life to the fullest. An ongoing challenge!</p><p id='profileQuestions2'><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 내 통장에 있는 모든 돈을 뽑아서 길 거리에 있는 노숙자들에게 배불이 먹을 양식과 그들 또한 마지막<br>을 즐길 용돈을 나눠주고 내가 제일 사랑하는 사람들과 세상에서 제일 맛있는 음식을 먹고, 교회에서 예<br>배를 드리면서 나의 인생을 돌아보고 마지막을 준비한다.<br><br><span id='question'>Q: 하루중 가장 많이 하는 말은?</span><br>A: No problem! & 고마워요! (말할때) / 파이팅! (문자)<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 다양한 사람들의 음악과 재능을 들을수 있는 Soundcloud와 아름다운 사진들이 전해주는 독특한<br> 이야기 공간인 인스타그램을 자주 사용한다.<br><br><span id='question'>Q: 친구들이 잘 모르는 당신에 대한 한 가지는?</span><br>A: 계절과 상관없이 잘때는 발과 귀를 꼭 따뜻하게 해야된다.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 여러가지 어려움들을 (육체적, 심리적, 재정적 등등) 극복한 사람들의 삶을 통해 많은 영감과 희망을<br> 얻는다.<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 세상을 알차게, 후회없이 사는 것 – 끊이지 않는 도전.</p><h4 id='mainButton' onclick='showSarah();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioSarah();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ****
 
 // ***Ryan
-var RyanIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRyan();return false;'><img id='profilePic' src = '/assets/RyanJeongBig.png'><h3 id='profileHead'>RYAN JEONG   |   정진훈</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, PROGRAM DEVELOPMENT<br>Industry: DENTISTRY<br>Email: Ryan@moimnewyork.com<br><br>MOTTO: Relax<br>모토: 릴랙스~</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioRyan();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQARyan();return false;'>FUN FACTS</h4></div>";
-var RyanOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRyan();return false;'><img id='profilePic' src = '/assets/RyanJeongBig.png'><h3 id='profileHead'>RYAN JEONG   |   정진훈</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, PROGRAM DEVELOPMENT<br>Industry: DENTISTRY<br>Email: Ryan@moimnewyork.com<br><br>MOTTO: Relax<br>모토: 릴랙스~</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioRyan();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQARyan();return false;'>FUN FACTS</h4></div>";
-var RyanFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRyan();return false;'><img id='profilePic' src = '/assets/RyanJeongBig.png'><h3 id='profileHead'>RYAN JEONG   |   정진훈</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, PROGRAM DEVELOPMENT<br>Industry: DENTISTRY<br>Email: Ryan@moimnewyork.com<br><br>MOTTO: Relax<br>모토: 릴랙스~</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioRyan();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQARyan();return false;'>FUN FACTS</h4></div>";
-
-var RyanBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRyanBio();return false;'><h3 id='profileHeadBio'>RYAN JEONG   |   정진훈</h3><p id='profileBio'>Born and raised in a beach-town of Los Angeles, Ryan Jeong first stepped on the concrete blocks of NYC in 2006 as an undergraduate student at NYU. He graduated<br> from NYU College of Dentistry in 2013, and currently works as a resident at Jersey City Medical Center in NJ. Throughout the long years of studying, Ryan depended<br> heavily on music to relieve stress and keep himself motivated. Having played in a jazz band all throughout his teenage years, Ryan absolutely loves jazz. A couple years<br> ago he found a new passion in drums which he practices every day. He currently lives with a 1 year old parakeet named 꼬몽 (Kkomong).<br><br>LA에 있는 한 바닷가 마을에서 태어나고 자랐으며, 2006년 NYU에 입학하면서 뉴욕으로 건너옴. 2013년에 NYU 치과대학을 졸업하고, 현재 뉴저지에 있는 저지시티 메디컬 센터에서 레지던트로 근무중.<br>10대 시절 재즈 밴드에서 활동하기도 하였으며, 치과대학 재학기간 동안 음악이 없이는 버틸 수 없었다고 할 정도로 재즈음악을 사랑함.<br>몇 년 전 처음 시작하여, 이제는 매일 연습하고 있는 드럼실력은 꽤나 수준급이다. 1살 된 잉꼬앵무새 ‘꼬몽’과 함께 살고 있다.</p><h4 id='mainButton' onclick='showRyan();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQARyan();return false;'>FUN FACTS</h4></div>";
-var RyanBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRyan();return false;'><h3 id='profileHeadBio'>RYAN JEONG   |   정진훈</h3><p id='profileBio'>Born and raised in a beach-town of Los Angeles, Ryan Jeong first stepped on the concrete blocks of NYC in 2006 as an undergraduate student at NYU. He graduated<br> from NYU College of Dentistry in 2013, and currently works as a resident at Jersey City Medical Center in NJ. Throughout the long years of studying, Ryan depended<br> heavily on music to relieve stress and keep himself motivated. Having played in a jazz band all throughout his teenage years, Ryan absolutely loves jazz. A couple years<br> ago he found a new passion in drums which he practices every day. He currently lives with a 1 year old parakeet named 꼬몽 (Kkomong).<br><br>LA에 있는 한 바닷가 마을에서 태어나고 자랐으며, 2006년 NYU에 입학하면서 뉴욕으로 건너옴. 2013년에 NYU 치과대학을 졸업하고, 현재 뉴저지에 있는 저지시티 메디컬 센터에서 레지던트로 근무중.<br>10대 시절 재즈 밴드에서 활동하기도 하였으며, 치과대학 재학기간 동안 음악이 없이는 버틸 수 없었다고 할 정도로 재즈음악을 사랑함.<br>몇 년 전 처음 시작하여, 이제는 매일 연습하고 있는 드럼실력은 꽤나 수준급이다. 1살 된 잉꼬앵무새 ‘꼬몽’과 함께 살고 있다.</p><h4 id='mainButton' onclick='showRyan();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQARyan();return false;'>FUN FACTS</h4></div>";
-
-var RyanQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRyanQA();return false;'><h3 id='profileHeadBio'>RYAN JEONG   |   정진훈</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: The deli on 14th St. and 3rd Ave. makes really good philly cheesesteak.<br><br><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would go to the New York Auto Show and steal a Ferrari.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: I want to go dog-sledding in Alaska.<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: 2048. I wont stop until I beat it.<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Love.</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: 14번가와 3번애비뉴 코너에 있는 델리가게. 거기서 파는 필리치즈스테이크는 진짜 맛있다.<br><br><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 뉴욕오토쇼에가서 페라리를 훔칠 것이다.<br><br><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 알래스카에 가서 개썰매를 타고 싶다.<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 2048 (게임). 다 깰때 까지 계속 할 것이다.<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 사랑..</p><h4 id='mainButton' onclick='showRyan();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioRyan();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
-var RyanQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRyan();return false;'><h3 id='profileHeadBio'>RYAN JEONG   |   정진훈</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: The deli on 14th St. and 3rd Ave. makes really good philly cheesesteak.<br><br><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would go to the New York Auto Show and steal a Ferrari.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: I want to go dog-sledding in Alaska.<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: 2048. I wont stop until I beat it.<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Love.</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: 14번가와 3번애비뉴 코너에 있는 델리가게. 거기서 파는 필리치즈스테이크는 진짜 맛있다.<br><br><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 뉴욕오토쇼에가서 페라리를 훔칠 것이다.<br><br><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 알래스카에 가서 개썰매를 타고 싶다.<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 2048 (게임). 다 깰때 까지 계속 할 것이다.<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 사랑..</p></p><h4 id='mainButton' onclick='showRyan();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioRyan();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var RyanIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRyan();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/RyanJeongBig.png'><h3 id='profileHead'>RYAN JEONG   |   정진훈</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, PROGRAM DEVELOPMENT<br>Industry: DENTISTRY<br>Email: Ryan@moimnewyork.com<br><br>MOTTO: Relax<br>모토: 릴랙스~</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioRyan();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQARyan();return false;'>FUN FACTS</h4></div></div></div>";
+var RyanBio ="<div id='megaPersona2'><h3 id='profileHeadBio'>RYAN JEONG   |   정진훈</h3><p id='profileBio'>Born and raised in a beach-town of Los Angeles, Ryan Jeong first stepped on the concrete blocks of NYC in 2006 as an undergraduate student at NYU. He graduated<br> from NYU College of Dentistry in 2013, and currently works as a resident at Jersey City Medical Center in NJ. Throughout the long years of studying, Ryan depended<br> heavily on music to relieve stress and keep himself motivated. Having played in a jazz band all throughout his teenage years, Ryan absolutely loves jazz. A couple years<br> ago he found a new passion in drums which he practices every day. He currently lives with a 1 year old parakeet named 꼬몽 (Kkomong).<br><br>LA에 있는 한 바닷가 마을에서 태어나고 자랐으며, 2006년 NYU에 입학하면서 뉴욕으로 건너옴. 2013년에 NYU 치과대학을 졸업하고, 현재 뉴저지에 있는 저지시티 메디컬 센터에서 레지던트로 근무중.<br>10대 시절 재즈 밴드에서 활동하기도 하였으며, 치과대학 재학기간 동안 음악이 없이는 버틸 수 없었다고 할 정도로 재즈음악을 사랑함.<br>몇 년 전 처음 시작하여, 이제는 매일 연습하고 있는 드럼실력은 꽤나 수준급이다. 1살 된 잉꼬앵무새 ‘꼬몽’과 함께 살고 있다.</p><h4 id='mainButton' onclick='showRyan();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQARyan();return false;'>FUN FACTS</h4></div>";
+var RyanQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>RYAN JEONG   |   정진훈</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: The deli on 14th St. and 3rd Ave. makes really good philly cheesesteak.<br><br><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would go to the New York Auto Show and steal a Ferrari.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: I want to go dog-sledding in Alaska.<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: 2048. I wont stop until I beat it.<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Love.</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: 14번가와 3번애비뉴 코너에 있는 델리가게. 거기서 파는 필리치즈스테이크는 진짜 맛있다.<br><br><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 뉴욕오토쇼에가서 페라리를 훔칠 것이다.<br><br><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 알래스카에 가서 개썰매를 타고 싶다.<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 2048 (게임). 다 깰때 까지 계속 할 것이다.<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 사랑..</p><h4 id='mainButton' onclick='showRyan();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioRyan();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ****
 
 // ***Brent
-var BrentIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBrent();return false;'><img id='profilePic' src = '/assets/BrentKimBig.png'><h3 id='profileHead'>BRENT KIM   |   김하규</h3><h5 id='profileStat'>Title in MOI’M: EVENT PRODUCER<br>Industry: FINANCE<br><br>MOTTO: “It ain’t over ‘till it’s over.” – Yogi Berra<br>모토: 끝날 때까지 끝난 게 아니다. –요기 베라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioBrent();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQABrent();return false;'>FUN FACTS</h4></div>";
-var BrentOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBrent();return false;'><img id='profilePic' src = '/assets/BrentKimBig.png'><h3 id='profileHead'>BRENT KIM   |   김하규</h3><h5 id='profileStat'>Title in MOI’M: EVENT PRODUCER<br>Industry: FINANCE<br><br>MOTTO: “It ain’t over ‘till it’s over.” – Yogi Berra<br>모토: 끝날 때까지 끝난 게 아니다. –요기 베라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioBrent();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQABrent();return false;'>FUN FACTS</h4></div>";
-var BrentFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBrent();return false;'><img id='profilePic' src = '/assets/BrentKimBig.png'><h3 id='profileHead'>BRENT KIM   |   김하규</h3><h5 id='profileStat'>Title in MOI’M: EVENT PRODUCER<br>Industry: FINANCE<br><br>MOTTO: “It ain’t over ‘till it’s over.” – Yogi Berra<br>모토: 끝날 때까지 끝난 게 아니다. –요기 베라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioBrent();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQABrent();return false;'>FUN FACTS</h4></div>";
-
-var BrentBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBrentBio();return false;'><h3 id='profileHeadBio'>BRENT KIM   |   김하규</h3><p id='profileBio'>Hakyu Kim graduated from Corona Del Mar High School in California in 2010 and currently pursues a B.A. in Economics from New York University. For his mandatory<br> military service, he served as an interpreter in the Republic of Korea Air Force Materiel Command and the Republic of Korea Joint Support Group in the Philippines.<br> Hakyu was discharged from service on January 2015. Since then he has worked at a consulting company and a start-up company and prepared to go back to school on<br> August 2015. After graduating from NYU, he wants to work in the finance industry.<br><br>2010년 미국 캘리포니아 Corona Del Mar High School을 졸업 후 뉴욕대학교에서 경제학 학사 과정을 수료 중임. 공군 물자사령부와 필리핀 합동 지원단에서 통역병으로 군 복무를 하였으며<br>2015년 1월 군 복무를 마침. 전역 이후 컨설팅 회사와 스타트업 업체에서 인턴 경험을 하면서 2015년 가을학기 복학 준비를 하고 있으며, 졸업 후 금융권에 종사하기를 희망.</p><h4 id='mainButton' onclick='showBrent();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQABrent();return false;'>FUN FACTS</h4></div>";
-var BrentBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBrent();return false;'><h3 id='profileHeadBio'>BRENT KIM   |   김하규</h3><p id='profileBio'>Hakyu Kim graduated from Corona Del Mar High School in California in 2010 and currently pursues a B.A. in Economics from New York University. For his mandatory<br> military service, he served as an interpreter in the Republic of Korea Air Force Materiel Command and the Republic of Korea Joint Support Group in the Philippines.<br> Hakyu was discharged from service on January 2015. Since then he has worked at a consulting company and a start-up company and prepared to go back to school on<br> August 2015. After graduating from NYU, he wants to work in the finance industry.<br><br>2010년 미국 캘리포니아 Corona Del Mar High School을 졸업 후 뉴욕대학교에서 경제학 학사 과정을 수료 중임. 공군 물자사령부와 필리핀 합동 지원단에서 통역병으로 군 복무를 하였으며<br>2015년 1월 군 복무를 마침. 전역 이후 컨설팅 회사와 스타트업 업체에서 인턴 경험을 하면서 2015년 가을학기 복학 준비를 하고 있으며, 졸업 후 금융권에 종사하기를 희망.</p><h4 id='mainButton' onclick='showBrent();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQABrent();return false;'>FUN FACTS</h4></div>";
-
-var BrentQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBrentQA();return false;'><h3 id='profileHeadBio'>BRENT KIM   |   김하규</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Shopsin’s. A small restaurant in Essex St Market with a unique name and a vast<br> menu with a variety of different dishes.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Eternal Sunshine of the Spotless Mind. A movie featuring a new side of Jim<br> Carrey and highlighting Michel Gondry’s amazing ability to portray memory and<br> time. Also, it is a great story that depicts the essence of love.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: Montauk in the winter (Eternal Sunshine has left a great impression…)<br><br><span id='question'>Q: Inspiration?</span><br>A: Henry Kissinger, Alain de Botton, Billy Beane, my dad</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: 독특한 이름인 Shopsin’s 라고 불리는 조그만 레스토랑. Essex St Market에 위치하고 있고 다양<br>한 메뉴가 매력적이다.<br><br><span id='question'>Q: 가장 감명깊게 본 영화? 이유?</span><br>A: 이터널 선샤인. 짐 캐리의 새로운 모습, 기억과 시간을 멋지게 엮은 미셀 공드리 감독, 그리고 사랑의<br> 본질에 관한 최고의 이야기.<br><br><span id='question'>Q: 가고 싶은 휴양지?</span><br>A: 겨울의 Montauk (Eternal Sunshine을 너무 감명 깊게 본 나머지…)<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 헨리 키신저, 알랭 드 보통, 빌리 빈, 우리 아빠</p><h4 id='mainButton' onclick='showBrent();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioBrent();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
-var BrentQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBrent();return false;'><h3 id='profileHeadBio'>BRENT KIM   |   김하규</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Shopsin’s. A small restaurant in Essex St Market with a unique name and a vast<br> menu with a variety of different dishes.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Eternal Sunshine of the Spotless Mind. A movie featuring a new side of Jim<br> Carrey and highlighting Michel Gondry’s amazing ability to portray memory and<br> time. Also, it is a great story that depicts the essence of love.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: Montauk in the winter (Eternal Sunshine has left a great impression…)<br><br><span id='question'>Q: Inspiration?</span><br>A: Henry Kissinger, Alain de Botton, Billy Beane, my dad</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: 독특한 이름인 Shopsin’s 라고 불리는 조그만 레스토랑. Essex St Market에 위치하고 있고 다양<br>한 메뉴가 매력적이다.<br><br><span id='question'>Q: 가장 감명깊게 본 영화? 이유?</span><br>A: 이터널 선샤인. 짐 캐리의 새로운 모습, 기억과 시간을 멋지게 엮은 미셀 공드리 감독, 그리고 사랑의<br> 본질에 관한 최고의 이야기.<br><br><span id='question'>Q: 가고 싶은 휴양지?</span><br>A: 겨울의 Montauk (Eternal Sunshine을 너무 감명 깊게 본 나머지…)<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 헨리 키신저, 알랭 드 보통, 빌리 빈, 우리 아빠</p></p><h4 id='mainButton' onclick='showBrent();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioBrent();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var BrentIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBrent();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/BrentKimBig.png'><h3 id='profileHead'>BRENT KIM   |   김하규</h3><h5 id='profileStat'>Title in MOI’M: EVENT PRODUCER<br>Industry: FINANCE<br><br>MOTTO: “It ain’t over ‘till it’s over.” – Yogi Berra<br>모토: 끝날 때까지 끝난 게 아니다. –요기 베라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioBrent();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQABrent();return false;'>FUN FACTS</h4></div></div></div>";
+var BrentBio ="<div id='megaPersona2'><h3 id='profileHeadBio'>BRENT KIM   |   김하규</h3><p id='profileBio'>Hakyu Kim graduated from Corona Del Mar High School in California in 2010 and currently pursues a B.A. in Economics from New York University. For his mandatory<br> military service, he served as an interpreter in the Republic of Korea Air Force Materiel Command and the Republic of Korea Joint Support Group in the Philippines.<br> Hakyu was discharged from service on January 2015. Since then he has worked at a consulting company and a start-up company and prepared to go back to school on<br> August 2015. After graduating from NYU, he wants to work in the finance industry.<br><br>2010년 미국 캘리포니아 Corona Del Mar High School을 졸업 후 뉴욕대학교에서 경제학 학사 과정을 수료 중임. 공군 물자사령부와 필리핀 합동 지원단에서 통역병으로 군 복무를 하였으며<br>2015년 1월 군 복무를 마침. 전역 이후 컨설팅 회사와 스타트업 업체에서 인턴 경험을 하면서 2015년 가을학기 복학 준비를 하고 있으며, 졸업 후 금융권에 종사하기를 희망.</p><h4 id='mainButton' onclick='showBrent();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQABrent();return false;'>FUN FACTS</h4></div>";
+var BrentQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>BRENT KIM   |   김하규</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Shopsin’s. A small restaurant in Essex St Market with a unique name and a vast<br> menu with a variety of different dishes.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Eternal Sunshine of the Spotless Mind. A movie featuring a new side of Jim<br> Carrey and highlighting Michel Gondry’s amazing ability to portray memory and<br> time. Also, it is a great story that depicts the essence of love.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: Montauk in the winter (Eternal Sunshine has left a great impression…)<br><br><span id='question'>Q: Inspiration?</span><br>A: Henry Kissinger, Alain de Botton, Billy Beane, my dad</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: 독특한 이름인 Shopsin’s 라고 불리는 조그만 레스토랑. Essex St Market에 위치하고 있고 다양<br>한 메뉴가 매력적이다.<br><br><span id='question'>Q: 가장 감명깊게 본 영화? 이유?</span><br>A: 이터널 선샤인. 짐 캐리의 새로운 모습, 기억과 시간을 멋지게 엮은 미셀 공드리 감독, 그리고 사랑의<br> 본질에 관한 최고의 이야기.<br><br><span id='question'>Q: 가고 싶은 휴양지?</span><br>A: 겨울의 Montauk (Eternal Sunshine을 너무 감명 깊게 본 나머지…)<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 헨리 키신저, 알랭 드 보통, 빌리 빈, 우리 아빠</p><h4 id='mainButton' onclick='showBrent();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioBrent();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ****
 
 // ****Amy - events
-var AmyIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAmy();return false;'><img id='profilePic' src = '/assets/AmyYooBig.png'><h3 id='profileHead'>AMY YOO   |   유채영</h3><h5 id='profileStat'>Title in MOI’M: EVENT PRODUCER<br>Industry: ACCOUNTING<br><br>MOTTO: Communicate with others open-mindedly.<br>모토: 오픈마인드로 사람들과 소통하라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioAmy();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAAmy();return false;'>FUN FACTS</h4></div>";
-var AmyOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAmy();return false;'><img id='profilePic' src = '/assets/AmyYooBig.png'><h3 id='profileHead'>AMY YOO   |   유채영</h3><h5 id='profileStat'>Title in MOI’M: EVENT PRODUCER<br>Industry: ACCOUNTING<br><br>MOTTO: Communicate with others open-mindedly.<br>모토: 오픈마인드로 사람들과 소통하라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioAmy();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAAmy();return false;'>FUN FACTS</h4></div>";
-var AmyFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAmy();return false;'><img id='profilePic' src = '/assets/AmyYooBig.png'><h3 id='profileHead'>AMY YOO   |   유채영</h3><h5 id='profileStat'>Title in MOI’M: EVENT PRODUCER<br>Industry: ACCOUNTING<br><br>MOTTO: Communicate with others open-mindedly.<br>모토: 오픈마인드로 사람들과 소통하라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioAmy();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAAmy();return false;'>FUN FACTS</h4></div>";
-
-var AmyBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAmyBio();return false;'><h3 id='profileHeadBio'>AMY YOO   |   유채영</h3><p id='profileBio'>Amy Yoo is currently enrolled at Baruch College as an Accounting student. She works part-time at Take 31 INC as a staff accountant. She plans to minor in both Business<br> Communication and Computer Information Systems (CIS). Her goal is to become a professional accountant.<br><br>현재 버룩 대학교 회계학과 재학중. Take 31에서 파트타임 경리로 근무. 비지니스 커뮤니케이션과 컴퓨터 정보 시스템 복수 부전공 계획중. 공인회계사가 되길 희망.</p><h4 id='mainButton' onclick='showAmy();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAAmy();return false;'>FUN FACTS</h4></div>";
-var AmyBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAmy();return false;'><h3 id='profileHeadBio'>AMY YOO   |   유채영</h3><p id='profileBio'>Amy Yoo is currently enrolled at Baruch College as an Accounting student. She works part-time at Take 31 INC as a staff accountant. She plans to minor in both Business<br> Communication and Computer Information Systems (CIS). Her goal is to become a professional accountant.<br><br>현재 버룩 대학교 회계학과 재학중. Take 31에서 파트타임 경리로 근무. 비지니스 커뮤니케이션과 컴퓨터 정보 시스템 복수 부전공 계획중. 공인회계사가 되길 희망.</p><h4 id='mainButton' onclick='showAmy();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAAmy();return false;'>FUN FACTS</h4></div>";
-
-var AmyQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAmyQA();return false;'><h3 id='profileHeadBio'>AMY YOO   |   유채영</h3><p id='profileQuestions1'><span id='question'>Q: Inspirational Film?</span><br>A: 200 Pounds Beauty because I like its message that no matter how beautiful<br> you are on the outside, the inside is what counts.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: I really want to go to Venice, Italy<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: Nowadays an app called MOCI. I can interact with other people and my<br> network and can ask for advice or suggestions and share stories.<br><br><span id='question'>Q: Perfect Day?</span><br>A: A day when I don’t have to go to work and can just stay at home with a cup of<br> coffee and relax on my bed watching Korean dramas and show programs all<br> day.</p><p id='profileQuestions2'><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 미녀는 괴로워. 아무리 외면이 예뻐도 사람의 내면이 가장 중요하다는 메세지가 마음에 들어서.<br><br><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 이탈리아 베니스에 꼭 가고 싶어요.<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 요즘엔 모씨라는 어플. 사람들과 익명으로 소통하고 조언도 구하고 스토리도 공유한다는게 마음에 들<br>어요.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 일 안하고 커피한잔의 여유를 가지며 침대에서 뒹굴거리면서 한국 드라마와 쇼프로 하루종일 보기.</p><h4 id='mainButton' onclick='showAmy();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioAmy();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
-var AmyQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAmy();return false;'><h3 id='profileHeadBio'>AMY YOO   |   유채영</h3><p id='profileQuestionsShort1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Elephant & Castle<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: I find Zio, hold him and sleep for five more minutes.<br><br><span id='question'>Q: The word/phrase you say the most?</span><br>A: zi~o~~~ zio~~~ z • i • o!!!!!!!!!!!!<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Exercising every day</p><p id='profileQuestionsShort2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Elephant & Castle<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: 지오찾아 안고 오분만 더자기.<br><br><span id='question'>Q: 하루중 가장 많이 하는 말은?</span><br>A: 지~오~~~ 지오~~~ ㅈㅣㅇㅗ!!!!<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 매일 운동하기.</p><h4 id='mainButton' onclick='showAmy();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioAmy();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var AmyIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAmy();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/AmyYooBig.png'><h3 id='profileHead'>AMY YOO   |   유채영</h3><h5 id='profileStat'>Title in MOI’M: EVENT PRODUCER<br>Industry: ACCOUNTING<br><br>MOTTO: Communicate with others open-mindedly.<br>모토: 오픈마인드로 사람들과 소통하라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioAmy();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAAmy();return false;'>FUN FACTS</h4></div>";
+var AmyBio ="<div id='megaPersona2'><h3 id='profileHeadBio'>AMY YOO   |   유채영</h3><p id='profileBio'>Amy Yoo is currently enrolled at Baruch College as an Accounting student. She works part-time at Take 31 INC as a staff accountant. She plans to minor in both Business<br> Communication and Computer Information Systems (CIS). Her goal is to become a professional accountant.<br><br>현재 버룩 대학교 회계학과 재학중. Take 31에서 파트타임 경리로 근무. 비지니스 커뮤니케이션과 컴퓨터 정보 시스템 복수 부전공 계획중. 공인회계사가 되길 희망.</p><h4 id='mainButton' onclick='showAmy();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAAmy();return false;'>FUN FACTS</h4></div></div></div>";
+var AmyQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>AMY YOO   |   유채영</h3><p id='profileQuestions1'><span id='question'>Q: Inspirational Film?</span><br>A: 200 Pounds Beauty because I like its message that no matter how beautiful<br> you are on the outside, the inside is what counts.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: I really want to go to Venice, Italy<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: Nowadays an app called MOCI. I can interact with other people and my<br> network and can ask for advice or suggestions and share stories.<br><br><span id='question'>Q: Perfect Day?</span><br>A: A day when I don’t have to go to work and can just stay at home with a cup of<br> coffee and relax on my bed watching Korean dramas and show programs all<br> day.</p><p id='profileQuestions2'><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 미녀는 괴로워. 아무리 외면이 예뻐도 사람의 내면이 가장 중요하다는 메세지가 마음에 들어서.<br><br><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 이탈리아 베니스에 꼭 가고 싶어요.<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 요즘엔 모씨라는 어플. 사람들과 익명으로 소통하고 조언도 구하고 스토리도 공유한다는게 마음에 들<br>어요.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 일 안하고 커피한잔의 여유를 가지며 침대에서 뒹굴거리면서 한국 드라마와 쇼프로 하루종일 보기.</p><h4 id='mainButton' onclick='showAmy();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioAmy();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ***
 
 
@@ -565,29 +937,20 @@ var WhitneyQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='cl
 // ***
 
 // ***pr**
-var prIn="<div id='teamContent' class='animated slideInRight' onclick='closeLogin();return false;'><p class='marquee'>“People do not buy goods and services. They buy relations, stories and magic.” Seth Godin</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='pr1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberOnePic' onclick='showProfileSungjun();return false;'></div></div><div class='memeberTwo'><div id='prMemberTwoPic' onclick='showProfiledodo();return false;'></div></div><div class='memeberThree'><div id='prMemberThreePic' onclick='showProfileCharlotte();return false;'></div></div></div>";
-var prIn1="<div id='teamContent' class='animated slideInRight' onclick='closeLogin();return false;'><p class='marquee'>“People do not buy goods and services. They buy relations, stories and magic.” Seth Godin</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='prRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberFourPic' onclick='showProfileHenry();return false;'></div></div><div class='memeberTwo'><div id='prMemberFivePic' onclick='showProfileHanna();return false;'></div></div><div class='memeberThree'><div id='prMemberSixPic' onclick='showProfileMinji();return false;'></div></div></div>";
-var prIn2="<div id='teamContent' class='animated slideInLeft' onclick='closeLogin();return false;'><p class='marquee'>“People do not buy goods and services. They buy relations, stories and magic.” Seth Godin</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='pr1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberOnePic' onclick='showProfileSungjun();return false;'></div></div><div class='memeberTwo'><div id='prMemberTwoPic' onclick='showProfiledodo();return false;'></div></div><div class='memeberThree'><div id='prMemberThreePic'onclick='showProfileCharlotte();return false;'></div></div></div>";
-var prOut="<div id='teamContent' class='animated slideOutRight' onclick='closeLogin();return false;'><p class='marquee'>“People do not buy goods and services. They buy relations, stories and magic.” Seth Godin</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='pr1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberOnePic'></div></div><div class='memeberTwo'><div id='prMemberTwoPic'></div></div><div class='memeberThree'><div id='prMemberThreePic'></div></div></div>";
-var prOut1="<div id='teamContent' class='animated slideOutLeft' onclick='closeLogin();return false;'><p class='marquee'>“People do not buy goods and services. They buy relations, stories and magic.” Seth Godin</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='pr1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberOnePic'></div></div><div class='memeberTwo'><div id='prMemberTwoPic'></div></div><div class='memeberThree'><div id='prMemberThreePic'></div></div></div>";
-var prOut2="<div id='teamContent' class='animated slideOutRight' onclick='closeLogin();return false;'><p class='marquee'>“People do not buy goods and services. They buy relations, stories and magic.” Seth Godin</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='prRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberFourPic' onclick='showProfileHenry();return false;'></div></div><div class='memeberTwo'><div id='prMemberFivePic' onclick='showProfileHanna();return false;'></div></div><div class='memeberThree'><div id='prMemberSixPic' onclick='showProfileMinji();return false;'></div></div></div>";
-
-var prOutForProfile="<div id='teamContent' class='animated slideOutDown' onclick='closeLogin();return false;'><p class='marquee'>“People do not buy goods and services. They buy relations, stories and magic.” Seth Godin</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='pr1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberOnePic'></div></div><div class='memeberTwo'><div id='prMemberTwoPic'></div></div><div class='memeberThree'><div id='prMemberThreePic'></div></div></div>";
-var prInFromProfile="<div id='teamContent' class='animated slideInUp' onclick='closeLogin();return false;'><p class='marquee'>“People do not buy goods and services. They buy relations, stories and magic.” Seth Godin</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='pr1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberOnePic' onclick='showProfileSungjun();return false;'></div></div><div class='memeberTwo'><div id='prMemberTwoPic' onclick='showProfiledodo();return false;'></div></div><div class='memeberThree'><div id='prMemberThreePic' onclick='showProfileCharlotte();return false;'></div></div></div>";
-var pr1OutForProfile="<div id='teamContent' class='animated slideOutDown' onclick='closeLogin();return false;'><p class='marquee'>“People do not buy goods and services. They buy relations, stories and magic.” Seth Godin</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='prRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberFourPic' onclick='showProfileHenry();return false;'></div></div><div class='memeberTwo'><div id='prMemberFivePic' onclick='showProfileHanna();return false;'></div></div><div class='memeberThree'><div id='prMemberSixPic' onclick='showProfileMinji();return false;'></div></div></div>";
-var pr1InFromProfile="<div id='teamContent' class='animated slideInUp' onclick='closeLogin();return false;'><p class='marquee'>“People do not buy goods and services. They buy relations, stories and magic.” Seth Godin</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='prRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='prTeamOut1();return false;'><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div class='memeberOne'><div id='prMemberFourPic' onclick='showProfileHenry();return false;'></div></div><div class='memeberTwo'><div id='prMemberFivePic' onclick='showProfileHanna();return false;'></div></div><div class='memeberThree'><div id='prMemberSixPic' onclick='showProfileMinji();return false;'></div></div></div>";
+var prIn="<div id='megaTeam'><p class='marquee'>“People do not buy goods and services. They buy relations, stories and magic.” Seth Godin</p><h2 id='leaderHeading'>PUBLIC RELATIONS TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>In our current society where image is everything, it is important to maintain positive relationships with others<br>while projecting our brand during successful event promotion.<br>The Public Relations Team is responsible for communication with external constituents and all online and offline promotion of our events.</h5><div id='prSlide1'><img id='backArrow' src = '/assets/arrowBack.png' onclick='prOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='prSlideFunction1();return false;'><div class='memeberOne'><div id='prMemberOnePic' onclick='showProfileSungjun();return false;'></div></div><div class='memeberTwo'><div id='prMemberTwoPic' onclick='showProfiledodo();return false;'></div></div><div class='memeberThree'><div id='prMemberThreePic' onclick='showProfileCharlotte();return false;'></div></div></div></div>";
+var prIn1="<div id='megaTeamA'><div id='prSlide2'><div id='rewindArrow' src = '/assets/rewind.png' onclick='prRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='prSlideFunction2();return false;'></h5><div class='memeberOne'><div id='prMemberFourPic' onclick='showProfileHenry();return false;'></div></div><div class='memeberTwo'><div id='prMemberFivePic' onclick='showProfileHanna();return false;'></div></div><div class='memeberThree'><div id='prMemberSixPic' onclick='showProfileMinji();return false;'></div></div></div></div>";
+var prIn2="<div id='prSlide1'><img id='backArrow' src = '/assets/arrowBack.png' onclick='prOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='prSlideFunction1();return false;'><div class='memeberOne'><div id='prMemberOnePic' onclick='showProfileSungjun();return false;'></div></div><div class='memeberTwo'><div id='prMemberTwoPic' onclick='showProfiledodo();return false;'></div></div><div class='memeberThree'><div id='prMemberThreePic'onclick='showProfileCharlotte();return false;'></div></div></div>";
 // ***
+// ***Brent
+// var BrentIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBrent();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/BrentKimBig.png'><h3 id='profileHead'>BRENT KIM   |   김하규</h3><h5 id='profileStat'>Title in MOI’M: EVENT PRODUCER<br>Industry: FINANCE<br><br>MOTTO: “It ain’t over ‘till it’s over.” – Yogi Berra<br>모토: 끝날 때까지 끝난 게 아니다. –요기 베라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioBrent();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQABrent();return false;'>FUN FACTS</h4></div></div></div>";
+// var BrentBio ="<div id='megaPersona2'><h3 id='profileHeadBio'>BRENT KIM   |   김하규</h3><p id='profileBio'>Hakyu Kim graduated from Corona Del Mar High School in California in 2010 and currently pursues a B.A. in Economics from New York University. For his mandatory<br> military service, he served as an interpreter in the Republic of Korea Air Force Materiel Command and the Republic of Korea Joint Support Group in the Philippines.<br> Hakyu was discharged from service on January 2015. Since then he has worked at a consulting company and a start-up company and prepared to go back to school on<br> August 2015. After graduating from NYU, he wants to work in the finance industry.<br><br>2010년 미국 캘리포니아 Corona Del Mar High School을 졸업 후 뉴욕대학교에서 경제학 학사 과정을 수료 중임. 공군 물자사령부와 필리핀 합동 지원단에서 통역병으로 군 복무를 하였으며<br>2015년 1월 군 복무를 마침. 전역 이후 컨설팅 회사와 스타트업 업체에서 인턴 경험을 하면서 2015년 가을학기 복학 준비를 하고 있으며, 졸업 후 금융권에 종사하기를 희망.</p><h4 id='mainButton' onclick='showBrent();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQABrent();return false;'>FUN FACTS</h4></div>";
+// var BrentQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>BRENT KIM   |   김하규</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Shopsin’s. A small restaurant in Essex St Market with a unique name and a vast<br> menu with a variety of different dishes.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Eternal Sunshine of the Spotless Mind. A movie featuring a new side of Jim<br> Carrey and highlighting Michel Gondry’s amazing ability to portray memory and<br> time. Also, it is a great story that depicts the essence of love.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: Montauk in the winter (Eternal Sunshine has left a great impression…)<br><br><span id='question'>Q: Inspiration?</span><br>A: Henry Kissinger, Alain de Botton, Billy Beane, my dad</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: 독특한 이름인 Shopsin’s 라고 불리는 조그만 레스토랑. Essex St Market에 위치하고 있고 다양<br>한 메뉴가 매력적이다.<br><br><span id='question'>Q: 가장 감명깊게 본 영화? 이유?</span><br>A: 이터널 선샤인. 짐 캐리의 새로운 모습, 기억과 시간을 멋지게 엮은 미셀 공드리 감독, 그리고 사랑의<br> 본질에 관한 최고의 이야기.<br><br><span id='question'>Q: 가고 싶은 휴양지?</span><br>A: 겨울의 Montauk (Eternal Sunshine을 너무 감명 깊게 본 나머지…)<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 헨리 키신저, 알랭 드 보통, 빌리 빈, 우리 아빠</p><h4 id='mainButton' onclick='showBrent();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioBrent();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+// ****
 
 // ***Sungjun
-var SungjunIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSungjun();return false;'><img id='profilePic' src = '/assets/SungjunYoonBig.png'><h3 id='profileHead'>SUNGJUN YOON   |   윤성준</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, PUBLIC RELATIONS<br>Industry: INDUSTRIAL DESIGN<br>Email: Sungjun@moimnewyork.com<br><br>MOTTO: Always turn a negative situation into a positive<br> situation – Michael Jordan<br>모토: 부정적인 상황이 오면 그것을 긍정적인 상황으로 바꾸어라 – 마이클 조던</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioSungjun();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQASungjun();return false;'>FUN FACTS</h4></div>";
-var SungjunOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSungjun();return false;'><img id='profilePic' src = '/assets/SungjunYoonBig.png'><h3 id='profileHead'>SUNGJUN YOON   |   윤성준</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, PUBLIC RELATIONS<br>Industry: INDUSTRIAL DESIGN<br>Email: Sungjun@moimnewyork.com<br><br>MOTTO: Always turn a negative situation into a positive<br> situation – Michael Jordan<br>모토: 부정적인 상황이 오면 그것을 긍정적인 상황으로 바꾸어라 – 마이클 조던</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioSungjun();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQASungjun();return false;'>FUN FACTS</h4></div>";
-var SungjunFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSungjun();return false;'><img id='profilePic' src = '/assets/SungjunYoonBig.png'><h3 id='profileHead'>SUNGJUN YOON   |   윤성준</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, PUBLIC RELATIONS<br>Industry: INDUSTRIAL DESIGN<br>Email: Sungjun@moimnewyork.com<br><br>MOTTO: Always turn a negative situation into a positive<br> situation – Michael Jordan<br>모토: 부정적인 상황이 오면 그것을 긍정적인 상황으로 바꾸어라 – 마이클 조던</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioSungjun();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQASungjun();return false;'>FUN FACTS</h4></div>";
-
-var SungjunBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSungjunBio();return false;'><h3 id='profileHeadBio'>SUNGJUN YOON   |   윤성준</h3><p id='profileBio'>Sungjun Yoon is currently studying Product Design at Parsons The New School of Design. Prior to coming to the U.S., Sungjun studied Mechanical Engineering at Dankook<br> University in South Korea and served in the Republic of Korea Air Force for two years. In high school, Sungjun was a member of the planning team of his high school<br> magazine editorial department.<br><br>파슨스 디자인 스쿨에 2학년 제품 디자인과 재학중. 미국에 오기전 단국대학교 기계공학과에 1년간 재학후 2년동안 공군에서 헌병으로 군복무를 마친후<br>파슨스 디자인스쿨에 재입학하였음. 고등학교때 교지편집 부 “씨알소리” 에서 3년동안 기획부 활동.</p><h4 id='mainButton' onclick='showSungjun();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQASungjun();return false;'>FUN FACTS</h4></div>";
-var SungjunBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSungjun();return false;'><h3 id='profileHeadBio'>SUNGJUN YOON   |   윤성준</h3><p id='profileBio'>Sungjun Yoon is currently studying Product Design at Parsons The New School of Design. Prior to coming to the U.S., Sungjun studied Mechanical Engineering at Dankook<br> University in South Korea and served in the Republic of Korea Air Force for two years. In high school, Sungjun was a member of the planning team of his high school<br> magazine editorial department.<br><br>파슨스 디자인 스쿨에 2학년 제품 디자인과 재학중. 미국에 오기전 단국대학교 기계공학과에 1년간 재학후 2년동안 공군에서 헌병으로 군복무를 마친후<br>파슨스 디자인스쿨에 재입학하였음. 고등학교때 교지편집 부 “씨알소리” 에서 3년동안 기획부 활동.</p><h4 id='mainButton' onclick='showSungjun();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQASungjun();return false;'>FUN FACTS</h4></div>";
-
-var SungjunQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSungjunQA();return false;'><h3 id='profileHeadBio'>SUNGJUN YOON   |   윤성준</h3><p id='profileQuestions1a'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Tea Drunk (Chinese tea bar, 123 E 7th St).<br><br><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would eat delicious food, aka Korean barbecue.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Oblivion because it has a good story and amazing scenes.<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: Turn off my alarm.<br><br><span id='question'>Q: Perfect Day?</span><br>A: Sitting on a couch, drinking beer and taking a nap.</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Tea Drunk (Chinese tea bar, 123 E 7th St).<br><br><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 맛있는 음식을 먹겠다. 고기.<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 오블리비언. 멋진 장면들과 참신한 스토리를 보여준 오블리비언.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: 알람끄기.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 소파에 앉아 맥주마시면서 낮잠 청하기.</p><h4 id='mainButton' onclick='showSungjun();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioSungjun();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
-var SungjunQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSungjun();return false;'><h3 id='profileHeadBio'>SUNGJUN YOON   |   윤성준</h3><p id='profileQuestions1a'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Tea Drunk (Chinese tea bar, 123 E 7th St).<br><br><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would eat delicious food, aka Korean barbecue.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Oblivion because it has a good story and amazing scenes.<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: Turn off my alarm.<br><br><span id='question'>Q: Perfect Day?</span><br>A: Sitting on a couch, drinking beer and taking a nap.</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Tea Drunk (Chinese tea bar, 123 E 7th St).<br><br><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 맛있는 음식을 먹겠다. 고기.<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 오블리비언. 멋진 장면들과 참신한 스토리를 보여준 오블리비언.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: 알람끄기.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 소파에 앉아 맥주마시면서 낮잠 청하기.</p><h4 id='mainButton' onclick='showSungjun();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioSungjun();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var SungjunIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSungjun();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/SungjunYoonBig.png'><h3 id='profileHead'>SUNGJUN YOON   |   윤성준</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, PUBLIC RELATIONS<br>Industry: INDUSTRIAL DESIGN<br>Email: Sungjun@moimnewyork.com<br><br>MOTTO: Always turn a negative situation into a positive<br> situation – Michael Jordan<br>모토: 부정적인 상황이 오면 그것을 긍정적인 상황으로 바꾸어라 – 마이클 조던</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioSungjun();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQASungjun();return false;'>FUN FACTS</h4></div></div></div>";
+var SungjunBio ="<div id='megaPersona2'><h3 id='profileHeadBio'>SUNGJUN YOON   |   윤성준</h3><p id='profileBio'>Sungjun Yoon is currently studying Product Design at Parsons The New School of Design. Prior to coming to the U.S., Sungjun studied Mechanical Engineering at Dankook<br> University in South Korea and served in the Republic of Korea Air Force for two years. In high school, Sungjun was a member of the planning team of his high school<br> magazine editorial department.<br><br>파슨스 디자인 스쿨에 2학년 제품 디자인과 재학중. 미국에 오기전 단국대학교 기계공학과에 1년간 재학후 2년동안 공군에서 헌병으로 군복무를 마친후<br>파슨스 디자인스쿨에 재입학하였음. 고등학교때 교지편집 부 “씨알소리” 에서 3년동안 기획부 활동.</p><h4 id='mainButton' onclick='showSungjun();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQASungjun();return false;'>FUN FACTS</h4></div>";
+var SungjunQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>SUNGJUN YOON   |   윤성준</h3><p id='profileQuestions1a'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Tea Drunk (Chinese tea bar, 123 E 7th St).<br><br><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would eat delicious food, aka Korean barbecue.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Oblivion because it has a good story and amazing scenes.<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: Turn off my alarm.<br><br><span id='question'>Q: Perfect Day?</span><br>A: Sitting on a couch, drinking beer and taking a nap.</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Tea Drunk (Chinese tea bar, 123 E 7th St).<br><br><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 맛있는 음식을 먹겠다. 고기.<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 오블리비언. 멋진 장면들과 참신한 스토리를 보여준 오블리비언.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: 알람끄기.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 소파에 앉아 맥주마시면서 낮잠 청하기.</p><h4 id='mainButton' onclick='showSungjun();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioSungjun();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ****
 
 // ***dodo
@@ -1164,233 +1527,7 @@ function contributorsRewind1(){
 
 
 
-// **Sarah - events
-function showProfileSarah(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(eventsOutForProfile);
-}, 0);
-	setTimeout(function() {
-	$('body').append(SarahIn);	
-    }, 0);
-}
 
-function profileOutSarah(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(SarahOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(eventsInFromProfile);	
-    }, 0);
-}
-
-function profileOutSarahBio(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(SarahBioOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(eventsInFromProfile);	
-    }, 0);
-}
-
-function profileOutSarahQA(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(SarahQAOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(eventsInFromProfile);	
-    }, 0);
-}
-
-function showBioSarah(){
-	$('#teamContent').remove();
-	$('body').append(SarahBio);	
-}
-
-function showQASarah(){
-	$('#teamContent').remove();
-	$('body').append(SarahQA);	
-}
-
-function showSarah(){
-	$('#teamContent').remove();
-	$('body').append(SarahFadeIn);
-}
-// ***
-
-// **Ryan - events
-function showProfileRyan(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(eventsOutForProfile);
-}, 0);
-	setTimeout(function() {
-	$('body').append(RyanIn);	
-    }, 0);
-}
-
-function profileOutRyan(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(RyanOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(eventsInFromProfile);	
-    }, 0);
-}
-
-function profileOutRyanBio(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(RyanBioOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(eventsInFromProfile);	
-    }, 0);
-}
-
-function profileOutRyanQA(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(RyanQAOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(eventsInFromProfile);	
-    }, 0);
-}
-
-function showBioRyan(){
-	$('#teamContent').remove();
-	$('body').append(RyanBio);	
-}
-
-function showQARyan(){
-	$('#teamContent').remove();
-	$('body').append(RyanQA);	
-}
-
-function showRyan(){
-	$('#teamContent').remove();
-	$('body').append(RyanFadeIn);
-}
-// ***
-
-// **Brent - events
-function showProfileBrent(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(eventsOutForProfile);
-}, 0);
-	setTimeout(function() {
-	$('body').append(BrentIn);	
-    }, 0);
-}
-
-function profileOutBrent(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(BrentOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(eventsInFromProfile);	
-    }, 0);
-}
-
-function profileOutBrentBio(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(BrentBioOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(eventsInFromProfile);	
-    }, 0);
-}
-
-function profileOutBrentQA(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(BrentQAOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(eventsInFromProfile);	
-    }, 0);
-}
-
-function showBioBrent(){
-	$('#teamContent').remove();
-	$('body').append(BrentBio);	
-}
-
-function showQABrent(){
-	$('#teamContent').remove();
-	$('body').append(BrentQA);	
-}
-
-function showBrent(){
-	$('#teamContent').remove();
-	$('body').append(BrentFadeIn);
-}
-// ***
-
-// **Amy - Events
-function showProfileAmy(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(events1OutForProfile);
-}, 0);
-	setTimeout(function() {
-	$('body').append(AmyIn);	
-    }, 0);
-}
-
-function profileOutAmy(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(AmyOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(events1InFromProfile);	
-    }, 0);
-}
-
-function profileOutAmyBio(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(AmyBioOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(events1InFromProfile);	
-    }, 0);
-}
-
-function profileOutAmyQA(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(AmyQAOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(events1InFromProfile);	
-    }, 0);
-}
-
-function showBioAmy(){
-	$('#teamContent').remove();
-	$('body').append(AmyBio);	
-}
-
-function showQAAmy(){
-	$('#teamContent').remove();
-	$('body').append(AmyQA);	
-}
-
-function showAmy(){
-	$('#teamContent').remove();
-	$('body').append(AmyFadeIn);
-}
-// ***
 
 // **Richard - creative
 function showProfileRichard(){
@@ -1849,1504 +1986,12 @@ function showWhitney(){
 }
 // ***
 
-// **Sungjun - pr
-function showProfileSungjun(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(prOutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(SungjunIn); 
-    }, 0);
-}
-
-function profileOutSungjun(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(SungjunOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(prInFromProfile);  
-    }, 0);
-}
-
-function profileOutSungjunBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(SungjunBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(prInFromProfile);  
-    }, 0);
-}
-
-function profileOutSungjunQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(SungjunQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(prInFromProfile);  
-    }, 0);
-}
-
-function showBioSungjun(){
-  $('#teamContent').remove();
-  $('body').append(SungjunBio);  
-}
-
-function showQASungjun(){
-  $('#teamContent').remove();
-  $('body').append(SungjunQA); 
-}
-
-function showSungjun(){
-  $('#teamContent').remove();
-  $('body').append(SungjunFadeIn);
-}
-// ***
-
-// **dodo - pr
-function showProfiledodo(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(prOutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(dodoIn); 
-    }, 0);
-}
-
-function profileOutdodo(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(dodoOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(prInFromProfile);  
-    }, 0);
-}
-
-function profileOutdodoBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(dodoBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(prInFromProfile);  
-    }, 0);
-}
-
-function profileOutdodoQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(dodoQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(prInFromProfile);  
-    }, 0);
-}
-
-function showBiododo(){
-  $('#teamContent').remove();
-  $('body').append(dodoBio);  
-}
-
-function showQAdodo(){
-  $('#teamContent').remove();
-  $('body').append(dodoQA); 
-}
-
-function showdodo(){
-  $('#teamContent').remove();
-  $('body').append(dodoFadeIn);
-}
-// ***
-
-// **Charlotte - pr
-function showProfileCharlotte(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(prOutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(CharlotteIn); 
-    }, 0);
-}
-
-function profileOutCharlotte(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(CharlotteOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(prInFromProfile);  
-    }, 0);
-}
-
-function profileOutCharlotteBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(CharlotteBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(prInFromProfile);  
-    }, 0);
-}
-
-function profileOutCharlotteQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(CharlotteQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(prInFromProfile);  
-    }, 0);
-}
-
-function showBioCharlotte(){
-  $('#teamContent').remove();
-  $('body').append(CharlotteBio);  
-}
-
-function showQACharlotte(){
-  $('#teamContent').remove();
-  $('body').append(CharlotteQA); 
-}
-
-function showCharlotte(){
-  $('#teamContent').remove();
-  $('body').append(CharlotteFadeIn);
-}
-// ***
-
-// **Henry - pr
-function showProfileHenry(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(pr1OutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(HenryIn);  
-    }, 0);
-}
-
-function profileOutHenry(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(HenryOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(pr1InFromProfile); 
-    }, 0);
-}
-
-function profileOutHenryBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(HenryBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(pr1InFromProfile); 
-    }, 0);
-}
-
-function profileOutHenryQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(HenryQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(pr1InFromProfile); 
-    }, 0);
-}
-
-function showBioHenry(){
-  $('#teamContent').remove();
-  $('body').append(HenryBio); 
-}
-
-function showQAHenry(){
-  $('#teamContent').remove();
-  $('body').append(HenryQA);  
-}
-
-function showHenry(){
-  $('#teamContent').remove();
-  $('body').append(HenryFadeIn);
-}
-// ***
-
-// **Hanna = pr
-function showProfileHanna(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(pr1OutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(HannaIn);  
-    }, 0);
-}
-
-function profileOutHanna(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(HannaOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(pr1InFromProfile); 
-    }, 0);
-}
-
-function profileOutHannaBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(HannaBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(pr1InFromProfile); 
-    }, 0);
-}
-
-function profileOutHannaQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(HannaQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(pr1InFromProfile); 
-    }, 0);
-}
-
-function showBioHanna(){
-  $('#teamContent').remove();
-  $('body').append(HannaBio); 
-}
-
-function showQAHanna(){
-  $('#teamContent').remove();
-  $('body').append(HannaQA);  
-}
-
-function showHanna(){
-  $('#teamContent').remove();
-  $('body').append(HannaFadeIn);
-}
-// ***
-
-// **Minji = pr
-function showProfileMinji(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(pr1OutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(MinjiIn);  
-    }, 0);
-}
-
-function profileOutMinji(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(MinjiOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(pr1InFromProfile); 
-    }, 0);
-}
-
-function profileOutMinjiBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(MinjiBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(pr1InFromProfile); 
-    }, 0);
-}
-
-function profileOutMinjiQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(MinjiQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(pr1InFromProfile); 
-    }, 0);
-}
-
-function showBioMinji(){
-  $('#teamContent').remove();
-  $('body').append(MinjiBio); 
-}
-
-function showQAMinji(){
-  $('#teamContent').remove();
-  $('body').append(MinjiQA);  
-}
-
-function showMinji(){
-  $('#teamContent').remove();
-  $('body').append(MinjiFadeIn);
-}
-// ***
-
-// **Esther - SOAR
-function showProfileEsther(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(soarOutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(EstherIn); 
-    }, 0);
-}
-
-function profileOutEsther(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(EstherOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(soarInFromProfile);  
-    }, 0);
-}
-
-function profileOutEstherBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(EstherBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(soarInFromProfile);  
-    }, 0);
-}
-
-function profileOutEstherQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(EstherQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(soarInFromProfile);  
-    }, 0);
-}
-
-function showBioEsther(){
-  $('#teamContent').remove();
-  $('body').append(EstherBio);  
-}
-
-function showQAEsther(){
-  $('#teamContent').remove();
-  $('body').append(EstherQA); 
-}
-
-function showEsther(){
-  $('#teamContent').remove();
-  $('body').append(EstherFadeIn);
-}
-// ***
-
-// **Alison - SOAR
-function showProfileAlison(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(soarOutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(AlisonIn); 
-    }, 0);
-}
-
-function profileOutAlison(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(AlisonOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(soarInFromProfile);  
-    }, 0);
-}
-
-function profileOutAlisonBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(AlisonBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(soarInFromProfile);  
-    }, 0);
-}
-
-function profileOutAlisonQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(AlisonQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(soarInFromProfile);  
-    }, 0);
-}
-
-function showBioAlison(){
-  $('#teamContent').remove();
-  $('body').append(AlisonBio);  
-}
-
-function showQAAlison(){
-  $('#teamContent').remove();
-  $('body').append(AlisonQA); 
-}
-
-function showAlison(){
-  $('#teamContent').remove();
-  $('body').append(AlisonFadeIn);
-}
-// ***
-
-// **YooSun - SOAR
-function showProfileYooSun(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(soarOutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(YooSunIn); 
-    }, 0);
-}
-
-function profileOutYooSun(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(YooSunOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(soarInFromProfile);  
-    }, 0);
-}
-
-function profileOutYooSunBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(YooSunBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(soarInFromProfile);  
-    }, 0);
-}
-
-function profileOutYooSunQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(YooSunQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(soarInFromProfile);  
-    }, 0);
-}
-
-function showBioYooSun(){
-  $('#teamContent').remove();
-  $('body').append(YooSunBio);  
-}
-
-function showQAYooSun(){
-  $('#teamContent').remove();
-  $('body').append(YooSunQA); 
-}
-
-function showYooSun(){
-  $('#teamContent').remove();
-  $('body').append(YooSunFadeIn);
-}
-// ***
-
-// **Katie - SOAR
-function showProfileKatie(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(soar1OutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(KatieIn);  
-    }, 0);
-}
-
-function profileOutKatie(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(KatieOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(soar1InFromProfile); 
-    }, 0);
-}
-
-function profileOutKatieBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(KatieBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(soar1InFromProfile); 
-    }, 0);
-}
-
-function profileOutKatieQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(KatieQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(soar1InFromProfile); 
-    }, 0);
-}
-
-function showBioKatie(){
-  $('#teamContent').remove();
-  $('body').append(KatieBio); 
-}
-
-function showQAKatie(){
-  $('#teamContent').remove();
-  $('body').append(KatieQA);  
-}
-
-function showKatie(){
-  $('#teamContent').remove();
-  $('body').append(KatieFadeIn);
-}
-// ***
-
-// **Nah - IT
-function showProfileNah(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(itOutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(NahIn); 
-    }, 0);
-}
-
-function profileOutNah(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(NahOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(itInFromProfile);  
-    }, 0);
-}
-
-function profileOutNahBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(NahBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(itInFromProfile);  
-    }, 0);
-}
-
-function profileOutNahQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(NahQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(itInFromProfile);  
-    }, 0);
-}
-
-function showBioNah(){
-  $('#teamContent').remove();
-  $('body').append(NahBio);  
-}
-
-function showQANah(){
-  $('#teamContent').remove();
-  $('body').append(NahQA); 
-}
-
-function showNah(){
-  $('#teamContent').remove();
-  $('body').append(NahFadeIn);
-}
-// ***
-
-// **Larry - IT
-function showProfileLarry(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(itOutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(LarryIn); 
-    }, 0);
-}
-
-function profileOutLarry(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(LarryOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(itInFromProfile);  
-    }, 0);
-}
-
-function profileOutLarryBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(LarryBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(itInFromProfile);  
-    }, 0);
-}
-
-function profileOutLarryQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(LarryQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(itInFromProfile);  
-    }, 0);
-}
-
-function showBioLarry(){
-  $('#teamContent').remove();
-  $('body').append(LarryBio);  
-}
-
-function showQALarry(){
-  $('#teamContent').remove();
-  $('body').append(LarryQA); 
-}
-
-function showLarry(){
-  $('#teamContent').remove();
-  $('body').append(LarryFadeIn);
-}
-// ***
-
-// **Peter - IT
-function showProfilePeter(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(itOutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(PeterIn); 
-    }, 0);
-}
-
-function profileOutPeter(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(PeterOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(itInFromProfile);  
-    }, 0);
-}
-
-function profileOutPeterBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(PeterBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(itInFromProfile);  
-    }, 0);
-}
-
-function profileOutPeterQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(PeterQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(itInFromProfile);  
-    }, 0);
-}
-
-function showBioPeter(){
-  $('#teamContent').remove();
-  $('body').append(PeterBio);  
-}
-
-function showQAPeter(){
-  $('#teamContent').remove();
-  $('body').append(PeterQA); 
-}
-
-function showPeter(){
-  $('#teamContent').remove();
-  $('body').append(PeterFadeIn);
-}
-// ***
-
-// **Junho - it
-function showProfileJunho(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(it1OutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(JunhoIn);  
-    }, 0);
-}
-
-function profileOutJunho(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(JunhoOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(it1InFromProfile); 
-    }, 0);
-}
-
-function profileOutJunhoBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(JunhoBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(it1InFromProfile); 
-    }, 0);
-}
-
-function profileOutJunhoQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(JunhoQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(it1InFromProfile); 
-    }, 0);
-}
-
-function showBioJunho(){
-  $('#teamContent').remove();
-  $('body').append(JunhoBio); 
-}
-
-function showQAJunho(){
-  $('#teamContent').remove();
-  $('body').append(JunhoQA);  
-}
-
-function showJunho(){
-  $('#teamContent').remove();
-  $('body').append(JunhoFadeIn);
-}
-// ***
-
-// **Sung - advisory
-function showProfileSung(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(advisoryOutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(SungIn); 
-    }, 0);
-}
-
-function profileOutSung(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(SungOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(advisoryInFromProfile);  
-    }, 0);
-}
-
-function profileOutSungBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(SungBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(advisoryInFromProfile);  
-    }, 0);
-}
-
-function profileOutSungQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(SungQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(advisoryInFromProfile);  
-    }, 0);
-}
-
-function showBioSung(){
-  $('#teamContent').remove();
-  $('body').append(SungBio);  
-}
-
-function showQASung(){
-  $('#teamContent').remove();
-  $('body').append(SungQA); 
-}
-
-function showSung(){
-  $('#teamContent').remove();
-  $('body').append(SungFadeIn);
-}
-// ***
-
-// **JeongSeok - advisory
-function showProfileJeongSeok(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(advisoryOutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(JeongSeokIn); 
-    }, 0);
-}
-
-function profileOutJeongSeok(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(JeongSeokOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(advisoryInFromProfile);  
-    }, 0);
-}
-
-function profileOutJeongSeokBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(JeongSeokBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(advisoryInFromProfile);  
-    }, 0);
-}
-
-function profileOutJeongSeokQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(JeongSeokQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(advisoryInFromProfile);  
-    }, 0);
-}
-
-function showBioJeongSeok(){
-  $('#teamContent').remove();
-  $('body').append(JeongSeokBio);  
-}
-
-function showQAJeongSeok(){
-  $('#teamContent').remove();
-  $('body').append(JeongSeokQA); 
-}
-
-function showJeongSeok(){
-  $('#teamContent').remove();
-  $('body').append(JeongSeokFadeIn);
-}
-// ***
-
-// **Joslyn - contributors
-function showProfileJoslyn(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(contributorsOutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(JoslynIn); 
-    }, 0);
-}
-
-function profileOutJoslyn(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(JoslynOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributorsInFromProfile);  
-    }, 0);
-}
-
-function profileOutJoslynBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(JoslynBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributorsInFromProfile);  
-    }, 0);
-}
-
-function profileOutJoslynQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(JoslynQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributorsInFromProfile);  
-    }, 0);
-}
-
-function showBioJoslyn(){
-  $('#teamContent').remove();
-  $('body').append(JoslynBio);  
-}
-
-function showQAJoslyn(){
-  $('#teamContent').remove();
-  $('body').append(JoslynQA); 
-}
-
-function showJoslyn(){
-  $('#teamContent').remove();
-  $('body').append(JoslynFadeIn);
-}
-// ***
-
-// **Andrew - contributors
-function showProfileAndrew(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(contributorsOutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(AndrewIn); 
-    }, 0);
-}
-
-function profileOutAndrew(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(AndrewOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributorsInFromProfile);  
-    }, 0);
-}
-
-function profileOutAndrewBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(AndrewBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributorsInFromProfile);  
-    }, 0);
-}
-
-function profileOutAndrewQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(AndrewQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributorsInFromProfile);  
-    }, 0);
-}
-
-function showBioAndrew(){
-  $('#teamContent').remove();
-  $('body').append(AndrewBio);  
-}
-
-function showQAAndrew(){
-  $('#teamContent').remove();
-  $('body').append(AndrewQA); 
-}
-
-function showAndrew(){
-  $('#teamContent').remove();
-  $('body').append(AndrewFadeIn);
-}
-// ***
-
-// **Fei - contributors
-function showProfileFei(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(contributorsOutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(FeiIn); 
-    }, 0);
-}
-
-function profileOutFei(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(FeiOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributorsInFromProfile);  
-    }, 0);
-}
-
-function profileOutFeiBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(FeiBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributorsInFromProfile);  
-    }, 0);
-}
-
-function profileOutFeiQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(FeiQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributorsInFromProfile);  
-    }, 0);
-}
-
-function showBioFei(){
-  $('#teamContent').remove();
-  $('body').append(FeiBio);  
-}
-
-function showQAFei(){
-  $('#teamContent').remove();
-  $('body').append(FeiQA); 
-}
-
-function showFei(){
-  $('#teamContent').remove();
-  $('body').append(FeiFadeIn);
-}
-// ***
-
-// **Yoon - contributors
-function showProfileYoon(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(contributors1OutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(YoonIn);  
-    }, 0);
-}
-
-function profileOutYoon(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(YoonOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributors1InFromProfile); 
-    }, 0);
-}
-
-function profileOutYoonBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(YoonBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributors1InFromProfile); 
-    }, 0);
-}
-
-function profileOutYoonQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(YoonQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributors1InFromProfile); 
-    }, 0);
-}
-
-function showBioYoon(){
-  $('#teamContent').remove();
-  $('body').append(YoonBio); 
-}
-
-function showQAYoon(){
-  $('#teamContent').remove();
-  $('body').append(YoonQA);  
-}
-
-function showYoon(){
-  $('#teamContent').remove();
-  $('body').append(YoonFadeIn);
-}
-// ***
-
-// **Ji - contributors
-function showProfileJi(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(contributors1OutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(JiIn);  
-    }, 0);
-}
-
-function profileOutJi(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(JiOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributors1InFromProfile); 
-    }, 0);
-}
-
-function profileOutJiBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(JiBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributors1InFromProfile); 
-    }, 0);
-}
-
-function profileOutJiQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(JiQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributors1InFromProfile); 
-    }, 0);
-}
-
-function showBioJi(){
-  $('#teamContent').remove();
-  $('body').append(JiBio); 
-}
-
-function showQAJi(){
-  $('#teamContent').remove();
-  $('body').append(JiQA);  
-}
-
-function showJi(){
-  $('#teamContent').remove();
-  $('body').append(JiFadeIn);
-}
-// ***
-
-// **Jieun - contributors
-function showProfileJieun(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(contributors1OutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(JieunIn);  
-    }, 0);
-}
-
-function profileOutJieun(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(JieunOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributors1InFromProfile); 
-    }, 0);
-}
-
-function profileOutJieunBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(JieunBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributors1InFromProfile); 
-    }, 0);
-}
-
-function profileOutJieunQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(JieunQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributors1InFromProfile); 
-    }, 0);
-}
-
-function showBioJieun(){
-  $('#teamContent').remove();
-  $('body').append(JieunBio); 
-}
-
-function showQAJieun(){
-  $('#teamContent').remove();
-  $('body').append(JieunQA);  
-}
-
-function showJieun(){
-  $('#teamContent').remove();
-  $('body').append(JieunFadeIn);
-}
-// ***
-
-// **Grace - Contributors
-function showProfileGrace(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(contributors2OutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(GraceIn);  
-    }, 0);
-}
-
-function profileOutGrace(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(GraceOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributors2InFromProfile); 
-    }, 0);
-}
-
-function profileOutGraceBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(GraceBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributors2InFromProfile); 
-    }, 0);
-}
-
-function profileOutGraceQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(GraceQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributors2InFromProfile); 
-    }, 0);
-}
-
-function showBioGrace(){
-  $('#teamContent').remove();
-  $('body').append(GraceBio); 
-}
-
-function showQAGrace(){
-  $('#teamContent').remove();
-  $('body').append(GraceQA);  
-}
-
-function showGrace(){
-  $('#teamContent').remove();
-  $('body').append(GraceFadeIn);
-}
-// ***
-
-// **Jong - Contributors
-function showProfileJong(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(contributors2OutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(JongIn);  
-    }, 0);
-}
-
-function profileOutJong(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(JongOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributors2InFromProfile); 
-    }, 0);
-}
-
-function profileOutJongBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(JongBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributors2InFromProfile); 
-    }, 0);
-}
-
-function profileOutJongQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(JongQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributors2InFromProfile); 
-    }, 0);
-}
-
-function showBioJong(){
-  $('#teamContent').remove();
-  $('body').append(JongBio); 
-}
-
-function showQAJong(){
-  $('#teamContent').remove();
-  $('body').append(JongQA);  
-}
-
-function showJong(){
-  $('#teamContent').remove();
-  $('body').append(JongFadeIn);
-}
-// ***
-
-// **Jai - Contributors
-function showProfileJai(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(contributors2OutForProfile);
-}, 0);
-  setTimeout(function() {
-  $('body').append(JaiIn);  
-    }, 0);
-}
-
-function profileOutJai(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(JaiOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributors2InFromProfile); 
-    }, 0);
-}
-
-function profileOutJaiBio(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(JaiBioOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributors2InFromProfile); 
-    }, 0);
-}
-
-function profileOutJaiQA(){
-  setTimeout(function() {
-  $('#teamContent').remove();
-  $('body').append(JaiQAOut);
-}, 0);
-  setTimeout(function() {
-  $('body').append(contributors2InFromProfile); 
-    }, 0);
-}
-
-function showBioJai(){
-  $('#teamContent').remove();
-  $('body').append(JaiBio); 
-}
-
-function showQAJai(){
-  $('#teamContent').remove();
-  $('body').append(JaiQA);  
-}
-
-function showJai(){
-  $('#teamContent').remove();
-  $('body').append(JaiFadeIn);
-}
-// ***
-
-// ******
-
 
 // ***skim through team members
 
-// ***leaders
-
-
-function leaders1(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(leaderOut1);
-}, 10);
-	setTimeout(function() {
-	$('body').append(leaderIn1);	
-    }, 0);
-}
 
 
 
-function leadershipOut1(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(leaderOut2);
-}, 10);
-	setTimeout(function() {
-	$('body').append(leaderIn2);	
-    }, 0);
-}
-// *****
-
-// ***pr
-
-function events(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(teamOut);
-}, 10);
-	setTimeout(function() {
-	$('body').append(eventsIn);	
-    }, 0);
-}
-
-function events1(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(eventsOut1);
-}, 10);
-	setTimeout(function() {
-	$('body').append(eventsIn1);	
-    }, 0);
-}
-
-function eventTeamOut(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(eventsOut);
-}, 10);
-	setTimeout(function() {
-	$('body').append(teamIn);	
-    }, 0);
-}
-
-function eventTeamOut1(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(eventsOut2);
-}, 10);
-	setTimeout(function() {
-	$('body').append(eventsIn2);	
-    }, 0);
-}
-// *****
 
 // ***creative
 
@@ -3411,176 +2056,8 @@ function creativeTeamOut2(){
 }
 // *****
 
-// ***pr
 
-function pr(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(teamOut);
-}, 10);
-	setTimeout(function() {
-	$('body').append(prIn);	
-    }, 0);
-}
 
-function pr1(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(prOut1);
-}, 10);
-	setTimeout(function() {
-	$('body').append(prIn1);	
-    }, 0);
-}
-
-function prTeamOut(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(prOut);
-}, 10);
-	setTimeout(function() {
-	$('body').append(teamIn);	
-    }, 0);
-}
-
-function prTeamOut1(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(prOut2);
-}, 10);
-	setTimeout(function() {
-	$('body').append(prIn2);	
-    }, 0);
-}
-// *****
-
-// ***soar
-
-function soar(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(teamOut);
-}, 10);
-	setTimeout(function() {
-	$('body').append(soarIn);	
-    }, 0);
-}
-
-function soar1(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(soarOut1);
-}, 10);
-	setTimeout(function() {
-	$('body').append(soarIn1);	
-    }, 0);
-}
-
-function soarTeamOut(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(soarOut);
-}, 10);
-	setTimeout(function() {
-	$('body').append(teamIn);	
-    }, 0);
-}
-
-function soarTeamOut1(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(soarOut2);
-}, 10);
-	setTimeout(function() {
-	$('body').append(soarIn2);	
-    }, 0);
-}
-// *****
-
-// ***it
-
-function it(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(teamOut);
-}, 10);
-	setTimeout(function() {
-	$('body').append(itIn);	
-    }, 0);
-}
-
-function it1(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(itOut1);
-}, 10);
-	setTimeout(function() {
-	$('body').append(itIn1);	
-    }, 0);
-}
-
-function itTeamOut(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(itOut);
-}, 10);
-	setTimeout(function() {
-	$('body').append(teamIn);	
-    }, 0);
-}
-
-function itTeamOut1(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(itOut2);
-}, 10);
-	setTimeout(function() {
-	$('body').append(itIn2);	
-    }, 0);
-}
-// *****
-
-// ***advisory
-
-function advisory(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(teamOut);
-}, 10);
-	setTimeout(function() {
-	$('body').append(advisoryIn);	
-    }, 0);
-}
-
-function advisory1(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(advisoryOut1);
-}, 10);
-	setTimeout(function() {
-	$('body').append(advisoryIn1);	
-    }, 0);
-}
-
-function advisoryTeamOut(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(advisoryOut);
-}, 10);
-	setTimeout(function() {
-	$('body').append(teamIn);	
-    }, 0);
-}
-
-function advisoryTeamOut1(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(advisoryOut2);
-}, 10);
-	setTimeout(function() {
-	$('body').append(advisoryIn2);	
-    }, 0);
-}
 // *****
 
 // ***contributors

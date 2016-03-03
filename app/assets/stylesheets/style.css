@@ -3822,6 +3822,12 @@ width: 250px;
 #teamMainSlide{
 	position:absolute;
 }
+
+#teamMainSlide{
+	position:absolute;
+	width:100%; 
+	height:550px; 
+}
 #leaderSlide1{
 	position:absolute;
 	width:100%;
@@ -3832,12 +3838,6 @@ width: 250px;
 	position:absolute;
 	width:100%;
 	height:350px; 
-}
-
-#teamMainSlide{
-	position:absolute;
-	width:100%; 
-	height:550px; 
 }
 
 #megaTeam{
@@ -3874,6 +3874,30 @@ width: 250px;
 	position:absolute;
 	width:100%; 
 	height:460px; 
+}
+
+#eventsSlide1{
+	position:absolute;
+	width:100%;
+	height:350px; 
+}
+
+#eventsSlide2{
+	position:absolute;
+	width:100%;
+	height:350px; 
+}
+
+#prSlide1{
+	position:absolute;
+	width:100%;
+	height:350px; 
+}
+
+#prSlide2{
+	position:absolute;
+	width:100%;
+	height:350px; 
 }
 
 
