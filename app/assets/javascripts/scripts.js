@@ -118,6 +118,75 @@ function eventsSlideFunction2(){
 }, 502);
 }
 
+
+// ******creative***
+
+function creative(){
+  $('#teamMainSlide').hide( "slide", { direction: "left"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(creativeIn);
+  $('#megaTeam').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaTeam').show( "slide", { direction: "right" }, 500 );
+}, 502);
+}
+
+function creativeOut(){
+  $('#megaTeam').hide( "slide", { direction: "right"  }, 500 );
+  setTimeout(function() {
+
+  $('#megaTeam').remove();
+  $('#teamMainSlide').show( "slide", { direction: "left" }, 500 );
+}, 502);
+}
+
+function creativeOut2(){
+  $('#creativeSlide3').hide( "slide", { direction: "right"  }, 500 );
+  setTimeout(function() {
+  $('#megaTeamA').remove();
+  $('#megaTeam').append(creativeIn4);
+  $('#creativeSlide2').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#creativeSlide2').show( "slide", { direction: "left" }, 500 );
+}, 502);
+}
+
+
+function creativeSlideFunction1(){
+  $('#creativeSlide1').hide( "slide", { direction: "left"  }, 500 );
+  setTimeout(function() {
+  $('#megaTeamA').remove();
+  $('#megaTeam').append(creativeIn1);
+  $('#creativeSlide2').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#creativeSlide2').show( "slide", { direction: "right" }, 500 );
+}, 502);
+}
+
+function creativeSlideFunction3(){
+  $('#creativeSlide2').hide( "slide", { direction: "left"  }, 500 );
+  setTimeout(function() {
+  $('#megaTeamA').remove();
+  $('#megaTeam').append(creativeIn3);
+  $('#creativeSlide3').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#creativeSlide3').show( "slide", { direction: "right" }, 500 );
+}, 502);
+}
+
+function creativeSlideFunction2(){
+  $('#creativeSlide2').hide( "slide", { direction: "right"  }, 500 );
+  setTimeout(function() {
+  $('#megaTeamA').remove();
+  $('#creativeSlide1').show( "slide", { direction: "left" }, 500 );
+}, 502);
+}
+// *****
+
 // ******pr***
 
 function pr(){
@@ -282,6 +351,73 @@ function advisorySlideFunction2(){
 }
 // *****
 
+// ******contributors***
+
+function contributors(){
+  $('#teamMainSlide').hide( "slide", { direction: "left"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(contributorsIn);
+  $('#megaTeam').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaTeam').show( "slide", { direction: "right" }, 500 );
+}, 502);
+}
+
+function contributorsOut(){
+  $('#megaTeam').hide( "slide", { direction: "right"  }, 500 );
+  setTimeout(function() {
+
+  $('#megaTeam').remove();
+  $('#teamMainSlide').show( "slide", { direction: "left" }, 500 );
+}, 502);
+}
+
+function contributorsOut2(){
+  $('#contributorsSlide3').hide( "slide", { direction: "right"  }, 500 );
+  setTimeout(function() {
+  $('#megaTeamA').remove();
+  $('#megaTeam').append(contributorsIn4);
+  $('#contributorsSlide2').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#contributorsSlide2').show( "slide", { direction: "left" }, 500 );
+}, 502);
+}
+
+
+function contributorsSlideFunction1(){
+  $('#contributorsSlide1').hide( "slide", { direction: "left"  }, 500 );
+  setTimeout(function() {
+  $('#megaTeamA').remove();
+  $('#megaTeam').append(contributorsIn1);
+  $('#contributorsSlide2').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#contributorsSlide2').show( "slide", { direction: "right" }, 500 );
+}, 502);
+}
+
+function contributorsSlideFunction3(){
+  $('#contributorsSlide2').hide( "slide", { direction: "left"  }, 500 );
+  setTimeout(function() {
+  $('#megaTeamA').remove();
+  $('#megaTeam').append(contributorsIn3);
+  $('#contributorsSlide3').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#contributorsSlide3').show( "slide", { direction: "right" }, 500 );
+}, 502);
+}
+
+function contributorsSlideFunction2(){
+  $('#contributorsSlide2').hide( "slide", { direction: "right"  }, 500 );
+  setTimeout(function() {
+  $('#megaTeamA').remove();
+  $('#contributorsSlide1').show( "slide", { direction: "left" }, 500 );
+}, 502);
+}
+// *****
 
 // ***yeong***
 
@@ -1796,6 +1932,1075 @@ function profileOutJeongSeok(){
 }
 // *****
 
+// ***Richard***
+
+function showProfileRichard(){
+ $('#megaTeam').hide( "slide", { direction: "down"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(RichardIn);
+  $('#megaPerson').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaPerson').show( "slide", { direction: "up" }, 500 );
+}, 502);
+}
+
+function showRichard(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(RichardIn);
+  $('#megaPersona1').fadeIn();
+  }, 502);
+}
+
+function showBioRichard(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(RichardBio);
+  $('#megaPersona2').fadeIn();
+  }, 502);
+}
+
+function showQARichard(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(RichardQA);
+  $('#megaPersona3').fadeIn();
+  }, 502);
+}
+
+
+
+function profileOutRichard(){
+  $('#megaPerson').hide( "slide", { direction: "up"  }, 500 );
+  setTimeout(function() {
+  $('#megaPerson').remove();
+  $('#megaTeam').show( "slide", { direction: "down" }, 500 );
+}, 502);
+}
+// *****
+
+// ***Angie***
+
+function showProfileAngie(){
+ $('#megaTeam').hide( "slide", { direction: "down"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(AngieIn);
+  $('#megaPerson').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaPerson').show( "slide", { direction: "up" }, 500 );
+}, 502);
+}
+
+function showAngie(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(AngieIn);
+  $('#megaPersona1').fadeIn();
+  }, 502);
+}
+
+function showBioAngie(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(AngieBio);
+  $('#megaPersona2').fadeIn();
+  }, 502);
+}
+
+function showQAAngie(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(AngieQA);
+  $('#megaPersona3').fadeIn();
+  }, 502);
+}
+
+
+
+function profileOutAngie(){
+  $('#megaPerson').hide( "slide", { direction: "up"  }, 500 );
+  setTimeout(function() {
+  $('#megaPerson').remove();
+  $('#megaTeam').show( "slide", { direction: "down" }, 500 );
+}, 502);
+}
+// *****
+
+// ***HyoBee***
+
+function showProfileHyoBee(){
+ $('#megaTeam').hide( "slide", { direction: "down"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(HyoBeeIn);
+  $('#megaPerson').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaPerson').show( "slide", { direction: "up" }, 500 );
+}, 502);
+}
+
+function showHyoBee(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(HyoBeeIn);
+  $('#megaPersona1').fadeIn();
+  }, 502);
+}
+
+function showBioHyoBee(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(HyoBeeBio);
+  $('#megaPersona2').fadeIn();
+  }, 502);
+}
+
+function showQAHyoBee(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(HyoBeeQA);
+  $('#megaPersona3').fadeIn();
+  }, 502);
+}
+
+
+
+function profileOutHyoBee(){
+  $('#megaPerson').hide( "slide", { direction: "up"  }, 500 );
+  setTimeout(function() {
+  $('#megaPerson').remove();
+  $('#megaTeam').show( "slide", { direction: "down" }, 500 );
+}, 502);
+}
+// *****
+
+// ***Sam***
+
+function showProfileSam(){
+ $('#megaTeam').hide( "slide", { direction: "down"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(SamIn);
+  $('#megaPerson').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaPerson').show( "slide", { direction: "up" }, 500 );
+}, 502);
+}
+
+function showSam(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(SamIn);
+  $('#megaPersona1').fadeIn();
+  }, 502);
+}
+
+function showBioSam(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(SamBio);
+  $('#megaPersona2').fadeIn();
+  }, 502);
+}
+
+function showQASam(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(SamQA);
+  $('#megaPersona3').fadeIn();
+  }, 502);
+}
+
+
+
+function profileOutSam(){
+  $('#megaPerson').hide( "slide", { direction: "up"  }, 500 );
+  setTimeout(function() {
+  $('#megaPerson').remove();
+  $('#megaTeam').show( "slide", { direction: "down" }, 500 );
+}, 502);
+}
+// *****
+
+// ***Bella***
+
+function showProfileBella(){
+ $('#megaTeam').hide( "slide", { direction: "down"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(BellaIn);
+  $('#megaPerson').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaPerson').show( "slide", { direction: "up" }, 500 );
+}, 502);
+}
+
+function showBella(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(BellaIn);
+  $('#megaPersona1').fadeIn();
+  }, 502);
+}
+
+function showBioBella(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(BellaBio);
+  $('#megaPersona2').fadeIn();
+  }, 502);
+}
+
+function showQABella(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(BellaQA);
+  $('#megaPersona3').fadeIn();
+  }, 502);
+}
+
+
+
+function profileOutBella(){
+  $('#megaPerson').hide( "slide", { direction: "up"  }, 500 );
+  setTimeout(function() {
+  $('#megaPerson').remove();
+  $('#megaTeam').show( "slide", { direction: "down" }, 500 );
+}, 502);
+}
+// *****
+
+//****EunSung***
+
+function showProfileEunSung(){
+ $('#megaTeam').hide( "slide", { direction: "down"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(EunSungIn);
+  $('#megaPerson').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaPerson').show( "slide", { direction: "up" }, 500 );
+}, 502);
+}
+
+function showEunSung(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(EunSungIn);
+  $('#megaPersona1').fadeIn();
+  }, 502);
+}
+
+function showBioEunSung(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(EunSungBio);
+  $('#megaPersona2').fadeIn();
+  }, 502);
+}
+
+function showQAEunSung(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(EunSungQA);
+  $('#megaPersona3').fadeIn();
+  }, 502);
+}
+
+
+
+function profileOutEunSung(){
+  $('#megaPerson').hide( "slide", { direction: "up"  }, 500 );
+  setTimeout(function() {
+  $('#megaPerson').remove();
+  $('#megaTeam').show( "slide", { direction: "down" }, 500 );
+}, 502);
+}
+// *****
+
+// ***Seung***
+
+function showProfileSeung(){
+ $('#megaTeam').hide( "slide", { direction: "down"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(SeungIn);
+  $('#megaPerson').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaPerson').show( "slide", { direction: "up" }, 500 );
+}, 502);
+}
+
+function showSeung(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(SeungIn);
+  $('#megaPersona1').fadeIn();
+  }, 502);
+}
+
+function showBioSeung(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(SeungBio);
+  $('#megaPersona2').fadeIn();
+  }, 502);
+}
+
+function showQASeung(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(SeungQA);
+  $('#megaPersona3').fadeIn();
+  }, 502);
+}
+
+
+
+function profileOutSeung(){
+  $('#megaPerson').hide( "slide", { direction: "up"  }, 500 );
+  setTimeout(function() {
+  $('#megaPerson').remove();
+  $('#megaTeam').show( "slide", { direction: "down" }, 500 );
+}, 502);
+}
+// *****
+
+// ***Whitney***
+
+function showProfileWhitney(){
+ $('#megaTeam').hide( "slide", { direction: "down"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(WhitneyIn);
+  $('#megaPerson').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaPerson').show( "slide", { direction: "up" }, 500 );
+}, 502);
+}
+
+function showWhitney(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(WhitneyIn);
+  $('#megaPersona1').fadeIn();
+  }, 502);
+}
+
+function showBioWhitney(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(WhitneyBio);
+  $('#megaPersona2').fadeIn();
+  }, 502);
+}
+
+function showQAWhitney(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(WhitneyQA);
+  $('#megaPersona3').fadeIn();
+  }, 502);
+}
+
+
+
+function profileOutWhitney(){
+  $('#megaPerson').hide( "slide", { direction: "up"  }, 500 );
+  setTimeout(function() {
+  $('#megaPerson').remove();
+  $('#megaTeam').show( "slide", { direction: "down" }, 500 );
+}, 502);
+}
+// *****
+// ***Joslyn***
+
+function showProfileJoslyn(){
+ $('#megaTeam').hide( "slide", { direction: "down"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(JoslynIn);
+  $('#megaPerson').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaPerson').show( "slide", { direction: "up" }, 500 );
+}, 502);
+}
+
+function showJoslyn(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(JoslynIn);
+  $('#megaPersona1').fadeIn();
+  }, 502);
+}
+
+function showBioJoslyn(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(JoslynBio);
+  $('#megaPersona2').fadeIn();
+  }, 502);
+}
+
+function showQAJoslyn(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(JoslynQA);
+  $('#megaPersona3').fadeIn();
+  }, 502);
+}
+
+
+
+function profileOutJoslyn(){
+  $('#megaPerson').hide( "slide", { direction: "up"  }, 500 );
+  setTimeout(function() {
+  $('#megaPerson').remove();
+  $('#megaTeam').show( "slide", { direction: "down" }, 500 );
+}, 502);
+}
+// *****
+
+// ***Andrew***
+
+function showProfileAndrew(){
+ $('#megaTeam').hide( "slide", { direction: "down"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(AndrewIn);
+  $('#megaPerson').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaPerson').show( "slide", { direction: "up" }, 500 );
+}, 502);
+}
+
+function showAndrew(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(AndrewIn);
+  $('#megaPersona1').fadeIn();
+  }, 502);
+}
+
+function showBioAndrew(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(AndrewBio);
+  $('#megaPersona2').fadeIn();
+  }, 502);
+}
+
+function showQAAndrew(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(AndrewQA);
+  $('#megaPersona3').fadeIn();
+  }, 502);
+}
+
+
+
+function profileOutAndrew(){
+  $('#megaPerson').hide( "slide", { direction: "up"  }, 500 );
+  setTimeout(function() {
+  $('#megaPerson').remove();
+  $('#megaTeam').show( "slide", { direction: "down" }, 500 );
+}, 502);
+}
+// *****
+
+// ***Fei***
+
+function showProfileFei(){
+ $('#megaTeam').hide( "slide", { direction: "down"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(FeiIn);
+  $('#megaPerson').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaPerson').show( "slide", { direction: "up" }, 500 );
+}, 502);
+}
+
+function showFei(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(FeiIn);
+  $('#megaPersona1').fadeIn();
+  }, 502);
+}
+
+function showBioFei(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(FeiBio);
+  $('#megaPersona2').fadeIn();
+  }, 502);
+}
+
+function showQAFei(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(FeiQA);
+  $('#megaPersona3').fadeIn();
+  }, 502);
+}
+
+
+
+function profileOutFei(){
+  $('#megaPerson').hide( "slide", { direction: "up"  }, 500 );
+  setTimeout(function() {
+  $('#megaPerson').remove();
+  $('#megaTeam').show( "slide", { direction: "down" }, 500 );
+}, 502);
+}
+// *****
+
+// ***Yoon***
+
+function showProfileYoon(){
+ $('#megaTeam').hide( "slide", { direction: "down"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(YoonIn);
+  $('#megaPerson').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaPerson').show( "slide", { direction: "up" }, 500 );
+}, 502);
+}
+
+function showYoon(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(YoonIn);
+  $('#megaPersona1').fadeIn();
+  }, 502);
+}
+
+function showBioYoon(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(YoonBio);
+  $('#megaPersona2').fadeIn();
+  }, 502);
+}
+
+function showQAYoon(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(YoonQA);
+  $('#megaPersona3').fadeIn();
+  }, 502);
+}
+
+
+
+function profileOutYoon(){
+  $('#megaPerson').hide( "slide", { direction: "up"  }, 500 );
+  setTimeout(function() {
+  $('#megaPerson').remove();
+  $('#megaTeam').show( "slide", { direction: "down" }, 500 );
+}, 502);
+}
+// *****
+
+// ***Ji***
+
+function showProfileJi(){
+ $('#megaTeam').hide( "slide", { direction: "down"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(JiIn);
+  $('#megaPerson').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaPerson').show( "slide", { direction: "up" }, 500 );
+}, 502);
+}
+
+function showJi(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(JiIn);
+  $('#megaPersona1').fadeIn();
+  }, 502);
+}
+
+function showBioJi(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(JiBio);
+  $('#megaPersona2').fadeIn();
+  }, 502);
+}
+
+function showQAJi(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(JiQA);
+  $('#megaPersona3').fadeIn();
+  }, 502);
+}
+
+
+
+function profileOutJi(){
+  $('#megaPerson').hide( "slide", { direction: "up"  }, 500 );
+  setTimeout(function() {
+  $('#megaPerson').remove();
+  $('#megaTeam').show( "slide", { direction: "down" }, 500 );
+}, 502);
+}
+// *****
+
+// ***Jieun***
+
+function showProfileJieun(){
+ $('#megaTeam').hide( "slide", { direction: "down"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(JieunIn);
+  $('#megaPerson').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaPerson').show( "slide", { direction: "up" }, 500 );
+}, 502);
+}
+
+function showJieun(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(JieunIn);
+  $('#megaPersona1').fadeIn();
+  }, 502);
+}
+
+function showBioJieun(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(JieunBio);
+  $('#megaPersona2').fadeIn();
+  }, 502);
+}
+
+function showQAJieun(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(JieunQA);
+  $('#megaPersona3').fadeIn();
+  }, 502);
+}
+
+
+
+function profileOutJieun(){
+  $('#megaPerson').hide( "slide", { direction: "up"  }, 500 );
+  setTimeout(function() {
+  $('#megaPerson').remove();
+  $('#megaTeam').show( "slide", { direction: "down" }, 500 );
+}, 502);
+}
+// *****
+
+// ***Grace***
+
+function showProfileGrace(){
+ $('#megaTeam').hide( "slide", { direction: "down"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(GraceIn);
+  $('#megaPerson').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaPerson').show( "slide", { direction: "up" }, 500 );
+}, 502);
+}
+
+function showGrace(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(GraceIn);
+  $('#megaPersona1').fadeIn();
+  }, 502);
+}
+
+function showBioGrace(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(GraceBio);
+  $('#megaPersona2').fadeIn();
+  }, 502);
+}
+
+function showQAGrace(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(GraceQA);
+  $('#megaPersona3').fadeIn();
+  }, 502);
+}
+
+
+
+function profileOutGrace(){
+  $('#megaPerson').hide( "slide", { direction: "up"  }, 500 );
+  setTimeout(function() {
+  $('#megaPerson').remove();
+  $('#megaTeam').show( "slide", { direction: "down" }, 500 );
+}, 502);
+}
+// *****
+
+// ***Jong***
+
+function showProfileJong(){
+ $('#megaTeam').hide( "slide", { direction: "down"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(JongIn);
+  $('#megaPerson').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaPerson').show( "slide", { direction: "up" }, 500 );
+}, 502);
+}
+
+function showJong(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(JongIn);
+  $('#megaPersona1').fadeIn();
+  }, 502);
+}
+
+function showBioJong(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(JongBio);
+  $('#megaPersona2').fadeIn();
+  }, 502);
+}
+
+function showQAJong(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(JongQA);
+  $('#megaPersona3').fadeIn();
+  }, 502);
+}
+
+
+
+function profileOutJong(){
+  $('#megaPerson').hide( "slide", { direction: "up"  }, 500 );
+  setTimeout(function() {
+  $('#megaPerson').remove();
+  $('#megaTeam').show( "slide", { direction: "down" }, 500 );
+}, 502);
+}
+// *****
+
+// ***Jai***
+
+function showProfileJai(){
+ $('#megaTeam').hide( "slide", { direction: "down"  }, 500 );
+  setTimeout(function() {
+  $('#teamContent').append(JaiIn);
+  $('#megaPerson').hide();
+  }, 501);
+  setTimeout(function() {
+  $('#megaPerson').show( "slide", { direction: "up" }, 500 );
+}, 502);
+}
+
+function showJai(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(JaiIn);
+  $('#megaPersona1').fadeIn();
+  }, 502);
+}
+
+function showBioJai(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(JaiBio);
+  $('#megaPersona2').fadeIn();
+  }, 502);
+}
+
+function showQAJai(){
+  $('#megaPersona1').fadeOut();
+  $('#megaPersona2').fadeOut();
+  $('#megaPersona3').fadeOut();
+  setTimeout(function() {
+  $('#megaPersona1').remove();
+  $('#megaPersona2').remove();
+  $('#megaPersona3').remove();
+  $('#megaPerson').append(JaiQA);
+  $('#megaPersona3').fadeIn();
+  }, 502);
+}
+
+
+
+function profileOutJai(){
+  $('#megaPerson').hide( "slide", { direction: "up"  }, 500 );
+  setTimeout(function() {
+  $('#megaPerson').remove();
+  $('#megaTeam').show( "slide", { direction: "down" }, 500 );
+}, 502);
+}
+// *****
 // *****
 
 
@@ -1883,123 +3088,62 @@ var AmyQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>AMY YOO   |   유채�
 // ***
 
 
+
 // ***creative**
-var creativeIn="<div id='teamContent' class='animated slideInRight' onclick='closeLogin();return false;'><p class='marquee'>“The desire to create is one of the deepest yearnings of the human soul.” Dieter F. Uchtdorf</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='creativeTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='creative1();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>As the face of MOI’M, the Creative Team shapes our brand image.<br>The Creative Team creates not only all promotional materials for MOI’M, but also acts as the nerve center for every artistic aspect of our work.<br>It ensures that our design coheres with our mission to inspire through creative networking.</h5><div class='memeberOne'><div id='creativeMemberOnePic' onclick='showProfileRichard();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberTwoPic' onclick='showProfileAngie();return false;'></div></div><div class='memeberThree'><div id='creativeMemberThreePic' onclick='showProfileHyoBee();return false;'></div></div></div>";
-var creativeIn1="<div id='teamContent' class='animated slideInRight' onclick='closeLogin();return false;'><p class='marquee'>“The desire to create is one of the deepest yearnings of the human soul.” Dieter F. Uchtdorf</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='creativeRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='creativeTeamOut1();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='creative2();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>As the face of MOI’M, the Creative Team shapes our brand image.<br>The Creative Team creates not only all promotional materials for MOI’M, but also acts as the nerve center for every artistic aspect of our work.<br>It ensures that our design coheres with our mission to inspire through creative networking.</h5><div class='memeberOne'><div id='creativeMemberFourPic' onclick='showProfileSam();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberFivePic' onclick='showProfileBella();return false;'></div></div><div class='memeberThree'><div id='creativeMemberSixPic' onclick='showProfileEunSung();return false;'></div></div></div>";
-var creativeIn1a="<div id='teamContent' class='animated slideInRight' onclick='closeLogin();return false;'><p class='marquee'>“The desire to create is one of the deepest yearnings of the human soul.” Dieter F. Uchtdorf</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='creativeRewind1();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='creativeTeamOut2();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>As the face of MOI’M, the Creative Team shapes our brand image.<br>The Creative Team creates not only all promotional materials for MOI’M, but also acts as the nerve center for every artistic aspect of our work.<br>It ensures that our design coheres with our mission to inspire through creative networking.</h5><div class='memeberOne'><div id='creativeMemberSevenPic' onclick='showProfileSeung();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberEightPic' onclick='showProfileWhitney();return false;'></div></div></div>";
+var creativeIn="<div id='megaTeam'><p class='marquee'>“The desire to create is one of the deepest yearnings of the human soul.” Dieter F. Uchtdorf</p><h2 id='leaderHeading'>CREATIVE TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>As the face of MOI’M, the Creative Team shapes our brand image.<br>The Creative Team creates not only all promotional materials for MOI’M, but also acts as the nerve center for every artistic aspect of our work.<br>It ensures that our design coheres with our mission to inspire through creative networking.</h5><div id='creativeSlide1'><img id='backArrow' src = '/assets/arrowBack.png' onclick='creativeOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='creativeSlideFunction1();return false;'><div class='memeberOne'><div id='creativeMemberOnePic' onclick='showProfileRichard();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberTwoPic' onclick='showProfileAngie();return false;'></div></div><div class='memeberThree'><div id='creativeMemberThreePic' onclick='showProfileHyoBee();return false;'></div></div></div></div>";
+var creativeIn1="<div id='megaTeamA'><div id='creativeSlide2'><div id='rewindArrow' src = '/assets/rewind.png' onclick='creativeRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='creativeSlideFunction2();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='creativeSlideFunction3()();return false;'><div class='memeberOne'><div id='creativeMemberFourPic' onclick='showProfileSam();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberFivePic' onclick='showProfileBella();return false;'></div></div><div class='memeberThree'><div id='creativeMemberSixPic' onclick='showProfileEunSung();return false;'></div></div></div></div>";
+var creativeIn2="<div id='creativeSlide1'><img id='backArrow' src = '/assets/arrowBack.png' onclick='creativeOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='creativeSlideFunction1();return false;'><div class='memeberOne'><div id='creativeMemberOnePic' onclick='showProfileRichard();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberTwoPic' onclick='showProfileAngie();return false;'></div></div><div class='memeberThree'><div id='creativeMemberThreePic' onclick='showProfileHyoBee();return false;'></div></div></div>";
 
-var creativeIn2="<div id='teamContent' class='animated slideInLeft' onclick='closeLogin();return false;'><p class='marquee'>“The desire to create is one of the deepest yearnings of the human soul.” Dieter F. Uchtdorf</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='creativeTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='creative1();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>As the face of MOI’M, the Creative Team shapes our brand image.<br>The Creative Team creates not only all promotional materials for MOI’M, but also acts as the nerve center for every artistic aspect of our work.<br>It ensures that our design coheres with our mission to inspire through creative networking.</h5><div class='memeberOne'><div id='creativeMemberOnePic' onclick='showProfileRichard();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberTwoPic' onclick='showProfileAngie();return false;'></div></div><div class='memeberThree'><div id='creativeMemberThreePic' onclick='showProfileHyoBee();return false;'></div></div></div>";
-var creativeIn3="<div id='teamContent' class='animated slideInLeft' onclick='closeLogin();return false;'><p class='marquee'>“The desire to create is one of the deepest yearnings of the human soul.” Dieter F. Uchtdorf</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='creativeRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='creativeTeamOut1();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='creative2();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>As the face of MOI’M, the Creative Team shapes our brand image.<br>The Creative Team creates not only all promotional materials for MOI’M, but also acts as the nerve center for every artistic aspect of our work.<br>It ensures that our design coheres with our mission to inspire through creative networking.</h5><div class='memeberOne'><div id='creativeMemberFourPic' onclick='showProfileSam();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberFivePic' onclick='showProfileBella();return false;'></div></div><div class='memeberThree'><div id='creativeMemberSixPic' onclick='showProfileEunSung();return false;'></div></div></div>";
-
-var creativeOut="<div id='teamContent' class='animated slideOutRight' onclick='closeLogin();return false;'><p class='marquee'>“The desire to create is one of the deepest yearnings of the human soul.” Dieter F. Uchtdorf</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='creativeTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='creative1();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>As the face of MOI’M, the Creative Team shapes our brand image.<br>The Creative Team creates not only all promotional materials for MOI’M, but also acts as the nerve center for every artistic aspect of our work.<br>It ensures that our design coheres with our mission to inspire through creative networking.</h5><div class='memeberOne'><div id='creativeMemberOnePic'></div></div><div class='memeberTwo'><div id='creativeMemberTwoPic'></div></div><div class='memeberThree'><div id='creativeMemberThreePic'></div></div></div>";
-var creativeOut1="<div id='teamContent' class='animated slideOutLeft' onclick='closeLogin();return false;'><p class='marquee'>“The desire to create is one of the deepest yearnings of the human soul.” Dieter F. Uchtdorf</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='creativeTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='creative1();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>As the face of MOI’M, the Creative Team shapes our brand image.<br>The Creative Team creates not only all promotional materials for MOI’M, but also acts as the nerve center for every artistic aspect of our work.<br>It ensures that our design coheres with our mission to inspire through creative networking.</h5><div class='memeberOne'><div id='creativeMemberOnePic'></div></div><div class='memeberTwo'><div id='creativeMemberTwoPic'></div></div><div class='memeberThree'><div id='creativeMemberThreePic'></div></div></div>";
-var creativeOut2="<div id='teamContent' class='animated slideOutRight' onclick='closeLogin();return false;'><p class='marquee'>“The desire to create is one of the deepest yearnings of the human soul.” Dieter F. Uchtdorf</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='creativeRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='creativeTeamOut1();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='creative1();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>As the face of MOI’M, the Creative Team shapes our brand image.<br>The Creative Team creates not only all promotional materials for MOI’M, but also acts as the nerve center for every artistic aspect of our work.<br>It ensures that our design coheres with our mission to inspire through creative networking.</h5><div class='memeberOne'><div id='creativeMemberFourPic'></div></div><div class='memeberTwo'><div id='creativeMemberFivePic'></div></div><div class='memeberThree'><div id='creativeMemberSixPic'></div></div></div>";
-var creativeOut3="<div id='teamContent' class='animated slideOutLeft' onclick='closeLogin();return false;'><p class='marquee'>“The desire to create is one of the deepest yearnings of the human soul.” Dieter F. Uchtdorf</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='creativeRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='creativeTeamOut1();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='creative1();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>As the face of MOI’M, the Creative Team shapes our brand image.<br>The Creative Team creates not only all promotional materials for MOI’M, but also acts as the nerve center for every artistic aspect of our work.<br>It ensures that our design coheres with our mission to inspire through creative networking.</h5><div class='memeberOne'><div id='creativeMemberFourPic'></div></div><div class='memeberTwo'><div id='creativeMemberFivePic'></div></div><div class='memeberThree'><div id='creativeMemberSixPic'></div></div></div>";
-var creativeOut4="<div id='teamContent' class='animated slideOutRight' onclick='closeLogin();return false;'><p class='marquee'>“The desire to create is one of the deepest yearnings of the human soul.” Dieter F. Uchtdorf</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='creativeRewind1();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='creativeTeamOut1();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>As the face of MOI’M, the Creative Team shapes our brand image.<br>The Creative Team creates not only all promotional materials for MOI’M, but also acts as the nerve center for every artistic aspect of our work.<br>It ensures that our design coheres with our mission to inspire through creative networking.</h5><div class='memeberOne'><div id='creativeMemberSevenPic'></div></div><div class='memeberTwo'><div id='creativeMemberEightPic'></div></div></div>";
-var creativeOut5="<div id='teamContent' class='animated slideOutLeft' onclick='closeLogin();return false;'><p class='marquee'>“The desire to create is one of the deepest yearnings of the human soul.” Dieter F. Uchtdorf</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='creativeRewind1();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='creativeTeamOut1();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>As the face of MOI’M, the Creative Team shapes our brand image.<br>The Creative Team creates not only all promotional materials for MOI’M, but also acts as the nerve center for every artistic aspect of our work.<br>It ensures that our design coheres with our mission to inspire through creative networking.</h5><div class='memeberOne'><div id='creativeMemberSevenPic'></div></div><div class='memeberTwo'><div id='creativeMemberEightPic'></div></div></div>";
-
-
-var creativeOutForProfile="<div id='teamContent' class='animated slideOutDown' onclick='closeLogin();return false;'><p class='marquee'>“The desire to create is one of the deepest yearnings of the human soul.” Dieter F. Uchtdorf</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='creativeTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='creative1();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>As the face of MOI’M, the Creative Team shapes our brand image.<br>The Creative Team creates not only all promotional materials for MOI’M, but also acts as the nerve center for every artistic aspect of our work.<br>It ensures that our design coheres with our mission to inspire through creative networking.</h5><div class='memeberOne'><div id='creativeMemberOnePic'></div></div><div class='memeberTwo'><div id='creativeMemberTwoPic'></div></div><div class='memeberThree'><div id='creativeMemberThreePic'></div></div></div>";
-var creativeInFromProfile="<div id='teamContent' class='animated slideInUp' onclick='closeLogin();return false;'><p class='marquee'>“The desire to create is one of the deepest yearnings of the human soul.” Dieter F. Uchtdorf</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='creativeTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='creative1();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>As the face of MOI’M, the Creative Team shapes our brand image.<br>The Creative Team creates not only all promotional materials for MOI’M, but also acts as the nerve center for every artistic aspect of our work.<br>It ensures that our design coheres with our mission to inspire through creative networking.</h5><div class='memeberOne'><div id='creativeMemberOnePic' onclick='showProfileRichard();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberTwoPic' onclick='showProfileAngie();return false;'></div></div><div class='memeberThree'><div id='creativeMemberThreePic' onclick='showProfileHyoBee();return false;'></div></div></div>";
-var creative1OutForProfile="<div id='teamContent' class='animated slideOutDown' onclick='closeLogin();return false;'><p class='marquee'>“The desire to create is one of the deepest yearnings of the human soul.” Dieter F. Uchtdorf</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='creativeRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='creativeTeamOut1();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='creative2();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>As the face of MOI’M, the Creative Team shapes our brand image.<br>The Creative Team creates not only all promotional materials for MOI’M, but also acts as the nerve center for every artistic aspect of our work.<br>It ensures that our design coheres with our mission to inspire through creative networking.</h5><div class='memeberOne'><div id='creativeMemberFourPic' onclick='showProfileSam();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberFivePic' onclick='showProfileBella();return false;'></div></div><div class='memeberThree'><div id='creativeMemberSixPic' onclick='showProfileEunSung();return false;'></div></div></div>";
-var creative1InFromProfile="<div id='teamContent' class='animated slideInUp' onclick='closeLogin();return false;'><p class='marquee'>“The desire to create is one of the deepest yearnings of the human soul.” Dieter F. Uchtdorf</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='creativeRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='creativeTeamOut1();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='creative2();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>As the face of MOI’M, the Creative Team shapes our brand image.<br>The Creative Team creates not only all promotional materials for MOI’M, but also acts as the nerve center for every artistic aspect of our work.<br>It ensures that our design coheres with our mission to inspire through creative networking.</h5><div class='memeberOne'><div id='creativeMemberFourPic' onclick='showProfileSam();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberFivePic' onclick='showProfileBella();return false;'></div></div><div class='memeberThree'><div id='creativeMemberSixPic' onclick='showProfileEunSung();return false;'></div></div></div>";
-var creative2OutForProfile="<div id='teamContent' class='animated slideOutDown' onclick='closeLogin();return false;'><p class='marquee'>“The desire to create is one of the deepest yearnings of the human soul.” Dieter F. Uchtdorf</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='creativeRewind1();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='creativeTeamOut2();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>As the face of MOI’M, the Creative Team shapes our brand image.<br>The Creative Team creates not only all promotional materials for MOI’M, but also acts as the nerve center for every artistic aspect of our work.<br>It ensures that our design coheres with our mission to inspire through creative networking.</h5><div class='memeberOne'><div id='creativeMemberSevenPic' onclick='showProfileSeung();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberEightPic' onclick='showProfileWhitney();return false;'></div></div></div>";
-var creative2InFromProfile="<div id='teamContent' class='animated slideInUp' onclick='closeLogin();return false;'><p class='marquee'>“The desire to create is one of the deepest yearnings of the human soul.” Dieter F. Uchtdorf</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='creativeRewind1();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='creativeTeamOut2();return false;'><h2 id='leaderHeading'>CREATIVE TEAM</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>As the face of MOI’M, the Creative Team shapes our brand image.<br>The Creative Team creates not only all promotional materials for MOI’M, but also acts as the nerve center for every artistic aspect of our work.<br>It ensures that our design coheres with our mission to inspire through creative networking.</h5><div class='memeberOne'><div id='creativeMemberSevenPic' onclick='showProfileSeung();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberEightPic' onclick='showProfileWhitney();return false;'></div></div></div>";
+var creativeIn3="<div id='megaTeamA'><div id='creativeSlide3'><div id='rewindArrow' src = '/assets/rewind.png' onclick='creativeRewind1();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='creativeOut2();return false;'><div class='memeberOne'><div id='creativeMemberSevenPic' onclick='showProfileSeung();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberEightPic' onclick='showProfileWhitney();return false;'></div></div></div>";
+var creativeIn4="<div id='megaTeamA'><div id='creativeSlide2'><div id='rewindArrow' src = '/assets/rewind.png' onclick='creativeRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='creativeSlideFunction2();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='creativeSlideFunction3();return false;'><div class='memeberOne'><div id='creativeMemberFourPic' onclick='showProfileSam();return false;'></div></div><div class='memeberTwo'><div id='creativeMemberFivePic' onclick='showProfileBella();return false;'></div></div><div class='memeberThree'><div id='creativeMemberSixPic' onclick='showProfileEunSung();return false;'></div></div></div></div></div>";
+// *****
 
 // ***Richard
-var RichardIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRichard();return false;'><img id='profilePic' src = '/assets/RichardShimBig.png'><h3 id='profileHead'>RICHARD SHIM   |   심민중</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, CREATIVE<br>Industry: ARCHITECTURE<br>Email: minjoong@moimnewyork.com<br><br>MOTTO: Take the slower but more rewarding path.<br>모토: 조금 느리더라도 보람있는 길을 택하라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioRichard();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQARichard();return false;'>FUN FACTS</h4></div>";
-var RichardOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRichard();return false;'><img id='profilePic' src = '/assets/RichardShimBig.png'><h3 id='profileHead'>RICHARD SHIM   |   심민중</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, CREATIVE<br>Industry: ARCHITECTURE<br>Email: minjoong@moimnewyork.com<br><br>MOTTO: Take the slower but more rewarding path.<br>모토: 조금 느리더라도 보람있는 길을 택하라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioRichard();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQARichard();return false;'>FUN FACTS</h4></div>";
-var RichardFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRichard();return false;'><img id='profilePic' src = '/assets/RichardShimBig.png'><h3 id='profileHead'>RICHARD SHIM   |   심민중</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, CREATIVE<br>Industry: ARCHITECTURE<br>Email: minjoong@moimnewyork.com<br><br>MOTTO: Take the slower but more rewarding path.<br>모토: 조금 느리더라도 보람있는 길을 택하라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioRichard();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQARichard();return false;'>FUN FACTS</h4></div>";
-
-var RichardBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRichardBio();return false;'><h3 id='profileHeadBio'>RICHARD SHIM   |   심민중</h3><p id='profileBio'>Richard is currently an architectural designer at Ewingcole. He graduated from Trinity College majoring in Studio Art and Architectural Studies. He continued to create<br> art during his fellowship at Trinity, focusing on metal sculpting before studying architecture at the University of Pennsylvania. While in graduate school, Richard served<br> as president for the Penn Korean Graduate Student Association and Korean Architecture Student Association. Richard has also studied abroad in Copenhagen, Denmark<br> for architecture. Aside from designing buildings, Richard also enjoys traveling, singing, and DJ’ing.<br><br>현재 EwingCole 건축사무소에서 건축가로 근무중이다. 2010년 트리니티 대학에서 미술을 전공하면서 조각 연구장학생으로 1년간 트리니티에서 연구하기도 하였다.<br>2014년 펜실베니아대학교 펜디자인 대학원 건축석사학위를 취득하였고, 재학중에 대학원 한인 학생회, 펜디자인 한인학생회 회장으로 활동하였다. 대학시절 덴마크 코펜하겐에서 건축 공부를 한 경험도 있다.</p><h4 id='mainButton' onclick='showRichard();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQARichard();return false;'>FUN FACTS</h4></div>";
-var RichardBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRichard();return false;'><h3 id='profileHeadBio'>RICHARD SHIM   |   심민중</h3><p id='profileBio'>Richard is currently an architectural designer at Ewingcole. He graduated from Trinity College majoring in Studio Art and Architectural Studies. He continued to create<br> art during his fellowship at Trinity, focusing on metal sculpting before studying architecture at the University of Pennsylvania. While in graduate school, Richard served<br> as president for the Penn Korean Graduate Student Association and Korean Architecture Student Association. Richard has also studied abroad in Copenhagen, Denmark<br> for architecture. Aside from designing buildings, Richard also enjoys traveling, singing, and DJ’ing.<br><br>현재 EwingCole 건축사무소에서 건축가로 근무중이다. 2010년 트리니티 대학에서 미술을 전공하면서 조각 연구장학생으로 1년간 트리니티에서 연구하기도 하였다.<br>2014년 펜실베니아대학교 펜디자인 대학원 건축석사학위를 취득하였고, 재학중에 대학원 한인 학생회, 펜디자인 한인학생회 회장으로 활동하였다. 대학시절 덴마크 코펜하겐에서 건축 공부를 한 경험도 있다.</p><h4 id='mainButton' onclick='showRichard();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQARichard();return false;'>FUN FACTS</h4></div>";
-
-var RichardQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRichardQA();return false;'><h3 id='profileHeadBio'>RICHARD SHIM   |   심민중</h3><p id='profileQuestionsShort1a'><span id='question'>Q: Dream Vacation?</span><br>A: Rome, Italy<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Cedar Rapids because it is a calm, funny and down-to-earth American<br> comedy.<br><br><span id='question'>Q: Perfect Day?</span><br>A: Sipping on an espresso in front of the San Quattro Fontane in Rome.<br><br><span id='question'>Q: Inspiration?</span><br>A: Simple people who work hard every day</p><p id='profileQuestionsShort2'><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 로마<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 시더 래피즈. 조금 유치하지만 미국적이고 차분한 코메디 영화.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 로마의 산 카를로 알레 콰트로 폰타네 성당 앞에서 커피 한잔.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 매일 열심히 일하는 일반인들.</p><h4 id='mainButton' onclick='showRichard();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioRichard();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
-var RichardQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRichard();return false;'><h3 id='profileHeadBio'>RICHARD SHIM   |   심민중</h3><p id='profileQuestionsShort1a'><span id='question'>Q: Dream Vacation?</span><br>A: Rome, Italy<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Cedar Rapids because it is a calm, funny and down-to-earth American<br> comedy.<br><br><span id='question'>Q: Perfect Day?</span><br>A: Sipping on an espresso in front of the San Quattro Fontane in Rome.<br><br><span id='question'>Q: Inspiration?</span><br>A: Simple people who work hard every day</p><p id='profileQuestionsShort2'><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 로마<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 시더 래피즈. 조금 유치하지만 미국적이고 차분한 코메디 영화.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 로마의 산 카를로 알레 콰트로 폰타네 성당 앞에서 커피 한잔.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 매일 열심히 일하는 일반인들.</p><h4 id='mainButton' onclick='showRichard();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioRichard();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var RichardIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutRichard();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/RichardShimBig.png'><h3 id='profileHead'>RICHARD SHIM   |   심민중</h3><h5 id='profileStat'>Title in MOI’M: DIRECTOR, CREATIVE<br>Industry: ARCHITECTURE<br>Email: minjoong@moimnewyork.com<br><br>MOTTO: Take the slower but more rewarding path.<br>모토: 조금 느리더라도 보람있는 길을 택하라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioRichard();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQARichard();return false;'>FUN FACTS</h4></div></div></div>";
+var RichardBio ="<div id='megaPersona2'><h3 id='profileHeadBio'>RICHARD SHIM   |   심민중</h3><p id='profileBio'>Richard is currently an architectural designer at Ewingcole. He graduated from Trinity College majoring in Studio Art and Architectural Studies. He continued to create<br> art during his fellowship at Trinity, focusing on metal sculpting before studying architecture at the University of Pennsylvania. While in graduate school, Richard served<br> as president for the Penn Korean Graduate Student Association and Korean Architecture Student Association. Richard has also studied abroad in Copenhagen, Denmark<br> for architecture. Aside from designing buildings, Richard also enjoys traveling, singing, and DJ’ing.<br><br>현재 EwingCole 건축사무소에서 건축가로 근무중이다. 2010년 트리니티 대학에서 미술을 전공하면서 조각 연구장학생으로 1년간 트리니티에서 연구하기도 하였다.<br>2014년 펜실베니아대학교 펜디자인 대학원 건축석사학위를 취득하였고, 재학중에 대학원 한인 학생회, 펜디자인 한인학생회 회장으로 활동하였다. 대학시절 덴마크 코펜하겐에서 건축 공부를 한 경험도 있다.</p><h4 id='mainButton' onclick='showRichard();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQARichard();return false;'>FUN FACTS</h4></div>";
+var RichardQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>RICHARD SHIM   |   심민중</h3><p id='profileQuestionsShort1a'><span id='question'>Q: Dream Vacation?</span><br>A: Rome, Italy<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Cedar Rapids because it is a calm, funny and down-to-earth American<br> comedy.<br><br><span id='question'>Q: Perfect Day?</span><br>A: Sipping on an espresso in front of the San Quattro Fontane in Rome.<br><br><span id='question'>Q: Inspiration?</span><br>A: Simple people who work hard every day</p><p id='profileQuestionsShort2'><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 로마<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 시더 래피즈. 조금 유치하지만 미국적이고 차분한 코메디 영화.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 로마의 산 카를로 알레 콰트로 폰타네 성당 앞에서 커피 한잔.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 매일 열심히 일하는 일반인들.</p><h4 id='mainButton' onclick='showRichard();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioRichard();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ****
 
 // ***Angie
-var AngieIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAngie();return false;'><img id='profilePic' src = '/assets/AngieHongBig.png'><h3 id='profileHead'>ANGIE HONG   |   홍은지</h3><h5 id='profileStat'>Title in MOI’M: DESIGNER<br>Industry: ARCHITECTURE & GRAPHIC DESIGN<br><br>MOTTO: When life doesn’t go right, go left.<br>모토: 막힌 길은 돌아가라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioAngie();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAAngie();return false;'>FUN FACTS</h4></div>";
-var AngieOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAngie();return false;'><img id='profilePic' src = '/assets/AngieHongBig.png'><h3 id='profileHead'>ANGIE HONG   |   홍은지</h3><h5 id='profileStat'>Title in MOI’M: DESIGNER<br>Industry: ARCHITECTURE & GRAPHIC DESIGN<br><br>MOTTO: When life doesn’t go right, go left.<br>모토: 막힌 길은 돌아가라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioAngie();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAAngie();return false;'>FUN FACTS</h4></div>";
-var AngieFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAngie();return false;'><img id='profilePic' src = '/assets/AngieHongBig.png'><h3 id='profileHead'>ANGIE HONG   |   홍은지</h3><h5 id='profileStat'>Title in MOI’M: DESIGNER<br>Industry: ARCHITECTURE & GRAPHIC DESIGN<br><br>MOTTO: When life doesn’t go right, go left.<br>모토: 막힌 길은 돌아가라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioAngie();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAAngie();return false;'>FUN FACTS</h4></div>";
-
-var AngieBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAngieBio();return false;'><h3 id='profileHeadBio'>ANGIE HONG   |   홍은지</h3><p id='profileBio'>Angie Hong graduated from the University of Pennsylvania, PennDesign in 2015 and currently works as a Junior Architect in New York.<br>Angie received her B.S. in Management from SUNY Binghamton, with a minor in Fine Arts. She loves traveling and has many working experiences in different countries.<br>Although her background is architecture, she loves every design-related field, such as furniture design, interior design, product design, and fashion design.<br><br>2015년 펜실베니아 대학교 건축과 대학원을 졸업. 현재 뉴욕에서 Junior Architect로 근무중. 학부는 뉴욕주립대학교에서 비지니스 전공 & 미술 부전공.<br>여행을 좋아해서 학부와 대학원시절 다양한 나라에서 인턴 경험. 건축뿐만 아니라 가구 디자인, 인테리어 디자인, 제품 디자인, 패션 디자인 등 디자인에 관련된 다양한 분야에 관심이 많음.</p><h4 id='mainButton' onclick='showAngie();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAAngie();return false;'>FUN FACTS</h4></div>";
-var AngieBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAngie();return false;'><h3 id='profileHeadBio'>ANGIE HONG   |   홍은지</h3><p id='profileBio'>Angie Hong graduated from the University of Pennsylvania, PennDesign in 2015 and currently works as a Junior Architect in New York.<br>Angie received her B.S. in Management from SUNY Binghamton, with a minor in Fine Arts. She loves traveling and has many working experiences in different countries.<br>Although her background is architecture, she loves every design-related field, such as furniture design, interior design, product design, and fashion design.<br><br>2015년 펜실베니아 대학교 건축과 대학원을 졸업. 현재 뉴욕에서 Junior Architect로 근무중. 학부는 뉴욕주립대학교에서 비지니스 전공 & 미술 부전공.<br>여행을 좋아해서 학부와 대학원시절 다양한 나라에서 인턴 경험. 건축뿐만 아니라 가구 디자인, 인테리어 디자인, 제품 디자인, 패션 디자인 등 디자인에 관련된 다양한 분야에 관심이 많음.</p><h4 id='mainButton' onclick='showAngie();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAAngie();return false;'>FUN FACTS</h4></div>";
-
-var AngieQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAngieQA();return false;'><h3 id='profileHeadBio'>ANGIE HONG   |   홍은지</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Rockin’ Raw. The best raw vegan restaurant with good service and a great<br> location.<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: The first thing I do when I open my eyes in the morning is eat breakfast.<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: Google Maps because I have no sense of direction.<br><br><span id='question'>Q: Celebrity Look-alike?</span><br>A: I’ve heard that I look like Jung Ilwoo and Lee Ji Ah. I guess Jung Ilwoo + Lee Ji<br> Ah = what…? :(</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Rockin’ Raw. 좋은 위치에 있고 훌륭한 서비스를 자랑하는 곳. 생식 위주의 엄격한 채식주의 레스토<br>랑으로 웰빙을 지향하는 사람들에게 최고를 선사한다.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: ‘눈뜨자마자’ 아침 먹어요.<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 구글맵 – 길치에게 필수앱.<br><br><span id='question'>Q: 닮은꼴 연예인?</span><br>A: 예쁜남자 정일우랑 여배우 이지아 닮았다는 소리를 들어봤어요. 아마 둘을 합친것이 저와 비슷한가 봅<br>니다…</p><h4 id='mainButton' onclick='showAngie();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioAngie();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
-var AngieQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAngie();return false;'><h3 id='profileHeadBio'>ANGIE HONG   |   홍은지</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Rockin’ Raw. The best raw vegan restaurant with good service and a great<br> location.<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: The first thing I do when I open my eyes in the morning is eat breakfast.<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: Google Maps because I have no sense of direction.<br><br><span id='question'>Q: Celebrity Look-alike?</span><br>A: I’ve heard that I look like Jung Ilwoo and Lee Ji Ah. I guess Jung Ilwoo + Lee Ji<br> Ah = what…? :(</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Rockin’ Raw. 좋은 위치에 있고 훌륭한 서비스를 자랑하는 곳. 생식 위주의 엄격한 채식주의 레스토<br>랑으로 웰빙을 지향하는 사람들에게 최고를 선사한다.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: ‘눈뜨자마자’ 아침 먹어요.<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 구글맵 – 길치에게 필수앱.<br><br><span id='question'>Q: 닮은꼴 연예인?</span><br>A: 예쁜남자 정일우랑 여배우 이지아 닮았다는 소리를 들어봤어요. 아마 둘을 합친것이 저와 비슷한가 봅<br>니다…</p><h4 id='mainButton' onclick='showAngie();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioAngie();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var AngieIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAngie();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/AngieHongBig.png'><h3 id='profileHead'>ANGIE HONG   |   홍은지</h3><h5 id='profileStat'>Title in MOI’M: DESIGNER<br>Industry: ARCHITECTURE & GRAPHIC DESIGN<br><br>MOTTO: When life doesn’t go right, go left.<br>모토: 막힌 길은 돌아가라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioAngie();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAAngie();return false;'>FUN FACTS</h4></div></div></div>";
+var AngieBio ="<div id='megaPersona2'><h3 id='profileHeadBio'>ANGIE HONG   |   홍은지</h3><p id='profileBio'>Angie Hong graduated from the University of Pennsylvania, PennDesign in 2015 and currently works as a Junior Architect in New York.<br>Angie received her B.S. in Management from SUNY Binghamton, with a minor in Fine Arts. She loves traveling and has many working experiences in different countries.<br>Although her background is architecture, she loves every design-related field, such as furniture design, interior design, product design, and fashion design.<br><br>2015년 펜실베니아 대학교 건축과 대학원을 졸업. 현재 뉴욕에서 Junior Architect로 근무중. 학부는 뉴욕주립대학교에서 비지니스 전공 & 미술 부전공.<br>여행을 좋아해서 학부와 대학원시절 다양한 나라에서 인턴 경험. 건축뿐만 아니라 가구 디자인, 인테리어 디자인, 제품 디자인, 패션 디자인 등 디자인에 관련된 다양한 분야에 관심이 많음.</p><h4 id='mainButton' onclick='showAngie();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAAngie();return false;'>FUN FACTS</h4></div>";
+var AngieQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>ANGIE HONG   |   홍은지</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Rockin’ Raw. The best raw vegan restaurant with good service and a great<br> location.<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: The first thing I do when I open my eyes in the morning is eat breakfast.<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: Google Maps because I have no sense of direction.<br><br><span id='question'>Q: Celebrity Look-alike?</span><br>A: I’ve heard that I look like Jung Ilwoo and Lee Ji Ah. I guess Jung Ilwoo + Lee Ji<br> Ah = what…? :(</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Rockin’ Raw. 좋은 위치에 있고 훌륭한 서비스를 자랑하는 곳. 생식 위주의 엄격한 채식주의 레스토<br>랑으로 웰빙을 지향하는 사람들에게 최고를 선사한다.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: ‘눈뜨자마자’ 아침 먹어요.<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 구글맵 – 길치에게 필수앱.<br><br><span id='question'>Q: 닮은꼴 연예인?</span><br>A: 예쁜남자 정일우랑 여배우 이지아 닮았다는 소리를 들어봤어요. 아마 둘을 합친것이 저와 비슷한가 봅<br>니다…</p><h4 id='mainButton' onclick='showAngie();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioAngie();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ****
 
 // ***HyoBee
-var HyoBeeIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHyoBee();return false;'><img id='profilePic' src = '/assets/HyobeeKimBig.png'><h3 id='profileHead'>HYOBEE KIM   |   김효비</h3><h5 id='profileStat'>Title in MOI’M: DESIGNER<br>Industry: ADVERTISING<br><br>MOTTO: Don’t limit yourself – Mary Kay Ash<br>모토: 스스로를 제한하지 말라 – 메리 케이 애시</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioHyoBee();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAHyoBee();return false;'>FUN FACTS</h4></div>";
-var HyoBeeOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHyoBee();return false;'><img id='profilePic' src = '/assets/HyobeeKimBig.png'><h3 id='profileHead'>HYOBEE KIM   |   김효비</h3><h5 id='profileStat'>Title in MOI’M: DESIGNER<br>Industry: ADVERTISING<br><br>MOTTO: Don’t limit yourself – Mary Kay Ash<br>모토: 스스로를 제한하지 말라 – 메리 케이 애시</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioHyoBee();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAHyoBee();return false;'>FUN FACTS</h4></div>";
-var HyoBeeFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHyoBee();return false;'><img id='profilePic' src = '/assets/HyobeeKimBig.png'><h3 id='profileHead'>HYOBEE KIM   |   김효비</h3><h5 id='profileStat'>Title in MOI’M: DESIGNER<br>Industry: ADVERTISING<br><br>MOTTO: Don’t limit yourself – Mary Kay Ash<br>모토: 스스로를 제한하지 말라 – 메리 케이 애시</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioHyoBee();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAHyoBee();return false;'>FUN FACTS</h4></div>";
-
-var HyoBeeBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHyoBeeBio();return false;'><h3 id='profileHeadBio'>HYOBEE KIM   |   김효비</h3><p id='profileBio'>Hyobee Kim is a Junior Art Director at Erwin Penland Advertising Agency in New York City. A graduate from the School of Visual Arts in 2013 for advertising,<br>Hyobee was the Director of Event Planning for the SVA Korean International Student Association. Personality wise,<br>Hyobee is an optimistic and experimental person who loves interactive advertising.<br><br>현재 Erwin Penland 라는 Advertising agency에서 Jr. Art Director로 활동하고있는 사회 새내기. 토론토에 있는 예술특목고 재학당시 더 크고 넓은 크리에이티브 세계를 꿈꾸며<br>2013년에 School of Visual Arts 광고과 졸업. 대학교 재학당시 SVA KISA (한인학생회) 1기로 시작하여 기획부장으로 활동함. SVAD (학교내 광고동아리), KANA (뉴욕한인예술연합) 를 거쳐<br>현재는 MOI’M에 합류하게 됨. 인터렉티브광고에 관심이 많고, 새로운것들을 시도하거나 보고 느끼는것을 좋아하며, 자연을 즐기고 요리가 취미인 초긍정주의자임.</p><h4 id='mainButton' onclick='showHyoBee();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAHyoBee();return false;'>FUN FACTS</h4></div>";
-var HyoBeeBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHyoBee();return false;'><h3 id='profileHeadBio'>HYOBEE KIM   |   김효비</h3><p id='profileBio'>Hyobee Kim is a Junior Art Director at Erwin Penland Advertising Agency in New York City. A graduate from the School of Visual Arts in 2013 for advertising,<br>Hyobee was the Director of Event Planning for the SVA Korean International Student Association. Personality wise,<br>Hyobee is an optimistic and experimental person who loves interactive advertising.<br><br>현재 Erwin Penland 라는 Advertising agency에서 Jr. Art Director로 활동하고있는 사회 새내기. 토론토에 있는 예술특목고 재학당시 더 크고 넓은 크리에이티브 세계를 꿈꾸며<br>2013년에 School of Visual Arts 광고과 졸업. 대학교 재학당시 SVA KISA (한인학생회) 1기로 시작하여 기획부장으로 활동함. SVAD (학교내 광고동아리), KANA (뉴욕한인예술연합) 를 거쳐<br>현재는 MOI’M에 합류하게 됨. 인터렉티브광고에 관심이 많고, 새로운것들을 시도하거나 보고 느끼는것을 좋아하며, 자연을 즐기고 요리가 취미인 초긍정주의자임.</p><h4 id='mainButton' onclick='showHyoBee();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAHyoBee();return false;'>FUN FACTS</h4></div>";
-
-var HyoBeeQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHyoBeeQA();return false;'><h3 id='profileHeadBio'>HYOBEE KIM   |   김효비</h3><p id='profileQuestions1'><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: (If 100% certain) After having a long phone call with loved ones, I would take<br> sleeping pills and go into a deep sleep. (If 90% certain) After having a long<br> phone call with loved ones, with 1% of hope I would go into an underground<br> shelter with food and necessities.<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: After quickly calculating how much longer I can sleep, I go back to sleep.<br><br><span id='question'>Q: Something that your friends do not know about you?</span><br>A: It’s a secret.<br><br><span id='question'>Q: Inspiration?</span><br>A: Everything in the world.</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Martha’s Bakery – Very Berry Napoleon은 정말 최고임. 뉴욕에 3곳밖에 없어서 그런지 사<br>람들이 잘 모른다. 구지 이걸 먹으러 N,Q 종점까지 가야한다는건 비밀. 그렇지만 한번 중독되면 이것만<br> 사먹게 된다는건 안비밀.<br><br><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: (지구가 꼭. 100% 종말한다는 전제하에) 내 소중한 사람들과 길고 긴 전화통화를 한뒤, 미리 수면제<br>를 잔뜩먹고 잠에들겠다. (지구가 99% 종말한다는 전제하에) 마찬가지로 내 소중한 사람들과 길고 긴<br> 전화통화를 한뒤, 1%의 희망을 가지고 지하벙커를 사고 식량을 가득 채워넣겠다.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: 얼마나 더 잘수있는지 빠른계산을 한뒤 다시잔다.<br><br><span id='question'>Q: 친구들이 잘 모르는 당신에 대한 한 가지는?</span><br>A: 비밀.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 지구안에 모든것.</p><h4 id='mainButton' onclick='showHyoBee();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioHyoBee();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
-var HyoBeeQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHyoBee();return false;'><h3 id='profileHeadBio'>HYOBEE KIM   |   김효비</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Rockin’ Raw. The best raw vegan restaurant with good service and a great<br> location.<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: The first thing I do when I open my eyes in the morning is eat breakfast.<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: Google Maps because I have no sense of direction.<br><br><span id='question'>Q: Celebrity Look-alike?</span><br>A: I’ve heard that I look like Jung Ilwoo and Lee Ji Ah. I guess Jung Ilwoo + Lee Ji<br> Ah = what…? :(</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Rockin’ Raw. 좋은 위치에 있고 훌륭한 서비스를 자랑하는 곳. 생식 위주의 엄격한 채식주의 레스토<br>랑으로 웰빙을 지향하는 사람들에게 최고를 선사한다.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: ‘눈뜨자마자’ 아침 먹어요.<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 구글맵 – 길치에게 필수앱.<br><br><span id='question'>Q: 닮은꼴 연예인?</span><br>A: 예쁜남자 정일우랑 여배우 이지아 닮았다는 소리를 들어봤어요. 아마 둘을 합친것이 저와 비슷한가 봅<br>니다…</p><h4 id='mainButton' onclick='showHyoBee();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioHyoBee();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var HyoBeeIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutHyoBee();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/HyobeeKimBig.png'><h3 id='profileHead'>HYOBEE KIM   |   김효비</h3><h5 id='profileStat'>Title in MOI’M: DESIGNER<br>Industry: ADVERTISING<br><br>MOTTO: Don’t limit yourself – Mary Kay Ash<br>모토: 스스로를 제한하지 말라 – 메리 케이 애시</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioHyoBee();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAHyoBee();return false;'>FUN FACTS</h4></div></div></div>";
+var HyoBeeBio ="<div id='megaPersona2'><h3 id='profileHeadBio'>HYOBEE KIM   |   김효비</h3><p id='profileBio'>Hyobee Kim is a Junior Art Director at Erwin Penland Advertising Agency in New York City. A graduate from the School of Visual Arts in 2013 for advertising,<br>Hyobee was the Director of Event Planning for the SVA Korean International Student Association. Personality wise,<br>Hyobee is an optimistic and experimental person who loves interactive advertising.<br><br>현재 Erwin Penland 라는 Advertising agency에서 Jr. Art Director로 활동하고있는 사회 새내기. 토론토에 있는 예술특목고 재학당시 더 크고 넓은 크리에이티브 세계를 꿈꾸며<br>2013년에 School of Visual Arts 광고과 졸업. 대학교 재학당시 SVA KISA (한인학생회) 1기로 시작하여 기획부장으로 활동함. SVAD (학교내 광고동아리), KANA (뉴욕한인예술연합) 를 거쳐<br>현재는 MOI’M에 합류하게 됨. 인터렉티브광고에 관심이 많고, 새로운것들을 시도하거나 보고 느끼는것을 좋아하며, 자연을 즐기고 요리가 취미인 초긍정주의자임.</p><h4 id='mainButton' onclick='showHyoBee();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAHyoBee();return false;'>FUN FACTS</h4></div>";
+var HyoBeeQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>HYOBEE KIM   |   김효비</h3><p id='profileQuestions1'><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: (If 100% certain) After having a long phone call with loved ones, I would take<br> sleeping pills and go into a deep sleep. (If 90% certain) After having a long<br> phone call with loved ones, with 1% of hope I would go into an underground<br> shelter with food and necessities.<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: After quickly calculating how much longer I can sleep, I go back to sleep.<br><br><span id='question'>Q: Something that your friends do not know about you?</span><br>A: It’s a secret.<br><br><span id='question'>Q: Inspiration?</span><br>A: Everything in the world.</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Martha’s Bakery – Very Berry Napoleon은 정말 최고임. 뉴욕에 3곳밖에 없어서 그런지 사<br>람들이 잘 모른다. 구지 이걸 먹으러 N,Q 종점까지 가야한다는건 비밀. 그렇지만 한번 중독되면 이것만<br> 사먹게 된다는건 안비밀.<br><br><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: (지구가 꼭. 100% 종말한다는 전제하에) 내 소중한 사람들과 길고 긴 전화통화를 한뒤, 미리 수면제<br>를 잔뜩먹고 잠에들겠다. (지구가 99% 종말한다는 전제하에) 마찬가지로 내 소중한 사람들과 길고 긴<br> 전화통화를 한뒤, 1%의 희망을 가지고 지하벙커를 사고 식량을 가득 채워넣겠다.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: 얼마나 더 잘수있는지 빠른계산을 한뒤 다시잔다.<br><br><span id='question'>Q: 친구들이 잘 모르는 당신에 대한 한 가지는?</span><br>A: 비밀.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 지구안에 모든것.</p><h4 id='mainButton' onclick='showHyoBee();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioHyoBee();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ****
 
 // ****Sam - creative
-var SamIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSam();return false;'><img id='profilePic' src = '/assets/SamRahmanBig.png'><h3 id='profileHead'>SAM RAHMAN</h3><h5 id='profileStat'>Title in MOI’M: DESIGNER<br>Industry: GRAPHIC DESIGN<br><br>MOTTO: “Anyone can love a thing because. That’s as easy as<br> putting a penny in your pocket. But to love something<br> despite. To know the flaws and love them too. That is rare<br> and pure and perfect.” – Patrick Rothfuss<br>모토: “누구나 무언가를 사랑할 수 있다. 왜나하면 그것은 동전을 주머니에 넣는<br> 것만큼 쉽기 때문이다. 하지만 흠을 알고 경멸하는 무언가를 사랑하는 것은 진귀<br>하고, 순수하고 완벽한 것이다.” – 패트릭 로드푸스</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioSam();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQASam();return false;'>FUN FACTS</h4></div>";
-var SamOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSam();return false;'><img id='profilePic' src = '/assets/SamRahmanBig.png'><h3 id='profileHead'>SAM RAHMAN</h3><h5 id='profileStat'>Title in MOI’M: DESIGNER<br>Industry: GRAPHIC DESIGN<br><br>MOTTO: “Anyone can love a thing because. That’s as easy as<br> putting a penny in your pocket. But to love something<br> despite. To know the flaws and love them too. That is rare<br> and pure and perfect.” – Patrick Rothfuss<br>모토: “누구나 무언가를 사랑할 수 있다. 왜나하면 그것은 동전을 주머니에 넣는<br> 것만큼 쉽기 때문이다. 하지만 흠을 알고 경멸하는 무언가를 사랑하는 것은 진귀<br>하고, 순수하고 완벽한 것이다.” – 패트릭 로드푸스</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioSam();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQASam();return false;'>FUN FACTS</h4></div>";
-var SamFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSam();return false;'><img id='profilePic' src = '/assets/SamRahmanBig.png'><h3 id='profileHead'>SAM RAHMAN</h3><h5 id='profileStat'>Title in MOI’M: DESIGNER<br>Industry: GRAPHIC DESIGN<br><br>MOTTO: “Anyone can love a thing because. That’s as easy as<br> putting a penny in your pocket. But to love something<br> despite. To know the flaws and love them too. That is rare<br> and pure and perfect.” – Patrick Rothfuss<br>모토: “누구나 무언가를 사랑할 수 있다. 왜나하면 그것은 동전을 주머니에 넣는<br> 것만큼 쉽기 때문이다. 하지만 흠을 알고 경멸하는 무언가를 사랑하는 것은 진귀<br>하고, 순수하고 완벽한 것이다.” – 패트릭 로드푸스</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioSam();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQASam();return false;'>FUN FACTS</h4></div>";
-
-var SamBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSamBio();return false;'><h3 id='profileHeadBio'>SAM RAHMAN</h3><p id='profileBio'>Sam Rahman is a graphic designer living and working in Philadelphia, specializing in branding, print, and interactive design. He is also a senior at Tyler School of Art in<br> Temple University, where he is earning a B.F.A. in graphic design. Sam loves to learn about different cultures and when he’s not designing, he likes to experience art in as<br> many ways as possible, be it through photography, creative writing, or traveling.<br><br>현재 Tyler School of Art in Temple University에서 그래픽 디자인 전공으로 4학년에 재학 중. 필라델피아에서 그래픽 디자이너로 일하고 있으며, 브랜딩, 프린트, 인터렉티브 디자인을 전문적으로 함.<br> 디자인하지 않을 때는 다른 문화를 배우는 것을 좋아함. 이외에도 예술을 사진, 창의적 글쓰기, 여행 등 다양한 방법을 통해 경험하는 것을 즐김.</p><h4 id='mainButton' onclick='showSam();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQASam();return false;'>FUN FACTS</h4></div>";
-var SamBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSam();return false;'><h3 id='profileHeadBio'>SAM RAHMAN</h3><p id='profileBio'>Sam Rahman is a graphic designer living and working in Philadelphia, specializing in branding, print, and interactive design. He is also a senior at Tyler School of Art in<br> Temple University, where he is earning a B.F.A. in graphic design. Sam loves to learn about different cultures and when he’s not designing, he likes to experience art in as<br> many ways as possible, be it through photography, creative writing, or traveling.<br><br>현재 Tyler School of Art in Temple University에서 그래픽 디자인 전공으로 4학년에 재학 중. 필라델피아에서 그래픽 디자이너로 일하고 있으며, 브랜딩, 프린트, 인터렉티브 디자인을 전문적으로 함.<br> 디자인하지 않을 때는 다른 문화를 배우는 것을 좋아함. 이외에도 예술을 사진, 창의적 글쓰기, 여행 등 다양한 방법을 통해 경험하는 것을 즐김.</p><h4 id='mainButton' onclick='showSam();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQASam();return false;'>FUN FACTS</h4></div>";
-
-var SamQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSamQA();return false;'><h3 id='profileHeadBio'>SAM RAHMAN</h3><p id='profileQuestions1'><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I’m not sure I’d do anything differently. I already try to live everyday like I have<br> nothing to lose<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)? Why?</span><br>A: iBooks. I try to find as much time as possible during the day to read.<br><br><span id='question'>Q: Inspiration?</span><br>A: I find inspiration in random little things, like listening to people’s stories,<br> finding old photographs, playing with my nieces, taking long walks in unfamiliar<br> places, the list goes on…<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Staying on the good side of crazy.</p><p id='profileQuestions2'><span id='question'>Q. 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 이미 잃을 것이 아무것도 없는 것처럼 매일 살고 있어서 평상시와 비슷한 생활을 할 것 같음.<br><br><span id='question'>Q. 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: iBooks. 매일 시간이 나는 대로 독서를 하려고 노력 중.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 연관이 없는 작은 것들로 부터 영감을 받음. 예를 들어 사람들의 이야기를 듣고서, 오래된 사진을 보고<br>서, 조카와 놀아주면서, 익숙하지 않은 곳을 걷다가 등등.<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 좋은 미친 쪽에 머물기.</p><h4 id='mainButton' onclick='showSam();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioSam();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
-var SamQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSam();return false;'><h3 id='profileHeadBio'>SAM RAHMAN</h3><p id='profileQuestionsShort1'><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I’m not sure I’d do anything differently. I already try to live everyday like I have<br> nothing to lose<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)? Why?</span><br>A: iBooks. I try to find as much time as possible during the day to read.<br><br><span id='question'>Q: Inspiration?</span><br>A: I find inspiration in random little things, like listening to people’s stories,<br> finding old photographs, playing with my nieces, taking long walks in unfamiliar<br> places, the list goes on…<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Staying on the good side of crazy.</p><p id='profileQuestions2'><span id='question'>Q. 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 이미 잃을 것이 아무것도 없는 것처럼 매일 살고 있어서 평상시와 비슷한 생활을 할 것 같음.<br><br><span id='question'>Q. 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: iBooks. 매일 시간이 나는 대로 독서를 하려고 노력 중.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 연관이 없는 작은 것들로 부터 영감을 받음. 예를 들어 사람들의 이야기를 듣고서, 오래된 사진을 보고<br>서, 조카와 놀아주면서, 익숙하지 않은 곳을 걷다가 등등.<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 좋은 미친 쪽에 머물기.</p><h4 id='mainButton' onclick='showSam();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioSam();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var SamIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSam();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/SamRahmanBig.png'><h3 id='profileHead'>SAM RAHMAN</h3><h5 id='profileStat'>Title in MOI’M: DESIGNER<br>Industry: GRAPHIC DESIGN<br><br>MOTTO: “Anyone can love a thing because. That’s as easy as<br> putting a penny in your pocket. But to love something<br> despite. To know the flaws and love them too. That is rare<br> and pure and perfect.” – Patrick Rothfuss<br>모토: “누구나 무언가를 사랑할 수 있다. 왜나하면 그것은 동전을 주머니에 넣는<br> 것만큼 쉽기 때문이다. 하지만 흠을 알고 경멸하는 무언가를 사랑하는 것은 진귀<br>하고, 순수하고 완벽한 것이다.” – 패트릭 로드푸스</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioSam();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQASam();return false;'>FUN FACTS</h4></div></div></div>";
+var SamBio ="<div id='megaPersona2'><h3 id='profileHeadBio'>SAM RAHMAN</h3><p id='profileBio'>Sam Rahman is a graphic designer living and working in Philadelphia, specializing in branding, print, and interactive design. He is also a senior at Tyler School of Art in<br> Temple University, where he is earning a B.F.A. in graphic design. Sam loves to learn about different cultures and when he’s not designing, he likes to experience art in as<br> many ways as possible, be it through photography, creative writing, or traveling.<br><br>현재 Tyler School of Art in Temple University에서 그래픽 디자인 전공으로 4학년에 재학 중. 필라델피아에서 그래픽 디자이너로 일하고 있으며, 브랜딩, 프린트, 인터렉티브 디자인을 전문적으로 함.<br> 디자인하지 않을 때는 다른 문화를 배우는 것을 좋아함. 이외에도 예술을 사진, 창의적 글쓰기, 여행 등 다양한 방법을 통해 경험하는 것을 즐김.</p><h4 id='mainButton' onclick='showSam();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQASam();return false;'>FUN FACTS</h4></div>";
+var SamQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>SAM RAHMAN</h3><p id='profileQuestions1'><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I’m not sure I’d do anything differently. I already try to live everyday like I have<br> nothing to lose<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)? Why?</span><br>A: iBooks. I try to find as much time as possible during the day to read.<br><br><span id='question'>Q: Inspiration?</span><br>A: I find inspiration in random little things, like listening to people’s stories,<br> finding old photographs, playing with my nieces, taking long walks in unfamiliar<br> places, the list goes on…<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Staying on the good side of crazy.</p><p id='profileQuestions2'><span id='question'>Q. 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 이미 잃을 것이 아무것도 없는 것처럼 매일 살고 있어서 평상시와 비슷한 생활을 할 것 같음.<br><br><span id='question'>Q. 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: iBooks. 매일 시간이 나는 대로 독서를 하려고 노력 중.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 연관이 없는 작은 것들로 부터 영감을 받음. 예를 들어 사람들의 이야기를 듣고서, 오래된 사진을 보고<br>서, 조카와 놀아주면서, 익숙하지 않은 곳을 걷다가 등등.<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 좋은 미친 쪽에 머물기.</p><h4 id='mainButton' onclick='showSam();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioSam();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ***
 
 // ****Bella - creative
-var BellaIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBella();return false;'><img id='profilePic' src = '/assets/BellaParkBig.png'><h3 id='profileHead'>BELLA PARK   |   박정현</h3><h5 id='profileStat'>Title in MOI’M: JUNIOR MOTION GRAPHICS DESIGNER<br>Industry: COMPUTER ART/MOTION GRAPHICS<br><br>MOTTO: Do it Yourself<br>모토: 스스로 해라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioBella();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQABella();return false;'>FUN FACTS</h4></div>";
-var BellaOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBella();return false;'><img id='profilePic' src = '/assets/BellaParkBig.png'><h3 id='profileHead'>BELLA PARK   |   박정현</h3><h5 id='profileStat'>Title in MOI’M: JUNIOR MOTION GRAPHICS DESIGNER<br>Industry: COMPUTER ART/MOTION GRAPHICS<br><br>MOTTO: Do it Yourself<br>모토: 스스로 해라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioBella();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQABella();return false;'>FUN FACTS</h4></div>";
-var BellaFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBella();return false;'><img id='profilePic' src = '/assets/BellaParkBig.png'><h3 id='profileHead'>BELLA PARK   |   박정현</h3><h5 id='profileStat'>Title in MOI’M: JUNIOR MOTION GRAPHICS DESIGNER<br>Industry: COMPUTER ART/MOTION GRAPHICS<br><br>MOTTO: Do it Yourself<br>모토: 스스로 해라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioBella();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQABella();return false;'>FUN FACTS</h4></div>";
-
-var BellaBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBellaBio();return false;'><h3 id='profileHeadBio'>BELLA PARK   |   박정현</h3><p id='profileBio'>Bella Park is currently a Motion Graphics student at the School of Visual Arts in New York. She received her B.A. in Film, TV & Multimedia at Korea National University of<br> Arts in Korea. To explore her visual languages as an artist, Bella enjoys observing her surroundings and the people around her. Based on her understandings of visual<br> effects that she have acquired through experiences at both broadcasting and corporate companies, she hopes to create high quality moving images to visualize<br> personal reflections on her interests and/or imagination.<br><br>현재 뉴욕 School of Visual Arts에서 모션 그래픽을 전공. 한국예술종합학교에서 방송영상학과 학사 취득. 예술인으로서의 시각적 소통법를 넓히고자 그녀는 항상 주변과 사람들을 관찰하는 것을 즐긴다.<br>방송국와 미디어 회사에서의 경험을 바탕으로 그녀는 자신의 관심사와 상상력을 시각적으로 잘 표현해주는 작품활동을 하고 싶다.</p><h4 id='mainButton' onclick='showBella();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQABella();return false;'>FUN FACTS</h4></div>";
-var BellaBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBella();return false;'><h3 id='profileHeadBio'>BELLA PARK   |   박정현</h3><p id='profileBio'>Bella Park is currently a Motion Graphics student at the School of Visual Arts in New York. She received her B.A. in Film, TV & Multimedia at Korea National University of<br> Arts in Korea. To explore her visual languages as an artist, Bella enjoys observing her surroundings and the people around her. Based on her understandings of visual<br> effects that she have acquired through experiences at both broadcasting and corporate companies, she hopes to create high quality moving images to visualize<br> personal reflections on her interests and/or imagination.<br><br>현재 뉴욕 School of Visual Arts에서 모션 그래픽을 전공. 한국예술종합학교에서 방송영상학과 학사 취득. 예술인으로서의 시각적 소통법를 넓히고자 그녀는 항상 주변과 사람들을 관찰하는 것을 즐긴다.<br>방송국와 미디어 회사에서의 경험을 바탕으로 그녀는 자신의 관심사와 상상력을 시각적으로 잘 표현해주는 작품활동을 하고 싶다.</p><h4 id='mainButton' onclick='showBella();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQABella();return false;'>FUN FACTS</h4></div>";
-
-var BellaQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBellaQA();return false;'><h3 id='profileHeadBio'>BELLA PARK   |   박정현</h3><p id='profileQuestions1'><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I’d have a picnic<br><br><span id='question'>Q: Perfect Day?</span><br>A: New Year’s Eve<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Kumdo competition<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: Google maps / New York is big.</p><p id='profileQuestions2'><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 피크닉을 가겠다.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 12월 31일<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 검도시합…<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 구글 맵 / 뉴욕은 참 넓다.</p><h4 id='mainButton' onclick='showBella();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioBella();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
-var BellaQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBella();return false;'><h3 id='profileHeadBio'>BELLA PARK   |   박정현</h3><p id='profileQuestions1'><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I’d have a picnic<br><br><span id='question'>Q: Perfect Day?</span><br>A: New Year’s Eve<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Kumdo competition<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: Google maps / New York is big.</p><p id='profileQuestions2'><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 피크닉을 가겠다.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 12월 31일<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 검도시합…<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 구글 맵 / 뉴욕은 참 넓다.</p><h4 id='mainButton' onclick='showBella();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioBella();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var BellaIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutBella();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/BellaParkBig.png'><h3 id='profileHead'>BELLA PARK   |   박정현</h3><h5 id='profileStat'>Title in MOI’M: JUNIOR MOTION GRAPHICS DESIGNER<br>Industry: COMPUTER ART/MOTION GRAPHICS<br><br>MOTTO: Do it Yourself<br>모토: 스스로 해라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioBella();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQABella();return false;'>FUN FACTS</h4></div></div></div>";
+var BellaBio ="<div id='megaPersona2'><h3 id='profileHeadBio'>BELLA PARK   |   박정현</h3><p id='profileBio'>Bella Park is currently a Motion Graphics student at the School of Visual Arts in New York. She received her B.A. in Film, TV & Multimedia at Korea National University of<br> Arts in Korea. To explore her visual languages as an artist, Bella enjoys observing her surroundings and the people around her. Based on her understandings of visual<br> effects that she have acquired through experiences at both broadcasting and corporate companies, she hopes to create high quality moving images to visualize<br> personal reflections on her interests and/or imagination.<br><br>현재 뉴욕 School of Visual Arts에서 모션 그래픽을 전공. 한국예술종합학교에서 방송영상학과 학사 취득. 예술인으로서의 시각적 소통법를 넓히고자 그녀는 항상 주변과 사람들을 관찰하는 것을 즐긴다.<br>방송국와 미디어 회사에서의 경험을 바탕으로 그녀는 자신의 관심사와 상상력을 시각적으로 잘 표현해주는 작품활동을 하고 싶다.</p><h4 id='mainButton' onclick='showBella();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQABella();return false;'>FUN FACTS</h4></div>";
+var BellaQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>BELLA PARK   |   박정현</h3><p id='profileQuestions1'><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I’d have a picnic<br><br><span id='question'>Q: Perfect Day?</span><br>A: New Year’s Eve<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Kumdo competition<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: Google maps / New York is big.</p><p id='profileQuestions2'><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 피크닉을 가겠다.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 12월 31일<br><br><span id='question'>Q: 나에게 가장 어려운 것?</span><br>A: 검도시합…<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 구글 맵 / 뉴욕은 참 넓다.</p><h4 id='mainButton' onclick='showBella();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioBella();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ***
 
 // ****EunSung - creative
-var EunSungIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutEunSung();return false;'><img id='profilePic' src = '/assets/EunsungJeonBig.png'><h3 id='profileHead'>EUNSUNG JEON   |   전은성</h3><h5 id='profileStat'>Title in MOI’M: PHOTOGRAPHER & EDITOR<br>Industry: PHOTOGRAPHY, PAINTING<br><br>MOTTO: What is bound to be accomplished will be<br> accomplished.<br>모토: 될 일은 된다.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioEunSung();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAEunSung();return false;'>FUN FACTS</h4></div>";
-var EunSungOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutEunSung();return false;'><img id='profilePic' src = '/assets/EunsungJeonBig.png'><h3 id='profileHead'>EUNSUNG JEON   |   전은성</h3><h5 id='profileStat'>Title in MOI’M: PHOTOGRAPHER & EDITOR<br>Industry: PHOTOGRAPHY, PAINTING<br><br>MOTTO: What is bound to be accomplished will be<br> accomplished.<br>모토: 될 일은 된다.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioEunSung();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAEunSung();return false;'>FUN FACTS</h4></div>";
-var EunSungFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutEunSung();return false;'><img id='profilePic' src = '/assets/EunsungJeonBig.png'><h3 id='profileHead'>EUNSUNG JEON   |   전은성</h3><h5 id='profileStat'>Title in MOI’M: PHOTOGRAPHER & EDITOR<br>Industry: PHOTOGRAPHY, PAINTING<br><br>MOTTO: What is bound to be accomplished will be<br> accomplished.<br>모토: 될 일은 된다.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioEunSung();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAEunSung();return false;'>FUN FACTS</h4></div>";
-
-var EunSungBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutEunSungBio();return false;'><h3 id='profileHeadBio'>EUNSUNG JEON   |   전은성</h3><p id='profileBio'>Eunsung Jeon graduated from the School of Visual Arts MPS Digital Photography in 2015, and currently works as a freelance photographer and a photo illustrator in New<br> York. Before coming to the States, Eunsung studied both western and Eastern art and thus has an understanding of a variety of styles. She studied the fine arts for most<br> of her art career and she currently incorporates this experience into her photography.<br><br>2015년 School of Visual Arts MPS Digital Photography 졸업하고 현재 프리랜서 사진가로 활동중. 서양 미술 뿐 아니라 학부에서 한국화와 중어중문학을 전공하며 동양 미술에 대한 이해를 키워왔다.<br> 오랜 기간 순수미술을 공부하였고 이를 바탕으로 현재 그림과 사진을 융합하는 작업을 이어오고 있다.</p><h4 id='mainButton' onclick='showEunSung();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAEunSung();return false;'>FUN FACTS</h4></div>";
-var EunSungBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutEunSung();return false;'><h3 id='profileHeadBio'>EUNSUNG JEON   |   전은성</h3><p id='profileBio'>Eunsung Jeon graduated from the School of Visual Arts MPS Digital Photography in 2015, and currently works as a freelance photographer and a photo illustrator in New<br> York. Before coming to the States, Eunsung studied both western and Eastern art and thus has an understanding of a variety of styles. She studied the fine arts for most<br> of her art career and she currently incorporates this experience into her photography.<br><br>2015년 School of Visual Arts MPS Digital Photography 졸업하고 현재 프리랜서 사진가로 활동중. 서양 미술 뿐 아니라 학부에서 한국화와 중어중문학을 전공하며 동양 미술에 대한 이해를 키워왔다.<br> 오랜 기간 순수미술을 공부하였고 이를 바탕으로 현재 그림과 사진을 융합하는 작업을 이어오고 있다.</p><h4 id='mainButton' onclick='showEunSung();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAEunSung();return false;'>FUN FACTS</h4></div>";
-
-var EunSungQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutEunSungQA();return false;'><h3 id='profileHeadBio'>EUNSUNG JEON   |   전은성</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Boqueria. A great place to have a glass of wine and enjoy tapas.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Samsara. A must see film for photographers or videographers. This silent film<br> shows a wide range of the visual language.<br><br><span id='question'>Q: Wildest Dream?</span><br>A: To go on a trip around the world with my camera and then afterwards<br> publishing a book about my experience.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: Cancun</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Boqueria. 가볍게 와인 한 잔과 타파스 먹기 좋은 곳.<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: Samsara. 사진가 혹은 비디오그래퍼라면 한번 쯤은 꼭 봤으면 하는 영화.<br> 무언(대사가 없)는 영화이지만 시각적인 언어가 굉장히 다채로운 영화<br><br><span id='question'>Q: 최고의 꿈?</span><br>A: 아무 걱정 없이 카메라 들고 세계여행, 그 후에 책 출간하기.<br><br><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 칸쿤</p><h4 id='mainButton' onclick='showEunSung();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioEunSung();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
-var EunSungQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutEunSung();return false;'><h3 id='profileHeadBio'>EUNSUNG JEON   |   전은성</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Boqueria. A great place to have a glass of wine and enjoy tapas.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Samsara. A must see film for photographers or videographers. This silent film<br> shows a wide range of the visual language.<br><br><span id='question'>Q: Wildest Dream?</span><br>A: To go on a trip around the world with my camera and then afterwards<br> publishing a book about my experience.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: Cancun</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Boqueria. 가볍게 와인 한 잔과 타파스 먹기 좋은 곳.<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: Samsara. 사진가 혹은 비디오그래퍼라면 한번 쯤은 꼭 봤으면 하는 영화.<br> 무언(대사가 없)는 영화이지만 시각적인 언어가 굉장히 다채로운 영화<br><br><span id='question'>Q: 최고의 꿈?</span><br>A: 아무 걱정 없이 카메라 들고 세계여행, 그 후에 책 출간하기.<br><br><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 칸쿤</p><h4 id='mainButton' onclick='showEunSung();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioEunSung();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var EunSungIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutEunSung();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/EunsungJeonBig.png'><h3 id='profileHead'>EUNSUNG JEON   |   전은성</h3><h5 id='profileStat'>Title in MOI’M: PHOTOGRAPHER & EDITOR<br>Industry: PHOTOGRAPHY, PAINTING<br><br>MOTTO: What is bound to be accomplished will be<br> accomplished.<br>모토: 될 일은 된다.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioEunSung();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAEunSung();return false;'>FUN FACTS</h4></div></div></div>";
+var EunSungBio ="<div id='megaPersona2'><h3 id='profileHeadBio'>EUNSUNG JEON   |   전은성</h3><p id='profileBio'>Eunsung Jeon graduated from the School of Visual Arts MPS Digital Photography in 2015, and currently works as a freelance photographer and a photo illustrator in New<br> York. Before coming to the States, Eunsung studied both western and Eastern art and thus has an understanding of a variety of styles. She studied the fine arts for most<br> of her art career and she currently incorporates this experience into her photography.<br><br>2015년 School of Visual Arts MPS Digital Photography 졸업하고 현재 프리랜서 사진가로 활동중. 서양 미술 뿐 아니라 학부에서 한국화와 중어중문학을 전공하며 동양 미술에 대한 이해를 키워왔다.<br> 오랜 기간 순수미술을 공부하였고 이를 바탕으로 현재 그림과 사진을 융합하는 작업을 이어오고 있다.</p><h4 id='mainButton' onclick='showEunSung();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAEunSung();return false;'>FUN FACTS</h4></div>";
+var EunSungQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>EUNSUNG JEON   |   전은성</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Boqueria. A great place to have a glass of wine and enjoy tapas.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Samsara. A must see film for photographers or videographers. This silent film<br> shows a wide range of the visual language.<br><br><span id='question'>Q: Wildest Dream?</span><br>A: To go on a trip around the world with my camera and then afterwards<br> publishing a book about my experience.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: Cancun</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Boqueria. 가볍게 와인 한 잔과 타파스 먹기 좋은 곳.<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: Samsara. 사진가 혹은 비디오그래퍼라면 한번 쯤은 꼭 봤으면 하는 영화.<br> 무언(대사가 없)는 영화이지만 시각적인 언어가 굉장히 다채로운 영화<br><br><span id='question'>Q: 최고의 꿈?</span><br>A: 아무 걱정 없이 카메라 들고 세계여행, 그 후에 책 출간하기.<br><br><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 칸쿤</p><h4 id='mainButton' onclick='showEunSung();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioEunSung();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ***
 
 // ****Seung - creative
-var SeungIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSeung();return false;'><img id='profilePic' src = '/assets/SeunghoParkBig.png'><h3 id='profileHead'>SEUNGHO BRIAN PARK   |   박승호</h3><h5 id='profileStat'>Title in MOI’M: JUNIOR PHOTOGRAPHER & EDITOR<br>Industry: ECONOMICS<br><br>MOTTO: Creativity is inventing, experimenting, growing,<br> taking risks, breaking rules, making mistakes, and having<br> fun – MARY LOU COOK<br>모토: 창의성은 발명하고, 실험하고, 성장하고, 모험하고, 규칙을 위반하고, 실수<br>하고, 즐기는 것이다 – 메리 루 쿡</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioSeung();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQASeung();return false;'>FUN FACTS</h4></div>";
-var SeungOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSeung();return false;'><img id='profilePic' src = '/assets/SeunghoParkBig.png'><h3 id='profileHead'>SEUNGHO BRIAN PARK   |   박승호</h3><h5 id='profileStat'>Title in MOI’M: JUNIOR PHOTOGRAPHER & EDITOR<br>Industry: ECONOMICS<br><br>MOTTO: Creativity is inventing, experimenting, growing,<br> taking risks, breaking rules, making mistakes, and having<br> fun – MARY LOU COOK<br>모토: 창의성은 발명하고, 실험하고, 성장하고, 모험하고, 규칙을 위반하고, 실수<br>하고, 즐기는 것이다 – 메리 루 쿡</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioSeung();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQASeung();return false;'>FUN FACTS</h4></div>";
-var SeungFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSeung();return false;'><img id='profilePic' src = '/assets/SeunghoParkBig.png'><h3 id='profileHead'>SEUNGHO BRIAN PARK   |   박승호</h3><h5 id='profileStat'>Title in MOI’M: JUNIOR PHOTOGRAPHER & EDITOR<br>Industry: ECONOMICS<br><br>MOTTO: Creativity is inventing, experimenting, growing,<br> taking risks, breaking rules, making mistakes, and having<br> fun – MARY LOU COOK<br>모토: 창의성은 발명하고, 실험하고, 성장하고, 모험하고, 규칙을 위반하고, 실수<br>하고, 즐기는 것이다 – 메리 루 쿡</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioSeung();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQASeung();return false;'>FUN FACTS</h4></div>";
-
-var SeungBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSeungBio();return false;'><h3 id='profileHeadBio'>SEUNGHO BRIAN PARK   |   박승호</h3><p id='profileBio'>Seungho Brian Park spent most of his childhood in the New York metropolitan area and is currently attending Stony Brook University majoring in Economics.<br> Photography has become a recent passion of Seungho. He loves the way a simple still photo can tell thousands of different stories and this passion drives him to<br> continue to work on his craft. In addition to photography, during his free time, Seungho enjoys traveling and trying different types of cuisine from around the world.<br><br>현재 스토니브룩 대학교에서 경제학 전공 중. 사진에 입문을 하고 난 이후 단 한 번도 사진에 대한 열정을 잊은 적이 없음. 한 장의 사진이 수천 가지의 이야기를 담을 수 있다는 것에 매력을 느낌. 여행을 좋아하고<br> 전 세계 각 지역 특색이 담긴 음식을 먹어보는 것을 즐김.</p><h4 id='mainButton' onclick='showSeung();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQASeung();return false;'>FUN FACTS</h4></div>";
-var SeungBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSeung();return false;'><h3 id='profileHeadBio'>SEUNGHO BRIAN PARK   |   박승호</h3><p id='profileBio'>Seungho Brian Park spent most of his childhood in the New York metropolitan area and is currently attending Stony Brook University majoring in Economics.<br> Photography has become a recent passion of Seungho. He loves the way a simple still photo can tell thousands of different stories and this passion drives him to<br> continue to work on his craft. In addition to photography, during his free time, Seungho enjoys traveling and trying different types of cuisine from around the world.<br><br>현재 스토니브룩 대학교에서 경제학 전공 중. 사진에 입문을 하고 난 이후 단 한 번도 사진에 대한 열정을 잊은 적이 없음. 한 장의 사진이 수천 가지의 이야기를 담을 수 있다는 것에 매력을 느낌. 여행을 좋아하고<br> 전 세계 각 지역 특색이 담긴 음식을 먹어보는 것을 즐김.</p><h4 id='mainButton' onclick='showSeung();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQASeung();return false;'>FUN FACTS</h4></div>";
-
-var SeungQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSeungQA();return false;'><h3 id='profileHeadBio'>SEUNGHO BRIAN PARK   |   박승호</h3><p id='profileQuestions1'><span id='question'>Q: Dream Vacation?</span><br>A: I have heard that in 100 years the Maldives will be completely under water. I<br> want to personally visit the Maldives to share with future generations the beauty<br> of the islands.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: My friend recommended that I watch Paris, Je T’Aime. When I first watched<br> the movie I found it both shocking and new and interesting at the same time. I<br> realized that such a movie can be considered artistic and it opened my eyes to<br> the freedom of art<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: I calculate how much longer I can sleep based on how long it will take me to<br> go to school and then I regret wasting 15 minutes.<br><br><span id='question'>Q: Something that your friends do not know about you?</span><br>A: I’m scared of cats. Actually, I just don’t like them. Sometimes when I look at<br> cats, I think they can read our minds.</p><p id='profileQuestions2'><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 100년안에 몰디브가 침몰한다고 들었다. 앞으론 몰디브에 가보지 못하는 나의 후손들에게 몰디브의<br> 아름다움을 전하기 위해 직접 느껴보고 싶다.<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 지인의 추천으로 “Paris, Je T’Aime” 라는 영화를 보았다. 충격적이면서도 신선하게 다가왔다. 처<br>음으로 이런 영화도 예술이 될 수가 있다고 느낀 후 예술의 자유로움을 배웠다.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: 학교까지 걸리는 시간을 고려하여 얼마나 더 잘 수 있는지를 계산한다. 그러고 15분을 날린 걸 후회한<br>다.<br><br><span id='question'>Q: 친구들이 잘 모르는 당신에 대한 한 가지는?</span><br>A: 고양이를 무서워한다. 아니 너무 싫다. 고양이들은 인간이 무슨 생각을 하고 있는지 아는 것 같다.</p><h4 id='mainButton' onclick='showSeung();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioSeung();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
-var SeungQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSeung();return false;'><h3 id='profileHeadBio'>SEUNGHO BRIAN PARK   |   박승호</h3><p id='profileQuestions1'><span id='question'>Q: Dream Vacation?</span><br>A: I have heard that in 100 years the Maldives will be completely under water. I<br> want to personally visit the Maldives to share with future generations the beauty<br> of the islands.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: My friend recommended that I watch Paris, Je T’Aime. When I first watched<br> the movie I found it both shocking and new and interesting at the same time. I<br> realized that such a movie can be considered artistic and it opened my eyes to<br> the freedom of art<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: I calculate how much longer I can sleep based on how long it will take me to<br> go to school and then I regret wasting 15 minutes.<br><br><span id='question'>Q: Something that your friends do not know about you?</span><br>A: I’m scared of cats. Actually, I just don’t like them. Sometimes when I look at<br> cats, I think they can read our minds.</p><p id='profileQuestions2'><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 100년안에 몰디브가 침몰한다고 들었다. 앞으론 몰디브에 가보지 못하는 나의 후손들에게 몰디브의<br> 아름다움을 전하기 위해 직접 느껴보고 싶다.<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 지인의 추천으로 “Paris, Je T’Aime” 라는 영화를 보았다. 충격적이면서도 신선하게 다가왔다. 처<br>음으로 이런 영화도 예술이 될 수가 있다고 느낀 후 예술의 자유로움을 배웠다.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: 학교까지 걸리는 시간을 고려하여 얼마나 더 잘 수 있는지를 계산한다. 그러고 15분을 날린 걸 후회한<br>다.<br><br><span id='question'>Q: 친구들이 잘 모르는 당신에 대한 한 가지는?</span><br>A: 고양이를 무서워한다. 아니 너무 싫다. 고양이들은 인간이 무슨 생각을 하고 있는지 아는 것 같다.</p><h4 id='mainButton' onclick='showSeung();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioSeung();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var SeungIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutSeung();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/SeunghoParkBig.png'><h3 id='profileHead'>SEUNGHO BRIAN PARK   |   박승호</h3><h5 id='profileStat'>Title in MOI’M: JUNIOR PHOTOGRAPHER & EDITOR<br>Industry: ECONOMICS<br><br>MOTTO: Creativity is inventing, experimenting, growing,<br> taking risks, breaking rules, making mistakes, and having<br> fun – MARY LOU COOK<br>모토: 창의성은 발명하고, 실험하고, 성장하고, 모험하고, 규칙을 위반하고, 실수<br>하고, 즐기는 것이다 – 메리 루 쿡</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioSeung();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQASeung();return false;'>FUN FACTS</h4></div></div></div>";
+var SeungBio ="<div id='megaPersona2'><h3 id='profileHeadBio'>SEUNGHO BRIAN PARK   |   박승호</h3><p id='profileBio'>Seungho Brian Park spent most of his childhood in the New York metropolitan area and is currently attending Stony Brook University majoring in Economics.<br> Photography has become a recent passion of Seungho. He loves the way a simple still photo can tell thousands of different stories and this passion drives him to<br> continue to work on his craft. In addition to photography, during his free time, Seungho enjoys traveling and trying different types of cuisine from around the world.<br><br>현재 스토니브룩 대학교에서 경제학 전공 중. 사진에 입문을 하고 난 이후 단 한 번도 사진에 대한 열정을 잊은 적이 없음. 한 장의 사진이 수천 가지의 이야기를 담을 수 있다는 것에 매력을 느낌. 여행을 좋아하고<br> 전 세계 각 지역 특색이 담긴 음식을 먹어보는 것을 즐김.</p><h4 id='mainButton' onclick='showSeung();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQASeung();return false;'>FUN FACTS</h4></div>";
+var SeungQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>SEUNGHO BRIAN PARK   |   박승호</h3><p id='profileQuestions1'><span id='question'>Q: Dream Vacation?</span><br>A: I have heard that in 100 years the Maldives will be completely under water. I<br> want to personally visit the Maldives to share with future generations the beauty<br> of the islands.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: My friend recommended that I watch Paris, Je T’Aime. When I first watched<br> the movie I found it both shocking and new and interesting at the same time. I<br> realized that such a movie can be considered artistic and it opened my eyes to<br> the freedom of art<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: I calculate how much longer I can sleep based on how long it will take me to<br> go to school and then I regret wasting 15 minutes.<br><br><span id='question'>Q: Something that your friends do not know about you?</span><br>A: I’m scared of cats. Actually, I just don’t like them. Sometimes when I look at<br> cats, I think they can read our minds.</p><p id='profileQuestions2'><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 100년안에 몰디브가 침몰한다고 들었다. 앞으론 몰디브에 가보지 못하는 나의 후손들에게 몰디브의<br> 아름다움을 전하기 위해 직접 느껴보고 싶다.<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 지인의 추천으로 “Paris, Je T’Aime” 라는 영화를 보았다. 충격적이면서도 신선하게 다가왔다. 처<br>음으로 이런 영화도 예술이 될 수가 있다고 느낀 후 예술의 자유로움을 배웠다.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: 학교까지 걸리는 시간을 고려하여 얼마나 더 잘 수 있는지를 계산한다. 그러고 15분을 날린 걸 후회한<br>다.<br><br><span id='question'>Q: 친구들이 잘 모르는 당신에 대한 한 가지는?</span><br>A: 고양이를 무서워한다. 아니 너무 싫다. 고양이들은 인간이 무슨 생각을 하고 있는지 아는 것 같다.</p><h4 id='mainButton' onclick='showSeung();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioSeung();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ***
 
 // ****Whitney - creative
-var WhitneyIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutWhitney();return false;'><img id='profilePic' src = '/assets/WhitneyLovettBig.png'><h3 id='profileHead'>WHITNEY LOVETT</h3><h5 id='profileStat'>Title in MOI’M: VIDEO PRODUCER<br>Industry: FILM AND TV<br><br>MOTTO: At the end of hardship comes happiness.<br>모토: 고생 끝에 낙이 온다.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioWhitney();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAWhitney();return false;'>FUN FACTS</h4></div>";
-var WhitneyOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutWhitney();return false;'><img id='profilePic' src = '/assets/WhitneyLovettBig.png'><h3 id='profileHead'>WHITNEY LOVETT</h3><h5 id='profileStat'>Title in MOI’M: VIDEO PRODUCER<br>Industry: FILM AND TV<br><br>MOTTO: At the end of hardship comes happiness.<br>모토: 고생 끝에 낙이 온다.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioWhitney();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAWhitney();return false;'>FUN FACTS</h4></div>";
-var WhitneyFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutWhitney();return false;'><img id='profilePic' src = '/assets/WhitneyLovettBig.png'><h3 id='profileHead'>WHITNEY LOVETT</h3><h5 id='profileStat'>Title in MOI’M: VIDEO PRODUCER<br>Industry: FILM AND TV<br><br>MOTTO: At the end of hardship comes happiness.<br>모토: 고생 끝에 낙이 온다.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioWhitney();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAWhitney();return false;'>FUN FACTS</h4></div>";
-
-var WhitneyBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutWhitneyBio();return false;'><h3 id='profileHeadBio'>WHITNEY LOVETT</h3><p id='profileBio'>Whitney Lovett was born in Texas but grew up in Florida, right across the street from Walt Disney World. In college, she studied Radio, TV & Film, with a minor in<br> Journalism and Japanese. During her time in school, she was a founding member and later president and historian for the University of North Texas’s Korean Culture<br> Exchange Club. She also spent a summer studying abroad in Japan, as well as a year in Seoul, South Korea at Yonsei University. Previously, Whitney has written for<br> major music magazines, and worked at a local TV station, an independent film studio in Austin, Texas, and a live event company showcasing corporate, award and<br> fashion shows. Whitney is new to the Big Apple, so when she isn’t busy applying for jobs, you can find her snuggled up with Kimchi (her cat, not the food).<br><br>텍사스에서 태어나 플로리다 디즈니월드 옆에서 자람. 대학에서 RTVF 전공, 저널리즘과 일본어를 부전공. UNT의 한국문화교류클럽의 창립멤버, 회장, 서기 역임. 일본에서 여름학기와 연세대학교에서<br> 1년 교환학생으로 공부. 과거에 주요 음악 잡지, TV방송국, 영화 스튜디오와 라이브 이벤트 회사에서 일한 경력이 있는 뉴욕 새내기. 고양이의 이름이 ‘김치’.</p><h4 id='mainButton' onclick='showWhitney();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAWhitney();return false;'>FUN FACTS</h4></div>";
-var WhitneyBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutWhitney();return false;'><h3 id='profileHeadBio'>WHITNEY LOVETT</h3><p id='profileBio'>Whitney Lovett was born in Texas but grew up in Florida, right across the street from Walt Disney World. In college, she studied Radio, TV & Film, with a minor in<br> Journalism and Japanese. During her time in school, she was a founding member and later president and historian for the University of North Texas’s Korean Culture<br> Exchange Club. She also spent a summer studying abroad in Japan, as well as a year in Seoul, South Korea at Yonsei University. Previously, Whitney has written for<br> major music magazines, and worked at a local TV station, an independent film studio in Austin, Texas, and a live event company showcasing corporate, award and<br> fashion shows. Whitney is new to the Big Apple, so when she isn’t busy applying for jobs, you can find her snuggled up with Kimchi (her cat, not the food).<br><br>텍사스에서 태어나 플로리다 디즈니월드 옆에서 자람. 대학에서 RTVF 전공, 저널리즘과 일본어를 부전공. UNT의 한국문화교류클럽의 창립멤버, 회장, 서기 역임. 일본에서 여름학기와 연세대학교에서<br> 1년 교환학생으로 공부. 과거에 주요 음악 잡지, TV방송국, 영화 스튜디오와 라이브 이벤트 회사에서 일한 경력이 있는 뉴욕 새내기. 고양이의 이름이 ‘김치’.</p><h4 id='mainButton' onclick='showWhitney();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAWhitney();return false;'>FUN FACTS</h4></div>";
-
-var WhitneyQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutWhitneyQA();return false;'><h3 id='profileHeadBio'>WHITNEY LOVETT</h3><p id='profileQuestions1'><span id='question'>Q: Inspirational Film?</span><br>A:  Singing in the Rain, it inspired my love for classic films, dance, and music.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: Backpacking across Europe.<br><br><span id='question'>Q: Perfect Day?</span><br>A: My perfect day would be reading a book by the window or watching dramas,<br> cuddled up with my cat.<br><br><span id='question'>Q: Idol?</span><br>A: Walt Disney, Gene Kelly & TOP</p><p id='profileQuestions2'><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A:  Singing in the Rain을 통해 고전 영화, 춤, 음악에 대한 큰 영감을 받았다.<br><br><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 유럽​​ 전역에 걸친 배낭 여행.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 창가에서 책을 읽거나 고양이랑 드라마를 보는 것.<br><br><span id='question'>Q: 당신만의 우상?</span><br>A: 월트 디즈니, 진 켈리, TOP</p><h4 id='mainButton' onclick='showWhitney();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioWhitney();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
-var WhitneyQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutWhitney();return false;'><h3 id='profileHeadBio'>WHITNEY LOVETT</h3><p id='profileQuestions1'><span id='question'>Q: Inspirational Film?</span><br>A:  Singing in the Rain, it inspired my love for classic films, dance, and music.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: Backpacking across Europe.<br><br><span id='question'>Q: Perfect Day?</span><br>A: My perfect day would be reading a book by the window or watching dramas,<br> cuddled up with my cat.<br><br><span id='question'>Q: Idol?</span><br>A: Walt Disney, Gene Kelly & TOP</p><p id='profileQuestions2'><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A:  Singing in the Rain을 통해 고전 영화, 춤, 음악에 대한 큰 영감을 받았다.<br><br><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 유럽​​ 전역에 걸친 배낭 여행.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 창가에서 책을 읽거나 고양이랑 드라마를 보는 것.<br><br><span id='question'>Q: 당신만의 우상?</span><br>A: 월트 디즈니, 진 켈리, TOP</p><h4 id='mainButton' onclick='showWhitney();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioWhitney();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var WhitneyIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutWhitney();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/WhitneyLovettBig.png'><h3 id='profileHead'>WHITNEY LOVETT</h3><h5 id='profileStat'>Title in MOI’M: VIDEO PRODUCER<br>Industry: FILM AND TV<br><br>MOTTO: At the end of hardship comes happiness.<br>모토: 고생 끝에 낙이 온다.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioWhitney();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAWhitney();return false;'>FUN FACTS</h4></div></div></div>";
+var WhitneyBio ="<div id='megaPersona2'><h3 id='profileHeadBio'>WHITNEY LOVETT</h3><p id='profileBio'>Whitney Lovett was born in Texas but grew up in Florida, right across the street from Walt Disney World. In college, she studied Radio, TV & Film, with a minor in<br> Journalism and Japanese. During her time in school, she was a founding member and later president and historian for the University of North Texas’s Korean Culture<br> Exchange Club. She also spent a summer studying abroad in Japan, as well as a year in Seoul, South Korea at Yonsei University. Previously, Whitney has written for<br> major music magazines, and worked at a local TV station, an independent film studio in Austin, Texas, and a live event company showcasing corporate, award and<br> fashion shows. Whitney is new to the Big Apple, so when she isn’t busy applying for jobs, you can find her snuggled up with Kimchi (her cat, not the food).<br><br>텍사스에서 태어나 플로리다 디즈니월드 옆에서 자람. 대학에서 RTVF 전공, 저널리즘과 일본어를 부전공. UNT의 한국문화교류클럽의 창립멤버, 회장, 서기 역임. 일본에서 여름학기와 연세대학교에서<br> 1년 교환학생으로 공부. 과거에 주요 음악 잡지, TV방송국, 영화 스튜디오와 라이브 이벤트 회사에서 일한 경력이 있는 뉴욕 새내기. 고양이의 이름이 ‘김치’.</p><h4 id='mainButton' onclick='showWhitney();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAWhitney();return false;'>FUN FACTS</h4></div>";
+var WhitneyQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>WHITNEY LOVETT</h3><p id='profileQuestions1'><span id='question'>Q: Inspirational Film?</span><br>A:  Singing in the Rain, it inspired my love for classic films, dance, and music.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: Backpacking across Europe.<br><br><span id='question'>Q: Perfect Day?</span><br>A: My perfect day would be reading a book by the window or watching dramas,<br> cuddled up with my cat.<br><br><span id='question'>Q: Idol?</span><br>A: Walt Disney, Gene Kelly & TOP</p><p id='profileQuestions2'><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A:  Singing in the Rain을 통해 고전 영화, 춤, 음악에 대한 큰 영감을 받았다.<br><br><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 유럽​​ 전역에 걸친 배낭 여행.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 창가에서 책을 읽거나 고양이랑 드라마를 보는 것.<br><br><span id='question'>Q: 당신만의 우상?</span><br>A: 월트 디즈니, 진 켈리, TOP</p><h4 id='mainButton' onclick='showWhitney();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioWhitney();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ***
 
 // ***pr**
@@ -2129,134 +3273,65 @@ var JeongSeokQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>JEONGSEOK JAY Y
 // ****
 
 // ***contributors**
-var contributorsIn="<div id='teamContent' class='animated slideInRight' onclick='closeLogin();return false;'><p class='marquee'>“If you have a talent, use it in every which way possible. Don’t hoard it.” Brenda Francis</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='contributorsTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='contributors1();return false;'><h2 id='leaderHeading'>CONTRIBUTORS</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>Contributors consist of talented individuals who are passionate about MOI’M and contribute their skills to its cause through their photography,<br>international communications/coordination, blogging, and more.</h5><div class='memeberOne'><div id='contributorsMemberOnePic' onclick='showProfileJoslyn();return false;'></div></div><div class='memeberTwo'><div id='contributorsMemberTwoPic' onclick='showProfileAndrew();return false;'></div></div><div class='memeberThree'><div id='contributorsMemberThreePic' onclick='showProfileFei();return false;'></div></div></div>";
-var contributorsIn1="<div id='teamContent' class='animated slideInRight' onclick='closeLogin();return false;'><p class='marquee'>“If you have a talent, use it in every which way possible. Don’t hoard it.” Brenda Francis</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='contributorsRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='contributorsTeamOut1();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='contributors2();return false;'><h2 id='leaderHeading'>CONTRIBUTORS</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>Contributors consist of talented individuals who are passionate about MOI’M and contribute their skills to its cause through their photography,<br>international communications/coordination, blogging, and more.</h5><div class='memeberOne'><div id='contributorsMemberFourPic' onclick='showProfileYoon();return false;'></div></div><div class='memeberTwo'><div id='contributorsMemberFivePic' onclick='showProfileJi();return false;'></div></div><div class='memeberThree'><div id='contributorsMemberSixPic' onclick='showProfileJieun();return false;'></div></div></div>";
-var contributorsIn1a="<div id='teamContent' class='animated slideInRight' onclick='closeLogin();return false;'><p class='marquee'>“If you have a talent, use it in every which way possible. Don’t hoard it.” Brenda Francis</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='contributorsRewind1();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='contributorsTeamOut2();return false;'><h2 id='leaderHeading'>CONTRIBUTORS</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>Contributors consist of talented individuals who are passionate about MOI’M and contribute their skills to its cause through their photography,<br>international communications/coordination, blogging, and more.</h5><div class='memeberOne'><div id='contributorsMemberSevenPic' onclick='showProfileGrace();return false;'></div></div><div class='memeberTwo'><div id='contributorsMemberEightPic' onclick='showProfileJong();return false;'></div></div><div class='memeberThree'><div id='contributorsMemberNinePic' onclick='showProfileJai();return false;'></div></div></div>";
+var contributorsIn="<div id='megaTeam'><p class='marquee'>“If you have a talent, use it in every which way possible. Don’t hoard it.” Brenda Francis</p><h2 id='leaderHeading'>CONTRIBUTORS</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>Contributors consist of talented individuals who are passionate about MOI’M and contribute their skills to its cause through their photography,<br>international communications/coordination, blogging, and more.</h5><div id='contributorsSlide1'><img id='backArrow' src = '/assets/arrowBack.png' onclick='contributorsOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='contributorsSlideFunction1();return false;'><div class='memeberOne'><div id='contributorsMemberOnePic' onclick='showProfileJoslyn();return false;'></div></div><div class='memeberTwo'><div id='contributorsMemberTwoPic' onclick='showProfileAndrew();return false;'></div></div><div class='memeberThree'><div id='contributorsMemberThreePic' onclick='showProfileFei();return false;'></div></div></div></div>";
+var contributorsIn1="<div id='megaTeamA'><div id='contributorsSlide2'><div id='rewindArrow' src = '/assets/rewind.png' onclick='contributorsRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='contributorsSlideFunction2();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='contributorsSlideFunction3();return false;'><div class='memeberOne'><div id='contributorsMemberFourPic' onclick='showProfileYoon();return false;'></div></div><div class='memeberTwo'><div id='contributorsMemberFivePic' onclick='showProfileJi();return false;'></div></div><div class='memeberThree'><div id='contributorsMemberSixPic' onclick='showProfileJieun();return false;'></div></div></div></div>";
+var contributorsIn2="<div id='contributorsSlide1'><img id='backArrow' src = '/assets/arrowBack.png' onclick='contributorsOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='contributorsSlideFunction1();return false;'><div class='memeberOne'><div id='contributorsMemberOnePic' onclick='showProfileJoslyn();return false;'></div></div><div class='memeberTwo'><div id='contributorsMemberTwoPic' onclick='showProfileAndrew();return false;'></div></div><div class='memeberThree'><div id='contributorsMemberThreePic' onclick='showProfileFei();return false;'></div></div></div>";
 
-var contributorsIn2="<div id='teamContent' class='animated slideInLeft' onclick='closeLogin();return false;'><p class='marquee'>“If you have a talent, use it in every which way possible. Don’t hoard it.” Brenda Francis</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='contributorsTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='contributors1();return false;'><h2 id='leaderHeading'>CONTRIBUTORS</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>Contributors consist of talented individuals who are passionate about MOI’M and contribute their skills to its cause through their photography,<br>international communications/coordination, blogging, and more.</h5><div class='memeberOne'><div id='contributorsMemberOnePic' onclick='showProfileJoslyn();return false;'></div></div><div class='memeberTwo'><div id='contributorsMemberTwoPic' onclick='showProfileAndrew();return false;'></div></div><div class='memeberThree'><div id='contributorsMemberThreePic' onclick='showProfileFei();return false;'></div></div></div>";
-var contributorsIn3="<div id='teamContent' class='animated slideInLeft' onclick='closeLogin();return false;'><p class='marquee'>“If you have a talent, use it in every which way possible. Don’t hoard it.” Brenda Francis</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='contributorsRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='contributorsTeamOut1();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='contributors2();return false;'><h2 id='leaderHeading'>CONTRIBUTORS</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>Contributors consist of talented individuals who are passionate about MOI’M and contribute their skills to its cause through their photography,<br>international communications/coordination, blogging, and more.</h5><div class='memeberOne'><div id='contributorsMemberFourPic' onclick='showProfileYoon();return false;'></div></div><div class='memeberTwo'><div id='contributorsMemberFivePic' onclick='showProfileJi();return false;'></div></div><div class='memeberThree'><div id='contributorsMemberSixPic' onclick='showProfileJieun();return false;'></div></div></div>";
-
-var contributorsOut="<div id='teamContent' class='animated slideOutRight' onclick='closeLogin();return false;'><p class='marquee'>“If you have a talent, use it in every which way possible. Don’t hoard it.” Brenda Francis</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='contributorsTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='contributors1();return false;'><h2 id='leaderHeading'>CONTRIBUTORS</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>Contributors consist of talented individuals who are passionate about MOI’M and contribute their skills to its cause through their photography,<br>international communications/coordination, blogging, and more.</h5><div class='memeberOne'><div id='contributorsMemberOnePic'></div></div><div class='memeberTwo'><div id='contributorsMemberTwoPic'></div></div><div class='memeberThree'><div id='contributorsMemberThreePic'></div></div></div>";
-var contributorsOut1="<div id='teamContent' class='animated slideOutLeft' onclick='closeLogin();return false;'><p class='marquee'>“If you have a talent, use it in every which way possible. Don’t hoard it.” Brenda Francis</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='contributorsTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='contributors1();return false;'><h2 id='leaderHeading'>CONTRIBUTORS</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>Contributors consist of talented individuals who are passionate about MOI’M and contribute their skills to its cause through their photography,<br>international communications/coordination, blogging, and more.</h5><div class='memeberOne'><div id='contributorsMemberOnePic'></div></div><div class='memeberTwo'><div id='contributorsMemberTwoPic'></div></div><div class='memeberThree'><div id='contributorsMemberThreePic'></div></div></div>";
-var contributorsOut2="<div id='teamContent' class='animated slideOutRight' onclick='closeLogin();return false;'><p class='marquee'>“If you have a talent, use it in every which way possible. Don’t hoard it.” Brenda Francis</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='contributorsRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='contributorsTeamOut1();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='contributors1();return false;'><h2 id='leaderHeading'>CONTRIBUTORS</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>Contributors consist of talented individuals who are passionate about MOI’M and contribute their skills to its cause through their photography,<br>international communications/coordination, blogging, and more.</h5><div class='memeberOne'><div id='contributorsMemberFourPic'></div></div><div class='memeberTwo'><div id='contributorsMemberFivePic'></div></div><div class='memeberThree'><div id='contributorsMemberSixPic'></div></div></div>";
-var contributorsOut3="<div id='teamContent' class='animated slideOutLeft' onclick='closeLogin();return false;'><p class='marquee'>“If you have a talent, use it in every which way possible. Don’t hoard it.” Brenda Francis</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='contributorsRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='contributorsTeamOut1();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='contributors1();return false;'><h2 id='leaderHeading'>CONTRIBUTORS</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>Contributors consist of talented individuals who are passionate about MOI’M and contribute their skills to its cause through their photography,<br>international communications/coordination, blogging, and more.</h5><div class='memeberOne'><div id='contributorsMemberFourPic'></div></div><div class='memeberTwo'><div id='contributorsMemberFivePic'></div></div><div class='memeberThree'><div id='contributorsMemberSixPic'></div></div></div>";
-var contributorsOut4="<div id='teamContent' class='animated slideOutRight' onclick='closeLogin();return false;'><p class='marquee'>“If you have a talent, use it in every which way possible. Don’t hoard it.” Brenda Francis</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='contributorsRewind1();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='contributorsTeamOut1();return false;'><h2 id='leaderHeading'>CONTRIBUTORS</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>Contributors consist of talented individuals who are passionate about MOI’M and contribute their skills to its cause through their photography,<br>international communications/coordination, blogging, and more.</h5><div class='memeberOne'><div id='contributorsMemberSevenPic'></div></div><div class='memeberTwo'><div id='contributorsMemberEightPic'></div></div><div class='memeberThree'><div id='contributorsMemberNinePic' onclick='showProfileJai();return false;'></div></div></div>";
-var contributorsOut5="<div id='teamContent' class='animated slideOutLeft' onclick='closeLogin();return false;'><p class='marquee'>“If you have a talent, use it in every which way possible. Don’t hoard it.” Brenda Francis</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='contributorsRewind1();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='contributorsTeamOut1();return false;'><h2 id='leaderHeading'>CONTRIBUTORS</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>Contributors consist of talented individuals who are passionate about MOI’M and contribute their skills to its cause through their photography,<br>international communications/coordination, blogging, and more.</h5><div class='memeberOne'><div id='contributorsMemberSevenPic'></div></div><div class='memeberTwo'><div id='contributorsMemberEightPic'></div></div><div class='memeberThree'><div id='contributorsMemberNinePic' onclick='showProfileJai();return false;'></div></div></div>";
-
-
-var contributorsOutForProfile="<div id='teamContent' class='animated slideOutDown' onclick='closeLogin();return false;'><p class='marquee'>“If you have a talent, use it in every which way possible. Don’t hoard it.” Brenda Francis</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='contributorsTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='contributors1();return false;'><h2 id='leaderHeading'>CONTRIBUTORS</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>Contributors consist of talented individuals who are passionate about MOI’M and contribute their skills to its cause through their photography,<br>international communications/coordination, blogging, and more.</h5><div class='memeberOne'><div id='contributorsMemberOnePic'></div></div><div class='memeberTwo'><div id='contributorsMemberTwoPic'></div></div><div class='memeberThree'><div id='contributorsMemberThreePic'></div></div></div>";
-var contributorsInFromProfile="<div id='teamContent' class='animated slideInUp' onclick='closeLogin();return false;'><p class='marquee'>“If you have a talent, use it in every which way possible. Don’t hoard it.” Brenda Francis</p><img id='backArrow' src = '/assets/arrowBack.png' onclick='contributorsTeamOut();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='contributors1();return false;'><h2 id='leaderHeading'>CONTRIBUTORS</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>Contributors consist of talented individuals who are passionate about MOI’M and contribute their skills to its cause through their photography,<br>international communications/coordination, blogging, and more.</h5><div class='memeberOne'><div id='contributorsMemberOnePic' onclick='showProfileJoslyn();return false;'></div></div><div class='memeberTwo'><div id='contributorsMemberTwoPic' onclick='showProfileAndrew();return false;'></div></div><div class='memeberThree'><div id='contributorsMemberThreePic' onclick='showProfileFei();return false;'></div></div></div>";
-var contributors1OutForProfile="<div id='teamContent' class='animated slideOutDown' onclick='closeLogin();return false;'><p class='marquee'>“If you have a talent, use it in every which way possible. Don’t hoard it.” Brenda Francis</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='contributorsRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='contributorsTeamOut1();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='contributors2();return false;'><h2 id='leaderHeading'>CONTRIBUTORS</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>Contributors consist of talented individuals who are passionate about MOI’M and contribute their skills to its cause through their photography,<br>international communications/coordination, blogging, and more.</h5><div class='memeberOne'><div id='contributorsMemberFourPic' onclick='showProfileYoon();return false;'></div></div><div class='memeberTwo'><div id='contributorsMemberFivePic' onclick='showProfileJi();return false;'></div></div><div class='memeberThree'><div id='contributorsMemberSixPic' onclick='showProfileJieun();return false;'></div></div></div>";
-var contributors1InFromProfile="<div id='teamContent' class='animated slideInUp' onclick='closeLogin();return false;'><p class='marquee'>“If you have a talent, use it in every which way possible. Don’t hoard it.” Brenda Francis</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='contributorsRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='contributorsTeamOut1();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='contributors2();return false;'><h2 id='leaderHeading'>CONTRIBUTORS</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>Contributors consist of talented individuals who are passionate about MOI’M and contribute their skills to its cause through their photography,<br>international communications/coordination, blogging, and more.</h5><div class='memeberOne'><div id='contributorsMemberFourPic' onclick='showProfileYoon();return false;'></div></div><div class='memeberTwo'><div id='contributorsMemberFivePic' onclick='showProfileJi();return false;'></div></div><div class='memeberThree'><div id='contributorsMemberSixPic' onclick='showProfileJieun();return false;'></div></div></div>";
-var contributors2OutForProfile="<div id='teamContent' class='animated slideOutDown' onclick='closeLogin();return false;'><p class='marquee'>“If you have a talent, use it in every which way possible. Don’t hoard it.” Brenda Francis</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='contributorsRewind1();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='contributorsTeamOut2();return false;'><h2 id='leaderHeading'>CONTRIBUTORS</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>Contributors consist of talented individuals who are passionate about MOI’M and contribute their skills to its cause through their photography,<br>international communications/coordination, blogging, and more.</h5><div class='memeberOne'><div id='contributorsMemberSevenPic' onclick='showProfileGrace();return false;'></div></div><div class='memeberTwo'><div id='contributorsMemberEightPic' onclick='showProfileJong();return false;'></div></div><div class='memeberThree'><div id='contributorsMemberNinePic' onclick='showProfileJai();return false;'></div></div></div>";
-var contributors2InFromProfile="<div id='teamContent' class='animated slideInUp' onclick='closeLogin();return false;'><p class='marquee'>“If you have a talent, use it in every which way possible. Don’t hoard it.” Brenda Francis</p><div id='rewindArrow' src = '/assets/rewind.png' onclick='contributorsRewind1();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='contributorsTeamOut2();return false;'><h2 id='leaderHeading'>CONTRIBUTORS</h2><img id='membersLine' src = '/assets/line.png'><h5 id='teamIntro'>Contributors consist of talented individuals who are passionate about MOI’M and contribute their skills to its cause through their photography,<br>international communications/coordination, blogging, and more.</h5><div class='memeberOne'><div id='contributorsMemberSevenPic' onclick='showProfileGrace();return false;'></div></div><div class='memeberTwo'><div id='contributorsMemberEightPic' onclick='showProfileJong();return false;'></div></div><div class='memeberThree'><div id='contributorsMemberNinePic' onclick='showProfileJai();return false;'></div></div></div>";
+var contributorsIn3="<div id='megaTeamA'><div id='contributorsSlide3'><div id='rewindArrow' src = '/assets/rewind.png' onclick='contributorsRewind1();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='contributorsOut2();return false;'><div class='memeberOne'><div id='contributorsMemberSevenPic' onclick='showProfileGrace();return false;'></div></div><div class='memeberTwo'><div id='contributorsMemberEightPic' onclick='showProfileJong();return false;'></div></div><div class='memeberThree'><div id='contributorsMemberNinePic' onclick='showProfileJai();return false;'></div></div></div>";
+var contributorsIn4="<div id='megaTeamA'><div id='contributorsSlide2'><div id='rewindArrow' src = '/assets/rewind.png' onclick='contributorsRewind();return false;'>TEAM MENU</div><img id='backArrow' src = '/assets/arrowBack.png' onclick='contributorsSlideFunction2();return false;'><img id='forwardArrow' src = '/assets/arrowForward.png' onclick='contributorsSlideFunction3();return false;'><div class='memeberOne'><div id='contributorsMemberFourPic' onclick='showProfileYoon();return false;'></div></div><div class='memeberTwo'><div id='contributorsMemberFivePic' onclick='showProfileJi();return false;'></div></div><div class='memeberThree'><div id='contributorsMemberSixPic' onclick='showProfileJieun();return false;'></div></div></div>";
 
 // ***Joslyn
-var JoslynIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJoslyn();return false;'><img id='profilePic' src = '/assets/JoslynKimBig.png'><h3 id='profileHead'>JOSLYN KIM | 김진영</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, FASHION<br>Industry: FASHION DESIGNER & ACTRESS<br><br>MOTTO: Absence diminishes small loves and increases great<br> ones, as the wind blows out the candle and fans the bonfire –<br> FRANCOIS LA ROCHEFOUCAULD<br>모토: 상대가 눈앞에 없어지면 보통사랑은 멀어지고 큰사랑은 더욱 커진다. 바람<br>이 불면 촛불은 꺼지고 큰불은 더 불길이 세지는 것처럼 – 라 로슈푸코</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioJoslyn();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAJoslyn();return false;'>FUN FACTS</h4></div>";
-var JoslynOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJoslyn();return false;'><img id='profilePic' src = '/assets/JoslynKimBig.png'><h3 id='profileHead'>JOSLYN KIM | 김진영</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, FASHION<br>Industry: FASHION DESIGNER & ACTRESS<br><br>MOTTO: Absence diminishes small loves and increases great<br> ones, as the wind blows out the candle and fans the bonfire –<br> FRANCOIS LA ROCHEFOUCAULD<br>모토: 상대가 눈앞에 없어지면 보통사랑은 멀어지고 큰사랑은 더욱 커진다. 바람<br>이 불면 촛불은 꺼지고 큰불은 더 불길이 세지는 것처럼 – 라 로슈푸코</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioJoslyn();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAJoslyn();return false;'>FUN FACTS</h4></div>";
-var JoslynFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJoslyn();return false;'><img id='profilePic' src = '/assets/JoslynKimBig.png'><h3 id='profileHead'>JOSLYN KIM | 김진영</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, FASHION<br>Industry: FASHION DESIGNER & ACTRESS<br><br>MOTTO: Absence diminishes small loves and increases great<br> ones, as the wind blows out the candle and fans the bonfire –<br> FRANCOIS LA ROCHEFOUCAULD<br>모토: 상대가 눈앞에 없어지면 보통사랑은 멀어지고 큰사랑은 더욱 커진다. 바람<br>이 불면 촛불은 꺼지고 큰불은 더 불길이 세지는 것처럼 – 라 로슈푸코</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioJoslyn();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAJoslyn();return false;'>FUN FACTS</h4></div>";
-
-var JoslynBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJoslynBio();return false;'><h3 id='profileHeadBio'>JOSLYN KIM | 김진영</h3><p id='profileBio'>Joslyn Kim is currently a student at Fashion Institute of Technology (FIT) studying Fashion Design. Every since she was young, Joslyn looked at objects with a different<br> point of view and this viewpoint led to her passion in the arts and fashion. She has worked as an assistant at various fashion shows and was a finalist from FIT for the<br> Council of Fashion Design Teen Vogue Scholarship. Since coming to New York, Joslyn has participated in short films and music videos as an actor and was actively<br> involved in the Korean Association of New York Art Schools (KANA).<br><br>현재 Fashion Institute of Technology Fashion Design 학부에 재학중이며 어렸을 때부터 사물을 보는 남들과는 다른 시각을 가지고 있던 성향이 예술 분야로 전공을 선택하도록 기여.<br>여러 fashion show assist 경력이 있으며, 2014에는 CFDA TEEN VOGUE에 FIT finalist로 출전. 뉴욕에 와서는 short film이나 뮤직비디오 등에 배우로 출연도 하며,<br>또한 예술 단체인 KANA안에서 활동을 했으며 painting 등 다양한 예술적 경험을 쌓았다.</p><h4 id='mainButton' onclick='showJoslyn();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAJoslyn();return false;'>FUN FACTS</h4></div>";
-var JoslynBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJoslyn();return false;'><h3 id='profileHeadBio'>JOSLYN KIM | 김진영</h3><p id='profileBio'>Joslyn Kim is currently a student at Fashion Institute of Technology (FIT) studying Fashion Design. Every since she was young, Joslyn looked at objects with a different<br> point of view and this viewpoint led to her passion in the arts and fashion. She has worked as an assistant at various fashion shows and was a finalist from FIT for the<br> Council of Fashion Design Teen Vogue Scholarship. Since coming to New York, Joslyn has participated in short films and music videos as an actor and was actively<br> involved in the Korean Association of New York Art Schools (KANA).<br><br>현재 Fashion Institute of Technology Fashion Design 학부에 재학중이며 어렸을 때부터 사물을 보는 남들과는 다른 시각을 가지고 있던 성향이 예술 분야로 전공을 선택하도록 기여.<br>여러 fashion show assist 경력이 있으며, 2014에는 CFDA TEEN VOGUE에 FIT finalist로 출전. 뉴욕에 와서는 short film이나 뮤직비디오 등에 배우로 출연도 하며,<br>또한 예술 단체인 KANA안에서 활동을 했으며 painting 등 다양한 예술적 경험을 쌓았다.</p><h4 id='mainButton' onclick='showJoslyn();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAJoslyn();return false;'>FUN FACTS</h4></div>";
-
-var JoslynQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJoslynQA();return false;'><h3 id='profileHeadBio'>JOSLYN KIM | 김진영</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Taverna Kyclades, located in Astoria at the end of the N,Q lines.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Eight Below. This movie, which is based on a true story about a team of sled<br> dogs that encounter hardships while waiting 175 days for their owner to return, is<br> an inspirational film that shows us that human will is greater than we can<br> imagine.<br><br><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would spend the best day with my family and the people I love.<br><br><span id='question'>Q: Inspiration?</span><br>A: Nature and Earth.</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Taverna Kyclades, Astoria 종점역에 위치<br><br><span id='question'>Q: 가장 감명깊게 본 영화는?</span><br>A: Eight Below,175일간 남극에서 대장이 돌아오기만을 기다리며 혹독한 환경에서 스스로 살아남은<br> 썰매개들의 실화를 바탕으로 만들어진 이 영화는 인간의 의지나 본성도 자신이 알고있는 것 보다 강하리<br>라는 생각과 희망을 주는 이야기이다.<br><br><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 사랑하는 사람들 가족들과 모두 함께 모여 가장 즐겁고 아름다운 날을 보내겠다.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 자연, 지구</p><h4 id='mainButton' onclick='showJoslyn();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioJoslyn();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
-var JoslynQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJoslyn();return false;'><h3 id='profileHeadBio'>JOSLYN KIM | 김진영</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Taverna Kyclades, located in Astoria at the end of the N,Q lines.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Eight Below. This movie, which is based on a true story about a team of sled<br> dogs that encounter hardships while waiting 175 days for their owner to return, is<br> an inspirational film that shows us that human will is greater than we can<br> imagine.<br><br><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would spend the best day with my family and the people I love.<br><br><span id='question'>Q: Inspiration?</span><br>A: Nature and Earth.</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Taverna Kyclades, Astoria 종점역에 위치<br><br><span id='question'>Q: 가장 감명깊게 본 영화는?</span><br>A: Eight Below,175일간 남극에서 대장이 돌아오기만을 기다리며 혹독한 환경에서 스스로 살아남은<br> 썰매개들의 실화를 바탕으로 만들어진 이 영화는 인간의 의지나 본성도 자신이 알고있는 것 보다 강하리<br>라는 생각과 희망을 주는 이야기이다.<br><br><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 사랑하는 사람들 가족들과 모두 함께 모여 가장 즐겁고 아름다운 날을 보내겠다.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 자연, 지구</p><h4 id='mainButton' onclick='showJoslyn();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioJoslyn();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var JoslynIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJoslyn();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/JoslynKimBig.png'><h3 id='profileHead'>JOSLYN KIM | 김진영</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, FASHION<br>Industry: FASHION DESIGNER & ACTRESS<br><br>MOTTO: Absence diminishes small loves and increases great<br> ones, as the wind blows out the candle and fans the bonfire –<br> FRANCOIS LA ROCHEFOUCAULD<br>모토: 상대가 눈앞에 없어지면 보통사랑은 멀어지고 큰사랑은 더욱 커진다. 바람<br>이 불면 촛불은 꺼지고 큰불은 더 불길이 세지는 것처럼 – 라 로슈푸코</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioJoslyn();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAJoslyn();return false;'>FUN FACTS</h4></div></div></div>";
+var JoslynBio ="<div id='megaPersona2'><h3 id='profileHeadBio'>JOSLYN KIM | 김진영</h3><p id='profileBio'>Joslyn Kim is currently a student at Fashion Institute of Technology (FIT) studying Fashion Design. Every since she was young, Joslyn looked at objects with a different<br> point of view and this viewpoint led to her passion in the arts and fashion. She has worked as an assistant at various fashion shows and was a finalist from FIT for the<br> Council of Fashion Design Teen Vogue Scholarship. Since coming to New York, Joslyn has participated in short films and music videos as an actor and was actively<br> involved in the Korean Association of New York Art Schools (KANA).<br><br>현재 Fashion Institute of Technology Fashion Design 학부에 재학중이며 어렸을 때부터 사물을 보는 남들과는 다른 시각을 가지고 있던 성향이 예술 분야로 전공을 선택하도록 기여.<br>여러 fashion show assist 경력이 있으며, 2014에는 CFDA TEEN VOGUE에 FIT finalist로 출전. 뉴욕에 와서는 short film이나 뮤직비디오 등에 배우로 출연도 하며,<br>또한 예술 단체인 KANA안에서 활동을 했으며 painting 등 다양한 예술적 경험을 쌓았다.</p><h4 id='mainButton' onclick='showJoslyn();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAJoslyn();return false;'>FUN FACTS</h4></div>";
+var JoslynQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>JOSLYN KIM | 김진영</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Taverna Kyclades, located in Astoria at the end of the N,Q lines.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Eight Below. This movie, which is based on a true story about a team of sled<br> dogs that encounter hardships while waiting 175 days for their owner to return, is<br> an inspirational film that shows us that human will is greater than we can<br> imagine.<br><br><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would spend the best day with my family and the people I love.<br><br><span id='question'>Q: Inspiration?</span><br>A: Nature and Earth.</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Taverna Kyclades, Astoria 종점역에 위치<br><br><span id='question'>Q: 가장 감명깊게 본 영화는?</span><br>A: Eight Below,175일간 남극에서 대장이 돌아오기만을 기다리며 혹독한 환경에서 스스로 살아남은<br> 썰매개들의 실화를 바탕으로 만들어진 이 영화는 인간의 의지나 본성도 자신이 알고있는 것 보다 강하리<br>라는 생각과 희망을 주는 이야기이다.<br><br><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 사랑하는 사람들 가족들과 모두 함께 모여 가장 즐겁고 아름다운 날을 보내겠다.<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 자연, 지구</p><h4 id='mainButton' onclick='showJoslyn();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioJoslyn();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ****
 
 // ***Andrew
-var AndrewIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAndrew();return false;'><img id='profilePic' src = '/assets/AndrewLeeBig.png'><h3 id='profileHead'>ANDREW LEE | 이상규</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, FILM<br>Industry: FILM AND MEDIA STUDIES<br><br>MOTTO: Stay Focused.<br>모토: 초심을 잃지 말자.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioAndrew();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAAndrew();return false;'>FUN FACTS</h4></div>";
-var AndrewOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAndrew();return false;'><img id='profilePic' src = '/assets/AndrewLeeBig.png'><h3 id='profileHead'>ANDREW LEE | 이상규</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, FILM<br>Industry: FILM AND MEDIA STUDIES<br><br>MOTTO: Stay Focused.<br>모토: 초심을 잃지 말자.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioAndrew();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAAndrew();return false;'>FUN FACTS</h4></div>";
-var AndrewFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAndrew();return false;'><img id='profilePic' src = '/assets/AndrewLeeBig.png'><h3 id='profileHead'>ANDREW LEE | 이상규</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, FILM<br>Industry: FILM AND MEDIA STUDIES<br><br>MOTTO: Stay Focused.<br>모토: 초심을 잃지 말자.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioAndrew();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAAndrew();return false;'>FUN FACTS</h4></div>";
-
-var AndrewBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAndrewBio();return false;'><h3 id='profileHeadBio'>ANDREW LEE | 이상규</h3><p id='profileBio'>Andrew Sanggyu Lee, an M.A. student in the Film Studies Program at Columbia University School of the Arts, also holds an M.A. in Journalism and Mass Communication<br> from Korea University and a B.A. in Communication with a minor in History from Trinity University. He is keenly interested in cultural and critical media theories,<br> particularly as related to race and representation in journalism, television, and film. Raised in both Korea and the U.S., Andrew was exposed to different cultures at a<br> young age, which influenced his interest in the cross-cultural aspects of life. He also engages in various media production practices, including documentary filmmaking,<br> digital artworks via photoshop and other Adobe products, and blog posting. He currently serves as the president as well as the founder of the New York Media Insight<br> Council (a.k.a. NY MIC), a student organization that not only helps students acquire further knowledge in art, sociology, and philosophy, but also nurtures relationships<br> among Korean students from various background—art, philosophy, and humanities—who value visual art and public forums.<br><br>이상규는 미국 트리니티대학교 커뮤니케이션학과와 고려대학교 일반대학원 언론학과를 거치면서 현재 컬럼비아대학교 예술대학원에서 영화학을 공부하고 있다.<br>영화와 드라마 애호가로 미디어와 대중문화현상 전반에 대해 관심이 많다. 전공 탓인지 한국인의 미디어 사용법 행위, 영화와 드라마의 역사와 이론, 그 가운데서도 사회문화사에 큰 관심을 가지고 있다.<br>한국에서 방송국, 영화제작사, 홍보대행사 등에서 일하면서 여러 미디어계의 다양한 활동과 영역에 대해서 안목을 높일 수 있는 기회를 가졌다. 미디어에 관한 관심과 애정을 바탕으로 앞으로도 한국인의 삶,<br>한국문화와 밀접한 관련을 맺고 있는 다양한 주제에 관한 학문적 연구를 시도할 예정이다. 드라마 제작자의 인터뷰를 바탕으로 서술한 논문인 외에 영화평론, 인터뷰, 논문 등을 썼고, 쓰고 있다.</p><h4 id='mainButton' onclick='showAndrew();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAAndrew();return false;'>FUN FACTS</h4></div>";
-var AndrewBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAndrew();return false;'><h3 id='profileHeadBio'>ANDREW LEE | 이상규</h3><p id='profileBio'>Andrew Sanggyu Lee, an M.A. student in the Film Studies Program at Columbia University School of the Arts, also holds an M.A. in Journalism and Mass Communication<br> from Korea University and a B.A. in Communication with a minor in History from Trinity University. He is keenly interested in cultural and critical media theories,<br> particularly as related to race and representation in journalism, television, and film. Raised in both Korea and the U.S., Andrew was exposed to different cultures at a<br> young age, which influenced his interest in the cross-cultural aspects of life. He also engages in various media production practices, including documentary filmmaking,<br> digital artworks via photoshop and other Adobe products, and blog posting. He currently serves as the president as well as the founder of the New York Media Insight<br> Council (a.k.a. NY MIC), a student organization that not only helps students acquire further knowledge in art, sociology, and philosophy, but also nurtures relationships<br> among Korean students from various background—art, philosophy, and humanities—who value visual art and public forums.<br><br>이상규는 미국 트리니티대학교 커뮤니케이션학과와 고려대학교 일반대학원 언론학과를 거치면서 현재 컬럼비아대학교 예술대학원에서 영화학을 공부하고 있다.<br>영화와 드라마 애호가로 미디어와 대중문화현상 전반에 대해 관심이 많다. 전공 탓인지 한국인의 미디어 사용법 행위, 영화와 드라마의 역사와 이론, 그 가운데서도 사회문화사에 큰 관심을 가지고 있다.<br>한국에서 방송국, 영화제작사, 홍보대행사 등에서 일하면서 여러 미디어계의 다양한 활동과 영역에 대해서 안목을 높일 수 있는 기회를 가졌다. 미디어에 관한 관심과 애정을 바탕으로 앞으로도 한국인의 삶,<br>한국문화와 밀접한 관련을 맺고 있는 다양한 주제에 관한 학문적 연구를 시도할 예정이다. 드라마 제작자의 인터뷰를 바탕으로 서술한 논문인 외에 영화평론, 인터뷰, 논문 등을 썼고, 쓰고 있다.</p><h4 id='mainButton' onclick='showAndrew();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAAndrew();return false;'>FUN FACTS</h4></div>";
-
-var AndrewQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAndrewQA();return false;'><h3 id='profileHeadBio'>ANDREW LEE | 이상규</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: As a graduate student with tons of class assignments every day, I usually don’t<br> have time to explore New York, which is really a shame. So I visit restaurants<br> that are near my school. I like to go to this diner called Deluxe, and there I order<br> Sautéed Salmon all the time. It looks good and tastes good, and the interior with<br> a refined atmosphere heightens the experience of food tasting. I really think it’s<br> a good place for students and lovers alike.<br><br><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would probably say “I like you” to the girl I have a crush on.<br><br><span id='question'>Q: The word/phrase you say the most?</span><br>A: Yaaaaaaaaaaaaaaaaaaaaawn!<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps) and<br> why?</span><br>A: I use Showtimes to see what’s playing in selected theaters. It’s a must have<br> app for film goers.<br><br><span id='question'>Q: Wildest Dream?</span><br>A: I want to meet a famous celebrity and have a good time with her</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 식당은?</span><br>A: 부끄러운 얘기지만 요즘 하도 학교 때문에 바빠서 뉴욕을 제대로 구경하지 못했고, 캠퍼스 근처 식당<br>밖에 모른다. 뛰어난 맛집은 아니지만 딜럭스(Deluxe)라는 다이너를 자주 찾아가서 Sauteed<br> Salmon(연어구이 리조또)를 자주 시킨다. 담백하고 고소한 맛이 내 입맛에 딱 맞아서, 항상 이 메뉴를<br> 시켜서 먹는다. 학교근처 식당이라 내부는 좁고 구석을 지나가기엔 불편함도 없지 않지만, 의외로 소소하<br>고 따스한 분위기가 전체적으로 느껴져서 연인들(특히 학생신분인 CC커플!)이 가기엔 딱 안성맞춤인 것<br> 같다.<br><br><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 최근에 짝사랑하고 있는 여자가 있는데 좋아한다고 고백을 할 것이다. “나 사실 너한테 관심 있는<br>데…”라고 첫마디를 건넬 듯…<br><br><span id='question'>Q: 하루중 가장 많이 하는 말은?</span><br>A: 아아아와아아와아와아아아와아와아아아와아아앙아아아아앙~~~ (하품소리)<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: Showtimes이라는 영화앱이 있는데 현재 미국에서 상영하는 영화의 자세한 정보를 제공해 주고, 해<br>당 영화의 상영시간도 알려준다. 영화 애호가들에겐 필수 앱이다.<br><br><span id='question'>Q: 최고의 꿈?</span><br>A: 좋아하는 여자연예인과 달달한 시간을 보내고 싶다.</p><h4 id='mainButton' onclick='showAndrew();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioAndrew();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
-var AndrewQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAndrew();return false;'><h3 id='profileHeadBio'>ANDREW LEE | 이상규</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: As a graduate student with tons of class assignments every day, I usually don’t<br> have time to explore New York, which is really a shame. So I visit restaurants<br> that are near my school. I like to go to this diner called Deluxe, and there I order<br> Sautéed Salmon all the time. It looks good and tastes good, and the interior with<br> a refined atmosphere heightens the experience of food tasting. I really think it’s<br> a good place for students and lovers alike.<br><br><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would probably say “I like you” to the girl I have a crush on.<br><br><span id='question'>Q: The word/phrase you say the most?</span><br>A: Yaaaaaaaaaaaaaaaaaaaaawn!<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps) and<br> why?</span><br>A: I use Showtimes to see what’s playing in selected theaters. It’s a must have<br> app for film goers.<br><br><span id='question'>Q: Wildest Dream?</span><br>A: I want to meet a famous celebrity and have a good time with her</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 식당은?</span><br>A: 부끄러운 얘기지만 요즘 하도 학교 때문에 바빠서 뉴욕을 제대로 구경하지 못했고, 캠퍼스 근처 식당<br>밖에 모른다. 뛰어난 맛집은 아니지만 딜럭스(Deluxe)라는 다이너를 자주 찾아가서 Sauteed<br> Salmon(연어구이 리조또)를 자주 시킨다. 담백하고 고소한 맛이 내 입맛에 딱 맞아서, 항상 이 메뉴를<br> 시켜서 먹는다. 학교근처 식당이라 내부는 좁고 구석을 지나가기엔 불편함도 없지 않지만, 의외로 소소하<br>고 따스한 분위기가 전체적으로 느껴져서 연인들(특히 학생신분인 CC커플!)이 가기엔 딱 안성맞춤인 것<br> 같다.<br><br><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 최근에 짝사랑하고 있는 여자가 있는데 좋아한다고 고백을 할 것이다. “나 사실 너한테 관심 있는<br>데…”라고 첫마디를 건넬 듯…<br><br><span id='question'>Q: 하루중 가장 많이 하는 말은?</span><br>A: 아아아와아아와아와아아아와아와아아아와아아앙아아아아앙~~~ (하품소리)<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: Showtimes이라는 영화앱이 있는데 현재 미국에서 상영하는 영화의 자세한 정보를 제공해 주고, 해<br>당 영화의 상영시간도 알려준다. 영화 애호가들에겐 필수 앱이다.<br><br><span id='question'>Q: 최고의 꿈?</span><br>A: 좋아하는 여자연예인과 달달한 시간을 보내고 싶다.</p><h4 id='mainButton' onclick='showAndrew();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioAndrew();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var AndrewIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutAndrew();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/AndrewLeeBig.png'><h3 id='profileHead'>ANDREW LEE | 이상규</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, FILM<br>Industry: FILM AND MEDIA STUDIES<br><br>MOTTO: Stay Focused.<br>모토: 초심을 잃지 말자.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioAndrew();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAAndrew();return false;'>FUN FACTS</h4></div></div></div>";
+var AndrewBio ="<div id='megaPersona2'><h3 id='profileHeadBio'>ANDREW LEE | 이상규</h3><p id='profileBio'>Andrew Sanggyu Lee, an M.A. student in the Film Studies Program at Columbia University School of the Arts, also holds an M.A. in Journalism and Mass Communication<br> from Korea University and a B.A. in Communication with a minor in History from Trinity University. He is keenly interested in cultural and critical media theories,<br> particularly as related to race and representation in journalism, television, and film. Raised in both Korea and the U.S., Andrew was exposed to different cultures at a<br> young age, which influenced his interest in the cross-cultural aspects of life. He also engages in various media production practices, including documentary filmmaking,<br> digital artworks via photoshop and other Adobe products, and blog posting. He currently serves as the president as well as the founder of the New York Media Insight<br> Council (a.k.a. NY MIC), a student organization that not only helps students acquire further knowledge in art, sociology, and philosophy, but also nurtures relationships<br> among Korean students from various background—art, philosophy, and humanities—who value visual art and public forums.<br><br>이상규는 미국 트리니티대학교 커뮤니케이션학과와 고려대학교 일반대학원 언론학과를 거치면서 현재 컬럼비아대학교 예술대학원에서 영화학을 공부하고 있다.<br>영화와 드라마 애호가로 미디어와 대중문화현상 전반에 대해 관심이 많다. 전공 탓인지 한국인의 미디어 사용법 행위, 영화와 드라마의 역사와 이론, 그 가운데서도 사회문화사에 큰 관심을 가지고 있다.<br>한국에서 방송국, 영화제작사, 홍보대행사 등에서 일하면서 여러 미디어계의 다양한 활동과 영역에 대해서 안목을 높일 수 있는 기회를 가졌다. 미디어에 관한 관심과 애정을 바탕으로 앞으로도 한국인의 삶,<br>한국문화와 밀접한 관련을 맺고 있는 다양한 주제에 관한 학문적 연구를 시도할 예정이다. 드라마 제작자의 인터뷰를 바탕으로 서술한 논문인 외에 영화평론, 인터뷰, 논문 등을 썼고, 쓰고 있다.</p><h4 id='mainButton' onclick='showAndrew();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAAndrew();return false;'>FUN FACTS</h4></div>";
+var AndrewQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>ANDREW LEE | 이상규</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: As a graduate student with tons of class assignments every day, I usually don’t<br> have time to explore New York, which is really a shame. So I visit restaurants<br> that are near my school. I like to go to this diner called Deluxe, and there I order<br> Sautéed Salmon all the time. It looks good and tastes good, and the interior with<br> a refined atmosphere heightens the experience of food tasting. I really think it’s<br> a good place for students and lovers alike.<br><br><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would probably say “I like you” to the girl I have a crush on.<br><br><span id='question'>Q: The word/phrase you say the most?</span><br>A: Yaaaaaaaaaaaaaaaaaaaaawn!<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps) and<br> why?</span><br>A: I use Showtimes to see what’s playing in selected theaters. It’s a must have<br> app for film goers.<br><br><span id='question'>Q: Wildest Dream?</span><br>A: I want to meet a famous celebrity and have a good time with her</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 식당은?</span><br>A: 부끄러운 얘기지만 요즘 하도 학교 때문에 바빠서 뉴욕을 제대로 구경하지 못했고, 캠퍼스 근처 식당<br>밖에 모른다. 뛰어난 맛집은 아니지만 딜럭스(Deluxe)라는 다이너를 자주 찾아가서 Sauteed<br> Salmon(연어구이 리조또)를 자주 시킨다. 담백하고 고소한 맛이 내 입맛에 딱 맞아서, 항상 이 메뉴를<br> 시켜서 먹는다. 학교근처 식당이라 내부는 좁고 구석을 지나가기엔 불편함도 없지 않지만, 의외로 소소하<br>고 따스한 분위기가 전체적으로 느껴져서 연인들(특히 학생신분인 CC커플!)이 가기엔 딱 안성맞춤인 것<br> 같다.<br><br><span id='question'>Q: 내일 지구가 종말하면 난 오늘 OOO를 하겠다.</span><br>A: 최근에 짝사랑하고 있는 여자가 있는데 좋아한다고 고백을 할 것이다. “나 사실 너한테 관심 있는<br>데…”라고 첫마디를 건넬 듯…<br><br><span id='question'>Q: 하루중 가장 많이 하는 말은?</span><br>A: 아아아와아아와아와아아아와아와아아아와아아앙아아아아앙~~~ (하품소리)<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: Showtimes이라는 영화앱이 있는데 현재 미국에서 상영하는 영화의 자세한 정보를 제공해 주고, 해<br>당 영화의 상영시간도 알려준다. 영화 애호가들에겐 필수 앱이다.<br><br><span id='question'>Q: 최고의 꿈?</span><br>A: 좋아하는 여자연예인과 달달한 시간을 보내고 싶다.</p><h4 id='mainButton' onclick='showAndrew();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioAndrew();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ****
 
 // ***Fei
-var FeiIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutFei();return false;'><img id='profilePic' src = '/assets/FeiWangBig'><h3 id='profileHead'>FEI WANG</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, COMMUNICATIONS, CHINA<br>Industry: LUXURY FASHION MARKETING & MANAGEMENT<br><br>MOTTO: Treat others the way you want to be treated.<br>모토: 대접받고 싶은대로 남을 대접하라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioFei();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAFei();return false;'>FUN FACTS</h4></div>";
-var FeiOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutFei();return false;'><img id='profilePic' src = '/assets/FeiWangBig'><h3 id='profileHead'>FEI WANG</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, COMMUNICATIONS, CHINA<br>Industry: LUXURY FASHION MARKETING & MANAGEMENT<br><br>MOTTO: Treat others the way you want to be treated.<br>모토: 대접받고 싶은대로 남을 대접하라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioFei();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAFei();return false;'>FUN FACTS</h4></div>";
-var FeiFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutFei();return false;'><img id='profilePic' src = '/assets/FeiWangBig'><h3 id='profileHead'>FEI WANG</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, COMMUNICATIONS, CHINA<br>Industry: LUXURY FASHION MARKETING & MANAGEMENT<br><br>MOTTO: Treat others the way you want to be treated.<br>모토: 대접받고 싶은대로 남을 대접하라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioFei();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAFei();return false;'>FUN FACTS</h4></div>";
-
-var FeiBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutFeiBio();return false;'><h3 id='profileHeadBio'>FEI WANG</h3><p id='profileBio'>Fei Wang is a current second year MBA student at University of Missouri – Columbia majoring in Management. She participated in a study abroad exchange program in<br> Italy in 2014. Fei received her B.A. in International Administrative Management and Marketing at Missouri State University and Liaoning Normal University in China. She<br> and her friends own a fashion buyers’ shop in mainland China and provide personal shopping customer service. Fei also works with Leessang Company’s stylist team as<br> a stylist consultant and personal buyer for artists from Leessang Company.<br><br>페이는 현재 미주리 대학교 MBA과정에 재학중이다. 국제행정 및 마케팅전공으로 미주리 주립대학과 중국 랴오닝 대학에서 학사학위를 받았으며, 2014년에는 이탈리아에서 교환학생으로 공부하기도 했다.<br>친구와 함께 중국 본토에서 패션바이어를 위한 매장도 운영중이다. 또한 리쌍컴퍼니에서 스타일 컨설턴트 및 소속 아티스트의 개인 바이어로도 일하고 있다.</p><h4 id='mainButton' onclick='showFei();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAFei();return false;'>FUN FACTS</h4></div>";
-var FeiBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutFei();return false;'><h3 id='profileHeadBio'>FEI WANG</h3><p id='profileBio'>Fei Wang is a current second year MBA student at University of Missouri – Columbia majoring in Management. She participated in a study abroad exchange program in<br> Italy in 2014. Fei received her B.A. in International Administrative Management and Marketing at Missouri State University and Liaoning Normal University in China. She<br> and her friends own a fashion buyers’ shop in mainland China and provide personal shopping customer service. Fei also works with Leessang Company’s stylist team as<br> a stylist consultant and personal buyer for artists from Leessang Company.<br><br>페이는 현재 미주리 대학교 MBA과정에 재학중이다. 국제행정 및 마케팅전공으로 미주리 주립대학과 중국 랴오닝 대학에서 학사학위를 받았으며, 2014년에는 이탈리아에서 교환학생으로 공부하기도 했다.<br>친구와 함께 중국 본토에서 패션바이어를 위한 매장도 운영중이다. 또한 리쌍컴퍼니에서 스타일 컨설턴트 및 소속 아티스트의 개인 바이어로도 일하고 있다.</p><h4 id='mainButton' onclick='showFei();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAFei();return false;'>FUN FACTS</h4></div>";
-
-var FeiQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutFeiQA();return false;'><h3 id='profileHeadBio'>FEI WANG</h3><p id='profileQuestions1'><span id='question'>Q: Inspirational Film?</span><br>A: Hachi because it shows that love is unconditional.<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: Weibo because I like all of its functions and I have more than 42,000 followers<br> on it.<br><br><span id='question'>Q: Wildest Dream?</span><br>A: Opening the biggest buyers’ shop in China.<br><br><span id='question'>Q: Inspiration?</span><br>A: I like working and studying with people from different cultures and<br> backgrounds with passion and action.<br><br><span id='question'>Q: Idol?</span><br>A: Gary</p><p id='profileQuestions2'><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 하치 이야기. 사랑이란 무조건적임을 보여준 영화다.<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 웨이보. 기능도 마음에 들고 현재 4만2천명이 넘는 팔로워를 보유하고 있다<br><br><span id='question'>Q: 최고의 꿈?</span><br>A: 중국에서 가장 큰 패션바이어 매장을 여는 것<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 열정적이고 활동적인, 다른 문화와 배경을 가진 사람들과 함께 일하는 것.<br><br><span id='question'>Q: 최고의 아이돌?</span><br>A: 개리!</p><h4 id='mainButton' onclick='showFei();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioFei();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
-var FeiQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutFei();return false;'><h3 id='profileHeadBio'>FEI WANG</h3><p id='profileQuestions1'><span id='question'>Q: Inspirational Film?</span><br>A: Hachi because it shows that love is unconditional.<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: Weibo because I like all of its functions and I have more than 42,000 followers<br> on it.<br><br><span id='question'>Q: Wildest Dream?</span><br>A: Opening the biggest buyers’ shop in China.<br><br><span id='question'>Q: Inspiration?</span><br>A: I like working and studying with people from different cultures and<br> backgrounds with passion and action.<br><br><span id='question'>Q: Idol?</span><br>A: Gary</p><p id='profileQuestions2'><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 하치 이야기. 사랑이란 무조건적임을 보여준 영화다.<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 웨이보. 기능도 마음에 들고 현재 4만2천명이 넘는 팔로워를 보유하고 있다<br><br><span id='question'>Q: 최고의 꿈?</span><br>A: 중국에서 가장 큰 패션바이어 매장을 여는 것<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 열정적이고 활동적인, 다른 문화와 배경을 가진 사람들과 함께 일하는 것.<br><br><span id='question'>Q: 최고의 아이돌?</span><br>A: 개리!</p><h4 id='mainButton' onclick='showFei();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioFei();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var FeiIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutFei();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/FeiWangBig'><h3 id='profileHead'>FEI WANG</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, COMMUNICATIONS, CHINA<br>Industry: LUXURY FASHION MARKETING & MANAGEMENT<br><br>MOTTO: Treat others the way you want to be treated.<br>모토: 대접받고 싶은대로 남을 대접하라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioFei();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAFei();return false;'>FUN FACTS</h4></div></div></div>";
+var FeiBio ="<div id='megaPersona2'><h3 id='profileHeadBio'>FEI WANG</h3><p id='profileBio'>Fei Wang is a current second year MBA student at University of Missouri – Columbia majoring in Management. She participated in a study abroad exchange program in<br> Italy in 2014. Fei received her B.A. in International Administrative Management and Marketing at Missouri State University and Liaoning Normal University in China. She<br> and her friends own a fashion buyers’ shop in mainland China and provide personal shopping customer service. Fei also works with Leessang Company’s stylist team as<br> a stylist consultant and personal buyer for artists from Leessang Company.<br><br>페이는 현재 미주리 대학교 MBA과정에 재학중이다. 국제행정 및 마케팅전공으로 미주리 주립대학과 중국 랴오닝 대학에서 학사학위를 받았으며, 2014년에는 이탈리아에서 교환학생으로 공부하기도 했다.<br>친구와 함께 중국 본토에서 패션바이어를 위한 매장도 운영중이다. 또한 리쌍컴퍼니에서 스타일 컨설턴트 및 소속 아티스트의 개인 바이어로도 일하고 있다.</p><h4 id='mainButton' onclick='showFei();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAFei();return false;'>FUN FACTS</h4></div>";
+var FeiQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>FEI WANG</h3><p id='profileQuestions1'><span id='question'>Q: Inspirational Film?</span><br>A: Hachi because it shows that love is unconditional.<br><br><span id='question'>Q: App that you use the most (excluding Facebook and messaging apps)?</span><br>A: Weibo because I like all of its functions and I have more than 42,000 followers<br> on it.<br><br><span id='question'>Q: Wildest Dream?</span><br>A: Opening the biggest buyers’ shop in China.<br><br><span id='question'>Q: Inspiration?</span><br>A: I like working and studying with people from different cultures and<br> backgrounds with passion and action.<br><br><span id='question'>Q: Idol?</span><br>A: Gary</p><p id='profileQuestions2'><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 하치 이야기. 사랑이란 무조건적임을 보여준 영화다.<br><br><span id='question'>Q: 페이스북과 메신저 앱을 제외한 앱중 가장 자주 사용하는 앱은? 이유는?</span><br>A: 웨이보. 기능도 마음에 들고 현재 4만2천명이 넘는 팔로워를 보유하고 있다<br><br><span id='question'>Q: 최고의 꿈?</span><br>A: 중국에서 가장 큰 패션바이어 매장을 여는 것<br><br><span id='question'>Q: 나에게 영감을 준 한가지?</span><br>A: 열정적이고 활동적인, 다른 문화와 배경을 가진 사람들과 함께 일하는 것.<br><br><span id='question'>Q: 최고의 아이돌?</span><br>A: 개리!</p><h4 id='mainButton' onclick='showFei();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioFei();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ****
 
 // ****Yoon 
-var YoonIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutYoon();return false;'><img id='profilePic' src = '/assets/YoonKyungChoBig'><h3 id='profileHead'>YOON KYUNG CHO | 조윤경</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, EVENT SPECIALIST<br>Industry: FASHION DESIGN<br><br>MOTTO: Everything passes – Osamu Dazai’s No Longer<br> Human<br>모토: 그저 모든것은 지나갈 뿐 입니다 – 다자이 오사무 “인간실격”</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioYoon();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAYoon();return false;'>FUN FACTS</h4></div>";
-var YoonOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutYoon();return false;'><img id='profilePic' src = '/assets/YoonKyungChoBig'><h3 id='profileHead'>YOON KYUNG CHO | 조윤경</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, EVENT SPECIALIST<br>Industry: FASHION DESIGN<br><br>MOTTO: Everything passes – Osamu Dazai’s No Longer<br> Human<br>모토: 그저 모든것은 지나갈 뿐 입니다 – 다자이 오사무 “인간실격”</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioYoon();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAYoon();return false;'>FUN FACTS</h4></div>";
-var YoonFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutYoon();return false;'><img id='profilePic' src = '/assets/YoonKyungChoBig'><h3 id='profileHead'>YOON KYUNG CHO | 조윤경</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, EVENT SPECIALIST<br>Industry: FASHION DESIGN<br><br>MOTTO: Everything passes – Osamu Dazai’s No Longer<br> Human<br>모토: 그저 모든것은 지나갈 뿐 입니다 – 다자이 오사무 “인간실격”</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioYoon();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAYoon();return false;'>FUN FACTS</h4></div>";
-
-var YoonBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutYoonBio();return false;'><h3 id='profileHeadBio'>YOON KYUNG CHO | 조윤경</h3><p id='profileBio'>Yoon Kyung Cho is currently a student at Pratt Institute majoring in Fashion Design. In 2013 she was the Secretary of the Pratt Korean Student Association (PKSA) and in<br> 2014 she was the President of PKSA. She is currently a member of the Public Relation Team of the Korean Association of New York Artists (KANA).<br><br>현재 Pratt Institute, Fashion Design 학과에 재학중이며 학부 한인 학생회 PKSA (Pratt Korean Student Association) 에서 2013년 총무, 2014년 회장으로 활동하였다.<br> 2015년 현재, KANA (Korean Association of New York Artists)에서 홍보팀원으로 활동 중.</p><h4 id='mainButton' onclick='showYoon();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAYoon();return false;'>FUN FACTS</h4></div>";
-var YoonBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutYoon();return false;'><h3 id='profileHeadBio'>YOON KYUNG CHO | 조윤경</h3><p id='profileBio'>Yoon Kyung Cho is currently a student at Pratt Institute majoring in Fashion Design. In 2013 she was the Secretary of the Pratt Korean Student Association (PKSA) and in<br> 2014 she was the President of PKSA. She is currently a member of the Public Relation Team of the Korean Association of New York Artists (KANA).<br><br>현재 Pratt Institute, Fashion Design 학과에 재학중이며 학부 한인 학생회 PKSA (Pratt Korean Student Association) 에서 2013년 총무, 2014년 회장으로 활동하였다.<br> 2015년 현재, KANA (Korean Association of New York Artists)에서 홍보팀원으로 활동 중.</p><h4 id='mainButton' onclick='showYoon();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAYoon();return false;'>FUN FACTS</h4></div>";
-
-var YoonQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutYoonQA();return false;'><h3 id='profileHeadBio'>YOON KYUNG CHO | 조윤경</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Zenkichi located in Williamsburg. Not only is the food very nicely presented,<br> but it has a private atmosphere. I enjoy sharing this best-kept-secret with friends<br> and loved ones.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Eternal Sunshine of the Spotless Mind. Every time I watch the movie, I cry at a<br> different point in the film.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: Helsinki. It is a very clean city where each street, each building is inspired by<br> an interesting design. The city is also small enough that you can walk around the<br> city and naturally find inspiration wherever you go.<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: I like to sleep and so I usually turn off my alarm and go back to sleep (that is<br> why I have 10 alarms set at 1 minute intervals)</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 레스토랑은?</span><br>A: Williamsburg 에 위치한 Zenkichi. 정갈한 음식은 물론 private한 공간과 분위기가 너무 좋아<br>서 소중한 사람들과의 친밀한 시간을 위한 곳<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: Eternal Sunshine 볼 때마다 다른 포인트에서 울게되는 영화<br><br><span id='question'>Q: 당 신이 가고 싶은/ 가봤었던 최고의 휴양지는?</span><br>A: Helsinki. 휴양지는 아니지만, 도시도 너무 깨끗하고 건물 하나, 골목마다 디자인이 스며들어있는 도<br>시이다. 도시도 작아서 여유롭게 돌아다니면서 inspiration을 찾기 너무 최적화된 도시.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: 잠이 많은 편이라서 주로 알람을 끄고 다시 잔다 (그래서 알람을 1분마다, 10개정도 맞춰놓는 건 안비<br>밀)</p><h4 id='mainButton' onclick='showYoon();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioYoon();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
-var YoonQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutYoon();return false;'><h3 id='profileHeadBio'>YOON KYUNG CHO | 조윤경</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Zenkichi located in Williamsburg. Not only is the food very nicely presented,<br> but it has a private atmosphere. I enjoy sharing this best-kept-secret with friends<br> and loved ones.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Eternal Sunshine of the Spotless Mind. Every time I watch the movie, I cry at a<br> different point in the film.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: Helsinki. It is a very clean city where each street, each building is inspired by<br> an interesting design. The city is also small enough that you can walk around the<br> city and naturally find inspiration wherever you go.<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: I like to sleep and so I usually turn off my alarm and go back to sleep (that is<br> why I have 10 alarms set at 1 minute intervals)</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 레스토랑은?</span><br>A: Williamsburg 에 위치한 Zenkichi. 정갈한 음식은 물론 private한 공간과 분위기가 너무 좋아<br>서 소중한 사람들과의 친밀한 시간을 위한 곳<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: Eternal Sunshine 볼 때마다 다른 포인트에서 울게되는 영화<br><br><span id='question'>Q: 당 신이 가고 싶은/ 가봤었던 최고의 휴양지는?</span><br>A: Helsinki. 휴양지는 아니지만, 도시도 너무 깨끗하고 건물 하나, 골목마다 디자인이 스며들어있는 도<br>시이다. 도시도 작아서 여유롭게 돌아다니면서 inspiration을 찾기 너무 최적화된 도시.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: 잠이 많은 편이라서 주로 알람을 끄고 다시 잔다 (그래서 알람을 1분마다, 10개정도 맞춰놓는 건 안비<br>밀)</p><h4 id='mainButton' onclick='showYoon();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioYoon();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var YoonIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutYoon();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/YoonKyungChoBig'><h3 id='profileHead'>YOON KYUNG CHO | 조윤경</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, EVENT SPECIALIST<br>Industry: FASHION DESIGN<br><br>MOTTO: Everything passes – Osamu Dazai’s No Longer<br> Human<br>모토: 그저 모든것은 지나갈 뿐 입니다 – 다자이 오사무 “인간실격”</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioYoon();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAYoon();return false;'>FUN FACTS</h4></div></div></div>";
+var YoonBio ="<div id='megaPersona2'><h3 id='profileHeadBio'>YOON KYUNG CHO | 조윤경</h3><p id='profileBio'>Yoon Kyung Cho is currently a student at Pratt Institute majoring in Fashion Design. In 2013 she was the Secretary of the Pratt Korean Student Association (PKSA) and in<br> 2014 she was the President of PKSA. She is currently a member of the Public Relation Team of the Korean Association of New York Artists (KANA).<br><br>현재 Pratt Institute, Fashion Design 학과에 재학중이며 학부 한인 학생회 PKSA (Pratt Korean Student Association) 에서 2013년 총무, 2014년 회장으로 활동하였다.<br> 2015년 현재, KANA (Korean Association of New York Artists)에서 홍보팀원으로 활동 중.</p><h4 id='mainButton' onclick='showYoon();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAYoon();return false;'>FUN FACTS</h4></div>";
+var YoonQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>YOON KYUNG CHO | 조윤경</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Zenkichi located in Williamsburg. Not only is the food very nicely presented,<br> but it has a private atmosphere. I enjoy sharing this best-kept-secret with friends<br> and loved ones.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Eternal Sunshine of the Spotless Mind. Every time I watch the movie, I cry at a<br> different point in the film.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: Helsinki. It is a very clean city where each street, each building is inspired by<br> an interesting design. The city is also small enough that you can walk around the<br> city and naturally find inspiration wherever you go.<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: I like to sleep and so I usually turn off my alarm and go back to sleep (that is<br> why I have 10 alarms set at 1 minute intervals)</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 레스토랑은?</span><br>A: Williamsburg 에 위치한 Zenkichi. 정갈한 음식은 물론 private한 공간과 분위기가 너무 좋아<br>서 소중한 사람들과의 친밀한 시간을 위한 곳<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: Eternal Sunshine 볼 때마다 다른 포인트에서 울게되는 영화<br><br><span id='question'>Q: 당 신이 가고 싶은/ 가봤었던 최고의 휴양지는?</span><br>A: Helsinki. 휴양지는 아니지만, 도시도 너무 깨끗하고 건물 하나, 골목마다 디자인이 스며들어있는 도<br>시이다. 도시도 작아서 여유롭게 돌아다니면서 inspiration을 찾기 너무 최적화된 도시.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: 잠이 많은 편이라서 주로 알람을 끄고 다시 잔다 (그래서 알람을 1분마다, 10개정도 맞춰놓는 건 안비<br>밀)</p><h4 id='mainButton' onclick='showYoon();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioYoon();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ***
 
 // ****Ji 
-var JiIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJi();return false;'><img id='profilePic' src = '/assets/JiInYooBig'><h3 id='profileHead'>JI IN YOO | 유지인</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, EVENT SPECIALIST<br>Industry: FASHION & COSMETICS BUSINESS<br><br>MOTTO: Don’t fear the future and don’t regret the past.<br> Human<br>모토: 미래를 두려워하지 말고 과거를 후회하지 말라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioJi();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAJi();return false;'>FUN FACTS</h4></div>";
-var JiOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJi();return false;'><img id='profilePic' src = '/assets/JiInYooBig'><h3 id='profileHead'>JI IN YOO | 유지인</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, EVENT SPECIALIST<br>Industry: FASHION & COSMETICS BUSINESS<br><br>MOTTO: Don’t fear the future and don’t regret the past.<br> Human<br>모토: 미래를 두려워하지 말고 과거를 후회하지 말라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioJi();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAJi();return false;'>FUN FACTS</h4></div>";
-var JiFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJi();return false;'><img id='profilePic' src = '/assets/JiInYooBig'><h3 id='profileHead'>JI IN YOO | 유지인</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, EVENT SPECIALIST<br>Industry: FASHION & COSMETICS BUSINESS<br><br>MOTTO: Don’t fear the future and don’t regret the past.<br> Human<br>모토: 미래를 두려워하지 말고 과거를 후회하지 말라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioJi();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAJi();return false;'>FUN FACTS</h4></div>";
-
-var JiBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJiBio();return false;'><h3 id='profileHeadBio'>JI IN YOO | 유지인</h3><p id='profileBio'>The second out of four siblings (1 son, 3 daughters), Ji In Yoo has been ambitious and curious from a young age. If she wanted to do something,<br> she had to do it; if she wanted something, she had to have it; and if she had a question, she needed to know the answer. Ji In graduated from an arts high school<br> and she received her B.F.A. in Fashion Design from the Fashion Institute of Technology (FIT). After graduating, she worked as a fashion designer before moving to her current<br> job related to the cosmetics industry.<br><br>1남 3녀, 사형제 중에서 둘째로 태어나, 어렸을 때부터 욕심이 많고, 호기심이 많았다. 하고 싶은 것이 있으면 꼭 해야했고, 갖고 싶은 것이 있으면 가져야 했고, 궁금한 것이 있으면 알아야 했다.<br> 예술고등학교를 졸업했고, 뉴욕F.I.T에서 패션디자인을 전공한 후 패션디자이너로 일을 하다가, 지금은 화장품관련 일을 하고있다. “일하는 게 좋고, 사람만나는 걸 좋아하는 내가 앞으로 10년20년, 어떤 모습으로<br> 살고있을 지 정말 기대된다”</p><h4 id='mainButton' onclick='showJi();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAJi();return false;'>FUN FACTS</h4></div>";
-var JiBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJi();return false;'><h3 id='profileHeadBio'>JI IN YOO | 유지인</h3><p id='profileBio'>The second out of four siblings (1 son, 3 daughters), Ji In Yoo has been ambitious and curious from a young age. If she wanted to do something,<br> she had to do it; if she wanted something, she had to have it; and if she had a question, she needed to know the answer. Ji In graduated from an arts high school<br> and she received her B.F.A. in Fashion Design from the Fashion Institute of Technology (FIT). After graduating, she worked as a fashion designer before moving to her current<br> job related to the cosmetics industry.<br><br>1남 3녀, 사형제 중에서 둘째로 태어나, 어렸을 때부터 욕심이 많고, 호기심이 많았다. 하고 싶은 것이 있으면 꼭 해야했고, 갖고 싶은 것이 있으면 가져야 했고, 궁금한 것이 있으면 알아야 했다.<br> 예술고등학교를 졸업했고, 뉴욕F.I.T에서 패션디자인을 전공한 후 패션디자이너로 일을 하다가, 지금은 화장품관련 일을 하고있다. “일하는 게 좋고, 사람만나는 걸 좋아하는 내가 앞으로 10년20년, 어떤 모습으로<br> 살고있을 지 정말 기대된다”</p><h4 id='mainButton' onclick='showJi();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAJi();return false;'>FUN FACTS</h4></div>";
-
-var JiQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJiQA();return false;'><h3 id='profileHeadBio'>JI IN YOO | 유지인</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Tomi Jazz. A small Japanese jazz bar/restaurant located on 53rd Street on the<br> Eastside. If you ring the doorbell next to the door, a Japanese waiter will open<br> the door for you. There is a happy hour every day until 7:30 pm and so you can<br> enjoy food and drinks at a reasonable price while enjoying jazz music. My<br> favorite dishes are their mentai pasta, omurice, and shumai. Due to its great<br> atmosphere and good food, Tomi Jazz is the perfect place for a date or to enjoy<br> with friends.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Although it is an old movie, my inspirational film is The Cure (Good Bye My<br> Friend). I remember watching it has a kid and bawling my eyes out.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: Greece. I really want to go to Greece. I want to go to the place where Son<br> Yejin rode her bicycle in an old Pocari Sweat commercial.<br><br><span id='question'>Q: Perfect Day?</span><br>A: Sweetness after bitterness. Hehehe A glass of cold beer with friends after<br> exercising or getting off of work.<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Marriage</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: TOMI JAZZ. 53가 이스트에 위치한 조그마한 일본 재즈바 겸 레스토랑. 문 옆에 있는 초인종을 누<br>르면 점잖은 일본인 웨이터가 문을 열어준다. 매일 오후7:30까지는 해피아워로 음식도, 음료도 저렴한<br> 가격에 즐길 수 있고, 재즈음악도 즐길수 있다. 명란젓파스타와, 오므라이스, 슈마이는 내가 제일 좋아하<br>는 음식이다. 분위기도 좋고 음식맛도 좋아 데이트장소, 혹은 친구들끼리 방문하기 딱 좋은 장소이다.<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 아주 오랜된 영화인데 ,GOOD BYE MY FRIEND라는 영화. 어렸을 때, 정말 눈물 콧물 다 짜내면서<br> 봤던 영화다.<br><br><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 그리스. 정말 가보고싶다. 예전에 손예진이 포카리 스웨트 광고에서 자전거 타고 내려오던… 바로 그<br> 곳!<br><br><span id='question'>Q: 완벽한 하루?</span><br>A: 고진감래! 운동 후 혹은 퇴근 후 친구와 맥주한잔??ㅋㅋㅋ<br><br><span id='question'>Q: 나에게 가장 큰 도전?</span><br>A: 결혼.</p><h4 id='mainButton' onclick='showJi();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioJi();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
-var JiQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJi();return false;'><h3 id='profileHeadBio'>JI IN YOO | 유지인</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Tomi Jazz. A small Japanese jazz bar/restaurant located on 53rd Street on the<br> Eastside. If you ring the doorbell next to the door, a Japanese waiter will open<br> the door for you. There is a happy hour every day until 7:30 pm and so you can<br> enjoy food and drinks at a reasonable price while enjoying jazz music. My<br> favorite dishes are their mentai pasta, omurice, and shumai. Due to its great<br> atmosphere and good food, Tomi Jazz is the perfect place for a date or to enjoy<br> with friends.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Although it is an old movie, my inspirational film is The Cure (Good Bye My<br> Friend). I remember watching it has a kid and bawling my eyes out.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: Greece. I really want to go to Greece. I want to go to the place where Son<br> Yejin rode her bicycle in an old Pocari Sweat commercial.<br><br><span id='question'>Q: Perfect Day?</span><br>A: Sweetness after bitterness. Hehehe A glass of cold beer with friends after<br> exercising or getting off of work.<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Marriage</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: TOMI JAZZ. 53가 이스트에 위치한 조그마한 일본 재즈바 겸 레스토랑. 문 옆에 있는 초인종을 누<br>르면 점잖은 일본인 웨이터가 문을 열어준다. 매일 오후7:30까지는 해피아워로 음식도, 음료도 저렴한<br> 가격에 즐길 수 있고, 재즈음악도 즐길수 있다. 명란젓파스타와, 오므라이스, 슈마이는 내가 제일 좋아하<br>는 음식이다. 분위기도 좋고 음식맛도 좋아 데이트장소, 혹은 친구들끼리 방문하기 딱 좋은 장소이다.<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 아주 오랜된 영화인데 ,GOOD BYE MY FRIEND라는 영화. 어렸을 때, 정말 눈물 콧물 다 짜내면서<br> 봤던 영화다.<br><br><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 그리스. 정말 가보고싶다. 예전에 손예진이 포카리 스웨트 광고에서 자전거 타고 내려오던… 바로 그<br> 곳!<br><br><span id='question'>Q: 완벽한 하루?</span><br>A: 고진감래! 운동 후 혹은 퇴근 후 친구와 맥주한잔??ㅋㅋㅋ<br><br><span id='question'>Q: 나에게 가장 큰 도전?</span><br>A: 결혼.</p><h4 id='mainButton' onclick='showJi();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioJi();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var JiIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJi();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/JiInYooBig'><h3 id='profileHead'>JI IN YOO | 유지인</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, EVENT SPECIALIST<br>Industry: FASHION & COSMETICS BUSINESS<br><br>MOTTO: Don’t fear the future and don’t regret the past.<br> Human<br>모토: 미래를 두려워하지 말고 과거를 후회하지 말라.</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioJi();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAJi();return false;'>FUN FACTS</h4></div></div></div>";
+var JiBio ="<div id='megaPersona2'><h3 id='profileHeadBio'>JI IN YOO | 유지인</h3><p id='profileBio'>The second out of four siblings (1 son, 3 daughters), Ji In Yoo has been ambitious and curious from a young age. If she wanted to do something,<br> she had to do it; if she wanted something, she had to have it; and if she had a question, she needed to know the answer. Ji In graduated from an arts high school<br> and she received her B.F.A. in Fashion Design from the Fashion Institute of Technology (FIT). After graduating, she worked as a fashion designer before moving to her current<br> job related to the cosmetics industry.<br><br>1남 3녀, 사형제 중에서 둘째로 태어나, 어렸을 때부터 욕심이 많고, 호기심이 많았다. 하고 싶은 것이 있으면 꼭 해야했고, 갖고 싶은 것이 있으면 가져야 했고, 궁금한 것이 있으면 알아야 했다.<br> 예술고등학교를 졸업했고, 뉴욕F.I.T에서 패션디자인을 전공한 후 패션디자이너로 일을 하다가, 지금은 화장품관련 일을 하고있다. “일하는 게 좋고, 사람만나는 걸 좋아하는 내가 앞으로 10년20년, 어떤 모습으로<br> 살고있을 지 정말 기대된다”</p><h4 id='mainButton' onclick='showJi();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAJi();return false;'>FUN FACTS</h4></div>";
+var JiQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>JI IN YOO | 유지인</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: Tomi Jazz. A small Japanese jazz bar/restaurant located on 53rd Street on the<br> Eastside. If you ring the doorbell next to the door, a Japanese waiter will open<br> the door for you. There is a happy hour every day until 7:30 pm and so you can<br> enjoy food and drinks at a reasonable price while enjoying jazz music. My<br> favorite dishes are their mentai pasta, omurice, and shumai. Due to its great<br> atmosphere and good food, Tomi Jazz is the perfect place for a date or to enjoy<br> with friends.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Although it is an old movie, my inspirational film is The Cure (Good Bye My<br> Friend). I remember watching it has a kid and bawling my eyes out.<br><br><span id='question'>Q: Dream Vacation?</span><br>A: Greece. I really want to go to Greece. I want to go to the place where Son<br> Yejin rode her bicycle in an old Pocari Sweat commercial.<br><br><span id='question'>Q: Perfect Day?</span><br>A: Sweetness after bitterness. Hehehe A glass of cold beer with friends after<br> exercising or getting off of work.<br><br><span id='question'>Q: Biggest Challenge?</span><br>A: Marriage</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: TOMI JAZZ. 53가 이스트에 위치한 조그마한 일본 재즈바 겸 레스토랑. 문 옆에 있는 초인종을 누<br>르면 점잖은 일본인 웨이터가 문을 열어준다. 매일 오후7:30까지는 해피아워로 음식도, 음료도 저렴한<br> 가격에 즐길 수 있고, 재즈음악도 즐길수 있다. 명란젓파스타와, 오므라이스, 슈마이는 내가 제일 좋아하<br>는 음식이다. 분위기도 좋고 음식맛도 좋아 데이트장소, 혹은 친구들끼리 방문하기 딱 좋은 장소이다.<br><br><span id='question'>Q: 가장 감명깊게 본 영화는? 그 이유는?</span><br>A: 아주 오랜된 영화인데 ,GOOD BYE MY FRIEND라는 영화. 어렸을 때, 정말 눈물 콧물 다 짜내면서<br> 봤던 영화다.<br><br><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 그리스. 정말 가보고싶다. 예전에 손예진이 포카리 스웨트 광고에서 자전거 타고 내려오던… 바로 그<br> 곳!<br><br><span id='question'>Q: 완벽한 하루?</span><br>A: 고진감래! 운동 후 혹은 퇴근 후 친구와 맥주한잔??ㅋㅋㅋ<br><br><span id='question'>Q: 나에게 가장 큰 도전?</span><br>A: 결혼.</p><h4 id='mainButton' onclick='showJi();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioJi();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ***
 
 // ****Jieun 
-var JieunIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJieun();return false;'><img id='profilePic' src = '/assets/JieunLimBig'><h3 id='profileHead'>JIEUN LIM | 임지은</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, SOCIAL OUTREACH AND<br> RESPONSIBILITY ANALYST<br>Industry: LAW<br><br>MOTTO: Live fearlessly, compassionately, and honestly<br>모토: 대담하게, 정답게 그리고 정직하게 살아라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioJieun();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAJieun();return false;'>FUN FACTS</h4></div>";
-var JieunOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJieun();return false;'><img id='profilePic' src = '/assets/JieunLimBig'><h3 id='profileHead'>JIEUN LIM | 임지은</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, SOCIAL OUTREACH AND<br> RESPONSIBILITY ANALYST<br>Industry: LAW<br><br>MOTTO: Live fearlessly, compassionately, and honestly<br>모토: 대담하게, 정답게 그리고 정직하게 살아라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioJieun();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAJieun();return false;'>FUN FACTS</h4></div>";
-var JieunFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJieun();return false;'><img id='profilePic' src = '/assets/JieunLimBig'><h3 id='profileHead'>JIEUN LIM | 임지은</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, SOCIAL OUTREACH AND<br> RESPONSIBILITY ANALYST<br>Industry: LAW<br><br>MOTTO: Live fearlessly, compassionately, and honestly<br>모토: 대담하게, 정답게 그리고 정직하게 살아라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioJieun();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAJieun();return false;'>FUN FACTS</h4></div>";
-
-var JieunBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJieunBio();return false;'><h3 id='profileHeadBio'>JIEUN LIM | 임지은</h3><p id='profileBio'>Jieun Lim is currently a JD candidate at Harvard Law School. He graduated from Columbia University in 2014 with a Bachelor’s degree in Political Science and a<br> Concentration in East Asian Languages and Cultures. Prior to law school, Jieun was active in Columbia’s Korean Students Association (KSA), and continues to be involved<br> in the Korean Association of Harvard Law School (KAHLS). He enjoys hip-hop/urban dance, jazz piano, and teaching.<br><br>현재 하버드 로스쿨에 JD(Juris Doctor)과정으로 재학중이다. 콜럼비아 대학에서 정치학을 전공하고 동아시아 언어 및 문화학을 공부했으며 2014년 학사학위를 취득하였다.<br>콜럼비아 재학당시 학부학생회에서 활동하였고, 현재도 하버드 로스쿨 한인학생회에서 활동중이다. 힙합/얼반댄스, 재즈피아노 그리고 가르치는 일을 좋아한다.</p><h4 id='mainButton' onclick='showJieun();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAJieun();return false;'>FUN FACTS</h4></div>";
-var JieunBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJieun();return false;'><h3 id='profileHeadBio'>JIEUN LIM | 임지은</h3><p id='profileBio'>Jieun Lim is currently a JD candidate at Harvard Law School. He graduated from Columbia University in 2014 with a Bachelor’s degree in Political Science and a<br> Concentration in East Asian Languages and Cultures. Prior to law school, Jieun was active in Columbia’s Korean Students Association (KSA), and continues to be involved<br> in the Korean Association of Harvard Law School (KAHLS). He enjoys hip-hop/urban dance, jazz piano, and teaching.<br><br>현재 하버드 로스쿨에 JD(Juris Doctor)과정으로 재학중이다. 콜럼비아 대학에서 정치학을 전공하고 동아시아 언어 및 문화학을 공부했으며 2014년 학사학위를 취득하였다.<br>콜럼비아 재학당시 학부학생회에서 활동하였고, 현재도 하버드 로스쿨 한인학생회에서 활동중이다. 힙합/얼반댄스, 재즈피아노 그리고 가르치는 일을 좋아한다.</p><h4 id='mainButton' onclick='showJieun();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAJieun();return false;'>FUN FACTS</h4></div>";
-
-var JieunQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJieunQA();return false;'><h3 id='profileHeadBio'>JIEUN LIM | 임지은</h3><p id='profileQuestions1c'><span id='question'>Q: Something that my friends don’t know about me?</span><br>A: I like country music.<br><br><span id='question'>Q: What I do when I wake up?</span><br>A: Waste time. Then make my bed and take a shower..<br><br><span id='question'>Q: Inspiration?</span><br>A: Challenges.<br><br><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would call my family and friends to tell them I love them, but otherwise<br> continue to live life normally.</p><p id='profileQuestions2'><span id='question'>Q: 친구들이 잘 모르는 당신에 대한 한 가지는?</span><br>A: 나는 컨트리음악을 좋아한다.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: 시간 낭비. 그 다음에 침대를 정리하고 샤워를 한다.<br><br><span id='question'>Q: 나에게 영감을 주는 것?</span><br>A: 도전<br><br><span id='question'>Q: 내일 지구의 종말이 온다면?</span><br>A: 식구들과 친구에게 전화를 걸어 사랑한다 말할 것이다. 그리고 똑같이 일상을 살아가겠다.</p><h4 id='mainButton' onclick='showJieun();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioJieun();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
-var JieunQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJieun();return false;'><h3 id='profileHeadBio'>JIEUN LIM | 임지은</h3><p id='profileQuestions1c'><span id='question'>Q: Something that my friends don’t know about me?</span><br>A: I like country music.<br><br><span id='question'>Q: What I do when I wake up?</span><br>A: Waste time. Then make my bed and take a shower..<br><br><span id='question'>Q: Inspiration?</span><br>A: Challenges.<br><br><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would call my family and friends to tell them I love them, but otherwise<br> continue to live life normally.</p><p id='profileQuestions2'><span id='question'>Q: 친구들이 잘 모르는 당신에 대한 한 가지는?</span><br>A: 나는 컨트리음악을 좋아한다.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: 시간 낭비. 그 다음에 침대를 정리하고 샤워를 한다.<br><br><span id='question'>Q: 나에게 영감을 주는 것?</span><br>A: 도전<br><br><span id='question'>Q: 내일 지구의 종말이 온다면?</span><br>A: 식구들과 친구에게 전화를 걸어 사랑한다 말할 것이다. 그리고 똑같이 일상을 살아가겠다.</p><h4 id='mainButton' onclick='showJieun();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioJieun();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var JieunIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJieun();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/JieunLimBig'><h3 id='profileHead'>JIEUN LIM | 임지은</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, SOCIAL OUTREACH AND<br> RESPONSIBILITY ANALYST<br>Industry: LAW<br><br>MOTTO: Live fearlessly, compassionately, and honestly<br>모토: 대담하게, 정답게 그리고 정직하게 살아라</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioJieun();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAJieun();return false;'>FUN FACTS</h4></div></div></div>";
+var JieunBio ="<div id='megaPersona2'><h3 id='profileHeadBio'>JIEUN LIM | 임지은</h3><p id='profileBio'>Jieun Lim is currently a JD candidate at Harvard Law School. He graduated from Columbia University in 2014 with a Bachelor’s degree in Political Science and a<br> Concentration in East Asian Languages and Cultures. Prior to law school, Jieun was active in Columbia’s Korean Students Association (KSA), and continues to be involved<br> in the Korean Association of Harvard Law School (KAHLS). He enjoys hip-hop/urban dance, jazz piano, and teaching.<br><br>현재 하버드 로스쿨에 JD(Juris Doctor)과정으로 재학중이다. 콜럼비아 대학에서 정치학을 전공하고 동아시아 언어 및 문화학을 공부했으며 2014년 학사학위를 취득하였다.<br>콜럼비아 재학당시 학부학생회에서 활동하였고, 현재도 하버드 로스쿨 한인학생회에서 활동중이다. 힙합/얼반댄스, 재즈피아노 그리고 가르치는 일을 좋아한다.</p><h4 id='mainButton' onclick='showJieun();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAJieun();return false;'>FUN FACTS</h4></div>";
+var JieunQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>JIEUN LIM | 임지은</h3><p id='profileQuestions1c'><span id='question'>Q: Something that my friends don’t know about me?</span><br>A: I like country music.<br><br><span id='question'>Q: What I do when I wake up?</span><br>A: Waste time. Then make my bed and take a shower..<br><br><span id='question'>Q: Inspiration?</span><br>A: Challenges.<br><br><span id='question'>Q: If tomorrow was the Apocalypse?</span><br>A: I would call my family and friends to tell them I love them, but otherwise<br> continue to live life normally.</p><p id='profileQuestions2'><span id='question'>Q: 친구들이 잘 모르는 당신에 대한 한 가지는?</span><br>A: 나는 컨트리음악을 좋아한다.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: 시간 낭비. 그 다음에 침대를 정리하고 샤워를 한다.<br><br><span id='question'>Q: 나에게 영감을 주는 것?</span><br>A: 도전<br><br><span id='question'>Q: 내일 지구의 종말이 온다면?</span><br>A: 식구들과 친구에게 전화를 걸어 사랑한다 말할 것이다. 그리고 똑같이 일상을 살아가겠다.</p><h4 id='mainButton' onclick='showJieun();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioJieun();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ***
 
 // ****Grace - contributors
-var GraceIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutGrace();return false;'><img id='profilePic' src = '/assets/GraceBatistaBig.png'><h3 id='profileHead'>GRACE BATISTA</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, JUNIOR DESIGNER<br>Industry: ART<br><br>MOTTO: “A coward dies a thousand times before his death,<br> but the valiant taste of death but once.” – William<br> Shakespeare, Julius Caesar<br>모토: “겁쟁이는 수십번 죽는듯 하지만, 용기있는 자는 죽음을 단한번 맛본다.” –<br> 셰익스피어의 줄리어스 시저에서</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioGrace();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAGrace();return false;'>FUN FACTS</h4></div>";
-var GraceOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutGrace();return false;'><img id='profilePic' src = '/assets/GraceBatistaBig.png'><h3 id='profileHead'>GRACE BATISTA</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, JUNIOR DESIGNER<br>Industry: ART<br><br>MOTTO: “A coward dies a thousand times before his death,<br> but the valiant taste of death but once.” – William<br> Shakespeare, Julius Caesar<br>모토: “겁쟁이는 수십번 죽는듯 하지만, 용기있는 자는 죽음을 단한번 맛본다.” –<br> 셰익스피어의 줄리어스 시저에서</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioGrace();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAGrace();return false;'>FUN FACTS</h4></div>";
-var GraceFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutGrace();return false;'><img id='profilePic' src = '/assets/GraceBatistaBig.png'><h3 id='profileHead'>GRACE BATISTA</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, JUNIOR DESIGNER<br>Industry: ART<br><br>MOTTO: “A coward dies a thousand times before his death,<br> but the valiant taste of death but once.” – William<br> Shakespeare, Julius Caesar<br>모토: “겁쟁이는 수십번 죽는듯 하지만, 용기있는 자는 죽음을 단한번 맛본다.” –<br> 셰익스피어의 줄리어스 시저에서</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioGrace();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAGrace();return false;'>FUN FACTS</h4></div>";
-
-var GraceBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutGraceBio();return false;'><h3 id='profileHeadBio'>GRACE BATISTA</h3><p id='profileBio'>GRACE BATISTA was born in Texas but grew up in Florida, right across the street from Walt Disney World. In college, she studied Radio, TV & Film, with a minor in<br> Journalism and Japanese. During her time in school, she was a founding member and later president and historian for the University of North Texas’s Korean Culture<br> Exchange Club. She also spent a summer studying abroad in Japan, as well as a year in Seoul, South Korea at Yonsei University. Previously, Grace has written for<br> major music magazines, and worked at a local TV station, an independent film studio in Austin, Texas, and a live event company showcasing corporate, award and<br> fashion shows. Grace is new to the Big Apple, so when she isn’t busy applying for jobs, you can find her snuggled up with Kimchi (her cat, not the food).<br><br>텍사스에서 태어나 플로리다 디즈니월드 옆에서 자람. 대학에서 RTVF 전공, 저널리즘과 일본어를 부전공. UNT의 한국문화교류클럽의 창립멤버, 회장, 서기 역임. 일본에서 여름학기와<br> 연세대학교에서 1년 교환학생으로 공부. 과거에 주요 음악 잡지, TV방송국, 영화 스튜디오와 라이브 이벤트 회사에서 일한 경력이 있는 뉴욕 새내기. 고양이의 이름이 ‘김치’.</p><h4 id='mainButton' onclick='showGrace();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAGrace();return false;'>FUN FACTS</h4></div>";
-var GraceBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutGrace();return false;'><h3 id='profileHeadBio'>GRACE BATISTA</h3><p id='profileBio'>GRACE BATISTA was born in Texas but grew up in Florida, right across the street from Walt Disney World. In college, she studied Radio, TV & Film, with a minor in<br> Journalism and Japanese. During her time in school, she was a founding member and later president and historian for the University of North Texas’s Korean Culture<br> Exchange Club. She also spent a summer studying abroad in Japan, as well as a year in Seoul, South Korea at Yonsei University. Previously, Grace has written for<br> major music magazines, and worked at a local TV station, an independent film studio in Austin, Texas, and a live event company showcasing corporate, award and<br> fashion shows. Grace is new to the Big Apple, so when she isn’t busy applying for jobs, you can find her snuggled up with Kimchi (her cat, not the food).<br><br>텍사스에서 태어나 플로리다 디즈니월드 옆에서 자람. 대학에서 RTVF 전공, 저널리즘과 일본어를 부전공. UNT의 한국문화교류클럽의 창립멤버, 회장, 서기 역임. 일본에서 여름학기와<br> 연세대학교에서 1년 교환학생으로 공부. 과거에 주요 음악 잡지, TV방송국, 영화 스튜디오와 라이브 이벤트 회사에서 일한 경력이 있는 뉴욕 새내기. 고양이의 이름이 ‘김치’.</p><h4 id='mainButton' onclick='showGrace();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAGrace();return false;'>FUN FACTS</h4></div>";
-
-var GraceQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutGraceQA();return false;'><h3 id='profileHeadBio'>GRACE BATISTA</h3><p id='profileQuestions1'><span id='question'>Q: Dream Vacation?</span><br>A: Busan, South Korea! I keep pictures of Busan on my desktop as inspiration.<br><br><span id='question'>Q: The word/phrase you say the most?</span><br>A: I use the word “Fancy” a lot. “Thats fancy”, “MIghty Fancy”, “Woah.. Fancy”. Its<br> my go to thing to say and I mean it, I really do think a lot of things are fancy.<br><br><span id='question'>Q: App that you use the most?</span><br>A: I use KakaoTalk Messenger A LOT. I had all my friends and boyfriend download<br> it. I just find it so much easier than regular texting. I also need those emojis to<br> express my feels without using words, and I’ve invested a good amount of<br> money buying those emojis.<br><br><span id='question'>Q: Something that your friends do not know about you?</span><br>A: My middle name is Victoria. I don’t introduce myself as Victoria, I go by Grace.<br> If my mother introduces me to someone then she’ll introduce me as Victoria.<br> Everyone in my family calls me Victoria and all my friends know me as Grace.</p><p id='profileQuestions2'><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 부산. 부산의 사진을 컴퓨터 배경화면으로 저장해둘 정도로 가보길 기대하고 있음.<br><br><span id='question'>Q: 하루중 가장 많이 하는 말은?</span><br>A: Fancy. 자주 쓰는 말이지만 정말 많은 것들이 “Fancy” 하다고 생각함.<br><br><span id='question'>Q: 가장 자주 사용하는 앱은? 이유는?</span><br>A: 카카오톡 메신저. 일반 문자 메시지보다 사용하기 편리하고 카카오톡 이모티콘을 통해서 말로 표현하<br>기 힘든 감정들을 표현할 수 있어서.<br><br><span id='question'>Q: 친구들이 잘 모르는 당신에 대한 한 가지는?</span><br>A: 내 Middle Name이 Victoria라는 것. 모든 가족은 나를 Victoria라고 부르지만 나는 나 자신을<br> 친구들에게 Grace라고 소개하기 때문에.</p><h4 id='mainButton' onclick='showGrace();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioGrace();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
-var GraceQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutGrace();return false;'><h3 id='profileHeadBio'>GRACE BATISTA</h3><p id='profileQuestions1'><span id='question'>Q: Dream Vacation?</span><br>A: Busan, South Korea! I keep pictures of Busan on my desktop as inspiration.<br><br><span id='question'>Q: The word/phrase you say the most?</span><br>A: I use the word “Fancy” a lot. “Thats fancy”, “MIghty Fancy”, “Woah.. Fancy”. Its<br> my go to thing to say and I mean it, I really do think a lot of things are fancy.<br><br><span id='question'>Q: App that you use the most?</span><br>A: I use KakaoTalk Messenger A LOT. I had all my friends and boyfriend download<br> it. I just find it so much easier than regular texting. I also need those emojis to<br> express my feels without using words, and I’ve invested a good amount of<br> money buying those emojis.<br><br><span id='question'>Q: Something that your friends do not know about you?</span><br>A: My middle name is Victoria. I don’t introduce myself as Victoria, I go by Grace.<br> If my mother introduces me to someone then she’ll introduce me as Victoria.<br> Everyone in my family calls me Victoria and all my friends know me as Grace.</p><p id='profileQuestions2'><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 부산. 부산의 사진을 컴퓨터 배경화면으로 저장해둘 정도로 가보길 기대하고 있음.<br><br><span id='question'>Q: 하루중 가장 많이 하는 말은?</span><br>A: Fancy. 자주 쓰는 말이지만 정말 많은 것들이 “Fancy” 하다고 생각함.<br><br><span id='question'>Q: 가장 자주 사용하는 앱은? 이유는?</span><br>A: 카카오톡 메신저. 일반 문자 메시지보다 사용하기 편리하고 카카오톡 이모티콘을 통해서 말로 표현하<br>기 힘든 감정들을 표현할 수 있어서.<br><br><span id='question'>Q: 친구들이 잘 모르는 당신에 대한 한 가지는?</span><br>A: 내 Middle Name이 Victoria라는 것. 모든 가족은 나를 Victoria라고 부르지만 나는 나 자신을<br> 친구들에게 Grace라고 소개하기 때문에.</p><h4 id='mainButton' onclick='showGrace();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioGrace();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var GraceIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutGrace();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/GraceBatistaBig.png'><h3 id='profileHead'>GRACE BATISTA</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, JUNIOR DESIGNER<br>Industry: ART<br><br>MOTTO: “A coward dies a thousand times before his death,<br> but the valiant taste of death but once.” – William<br> Shakespeare, Julius Caesar<br>모토: “겁쟁이는 수십번 죽는듯 하지만, 용기있는 자는 죽음을 단한번 맛본다.” –<br> 셰익스피어의 줄리어스 시저에서</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioGrace();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAGrace();return false;'>FUN FACTS</h4></div></div></div>";
+var GraceBio ="<div id='megaPersona2'><h3 id='profileHeadBio'>GRACE BATISTA</h3><p id='profileBio'>GRACE BATISTA was born in Texas but grew up in Florida, right across the street from Walt Disney World. In college, she studied Radio, TV & Film, with a minor in<br> Journalism and Japanese. During her time in school, she was a founding member and later president and historian for the University of North Texas’s Korean Culture<br> Exchange Club. She also spent a summer studying abroad in Japan, as well as a year in Seoul, South Korea at Yonsei University. Previously, Grace has written for<br> major music magazines, and worked at a local TV station, an independent film studio in Austin, Texas, and a live event company showcasing corporate, award and<br> fashion shows. Grace is new to the Big Apple, so when she isn’t busy applying for jobs, you can find her snuggled up with Kimchi (her cat, not the food).<br><br>텍사스에서 태어나 플로리다 디즈니월드 옆에서 자람. 대학에서 RTVF 전공, 저널리즘과 일본어를 부전공. UNT의 한국문화교류클럽의 창립멤버, 회장, 서기 역임. 일본에서 여름학기와<br> 연세대학교에서 1년 교환학생으로 공부. 과거에 주요 음악 잡지, TV방송국, 영화 스튜디오와 라이브 이벤트 회사에서 일한 경력이 있는 뉴욕 새내기. 고양이의 이름이 ‘김치’.</p><h4 id='mainButton' onclick='showGrace();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAGrace();return false;'>FUN FACTS</h4></div>";
+var GraceQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>GRACE BATISTA</h3><p id='profileQuestions1'><span id='question'>Q: Dream Vacation?</span><br>A: Busan, South Korea! I keep pictures of Busan on my desktop as inspiration.<br><br><span id='question'>Q: The word/phrase you say the most?</span><br>A: I use the word “Fancy” a lot. “Thats fancy”, “MIghty Fancy”, “Woah.. Fancy”. Its<br> my go to thing to say and I mean it, I really do think a lot of things are fancy.<br><br><span id='question'>Q: App that you use the most?</span><br>A: I use KakaoTalk Messenger A LOT. I had all my friends and boyfriend download<br> it. I just find it so much easier than regular texting. I also need those emojis to<br> express my feels without using words, and I’ve invested a good amount of<br> money buying those emojis.<br><br><span id='question'>Q: Something that your friends do not know about you?</span><br>A: My middle name is Victoria. I don’t introduce myself as Victoria, I go by Grace.<br> If my mother introduces me to someone then she’ll introduce me as Victoria.<br> Everyone in my family calls me Victoria and all my friends know me as Grace.</p><p id='profileQuestions2'><span id='question'>Q: 당신이 가고 싶은/가봤었던 최고의 휴양지는?</span><br>A: 부산. 부산의 사진을 컴퓨터 배경화면으로 저장해둘 정도로 가보길 기대하고 있음.<br><br><span id='question'>Q: 하루중 가장 많이 하는 말은?</span><br>A: Fancy. 자주 쓰는 말이지만 정말 많은 것들이 “Fancy” 하다고 생각함.<br><br><span id='question'>Q: 가장 자주 사용하는 앱은? 이유는?</span><br>A: 카카오톡 메신저. 일반 문자 메시지보다 사용하기 편리하고 카카오톡 이모티콘을 통해서 말로 표현하<br>기 힘든 감정들을 표현할 수 있어서.<br><br><span id='question'>Q: 친구들이 잘 모르는 당신에 대한 한 가지는?</span><br>A: 내 Middle Name이 Victoria라는 것. 모든 가족은 나를 Victoria라고 부르지만 나는 나 자신을<br> 친구들에게 Grace라고 소개하기 때문에.</p><h4 id='mainButton' onclick='showGrace();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioGrace();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ***
 
 // ****Jong - contributors
-var JongIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJong();return false;'><img id='profilePic' src = '/assets/JongSunParkBig'><h3 id='profileHead'>JONG SUN PARK   |   박종선</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, PHOTOGRAPHY<br>Industry: PHOTOGRAPHY</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioJong();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAJong();return false;'>FUN FACTS</h4></div>";
-var JongOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJong();return false;'><img id='profilePic' src = '/assets/JongSunParkBig'><h3 id='profileHead'>JONG SUN PARK   |   박종선</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, PHOTOGRAPHY<br>Industry: PHOTOGRAPHY</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioJong();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAJong();return false;'>FUN FACTS</h4></div>";
-var JongFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJong();return false;'><img id='profilePic' src = '/assets/JongSunParkBig'><h3 id='profileHead'>JONG SUN PARK   |   박종선</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, PHOTOGRAPHY<br>Industry: PHOTOGRAPHY</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioJong();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAJong();return false;'>FUN FACTS</h4></div>";
-
-var JongBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJongBio();return false;'><h3 id='profileHeadBio'>JONG SUN PARK   |   박종선</h3><p id='profileBio'>Jongsun Park is Vancouver based photographer. He was born in Seoul Korea and moved to Canada at age of 10. He enjoys traveling., has passion for food and is a big<br> time soccer lover. If he is not taking photos, he is either playing soccer or will be out on adventure to find a new location to shoot.<br><br>축구선수에겐 공 하나면, 요리사에게는 칼 하나면 하루를 즐겁게 보낼수 있듯이 나에겐 사진기 하나만 있으면 하루종일 심심할 시간이 없다. 하루를 관찰하고, 사람들의 행동을 훔처보고 방에 살포시 들어오는<br> 빛한줄기가 아침부터 저녁까지 벽을타고 움직이는 모습만 보고있어도 하루가 즐겁다.</p><h4 id='mainButton' onclick='showJong();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAJong();return false;'>FUN FACTS</h4></div>";
-var JongBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJong();return false;'><h3 id='profileHeadBio'>JONG SUN PARK   |   박종선</h3><p id='profileBio'>Jongsun Park is Vancouver based photographer. He was born in Seoul Korea and moved to Canada at age of 10. He enjoys traveling., has passion for food and is a big<br> time soccer lover. If he is not taking photos, he is either playing soccer or will be out on adventure to find a new location to shoot.<br><br>축구선수에겐 공 하나면, 요리사에게는 칼 하나면 하루를 즐겁게 보낼수 있듯이 나에겐 사진기 하나만 있으면 하루종일 심심할 시간이 없다. 하루를 관찰하고, 사람들의 행동을 훔처보고 방에 살포시 들어오는<br> 빛한줄기가 아침부터 저녁까지 벽을타고 움직이는 모습만 보고있어도 하루가 즐겁다.</p><h4 id='mainButton' onclick='showJong();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAJong();return false;'>FUN FACTS</h4></div>";
-
-var JongQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJongQA();return false;'><h3 id='profileHeadBio'>JONG SUN PARK   |   박종선</h3><p id='profileQuestions1a'><span id='question'>Q: Wildest Dream?</span><br>A: Flying over the Amazon during sunset while having a beer.<br><br><span id='question'>Q: Perfect Day?</span><br>A: When I take a perfect photo that I can use in my portfolio.<br><br><span id='question'>Q: Idol?</span><br>A: Vivian Maier.<br><br><span id='question'>Q: Celebrity Look-alike?</span><br>A: Messi</p><p id='profileQuestions2'><span id='question'>Q: 최고의 꿈?</span><br>A: 맥주 한 병을 마시며, 석양이 지는 아마존 상공을 비행하는 것.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 내 포트폴리오에 담을 수 있는 완벽한 사진을 찍었을 때.<br><br><span id='question'>Q: 당신만의 우상?</span><br>A: 비비안 마이어<br><br><span id='question'>Q: 닮은꼴 연예인?</span><br>A: 메시</p><h4 id='mainButton' onclick='showJong();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioJong();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
-var JongQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJong();return false;'><h3 id='profileHeadBio'>JONG SUN PARK   |   박종선</h3><p id='profileQuestions1a'><span id='question'>Q: Wildest Dream?</span><br>A: Flying over the Amazon during sunset while having a beer.<br><br><span id='question'>Q: Perfect Day?</span><br>A: When I take a perfect photo that I can use in my portfolio.<br><br><span id='question'>Q: Idol?</span><br>A: Vivian Maier.<br><br><span id='question'>Q: Celebrity Look-alike?</span><br>A: Messi</p><p id='profileQuestions2'><span id='question'>Q: 최고의 꿈?</span><br>A: 맥주 한 병을 마시며, 석양이 지는 아마존 상공을 비행하는 것.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 내 포트폴리오에 담을 수 있는 완벽한 사진을 찍었을 때.<br><br><span id='question'>Q: 당신만의 우상?</span><br>A: 비비안 마이어<br><br><span id='question'>Q: 닮은꼴 연예인?</span><br>A: 메시</p><h4 id='mainButton' onclick='showJong();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioJong();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var JongIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJong();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/JongSunParkBig'><h3 id='profileHead'>JONG SUN PARK   |   박종선</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, PHOTOGRAPHY<br>Industry: PHOTOGRAPHY</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioJong();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAJong();return false;'>FUN FACTS</h4></div></div></div>";
+var JongBio ="<div id='megaPersona2'><h3 id='profileHeadBio'>JONG SUN PARK   |   박종선</h3><p id='profileBio'>Jongsun Park is Vancouver based photographer. He was born in Seoul Korea and moved to Canada at age of 10. He enjoys traveling., has passion for food and is a big<br> time soccer lover. If he is not taking photos, he is either playing soccer or will be out on adventure to find a new location to shoot.<br><br>축구선수에겐 공 하나면, 요리사에게는 칼 하나면 하루를 즐겁게 보낼수 있듯이 나에겐 사진기 하나만 있으면 하루종일 심심할 시간이 없다. 하루를 관찰하고, 사람들의 행동을 훔처보고 방에 살포시 들어오는<br> 빛한줄기가 아침부터 저녁까지 벽을타고 움직이는 모습만 보고있어도 하루가 즐겁다.</p><h4 id='mainButton' onclick='showJong();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAJong();return false;'>FUN FACTS</h4></div>";
+var JongQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>JONG SUN PARK   |   박종선</h3><p id='profileQuestions1a'><span id='question'>Q: Wildest Dream?</span><br>A: Flying over the Amazon during sunset while having a beer.<br><br><span id='question'>Q: Perfect Day?</span><br>A: When I take a perfect photo that I can use in my portfolio.<br><br><span id='question'>Q: Idol?</span><br>A: Vivian Maier.<br><br><span id='question'>Q: Celebrity Look-alike?</span><br>A: Messi</p><p id='profileQuestions2'><span id='question'>Q: 최고의 꿈?</span><br>A: 맥주 한 병을 마시며, 석양이 지는 아마존 상공을 비행하는 것.<br><br><span id='question'>Q: 최고의 하루?</span><br>A: 내 포트폴리오에 담을 수 있는 완벽한 사진을 찍었을 때.<br><br><span id='question'>Q: 당신만의 우상?</span><br>A: 비비안 마이어<br><br><span id='question'>Q: 닮은꼴 연예인?</span><br>A: 메시</p><h4 id='mainButton' onclick='showJong();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioJong();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ***
 
 // ****Jai - contributors
-var JaiIn ="<div id='teamContent' class='animated slideInDown' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJai();return false;'><img id='profilePic' src = '/assets/JaiYoonLeeBig'><h3 id='profileHead'>JAI YOON LEE   |   이재윤</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, PHOTOGRAPHY<br>Industry: PHOTOGRAPHY<br>Website: http://www.jaiyoonlee.com<br><br>MOTTO: Dream as if you will live forever; Live as if you will<br> die today. – James Dean<br>모토: 내일 죽을 것처럼 오늘을 살고, 영원히 살 것처럼 꿈을 꿔라. – 제임스 딘이</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioJai();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAJai();return false;'>FUN FACTS</h4></div>";
-var JaiOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJai();return false;'><img id='profilePic' src = '/assets/JaiYoonLeeBig'><h3 id='profileHead'>JAI YOON LEE   |   이재윤</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, PHOTOGRAPHY<br>Industry: PHOTOGRAPHY<br>Website: http://www.jaiyoonlee.com<br><br>MOTTO: Dream as if you will live forever; Live as if you will<br> die today. – James Dean<br>모토: 내일 죽을 것처럼 오늘을 살고, 영원히 살 것처럼 꿈을 꿔라. – 제임스 딘이</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioJai();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAJai();return false;'>FUN FACTS</h4></div>";
-var JaiFadeIn ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJai();return false;'><img id='profilePic' src = '/assets/JaiYoonLeeBig'><h3 id='profileHead'>JAI YOON LEE   |   이재윤</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, PHOTOGRAPHY<br>Industry: PHOTOGRAPHY<br>Website: http://www.jaiyoonlee.com<br><br>MOTTO: Dream as if you will live forever; Live as if you will<br> die today. – James Dean<br>모토: 내일 죽을 것처럼 오늘을 살고, 영원히 살 것처럼 꿈을 꿔라. – 제임스 딘이</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioJai();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAJai();return false;'>FUN FACTS</h4></div>";
-
-var JaiBio ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJaiBio();return false;'><h3 id='profileHeadBio'>JAI YOON LEE   |   이재윤</h3><p id='profileBio'>Jai Yoon received her BF.A. in Photography and Imaging with a minor in Business Studies from Tisch School of the Arts at New York University. She served as the director<br> of public affairs of NYU Korean International Student Organization from 2010 to 2013. Mostly raised in Korea, Jai Yoon lived in Japan for four years, and spent one school<br> year in Spokane, Washington. She also studied in Havana, Cuba for one semester her junior year. Jai Yoon currently works as a photographer at Moss Creation and Cly<br> By Chung. She likes to watch movies, make books, and cook.<br><br>뉴욕대학교 티쉬 예술학부 사진 전공, 경영 부전공. 학부 재학 중 한인학생회 임원으로 3년간 활동. 고등학교 졸업까지 한국에서 했지만 어렸을 때 일본에서 4년, 미국에서 1년 거주. 학부 3학년 때 한 학기동안<br> 쿠바에서 교환학생 생활. 현재 Moss Creation 과 Cly By Chung 에서 포토그래퍼로 활동 중. 영화 감상, 책 만들기, 요리를 좋아한다.</p><h4 id='mainButton' onclick='showJai();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAJai();return false;'>FUN FACTS</h4></div>";
-var JaiBioOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJai();return false;'><h3 id='profileHeadBio'>JAI YOON LEE   |   이재윤</h3><p id='profileBio'>Jai Yoon received her BF.A. in Photography and Imaging with a minor in Business Studies from Tisch School of the Arts at New York University. She served as the director<br> of public affairs of NYU Korean International Student Organization from 2010 to 2013. Mostly raised in Korea, Jai Yoon lived in Japan for four years, and spent one school<br> year in Spokane, Washington. She also studied in Havana, Cuba for one semester her junior year. Jai Yoon currently works as a photographer at Moss Creation and Cly<br> By Chung. She likes to watch movies, make books, and cook.<br><br>뉴욕대학교 티쉬 예술학부 사진 전공, 경영 부전공. 학부 재학 중 한인학생회 임원으로 3년간 활동. 고등학교 졸업까지 한국에서 했지만 어렸을 때 일본에서 4년, 미국에서 1년 거주. 학부 3학년 때 한 학기동안<br> 쿠바에서 교환학생 생활. 현재 Moss Creation 과 Cly By Chung 에서 포토그래퍼로 활동 중. 영화 감상, 책 만들기, 요리를 좋아한다.</p><h4 id='mainButton' onclick='showJai();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAJai();return false;'>FUN FACTS</h4></div>";
-
-var JaiQA ="<div id='teamContent' class='animated fadeIn' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJaiQA();return false;'><h3 id='profileHeadBio'>JAI YOON LEE   |   이재윤</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: A Spanish restaurant called Sevilla in Greenwich Village. I accidentally found<br> this restaurant and fell in love with everything about it ― the food, atmosphere,<br> interior design, and of course sangria. It is also a memorable spot because I’ve<br> been there with the most special people in my life.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Eternal Sunshine of Spotless Mind. I first watched this movie when I was 15, but<br> I couldn’t understand anything. Then, I watched it again 10 years later. This<br> movie made me think and question a lot about relationships and memories.<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: Brew coffee and pack my lunch.<br><br><span id='question'>Q: Celebrity Look-alike?</span><br>A: Min-a Shin, Maki Goto, Chae-young Han from 50 yards away. Believe it or not.</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Greenwich Village에 있는 Sevilla 라는 스페인 레스토랑. 원래 다른 식당 가려다가 우연히 이<br> 곳에 왔는데 반했다. 음식은 물론 따뜻한 분위기도 좋고, 상그리아까지 한잔 하면 금상첨화다. 소중한 사<br>람들과 같이 간 곳이라 더욱 더 특별하다.<br><br><span id='question'>Q: 가장 감명깊게 본 영화는?</span><br>A: Eternal Sunshine of Spotless Mind. 15살 때 보고 전혀 이해하지 못했지만 작년에 다시 보고<br> 비로소 제대로 본 영화라 특별하다. 사람들 사이의 관계, 그리고 그 기억에 대해 많은 생각을 하게 만든<br> 영화다.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: 커피 끓이고 점심으로 먹을 도시락 싸기.<br><br><span id='question'>Q: 닮은꼴 연예인?</span><br>A: 신민아, 고토 마키, 50미터 한채영. 믿거나 말거나.</p><h4 id='mainButton' onclick='showJai();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioJai();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
-var JaiQAOut ="<div id='teamContent' class='animated slideOutUp' onclick='closeLogin();return false;'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJai();return false;'><h3 id='profileHeadBio'>JAI YOON LEE   |   이재윤</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: A Spanish restaurant called Sevilla in Greenwich Village. I accidentally found<br> this restaurant and fell in love with everything about it ― the food, atmosphere,<br> interior design, and of course sangria. It is also a memorable spot because I’ve<br> been there with the most special people in my life.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Eternal Sunshine of Spotless Mind. I first watched this movie when I was 15, but<br> I couldn’t understand anything. Then, I watched it again 10 years later. This<br> movie made me think and question a lot about relationships and memories.<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: Brew coffee and pack my lunch.<br><br><span id='question'>Q: Celebrity Look-alike?</span><br>A: Min-a Shin, Maki Goto, Chae-young Han from 50 yards away. Believe it or not.</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Greenwich Village에 있는 Sevilla 라는 스페인 레스토랑. 원래 다른 식당 가려다가 우연히 이<br> 곳에 왔는데 반했다. 음식은 물론 따뜻한 분위기도 좋고, 상그리아까지 한잔 하면 금상첨화다. 소중한 사<br>람들과 같이 간 곳이라 더욱 더 특별하다.<br><br><span id='question'>Q: 가장 감명깊게 본 영화는?</span><br>A: Eternal Sunshine of Spotless Mind. 15살 때 보고 전혀 이해하지 못했지만 작년에 다시 보고<br> 비로소 제대로 본 영화라 특별하다. 사람들 사이의 관계, 그리고 그 기억에 대해 많은 생각을 하게 만든<br> 영화다.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: 커피 끓이고 점심으로 먹을 도시락 싸기.<br><br><span id='question'>Q: 닮은꼴 연예인?</span><br>A: 신민아, 고토 마키, 50미터 한채영. 믿거나 말거나.</p><h4 id='mainButton' onclick='showJai();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioJai();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
+var JaiIn ="<div id='megaPerson'><div id='megaPerson1'><img id='x' src = '/assets/closeIcon.png' onclick='profileOutJai();return false;'><div id='megaPersona1'><img id='profilePic' src = '/assets/JaiYoonLeeBig'><h3 id='profileHead'>JAI YOON LEE   |   이재윤</h3><h5 id='profileStat'>Title in MOI’M: CONTRIBUTOR, PHOTOGRAPHY<br>Industry: PHOTOGRAPHY<br>Website: http://www.jaiyoonlee.com<br><br>MOTTO: Dream as if you will live forever; Live as if you will<br> die today. – James Dean<br>모토: 내일 죽을 것처럼 오늘을 살고, 영원히 살 것처럼 꿈을 꿔라. – 제임스 딘이</h5><h4 id='mainButton'><font color='#66E5FF'>MAIN</font></h4><h4 id='bioButton' onclick='showBioJai();return false;'>BIOGRAPHY</h4><h4 id='qaButton' onclick='showQAJai();return false;'>FUN FACTS</h4></div></div></div>";
+var JaiBio ="<div id='megaPersona2'><h3 id='profileHeadBio'>JAI YOON LEE   |   이재윤</h3><p id='profileBio'>Jai Yoon received her BF.A. in Photography and Imaging with a minor in Business Studies from Tisch School of the Arts at New York University. She served as the director<br> of public affairs of NYU Korean International Student Organization from 2010 to 2013. Mostly raised in Korea, Jai Yoon lived in Japan for four years, and spent one school<br> year in Spokane, Washington. She also studied in Havana, Cuba for one semester her junior year. Jai Yoon currently works as a photographer at Moss Creation and Cly<br> By Chung. She likes to watch movies, make books, and cook.<br><br>뉴욕대학교 티쉬 예술학부 사진 전공, 경영 부전공. 학부 재학 중 한인학생회 임원으로 3년간 활동. 고등학교 졸업까지 한국에서 했지만 어렸을 때 일본에서 4년, 미국에서 1년 거주. 학부 3학년 때 한 학기동안<br> 쿠바에서 교환학생 생활. 현재 Moss Creation 과 Cly By Chung 에서 포토그래퍼로 활동 중. 영화 감상, 책 만들기, 요리를 좋아한다.</p><h4 id='mainButton' onclick='showJai();return false;'>MAIN</h4><h4 id='bioButton'><font color='#66E5FF'>BIOGRAPHY</font></h4><h4 id='qaButton' onclick='showQAJai();return false;'>FUN FACTS</h4></div>";
+var JaiQA ="<div id='megaPersona3'><h3 id='profileHeadBio'>JAI YOON LEE   |   이재윤</h3><p id='profileQuestions1'><span id='question'>Q: New York’s Best-Kept-Secret Restaurant?</span><br>A: A Spanish restaurant called Sevilla in Greenwich Village. I accidentally found<br> this restaurant and fell in love with everything about it ― the food, atmosphere,<br> interior design, and of course sangria. It is also a memorable spot because I’ve<br> been there with the most special people in my life.<br><br><span id='question'>Q: Inspirational Film?</span><br>A: Eternal Sunshine of Spotless Mind. I first watched this movie when I was 15, but<br> I couldn’t understand anything. Then, I watched it again 10 years later. This<br> movie made me think and question a lot about relationships and memories.<br><br><span id='question'>Q: The first thing you do when you wake up?</span><br>A: Brew coffee and pack my lunch.<br><br><span id='question'>Q: Celebrity Look-alike?</span><br>A: Min-a Shin, Maki Goto, Chae-young Han from 50 yards away. Believe it or not.</p><p id='profileQuestions2'><span id='question'>Q: 뉴욕에서 나만 아는 꼭 가봐야하는 restaurant는?</span><br>A: Greenwich Village에 있는 Sevilla 라는 스페인 레스토랑. 원래 다른 식당 가려다가 우연히 이<br> 곳에 왔는데 반했다. 음식은 물론 따뜻한 분위기도 좋고, 상그리아까지 한잔 하면 금상첨화다. 소중한 사<br>람들과 같이 간 곳이라 더욱 더 특별하다.<br><br><span id='question'>Q: 가장 감명깊게 본 영화는?</span><br>A: Eternal Sunshine of Spotless Mind. 15살 때 보고 전혀 이해하지 못했지만 작년에 다시 보고<br> 비로소 제대로 본 영화라 특별하다. 사람들 사이의 관계, 그리고 그 기억에 대해 많은 생각을 하게 만든<br> 영화다.<br><br><span id='question'>Q: 아침에 눈을 뜨자마자 하는 행동은?</span><br>A: 커피 끓이고 점심으로 먹을 도시락 싸기.<br><br><span id='question'>Q: 닮은꼴 연예인?</span><br>A: 신민아, 고토 마키, 50미터 한채영. 믿거나 말거나.</p><h4 id='mainButton' onclick='showJai();return false;'>MAIN</h4><h4 id='bioButton' onclick='showBioJai();return false;'>BIOGRAPHY</h4><h4 id='qaButton'><font color='#66E5FF'>FUN FACTS</font></h4></div>";
 // ***
 
 // ****
@@ -2479,605 +3554,6 @@ function contributorsRewind1(){
 // ***
 
 
-// ***see team member profile
-
-
-
-
-
-
-// **Richard - creative
-function showProfileRichard(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(creativeOutForProfile);
-}, 0);
-	setTimeout(function() {
-	$('body').append(RichardIn);	
-    }, 0);
-}
-
-function profileOutRichard(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(RichardOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creativeInFromProfile);	
-    }, 0);
-}
-
-function profileOutRichardBio(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(RichardBioOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creativeInFromProfile);	
-    }, 0);
-}
-
-function profileOutRichardQA(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(RichardQAOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creativeInFromProfile);	
-    }, 0);
-}
-
-function showBioRichard(){
-	$('#teamContent').remove();
-	$('body').append(RichardBio);	
-}
-
-function showQARichard(){
-	$('#teamContent').remove();
-	$('body').append(RichardQA);	
-}
-
-function showRichard(){
-	$('#teamContent').remove();
-	$('body').append(RichardFadeIn);
-}
-// ***
-
-// **Angie - creative
-function showProfileAngie(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(creativeOutForProfile);
-}, 0);
-	setTimeout(function() {
-	$('body').append(AngieIn);	
-    }, 0);
-}
-
-function profileOutAngie(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(AngieOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creativeInFromProfile);	
-    }, 0);
-}
-
-function profileOutAngieBio(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(AngieBioOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creativeInFromProfile);	
-    }, 0);
-}
-
-function profileOutAngieQA(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(AngieQAOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creativeInFromProfile);	
-    }, 0);
-}
-
-function showBioAngie(){
-	$('#teamContent').remove();
-	$('body').append(AngieBio);	
-}
-
-function showQAAngie(){
-	$('#teamContent').remove();
-	$('body').append(AngieQA);	
-}
-
-function showAngie(){
-	$('#teamContent').remove();
-	$('body').append(AngieFadeIn);
-}
-// ***
-
-
-
-// **HyoBee - creative
-function showProfileHyoBee(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(creativeOutForProfile);
-}, 0);
-	setTimeout(function() {
-	$('body').append(HyoBeeIn);	
-    }, 0);
-}
-
-function profileOutHyoBee(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(HyoBeeOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creativeInFromProfile);	
-    }, 0);
-}
-
-function profileOutHyoBeeBio(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(HyoBeeBioOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creativeInFromProfile);	
-    }, 0);
-}
-
-function profileOutHyoBeeQA(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(HyoBeeQAOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creativeInFromProfile);	
-    }, 0);
-}
-
-function showBioHyoBee(){
-	$('#teamContent').remove();
-	$('body').append(HyoBeeBio);	
-}
-
-function showQAHyoBee(){
-	$('#teamContent').remove();
-	$('body').append(HyoBeeQA);	
-}
-
-function showHyoBee(){
-	$('#teamContent').remove();
-	$('body').append(HyoBeeFadeIn);
-}
-// ***
-
-// **Sam - Creative
-function showProfileSam(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(creative1OutForProfile);
-}, 0);
-	setTimeout(function() {
-	$('body').append(SamIn);	
-    }, 0);
-}
-
-function profileOutSam(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(SamOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creative1InFromProfile);	
-    }, 0);
-}
-
-function profileOutSamBio(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(SamBioOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creative1InFromProfile);	
-    }, 0);
-}
-
-function profileOutSamQA(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(SamQAOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creative1InFromProfile);	
-    }, 0);
-}
-
-function showBioSam(){
-	$('#teamContent').remove();
-	$('body').append(SamBio);	
-}
-
-function showQASam(){
-	$('#teamContent').remove();
-	$('body').append(SamQA);	
-}
-
-function showSam(){
-	$('#teamContent').remove();
-	$('body').append(SamFadeIn);
-}
-// ***
-
-// **Bella - Creative
-function showProfileBella(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(creative1OutForProfile);
-}, 0);
-	setTimeout(function() {
-	$('body').append(BellaIn);	
-    }, 0);
-}
-
-function profileOutBella(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(BellaOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creative1InFromProfile);	
-    }, 0);
-}
-
-function profileOutBellaBio(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(BellaBioOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creative1InFromProfile);	
-    }, 0);
-}
-
-function profileOutBellaQA(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(BellaQAOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creative1InFromProfile);	
-    }, 0);
-}
-
-function showBioBella(){
-	$('#teamContent').remove();
-	$('body').append(BellaBio);	
-}
-
-function showQABella(){
-	$('#teamContent').remove();
-	$('body').append(BellaQA);	
-}
-
-function showBella(){
-	$('#teamContent').remove();
-	$('body').append(BellaFadeIn);
-}
-// ***
-// **EunSung - Creative
-function showProfileEunSung(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(creative1OutForProfile);
-}, 0);
-	setTimeout(function() {
-	$('body').append(EunSungIn);	
-    }, 0);
-}
-
-function profileOutEunSung(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(EunSungOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creative1InFromProfile);	
-    }, 0);
-}
-
-function profileOutEunSungBio(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(EunSungBioOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creative1InFromProfile);	
-    }, 0);
-}
-
-function profileOutEunSungQA(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(EunSungQAOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creative1InFromProfile);	
-    }, 0);
-}
-
-function showBioEunSung(){
-	$('#teamContent').remove();
-	$('body').append(EunSungBio);	
-}
-
-function showQAEunSung(){
-	$('#teamContent').remove();
-	$('body').append(EunSungQA);	
-}
-
-function showEunSung(){
-	$('#teamContent').remove();
-	$('body').append(EunSungFadeIn);
-}
-// ***
-
-// **Seung - Creative
-function showProfileSeung(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(creative2OutForProfile);
-}, 0);
-	setTimeout(function() {
-	$('body').append(SeungIn);	
-    }, 0);
-}
-
-function profileOutSeung(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(SeungOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creative2InFromProfile);	
-    }, 0);
-}
-
-function profileOutSeungBio(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(SeungBioOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creative2InFromProfile);	
-    }, 0);
-}
-
-function profileOutSeungQA(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(SeungQAOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creative2InFromProfile);	
-    }, 0);
-}
-
-function showBioSeung(){
-	$('#teamContent').remove();
-	$('body').append(SeungBio);	
-}
-
-function showQASeung(){
-	$('#teamContent').remove();
-	$('body').append(SeungQA);	
-}
-
-function showSeung(){
-	$('#teamContent').remove();
-	$('body').append(SeungFadeIn);
-}
-// ***
-
-// **Whitney - Creative
-function showProfileWhitney(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(creative2OutForProfile);
-}, 0);
-	setTimeout(function() {
-	$('body').append(WhitneyIn);	
-    }, 0);
-}
-
-function profileOutWhitney(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(WhitneyOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creative2InFromProfile);	
-    }, 0);
-}
-
-function profileOutWhitneyBio(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(WhitneyBioOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creative2InFromProfile);	
-    }, 0);
-}
-
-function profileOutWhitneyQA(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(WhitneyQAOut);
-}, 0);
-	setTimeout(function() {
-	$('body').append(creative2InFromProfile);	
-    }, 0);
-}
-
-function showBioWhitney(){
-	$('#teamContent').remove();
-	$('body').append(WhitneyBio);	
-}
-
-function showQAWhitney(){
-	$('#teamContent').remove();
-	$('body').append(WhitneyQA);	
-}
-
-function showWhitney(){
-	$('#teamContent').remove();
-	$('body').append(WhitneyFadeIn);
-}
-// ***
-
-
-// ***skim through team members
-
-
-
-
-
-// ***creative
-
-function creative(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(teamOut);
-}, 10);
-	setTimeout(function() {
-	$('body').append(creativeIn);	
-    }, 0);
-}
-
-function creative1(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(creativeOut1);
-}, 10);
-	setTimeout(function() {
-	$('body').append(creativeIn1);	
-    }, 0);
-}
-
-function creative2(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(creativeOut3);
-}, 10);
-	setTimeout(function() {
-	$('body').append(creativeIn1a);	
-    }, 0);
-}
-
-function creativeTeamOut(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(creativeOut);
-}, 10);
-	setTimeout(function() {
-	$('body').append(teamIn);	
-    }, 0);
-}
-
-function creativeTeamOut1(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(creativeOut2);
-}, 10);
-	setTimeout(function() {
-	$('body').append(creativeIn2);	
-    }, 0);
-}
-
-function creativeTeamOut2(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(creativeOut4);
-}, 10);
-	setTimeout(function() {
-	$('body').append(creativeIn3);	
-    }, 0);
-}
-// *****
-
-
-
-// *****
-
-// ***contributors
-
-function contributors(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(teamOut);
-}, 10);
-	setTimeout(function() {
-	$('body').append(contributorsIn);	
-    }, 0);
-}
-
-function contributors1(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(contributorsOut1);
-}, 10);
-	setTimeout(function() {
-	$('body').append(contributorsIn1);	
-    }, 0);
-}
-
-function contributors2(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(contributorsOut3);
-}, 10);
-	setTimeout(function() {
-	$('body').append(contributorsIn1a);	
-    }, 0);
-}
-
-function contributorsTeamOut(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(contributorsOut);
-}, 10);
-	setTimeout(function() {
-	$('body').append(teamIn);	
-    }, 0);
-}
-
-function contributorsTeamOut1(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(contributorsOut2);
-}, 10);
-	setTimeout(function() {
-	$('body').append(contributorsIn2);	
-    }, 0);
-}
-
-function contributorsTeamOut2(){
-	setTimeout(function() {
-	$('#teamContent').remove();
-	$('body').append(contributorsOut4);
-}, 10);
-	setTimeout(function() {
-	$('body').append(contributorsIn3);	
-    }, 0);
-}
 // *****
 
 function logInScreen(){

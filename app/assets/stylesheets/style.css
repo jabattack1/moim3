@@ -3890,6 +3890,24 @@ width: 250px;
 	height:350px; 
 }
 
+#creativeSlide1{
+	position:absolute;
+	width:100%;
+	height:350px; 
+}
+
+#creativeSlide2{
+	position:absolute;
+	width:100%;
+	height:350px; 
+}
+
+#creativeSlide3{
+	position:absolute;
+	width:100%;
+	height:350px; 
+}
+
 #prSlide1{
 	position:absolute;
 	width:100%;
@@ -3932,9 +3950,25 @@ width: 250px;
 	height:350px; 
 }
 
+#contributorsSlide1{
+	position:absolute;
+	width:100%;
+	height:350px; 
+}
 
+#contributorsSlide2{
+	position:absolute;
+	width:100%;
+	height:350px; 
+}
 
+#contributorsSlide3{
+	position:absolute;
+	width:100%;
+	height:350px; 
+}
 
+/********/
 
 /****TEST*/
 #blue{
