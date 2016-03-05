@@ -1,17 +1,13 @@
-
  <% if @trigger != nil%>
   <script type="text/javascript">
-   alert("Account with same Email address already exists.");
+   alert("Email address does not match existing accounts.");
    window.location = "/adminlands";
   </script>
 <% end %>
 
  <% if @trigger == nil%>
   <script type="text/javascript">
-   alert("Account created.");
+   alert("Account has been deleted.");
    window.location = "/adminlands";
   </script>
 <% end %>
-
-
-

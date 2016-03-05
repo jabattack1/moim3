@@ -10,15 +10,12 @@ def create
     
     if Admin.find_by(email: params['email'])
     
-    @admin = Admin.all
-
+      @admin = Admin.all
       @trigger = []
 
-  @admin.each do |person|
-  
-
+      @admin.each do |person|
       @trigger.push(person)
-  end
+      end
     # binding.pry
     
 
@@ -31,23 +28,32 @@ def create
         email: params["email"],
         password: params["password"]
       })
-
-      redirect_to "/adminlands"
+    @admin = Admin.all
+    @trigger = nil
+      
     end
   end
 
 def update
   if Admin.find_by(email: params['email'])
     admin_item = Admin.find_by(email: params['email'])
+
     admin_item.update({
     email: params["email"],
     password: params["password"]
     })
 
-  redirect_to "/adminlands"
+  @admin = Admin.all
+    @trigger = nil
 
   else
-  redirect_to "/adminlands"
+
+    @admin = Admin.all
+    @trigger = []
+
+        @admin.each do |person|
+        @trigger.push(person)
+        end
   end
 end
 
@@ -57,9 +63,17 @@ def destroy
     # binding.pry
 
     admin_item.destroy
-    redirect_to "/adminlands"
+     @admin = Admin.all
+    @trigger = nil
   else
-  redirect_to "/adminlands"
+
+      @admin = Admin.all
+      @trigger = []
+
+      @admin.each do |person|
+      @trigger.push(person)
+      end
+
   end
 end
 

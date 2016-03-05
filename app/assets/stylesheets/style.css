@@ -3810,6 +3810,81 @@ width: 250px;
 
 /******/
 
+/******/
+
+.iformGalleries {font: 12px/26px 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif; position:absolute; width:300px; margin-left:30px; margin-top: 690px; overflow: hidden; }
+.iformGalleries ul { margin:0; padding:0; list-style:none;}
+.iformGalleries ul ul { overflow:auto}
+.iformGalleries li { padding-bottom:5px;}
+.iformGalleries label { 
+ width:130px; display:block; float:left; line-height:26px; 
+}
+.iformGalleries label.ilabel { 
+ width:auto; display:inline; float:none; margin-bottom: 10px;line-height:26px; padding:5px; 
+}
+
+.iformGalleries .itext,.iformGalleries .itextarea,.iformGalleries .iselect,.iformGalleries .ibutton { 	
+	width:200px;
+	border:1px solid #999;
+	-webkit-border-radius: 3px;-khtml-border-radius:3px;-moz-border-radius:3px;border-radius:3px;
+	margin-top:10px;
+	padding:10px;
+	background: #fff;
+	background: -webkit-gradient(linear, left top, left 25, from(#fff), color-stop(6%, #eee), to(#fff));
+	background: -moz-linear-gradient(top, #fff, #eee 2px, #fff 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	color: #000000;
+
+
+}
+
+.iformGalleries .itext:hover,.iformGalleries .itextarea:hover,.iformGalleries .iselect:hover,.iformGalleries .ibutton:hover,
+.iformGalleries .itext:focus,.iformGalleries .itextarea:focus,.iformGalleries .iselect:focus,.iformGalleries .ibutton:focus{
+
+border-color: #333;
+background:#fff;
+
+}
+
+.iformGalleries .itext {
+/*color: #000000;*/
+width: 250px;
+}
+.itexts {
+	width: 100px;
+	background:#FF0000;
+}
+
+.iformGalleries .itextarea{ 
+	height:100px; width: 250px; 
+}
+.iformGalleries .ibutton {
+
+	width:auto;
+	background: #efefef;
+	background: -webkit-gradient(linear, left top, left 25, from(#dadada), color-stop(6%, #efefef), to(#dadada));
+	background: -moz-linear-gradient(top, #dadada, #efefef 2px, #dadada 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	padding:5px
+}
+.iformGalleries .ibutton:hover,.iformGalleries .ibutton:focus { background:#dadada;}
+.iheader { font:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif; display:block; font-size:18px; border-bottom:1px solid #000; padding:5px; margin:0px 0 5px;}
+.iformGalleries li.iseparator { display:block; text-indent:-9999px; height:10px; line-height:10px; border-bottom:1px solid #999;margin:5px 0 15px }
+
+.iformGalleries .required { border-color:#F00; }
+
+#imessageOK,#imessageERROR{ border:1px solid #F60; padding:10px; font-size:16px; font-weight:bold; text-align: center; display:none; margin-bottom:20px;
+
+	background: #F90;
+	background: -webkit-gradient(linear, left top, left 25, from(#F90), color-stop(4%, #FC0), to(#F90));
+	background: -moz-linear-gradient(top, #F90, #FC0 1px, #F90 25px);
+	color:#fff;
+	}
+
+/*********/
+
 #adminList{
 	position:absolute;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
@@ -3817,6 +3892,16 @@ width: 250px;
 	margin-left:30px;
 	margin-top: 190px;
 	/*font-weight:bold;*/
+}
+
+#galleryUser{
+	position:absolute;
+	visibility: hidden;
+}
+
+#option{
+	/*position:absolute;*/
+	margin-left:4px;
 }
 
 /****SLIDE****/

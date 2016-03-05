@@ -93,7 +93,32 @@
 
 </div>
 
+<div class="iformGalleries" id="account" style="overflow-y: auto">
+<form method="POST" action="/galleries">
 
+	<p class="iheader">GALLERY (PHOTOS/VIDEOS)</p>
+
+	<label class="ilabel">
+		<input type="text" name="file" placeholder="file"class="itext" required/>
+	</label><br>
+	<select name="galleryOption" id='option'>
+	<option name="photo">Photo</option>
+	<option name="video">Video</option>
+	</select>
+	<label class="ilabel">
+		<input id='galleryUser' type="text" name="username" placeholder="Username" class="itext" value=<%= Admin.find(session[:user_id]).first_name.to_s %><%= Admin.find(session[:user_id]).last_name.to_s %> readonly required/>
+	</label><br>
+	<label class="ilabel">
+		<input type="text" name="event" placeholder="Event Name" class="itext" required/><br>
+	</label>
+	<label class="ilabel">
+		<input type="text" name="description" placeholder="Description" class="itext" required/>
+	</label><br>
+
+	<input type="submit" id="account_submit" class="ibutton"/>
+
+</form>
+</div>
 
 
 
