@@ -243,11 +243,11 @@ margin-top:150px;
         .navigation #aboutDrop{
         	margin-left:0px;
             background-color:rgba(0,0,0,0.5);
-            max-height:120px;
-            width:140px;
+            max-height:130px;
+            width:170px;
             padding-left: 20px;
             padding-right: 20px;
-            margin-top:16px;
+            margin-top:12px;
            /* border: #CEAC00;
  			border-style:solid;
  			border-width:2.5px;
@@ -258,11 +258,11 @@ margin-top:150px;
 		 .navigation #communityDrop{
         	margin-left: 0px;
             background-color:rgba(0,0,0,0.5);
-            max-height:120px;
-            width:140px;
+            max-height:130px;
+            width:180px;
             padding-left: 20px;
             padding-right: 20px;
-            margin-top:16px;
+            margin-top:12px;
            /* border: #CEAC00;
  			border-style:solid;
  			border-width:2.5px;
@@ -780,7 +780,7 @@ a.back-to-top:hover{
 
 #firstQuote{
 	position:absolute;
-	margin-top:0px;
+	margin-top:13px;
 	margin-left: 540px;
 	width:500px;
 	z-index:7;
@@ -1452,7 +1452,7 @@ a.back-to-top:hover{
 	position:absolute;
 	color:white;
 	margin-left:15px;
-	padding-top:5px;
+	padding-top:15px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight: normal;
 	font-size: 13px;
