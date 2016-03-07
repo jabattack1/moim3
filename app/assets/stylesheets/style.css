@@ -56,9 +56,9 @@ margin-top:150px;
   background-color:white;
   /*background-repeat: repeat-y;*/
 	width:1260px;
-  	height: 1220px;
+  	height: 2220px;
   	max-width:1260px;
-  	max-height:1200px;
+  	/*max-height:1200px;*/
   	margin: 0 auto;
   position:relative;
   overflow:auto;
@@ -3897,6 +3897,34 @@ width: 250px;
 #galleryUser{
 	position:absolute;
 	visibility: hidden;
+}
+
+#galleryAdminLink{
+	position:absolute;
+	margin-left:600px;
+	/*visibility: hidden;*/
+}
+
+#adminManager{
+	position:absolute;
+	margin-left:0px;
+	margin-top:160px;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:bold;
+	font-size:20px;
+	color:red;
+	/*visibility: hidden;*/
+}
+
+#galleryAdmin{
+	position:absolute;
+	margin-left:0px;
+	margin-top:660px;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:bold;
+	font-size:20px;
+	color:red;
+	/*visibility: hidden;*/
 }
 
 #option{

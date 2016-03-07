@@ -2,24 +2,24 @@ class GalleriesController < ApplicationController
 
   def index
   
-  @gallery = Gallery.all	
- 	
-
- 	@galleryStuff = []
+  @gallery = Gallery.all
  
 
- 	@gallery.each do |media|
- 		if media.course == "Lunch"
+  @galleryStuff = []
+ 
 
- 			@galleryStuff.push(media)
- 		end
- 	end
+  @gallery.each do |media|
+  if media.course == "Lunch"
+
+  @galleryStuff.push(media)
+  end
+  end
 
   end
 
   def create
     
-    	galleryNew = Gallery.create({
+    galleryNew = Gallery.create({
         file: params["file"],
         username: params["username"],
         description: params["description"],

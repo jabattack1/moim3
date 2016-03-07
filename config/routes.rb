@@ -12,9 +12,10 @@ Rails.application.routes.draw do
   resources :session, only: [:create, :destroy, :new]
   resources :teams, only: [:index, :create]
   resources :teams_session
- 
-  
-  resources :galleries
+
+
+  resources :photos, only: [:new, :create, :index, :destroy]
+  resources :galleries,  only: [:new, :create, :index, :destroy]
   resources :expresses
   resources :localhotspots
   resources :careerboards

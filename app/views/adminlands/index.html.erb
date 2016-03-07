@@ -14,18 +14,8 @@
   		<input id='adminLogOut' type="submit" value="LOG OUT" class="admin_logout"/>
 </form>
 
-<div id="loginx" class="modal hide fade in" style="display: none;">
-   <div class="modal-header">             
-      ...
-   </div>
-   <div class="modal-body">              
-      ...
-   </div>
-   <div class="modal-footer">
-      ...
-   </div>
-</div>
-
+<a href='#galleryAdmin' id='galleryAdminLink'>GALLERY</a>
+<div id='adminManager'>ADMIN ACCOUNT MANAGER</div>
 <div class="iform2" id="account" style="overflow-y: auto">
 	<p class='iheader'>CURRENT ADMINS</p>
 	<% @admin.each do |i| %>
@@ -92,10 +82,9 @@
 </form>
 
 </div>
-
+<div id='galleryAdmin'>GALLERY MANAGER</div>
 <div class="iformGalleries" id="account" style="overflow-y: auto">
 <form method="POST" action="/galleries">
-
 	<p class="iheader">GALLERY (PHOTOS/VIDEOS)</p>
 
 	<label class="ilabel">
