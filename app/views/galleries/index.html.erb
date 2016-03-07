@@ -37,41 +37,41 @@ $(".aboutSelect").mouseover(function(){
 
 
 <ul>
-				
+                
                 <li><a class='aboutSelect'>ABOUT</a><img id="aboutArrow" src='/assets/downArrow.PNG'/>
-                	<ul id='aboutDrop'>
+                    <ul id='aboutDrop'>
                         <li>
                             <a href='/mission'>THE MISSION</a>
-                      	</li>
-                        <li>
-                        	<a href='/chronicle'>THE CHRONICLE</a>
                         </li>
                         <li>
-                        	<a href='/team'>THE TEAM</a>
+                            <a href='/chronicle'>THE CHRONICLE</a>
                         </li>
                         <li>
-                        	<a href='/getinvolved'>GET INVOLVED</a>
+                            <a href='/team'>THE TEAM</a>
+                        </li>
+                        <li>
+                            <a href='/getinvolved'>GET INVOLVED</a>
                         </li>
                      </ul>
-            	</li>
+                </li>
 
                 <li><a href='/events'>EVENTS</a></li>
                 <li><a href='/blogs'>BLOG</a></li>
                 <li><a href='/galleries'>PHOTOS & VIDEOS</a></li>
                 <li><a href='/express_yourselves'>EXPRESS YOURSELF</a></li>
                 <li><a class='communitySelect'>THE COMMUNITY</a><img id="communityArrow" src='/assets/downArrow.PNG'/>
-					<ul id='communityDrop'>
+                    <ul id='communityDrop'>
                         <li>
                             <a href='/external_events'>EXTERNAL EVENTS</a>
-                      	</li>
-                        <li>
-                        	<a href='/careerboards'>CAREER BOARD</a>
                         </li>
                         <li>
-                        	<a href='/localhotspots'>LOCAL HOTSPOTS</a>
+                            <a href='/careerboards'>CAREER BOARD</a>
                         </li>
                         <li>
-                        	<a href='/freeboards'>FREEBOARD</a>
+                            <a href='/localhotspots'>LOCAL HOTSPOTS</a>
+                        </li>
+                        <li>
+                            <a href='/freeboards'>FREEBOARD</a>
                         </li>
                      </ul>
                 </li>
@@ -80,26 +80,25 @@ $(".aboutSelect").mouseover(function(){
                 
 </div>
 
-
+<img id='whiteGuyPic' class='animated slideInLeft' src = '/assets/whiteguy.jpg' onclick='closeLogin();return false;'>
+<h2 id='chronicleBlend' class='animated slideInLeft'>PHOTOS & VIDEOS</h2>
 <a href="#top" class="back-to-top">Back to Top</a>
-<div id='galleriesContent' class='animated slideInUp' onclick='closeLogin();return false;'>
+<p id='galleriesContent' class='animated slideInUp' onclick='closeLogin();return false;'>
 
  <div class="media-left">
-    <tbody>
-    <tr>
+    <div id='photosGallery' class='animated fadeIn'>
     <% @photos.each do |photo| %>
-    <td><%= link_to image_tag(photo.image.url(:thumb), class: 'media-object'), photo.image.url, target: '_blank' %></td> 
-    <td><%= photo.title %></td>
-    <td><%= photo.description %></td>  
-    </tr>
-    </tbody>
+    <%= link_to image_tag(photo.image.url(:thumb), class: 'media-object'), photo.image.url, target: '_blank' %> 
+    <%= photo.title %>
+    <%= photo.description %>  
+    </div>
     <% end %>
   </div>
-</div>
+</p>
 <script type="text/javascript">
 	$('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
 </script>
-<div id='contactUs' class='animated slideInLeft'>
+<div id='contactUsGallery' class='animated slideInLeft' onclick='closeLogin();return false;'>
 
 <div id='contactContent'>
 
