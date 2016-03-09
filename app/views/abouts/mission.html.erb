@@ -151,13 +151,23 @@ We are something different. All of our events reflect our four key pillars: crea
 <script type="text/javascript">
 // $("#spitContainer").hide();
 
-
-
+function counter10(){    $('#stat1').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 3000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});  }
+window.onload = counter10;
 function counter1(){    $('#stat1').each(function () {
     $(this).prop('Counter',0).animate({
         Counter: $(this).text()
     }, {
-        duration: 4000,
+        duration: 3000,
         easing: 'swing',
         step: function (now) {
             $(this).text(Math.ceil(now));
@@ -170,11 +180,24 @@ setInterval(counter1, 7000);
 </script>
 
 <script type="text/javascript">
+
+function counter20(){    $('#stat2').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 3000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});  }
+window.onload = counter20;
 function counter2(){    $('#stat2').each(function () {
     $(this).prop('Counter',0).animate({
         Counter: $(this).text()
     }, {
-        duration: 4000,
+        duration: 3000,
         easing: 'swing',
         step: function (now) {
             $(this).text(Math.ceil(now));
@@ -182,15 +205,27 @@ function counter2(){    $('#stat2').each(function () {
     });
 });  }
 
-setInterval(counter2, 7500);
+setInterval(counter2, 7000);
 </script>
 
 <script type="text/javascript">
+function counter3a(){    $('#stat3').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 3000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});  }
+
 function counter3(){    $('#stat3').each(function () {
     $(this).prop('Counter',0).animate({
         Counter: $(this).text()
     }, {
-        duration: 4000,
+        duration: 3000,
         easing: 'swing',
         step: function (now) {
             $(this).text(Math.ceil(now));
@@ -198,15 +233,27 @@ function counter3(){    $('#stat3').each(function () {
     });
 });  }
 
-setInterval(counter3, 8000);
+setInterval(counter3, 7000);
 </script>
 
 <script type="text/javascript">
+function counter4a(){    $('#stat4').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 3000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});  }
+
 function counter4(){    $('#stat4').each(function () {
     $(this).prop('Counter',0).animate({
         Counter: $(this).text()
     }, {
-        duration: 4000,
+        duration: 3000,
         easing: 'swing',
         step: function (now) {
             $(this).text(Math.ceil(now));
@@ -214,7 +261,7 @@ function counter4(){    $('#stat4').each(function () {
     });
 });  }
 
-setInterval(counter4, 8500);
+setInterval(counter4, 7000);
 </script>
 
 <p id='boastOutro'>
