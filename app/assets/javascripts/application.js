@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require jquery
+//= require lightbox
 //= require jquery_ujs
 //= require_tree .
 //= require jquery-ui

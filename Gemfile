@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'rubylight'
 gem "paperclip", "~> 4.3"
 gem 'bootstrap-sass'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

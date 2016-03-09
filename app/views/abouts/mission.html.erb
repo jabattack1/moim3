@@ -1,69 +1,12 @@
-<!-- <div id="aboutpage-container">
-	<div id="aboutpage-whoweare-summary">
-		<h3>Who We Are</h3>
-		<p class="aboutpage-english">MOI’M New York, Inc. (MOI’M) is a mission-driven 501(c)3 not-for-profit organization.</p>
-		<p class="aboutpage-english">Our mission is to bridge people, ideas, and opportunities to inspire new ways to connect with one another and the world around us.</p>
-		<p class="aboutpage-english">Our Purpose is to provide a special space where we can network free from any affiliations and discuss how to further empower and give back to the community. As a Korean creative 	networking organization, MOI'M creates events that facilitate networking for anyone interested in Korea and promote community outreach.</p>
-		<br><br>
-
-		<p class="aboutpage-korean">MOI'M New York, Inc. 은 미국 뉴욕 주 소재한 비영리 단체입니다. </p>
-
-		<br></br>
-
-		<p class="aboutpage-korean">저희 단체는 사람, 아이디어 그리고 기회들 간의 브릿지 역할을 하여 우리 주위의 개개인을 새로운 방식으로 연결하려는 데 뜻을 모으고 있습니다. 저희 단체는 여러분들에게 어느 한 단체나 학교등의 소속감없이 편히 네트워킹을 할 수 있는 특별한 공간을 제공하고 우리 주위의 커뮤니티를 돌아볼 수 있는 기회를 마련해 드립니다. MOI'M은 한국 문화에 관심이 있는 사람이면 누구나 참여가능한 네트워킹 이벤트를 기획하는 단체입니다. </p>
-	</div>
-	<br><br>
-	<div class="aboutpage-fourpillars">
-		<div class="fourpillar">Networking</div>
-		<div class="fourpillar">Creativity</div>
-		<div class="fourpillar">Entertainment</div>
-		<div class="fourpillar">Inspiration</div>
-	</div>
-	<div class="aboutpage-clear"></div>
-
-	<div class="aboutpage-history">
-		<h2>SINCE 2013</h2>
-		<p>WE HAVE ENGAGED <span class="history-blue">5092</span> GUEST</p>
-		<p>TO POSITIVELY INFLUENCE <span class="history-blue">164166</span> INDIVIDUALS</p>
-		<p>THROUGH <span class="history-blue">26</span> COLLABORATIONS</p>
-		<p>AT <span class="history-blue">5092</span> EVENTS</p>
-</div> -->
 
 <html>
 <head>
 	<title></title>
-	<script src="/application/html/js/inorganik/countup.js/countup.min.js"></script>
+
 </head>
 <body id="missionPage">
 
-<script>
-$(function() {
-    var oTop = $('.count').offset().top - window.innerHeight;
-    $(window).scroll(function(){
 
-        var pTop = $('body').scrollTop();
-        console.log( pTop + ' - ' + oTop );   //just for your debugging
-        if( pTop > oTop ){
-            start_count();
-        }
-    });
-});
-
-function start_count(){
-    alert('start_count');
-     $({countNum: $('.count').text()}).animate({countNum: 63  }, {
-          duration: 3000,
-          easing:'linear',
-          step: function() {
-            $('#counter').text(Math.floor(this.countNum));
-          },
-          complete: function() {
-            $('#counter').text(this.countNum);
-
-          }
-        });
-}        
-</script>
 
 <script type="text/javascript">
 $(".aboutSelect").mouseover(function(){
@@ -191,18 +134,26 @@ We are something different. All of our events reflect our four key pillars: crea
 <h1 id='sinceHead'>SINCE 2013</h1>
 <img id='sinceLine' src = "/assets/line.png">
 
-<div id="stat1"><span class="count">5092</span></div>
-<div id="stat2"><span class="count">164166</span></div>
-<div id="stat3"><span class="count">26</span></div>
-<div id="stat4"><span class="count">11</span></div>
+<div id='container'>
+<!-- <p id='spitContainer'><a id='spit'>5026</a></p> -->
+<div id="stat1" class='number'><span class="count">5026</span></div>
+<div id="stat2" class='number'><span class="count">164166</span></div>
+<div id="stat3" class='number'><span class="count">26</span></div>
+<div id="stat4" class='number'><span class="count">11</span></div>
 
 <p id='boast1'><span id='countLeft1'>WE HAVE ENGAGED</span><span id='countRight1'>GUESTS</span></p>
 <p id='boast2'><span id='countLeft2'>TO POSITIVELY INFLUENCE</span><span id='countRight2'>INDIVIDUALS</span></p>
 <p id='boast3'><span id='countLeft3'>THROUGH</span><span id='countRight3'>COLLABORATIONS</span></p>
 <p id='boast4'><span id='countLeft4'>AT</span><span id='countRight4'>EVENTS</span></p>
 
+</div>
+
 <script type="text/javascript">
-	$('#stat1').each(function () {
+// $("#spitContainer").hide();
+
+
+
+function counter1(){    $('#stat1').each(function () {
     $(this).prop('Counter',0).animate({
         Counter: $(this).text()
     }, {
@@ -212,10 +163,14 @@ We are something different. All of our events reflect our four key pillars: crea
             $(this).text(Math.ceil(now));
         }
     });
-});
+});  }
+
+setInterval(counter1, 7000);
+
 </script>
+
 <script type="text/javascript">
-	$('#stat2').each(function () {
+function counter2(){    $('#stat2').each(function () {
     $(this).prop('Counter',0).animate({
         Counter: $(this).text()
     }, {
@@ -225,10 +180,13 @@ We are something different. All of our events reflect our four key pillars: crea
             $(this).text(Math.ceil(now));
         }
     });
-});
+});  }
+
+setInterval(counter2, 7500);
 </script>
+
 <script type="text/javascript">
-	$('#stat3').each(function () {
+function counter3(){    $('#stat3').each(function () {
     $(this).prop('Counter',0).animate({
         Counter: $(this).text()
     }, {
@@ -238,10 +196,13 @@ We are something different. All of our events reflect our four key pillars: crea
             $(this).text(Math.ceil(now));
         }
     });
-});
+});  }
+
+setInterval(counter3, 8000);
 </script>
+
 <script type="text/javascript">
-	$('#stat4').each(function () {
+function counter4(){    $('#stat4').each(function () {
     $(this).prop('Counter',0).animate({
         Counter: $(this).text()
     }, {
@@ -251,7 +212,9 @@ We are something different. All of our events reflect our four key pillars: crea
             $(this).text(Math.ceil(now));
         }
     });
-});
+});  }
+
+setInterval(counter4, 8500);
 </script>
 
 <p id='boastOutro'>
