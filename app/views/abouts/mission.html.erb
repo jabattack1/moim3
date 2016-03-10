@@ -136,6 +136,9 @@ We are something different. All of our events reflect our four key pillars: crea
 
 <div id='container'>
 <div id='spitContainer'><span id='spit'>5026</span></div>
+<div id='spitContainer'><span id='spit2'>164166</span></div>
+<div id='spitContainer'><span id='spit3'>26</span></div>
+<div id='spitContainer'><span id='spit4'>11</span></div>
 <div id="stat1" class='number'><span class="count">5026</span></div>
 <div id="stat2" class='number'><span class="count">164166</span></div>
 <div id="stat3" class='number'><span class="count">26</span></div>
@@ -148,21 +151,9 @@ We are something different. All of our events reflect our four key pillars: crea
 
 </div>
 
-<script type="text/javascript">
-// $("#spitContainer").hide();
 
-// function counter10(){    $('#stat1').each(function () {
-//     $(this).prop('Counter',0).animate({
-//         Counter: $(this).text()
-//     }, {
-//         duration: 3000,
-//         easing: 'swing',
-//         step: function (now) {
-//             $(this).text(Math.ceil(now));
-//         }
-//     });
-// });  }
-// window.onload = counter10;
+
+<script type="text/javascript">
 
 $("#spit").hide();
  
@@ -180,32 +171,22 @@ function counter1(){    $('#stat1').each(function () {
     setTimeout(function() {
         $("#spit").show();
         $("#stat1").css("color", "white");
-        }, 3000);
+        }, 2999);
     setTimeout(function() {
         $("#spit").hide();
         $("#stat1").css("color", "#357FFF");
         }, 8000);
 }
 
+$(window).load(counter1);
 setInterval(counter1, 8000);
 
 </script>
 
 
 <script type="text/javascript">
+$("#spit2").hide();
 
-function counter20(){    $('#stat2').each(function () {
-    $(this).prop('Counter',0).animate({
-        Counter: $(this).text()
-    }, {
-        duration: 3000,
-        easing: 'swing',
-        step: function (now) {
-            $(this).text(Math.ceil(now));
-        }
-    });
-});  }
-window.onload = counter20;
 function counter2(){    $('#stat2').each(function () {
     $(this).prop('Counter',0).animate({
         Counter: $(this).text()
@@ -216,23 +197,24 @@ function counter2(){    $('#stat2').each(function () {
             $(this).text(Math.ceil(now));
         }
     });
-});  }
+});
+    setTimeout(function() {
+        $("#spit2").show();
+        $("#stat2").css("color", "white");
+        }, 2999);
+    setTimeout(function() {
+        $("#spit2").hide();
+        $("#stat2").css("color", "#357FFF");
+        }, 8000);  
+}
 
-setInterval(counter2, 7000);
+$(window).load(counter2);
+setInterval(counter2, 8000);
 </script>
 
 <script type="text/javascript">
-function counter3a(){    $('#stat3').each(function () {
-    $(this).prop('Counter',0).animate({
-        Counter: $(this).text()
-    }, {
-        duration: 3000,
-        easing: 'swing',
-        step: function (now) {
-            $(this).text(Math.ceil(now));
-        }
-    });
-});  }
+
+$("#spit3").hide();
 
 function counter3(){    $('#stat3').each(function () {
     $(this).prop('Counter',0).animate({
@@ -244,23 +226,23 @@ function counter3(){    $('#stat3').each(function () {
             $(this).text(Math.ceil(now));
         }
     });
-});  }
-
-setInterval(counter3, 7000);
+});
+    setTimeout(function() {
+        $("#spit3").show();
+        $("#stat3").css("color", "white");
+        }, 2999);
+    setTimeout(function() {
+        $("#spit3").hide();
+        $("#stat3").css("color", "#357FFF");
+        }, 8000);   
+}
+$(window).load(counter3);
+setInterval(counter3, 8000);
 </script>
 
 <script type="text/javascript">
-function counter4a(){    $('#stat4').each(function () {
-    $(this).prop('Counter',0).animate({
-        Counter: $(this).text()
-    }, {
-        duration: 3000,
-        easing: 'swing',
-        step: function (now) {
-            $(this).text(Math.ceil(now));
-        }
-    });
-});  }
+
+$("#spit4").hide();
 
 function counter4(){    $('#stat4').each(function () {
     $(this).prop('Counter',0).animate({
@@ -272,9 +254,18 @@ function counter4(){    $('#stat4').each(function () {
             $(this).text(Math.ceil(now));
         }
     });
-});  }
-
-setInterval(counter4, 7000);
+});  
+    setTimeout(function() {
+        $("#spit4").show();
+        $("#stat4").css("color", "white");
+        }, 2999);
+    setTimeout(function() {
+        $("#spit4").hide();
+        $("#stat4").css("color", "#357FFF");
+        }, 8000);
+}
+$(window).load(counter4);
+setInterval(counter4, 8000);
 </script>
 
 <p id='boastOutro'>

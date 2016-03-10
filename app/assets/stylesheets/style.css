@@ -4220,7 +4220,48 @@ width: 250px;
   animation: neon2 1.5s ease-in-out infinite alternate;
 }
 
-#
+#spitContainer:nth-child(2) #spit2 {
+	position:absolute;
+  margin-top:1195px;
+  	font-size:70px;
+  	width:1260px;
+  		display: block;
+	text-align:center;
+  color: #ffffff;
+  font-family: Iceland;
+  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+#spitContainer:nth-child(3) #spit3 {
+	position:absolute;
+  margin-top:1285px;
+  	font-size:70px;
+  	width:1260px;
+  		display: block;
+	text-align:center;
+  color: #ffffff;
+  font-family: Iceland;
+  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+#spitContainer:nth-child(4) #spit4 {
+	position:absolute;
+  margin-top:1375px;
+  	font-size:70px;
+  	width:1260px;
+  		display: block;
+	text-align:center;
+  color: #ffffff;
+  font-family: Iceland;
+  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
 
 #spitContainer #spit:hover {
   /*color: #ffffff;*/
