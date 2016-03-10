@@ -135,7 +135,7 @@ We are something different. All of our events reflect our four key pillars: crea
 <img id='sinceLine' src = "/assets/line.png">
 
 <div id='container'>
-<!-- <p id='spitContainer'><a id='spit'>5026</a></p> -->
+<div id='spitContainer'><span id='spit'>5026</span></div>
 <div id="stat1" class='number'><span class="count">5026</span></div>
 <div id="stat2" class='number'><span class="count">164166</span></div>
 <div id="stat3" class='number'><span class="count">26</span></div>
@@ -151,18 +151,21 @@ We are something different. All of our events reflect our four key pillars: crea
 <script type="text/javascript">
 // $("#spitContainer").hide();
 
-function counter10(){    $('#stat1').each(function () {
-    $(this).prop('Counter',0).animate({
-        Counter: $(this).text()
-    }, {
-        duration: 3000,
-        easing: 'swing',
-        step: function (now) {
-            $(this).text(Math.ceil(now));
-        }
-    });
-});  }
-window.onload = counter10;
+// function counter10(){    $('#stat1').each(function () {
+//     $(this).prop('Counter',0).animate({
+//         Counter: $(this).text()
+//     }, {
+//         duration: 3000,
+//         easing: 'swing',
+//         step: function (now) {
+//             $(this).text(Math.ceil(now));
+//         }
+//     });
+// });  }
+// window.onload = counter10;
+
+$("#spit").hide();
+ 
 function counter1(){    $('#stat1').each(function () {
     $(this).prop('Counter',0).animate({
         Counter: $(this).text()
@@ -173,11 +176,21 @@ function counter1(){    $('#stat1').each(function () {
             $(this).text(Math.ceil(now));
         }
     });
-});  }
+});  
+    setTimeout(function() {
+        $("#spit").show();
+        $("#stat1").css("color", "white");
+        }, 3000);
+    setTimeout(function() {
+        $("#spit").hide();
+        $("#stat1").css("color", "#357FFF");
+        }, 8000);
+}
 
-setInterval(counter1, 7000);
+setInterval(counter1, 8000);
 
 </script>
+
 
 <script type="text/javascript">
 
