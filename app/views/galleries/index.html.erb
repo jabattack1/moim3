@@ -104,27 +104,17 @@ $(".aboutSelect").mouseover(function(){
     </div>
       <div class="final-tiles-gallery effect-zoom effect-fade-out caption-top">
     <div class="ftg-items">
+                    <% @photos.each do |photo| %>
         <div class="tile ftg-set-filter-1">
-            <a data-lightbox="gallery" data-title="blah blac blah" class="tile-inner" href="<%= asset_path( '3.jpg' ) %>">
-                <img class="item" data-src="<%= asset_path( '3.jpg' ) %>" />
-                <span class='title'>sound of music</span>
-                <span class='subtitle'>blah blac blah</span>
+            <a data-lightbox="gallery" data-title="<%= photo.description %>" class="tile-inner" href="<%= photo.image.url %>">
+                <img class="item" data-src="<%= photo.image.url %>" />
+                <span class='title'><%= photo.title %></span>
+                <span class='subtitle'><%= photo.description %></span>
             </a>
         </div>
-        <div class="tile ftg-set-filter-2">
-            <a data-lightbox="gallery" data-title="Lorem ipsum - Pellentesque ornare ornare" class="tile-inner" href="./app/assets/images/3.jpg">
-                <img class="item" data-src="app/assets/images/3.jpg" />
-                <span class='title'>sound of music</span>
-                <span class='subtitle'>blah blac blah</span>
-            </a>
-        </div>
-        <div class="tile ftg-set-filter-3">
-            <a data-lightbox="gallery" data-title="Lorem ipsum - Pellentesque ornare ornare" class="tile-inner" href="./app/assets/images/3.jpg">
-                <img class="item" data-src="./app/assets/images/3.jpg" />
-                <span class='title'>sound of music</span>
-                <span class='subtitle'>blah blac blah</span>
-            </a>
-        </div>
+            <% end %>
+
+
     </div>    
 </div>
 
@@ -133,13 +123,9 @@ $(".aboutSelect").mouseover(function(){
 
 
 
-<!-- <div id='photosGallery'>
-    <% @photos.each do |photo| %>
-    <%= link_to image_tag(photo.image.url(:thumb), class: 'media-object'), photo.image.url, target: '_blank' %>
-    <%= photo.title %>
-    <%= photo.description %>
-    <% end %>
-</div> -->
+
+    
+
 
 
 </div>
