@@ -970,13 +970,18 @@ a.back-to-top:hover{
 	border-color:#1BAAC6;*/
 }
 
+#galleryCSS{
+	/*position:absolute;*/
+	margin-top:900px;
+}
+
 #galleriesContent {
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	position: absolute;
 	margin-top:623px;
 	margin-left:0px;
 	width:1260px;
-	height:2900px;
+	height:1900px;
 	background-color:white;
 	z-index:8;
 	/*width:1800px;*/
@@ -4441,4 +4446,12 @@ width: 250px;
   p {
     font-size: 10px;
   }
+}
+
+#gallery{
+position:absolute;
+top:13px;
+left:20px;
+z-index:8;
+width:1200px;
 }

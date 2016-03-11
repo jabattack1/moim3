@@ -2,11 +2,6 @@
 <head>
 	<title></title>
 
-<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-<script src="/js/jquery.finaltilesgallery.js"></script>
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/finaltilesgallery.css">
-
 </head>
 <body>
 
@@ -96,42 +91,58 @@ $(".aboutSelect").mouseover(function(){
 <img id='whiteGuyPic' class='animated slideInLeft' src = '/assets/whiteguy.jpg' onclick='closeLogin();return false;'>
 <h2 id='chronicleBlend' class='animated slideInLeft'>PHOTOS & VIDEOS</h2>
 <a href="#top" class="back-to-top">Back to Top</a>
-<p id='galleriesContent' class='animated slideInUp' onclick='closeLogin();return false;'>
+<div id='galleriesContent' class='animated slideInUp' onclick='closeLogin();return false;'>
 
 
-<div id="gallery" class="final-tiles-gallery">
-    <div class="ftg-items">
-        <div class="tile">
-            <a class="tile-inner" href="photos/1.jpg">
-                <img class="item" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="http://i1301.photobucket.com/albums/ag119/jabattack1/yellow-sun1_zpsfqhfr5hn.png" />
-            </a>
-        </div>
-        <div class="tile">
-            <a class="tile-inner" href="photos/2.jpg">
-                <img class="item" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="photos/thumbs/2.jpg" />
-            </a>
-        </div>
-        <div class="tile">
-            <a class="tile-inner" href="photos/3.jpg">
-                <img class="item" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="photos/thumbs/3.jpg" />
-            </a>
-        </div>
+<div id="gallery" class='galleryCSS'>
+
+    <div class="ftg-filters">
+        <a href="#ftg-set-ftgall">ALL</a>
+        <a href="#ftg-set-filter-1">PHOTOS</a>
+        <a href="#ftg-set-filter-2">VIDEOS</a>
+        <a href="#ftg-set-filter-3">MISC.</a>
     </div>
+      <div class="final-tiles-gallery effect-zoom effect-fade-out caption-top">
+    <div class="ftg-items">
+        <div class="tile ftg-set-filter-1">
+            <a data-lightbox="gallery" data-title="blah blac blah" class="tile-inner" href="<%= asset_path( '3.jpg' ) %>">
+                <img class="item" data-src="<%= asset_path( '3.jpg' ) %>" />
+                <span class='title'>sound of music</span>
+                <span class='subtitle'>blah blac blah</span>
+            </a>
+        </div>
+        <div class="tile ftg-set-filter-2">
+            <a data-lightbox="gallery" data-title="Lorem ipsum - Pellentesque ornare ornare" class="tile-inner" href="./app/assets/images/3.jpg">
+                <img class="item" data-src="app/assets/images/3.jpg" />
+                <span class='title'>sound of music</span>
+                <span class='subtitle'>blah blac blah</span>
+            </a>
+        </div>
+        <div class="tile ftg-set-filter-3">
+            <a data-lightbox="gallery" data-title="Lorem ipsum - Pellentesque ornare ornare" class="tile-inner" href="./app/assets/images/3.jpg">
+                <img class="item" data-src="./app/assets/images/3.jpg" />
+                <span class='title'>sound of music</span>
+                <span class='subtitle'>blah blac blah</span>
+            </a>
+        </div>
+    </div>    
+</div>
+
+
 </div>
 
 
 
-
-<div id='photosGallery'>
+<!-- <div id='photosGallery'>
     <% @photos.each do |photo| %>
     <%= link_to image_tag(photo.image.url(:thumb), class: 'media-object'), photo.image.url, target: '_blank' %>
     <%= photo.title %>
     <%= photo.description %>
     <% end %>
+</div> -->
+
+
 </div>
-
-
-</p>
 <script type="text/javascript">
 	$('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
 </script>

@@ -39,6 +39,7 @@
   font-size: 11px;
   padding: 4px;
   font-family: sans-serif;
+
 }
 .final-tiles-gallery .edge.enlarged-true {
   color: yellow;
@@ -170,6 +171,7 @@
 }
 .final-tiles-gallery.caption-top .tile span {
   font-family: 'Lato', sans-serif;
+  
   display: block;
   position: absolute;
   width: 68%;
