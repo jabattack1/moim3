@@ -946,7 +946,7 @@ a.back-to-top:hover{
 	margin-top:623px;
 	margin-left:0px;
 	width:1260px;
-	height:1800px;
+	height:1900px;
 	background-color:white;
 	z-index:8;
 	/*width:1800px;*/
@@ -1047,7 +1047,7 @@ a.back-to-top:hover{
 	margin-top:623px;
 	margin-left:0px;
 	width:1260px;
-	height:580px;
+	height:820px;
 	background-color:white;
 	z-index:8;
 	/*width:1800px;*/
@@ -1063,7 +1063,7 @@ a.back-to-top:hover{
 	margin-top:623px;
 	margin-left:0px;
 	width:1260px;
-	height:570px;
+	height:810px;
 	background-color:white;
 	z-index:8;
 	/*width:1800px;*/
@@ -1240,9 +1240,10 @@ a.back-to-top:hover{
 }
 
 #contactUsChronicle{
-	position:absolute;
-    margin-top:3400px;
-    margin-left:0px;
+	position:fixed;
+	bottom:0;
+    /*margin-top:3400px;*/
+    /*margin-left:0px;*/
     z-index:8;
     width:1260px;
     height:240px;
@@ -1253,9 +1254,10 @@ a.back-to-top:hover{
 }
 
 #contactUsMission{
-	position:absolute;
-    margin-top:2300px;
-    margin-left:0px;
+	position:fixed;
+	bottom:0;
+    /*margin-top:2300px;*/
+    /*margin-left:0px;*/
     z-index:8;
     width:1260px;
     height:240px;
@@ -1265,10 +1267,68 @@ a.back-to-top:hover{
   	left: 0;*/
 }
 
+#contactUsEvents{
+	position:fixed;
+	bottom:0;
+    /*margin-top:2300px;*/
+    /*margin-left:0px;*/
+    z-index:8;
+    width:1260px;
+    height:240px;
+    background-color:#2B2B2B;
+/*    right: 0;
+  	bottom: 0;
+  	left: 0;*/
+}
+
+#contactUsBlogs{
+	position:fixed;
+	bottom:0;
+    /*margin-top:2300px;*/
+    /*margin-left:0px;*/
+    z-index:8;
+    width:1260px;
+    height:240px;
+    background-color:#2B2B2B;
+/*    right: 0;
+  	bottom: 0;
+  	left: 0;*/
+}
+
+#contactUsExpress{
+	position:fixed;
+	bottom:0;
+    /*margin-top:2300px;*/
+    /*margin-left:0px;*/
+    z-index:8;
+    width:1260px;
+    height:240px;
+    background-color:#2B2B2B;
+/*    right: 0;
+  	bottom: 0;
+  	left: 0;*/
+}
+
+#contactUsPress{
+	position:fixed;
+	bottom:0;
+    /*margin-top:2300px;*/
+    /*margin-left:0px;*/
+    z-index:8;
+    width:1260px;
+    height:240px;
+    background-color:#2B2B2B;
+/*    right: 0;
+  	bottom: 0;
+  	left: 0;*/
+}
+
+
 #contactUsInvolved{
-	position:absolute;
-    margin-top:1205px;
-    margin-left:0px;
+	position:fixed;
+	bottom:0;
+    /*margin-top:1205px;*/
+    /*margin-left:0px;*/
     z-index:8;
     width:1260px;
     height:240px;
@@ -1279,9 +1339,10 @@ a.back-to-top:hover{
 }
 
 #contactUsTeam{
-	position:absolute;
-    margin-top:1190px;
-    margin-left:0px;
+	position:fixed;
+	bottom:0;
+    /*margin-top:1190px;*/
+    /*margin-left:0px;*/
     z-index:100;
     width:1260px;
     height:240px;
@@ -1292,9 +1353,10 @@ a.back-to-top:hover{
 }
 
 #contactUsGallery{
-	position:absolute;
-    margin-top:3400px;
-    margin-left:0px;
+	position:fixed;
+	bottom:0;
+    /*margin-top:3400px;*/
+    /*margin-left:0px;*/
     z-index:8;
     width:1260px;
     height:240px;
