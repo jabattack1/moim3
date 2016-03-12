@@ -2,6 +2,24 @@
   height: 100%;
 }*/
 
+#header {
+	margin-top:1px;
+	height:1px;
+	width:auto;
+	position:absolute;
+	background:white;
+	z-index: 100;
+}
+
+#header1 {
+	margin-top:50px;
+	height:1px;
+	width:auto;
+	position:absolute;
+	background:white;
+	z-index: 100;
+}
+
 #test { width:100px; 
 	min-height:100px; 
 z-index:100;
@@ -767,7 +785,7 @@ a.back-to-top:hover{
 	margin-top:0px;
 	width: 1260px;
 	height: 620px;
-    position:absolute;
+    position:fixed;
 }
 
 #whiteGuyPic{
@@ -877,7 +895,7 @@ a.back-to-top:hover{
 #backdrop{
 	width: 380px;
 	height: 557px;
-    position: absolute;
+    position: fixed;
     margin-top: 63px;
 	margin-left:0px;
 	z-index:8;
@@ -888,7 +906,7 @@ a.back-to-top:hover{
 #crossfade2 > img { 
    width: 380px;
 	height: 556px;
-    position: absolute;
+    position: fixed;
     margin-top: 63px;
 	margin-left:0px;
     color: transparent;
@@ -1509,6 +1527,16 @@ a.back-to-top:hover{
 
 #welcomeBottom{
 	position:absolute;
+	background-color:#161616;
+	width:1260px;
+	height:50px;
+	margin-top:620px;
+	/*bottom:0;*/
+	z-index:9;
+}
+
+#welcomeBottom1{
+	position:fixed;
 	background-color:#161616;
 	width:1260px;
 	height:50px;

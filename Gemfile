@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
-
+gem 'waypoints-rails'
+gem 'jquery-waypoints-rails', '~> 2.0', '>= 2.0.5'
 gem 'rubylight'
 gem "paperclip", "~> 4.3"
 gem 'bootstrap-sass'
