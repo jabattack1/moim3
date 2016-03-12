@@ -3,7 +3,8 @@
 	<title></title>
 </head>
 <body id='welcomeBody'>
-    
+
+   
 <script type="text/javascript">
 $(".aboutSelect").mouseover(function(){
 	console.log('drop');
@@ -12,14 +13,18 @@ $(".aboutSelect").mouseover(function(){
 </script> 
 
 <div id="header">
-<h1>top</h1>
+<!-- <h1>top</h1> -->
 </div>
 
 <div id="header1">
-<h1>trigger</h1>
+<!-- <h1>trigger</h1> -->
 </div>
 
-<div id='top_banner' class='navigation animated slideInRight'>
+<div id="header2">
+<!-- <h1>trigger</h1> -->
+</div>
+
+<div id='top_banner' class='navigation'>
   <!-- <nav> -->
 
 <section class="webdesigntuts-workshop">
@@ -89,52 +94,7 @@ $(".aboutSelect").mouseover(function(){
 
 <div id='container' onclick='closeLogin();return false;'>	
 
-<!-- <div id='mainLogo' class='animated slideInLeft'>
-<img id='logo' src='/assets/moimLogo.png' id='logo_back'>
-</div> -->
-
-<script language="javascript">
-        function autoResizeDiv()
-        {
-            document.getElementById('backdrop').style.height = window.innerHeight +'px';
-        }
-        window.onresize = autoResizeDiv;
-        autoResizeDiv();
-</script>
-<script language="javascript">
-        function autoResizeDiv()
-        {
-            document.getElementById('eventsSlideShow').style.height = window.innerHeight +'px';
-        }
-        window.onresize = autoResizeDiv;
-        autoResizeDiv();
-</script>
-<script language="javascript">
-        function autoResizeDiv()
-        {
-            document.getElementById('frontPic').style.height = window.innerHeight +'px';
-        }
-        window.onresize = autoResizeDiv;
-        autoResizeDiv();
-</script>
-<script language="javascript">
-        function autoResizeDiv()
-        {
-            document.getElementById('firstQuote').style.height = window.innerHeight +'px';
-        }
-        window.onresize = autoResizeDiv;
-        autoResizeDiv();
-</script>
-<script language="javascript">
-        function autoResizeDiv()
-        {
-            document.getElementById('welcomeBottom').style.height = window.innerHeight +'px';
-        }
-        window.onresize = autoResizeDiv;
-        autoResizeDiv();
-</script>
-
-<div id='backdrop' class='animated fadeIn'></div>
+<!-- <div id='backdrop' class='animated fadeIn'></div>
 <div id='eventsSlideShow'>
 	<div id='crossfade2'>
  	 <img class = "cone" src = "http://i1301.photobucket.com/albums/ag119/jabattack1/grey-movie-poster_zpsuopukpio.jpg">
@@ -142,7 +102,7 @@ $(".aboutSelect").mouseover(function(){
      <img class = "cthree" src = "http://i1301.photobucket.com/albums/ag119/jabattack1/postersilence_zpsgse1tzl1.jpg">
      <img class = "cfour" src = "http://i1301.photobucket.com/albums/ag119/jabattack1/ferris_zpszna9osgz.jpg">
 	</div>
-</div>
+</div> -->
 
 
 <img id='frontPic' class='animated zoomIn' src = "/assets/nyc.gif">
@@ -159,14 +119,11 @@ $(".aboutSelect").mouseover(function(){
 	$('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
 </script>
 
-<script>
-  // $(window).scroll(function() {
-  //   $('#welcomeBottom1').fadeOut( "slow" );
-  // });
 
+<script>
 $(document).ready(function() {
 $('#header1').waypoint(function() {
-   $('#welcomeBottom1').fadeOut( "slow" );
+   $('#welcomeBottom1').fadeOut();
 });
 });
 
@@ -176,15 +133,45 @@ $('#header').waypoint(function() {
 });
 });
 
+$(document).ready(function() {
+$('#header2').waypoint(function() {
+        // $('#top_banner').hide();
+        $( "#top_banner" ).animate({
+    // width: "70%",
+    backgroundColor: "#161616"
+    // marginLeft: "0.6in",
+    // fontSize: "3em",
+    // borderWidth: "10px"
+  }, 500 );
+});
+});
+
+$(document).ready(function() {
+$('#header').waypoint(function() {
+        // $('#top_banner').hide();
+        $( "#top_banner" ).animate({
+    // width: "70%",
+    backgroundColor: "rgba(0,0,0,0.1)"
+    // marginLeft: "0.6in",
+    // fontSize: "3em",
+    // borderWidth: "10px"
+  }, 500 );
+});
+});
+
+
+    // $(this).fadeOut(1000, function() {
+    //     $(this).css("background-color", "#FF0000").fadeIn(1000);
 
 </script>
 
 <!-- alert($("div").scrollTop()); -->
-
+<div id='welcomeContent' class='animated slideInUp' onclick='closeLogin();return false;'>
+</div>
 <div id='welcomeBottom1' onclick='closeLogin();return false;'>
 
 <p id='bottomContentWelcome'>Copyright 
-<script type="text/javascript">
+<script>
 var theDate=new Date()
 document.write(theDate.getFullYear())
 </script> 
@@ -207,6 +194,13 @@ MOI'M | All Rights Reserved | <a href='#' id='link' onclick='termsWelcome();retu
 </p>
 
 </div>
+
+<script>
+$(window).load(function() {
+    $('#welcomeBottom1').hide();
+    $('#welcomeBottom1').show( "slide", { direction: "left" }, 500 );
+});
+</script>
 
 </div>
 

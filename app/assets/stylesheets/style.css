@@ -12,7 +12,16 @@
 }
 
 #header1 {
-	margin-top:50px;
+	margin-top:10px;
+	height:1px;
+	width:auto;
+	position:absolute;
+	background:white;
+	z-index: 100;
+}
+
+#header2 {
+	margin-top:150px;
 	height:1px;
 	width:auto;
 	position:absolute;
@@ -156,7 +165,8 @@ margin-top:150px;
  	border-style:solid;
  	border-width:2.5px;*/ 
  	/*background-repeat: no-repeat;*/
- 	background-color:#161616;
+ 	/*background-color:#161616;*/
+ 	background-color:rgba(0,0,0,0.1);
  	/*border-radius: 5px;*/
  	z-index: 10;
 }
@@ -952,6 +962,23 @@ a.back-to-top:hover{
     -ms-animation-delay: 36s;
     animation-delay: 36s; 
 }
+
+
+#welcomeContent {
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	position: absolute;
+	margin-top:623px;
+	margin-left:0px;
+	width:1260px;
+	height:1900px;
+	background-color:#161616;
+	z-index:9;
+	/*width:1800px;*/
+	/*border-top:solid;
+	border-width:7px;
+	border-color:#1BAAC6;*/
+}
+
 
 #theMission{
 	position:absolute;
