@@ -29,6 +29,7 @@
 	z-index: 100;
 }
 
+
 #test { width:100px; 
 	min-height:100px; 
 z-index:100;
@@ -94,6 +95,29 @@ margin-top:150px;
 
 #container{
 	position:absolute;
+	/*z-index:10;*/
+}
+
+#posterContainer{
+	position:absolute;
+	z-index:8;
+	margin-top:92px;
+	margin-left:0px;
+	width:350px;
+	height:500px;
+	background-color:rgba(0,0,0,0.3);
+}
+
+#posterShow1{
+	position:absolute;
+	width:350px;
+	height:500px;
+}
+
+#posterShow2{
+	position:absolute;
+	width:350px;
+	height:500px;
 }
 
 #mainLogo{
@@ -357,10 +381,6 @@ margin-top:150px;
 	margin-left:-7px;
 	width:12px;
 }
-
-
-
-
 
 
 a.back-to-top {
@@ -902,66 +922,7 @@ a.back-to-top:hover{
     100% { opacity: 0 }
 }
 
-#backdrop{
-	width: 380px;
-	height: 557px;
-    position: fixed;
-    margin-top: 63px;
-	margin-left:0px;
-	z-index:8;
-	background-color:rgba(0,0,0,0.8);
-}
 
-
-#crossfade2 > img { 
-   width: 380px;
-	height: 556px;
-    position: fixed;
-    margin-top: 63px;
-	margin-left:0px;
-    color: transparent;
-    opacity: 0;
-    z-index: 9;
-    -webkit-backface-visibility: hidden;
-    -webkit-animation: imageAnimation 40s linear infinite 0s;
-    -moz-animation: imageAnimation 40s linear infinite 0s;
-    -o-animation: imageAnimation 40s linear infinite 0s;
-    -ms-animation: imageAnimation 40s linear infinite 0s;
-    animation: imageAnimation 40s linear infinite 0s; 
-}
-
-#crossfade2 > img:nth-child(2)  { 
-    background-image: url(../images/2.jpg);
-    -webkit-animation-delay: 9s;
-    -moz-animation-delay: 9s;
-    -o-animation-delay: 9s;
-    -ms-animation-delay: 9s;
-    animation-delay: 9s; 
-}
-#crossfade2 > img:nth-child(3) { 
-    background-image: url(../images/3.jpg);
-    -webkit-animation-delay: 18s;
-    -moz-animation-delay: 18s;
-    -o-animation-delay: 18s;
-    -ms-animation-delay: 18s;
-    animation-delay: 18s; 
-}
-#crossfade2 > img:nth-child(4) { 
-    background-image: url(../images/4.jpg);
-    -webkit-animation-delay: 27s;
-    -moz-animation-delay: 27s;
-    -o-animation-delay: 27s;
-    -ms-animation-delay: 27s;
-    animation-delay: 27s; 
-}
-#crossfade2 > img:nth-child(5) { 
-    background-image: url(../images/5.jpg);
-    -webkit-animation-delay: 36s;
-    -moz-animation-delay: 36s;
-    -o-animation-delay: 36s;
-    -ms-animation-delay: 36s;
-    animation-delay: 36s; 
-}
 
 
 #welcomeContent {

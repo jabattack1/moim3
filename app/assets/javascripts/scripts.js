@@ -1,5 +1,76 @@
 console.log("connected")
 
+var poster="<div id='posterContainer'></div>"
+var one="<img id='posterShow1' src = 'http://i1301.photobucket.com/albums/ag119/jabattack1/AFTER%20HOURS%20Poster_Final%20Approved%20LowRes_zpscu1dy8m0.jpg'>";
+var two="<img id='posterShow2' src = 'http://i1301.photobucket.com/albums/ag119/jabattack1/AFTER%20HOURS%20Poster_Final%20Approved%20LowRes_zpscu1dy8m0.jpg'>";
+
+var grandma=false;
+
+
+
+$(window).load(function() {
+
+  setTimeout(function() {
+  $('body').append( poster );
+  $('#posterContainer').hide();
+  $('#posterContainer').show( "slide", { direction: "left" }, 500 );
+}, 1300);
+
+setTimeout(function() {
+
+  $('#posterContainer').append(one);
+  $('#posterShow1').hide();
+  $('#posterContainer').append(two);
+  $('#posterShow2').hide();
+
+  while (grandma === false) {
+      setTimeout(function() {
+  $('#posterShow1').fadeIn( 2000 );
+}, 1);
+// $('#posterContainer').append(one);
+  setTimeout(function() {
+  $('#posterShow1').fadeOut( 2000 );
+}, 5000);
+  setTimeout(function() {
+  $('#posterShow2').fadeIn( 2000 );
+}, 7000);
+  setTimeout(function() {
+  $('#posterShow2').fadeOut( 2000);
+}, 13000);
+   setTimeout(function() {
+}, 15000);
+  setTimeout(again, 15001);
+}
+
+}, 1301);
+
+setInterval(function(){
+  while (grandma === false) {
+      setTimeout(function() {
+  $('#posterShow1').fadeIn( 2000 );
+}, 1);
+// $('#posterContainer').append(one);
+  setTimeout(function() {
+  $('#posterShow1').fadeOut( 2000 );
+}, 5000);
+  setTimeout(function() {
+  $('#posterShow2').fadeIn( 2000 );
+}, 7000);
+  setTimeout(function() {
+  $('#posterShow2').fadeOut( 2000);
+}, 13000);
+   setTimeout(function() {
+}, 15000);
+  setTimeout(again, 15001);
+}
+}, 16301);
+
+});
+
+
+
+
+
 
 
 
