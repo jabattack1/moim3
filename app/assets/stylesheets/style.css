@@ -255,6 +255,7 @@ margin-top:150px;
         /* styling: */
             
             border-bottom: 2px solid #66E5FF; 
+            color:#B2B2B2;
         }
         
 
@@ -715,14 +716,14 @@ a.back-to-top:hover{
 
 #logIn{
 	position:fixed;
-	margin-left:1055px;
-	margin-top:64px;
+	right:0px;
+	margin-top:94px;
 	z-index:9;
 	background:#161616;
-	width:200px;
+	width:205px;
 	height:200px;
 	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
 }
 
 #usernameField{
@@ -730,14 +731,14 @@ a.back-to-top:hover{
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-size: 12px;
 	margin-left:10px;
-	margin-top:2px;
+	margin-top:5px;
 	color:white;
 }
 
 #username{
 	position:absolute;
 	margin-left:10px;
-	margin-top:18px;
+	margin-top:21px;
 }
 
 
@@ -747,19 +748,19 @@ a.back-to-top:hover{
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-size: 12px;
 	margin-left:10px;
-	margin-top:25px;
+	margin-top:28px;
 	color:white;
 }
 
 #password{
 	position:absolute;
 	margin-left:10px;
-	margin-top:41px;
+	margin-top:44px;
 }
 
 #forgotPW{
 	position:absolute;
-	margin-top: 110px;
+	margin-top: 113px;
 	margin-left:10px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-size: 10px;
@@ -768,7 +769,7 @@ a.back-to-top:hover{
 
 #forgotUsername{
 	position:absolute;
-	margin-top: 125px;
+	margin-top: 128px;
 	margin-left:10px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-size: 10px;
@@ -963,6 +964,21 @@ a.back-to-top:hover{
 	margin-left:0px;
 	width:1260px;
 	height:1900px;
+	background-color:white;
+	z-index:8;
+	/*width:1800px;*/
+	/*border-top:solid;
+	border-width:7px;
+	border-color:#1BAAC6;*/
+}
+
+#usersContent {
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	position: absolute;
+	margin-top:103px;
+	margin-left:0px;
+	width:1260px;
+	height:780px;
 	background-color:white;
 	z-index:8;
 	/*width:1800px;*/
@@ -1369,6 +1385,20 @@ a.back-to-top:hover{
 }
 
 #contactUsGallery{
+	position:fixed;
+	bottom:0;
+    /*margin-top:3400px;*/
+    /*margin-left:0px;*/
+    z-index:8;
+    width:1260px;
+    height:240px;
+    background-color:#2B2B2B;
+/*    right: 0;
+  	bottom: 0;
+  	left: 0;*/
+}
+
+#contactUsUsers{
 	position:fixed;
 	bottom:0;
     /*margin-top:3400px;*/
@@ -1871,6 +1901,21 @@ width:100px;
   position:relative;
   overflow:auto;
 }
+
+#usersPage{
+	/*background: url() no-repeat;*/
+  /*background-color:black;*/
+  background:url()center top;
+  background-size: 1200px;
+  background-color:white;
+  /*background-repeat: repeat-y;*/
+	width:1260px;
+  	height: 700px;
+  	margin: 0 auto;
+  position:relative;
+  overflow:auto;
+}
+
 
 
 #involvedPage{
@@ -4543,3 +4588,293 @@ left:20px;
 z-index:8;
 width:1200px;
 }
+
+/****user Sign up****/
+#signUp{
+	/*position:absolute;*/
+	/*margin-top:100px;*/
+	/*width:1260px;*/
+    display: table;
+    margin: 0 auto;
+    background-color:white;
+    padding:70px;
+    border-style:solid;
+    border-color:black;
+    border-width:3px;
+    z-index: 9;
+}	
+
+
+#required{
+	color:red;
+	font-weight:bold;
+}
+
+#emailField{
+	width:900px;
+	background-color: black;
+}
+
+#emailSignUpText{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:bold;
+	margin-left:0px;
+	width:300px;
+	/*background-color:black;*/
+	text-align: left;
+}
+
+#usernameSignUpText{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:bold;
+	margin-left:0px;
+	width:300px;
+	/*background-color:black;*/
+	text-align: left;
+}
+
+#passwordSignUpText{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:bold;
+	margin-left:0px;
+	width:300px;
+	/*background-color:black;*/
+	text-align: left;
+}
+
+#firstnameSignUpText{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:bold;
+	margin-left:0px;
+	width:300px;
+	/*background-color:black;*/
+	text-align: left;
+}
+
+#lastnameSignUpText{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:bold;
+	margin-left:0px;
+	width:300px;
+	/*background-color:black;*/
+	text-align: left;
+}
+
+#birthdaySignUpText{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:normal;
+	margin-left:10px;
+	width:300px;
+	/*background-color:black;*/
+	text-align: left;
+}
+
+#genderSignUpText{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:normal;
+	margin-left:10px;
+	width:300px;
+	/*background-color:black;*/
+	text-align: left;
+}
+
+#affiliationSignUpText{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:normal;
+	margin-left:10px;
+	width:300px;
+	/*background-color:black;*/
+	text-align: left;
+}
+
+#collegeSignUpText{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:normal;
+	margin-left:20px;
+	width:300px;
+	/*background-color:black;*/
+	text-align: left;
+}
+
+#professionalSignUpText{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:normal;
+	margin-left:20px;
+	width:300px;
+	/*background-color:black;*/
+	text-align: left;
+}
+
+#locationSignUpText{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:normal;
+	margin-left:10px;
+	width:300px;
+	/*background-color:black;*/
+	text-align: left;
+}
+
+
+#emailSignUp{
+	margin-left:100px;
+	width:200px;
+	height:100px;
+}
+
+#usernameSignUp{
+	margin-left:100px;
+	width:300px;
+}
+
+#signupButton{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:bold;
+	font-size: 12px;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:5px;
+	padding-right:5px;
+	background-color:white;
+	border-style:solid;
+    border-color:#1BAAC6;
+    border-width:4px;
+    color:#1BAAC6;
+    margin: 0 auto;
+    display: table;
+    outline:0;
+    text-align: center;
+}
+
+/*#signupButton:active{
+	color:white;
+	background-color:#66E5FF;
+}*/
+
+#signupButton:hover{
+	color:#66E5FF;
+	/*background-color:black;*/
+	border-color:#66E5FF;
+	outline:0;
+}
+
+.signupOptionFemale{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:bold;
+	font-size: 12px;
+	padding:5px;
+	background-color:black;
+	border-style:solid;
+    border-color:black;
+    border-width:4px;
+    color:white;
+}
+
+.signupOption{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:bold;
+	font-size: 12px;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-left:5px;
+	padding-right:5px;
+    text-align: center;
+	background-color:white;
+	border-style:solid;
+    border-color:black;
+    border-width:4px;
+    color:black;
+}
+.signupOption:hover{
+	cursor: pointer;
+}
+
+#checkboxText{
+	margin-left:-10px;
+}
+
+.highlight{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:bold;
+	font-size: 12px;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-left:5px;
+	padding-right:5px;
+    text-align: center;
+	background-color:black;
+	border-style:solid;
+    border-color:black;
+    border-width:4px;
+    color:white;
+}
+
+.highlight:hover{
+	cursor: pointer;
+}
+
+#emailSignup{
+	height:30px;
+	margin-left:-210px;
+	width:220px;
+}
+
+#usernameSignup{
+	height:30px;
+	margin-left:-210px;
+	width:220px;
+}
+
+#passwordSignup{
+	height:30px;
+	margin-left:-210px;
+	width:220px;
+}
+
+#firstnameSignup{
+	height:30px;
+	margin-left:-210px;
+	width:220px;
+}
+
+#lastnameSignup{
+	height:30px;
+	margin-left:-210px;
+	width:220px;
+}
+
+#collegeSignup{
+	height:30px;
+}
+
+#professionalSignup{
+	height:30px;
+}
+
+#monthSignup{
+	width:50px;
+	height:30px;
+	margin-left:-220px;
+}
+
+#daySignup{
+	width:50px;
+	height:30px;
+	/*margin-left:-210px;*/
+}
+
+#yearSignup{
+	width:97px;
+	height:30px;
+	/*margin-left:-210px;*/
+}
+
+#femaleCheck{
+	margin-left:-220px;
+}
+
+#maleCheck{
+	margin-left:5px;
+}
+
+
+/******/

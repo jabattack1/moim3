@@ -1,0 +1,227 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body id='usersPage'>
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+
+$(':checkbox').change(function(){
+    if (this.checked) {
+    $(this).siblings(':checkbox').attr('checked',false);
+   }
+
+});
+});
+
+$(document).ready(function() {
+
+$("#female").click(function (evt) { 
+if($('#female').prop('checked') == true){
+	$('#femaleCheck').removeClass('signupOption').addClass('highlight');
+	$('#male').attr('checked', false);
+	$('#maleCheck').removeClass('highlight').addClass('signupOption');
+	evt.stopPropagation();
+}
+else{
+	$('#femaleCheck').removeClass('highlight').addClass('signupOption');
+	evt.stopPropagation();
+}
+});
+});
+
+$(document).ready(function() {
+
+$("#male").click(function (evt) { 
+if($('#male').prop('checked') == true){
+	$('#maleCheck').removeClass('signupOption').addClass('highlight');
+	$('#female').attr('checked', false);
+	$('#femaleCheck').removeClass('highlight').addClass('signupOption');
+	evt.stopPropagation();
+}
+else{
+	$('#maleCheck').removeClass('highlight').addClass('signupOption');
+	evt.stopPropagation();
+}
+});
+});
+
+
+</script> 
+
+
+<script type="text/javascript">
+$(".aboutSelect").mouseover(function(){
+	console.log('drop');
+  $("#aboutDrop").addClass('animated slideInDown');
+})
+</script> 
+
+
+<div id='top_banner' class='navigation animated slideInRight'>
+  <!-- <nav> -->
+
+<section class="webdesigntuts-workshop">
+  <form action="" method="">        
+    <input type="search" placeholder="">         
+    <button id='glassButton'><img id='glass' src='/assets/glass.png'></button>
+  </form>
+</section>
+
+
+
+<div id='logInBanner'>
+
+<a id='logInIcon' onclick='logInScreen();return false;'>LOG IN</A><p id='line1'>|</p>
+<a id='signUpIcon'>SIGN UP</A><p id='line2'>|</p>
+<a href='#bottom'id='contactUsIcon' onclick='countUp();return false;'>CONTACT US</A>
+
+
+</div>
+
+<a href='/'><img id='logoMoim' src='/assets/moimLogo.png'></a>
+
+
+<ul>
+				
+                <li><a class='aboutSelect'>ABOUT</a><img id="aboutArrow" src='/assets/downArrow.PNG'/>
+                	<ul id='aboutDrop'>
+                        <li>
+                            <a href='/mission'>THE MISSION</a>
+                      	</li>
+                        <li>
+                        	<a href='/chronicle'>THE CHRONICLE</a>
+                        </li>
+                        <li>
+                        	<a href='/team'>THE TEAM</a>
+                        </li>
+                        <li>
+                        	<a href='/getinvolved'>GET INVOLVED</a>
+                        </li>
+                     </ul>
+            	</li>
+
+                <li><a href='/events'>EVENTS</a></li>
+                <li><a href='/blogs'>BLOG</a></li>
+                <li><a href='/galleries'>PHOTOS & VIDEOS</a></li>
+                <li><a href='/express_yourselves'>EXPRESS YOURSELF</a></li>
+                <li><a class='communitySelect'>THE COMMUNITY</a><img id="communityArrow" src='/assets/downArrow.PNG'/>
+					<ul id='communityDrop'>
+                        <li>
+                            <a href='/external_events'>EXTERNAL EVENTS</a>
+                      	</li>
+                        <li>
+                        	<a href='/careerboards'>CAREER BOARD</a>
+                        </li>
+                        <li>
+                        	<a href='/localhotspots'>LOCAL HOTSPOTS</a>
+                        </li>
+                        <li>
+                        	<a href='/freeboards'>FREEBOARD</a>
+                        </li>
+                     </ul>
+                </li>
+                <li><a href='/presses'>PRESS</a></li>
+            </ul>
+                
+</div>
+
+
+<a href="#top" class="back-to-top">Back to Top</a>
+<!-- <p id='usersContent' class='animated slideInUp' onclick='closeLogin();return false;'> -->
+<div id='signUp'>
+
+<form>
+	<label id='emailSignUpText'><span id='required'>*&nbsp;</span>Email</label>
+	<input type='text' id='emailSignup'><br><br>
+	<label id='usernameSignUpText'><span id='required'>*&nbsp;</span>Username</label>
+	<input type='text' id='usernameSignup'><br><br>
+	<label id='passwordSignUpText'><span id='required'>*&nbsp;</span>Password</label>
+	<input type='text' id='passwordSignup'><br><br>
+	<label id='firstnameSignUpText'><span id='required'>*&nbsp;</span>First Name</label>
+	<input type='text' id='firstnameSignup'><br><br>
+	<label id='lastnameSignUpText'><span id='required'>*&nbsp;</span>Last Name</label>
+	<input type='text' id='lastnameSignup'><br><br>
+	<label id='birthdaySignUpText'>Birthday</label>
+	<input type='text' id='monthSignup'>&nbsp;&nbsp;&nbsp;<input type='text' id='daySignup'>&nbsp;&nbsp;&nbsp;<input type='text' id='yearSignup'><br><br>
+	<label id='genderSignUpText'>Gender</label>
+	
+  	<label id='femaleCheck' class='signupOption'><input id='female' class='signupCheckBox' type='checkbox' value='female' style='opacity:0;'><span id=
+  		'checkboxText'>FEMALE</span></label>
+  	<label id='maleCheck' class='signupOption'><input id='male' class='signupCheckBox' type='checkbox' value='male' style='opacity:0;'><span id=
+  		'checkboxText'>MALE</span></label>
+	<br><br>
+	<label id='affiliationSignUpText'>Affiliation</label><br>
+	<label id='collegeSignUpText'>College/Graduated</label>	
+	<input type='text' id='collegeSignup'><br>
+	<label id='professionalSignUpText'>Professional</label>
+	<input type='text' id='professionalSignup'><br>
+	<label id='locationSignUpText'>Location</label>
+	
+  	<input type='checkbox' value="NYC/NJ">NYC/NJ
+  	<input type='checkbox' value="East Coast">Other (East Coast)
+  	<input type='checkbox' value="USA">Other (USA)
+  	<input type='checkbox' value="International">Other (International)
+	<br><br>			
+	
+
+
+<button id='signupButton' type='button'>Sign Me Up!</button>
+</form>
+
+</div> 
+
+<script type="text/javascript">
+  $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+</script>
+
+<!-- <div id='bottom' class='involvedBottom'></div>
+<div id='contactUsInvolved' class='animated slideInLeft' onclick='closeLogin();return false;'>
+
+<div id='contactContent'>
+
+<h2 id='contactHeading'>Contact Us</h2>
+  <p id='contactLines1'>
+  For questions or concerns, email us at <a href="mailto:info@moimnewyork.com" id='emailLink'>info@moimnewyork.com</a>.
+  </p>
+  <p id='contactLines2'>
+  For sponsorship opportunities, email us at <a href="mailto:sponsorship@moimnewyork.com" id='emailLink'>sponsorship@moimnewyork.com</a>.
+  </p>
+  <p id='contactLines3'>
+  For event ideas, email us at <a href="mailto:event@moimnewyork.com" id='emailLink'>event@moimnewyork.com</a>.
+  </p>
+</div>
+
+
+<div id='contactBottom'>
+<p id='bottomContent'>Copyright 
+
+<script type="text/javascript">
+var theDate=new Date()
+document.write(theDate.getFullYear())
+</script> 
+
+MOI'M | All Rights Reserved | <a href='#' id='link' onclick='terms();return false;'>Terms of Use</a> | <a href='#' id='link' onclick='privacy();return false;'>Privacy Policy</a>
+<div class='zoom_img'>
+  <a href='https://www.facebook.com/moimnewyork' target='_blank'>
+  <img src='/assets/facebook_icon.png' class='img-zoom' id='fb_small'></a>
+</div>
+<div class='zoom_img'>
+  <a href='https://www.instagram.com/moimnewyork' target='_blank'>
+  <img src='/assets/instagram_icon.png' class='img-zoom' id='insta_small'></a>
+</div>
+<div class='zoom_img'>
+  <a href='https://www.youtube.com/moimmedia' target='_blank'>
+  <img src='/assets/youtube_icon.png' class='img-zoom' id='youtube_small'></a>
+</div>
+</p>
+</div>
+</div> -->
+
+
+
+<!-- </p> -->
+</body>
+</html>

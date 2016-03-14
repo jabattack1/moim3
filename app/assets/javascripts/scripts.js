@@ -1,73 +1,5 @@
 console.log("connected")
 
-var poster="<div id='posterContainer'></div>"
-var one="<img id='posterShow1' src = 'http://i1301.photobucket.com/albums/ag119/jabattack1/AFTER%20HOURS%20Poster_Final%20Approved%20LowRes_zpscu1dy8m0.jpg'>";
-var two="<img id='posterShow2' src = 'http://i1301.photobucket.com/albums/ag119/jabattack1/AFTER%20HOURS%20Poster_Final%20Approved%20LowRes_zpscu1dy8m0.jpg'>";
-
-var grandma=false;
-
-
-
-$(window).load(function() {
-
-  setTimeout(function() {
-  $('body').append( poster );
-  $('#posterContainer').hide();
-  $('#posterContainer').show( "slide", { direction: "left" }, 500 );
-}, 1300);
-
-setTimeout(function() {
-
-  $('#posterContainer').append(one);
-  $('#posterShow1').hide();
-  $('#posterContainer').append(two);
-  $('#posterShow2').hide();
-
-  while (grandma === false) {
-      setTimeout(function() {
-  $('#posterShow1').fadeIn( 2000 );
-}, 1);
-// $('#posterContainer').append(one);
-  setTimeout(function() {
-  $('#posterShow1').fadeOut( 2000 );
-}, 5000);
-  setTimeout(function() {
-  $('#posterShow2').fadeIn( 2000 );
-}, 7000);
-  setTimeout(function() {
-  $('#posterShow2').fadeOut( 2000);
-}, 13000);
-   setTimeout(function() {
-}, 15000);
-  setTimeout(again, 15001);
-}
-
-}, 1301);
-
-setInterval(function(){
-  while (grandma === false) {
-      setTimeout(function() {
-  $('#posterShow1').fadeIn( 2000 );
-}, 1);
-// $('#posterContainer').append(one);
-  setTimeout(function() {
-  $('#posterShow1').fadeOut( 2000 );
-}, 5000);
-  setTimeout(function() {
-  $('#posterShow2').fadeIn( 2000 );
-}, 7000);
-  setTimeout(function() {
-  $('#posterShow2').fadeOut( 2000);
-}, 13000);
-   setTimeout(function() {
-}, 15000);
-  setTimeout(again, 15001);
-}
-}, 16301);
-
-});
-
-
 
 
 
@@ -113,7 +45,7 @@ window.location.href = "mailto:info@moimnewyork.com";
 
 var logInSensor = false;
 
-var logIn ="<div id='logIn' class='animated slideInDown'><form><img id='closeFlap' onclick='closeLogin();return false;' src = '/assets/upup_arrow.png'><p id='usernameField'>USERNAME</p><input type='text' id='username'><br><p id='passwordField'>PASSWORD</P><input type='text' id='password'><button id='logInButton' type='button'>LOG IN</button></form><p id='forgotPW'>FORGOT PASSWORD<span><a href=''> CLICK HERE</a></span></p><p id='forgotUsername'>FORGOT USERNAME<span><a href=''> CLICK HERE</a></span></p></div>"; 
+var logIn ="<div id='logIn'><form><img id='closeFlap' onclick='closeLogin();return false;' src = '/assets/upup_arrow.png'><p id='usernameField'>USERNAME</p><input type='text' id='username'><br><p id='passwordField'>PASSWORD</P><input type='text' id='password'><button id='logInButton' type='button'>LOG IN</button></form><p id='forgotPW'>FORGOT PASSWORD<span><a href=''> CLICK HERE</a></span></p><p id='forgotUsername'>FORGOT USERNAME<span><a href=''> CLICK HERE</a></span></p></div>"; 
 var logInClose ="<div id='logIn' class='animated slideOutUp'><form><img id='closeFlap' onclick='closeLogin();return false;' src = '/assets/upup_arrow.png'><p id='usernameField'>USERNAME</p><input type='text' id='username'><br><p id='passwordField'>PASSWORD</P><input type='text' id='password'><button id='logInButton' type='button'>LOG IN</button></form><p id='forgotPW'>FORGOT PASSWORD<span><a href=''> CLICK HERE</a></span></p><p id='forgotUsername'>FORGOT USERNAME<span><a href=''> CLICK HERE</a></span></p></div>"; 
 
 
@@ -3572,9 +3504,10 @@ var sensor = false;
 
 
 function logInScreen(){
-	$('#logIn').remove();
-	console.log('boom')
-	$('body').append(logIn);
+  $('#logIn').remove();
+  $('body').append(logIn)
+  $('#logIn').hide();
+  $('#logIn').show( "slide", { direction: "right" }, 500 );
 	logInSensor=true;	
 	console.log(logInSensor);
 } 
@@ -3587,8 +3520,7 @@ function closeLogin(){
 		console.log(logInSensor);
 	}
 	else {
-		$('#logIn').remove(); 
-		$('body').append(logInClose);
+		$('#logIn').hide( "slide", { direction: "right" }, 500 );
 		logInSensor = false;
 		console.log(logInSensor);
 	}
