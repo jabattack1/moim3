@@ -161,7 +161,17 @@ $('#header1').waypoint(function() {
 });
 });
 
+$(document).ready(function() {
+$('#header1').waypoint(function() {
+$('#posterContainer').hide( "slide", { direction: "left" }, 500 );
+});
+});
 
+$(document).ready(function() {
+$('#header').waypoint(function() {
+$('#posterContainer').show( "slide", { direction: "left" }, 500 );
+});
+});
     // $(this).fadeOut(1000, function() {
     //     $(this).css("background-color", "#FF0000").fadeIn(1000);
 
