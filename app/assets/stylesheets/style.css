@@ -4743,8 +4743,8 @@ width:1200px;
 
 #birthdaySignUpText{
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-	font-weight:normal;
-	margin-left:10px;
+	font-weight:bold;
+	margin-left:0px;
 	width:300px;
 	/*background-color:black;*/
 	text-align: left;
@@ -4752,8 +4752,8 @@ width:1200px;
 
 #genderSignUpText{
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-	font-weight:normal;
-	margin-left:10px;
+	font-weight:bold;
+	margin-left:0px;
 	width:300px;
 	/*background-color:black;*/
 	text-align: left;
@@ -4821,6 +4821,14 @@ width:1200px;
     margin-left:320px;
     outline:0;
     text-align: center;
+    border-style:solid;
+    border-color:black;
+    border-width:1px;
+}
+
+#emailButton:active{
+	background-color:white;
+	color:black;
 }
 
 #usernameButton{
@@ -4838,6 +4846,14 @@ width:1200px;
     margin-top:50px;
     outline:0;
     text-align: center;
+     border-style:solid;
+    border-color:black;
+    border-width:1px;
+}
+
+#usernameButton:active{
+	background-color:white;
+	color:black;
 }
 
 #signupButton{
@@ -4860,15 +4876,13 @@ width:1200px;
 }
 
 #signupButton:active{
-	background-color:#1BAAC6;
-}
-
-#signupButton:hover{
-	color:#66E5FF;
-	/*background-color:black;*/
+	background-color:#66E5FF;
 	border-color:#66E5FF;
+	color:white;
 	outline:0;
 }
+
+
 
 .signupOptionFemale{
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
