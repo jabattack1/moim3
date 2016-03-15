@@ -770,7 +770,7 @@ a.back-to-top:hover{
 	right:0px;
 	margin-top:94px;
 	z-index:9;
-	background:#161616;
+	background:rgba(0, 0, 0, 0.8);
 	width:205px;
 	height:200px;
 	border-bottom-left-radius: 10px;
@@ -845,28 +845,28 @@ a.back-to-top:hover{
 #logInButton{
 	position:absolute;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-	/*font-size: 10px;*/
 	margin-left:10px;
 	margin-top:80px;
-	color:white;
-	-webkit-box-shadow:rgba(0,0,0,0.0.1) 0 1px 0 0;
-	-moz-box-shadow:rgba(0,0,0,0.0.1) 0 1px 0 0;
-	box-shadow:rgba(0,0,0,0.0.1) 0 1px 0 0;
 	background-color:white;
-	/*border:1px solid #29447E;*/
-	/*font-family:'Lucida Grande',Tahoma,Verdana,Arial,sans-serif;*/
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:4px;
+	padding-right:4px;
 	font-size:12px;
 	font-weight:700;
 	padding:2px 6px;
 	color:black;
 	outline: none;
-	border-radius:5px;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px
+	text-align: center;
+    border-style:solid;
+    border-color:black;
+    border-width:1px;
 }
 
-#logInButton:hover{
-	color:#66E5FF;
+
+#logInButton:active{
+	color:white;
+	background-color: black;
 }
 
 #eventsSlideShow{
