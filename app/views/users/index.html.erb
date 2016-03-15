@@ -48,6 +48,86 @@ else{
 });
 });
 
+$(document).ready(function() {
+
+$("#ny").click(function (evt) { 
+if($('#ny').prop('checked') == true){
+	$('#nyCheck').removeClass('signupOption').addClass('highlight');
+	$('#eastCoast').attr('checked', false);
+	$('#eastCoastCheck').removeClass('highlight').addClass('signupOption');
+	$('#usa').attr('checked', false);
+	$('#usaCheck').removeClass('highlight').addClass('signupOption');
+	$('#international').attr('checked', false);
+	$('#internationalCheck').removeClass('highlight').addClass('signupOption');
+	evt.stopPropagation();
+}
+else{
+	$('#nyCheck').removeClass('highlight').addClass('signupOption');
+	evt.stopPropagation();
+}
+});
+});
+
+$(document).ready(function() {
+
+$("#eastCoast").click(function (evt) { 
+if($('#eastCoast').prop('checked') == true){
+	$('#eastCoastCheck').removeClass('signupOption').addClass('highlight');
+	$('#ny').attr('checked', false);
+	$('#nyCheck').removeClass('highlight').addClass('signupOption');
+	$('#usa').attr('checked', false);
+	$('#usaCheck').removeClass('highlight').addClass('signupOption');
+	$('#international').attr('checked', false);
+	$('#internationalCheck').removeClass('highlight').addClass('signupOption');
+	evt.stopPropagation();
+}
+else{
+	$('#eastCoastCheck').removeClass('highlight').addClass('signupOption');
+	evt.stopPropagation();
+}
+});
+});
+
+$(document).ready(function() {
+	
+$("#usa").click(function (evt) { 
+if($('#usa').prop('checked') == true){
+	$('#usaCheck').removeClass('signupOption').addClass('highlight');
+	$('#ny').attr('checked', false);
+	$('#nyCheck').removeClass('highlight').addClass('signupOption');
+	$('#eastCoast').attr('checked', false);
+	$('#eastCoastCheck').removeClass('highlight').addClass('signupOption');
+	$('#international').attr('checked', false);
+	$('#internationalCheck').removeClass('highlight').addClass('signupOption');
+	evt.stopPropagation();
+}
+else{
+	$('#usaCheck').removeClass('highlight').addClass('signupOption');
+	evt.stopPropagation();
+}
+});
+});
+
+$(document).ready(function() {
+	
+$("#international").click(function (evt) { 
+if($('#international').prop('checked') == true){
+	$('#internationalCheck').removeClass('signupOption').addClass('highlight');
+	$('#ny').attr('checked', false);
+	$('#nyCheck').removeClass('highlight').addClass('signupOption');
+	$('#usa').attr('checked', false);
+	$('#usaCheck').removeClass('highlight').addClass('signupOption');
+	$('#eastCoast').attr('checked', false);
+	$('#eastCoastCheck').removeClass('highlight').addClass('signupOption');
+	evt.stopPropagation();
+}
+else{
+	$('#internationalCheck').removeClass('highlight').addClass('signupOption');
+	evt.stopPropagation();
+}
+});
+});
+
 
 </script> 
 
@@ -60,7 +140,7 @@ $(".aboutSelect").mouseover(function(){
 </script> 
 
 
-<div id='top_banner' class='navigation animated slideInRight'>
+<div id='top_bannerUsers' class='navigation animated slideInRight'>
   <!-- <nav> -->
 
 <section class="webdesigntuts-workshop">
@@ -75,7 +155,7 @@ $(".aboutSelect").mouseover(function(){
 <div id='logInBanner'>
 
 <a id='logInIcon' onclick='logInScreen();return false;'>LOG IN</A><p id='line1'>|</p>
-<a id='signUpIcon'>SIGN UP</A><p id='line2'>|</p>
+<a id='signUpIcon' href='/users'>SIGN UP</A><p id='line2'>|</p>
 <a href='#bottom'id='contactUsIcon' onclick='countUp();return false;'>CONTACT US</A>
 
 
@@ -87,7 +167,7 @@ $(".aboutSelect").mouseover(function(){
 <ul>
 				
                 <li><a class='aboutSelect'>ABOUT</a><img id="aboutArrow" src='/assets/downArrow.PNG'/>
-                	<ul id='aboutDrop'>
+                	<ul id='aboutDropUsers'>
                         <li>
                             <a href='/mission'>THE MISSION</a>
                       	</li>
@@ -108,7 +188,7 @@ $(".aboutSelect").mouseover(function(){
                 <li><a href='/galleries'>PHOTOS & VIDEOS</a></li>
                 <li><a href='/express_yourselves'>EXPRESS YOURSELF</a></li>
                 <li><a class='communitySelect'>THE COMMUNITY</a><img id="communityArrow" src='/assets/downArrow.PNG'/>
-					<ul id='communityDrop'>
+					<ul id='communityDropUsers'>
                         <li>
                             <a href='/external_events'>EXTERNAL EVENTS</a>
                       	</li>
@@ -132,7 +212,15 @@ $(".aboutSelect").mouseover(function(){
 <a href="#top" class="back-to-top">Back to Top</a>
 <!-- <p id='usersContent' class='animated slideInUp' onclick='closeLogin();return false;'> -->
 <div id='signUp'>
-
+<p id='emailSay'>Verification email will be sent to this address.</p>
+<p id='emailSay1'>This email is available.<br>OR This email is already registered.</p>
+<button id='emailButton' type='button'>Check</button>
+<p id='username1'>This username is available.<br>OR This username is already in use.</p>
+<button id='usernameButton' type='button'>Check</button>
+<p id='passwordSay'>At least 8 characters.</p>
+<p id='monthSay'>MONTH</p>
+<p id='daySay'>DAY</p>
+<p id='yearSay'>YEAR</p>
 <form>
 	<label id='emailSignUpText'><span id='required'>*&nbsp;</span>Email</label>
 	<input type='text' id='emailSignup'><br><br>
@@ -160,10 +248,13 @@ $(".aboutSelect").mouseover(function(){
 	<input type='text' id='professionalSignup'><br>
 	<label id='locationSignUpText'>Location</label>
 	
-  	<input type='checkbox' value="NYC/NJ">NYC/NJ
-  	<input type='checkbox' value="East Coast">Other (East Coast)
-  	<input type='checkbox' value="USA">Other (USA)
-  	<input type='checkbox' value="International">Other (International)
+  	<label id='nyCheck' class='signupOption'><input id='ny' class='signupCheckBox' type='checkbox' value="NYC/NJ" style='opacity:0;'><span id='checkboxText'>NYC/NJ</span></label><br>
+
+  	<label id='eastCoastCheck' class='signupOption'><input id='eastCoast' class='signupCheckBox' type='checkbox' value="East Coast" style='opacity:0;'><span id='checkboxText'>Other (East Coast)</span></label><br>
+
+  	<label id='usaCheck' class='signupOption'><input id='usa' class='signupCheckBox' type='checkbox' value="USA" style='opacity:0;'><span id='checkboxText'>Other (USA)</span></label><br>
+
+  	<label id='internationalCheck' class='signupOption'><input id='international' class='signupCheckBox' type='checkbox' value="International"style='opacity:0;'><span id='checkboxText'>Other (International)</span></label>
 	<br><br>			
 	
 
@@ -177,8 +268,8 @@ $(".aboutSelect").mouseover(function(){
   $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
 </script>
 
-<!-- <div id='bottom' class='involvedBottom'></div>
-<div id='contactUsInvolved' class='animated slideInLeft' onclick='closeLogin();return false;'>
+<div id='bottom' class='usersBottom'></div>
+<div id='contactUsUsers' class='animated slideInLeft' onclick='closeLogin();return false;'>
 
 <div id='contactContent'>
 
@@ -192,10 +283,13 @@ $(".aboutSelect").mouseover(function(){
   <p id='contactLines3'>
   For event ideas, email us at <a href="mailto:event@moimnewyork.com" id='emailLink'>event@moimnewyork.com</a>.
   </p>
+
+
 </div>
 
 
-<div id='contactBottom'>
+
+<div id='contactBottomUsers'>
 <p id='bottomContent'>Copyright 
 
 <script type="text/javascript">
@@ -218,7 +312,9 @@ MOI'M | All Rights Reserved | <a href='#' id='link' onclick='terms();return fals
 </div>
 </p>
 </div>
-</div> -->
+</div>
+
+
 
 
 

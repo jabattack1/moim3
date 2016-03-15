@@ -1,6 +1,6 @@
-/*html {
+html {
   height: 100%;
-}*/
+}
 
 #header {
 	margin-top:1px;
@@ -183,6 +183,57 @@ margin-top:150px;
 	background-color:rgba(0,0,0,0.1);
 	z-index: 10;
 }
+
+#top_bannerUsers {
+	background-image: url();
+	position: absolute;
+/*	background-size:cover;*/
+	margin-top:-100px;
+	margin-left:0px;
+	width: 1260px;
+ 	height: 64px;
+ 	text-shadow: 2px 2px 2px #000;
+ 	/*padding-top:10px;*/
+ 	/*padding-bottom:10px;*/
+ 	/*border: #CEAC00;
+ 	border-style:solid;
+ 	border-width:2.5px;*/ 
+ 	/*background-repeat: no-repeat;*/
+ 	/*background-color:#161616;*/
+ 	background-color:#161616;
+ 	/*border-radius: 5px;*/
+ 	z-index: 10;
+}
+
+#aboutDropUsers{
+        	margin-left:0px;
+            background-color:rgba(0,0,0,0.3);
+            max-height:130px;
+            width:170px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-top:12px;
+           /* border: #CEAC00;
+ 			border-style:solid;
+ 			border-width:2.5px;
+ 			border-radius:5px;*/
+
+        }
+
+#communityDropUsers{
+        	margin-left: 0px;
+            background-color:rgba(0,0,0,0.3);
+            max-height:130px;
+            width:180px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-top:12px;
+           /* border: #CEAC00;
+ 			border-style:solid;
+ 			border-width:2.5px;
+ 			border-radius:5px;*/
+
+        }
 
 #top_banner {
 	background-image: url();
@@ -1370,6 +1421,20 @@ a.back-to-top:hover{
   	left: 0;*/
 }
 
+#contactUsUsers{
+	position:absolute;
+	/*bottom:100;*/
+    margin-top:860px;
+    /*margin-left:0px;*/
+    z-index:8;
+    width:1260px;
+    height:240px;
+    background-color:#2B2B2B;
+    overflow: hidden;
+/*    right: 0;
+  	bottom: 0;
+  	left: 0;*/
+}
 #contactUsTeam{
 	position:fixed;
 	bottom:0;
@@ -1399,7 +1464,7 @@ a.back-to-top:hover{
 }
 
 #contactUsUsers{
-	position:fixed;
+	position:absolute;
 	bottom:0;
     /*margin-top:3400px;*/
     /*margin-left:0px;*/
@@ -1552,6 +1617,17 @@ a.back-to-top:hover{
 	/*bottom:0;*/
 	z-index:9;
 }
+
+#contactBottomUsers{
+	position:absolute;
+	background-color:#161616;
+	width:1260px;
+	height:50px;
+	margin-top:160px;
+	/*bottom:0;*/
+	z-index:9;
+}
+
 
 #welcomeBottom{
 	position:absolute;
@@ -1910,8 +1986,9 @@ width:100px;
   background-color:white;
   /*background-repeat: repeat-y;*/
 	width:1260px;
-  	height: 700px;
-  	margin: 0 auto;
+  	height: 1010px;
+  	min-height: 100%;
+  	/*margin: 0 auto;*/
   position:relative;
   overflow:auto;
 }
@@ -4596,8 +4673,12 @@ width:1200px;
 	/*width:1260px;*/
     display: table;
     margin: 0 auto;
+    margin-top:100px;
     background-color:white;
-    padding:70px;
+    padding-left:70px;
+    padding-right:70px;
+    padding-top:40px;
+    padding-bottom:40px;
     border-style:solid;
     border-color:black;
     border-width:3px;
@@ -4726,6 +4807,39 @@ width:1200px;
 	width:300px;
 }
 
+#emailButton{
+	position:absolute;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:4px;
+	padding-right:4px;
+	background-color:black;
+    color:white;
+    margin-left:320px;
+    outline:0;
+    text-align: center;
+}
+
+#usernameButton{
+	position:absolute;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:4px;
+	padding-right:4px;
+	background-color:black;
+    color:white;
+    margin-left:320px;
+    margin-top:50px;
+    outline:0;
+    text-align: center;
+}
+
 #signupButton{
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight:bold;
@@ -4745,10 +4859,9 @@ width:1200px;
     text-align: center;
 }
 
-/*#signupButton:active{
-	color:white;
-	background-color:#66E5FF;
-}*/
+#signupButton:active{
+	background-color:#1BAAC6;
+}
 
 #signupButton:hover{
 	color:#66E5FF;
@@ -4773,8 +4886,8 @@ width:1200px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight:bold;
 	font-size: 12px;
-	padding-top:2px;
-	padding-bottom:2px;
+	padding-top:1px;
+	padding-bottom:1px;
 	padding-left:5px;
 	padding-right:5px;
     text-align: center;
@@ -4796,8 +4909,8 @@ width:1200px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight:bold;
 	font-size: 12px;
-	padding-top:2px;
-	padding-bottom:2px;
+	padding-top:1px;
+	padding-bottom:1px;
 	padding-left:5px;
 	padding-right:5px;
     text-align: center;
@@ -4810,6 +4923,63 @@ width:1200px;
 
 .highlight:hover{
 	cursor: pointer;
+}
+
+#emailSay{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 9px;
+	position:absolute;
+	margin-top:30px;
+	margin-left:95px;
+}
+
+#emailSay1{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 9px;
+	position:absolute;
+	margin-top:18px;
+	margin-left:320px;
+}
+
+#username1{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 9px;
+	position:absolute;
+	margin-top:68px;
+	margin-left:320px;
+}
+
+
+#passwordSay{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 9px;
+	position:absolute;
+	margin-top:130px;
+	margin-left:95px;
+}
+
+#monthSay{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 9px;
+	position:absolute;
+	margin-top:280px;
+	margin-left:95px;
+}
+
+#daySay{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 9px;
+	position:absolute;
+	margin-top:280px;
+	margin-left:157px;
+}
+
+#yearSay{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 9px;
+	position:absolute;
+	margin-top:280px;
+	margin-left:219px;
 }
 
 #emailSignup{
@@ -4856,6 +5026,18 @@ width:1200px;
 	margin-left:-220px;
 }
 
+#collegeSignup{
+	width:300px;
+	height:30px;
+	margin-left:-173px;
+}
+
+#professionalSignup{
+	width:300px;
+	height:30px;
+	margin-left:-173px;
+}
+
 #daySignup{
 	width:50px;
 	height:30px;
@@ -4868,6 +5050,11 @@ width:1200px;
 	/*margin-left:-210px;*/
 }
 
+#professionalSignUpText{
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
 #femaleCheck{
 	margin-left:-220px;
 }
@@ -4876,5 +5063,19 @@ width:1200px;
 	margin-left:5px;
 }
 
+#nyCheck{
+	margin-left:-220px;
+}
 
+#eastCoastCheck{
+	margin-left:93px;
+}
+
+#usaCheck{
+	margin-left:93px;
+}
+
+#internationalCheck{
+	margin-left:93px;
+}
 /******/
