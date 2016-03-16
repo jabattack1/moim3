@@ -252,17 +252,17 @@ $(".aboutSelect").mouseover(function(){
 
 <form id='userCreation' method="POST" action="/users">
 	<label id='emailSignUpText'><span id='required'>*&nbsp;</span>Email</label>
-	<input type='text' name='email' id='emailSignup' required><br><br>
+	<input type='text' name='email' id='emailSignup' autocomplete='off' required><br><br>
 	<label id='usernameSignUpText'><span id='required'>*&nbsp;</span>Username</label>
-	<input type='text' name='username' id='usernameSignup' required><br><br>
+	<input type='text' name='username' id='usernameSignup' autocomplete='off' required><br><br>
 	<label id='passwordSignUpText'><span id='required'>*&nbsp;</span>Password</label>
-	<input type='text' name='password' id='passwordSignup' minlength='8' required><br><br>
+	<input type='password' name='password' id='passwordSignup' minlength='8' autocomplete='off' required><br><br>
 	<label id='firstnameSignUpText'><span id='required'>*&nbsp;</span>First Name</label>
-	<input type='text' name='first_name' id='firstnameSignup' required><br><br>
+	<input type='text' name='first_name' id='firstnameSignup' autocomplete='off' required><br><br>
 	<label id='lastnameSignUpText'><span id='required'>*&nbsp;</span>Last Name</label>
-	<input type='text' name='last_name' id='lastnameSignup' required><br><br>
+	<input type='text' name='last_name' id='lastnameSignup' autocomplete='off' required><br><br>
 	<label id='birthdaySignUpText'><span id='required'>*&nbsp;</span>Birthday</label>
-	<input type='text' name='month' id='monthSignup' minlength='2' maxlength='2' onkeypress='return isNumberKey(event)' required>&nbsp;&nbsp;&nbsp;<input type='text' name='day' id='daySignup' minlength='2' maxlength='2' onkeypress='return isNumberKey(event)' required>&nbsp;&nbsp;&nbsp;<input type='text' name='year' id='yearSignup' minlength='4' maxlength='4' onkeypress='return isNumberKey(event)' required><br><br>
+	<input type='text' name='month' id='monthSignup' minlength='2' maxlength='2' onkeypress='return isNumberKey(event)' autocomplete='off' required>&nbsp;&nbsp;&nbsp;<input type='text' name='day' id='daySignup' minlength='2' maxlength='2' onkeypress='return isNumberKey(event)' autocomplete='off' required>&nbsp;&nbsp;&nbsp;<input type='text' name='year' id='yearSignup' minlength='4' maxlength='4' onkeypress='return isNumberKey(event)' autocomplete='off' required><br><br>
 	<label id='genderSignUpText'><span id='required'>*&nbsp;</span>Gender</label>
 	
   	<label id='femaleCheck' class='signupOption'><input id='female' name='sex' class='signupCheckBox' type='checkbox' value='female' style='opacity:0;'><span id=
@@ -272,9 +272,9 @@ $(".aboutSelect").mouseover(function(){
 	<br><br>
 	<label id='affiliationSignUpText'>Affiliation</label><br>
 	<label id='collegeSignUpText'>College/Graduated</label>	
-	<input type='text' id='collegeSignup' name='school'><br>
+	<input type='text' id='collegeSignup' name='school' autocomplete='off'><br>
 	<label id='professionalSignUpText'>Professional</label>
-	<input type='text' id='professionalSignup' name='company'><br>
+	<input type='text' id='professionalSignup' name='company' autocomplete='off'><br>
 
 	<label id='locationSignUpText'>Location</label>
 	<label id='nyCheck' class='signupOption'><input id='ny' name='location' class='signupCheckBox' type='checkbox' value="NYC/NJ" style='opacity:0;'><span id='checkboxText'>NYC/NJ</span></label><br>
