@@ -10,7 +10,7 @@ one:
   gender: MyString
   dob: MyString
   location: MyString
-  ethnicity: MyString
+  school: MyString
   company: MyString
 
 two:
@@ -23,5 +23,5 @@ two:
   gender: MyString
   dob: MyString
   location: MyString
-  ethnicity: MyString
+  school: MyString
   company: MyString

@@ -141,6 +141,7 @@ $(document).ready(function() {
 $('#usernameSignup').change(function() {
     $('#usernameCheck').val($(this).val());
 });
+
 });
 
 $(document).ready(function() {
@@ -233,7 +234,7 @@ $(".aboutSelect").mouseover(function(){
 <!-- <p id='usersContent' class='animated slideInUp' onclick='closeLogin();return false;'> -->
 <div id='signUp'>
 <p id='emailSay'>Verification email will be sent to this address.</p>
-<p id='emailSay1'>This email is available.<br>OR This email is already registered.</p>
+<p id='emailSay1'><span id='yesEmail'>This email is not yet registered.</span></p>
 <form method="POST" action="/alerta">
 <input type='hidden' name='email' id='emailCheck' required>
 <button id='emailButton' type='submit'>Check</button>

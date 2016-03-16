@@ -9,7 +9,7 @@
   transition: transform .2s linear;
   display: block;
   position: relative;
-  max-width: 300px;
+  max-width: 100%;
 }
 .final-tiles-gallery .tile.ftg-enlarged img {
   display: block;
