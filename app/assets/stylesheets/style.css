@@ -92,7 +92,14 @@ html {
 	z-index: 100;
 }
 
-
+#headerLeadershipPic {
+	margin-top:175px;
+	height:1px;
+	width:auto;
+	position:absolute;
+	background:white;
+	z-index: 100;
+}
 
 
 
@@ -3811,6 +3818,7 @@ width:100px;
     margin-top:500px;
     overflow: hidden;
     white-space: nowrap;
+    /*background-color:rgba(0,0,0, 0.2); */
     box-sizing: border-box;
     animation: marquee 30s linear infinite;
 }

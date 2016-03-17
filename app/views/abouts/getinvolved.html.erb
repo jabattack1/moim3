@@ -9,7 +9,21 @@
 <body id='involvedPage'>
 
 <script>
+var leadershipPic="<img id='leadershipPic' src = '/assets/leadership.png'>"
 
+$(document).ready(function() {
+$('#headerLeadershipPic').waypoint(function() {
+  if ($('#leadershipPic').length == 0){
+  console.log('leader!')
+  $('#getInvolvedContent').append(leadershipPic);
+  $('#leadershipPic').hide();
+   $('#leadershipPic').fadeIn( "slow" );
+  }
+  else{
+    return false
+  }
+});
+});
 
 $(document).ready(function() {
 $('#header1').waypoint(function() {
@@ -73,6 +87,9 @@ $(".aboutSelect").mouseover(function(){
 </div>
 
 <div id="header2">
+<!-- <h1>trigger</h1> -->
+</div>
+<div id="headerLeadershipPic">
 <!-- <h1>trigger</h1> -->
 </div>
 <div id='top_helper'></div>
@@ -150,7 +167,7 @@ $(".aboutSelect").mouseover(function(){
 
 <a href="#top" class="back-to-top">Back to Top</a>
 <div id='getInvolvedContent' class='animated slideInUp' onclick='closeLogin();return false;'>
-<img id='leadershipPic' src = "/assets/leadership.png">
+
 <p id='sale'>
 Do you want to help organize The Biggest Parties alongside a team of passionate<br> 
 individuals while giving back? Then you are in the right place.<br><br>
