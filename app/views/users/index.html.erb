@@ -146,6 +146,16 @@ $('#usernameSignup').change(function() {
 $(document).ready(function() {
 $("#userCreation")[0].reset();
 });
+
+$(document).ready(function() {
+	
+var email = $("input#emailSignup").val();  
+if (!validEmail(email)) {
+    $("label#email_error").show();  
+    $("input#email").focus();  
+    return false;
+}
+});
 </script> 
 
 

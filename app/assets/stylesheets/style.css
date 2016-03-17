@@ -29,6 +29,73 @@ html {
 	z-index: 100;
 }
 
+#header3 {
+	margin-top:1100px;
+	height:1px;
+	width:auto;
+	position:absolute;
+	background:white;
+	z-index: 100;
+}
+
+#header4 {
+	margin-top:1195px;
+	height:1px;
+	width:auto;
+	position:absolute;
+	background:white;
+	z-index: 100;
+}
+
+#header5 {
+	margin-top:1290px;
+	height:1px;
+	width:auto;
+	position:absolute;
+	background:white;
+	z-index: 100;
+}
+
+#header6 {
+	margin-top:1385px;
+	height:1px;
+	width:auto;
+	position:absolute;
+	background:white;
+	z-index: 100;
+}
+
+#header3a {
+	margin-top:990px;
+	height:1px;
+	width:auto;
+	position:absolute;
+	background:white;
+	z-index: 100;
+}
+
+#header7 {
+	margin-top:660px;
+	height:1px;
+	width:auto;
+	position:absolute;
+	background:white;
+	z-index: 100;
+}
+
+#header8 {
+	margin-top:659px;
+	height:1px;
+	width:auto;
+	position:absolute;
+	background:white;
+	z-index: 100;
+}
+
+
+
+
+
 
 #test { width:100px; 
 	min-height:100px; 
@@ -2313,12 +2380,28 @@ width:100px;
 	text-align:center;
 }
 
+#tileOne1{
+	position:absolute;
+	/*background-color: black;*/
+	margin-top:1250px;
+	width:600px;
+	height:265px;
+}
+
+#tileTwo1{
+	position:absolute;
+	/*background-color: black;*/
+	margin-top:1250px;
+	width:1260px;
+	height:265px;
+}
+
 #networkingPic{
 	background-image: url('/assets/networking.png');
 	position:absolute;
-    margin-top:610px;
+    margin-top:0px;
     margin-left:60px;
-    z-index: 10;
+    z-index: 9;
     display: inline;
     width:265px;
     height:265px;
@@ -2332,9 +2415,9 @@ width:100px;
 #creativityPic{
 	background-image: url('/assets/creativity.png');
 	position:absolute;
-    margin-top:610px;
+    margin-top:0px;
     margin-left:340px;
-    z-index: 10;
+    z-index: 9;
     display: inline;
     width:265px;
     height:265px;
@@ -2348,9 +2431,9 @@ width:100px;
 #entertainmentPic{
 	background-image: url('/assets/entertainment.png');
 	position:absolute;
-    margin-top:610px;
+    margin-top:0px;
     margin-left:620px;
-    z-index: 10;
+    z-index: 9;
     display: inline;
     width:265px;
     height:265px;
@@ -2364,9 +2447,9 @@ width:100px;
 #inspirationPic{
 	background-image: url('/assets/inspiration.png');
 	position:absolute;
-    margin-top:610px;
+    margin-top:0px;
     margin-left:900px;
-    z-index: 10;
+    z-index:  9;
     display: inline;
     width:265px;
     height:265px;
@@ -2545,8 +2628,6 @@ width:100px;
     height:3px;
 }
 
-.timer{width:200px; margin:20px auto;text-align:center;display:block;font-size:20px}
-#help{width:500px; margin:20px auto;text-align:center;display:block;font-size:14px}
 
 
 #stat1 {
@@ -2717,7 +2798,7 @@ width:100px;
   font-size:25px;
 }
 */
-
+.timer{width:200px; margin:20px auto;text-align:center;display:block;font-size:20px}
 
 #boastOutro{
     position:absolute;

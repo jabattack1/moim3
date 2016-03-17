@@ -6,6 +6,68 @@
 </head>
 <body id="missionPage">
 
+<script type="text/javascript">
+var tileOne = "<div id='tileOne1'><div id='networkingPic'></div><div id='creativityPic'></div></div>"
+var tileTwo = "<div id='tileTwo1'><div id='entertainmentPic'></div><div id='inspirationPic'></div></div>"
+
+$(window).load(function() {
+$('#header7').waypoint(function() {
+    if ($('#tileOne1').length == 0){
+    $('body').append( tileOne );
+    $('#tileOne1').hide();
+    $('#tileOne1').show( "slide", { direction: "left" }, 700 );
+    }
+    else{
+        return false;
+    }
+
+});
+});
+
+$(window).load(function() {
+$('#header7').waypoint(function() {
+    if ($('#tileTwo1').length == 0){
+    $('body').append( tileTwo );
+    $('#tileTwo1').hide();
+    $('#tileTwo1').show( "slide", { direction: "right" }, 700 );
+    }
+    else{
+        return false;
+    }
+});
+});
+
+$(window).load(function() {
+$('#header8').waypoint(function() {
+    if ($('#tileOne1').length == 1){
+     $('#tileOne1').hide( "slide", { direction: "left" }, 700 );
+     setTimeout(function() {
+     $('#tileOne1').remove();
+    }, 701);
+    }
+    else{
+       return false; 
+    }
+});
+});
+
+$(window).load(function() {
+$('#header8').waypoint(function() {
+    if ($('#tileTwo1').length == 1){
+    $('#tileTwo1').hide( "slide", { direction: "right" }, 700 );
+    setTimeout(function() {
+    $('#tileTwo1').remove();
+    }, 701);
+    }
+    else{
+       return false; 
+    }
+});
+});
+
+
+</script>
+
 <script>
 
 
@@ -73,6 +135,21 @@ $(".aboutSelect").mouseover(function(){
 <div id="header2">
 <!-- <h1>trigger</h1> -->
 </div>
+<div id="header3">
+</div>
+<div id="header4">
+</div>
+<div id="header5">
+</div>
+<div id="header6">
+</div>
+<div id="header3a">
+</div>
+<div id="header7">
+</div>
+<div id="header8">
+</div>
+
 <div id='top_helper'></div>
 <div id='top_banner' class='navigation'>
   <!-- <nav> -->
@@ -182,25 +259,20 @@ In a society where everyone is looking for the next best thing, it is key to be 
 We are something different. All of our events reflect our four key pillars: creativity, entertainment, networking, and inspiration.
 </p>
 
-<div id='networkingPic'></div>
-<div id='creativityPic'></div>
-<div id='entertainmentPic'></div>
-<div id='inspirationPic'></div>
-
 <img id='longLinePillar' src = "/assets/longLine.png">
 
 <h1 id='sinceHead'>SINCE 2013</h1>
 <img id='sinceLine' src = "/assets/line.png">
 
 <div id='container'>
-<div id='spitContainer'><span id='spit'>5026</span></div>
-<div id='spitContainer'><span id='spit2'>164166</span></div>
-<div id='spitContainer'><span id='spit3'>26</span></div>
-<div id='spitContainer'><span id='spit4'>11</span></div>
-<div id="stat1" class='number'><span class="count">5026</span></div>
-<div id="stat2" class='number'><span class="count">164166</span></div>
-<div id="stat3" class='number'><span class="count">26</span></div>
-<div id="stat4" class='number'><span class="count">11</span></div>
+<!-- <div id='spitContainer'><span id='spit'>5026</span></div> -->
+<!-- <div id='spitContainer'><span id='spit2'>164166</span></div> -->
+<!-- <div id='spitContainer'><span id='spit3'>26</span></div> -->
+<!-- <div id='spitContainer'><span id='spit4'>11</span></div> -->
+<div id="stat1" class='number'><span class="count">0</span></div>
+<div id="stat2" class='number'><span class="count">0</span></div>
+<div id="stat3" class='number'><span class="count">0</span></div>
+<div id="stat4" class='number'><span class="count">0</span></div>
 
 <p id='boast1'><span id='countLeft1'>WE HAVE ENGAGED</span><span id='countRight1'>GUESTS</span></p>
 <p id='boast2'><span id='countLeft2'>TO POSITIVELY INFLUENCE</span><span id='countRight2'>INDIVIDUALS</span></p>
@@ -213,117 +285,165 @@ We are something different. All of our events reflect our four key pillars: crea
 
 <script type="text/javascript">
 
-$("#spit").hide();
- 
-function counter1(){    $('#stat1').each(function () {
-    $(this).prop('Counter',0).animate({
-        Counter: $(this).text()
-    }, {
-        duration: 3000,
-        easing: 'swing',
-        step: function (now) {
-            $(this).text(Math.ceil(now));
-        }
-    });
-});  
-    setTimeout(function() {
-        $("#spit").show();
-        $("#stat1").css("color", "white");
-        }, 2999);
-    setTimeout(function() {
-        $("#spit").hide();
-        $("#stat1").css("color", "#357FFF");
-        }, 8000);
-}
-
-$(window).load(counter1);
-setInterval(counter1, 8000);
-
-</script>
-
-
-<script type="text/javascript">
-$("#spit2").hide();
-
-function counter2(){    $('#stat2').each(function () {
-    $(this).prop('Counter',0).animate({
-        Counter: $(this).text()
-    }, {
-        duration: 3000,
-        easing: 'swing',
-        step: function (now) {
-            $(this).text(Math.ceil(now));
-        }
+$(document).ready(function() {
+    $('#header3').waypoint(function() {   
+        counter1();
     });
 });
-    setTimeout(function() {
-        $("#spit2").show();
-        $("#stat2").css("color", "white");
-        }, 2999);
-    setTimeout(function() {
-        $("#spit2").hide();
-        $("#stat2").css("color", "#357FFF");
-        }, 8000);  
-}
 
-$(window).load(counter2);
-setInterval(counter2, 8000);
-</script>
-
-<script type="text/javascript">
-
-$("#spit3").hide();
-
-function counter3(){    $('#stat3').each(function () {
-    $(this).prop('Counter',0).animate({
-        Counter: $(this).text()
-    }, {
-        duration: 3000,
-        easing: 'swing',
-        step: function (now) {
-            $(this).text(Math.ceil(now));
-        }
+$(document).ready(function() {
+    $('#header3a').waypoint(function() {   
+        counter1a();
     });
 });
-    setTimeout(function() {
-        $("#spit3").show();
-        $("#stat3").css("color", "white");
-        }, 2999);
-    setTimeout(function() {
-        $("#spit3").hide();
-        $("#stat3").css("color", "#357FFF");
-        }, 8000);   
+
+function counter1(){
+$({countNum: 0}).animate({countNum: 5026}, {
+  duration: 1000,
+  easing:'linear',
+  step: function() {
+    $("#stat1").text(Math.floor(this.countNum));
+  },
+  complete: function() {
+    $("#stat1").text(5026);
+  }
+});
 }
-$(window).load(counter3);
-setInterval(counter3, 8000);
+
+function counter1a(){
+$({countNum: 5026}).animate({countNum: 0}, {
+  duration: 500,
+  easing:'linear',
+  step: function() {
+    $("#stat1").text(Math.floor(this.countNum));
+  },
+  complete: function() {
+    $("#stat1").text(0);
+  }
+});
+}
+
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#header4').waypoint(function() {   
+        counter2();
+    });
+});
+
+$(document).ready(function() {
+    $('#header3a').waypoint(function() {   
+        counter2a();
+    });
+});
+
+function counter2(){
+$({countNum: 0}).animate({countNum: 164166}, {
+  duration: 1000,
+  easing:'linear',
+  step: function() {
+    $("#stat2").text(Math.floor(this.countNum));
+  },
+  complete: function() {
+    $("#stat2").text(164166);
+  }
+});
+}
+
+function counter2a(){
+$({countNum: 164166}).animate({countNum: 0}, {
+  duration: 500,
+  easing:'linear',
+  step: function() {
+    $("#stat2").text(Math.floor(this.countNum));
+  },
+  complete: function() {
+    $("#stat2").text(0);
+  }
+});
+}
 </script>
 
 <script type="text/javascript">
-
-$("#spit4").hide();
-
-function counter4(){    $('#stat4').each(function () {
-    $(this).prop('Counter',0).animate({
-        Counter: $(this).text()
-    }, {
-        duration: 3000,
-        easing: 'swing',
-        step: function (now) {
-            $(this).text(Math.ceil(now));
-        }
+$(document).ready(function() {
+    $('#header5').waypoint(function() {   
+        counter3();
     });
-});  
-    setTimeout(function() {
-        $("#spit4").show();
-        $("#stat4").css("color", "white");
-        }, 2999);
-    setTimeout(function() {
-        $("#spit4").hide();
-        $("#stat4").css("color", "#357FFF");
-        }, 8000);
+});
+
+$(document).ready(function() {
+    $('#header3a').waypoint(function() {   
+        counter3a();
+    });
+});
+
+function counter3(){
+$({countNum: 0}).animate({countNum: 26}, {
+  duration: 1000,
+  easing:'linear',
+  step: function() {
+    $("#stat3").text(Math.floor(this.countNum));
+  },
+  complete: function() {
+    $("#stat3").text(26);
+  }
+});
 }
-$(window).load(counter4);
-setInterval(counter4, 8000);
+
+function counter3a(){
+$({countNum: 26}).animate({countNum: 0}, {
+  duration: 1000,
+  easing:'linear',
+  step: function() {
+    $("#stat3").text(Math.floor(this.countNum));
+  },
+  complete: function() {
+    $("#stat3").text(0);
+  }
+});
+}
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#header6').waypoint(function() {   
+        counter4();
+    });
+});
+
+$(document).ready(function() {
+    $('#header3a').waypoint(function() {   
+        counter4a();
+    });
+});
+
+function counter4(){
+$({countNum: 0}).animate({countNum: 11}, {
+  duration: 1000,
+  easing:'linear',
+  step: function() {
+    $("#stat4").text(Math.floor(this.countNum));
+  },
+  complete: function() {
+    $("#stat4").text(11);
+  }
+});
+}
+
+function counter4a(){
+$({countNum: 11}).animate({countNum: 0}, {
+  duration: 1000,
+  easing:'linear',
+  step: function() {
+    $("#stat4").text(Math.floor(this.countNum));
+  },
+  complete: function() {
+    $("#stat4").text(0);
+  }
+});
+}
 </script>
 
 <p id='boastOutro'>
