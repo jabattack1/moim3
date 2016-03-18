@@ -1,10 +1,8 @@
 class GalleriesController < ApplicationController
 
   def index
-  @photos = Photo.all
-  @gallery = Gallery.all
-  
-
+    @photos = Photo.all
+    @gallery = Gallery.all
   end
 
   def create
@@ -16,9 +14,8 @@ class GalleriesController < ApplicationController
         event: params["event"],
         eventdate: params["eventdate"]
       })
-
-      redirect_to "/adminlands"
-      
+    
+    redirect_to "/adminlands"  
   end
 
 def update
