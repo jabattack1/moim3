@@ -2,9 +2,34 @@
 <head>
 	<title></title>
 </head>
+
+
 <body id='usersPage'>
 
 <script type="text/javascript">
+
+$(document).ready(function() {
+$('#emailButton').click(function() {
+  localStorage.clear();
+  localStorage.setItem('email',$('#emailSignup').val());
+});
+});
+
+$(document).ready(function() {
+$('#usernameButton').click(function() {
+  localStorage.clear();
+  localStorage.setItem('username',$('#usernameSignup').val());
+});
+});
+
+$(window).load(function() {
+$('#emailSignup').val(localStorage.getItem('email'));
+// debugger
+// localStorage.clear();
+// $('#emailSignup').removeAttr('value');
+});
+
+
 
 $(document).ready(function() {
 
@@ -239,11 +264,13 @@ $(".aboutSelect").mouseover(function(){
 <input type='hidden' name='email' id='emailCheck' required>
 <button id='emailButton' type='submit'>Check</button>
 </form>
-<p id='username1'>This username is available.<br>OR This username is already in use.</p>
+<!-- <p id='username1'>This username is available.<br>OR This username is already in use.</p> -->
 <form method="POST" action="/alertb">
 <input type='hidden' name='username' id='usernameCheck' required>
 <button id='usernameButton' type='submit'>Check</button>
 </form>
+
+
 <p id='passwordSay'>At least 8 characters.</p>
 <p id='monthSay'>MONTH</p>
 <p id='daySay'>DAY</p>

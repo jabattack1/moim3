@@ -3596,4 +3596,3 @@ function closePrivacyWelcome(){
 	$('#privacyPolicyWelcome').remove(); 
 }
 
-

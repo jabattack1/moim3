@@ -7,6 +7,20 @@
 <script type="text/javascript">
 
 $(document).ready(function() {
+$('#emailButton').click(function() {
+  localStorage.clear();
+  localStorage.setItem('email',$('#emailSignup').val());
+});
+});
+
+$(document).ready(function() {
+$('#usernameButton').click(function() {
+  localStorage.clear();
+  localStorage.setItem('username',$('#usernameSignup').val());
+});
+});
+
+$(document).ready(function() {
 
 $(':checkbox').change(function(){
     if (this.checked) {
@@ -232,6 +246,9 @@ $(".aboutSelect").mouseover(function(){
 
 <a href="#top" class="back-to-top">Back to Top</a>
 <!-- <p id='usersContent' class='animated slideInUp' onclick='closeLogin();return false;'> -->
+
+
+
 <div id='signUp'>
 <p id='emailSay'>Verification email will be sent to this address.</p>
 <p id='emailSay1'><span id='noEmail'>This email is already registered.</span></p>
@@ -239,7 +256,7 @@ $(".aboutSelect").mouseover(function(){
 <input type='hidden' name='email' id='emailCheck' required>
 <button id='emailButton' type='submit'>Check</button>
 </form>
-<p id='username1'>This username is available.<br>OR This username is already in use.</p>
+<!-- <p id='username1'>This username is available.<br>OR This username is already in use.</p> -->
 <form method="POST" action="/alertb">
 <input type='hidden' name='username' id='usernameCheck' required>
 <button id='usernameButton' type='submit'>Check</button>
@@ -252,7 +269,7 @@ $(".aboutSelect").mouseover(function(){
 
 <form id='userCreation' method="POST" action="/users">
 	<label id='emailSignUpText'><span id='required'>*&nbsp;</span>Email</label>
-	<input type='text' name='email' id='emailSignup' autocomplete='off' required><br><br>
+	<input type='text' name='email' value='<%= @user[0].email %>' id='emailSignup' autocomplete='off' required><br><br>
 	<label id='usernameSignUpText'><span id='required'>*&nbsp;</span>Username</label>
 	<input type='text' name='username' id='usernameSignup' autocomplete='off' required><br><br>
 	<label id='passwordSignUpText'><span id='required'>*&nbsp;</span>Password</label>

@@ -7,6 +7,26 @@
 <script type="text/javascript">
 
 $(document).ready(function() {
+$('#emailButton').click(function() {
+  localStorage.clear();
+  localStorage.setItem('email',$('#emailSignup').val());
+});
+});
+
+$(document).ready(function() {
+$('#usernameButton').click(function() {
+  localStorage.clear();
+  localStorage.setItem('username',$('#usernameSignup').val());
+});
+});
+
+$(window).load(function() {
+$('#usernameSignup').val(localStorage.getItem('username'));
+// localStorage.clear();
+});
+
+
+$(document).ready(function() {
 
 $(':checkbox').change(function(){
     if (this.checked) {
@@ -234,7 +254,7 @@ $(".aboutSelect").mouseover(function(){
 <!-- <p id='usersContent' class='animated slideInUp' onclick='closeLogin();return false;'> -->
 <div id='signUp'>
 <p id='emailSay'>Verification email will be sent to this address.</p>
-<p id='emailSay1'>This email is available.<br>OR This email is already registered.</p>
+<!-- <p id='emailSay1'>This email is available.<br>OR This email is already registered.</p> -->
 <form method="POST" action="/alerta">
 <input type='hidden' name='email' id='emailCheck' required>
 <button id='emailButton' type='submit'>Check</button>
