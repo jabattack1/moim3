@@ -258,12 +258,12 @@ $(".aboutSelect").mouseover(function(){
 <!-- <p id='usersContent' class='animated slideInUp' onclick='closeLogin();return false;'> -->
 <div id='signUp'>
 <p id='emailSay'>Verification email will be sent to this address.</p>
-<!-- <p id='emailSay1'>This email is available.<br>OR This email is already registered.</p> -->
+<p id='emailSay1'>Email availability.</p>
 <form method="POST" action="/alerta">
 <input type='hidden' name='email' id='emailCheck' required>
 <button id='emailButton' type='submit'>Check</button>
 </form>
-<!-- <p id='username1'>This username is available.<br>OR This username is already in use.</p> -->
+<p id='username1'>Username availability.</p>
 <form method="POST" action="/alertb">
 <input type='hidden' name='username' id='usernameCheck' required>
 <button id='usernameButton' type='submit' >Check</button>
