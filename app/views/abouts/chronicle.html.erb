@@ -170,16 +170,18 @@ $(".aboutSelect").mouseover(function(){
 <div id='chronicleContent' class='animated slideInUp' onclick='closeLogin();return false;'>
 
 <script>
+var chronicle ="<div id='chronicleContent1'></div>"
 var chronicleTop ="<img id='chronicle' src='/assets/chronicle/chronicleTop.png'>"
 var chronicle1Date ="<img id='chronicle1Date' src='/assets/chronicle/chronicleDate.png'>"
 var chronicle1Circle ="<div id=circleContainer1><img id='chronicle1Circle' src='/assets/chronicle/chronicleCircle.png'></div>"
 var chronicle1Words = "<div id=wordsContainer1><img id='chronicle1Words' src='/assets/chronicle/chronicleWords.png'></div>"
 
 $(document).ready(function() {
- $('#chronicleContent').append(chronicleTop);
- $('#chronicleContent').append(chronicle1Date);
- $('#chronicleContent').append(chronicle1Circle);
- $('#chronicleContent').append(chronicle1Words);
+ $('#chronicleContent').append(chronicle); 
+ $('#chronicleContent1').append(chronicleTop);
+ $('#chronicleContent1').append(chronicle1Date);
+ $('#chronicleContent1').append(chronicle1Circle);
+ $('#chronicleContent1').append(chronicle1Words);
 });
 
 $(document).ready(function() {
@@ -190,7 +192,19 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
+$('#header').waypoint(function() {
+   $('#chronicleContent1').fadeOut( "slow" );
+   $('#chronicleContent1').hide();
+    $('#chronicle').hide();
+ $('#chronicle1Date').hide();
+ $('#chronicle1Circle').hide();
+ $('#chronicle1Words').hide();
+});
+});
+
+$(document).ready(function() {
 $('#header1').waypoint(function() {
+  $('#chronicleContent1').fadeIn(); 
    $('#chronicle').fadeIn( "slow" );
 });
 });
