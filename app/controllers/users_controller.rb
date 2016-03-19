@@ -17,6 +17,11 @@ def create
       @trigger.push(person)
       end
     # binding.pry
+
+    elsif params["sex"] == nil || params["last_name"] == nil || params["username"] == nil || params["email"] == nil || params["password"] == nil || params["day"] == nil || params["month"] == nil || params["year"] == nil
+
+      @trigger = nil
+    
     
     else
       userNew = User.create({
