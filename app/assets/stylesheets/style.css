@@ -92,6 +92,15 @@ html {
 	z-index: 100;
 }
 
+#headerChronicle1 {
+margin-top:130px;
+height:1px;
+width:auto;
+position:absolute;
+background:white;
+z-index: 100;
+}
+
 #headerLeadershipPic {
 	margin-top:175px;
 	height:1px;
@@ -2065,6 +2074,40 @@ width:100px;
     margin-left: auto;
     margin-right: auto; 
     margin-top:20px;
+}
+
+#chronicle1Date{
+	position:relative;
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top:5px;
+}
+
+#chronicle1Circle{
+	position:relative;
+	display: block;
+	margin-left: 690px;
+	margin-right: auto;
+    /*margin-left: 730; */
+    margin-top:0px;
+}
+
+#chronicle1Words{
+	position:relative;
+	display: block;
+	margin-left: 800px;
+	margin-right: auto;
+    /*margin-left: 730; */
+    margin-top:0px;
+}
+
+#circleContainer1{
+	margin-top:-70px;
+}
+
+#wordsContainer1{
+	margin-top:-90px;
 }
 
 #chronicleContainer{

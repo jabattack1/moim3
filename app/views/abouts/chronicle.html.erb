@@ -88,6 +88,10 @@ $(".aboutSelect").mouseover(function(){
 <div id="header2">
 <!-- <h1>trigger</h1> -->
 </div>
+
+<div id="headerChronicle1">
+<!-- <h1>trigger</h1> -->
+</div>
 <div id='top_helper'></div>
 <div id='top_banner' class='navigation'>
   <!-- <nav> -->
@@ -164,14 +168,47 @@ $(".aboutSelect").mouseover(function(){
 
 <a href="#top" class="back-to-top">Back to Top</a>
 <div id='chronicleContent' class='animated slideInUp' onclick='closeLogin();return false;'>
-<!-- <h1 id='chronicleHead'>MOI'M CHRONICLE</h1> -->
 
+<script>
+var chronicleTop ="<img id='chronicle' src='/assets/chronicle/chronicleTop.png'>"
+var chronicle1Date ="<img id='chronicle1Date' src='/assets/chronicle/chronicleDate.png'>"
+var chronicle1Circle ="<div id=circleContainer1><img id='chronicle1Circle' src='/assets/chronicle/chronicleCircle.png'></div>"
+var chronicle1Words = "<div id=wordsContainer1><img id='chronicle1Words' src='/assets/chronicle/chronicleWords.png'></div>"
 
-<!-- <h1 id='startChronicle' onclick='startChronicle();return false;'>CLICK ME</h1> -->
-<!-- <div id='chronicleContainer'> -->
-<img id='chronicle' src='/assets/chronicle.png'>
-<!-- </div> -->
+$(document).ready(function() {
+ $('#chronicleContent').append(chronicleTop);
+ $('#chronicleContent').append(chronicle1Date);
+ $('#chronicleContent').append(chronicle1Circle);
+ $('#chronicleContent').append(chronicle1Words);
+});
 
+$(document).ready(function() {
+ $('#chronicle').hide();
+ $('#chronicle1Date').hide();
+ $('#chronicle1Circle').hide();
+ $('#chronicle1Words').hide();
+});
+
+$(document).ready(function() {
+$('#header1').waypoint(function() {
+   $('#chronicle').fadeIn( "slow" );
+});
+});
+
+$(document).ready(function() {
+$('#headerChronicle1').waypoint(function() {
+   $('#chronicle1Date').fadeIn( "slow" );
+    setTimeout(function() {
+      $("#chronicle1Circle").show( "slide", { direction: "right" }, 700 );
+    }, 10);
+    setTimeout(function() {
+      $("#chronicle1Words").fadeIn( "slow" );
+    }, 700);
+});
+
+});
+
+</script>
 
 <script type="text/javascript">
     $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
