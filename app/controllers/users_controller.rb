@@ -1,29 +1,27 @@
 class UsersController < ApplicationController
 
-def show
+def index
 
 end
 
 def create
 
     user_item = User.find_by(email: params['email'])
-    
+
     if User.find_by(email: params['email'])
-
-      @user = User.all
-      @trigger = []
-
-      @user.each do |person|
-      @trigger.push(person)
-      end
+     
+     
     # binding.pry
 
     elsif params["sex"] == nil || params["last_name"] == nil || params["username"] == nil || params["email"] == nil || params["password"] == nil || params["day"] == nil || params["month"] == nil || params["year"] == nil
-
+    
       @trigger = nil
     
     
-    else
+    # elsif params["sex"] != nil && params["last_name"] != nil && params["username"] != nil && params["email"] != nil && params["password"] != nil && params["day"] != nil && params["month"] != nil && params["year"] != nil
+  
+      
+  else
       userNew = User.create({
         first_name: params["first_name"],
         last_name: params["last_name"],
@@ -37,11 +35,10 @@ def create
         company: params["company"]
       })
 
-    @admin = User.all
-    @trigger = nil  
-    session[:user_id] = userNew.id
 
-    redirect_to '/useralert'
+      session[:user_id] = userNew.id
+
+      redirect_to '/useralert'
     end
 
 end
@@ -49,6 +46,8 @@ end
 def update
 
 end
+
+
 
 end
 

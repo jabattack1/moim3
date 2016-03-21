@@ -12,6 +12,13 @@
 var leadershipPic="<img id='leadershipPic' src = '/assets/leadership.png'>"
 
 $(document).ready(function() {
+$('#header').waypoint(function() {
+   $('#leadershipPic').fadeOut( "slow" );
+   // $('#leadershipPic').hide();
+});
+});
+
+$(document).ready(function() {
 $('#headerLeadershipPic').waypoint(function() {
   if ($('#leadershipPic').length == 0){
   console.log('leader!')
@@ -20,7 +27,7 @@ $('#headerLeadershipPic').waypoint(function() {
    $('#leadershipPic').fadeIn( "slow" );
   }
   else{
-    return false
+    $('#leadershipPic').fadeIn( "slow" );
   }
 });
 });

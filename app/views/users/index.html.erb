@@ -5,6 +5,14 @@
 
 <body id='usersPage'>
 
+	 <% if @trigger != nil%>
+  <script type="text/javascript">
+   alert("Invalid Email address.");
+   window.location = "/users";
+  </script>
+  <%  @trigger = nil %>
+<% end %>
+
 <script type="text/javascript">
 
 $(document).ready(function() {

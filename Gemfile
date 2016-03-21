@@ -1,8 +1,17 @@
 source 'https://rubygems.org'
+
+gem 'devise'
+
+gem 'valid_email'
+
 gem 'waypoints-rails'
+
 gem 'jquery-waypoints-rails', '~> 2.0', '>= 2.0.5'
+
 gem 'rubylight'
+
 gem "paperclip", "~> 4.3"
+
 gem 'bootstrap-sass'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
