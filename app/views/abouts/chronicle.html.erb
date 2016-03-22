@@ -147,6 +147,30 @@ $(".aboutSelect").mouseover(function(){
 <div id="headerChronicle10">
 <!-- <h1>trigger</h1> -->
 </div>
+<div id="header11Chro">
+<!-- <h1>trigger</h1> -->
+</div>
+<div id="headerChronicle11">
+<!-- <h1>trigger</h1> -->
+</div>
+<div id="header12Chro">
+<!-- <h1>trigger</h1> -->
+</div>
+<div id="headerChronicle12">
+<!-- <h1>trigger</h1> -->
+</div>
+<div id="header13Chro">
+<!-- <h1>trigger</h1> -->
+</div>
+<div id="headerChronicle13">
+<!-- <h1>trigger</h1> -->
+</div>
+<div id="header14Chro">
+<!-- <h1>trigger</h1> -->
+</div>
+<div id="headerChronicle14">
+<!-- <h1>trigger</h1> -->
+</div>
 
 <div id='top_helper'></div>
 <div id='top_banner' class='navigation'>
@@ -277,6 +301,26 @@ var chronicle10Date ="<img id='chronicle10Date' src='/assets/chronicle/chronicle
 var chronicle10Circle ="<div id=circleContainer10><img id='chronicle10Circle' src='/assets/chronicle/chronicleCircle10.png'></div>"
 var chronicle10Words = "<div id=wordsContainer10><img id='chronicle10Words' src='/assets/chronicle/chronicleWords10.png'></div>"
 
+var chronicleTop11 ="<img id='chronicleTop11' src='/assets/chronicle/chronicleTop11.png'>"
+var chronicle11Date ="<img id='chronicle11Date' src='/assets/chronicle/chronicleDate11.png'>"
+var chronicle11Circle ="<div id=circleContainer11><img id='chronicle11Circle' src='/assets/chronicle/chronicleCircle11.png'></div>"
+var chronicle11Words = "<div id=wordsContainer11><img id='chronicle11Words' src='/assets/chronicle/chronicleWords11.png'></div>"
+
+var chronicleTop12 ="<img id='chronicleTop12' src='/assets/chronicle/chronicleTop12.png'>"
+var chronicle12Date ="<img id='chronicle12Date' src='/assets/chronicle/chronicleDate12.png'>"
+var chronicle12Circle ="<div id=circleContainer12><img id='chronicle12Circle' src='/assets/chronicle/chronicleCircle12.png'></div>"
+var chronicle12Words = "<div id=wordsContainer12><img id='chronicle12Words' src='/assets/chronicle/chronicleWords12.png'></div>"
+
+var chronicleTop13 ="<img id='chronicleTop13' src='/assets/chronicle/chronicleTop13.png'>"
+var chronicle13Date ="<img id='chronicle13Date' src='/assets/chronicle/chronicleDate13.png'>"
+var chronicle13Circle ="<div id=circleContainer13><img id='chronicle13Circle' src='/assets/chronicle/chronicleCircle13.png'></div>"
+var chronicle13Words = "<div id=wordsContainer13><img id='chronicle13Words' src='/assets/chronicle/chronicleWords13.png'></div>"
+
+var chronicleTop14 ="<img id='chronicleTop14' src='/assets/chronicle/chronicleTop14.png'>"
+var chronicle14Date ="<img id='chronicle14Date' src='/assets/chronicle/chronicleDate14.png'>"
+var chronicle14Circle ="<div id=circleContainer14><img id='chronicle14Circle' src='/assets/chronicle/chronicleCircle14.png'></div>"
+var chronicle14Words = "<div id=wordsContainer14><img id='chronicle14Words' src='/assets/chronicle/chronicleWords14.png'></div>"
+
 $(document).ready(function() {
  $('#chronicleContent').append(chronicle); 
  $('#chronicleContent1').append(chronicleTop);
@@ -329,6 +373,26 @@ $(document).ready(function() {
  $('#chronicleContent1').append(chronicle10Date);
  $('#chronicleContent1').append(chronicle10Circle);
  $('#chronicleContent1').append(chronicle10Words);
+
+      $('#chronicleContent1').append(chronicleTop11);
+ $('#chronicleContent1').append(chronicle11Date);
+ $('#chronicleContent1').append(chronicle11Circle);
+ $('#chronicleContent1').append(chronicle11Words);
+
+       $('#chronicleContent1').append(chronicleTop12);
+ $('#chronicleContent1').append(chronicle12Date);
+ $('#chronicleContent1').append(chronicle12Circle);
+ $('#chronicleContent1').append(chronicle12Words);
+
+        $('#chronicleContent1').append(chronicleTop13);
+ $('#chronicleContent1').append(chronicle13Date);
+ $('#chronicleContent1').append(chronicle13Circle);
+ $('#chronicleContent1').append(chronicle13Words);
+
+         $('#chronicleContent1').append(chronicleTop14);
+ $('#chronicleContent1').append(chronicle14Date);
+ $('#chronicleContent1').append(chronicle14Circle);
+ $('#chronicleContent1').append(chronicle14Words);
 });
 
 $(document).ready(function() {
@@ -372,6 +436,22 @@ $(document).ready(function() {
   $('#chronicle10Date').hide();
  $('#circleContainer10').hide();
  $('#chronicle10Words').hide();
+          $('#chronicleTop11').hide();
+  $('#chronicle11Date').hide();
+ $('#circleContainer11').hide();
+ $('#chronicle11Words').hide();
+           $('#chronicleTop12').hide();
+  $('#chronicle12Date').hide();
+ $('#circleContainer12').hide();
+ $('#chronicle12Words').hide();
+            $('#chronicleTop13').hide();
+  $('#chronicle13Date').hide();
+ $('#circleContainer13').hide();
+ $('#chronicle13Words').hide();
+             $('#chronicleTop14').hide();
+  $('#chronicle14Date').hide();
+ $('#circleContainer14').hide();
+ $('#chronicle14Words').hide();
 });
 
 $(document).ready(function() {
@@ -418,8 +498,25 @@ $('#header').waypoint(function() {
  $('#chronicle10Date').hide();
  $('#circleContainer10').hide();
  $('#chronicle10Words').hide();
+             $('#chronicleTop11').hide();
+ $('#chronicle11Date').hide();
+ $('#circleContainer11').hide();
+ $('#chronicle11Words').hide();
+              $('#chronicleTop12').hide();
+ $('#chronicle12Date').hide();
+ $('#circleContainer12').hide();
+ $('#chronicle12Words').hide();
+               $('#chronicleTop13').hide();
+ $('#chronicle13Date').hide();
+ $('#circleContainer13').hide();
+ $('#chronicle13Words').hide();
+                $('#chronicleTop14').hide();
+ $('#chronicle14Date').hide();
+ $('#circleContainer14').hide();
+ $('#chronicle14Words').hide();
 });
 });
+
 
 $(document).ready(function() {
 $('#header1').waypoint(function() {
@@ -600,6 +697,78 @@ $('#headerChronicle10').waypoint(function() {
     }, 10);
     setTimeout(function() {
       $("#chronicle10Words").fadeIn( "slow" );
+    }, 700);
+});
+});
+
+$(document).ready(function() {
+$('#header11Chro').waypoint(function() {
+   $('#chronicleTop11').fadeIn( "slow" );
+});
+});
+
+$(document).ready(function() {
+$('#headerChronicle11').waypoint(function() {
+   $('#chronicle11Date').fadeIn( "slow" );
+    setTimeout(function() {
+      $("#circleContainer11").show( "slide", { direction: "right" }, 700 );
+    }, 10);
+    setTimeout(function() {
+      $("#chronicle11Words").fadeIn( "slow" );
+    }, 700);
+});
+});
+
+$(document).ready(function() {
+$('#header12Chro').waypoint(function() {
+   $('#chronicleTop12').fadeIn( "slow" );
+});
+});
+
+$(document).ready(function() {
+$('#headerChronicle12').waypoint(function() {
+   $('#chronicle12Date').fadeIn( "slow" );
+    setTimeout(function() {
+      $("#circleContainer12").show( "slide", { direction: "left" }, 700 );
+    }, 10);
+    setTimeout(function() {
+      $("#chronicle12Words").fadeIn( "slow" );
+    }, 700);
+});
+});
+
+$(document).ready(function() {
+$('#header13Chro').waypoint(function() {
+   $('#chronicleTop13').fadeIn( "slow" );
+});
+});
+
+$(document).ready(function() {
+$('#headerChronicle13').waypoint(function() {
+   $('#chronicle13Date').fadeIn( "slow" );
+    setTimeout(function() {
+      $("#circleContainer13").show( "slide", { direction: "right" }, 700 );
+    }, 10);
+    setTimeout(function() {
+      $("#chronicle13Words").fadeIn( "slow" );
+    }, 700);
+});
+});
+
+$(document).ready(function() {
+$('#header14Chro').waypoint(function() {
+   $('#chronicleTop14').fadeIn( "slow" );
+});
+});
+
+$(document).ready(function() {
+$('#headerChronicle14').waypoint(function() {
+   $('#chronicle14Date').fadeIn( "slow" );
+    setTimeout(function() {
+      $("#circleContainer14").show( "slide", { direction: "left" }, 700 );
+    }, 10);
+    setTimeout(function() {
+      $("#chronicle14Words").fadeIn( "slow" );
     }, 700);
 });
 });
