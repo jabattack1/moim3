@@ -9,6 +9,16 @@
 <body id='involvedPage'>
 
 <script>
+var head="<h2 id='involvedBlend'>GET INVOLVED</h2>"
+
+$(window).load(function() {
+  $('body').append( head );
+  $('#involvedBlend').hide();
+  setTimeout(function() {
+  $('#involvedBlend').fadeIn( "slow" );
+}, 300);
+});
+
 var leadershipPic="<img id='leadershipPic' src = '/assets/leadership.png'>"
 
 $(document).ready(function() {
@@ -168,8 +178,8 @@ $(".aboutSelect").mouseover(function(){
                 
 </div>
 
-<img id='whiteGuyPic' class='animated slideInLeft' src = '/assets/chairs.jpg' onclick='closeLogin();return false;'>
-<h2 id='involvedBlend' class='animated slideInLeft'>GET INVOLVED</h2>
+<img id='whiteGuyPic' class='animated zoomIn' src = '/assets/chairs.jpg' onclick='closeLogin();return false;'>
+
 <!-- <img id='involvedLine'  class='animated slideInLeft' src = "/assets/line.png"> -->
 
 <a href="#top" class="back-to-top">Back to Top</a>

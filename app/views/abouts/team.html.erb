@@ -9,7 +9,15 @@
 <body id='teamPage'>
 
 <script>
+var head ="<h2 id='teamBlend'>MEET THE TEAM</h2>"
 
+$(window).load(function() {
+  $('body').append( head );
+  $('#teamBlend').hide();
+  setTimeout(function() {
+  $('#teamBlend').fadeIn( "slow" );
+}, 300);
+});
 
 $(document).ready(function() {
 $('#header1').waypoint(function() {
@@ -144,8 +152,8 @@ $(".aboutSelect").mouseover(function(){
                 
 </div>
 
-<img id='whiteGuyPic' class='animated slideInLeft' src = '/assets/theTeam.jpg' onclick='closeLogin();return false;'>
-<h2 id='teamBlend' class='animated slideInLeft'>MEET THE TEAM</h2>
+<img id='whiteGuyPic' class='animated zoomIn' src = '/assets/theTeam.jpg' onclick='closeLogin();return false;'>
+
 <!-- <img id='teamLine'  class='animated slideInLeft' src = "/assets/line.png"> -->
 
 

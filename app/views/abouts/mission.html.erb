@@ -7,8 +7,22 @@
 <body id="missionPage">
 
 <script type="text/javascript">
+
+var head ="<h2 id='missionBlend'>THE MISSION</h2>"
+var headQuote ="<div id='missionQuote'><p id='missionQuoteContent'>\"Networking is not about just connecting people.<br>It's about connecting people with people, people with ideas, and people with opportunities.\"<br><br>Michele Jennae</p></div>"
 var tileOne = "<div id='tileOne1'><div id='networkingPic'></div><div id='creativityPic'></div></div>"
 var tileTwo = "<div id='tileTwo1'><div id='entertainmentPic'></div><div id='inspirationPic'></div></div>"
+
+$(window).load(function() {
+  $('body').append( head );
+  $('body').append( headQuote );
+  $('#missionQuoteContent').hide();
+  $('#missionBlend').hide();
+  setTimeout(function() {
+  $('#missionQuoteContent').fadeIn( "slow" );
+  $('#missionBlend').fadeIn( "slow" );
+}, 300);
+});
 
 $(window).load(function() {
 $('#header7').waypoint(function() {
@@ -219,16 +233,9 @@ $(".aboutSelect").mouseover(function(){
                 
 </div>
 
-<img id='whiteGuyPic' class='animated slideInLeft' src = '/assets/city.jpg' onclick='closeLogin();return false;'>
-<h2 id='missionBlend' class='animated slideInLeft'>THE MISSION</h2>
+<img id='whiteGuyPic' class='animated zoomIn' src = '/assets/city.jpg' onclick='closeLogin();return false;'>
+
 <!-- <img id='missionLine'  class='animated slideInLeft' src = "/assets/line.png"> -->
-
-<div id='missionQuote' class='animated slideInLeft'><p id='missionQuoteContent'>
-"Networking is not about just connecting people.<br>
-It's about connecting people with people, people with ideas, and people with opportunities."<br><br>
-Michele Jennae</p>
-</div>
-
 
 <a href="#top" class="back-to-top">Back to Top</a>
 <div id='missionContent' class='animated slideInUp' onclick='closeLogin();return false;'>
