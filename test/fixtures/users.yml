@@ -5,7 +5,6 @@ one:
   first_name: MyString
   username: MyString
   password_digest: MyString
-  date: 
   email: MyString
   gender: MyString
   dob: MyString
@@ -18,7 +17,6 @@ two:
   first_name: MyString
   username: MyString
   password_digest: MyString
-  date: 
   email: MyString
   gender: MyString
   dob: MyString

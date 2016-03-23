@@ -12,10 +12,10 @@ end
 
 def create
 
-	user_item = User.find_by(email: params['email'])
+  user_item = User.find_by(email: params['email'])
 
     if user_item
-    	session[:username] = user_item
+      session[:username] = user_item
       # redirect_to '/alerta'
       redirect_to(controller: 'alerta', id: session[:username].to_param)
     else

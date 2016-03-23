@@ -10,18 +10,31 @@ def create
 
     if User.find_by(email: params['email'])
      
-     
-    # binding.pry
+      @user = User.all
+
+      @trigger = []
+ 
+
+      @user.each do |b|
+      @trigger.push(b)
+      end
+
+    elsif User.find_by(username: params['username'])
+
+      @user = User.all
+
+      @trigger = []
+ 
+
+      @user.each do |b|
+      @trigger.push(b)
+      end
 
     elsif params["sex"] == nil || params["last_name"] == nil || params["username"] == nil || params["email"] == nil || params["password"] == nil || params["day"] == nil || params["month"] == nil || params["year"] == nil
     
       @trigger = nil
-    
-    
-    # elsif params["sex"] != nil && params["last_name"] != nil && params["username"] != nil && params["email"] != nil && params["password"] != nil && params["day"] != nil && params["month"] != nil && params["year"] != nil
-  
       
-  else
+    else
       userNew = User.create({
         first_name: params["first_name"],
         last_name: params["last_name"],

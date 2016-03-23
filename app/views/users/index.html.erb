@@ -13,21 +13,156 @@
   <%  @trigger = nil %>
 <% end %>
 
+
+
+
 <script type="text/javascript">
 
+// var booking_email = $('input[name=email]').val();
+// var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+
 $(document).ready(function() {
-$('#emailButton').click(function() {
-  localStorage.clear();
-  localStorage.setItem('email',$('#emailSignup').val());
+
+$('#signupButton').click(function (e) {
+
+		var value = $('#emailSignup').val();
+		var valueUsername = $('#usernameSignup').val();
+		var valuePassword = $('#passwordSignup').val();
+		var valueFirstname = $('#firstnameSignup').val();
+		var valueLastname = $('#lastnameSignup').val();
+		var valueMonth = $('#monthSignup').val();
+		var valueDay = $('#daySignup').val();
+		var valueYear = $('#yearSignup').val();
+		var valueFemale = $('#female').val();
+		var valueMale = $('#male').val();
+
+        var result = email(value);
+
+        if (result == false) {
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+  				$('button[id="signupButton"]').prop("disabled", false);
+			}, 300);
+        } 
+        else if (value.length == 0){
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+  				$('button[id="signupButton"]').prop("disabled", false);
+			}, 300);
+        }
+        else if (valueUsername.length == 0){
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+  				$('button[id="signupButton"]').prop("disabled", false);
+			}, 300);
+        }
+        else if (valuePassword.length == 0){
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+  				$('button[id="signupButton"]').prop("disabled", false);
+			}, 300);
+        }
+        else if (valueFirstname.length == 0){
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+  				$('button[id="signupButton"]').prop("disabled", false);
+			}, 300);
+        }
+        else if (valueLastname.length == 0){
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+  				$('button[id="signupButton"]').prop("disabled", false);
+			}, 300);
+        }
+        else if (valueMonth.length == 0){
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+  				$('button[id="signupButton"]').prop("disabled", false);
+			}, 300);
+        }
+        else if (valueDay.length == 0){
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+  				$('button[id="signupButton"]').prop("disabled", false);
+			}, 300);
+        }
+        else if (valueYear.length == 0){
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+  				$('button[id="signupButton"]').prop("disabled", false);
+			}, 300);
+        }
+        else if ($('#male').prop('checked') == false && $('#female').prop('checked') == false ){
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+  				$('button[id="signupButton"]').prop("disabled", false);
+			}, 300);
+        }
+        else {
+            $('button[id="signupButton"]').prop("disabled", false);
+        }
 });
+    function email(value) {
+        return /^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))$/i.test(value);
+    }
+});
+
+
+$(document).ready(function() {
+
+$('#emailButton').click(function (e) {
+	localStorage.clear();
+  	localStorage.setItem('email',$('#emailSignup').val());
+
+		var value = $('#emailSignup').val();
+
+        var result = email(value);
+
+        if (result == false) {
+            $('button[id="emailButton"]').prop("disabled", true);
+            setTimeout(function() {
+  				$('button[id="emailButton"]').prop("disabled", false);
+			}, 300);
+        } 
+        else if (value.length == 0){
+            $('button[id="emailButton"]').prop("disabled", true);
+            setTimeout(function() {
+  				$('button[id="emailButton"]').prop("disabled", false);
+			}, 300);
+        }
+        else {
+            $('button[id="emailButton"]').prop("disabled", false);
+        }
+});
+    function email(value) {
+        return /^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))$/i.test(value);
+    }
 });
 
 $(document).ready(function() {
-$('#usernameButton').click(function() {
-  localStorage.clear();
-  localStorage.setItem('username',$('#usernameSignup').val());
+
+$('#usernameButton').click(function (e) {
+	localStorage.clear();
+  	localStorage.setItem('username',$('#usernameSignup').val());
+
+		var valueUsername = $('#usernameSignup').val();
+
+		if (valueUsername.length == 0){
+            $('button[id="usernameButton"]').prop("disabled", true);
+            setTimeout(function() {
+  				$('button[id="usernameButton"]').prop("disabled", false);
+			}, 300);
+        }
+        else {
+            $('button[id="usernameButton"]').prop("disabled", false);
+        }
 });
 });
+
+
+
+
 
 $(document).ready(function() {
 
@@ -268,12 +403,12 @@ $(".aboutSelect").mouseover(function(){
 <p id='emailSay'>Verification email will be sent to this address.</p>
 <p id='emailSay1'>Email availability.</p>
 <form method="POST" action="/alerta">
-<input type='hidden' name='email' id='emailCheck' required>
+<input type='hidden' name='email' id='emailCheck'>
 <button id='emailButton' type='submit'>Check</button>
 </form>
 <p id='username1'>Username availability.</p>
 <form method="POST" action="/alertb">
-<input type='hidden' name='username' id='usernameCheck' required>
+<input type='hidden' name='username' id='usernameCheck'>
 <button id='usernameButton' type='submit' >Check</button>
 </form>
 <p id='passwordSay'>At least 8 characters.</p>
@@ -283,18 +418,19 @@ $(".aboutSelect").mouseover(function(){
 <p id='birthdaySay'>example: 06-23-1991</p>
 
 <form id='userCreation' method="POST" action="/users">
+
 	<label id='emailSignUpText'><span id='required'>*&nbsp;</span>Email</label>
-	<input type='text' name='email' id='emailSignup' autocomplete='off' required><br><br>
+	<input type='text' name='email' id='emailSignup' autocomplete='off'><br><br>
 	<label id='usernameSignUpText'><span id='required'>*&nbsp;</span>Username</label>
-	<input type='text' name='username' id='usernameSignup' autocomplete='off' required><br><br>
+	<input type='text' name='username' id='usernameSignup' autocomplete='off'><br><br>
 	<label id='passwordSignUpText'><span id='required'>*&nbsp;</span>Password</label>
-	<input type='password' name='password' id='passwordSignup' minlength='8' autocomplete='off' required><br><br>
+	<input type='password' name='password' id='passwordSignup' minlength='8' autocomplete='off'><br><br>
 	<label id='firstnameSignUpText'><span id='required'>*&nbsp;</span>First Name</label>
-	<input type='text' name='first_name' id='firstnameSignup' autocomplete='off' required><br><br>
+	<input type='text' name='first_name' id='firstnameSignup' autocomplete='off'><br><br>
 	<label id='lastnameSignUpText'><span id='required'>*&nbsp;</span>Last Name</label>
-	<input type='text' name='last_name' id='lastnameSignup' autocomplete='off' required><br><br>
+	<input type='text' name='last_name' id='lastnameSignup' autocomplete='off'><br><br>
 	<label id='birthdaySignUpText'><span id='required'>*&nbsp;</span>Birthday</label>
-	<input type='text' name='month' id='monthSignup' minlength='2' maxlength='2' onkeypress='return isNumberKey(event)' autocomplete='off' required>&nbsp;&nbsp;&nbsp;<input type='text' name='day' id='daySignup' minlength='2' maxlength='2' onkeypress='return isNumberKey(event)' autocomplete='off' required>&nbsp;&nbsp;&nbsp;<input type='text' name='year' id='yearSignup' minlength='4' maxlength='4' onkeypress='return isNumberKey(event)' autocomplete='off' required><br><br>
+	<input type='text' name='month' id='monthSignup' minlength='2' maxlength='2' onkeypress='return isNumberKey(event)' autocomplete='off'>&nbsp;&nbsp;&nbsp;<input type='text' name='day' id='daySignup' minlength='2' maxlength='2' onkeypress='return isNumberKey(event)' autocomplete='off' >&nbsp;&nbsp;&nbsp;<input type='text' name='year' id='yearSignup' minlength='4' maxlength='4' onkeypress='return isNumberKey(event)' autocomplete='off' ><br><br>
 	<label id='genderSignUpText'><span id='required'>*&nbsp;</span>Gender</label>
 	
   	<label id='femaleCheck' class='signupOption'><input id='female' name='sex' class='signupCheckBox' type='checkbox' value='female' style='opacity:0;'><span id=

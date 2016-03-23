@@ -4695,7 +4695,7 @@ z-index: 100;
 
 #membersLine{
 	/*position:absolute;?*/
-	margin-top:0px;
+	margin-top:-5px;
 	/*margin-left:550px;*/
 	height:4px;
 	width:25px;
@@ -4921,7 +4921,7 @@ z-index: 100;
 	font-size:19px;
     width: 1030px;
     margin-left:120px;
-    margin-top:500px;
+    margin-top:510px;
     overflow: hidden;
     white-space: nowrap;
     /*background-color:rgba(0,0,0, 0.2); */
