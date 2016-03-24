@@ -68,25 +68,15 @@ $('#signupButton').click(function (e) {
             setTimeout(function() {
   				$('button[id="signupButton"]').prop("disabled", false);
 			}, 300);
-			$('#emailRequired').fadeIn();
+			$('#emailRequired').show();
         } 
-        else if (value.length == 0){
-            $('button[id="signupButton"]').prop("disabled", true);
-            setTimeout(function() {
-  				$('button[id="signupButton"]').prop("disabled", false);
-			}, 300);
-        }
-        else {
-            $('button[id="signupButton"]').prop("disabled", false);
-        }
-
 
 		if (valueUsername.length == 0){
             $('button[id="signupButton"]').prop("disabled", true);
             setTimeout(function() {
   				$('button[id="signupButton"]').prop("disabled", false);
 			}, 300);
-			$('#usernameRequired').fadeIn();
+			$('#usernameRequired').show();
         }
 
         if (valuePassword.length < 8){
@@ -94,7 +84,7 @@ $('#signupButton').click(function (e) {
             setTimeout(function() {
   				$('button[id="signupButton"]').prop("disabled", false);
 			}, 300);
-			$('#passwordRequired').fadeIn();
+			$('#passwordRequired').show();
         }
 
         if (valueFirstname.length == 0){
@@ -102,7 +92,7 @@ $('#signupButton').click(function (e) {
             setTimeout(function() {
   				$('button[id="signupButton"]').prop("disabled", false);
 			}, 300);
-			$('#firstnameRequired').fadeIn();
+			$('#firstnameRequired').show();
         }
         
         if (valueLastname.length == 0){
@@ -110,31 +100,31 @@ $('#signupButton').click(function (e) {
             setTimeout(function() {
   				$('button[id="signupButton"]').prop("disabled", false);
 			}, 300);
-			$('#lastnameRequired').fadeIn();
+			$('#lastnameRequired').show();
         }
 
-        if (valueMonth.length == 0){
+        if (valueMonth.length < 2){
             $('button[id="signupButton"]').prop("disabled", true);
             setTimeout(function() {
   				$('button[id="signupButton"]').prop("disabled", false);
 			}, 300);
-			$('#birthdayRequired').fadeIn();
+			$('#birthdayRequired').show();
         }
         
-        if (valueDay.length == 0){
+        if (valueDay.length < 2){
             $('button[id="signupButton"]').prop("disabled", true);
             setTimeout(function() {
   				$('button[id="signupButton"]').prop("disabled", false);
 			}, 300);
-			$('#birthdayRequired').fadeIn();
+			$('#birthdayRequired').show();
         }
         
-        if (valueYear.length == 0){
+        if (valueYear.length < 4){
             $('button[id="signupButton"]').prop("disabled", true);
             setTimeout(function() {
   				$('button[id="signupButton"]').prop("disabled", false);
 			}, 300);
-			$('#birthdayRequired').fadeIn();
+			$('#birthdayRequired').show();
         }
 
         if ($('#male').prop('checked') == false && $('#female').prop('checked') == false ){
@@ -142,19 +132,20 @@ $('#signupButton').click(function (e) {
             setTimeout(function() {
   				$('button[id="signupButton"]').prop("disabled", false);
 			}, 300);
-			$('#genderRequired').fadeIn();
+			$('#genderRequired').show();
         }
 
 // ****remove required****
-        if (result == true && valueUsername.length == 0 && valuePassword.length < 8 && valueFirstname.length == 0 && valueLastname.length == 0 && valueMonth.length == 0 && valueDay.length == 0 && valueYear.length == 0 && $('#male').prop('checked') == false && $('#female').prop('checked') == false) {
+
+        if (result == true) {
             $('button[id="signupButton"]').prop("disabled", true);
             setTimeout(function() {
   				$('button[id="signupButton"]').prop("disabled", false);
 			}, 300);
 			$('#emailRequired').hide();
-        }
+        } 
 
-        if (result == false && valueUsername.length != 0 && valuePassword.length < 8 && valueFirstname.length == 0 && valueLastname.length == 0 && valueMonth.length == 0 && valueDay.length == 0 && valueYear.length == 0 && $('#male').prop('checked') == false && $('#female').prop('checked') == false) {
+		if (valueUsername.length != 0){
             $('button[id="signupButton"]').prop("disabled", true);
             setTimeout(function() {
   				$('button[id="signupButton"]').prop("disabled", false);
@@ -162,7 +153,7 @@ $('#signupButton').click(function (e) {
 			$('#usernameRequired').hide();
         }
 
-        if (result == false && valueUsername.length == 0 && valuePassword.length > 7 && valueFirstname.length == 0 && valueLastname.length == 0 && valueMonth.length == 0 && valueDay.length == 0 && valueYear.length == 0 && $('#male').prop('checked') == false && $('#female').prop('checked') == false) {
+        if (valuePassword.length > 7){
             $('button[id="signupButton"]').prop("disabled", true);
             setTimeout(function() {
   				$('button[id="signupButton"]').prop("disabled", false);
@@ -170,7 +161,7 @@ $('#signupButton').click(function (e) {
 			$('#passwordRequired').hide();
         }
 
-        if (result == false && valueUsername.length == 0 && valuePassword.length < 8 && valueFirstname.length != 0 && valueLastname.length == 0 && valueMonth.length == 0 && valueDay.length == 0 && valueYear.length == 0 && $('#male').prop('checked') == false && $('#female').prop('checked') == false) {
+        if (valueFirstname.length != 0){
             $('button[id="signupButton"]').prop("disabled", true);
             setTimeout(function() {
   				$('button[id="signupButton"]').prop("disabled", false);
@@ -178,7 +169,7 @@ $('#signupButton').click(function (e) {
 			$('#firstnameRequired').hide();
         }
 
-        if (result == false && valueUsername.length == 0 && valuePassword.length < 8 && valueFirstname.length == 0 && valueLastname.length != 0 && valueMonth.length == 0 && valueDay.length == 0 && valueYear.length == 0 && $('#male').prop('checked') == false && $('#female').prop('checked') == false) {
+        if (valueLastname.length != 0){
             $('button[id="signupButton"]').prop("disabled", true);
             setTimeout(function() {
   				$('button[id="signupButton"]').prop("disabled", false);
@@ -186,7 +177,7 @@ $('#signupButton').click(function (e) {
 			$('#lastnameRequired').hide();
         }
 
-        if (result == false && valueUsername.length == 0 && valuePassword.length < 8 && valueFirstname.length == 0 && valueLastname.length == 0 && valueMonth.length != 0 && valueDay.length != 0 && valueYear.length != 0 && $('#male').prop('checked') == false && $('#female').prop('checked') == false) {
+        if (valueYear.length > 3 && valueDay.length > 1 && valueMonth.length > 1){
             $('button[id="signupButton"]').prop("disabled", true);
             setTimeout(function() {
   				$('button[id="signupButton"]').prop("disabled", false);
@@ -194,13 +185,30 @@ $('#signupButton').click(function (e) {
 			$('#birthdayRequired').hide();
         }
 
-        if (result == false && valueUsername.length == 0 && valuePassword.length < 8 && valueFirstname.length == 0 && valueLastname.length == 0 && valueMonth.length == 0 && valueDay.length == 0 && valueYear.length == 0 && $('#male').prop('checked') == true || $('#female').prop('checked') == true) {
+        if ($('#male').prop('checked') == true || $('#female').prop('checked') == true ){
             $('button[id="signupButton"]').prop("disabled", true);
             setTimeout(function() {
   				$('button[id="signupButton"]').prop("disabled", false);
 			}, 300);
 			$('#genderRequired').hide();
         }
+
+
+        if (result == true && valueUsername.length != 0 && valuePassword.length > 7 && valueFirstname.length != 0 && valueLastname.length != 0 && valueYear.length > 3 && valueDay.length > 1 && valueMonth.length > 1 && $('#male').prop('checked') == true){
+            $('button[id="signupButton"]').prop("disabled", false);
+        }
+
+        else if (result == true && valueUsername.length != 0 && valuePassword.length > 7 && valueFirstname.length != 0 && valueLastname.length != 0 && valueYear.length > 3 && valueDay.length > 1 && valueMonth.length > 1 && $('#female').prop('checked') == true){
+            $('button[id="signupButton"]').prop("disabled", false);
+        }
+        else {
+        	$('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+  				$('button[id="signupButton"]').prop("disabled", false);
+			}, 300);
+
+        }
+
 
 });
     function email(value) {
