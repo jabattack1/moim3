@@ -4,8 +4,12 @@
 </head>
 <body id='welcomeBody'>
 
+
+
 <script type="text/javascript">
+
 var poster="<div id='posterContainer'></div>"
+var meh="<div id='sWrap'><div id='arrowContainer'><p id='arrowWords'>SCROLL DOWN TO SEE OUR SPONSORS</p></div></div>"
 var one="<img id='posterShow1' src = 'http://i1301.photobucket.com/albums/ag119/jabattack1/AFTER%20HOURS%20Poster_Final%20Approved%20LowRes_zpscu1dy8m0.jpg'>";
 var two="<img id='posterShow2' src = 'http://i1301.photobucket.com/albums/ag119/jabattack1/AFTER%20HOURS%20Poster_Final%20Approved%20LowRes_zpscu1dy8m0.jpg'>";
 
@@ -20,7 +24,11 @@ $(window).load(function() {
   $('#posterContainer').hide();
   $('#posterContainer').show( "slide", { direction: "left" }, 500 );
 }, 1000);
-
+  setTimeout(function() {
+  $('body').append( meh );
+  $('#sWrap').hide();
+  $('#sWrap').show( "slide", { direction: "right" }, 500 );
+}, 800);
 
 setTimeout(function() {
 
@@ -233,12 +241,14 @@ $('#header1').waypoint(function() {
 $(document).ready(function() {
 $('#header1').waypoint(function() {
 $('#posterContainer').hide( "slide", { direction: "left" }, 500 );
+$('#sWrap').hide( "slide", { direction: "right" }, 500 );
 });
 });
 
 $(document).ready(function() {
 $('#header').waypoint(function() {
 $('#posterContainer').show( "slide", { direction: "left" }, 500 );
+$('#sWrap').show( "slide", { direction: "right" }, 300 );
 });
 });
     // $(this).fadeOut(1000, function() {
