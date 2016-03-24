@@ -6256,6 +6256,69 @@ width:1200px;
 	margin-left:320px;
 }
 
+#emailRequired{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 9px;
+	position:absolute;
+	margin-top:-620px;
+	margin-left:0px;
+	color:red;
+}
+
+#usernameRequired{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 9px;
+	position:absolute;
+	margin-top:-571px;
+	margin-left:0px;
+	color:red;
+}
+
+#passwordRequired{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 9px;
+	position:absolute;
+	margin-top:-521px;
+	margin-left:0px;
+	color:red;
+}
+
+#firstnameRequired{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 9px;
+	position:absolute;
+	margin-top:-471px;
+	margin-left:0px;
+	color:red;
+}
+
+#lastnameRequired{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 9px;
+	position:absolute;
+	margin-top:-421px;
+	margin-left:0px;
+	color:red;
+}
+
+#birthdayRequired{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 9px;
+	position:absolute;
+	margin-top:-370px;
+	margin-left:0px;
+	color:red;
+}
+
+#genderRequired{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 9px;
+	position:absolute;
+	margin-top:-322px;
+	margin-left:0px;
+	color:red;
+}
+
 
 #passwordSay{
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
