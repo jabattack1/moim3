@@ -232,12 +232,14 @@ $('#emailButton').click(function (e) {
             setTimeout(function() {
   				$('button[id="emailButton"]').prop("disabled", false);
 			}, 300);
+			$('#emailRequired').show();
         } 
         else if (value.length == 0){
             $('button[id="emailButton"]').prop("disabled", true);
             setTimeout(function() {
   				$('button[id="emailButton"]').prop("disabled", false);
 			}, 300);
+			$('#emailRequired').show();
         }
         else {
             $('button[id="emailButton"]').prop("disabled", false);
