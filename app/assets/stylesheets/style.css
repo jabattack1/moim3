@@ -1969,42 +1969,38 @@ width:100px;
 }
 
 #termsOfUseWelcome{
-	position:absolute;
-	width:700px;
+	position:fixed;
+	margin: 0 auto; 
+    width:1260px;
 	height:700px;
-	margin-top:100px;
-	margin-left:180px;
-	background-color:rgba(0,0,0, 0.5);
+	background-color:rgba(0,0,0,0.8);
 	border-style:solid;
 	border-color:black;
-	border-width:2px;
-	z-index:10;
-	/*border-radius: 10px;*/
+	border-width:1px;
+	z-index:100;
 }
 
 #privacyPolicyWelcome{
-	position:absolute;
-	width:700px;
+	position:fixed;
+	margin: 0 auto; 
+    width:1260px;
 	height:700px;
-	margin-top:100px;
-	margin-left:180px;
-	background-color:rgba(0,0,0, 0.5);
+	background-color:rgba(0,0,0,0.8);
 	border-style:solid;
 	border-color:black;
-	border-width:2px;
-	z-index:10;
-	/*border-radius: 10px;*/
+	border-width:1px;
+	z-index:100;
 }
 
 #close-img{
-	position:absolute;
+	/*position:absolute;*/
     /*float:right;*/
-    margin-left:792px;   
+    /*margin-left:792px;   */
 }
 #close{
-	position:absolute;
-	margin-top:3px;
-    margin-right:3px;
+	position:fixed;
+	/*margin-top:3px;*/
+    right:0;
     width:25px;
     height:25px;
     -webkit-filter: invert(100%) !important;
@@ -3209,7 +3205,7 @@ z-index: 100;
 	padding-right:5px;
 	position:absolute;
     border-style:solid;
-    border-width:2px;
+    border-width:1px;
     background-color:#1BAAC6;
 	border-color:black;
 	border-right-color:#1BAAC6;
