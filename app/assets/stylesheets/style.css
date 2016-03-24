@@ -3387,13 +3387,13 @@ z-index: 100;
 
 #missionLine{
 	z-index:5;
+	margin-top:326px;
 	position:fixed;
-	margin-left:605px;
-	margin-top:335px;
+	margin-left:613px;
+	display: block;
+    width:30px;
+    height:4px;
 	-webkit-filter: invert(100%);
-    /*filter: invert(100%);*/
-    width:50px;
-    height:3px;
 }
 
 #involvedBlend{

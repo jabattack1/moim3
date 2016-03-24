@@ -9,6 +9,7 @@
 <script type="text/javascript">
 
 var head ="<h2 id='missionBlend'>THE MISSION</h2>"
+var missionLine ="<img id='missionLine' src = '/assets/line.png'>"
 var headQuote ="<div id='missionQuote'><p id='missionQuoteContent'>\"Networking is not about just connecting people.<br>It's about connecting people with people, people with ideas, and people with opportunities.\"<br><br>Michele Jennae</p></div>"
 var tileOne = "<div id='tileOne1'><div id='networkingPic'></div><div id='creativityPic'></div></div>"
 var tileTwo = "<div id='tileTwo1'><div id='entertainmentPic'></div><div id='inspirationPic'></div></div>"
@@ -16,11 +17,14 @@ var tileTwo = "<div id='tileTwo1'><div id='entertainmentPic'></div><div id='insp
 $(window).load(function() {
   $('body').append( head );
   $('body').append( headQuote );
+  $('body').append( missionLine );
   $('#missionQuoteContent').hide();
   $('#missionBlend').hide();
+  $('#missionLine').hide();
   setTimeout(function() {
   $('#missionQuoteContent').fadeIn( "slow" );
   $('#missionBlend').fadeIn( "slow" );
+  $('#missionLine').fadeIn( "slow" );
 }, 300);
 });
 

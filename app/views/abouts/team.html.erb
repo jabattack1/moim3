@@ -10,12 +10,16 @@
 
 <script>
 var head ="<h2 id='teamBlend'>MEET THE TEAM</h2>"
+var missionLine ="<img id='missionLine' src = '/assets/line.png'>"
 
 $(window).load(function() {
   $('body').append( head );
+  $('body').append( missionLine );
   $('#teamBlend').hide();
+  $('#missionLine').hide();
   setTimeout(function() {
   $('#teamBlend').fadeIn( "slow" );
+  $('#missionLine').fadeIn( "slow" );
 }, 300);
 });
 

@@ -10,12 +10,16 @@
 
 <script>
 var head="<h2 id='involvedBlend'>GET INVOLVED</h2>"
+var missionLine ="<img id='missionLine' src = '/assets/line.png'>"
 
 $(window).load(function() {
   $('body').append( head );
+  $('body').append( missionLine );
   $('#involvedBlend').hide();
+  $('#missionLine').hide();
   setTimeout(function() {
   $('#involvedBlend').fadeIn( "slow" );
+  $('#missionLine').fadeIn( "slow" );
 }, 300);
 });
 
