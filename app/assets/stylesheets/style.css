@@ -781,6 +781,63 @@ a.back-to-top:hover{
     }
 }
 
+/********/
+
+@-webkit-keyframes glowBack {
+    0% {
+		background-color: #1BAAC6;
+		box-shadow: 0 0 5px rgba(124, 255, 255, 2), inset 0 0 5px rgba(124, 255, 255, 1), 0 2px 0 #000;
+    }	
+    100% {
+		background-color: #66E5FF;
+		box-shadow: 0 0 20px rgba(124, 255, 255, 6), inset 0 0 10px rgba(124, 255, 255, 4), 0 2px 0 #000;
+    }
+}
+
+@-moz-keyframes glowBack {
+    0% {
+		background-color: #1BAAC6;
+		box-shadow: 0 0 5px rgba(124, 255, 255, 2), inset 0 0 5px rgba(124, 255, 255, 1), 0 2px 0 #000;
+    }	
+    100% {
+		background-color: #1BAAC6;
+		box-shadow: 0 0 20px rgba(124, 255, 255, 6), inset 0 0 10px rgba(124, 255, 255, 4), 0 2px 0 #000;
+    }
+}
+
+@-o-keyframes glowBack {
+    0% {
+		background-color: #1BAAC6;
+		box-shadow: 0 0 5px rgba(124, 255, 255, 2), inset 0 0 5px rgba(124, 255, 255, 1), 0 2px 0 #000;
+    }	
+    100% {
+		background-color: #1BAAC6;
+		box-shadow: 0 0 20px rgba(124, 255, 255, 6), inset 0 0 10px rgba(124, 255, 255, 4), 0 2px 0 #000;
+    }
+}
+
+@-ms-keyframes glowBack {
+    0% {
+		background-color: #1BAAC6;
+		box-shadow: 0 0 5px rgba(124, 255, 255, 2), inset 0 0 5px rgba(124, 255, 255, 1), 0 2px 0 #000;
+    }	
+    100% {
+		background-color: #1BAAC6;
+		box-shadow: 0 0 20px rgba(124, 255, 255, 6), inset 0 0 10px rgba(124, 255, 255, 4), 0 2px 0 #000;
+    }
+}
+
+@keyframes glowBack {
+    0% {
+		background-color: #1BAAC6;
+		box-shadow: 0 0 5px rgba(124, 255, 255, 2), inset 0 0 5px rgba(124, 255, 255, 1), 0 2px 0 #000;
+    }	
+    100% {
+		background-color: #66E5FF;
+		box-shadow: 0 0 20px rgba(124, 255, 255, 6), inset 0 0 10px rgba(124, 255, 255, 4), 0 2px 0 #000;
+    }
+}
+
 #glass{
 	position:absolute;
 	width:20px;
@@ -1918,7 +1975,7 @@ width:100px;
 
 #fb_smallWelcome{
 	position:absolute;
-	margin-top:8px;
+	margin-top:6px;
 	margin-left:1120px;
 	height:35px;
 	width:35px;
@@ -1926,7 +1983,7 @@ width:100px;
 
 #insta_smallWelcome{
 	position:absolute;
-	margin-top:8px;
+	margin-top:6px;
 	margin-left:1160px;
 	height:35px;
 	width:35px;
@@ -1934,7 +1991,7 @@ width:100px;
 
 #youtube_smallWelcome{
 	position:absolute;
-	margin-top:8px;
+	margin-top:6px;
 	margin-left:1200px;
 	height:35px;
 	width:35px;
