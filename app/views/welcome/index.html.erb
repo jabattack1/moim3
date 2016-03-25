@@ -258,6 +258,66 @@ $('#sWrap').show( "slide", { direction: "right" }, 300 );
 
 <!-- alert($("div").scrollTop()); -->
 <div id='welcomeContent' class='animated slideInUp' onclick='closeLogin();return false;'>
+
+<script>
+$(document).ready(function () {
+    var $horizontal = $('#logoMoimColored');
+
+    $(window).scroll(function () {
+        var s = $(this).scrollTop(),
+            d = $(document).height(),
+            c = $(this).height();
+
+        scrollPercent = (s / (d - c));
+
+        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
+        
+        $horizontal.css({
+            'left': position
+        });
+    });
+});
+
+$(document).ready(function () {
+    var $horizontal = $('#logoMoimColored1');
+
+    $(window).scroll(function () {
+        var s = $(this).scrollTop(),
+            d = $(document).height(),
+            c = $(this).height();
+
+        scrollPercent = (s / (d - c));
+
+        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
+        
+        $horizontal.css({
+            'left': position
+        });
+    });
+});
+
+$(document).ready(function () {
+    var $horizontal = $('#logoMoimColored2');
+
+    $(window).scroll(function () {
+        var s = $(this).scrollTop(),
+            d = $(document).height(),
+            c = $(this).height();
+
+        scrollPercent = (s / (d - c));
+
+        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
+        
+        $horizontal.css({
+            'left': position
+        });
+    });
+});
+</script>
+
+<img id='logoMoimColored' src='/assets/moimLogoColored.png'>
+<img id='logoMoimColored1' src='/assets/moimLogoColored.png'>
+<img id='logoMoimColored2' src='/assets/moimLogoColored.png'>
 </div>
 <div id='welcomeBottom1' onclick='closeLogin();return false;'>
 

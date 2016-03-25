@@ -244,6 +244,30 @@ margin-top:150px;
 	margin-top:14px;
 }
 
+#logoMoimColored{
+	position:fixed;
+	width:220px;
+	/*top:2px;*/
+	left:0px;
+	margin-top:400px;
+}
+
+#logoMoimColored1{
+	position:fixed;
+	width:220px;
+	/*top:2px;*/
+	left:0px;
+	margin-top:900px;
+}
+
+#logoMoimColored2{
+	position:fixed;
+	width:220px;
+	/*top:2px;*/
+	left:0px;
+	margin-top:1400px;
+}
+
 #logoMoim:hover{
 	cursor:pointer;
 	-webkit-filter: invert(50%) !important;
