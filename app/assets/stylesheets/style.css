@@ -29,6 +29,15 @@ html {
 	z-index: 100;
 }
 
+#header2a {
+	margin-top:12px;
+	height:1px;
+	width:auto;
+	position:absolute;
+	background:white;
+	z-index: 100;
+}
+
 #header3 {
 	margin-top:1120px;
 	height:1px;
@@ -244,6 +253,14 @@ margin-top:150px;
 	margin-top:14px;
 }
 
+#logoMoimBlack{
+	position:absolute;
+	width:110px;
+	top:2px;
+	margin-left:10px;
+	margin-top:14px;
+}
+
 #logoMoimColored{
 	position:fixed;
 	width:220px;
@@ -280,6 +297,16 @@ margin-top:150px;
 	width: 1260px;
  	height: 15px;
 	background-color:rgba(0,0,0,0.1);
+	z-index: 10;
+}
+
+#top_helper_users {
+	position: fixed;
+	margin-top:0px;
+	margin-left:0px;
+	width: 1260px;
+ 	height: 15px;
+	background-color:#161616;
 	z-index: 10;
 }
 
@@ -359,6 +386,18 @@ margin-top:150px;
  	/*background-color:#161616;*/
  	background-color:rgba(0,0,0,0.1);
  	/*border-radius: 5px;*/
+ 	z-index: 10;
+}
+
+#top_banner_users {
+	background-image: url();
+	position: fixed;
+	margin-top:15px;
+	margin-left:0px;
+	width: 1260px;
+ 	height: 64px;
+ 	text-shadow: 2px 2px 2px #000;
+ 	background-color:#161616;
  	z-index: 10;
 }
 
@@ -1186,20 +1225,16 @@ a.back-to-top:hover{
 	border-color:#1BAAC6;*/
 }
 
-#usersContent {
+/*#usersContent {
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	position: absolute;
 	margin-top:103px;
 	margin-left:0px;
 	width:1260px;
 	height:780px;
-	background-color:white;
+	background-color:#161616;
 	z-index:8;
-	/*width:1800px;*/
-	/*border-top:solid;
-	border-width:7px;
-	border-color:#1BAAC6;*/
-}
+}*/
 
 #chronicleContent {
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
@@ -1309,6 +1344,22 @@ a.back-to-top:hover{
 	margin-left:0px;
 	width:1260px;
 	height:820px;
+	background-color:white;
+	z-index:8;
+	/*width:1800px;*/
+	/*border-top:solid;
+	border-width:7px;
+	border-color:#1BAAC6;*/
+}
+
+#usersContent {
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
+	position: absolute;
+	margin-top:0px;
+	margin-left:0px;
+	width:1260px;
+	height:1150px;
 	background-color:white;
 	z-index:8;
 	/*width:1800px;*/
@@ -2062,6 +2113,18 @@ width:100px;
 }
 
 #privacyPolicyWelcome{
+	position:fixed;
+	margin: 0 auto; 
+    width:1260px;
+	height:700px;
+	background-color:rgba(0,0,0,0.8);
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	z-index:100;
+}
+
+#contactWelcome{
 	position:fixed;
 	margin: 0 auto; 
     width:1260px;
@@ -3342,7 +3405,7 @@ z-index: 100;
   /*background-color:black;*/
   background:url()center top;
   background-size: 1200px;
-  background-color:white;
+  background-color:#161616;
   /*background-repeat: repeat-y;*/
 	width:1260px;
   	height: 1010px;
@@ -6086,7 +6149,7 @@ width:1200px;
 	/*width:1260px;*/
     display: table;
     margin: 0 auto;
-    margin-top:100px;
+    margin-top:125px;
     background-color:white;
     padding-left:70px;
     padding-right:70px;
@@ -6103,7 +6166,7 @@ width:1200px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight:normal;
 	margin-left:327px;
-	margin-top: 5px;
+	margin-top: 130px;
 	width:100px;
 	font-size: 10px;
 	z-index:8;

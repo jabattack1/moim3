@@ -402,6 +402,42 @@ $('#usernameSignup').change(function() {
 $(document).ready(function() {
 $("#userCreation")[0].reset();
 });
+
+
+$(document).ready(function() {
+$('#header2a').waypoint(function() {
+  $( "#top_helper" ).animate({
+    backgroundColor: "#161616",
+    height:"0px"
+  }, 200 );
+
+  $( "#top_banner_users" ).animate({
+    // width: "70%",
+    backgroundColor: "#161616",
+    marginTop: "0px"
+    // fontSize: "3em",
+    // borderWidth: "10px"
+  }, 200 );
+});
+});
+
+
+$(document).ready(function() {
+$('#header1').waypoint(function() {
+  $( "#top_helper" ).animate({
+    backgroundColor: "#161616",
+    height:"15px"
+  }, 200 );
+
+  $( "#top_banner_users" ).animate({
+    // width: "70%",
+    backgroundColor: "#161616",
+    marginTop: "15px"
+    // fontSize: "3em",
+    // borderWidth: "10px"
+  }, 200 );
+});
+});
 </script> 
 
 
@@ -416,7 +452,22 @@ $(".aboutSelect").mouseover(function(){
 </script> 
 
 
-<div id='top_bannerUsers' class='navigation'>
+<div id="header">
+<!-- <h1>top</h1> -->
+</div>
+
+<div id="header1">
+<!-- <h1>trigger</h1> -->
+</div>
+
+<div id="header2a">
+<!-- <h1>trigger</h1> -->
+</div>
+<div id="headerLeadershipPic">
+<!-- <h1>trigger</h1> -->
+</div>
+<div id='top_helper_users'></div>
+<div id='top_banner_users' class='navigation'>
   <!-- <nav> -->
 
 <section class="webdesigntuts-workshop">
@@ -431,7 +482,7 @@ $(".aboutSelect").mouseover(function(){
 <div id='logInBanner'>
 
 <a id='logInIcon' onclick='logInScreen();return false;'>LOG IN</A><p id='line1'>|</p>
-<a id='signUpIcon' href='/users'>SIGN UP</A><p id='line2'>|</p>
+<a id='signUpIcon'>SIGN UP</A><p id='line2'>|</p>
 <a href='#bottom'id='contactUsIcon' onclick='countUp();return false;'>CONTACT US</A>
 
 
@@ -443,7 +494,7 @@ $(".aboutSelect").mouseover(function(){
 <ul>
 				
                 <li><a class='aboutSelect'>ABOUT</a><img id="aboutArrow" src='/assets/downArrow.PNG'/>
-                	<ul id='aboutDropUsers'>
+                	<ul id='aboutDrop'>
                         <li>
                             <a href='/mission'>THE MISSION</a>
                       	</li>
@@ -464,7 +515,7 @@ $(".aboutSelect").mouseover(function(){
                 <li><a href='/galleries'>PHOTOS & VIDEOS</a></li>
                 <li><a href='/express_yourselves'>EXPRESS YOURSELF</a></li>
                 <li><a class='communitySelect'>THE COMMUNITY</a><img id="communityArrow" src='/assets/downArrow.PNG'/>
-					<ul id='communityDropUsers'>
+					<ul id='communityDrop'>
                         <li>
                             <a href='/external_events'>EXTERNAL EVENTS</a>
                       	</li>
@@ -485,7 +536,10 @@ $(".aboutSelect").mouseover(function(){
 </div>
 
 
+<!-- <img id='involvedLine'  class='animated slideInLeft' src = "/assets/line.png"> -->
+
 <a href="#top" class="back-to-top">Back to Top</a>
+<div id='usersContent' onclick='closeLogin();'>
 
 <p id='requiredStar'><span id='required'>*&nbsp;</span>= Required Field</p>
 
@@ -509,7 +563,7 @@ $(".aboutSelect").mouseover(function(){
 
 <form id='userCreation' method="POST" action="/users">
 	<label id='emailSignUpText'><span id='required'>*&nbsp;</span>Email</label>
-	<input type='text' name='email' value='<%= @user[0].email %>' id='emailSignup' autocomplete='off' required><br><br>
+	<input type='text' name='email' value='<%= @user["email"] %>' id='emailSignup' autocomplete='off' required><br><br>
 	<label id='usernameSignUpText'><span id='required'>*&nbsp;</span>Username</label>
 	<input type='text' name='username' id='usernameSignup' autocomplete='off' required><br><br>
 	<label id='passwordSignUpText'><span id='required'>*&nbsp;</span>Password</label>
@@ -552,7 +606,7 @@ $(".aboutSelect").mouseover(function(){
 </script>
 
 <div id='bottom' class='usersBottom'></div>
-<div id='contactUsUsers' class='animated slideInLeft' onclick='closeLogin();return false;'>
+<div id='contactUsUsers' onclick='closeLogin();return false;'>
 
 <div id='contactContent'>
 
@@ -599,7 +653,7 @@ MOI'M | All Rights Reserved | <a href='#' id='link' onclick='terms();return fals
 
 
 
-
+</div>
 
 <!-- </p> -->
 </body>

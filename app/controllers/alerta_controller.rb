@@ -2,7 +2,7 @@ class AlertaController < ApplicationController
 
 def index
 	if session[:username] 
-      @user = User.all
+      @user = session[:username] 
       reset_session
     else
       redirect_to '/users'

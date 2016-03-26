@@ -66,6 +66,7 @@ var termsOf ="<div id='termsOfUse' class='animated zoomIn'><p id='termsWords'>Te
 var privacyPol ="<div id='privacyPolicy'><span id='close-img' class='img-span pull-right'><img id='close' onclick='closePrivacy();return false;' src = '/assets/closeIcon.png'></span><p id='privacyWords'>Privacy Policy</p></div>";
 var termsOfWelcome ="<div id='termsOfUseWelcome'><p id='termsWords'>Terms of Use<span id='close-img' class='img-span pull-right'><img id='close' onclick='closeTermsWelcome();return false;' src = '/assets/closeIcon.png'></span></p></div>";
 var privacyPolWelcome ="<div id='privacyPolicyWelcome'><p id='privacyWords'>Privacy Policy<span id='close-img' class='img-span pull-right'><img id='close' onclick='closePrivacyWelcome();return false;' src = '/assets/closeIcon.png'></span></p></div>";
+var contactUsWelcome ="<div id='contactWelcome'><p id='privacyWords'>Contact Us<span id='close-img' class='img-span pull-right'><img id='close' onclick='closeContactWelcome();return false;' src = '/assets/closeIcon.png'></span></p></div>";
 
 // var teamIn ="<div id='teamContent' class='animated slideInLeft' onclick='closeLogin();return false;'><div id='leadershipTeamPic' onclick='leaders();return false;'></div><div id='eventTeamPic' onclick='events();return false;'></div><div id='creativeTeamPic' onclick='creative();return false;'></div><div id='prTeamPic' onclick='pr();return false;'></div><div id='soarTeamPic' onclick='soar();return false;'></div><div id='itTeamPic' onclick='it();return false;'></div><div id='advisoryTeamPic' onclick='advisory();return false;'></div><div id='contributorsPic' onclick='contributors();return false;'></div></div>";
 // var teamOut ="<div id='teamContent' class='animated slideOutLeft' onclick='closeLogin();return false;'><div id='leadershipTeamPic'></div><div id='eventTeamPic'></div><div id='creativeTeamPic'></div><div id='prTeamPic'></div><div id='soarTeamPic'></div><div id='itTeamPic'></div><div id='advisoryTeamPic'></div><div id='contributorsPic'></div></div>";
@@ -3595,6 +3596,20 @@ function privacyWelcome(){
   $('#privacyPolicyWelcome').hide();
   $('#privacyPolicyWelcome').fadeIn( 500 );
 } 
+
+function contactUsNow(){  
+  console.log('hit'); 
+  $('#termsOfUseWelcome').remove();
+  $('#privacyPolicyWelcome').remove();
+  $('body').append(contactUsWelcome); 
+  $('#contactWelcome').hide();
+  $('#contactWelcome').fadeIn( 500 );
+} 
+
+function closeContactWelcome(){
+  console.log('hit'); 
+  $('#contactWelcome').remove(); 
+}
 
 function closePrivacyWelcome(){
 	console.log('hit');	
