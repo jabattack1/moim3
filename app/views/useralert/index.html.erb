@@ -5,7 +5,61 @@
 <body id='userAlertPage'>
 
 
-<div id='top_bannerUsers' class='navigation'>
+<script>
+$(document).ready(function() {
+$('#header2a').waypoint(function() {
+  $( "#top_helper" ).animate({
+    backgroundColor: "#161616",
+    height:"0px"
+  }, 200 );
+
+  $( "#top_banner_users" ).animate({
+    // width: "70%",
+    backgroundColor: "#161616",
+    marginTop: "0px"
+    // fontSize: "3em",
+    // borderWidth: "10px"
+  }, 200 );
+});
+});
+
+
+$(document).ready(function() {
+$('#header1').waypoint(function() {
+  $( "#top_helper" ).animate({
+    backgroundColor: "#161616",
+    height:"15px"
+  }, 200 );
+
+  $( "#top_banner_users" ).animate({
+    // width: "70%",
+    backgroundColor: "#161616",
+    marginTop: "15px"
+    // fontSize: "3em",
+    // borderWidth: "10px"
+  }, 200 );
+});
+});
+
+</script> 
+
+<div id="header">
+<!-- <h1>top</h1> -->
+</div>
+
+<div id="header1">
+<!-- <h1>trigger</h1> -->
+</div>
+
+<div id="header2a">
+<!-- <h1>trigger</h1> -->
+</div>
+<div id="headerLeadershipPic">
+<!-- <h1>trigger</h1> -->
+</div>
+
+<div id='top_helper_users'></div>
+<div id='top_banner_users' class='navigation'>
   <!-- <nav> -->
 
 <section class="webdesigntuts-workshop">
@@ -20,7 +74,7 @@
 <div id='logInBanner'>
 
 <a id='logInIcon' onclick='logInScreen();return false;'>LOG IN</A><p id='line1'>|</p>
-<a id='signUpIcon' href='/users'>SIGN UP</A><p id='line2'>|</p>
+<a id='signUpIcon'>SIGN UP</A><p id='line2'>|</p>
 <a href='#bottom'id='contactUsIcon' onclick='countUp();return false;'>CONTACT US</A>
 
 
@@ -30,41 +84,41 @@
 
 
 <ul>
-				
+        
                 <li><a class='aboutSelect'>ABOUT</a><img id="aboutArrow" src='/assets/downArrow.PNG'/>
-                	<ul id='aboutDropUsers'>
+                  <ul id='aboutDrop'>
                         <li>
                             <a href='/mission'>THE MISSION</a>
-                      	</li>
-                        <li>
-                        	<a href='/chronicle'>THE CHRONICLE</a>
                         </li>
                         <li>
-                        	<a href='/team'>THE TEAM</a>
+                          <a href='/chronicle'>THE CHRONICLE</a>
                         </li>
                         <li>
-                        	<a href='/getinvolved'>GET INVOLVED</a>
+                          <a href='/team'>THE TEAM</a>
+                        </li>
+                        <li>
+                          <a href='/getinvolved'>GET INVOLVED</a>
                         </li>
                      </ul>
-            	</li>
+              </li>
 
                 <li><a href='/events'>EVENTS</a></li>
                 <li><a href='/blogs'>BLOG</a></li>
                 <li><a href='/galleries'>PHOTOS & VIDEOS</a></li>
                 <li><a href='/express_yourselves'>EXPRESS YOURSELF</a></li>
                 <li><a class='communitySelect'>THE COMMUNITY</a><img id="communityArrow" src='/assets/downArrow.PNG'/>
-					<ul id='communityDropUsers'>
+          <ul id='communityDrop'>
                         <li>
                             <a href='/external_events'>EXTERNAL EVENTS</a>
-                      	</li>
-                        <li>
-                        	<a href='/careerboards'>CAREER BOARD</a>
                         </li>
                         <li>
-                        	<a href='/localhotspots'>LOCAL HOTSPOTS</a>
+                          <a href='/careerboards'>CAREER BOARD</a>
                         </li>
                         <li>
-                        	<a href='/freeboards'>FREEBOARD</a>
+                          <a href='/localhotspots'>LOCAL HOTSPOTS</a>
+                        </li>
+                        <li>
+                          <a href='/freeboards'>FREEBOARD</a>
                         </li>
                      </ul>
                 </li>
@@ -74,7 +128,9 @@
 </div>
 
 
+
 <a href="#top" class="back-to-top">Back to Top</a>
+<div id='usersContentAlert' onclick='closeLogin();'>
 <!-- <p id='usersContent' class='animated slideInUp' onclick='closeLogin();return false;'> -->
 <div id='userAlert'>
 <p id='thankyou'>THANK YOU!</p><br><br>
@@ -132,7 +188,7 @@ MOI'M | All Rights Reserved | <a href='#' id='link' onclick='terms();return fals
 </div>
 
 
-
+</div>
 
 
 <!-- </p> -->

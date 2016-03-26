@@ -1245,6 +1245,7 @@ a.back-to-top:hover{
 	height:2900px;
 	background-color:white;
 	z-index:8;
+	padding-top:30px;
 	/*width:1800px;*/
 	/*border-top:solid;
 	border-width:7px;
@@ -1360,6 +1361,22 @@ a.back-to-top:hover{
 	margin-left:0px;
 	width:1260px;
 	height:1150px;
+	background-color:white;
+	z-index:8;
+	/*width:1800px;*/
+	/*border-top:solid;
+	border-width:7px;
+	border-color:#1BAAC6;*/
+}
+
+#usersContentAlert {
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
+	position: absolute;
+	margin-top:0px;
+	margin-left:0px;
+	width:1260px;
+	height:710px;
 	background-color:white;
 	z-index:8;
 	/*width:1800px;*/

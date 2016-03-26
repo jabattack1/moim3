@@ -17,7 +17,7 @@ def create
   		session[:username] = user_item1
       # @user=session[:username]
       # redirect_to '/alertb'
-      redirect_to(controller: 'alertb', id: session[:username].to_param)
+      redirect_to(controller: 'alertb')
       return
     else
     	return
