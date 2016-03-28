@@ -262,7 +262,7 @@ margin-top:150px;
 }
 
 #logoMoimColored{
-	position:fixed;
+	position:absolute;
 	width:220px;
 	/*top:2px;*/
 	left:0px;
@@ -270,7 +270,7 @@ margin-top:150px;
 }
 
 #logoMoimColored1{
-	position:fixed;
+	position:absolute;
 	width:220px;
 	/*top:2px;*/
 	left:0px;
@@ -278,11 +278,594 @@ margin-top:150px;
 }
 
 #logoMoimColored2{
-	position:fixed;
+	position:absolute;
 	width:220px;
 	/*top:2px;*/
 	left:0px;
 	margin-top:1400px;
+}
+#logoMoimColored3{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:700px;
+	margin-top:100px;
+}
+#logoMoimColored4{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	left:150;
+	margin-top:30px;
+}
+#logoMoimColored5{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:700px;
+	margin-top:70px;
+}
+#logoMoimColored6{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:950px;
+	margin-top:120px;
+}
+
+#logoMoimColored7{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:0px;
+	margin-top:230px;
+}
+#logoMoimColored8{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:770px;
+	margin-top:190px;
+}
+#logoMoimColored9{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:50px;
+	margin-top:130px;
+}
+#logoMoimColored10{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:-300px;
+	margin-top:30px;
+}
+#logoMoimColored11{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:-320px;
+	margin-top:220px;
+}
+#logoMoimColored12{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:270px;
+	margin-top:0px;
+}
+#logoMoimColored13{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:400px;
+	margin-top:200px;
+}
+#logoMoimColored14{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:600px;
+	margin-top:40px;
+}
+#logoMoimColored15{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:1000px;
+	margin-top:10px;
+}
+#logoMoimColored16{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:800px;
+	margin-top:200px;
+}
+#logoMoimColored17{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:0px;
+	margin-top:290px;
+}
+#logoMoimColored18{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:230px;
+	margin-top:210px;
+}
+#logoMoimColored19{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:300px;
+	margin-top:60px;
+}
+#logoMoimColored20{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:400px;
+	margin-top:120px;
+}
+#logoMoimColored21{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:-170px;
+	margin-top:180px;
+}
+#logoMoimColored22{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:200px;
+	margin-top:0px;
+}
+#logoMoimColored23{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:-100px;
+	margin-top:60px;
+}
+#logoMoimColored24{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:400px;
+	margin-top:200px;
+}
+#logoMoimColored25{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:450px;
+	margin-top:100px;
+}
+#logoMoimColored26{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:850px;
+	margin-top:100px;
+}
+#logoMoimColored27{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:-170px;
+	margin-top:20px;
+}
+/******/
+#logoMoimColored28{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	left:0px;
+	margin-top:650px;
+}
+
+#logoMoimColored29{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	left:0px;
+	margin-top:1150px;
+}
+
+#logoMoimColored30{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	left:0px;
+	margin-top:1650px;
+}
+#logoMoimColored31{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:700px;
+	margin-top:350px;
+}
+#logoMoimColored32{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	left:150;
+	margin-top:280px;
+}
+#logoMoimColored33{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:700px;
+	margin-top:320px;
+}
+#logoMoimColored34{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:950px;
+	margin-top:370px;
+}
+
+#logoMoimColored35{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:0px;
+	margin-top:480px;
+}
+#logoMoimColored36{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:770px;
+	margin-top:440px;
+}
+#logoMoimColored37{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:50px;
+	margin-top:380px;
+}
+#logoMoimColored38{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:-300px;
+	margin-top:280px;
+}
+#logoMoimColored39{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:-320px;
+	margin-top:470px;
+}
+#logoMoimColored40{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:270px;
+	margin-top:250px;
+}
+#logoMoimColored41{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:400px;
+	margin-top:450px;
+}
+#logoMoimColored42{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:600px;
+	margin-top:290px;
+}
+#logoMoimColored43{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:1000px;
+	margin-top:260px;
+}
+#logoMoimColored44{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:800px;
+	margin-top:450px;
+}
+#logoMoimColored45{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:0px;
+	margin-top:540px;
+}
+#logoMoimColored46{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:230px;
+	margin-top:460px;
+}
+#logoMoimColored47{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:300px;
+	margin-top:320px;
+}
+#logoMoimColored48{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:400px;
+	margin-top:370px;
+}
+#logoMoimColored49{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:-170px;
+	margin-top:430px;
+}
+#logoMoimColored50{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:200px;
+	margin-top:250px;
+}
+#logoMoimColored51{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:-100px;
+	margin-top:310px;
+}
+#logoMoimColored52{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:400px;
+	margin-top:450px;
+}
+#logoMoimColored53{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:450px;
+	margin-top:350px;
+}
+#logoMoimColored54{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:850px;
+	margin-top:350px;
+}
+#logoMoimColored55{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:-170px;
+	margin-top:370px;
+}
+/******/
+#logoMoimColored56{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	left:0px;
+	margin-top:900px;
+}
+
+#logoMoimColored57{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	left:0px;
+	margin-top:1400px;
+}
+
+#logoMoimColored58{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	left:0px;
+	margin-top:1900px;
+}
+#logoMoimColored59{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:700px;
+	margin-top:600px;
+}
+#logoMoimColored60{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	left:150;
+	margin-top:530px;
+}
+#logoMoimColored61{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:700px;
+	margin-top:570px;
+}
+#logoMoimColored62{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:950px;
+	margin-top:620px;
+}
+
+#logoMoimColored63{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:0px;
+	margin-top:730px;
+}
+#logoMoimColored63{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:770px;
+	margin-top:690px;
+}
+#logoMoimColored64{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:50px;
+	margin-top:630px;
+}
+#logoMoimColored65{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:-300px;
+	margin-top:530px;
+}
+#logoMoimColored66{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:-320px;
+	margin-top:620px;
+}
+#logoMoimColored67{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:270px;
+	margin-top:500px;
+}
+#logoMoimColored68{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:400px;
+	margin-top:700px;
+}
+#logoMoimColored69{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:600px;
+	margin-top:540px;
+}
+#logoMoimColored70{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:1000px;
+	margin-top:510px;
+}
+#logoMoimColored71{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:800px;
+	margin-top:700px;
+}
+#logoMoimColored72{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:0px;
+	margin-top:790px;
+}
+#logoMoimColored73{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:230px;
+	margin-top:710px;
+}
+#logoMoimColored74{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:300px;
+	margin-top:570px;
+}
+#logoMoimColored75{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:400px;
+	margin-top:620px;
+}
+#logoMoimColored76{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:-170px;
+	margin-top:680px;
+}
+#logoMoimColored77{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:200px;
+	margin-top:500px;
+}
+#logoMoimColored78{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:-100px;
+	margin-top:560px;
+}
+#logoMoimColored79{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:400px;
+	margin-top:700px;
+}
+#logoMoimColored80{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:450px;
+	margin-top:600px;
+}
+#logoMoimColored81{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-left:850px;
+	margin-top:600px;
+}
+#logoMoimColored82{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	margin-right:-170px;
+	margin-top:720px;
+}
+#logoMoimColored83{
+	position:absolute;
+	width:220px;
+	/*top:2px;*/
+	left:0px;
+	margin-top:900px;
 }
 
 #logoMoim:hover{
@@ -1047,28 +1630,30 @@ a.back-to-top:hover{
 #logInButton{
 	position:absolute;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-	margin-left:10px;
-	margin-top:80px;
+	font-weight:bold;
+	font-size: 12px;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:5px;
+	padding-right:5px;
 	background-color:white;
-	padding-top:0px;
-	padding-bottom:0px;
-	padding-left:4px;
-	padding-right:4px;
-	font-size:12px;
-	font-weight:700;
-	padding:2px 6px;
-	color:black;
-	outline: none;
-	text-align: center;
-    border-style:solid;
-    border-color:black;
-    border-width:1px;
+	border-style:solid;
+    border-color:#1BAAC6;
+    border-width:3px;
+    color:#1BAAC6;
+    margin-left:10px;
+    margin-top:77px;
+    /*display: table;*/
+    outline:0;
+    text-align: center;
 }
 
 
 #logInButton:active{
+	background-color:#66E5FF;
+	border-color:#66E5FF;
 	color:white;
-	background-color: black;
+	outline:0;
 }
 
 #eventsSlideShow{
@@ -1890,6 +2475,17 @@ a.back-to-top:hover{
 }
 
 #emailLink:hover{
+	color:#66E5FF;
+	text-decoration: underline;
+}
+
+.clickHere{
+	color: #1BAAC6; 
+	text-decoration: none;
+	z-index:10;
+}
+
+.clickHere:hover{
 	color:#66E5FF;
 	text-decoration: underline;
 }
