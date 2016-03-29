@@ -257,6 +257,75 @@ $('#sWrap').show( "slide", { direction: "right" }, 300 );
 
 <!-- alert($("div").scrollTop()); -->
 <div id='welcomeContent' class='animated slideInUp' onclick='closeLogin();return false;'>
+<p id='sponsorHead1'>OFFICIAL AND SIGNATURE SPONSORS</p>   
+<div id='sponsorRow1'>
+<img id='logo1' src='/assets/logos/jinro.png'>
+<img id='logo2' src='/assets/logos/asiana-airline.png'>
+<img id='logo3' src='/assets/logos/hite.png'>
+<img id='logo4' src='/assets/logos/take31.png'>
+</div>
+<div id='sponsorRow2'>
+<img id='logo1' src='/assets/logos/jinro.png'>
+<img id='logo2' src='/assets/logos/asiana-airline.png'>
+<img id='logo3' src='/assets/logos/hite.png'>
+<img id='logo4' src='/assets/logos/take31.png'>
+</div>
+<p id='sponsorHead2'>PARTNERS AND COLLABORATORS</p> 
+<div id='sponsorRow3'>
+<img id='logo9' src='/assets/logos/kbs-america.png'>
+<img id='logo10' src='/assets/logos/dramafever.png'>
+<img id='logo11' src='/assets/logos/ALLKPOP.png'>
+</div>
+<div id='sponsorRow4'>
+<img id='logo12' src='/assets/logos/kbs-america.png'>
+<img id='logo13' src='/assets/logos/dramafever.png'>
+<img id='logo14' src='/assets/logos/ALLKPOP.png'>
+</div>
+<div id='sponsorRow5'>
+<img id='logo15' src='/assets/logos/KOLLABORATION_NEW-YORK.png'>
+</div>
+<p id='sponsorHead3'>SPONSORS</p> 
+<div id='sponsorRow6'>
+<img id='logo16' src='/assets/logos/BIZFLOW.png'>
+<img id='logo17' src='/assets/logos/CUP&CUP.png'>
+<img id='logo18' src='/assets/logos/JDDA.png'>
+<img id='logo19' src='/assets/logos/KAKABOKA.png'>
+</div>
+<div id='sponsorRow7'>
+<img id='logo20' src='/assets/logos/mew.png'>
+<img id='logo21' src='/assets/logos/SylvanDental.png'>
+<img id='logo22' src='/assets/logos/YESSTYLE.COM.png'>
+<img id='logo23' src='/assets/logos/Bliss.png'>
+</div>
+<div id='sponsorRow8'>
+<img id='logo24' src='/assets/logos/GAONNURI.png'>
+<img id='logo25' src='/assets/logos/INCOCO.png'>
+<img id='logo26' src='/assets/logos/KRISTALBELLI.png'>
+<img id='logo27' src='/assets/logos/Olympia.png'>
+</div>
+<div id='sponsorRow9'>
+<img id='logo28' src='/assets/logos/LOCK-STOCK-BARREL.png'>
+<img id='logo29' src='/assets/logos/SOJU-HAUS.png'>
+<img id='logo30' src='/assets/logos/INCOCO.png'>
+</div>
+<div id='sponsorRow10'>
+<img id='logo24' src='/assets/logos/GAONNURI.png'>
+<img id='logo25' src='/assets/logos/INCOCO.png'>
+<img id='logo26' src='/assets/logos/KRISTALBELLI.png'>
+<img id='logo27' src='/assets/logos/Olympia.png'>
+</div>
+<div id='sponsorRow11'>
+<img id='logo24' src='/assets/logos/GAONNURI.png'>
+<img id='logo25' src='/assets/logos/INCOCO.png'>
+<img id='logo26' src='/assets/logos/KRISTALBELLI.png'>
+<img id='logo27' src='/assets/logos/Olympia.png'>
+</div>
+<div id='sponsorRow12'>
+<img id='logo24' src='/assets/logos/GAONNURI.png'>
+<img id='logo25' src='/assets/logos/INCOCO.png'>
+<img id='logo26' src='/assets/logos/KRISTALBELLI.png'>
+<img id='logo27' src='/assets/logos/Olympia.png'>
+</div>
 
 <script>
 $(document).ready(function () {
@@ -329,6 +398,25 @@ $(document).ready(function () {
         });
     });
 });
+
+$(document).ready(function () {
+    var $horizontal = $('#logoMoimColoreda');
+
+    $(window).scroll(function () {
+        var s = $(this).scrollTop(),
+            d = $(document).height(),
+            c = $(this).height();
+
+        scrollPercent = (s / (d - c));
+
+        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
+        
+        $horizontal.css({
+            'left': position
+        });
+    });
+});
+
 $(document).ready(function () {
     var $horizontal = $('#logoMoimColored4');
 
@@ -346,6 +434,11 @@ $(document).ready(function () {
         });
     });
 });
+
+
+
+
+
 $(document).ready(function () {
     var $horizontal = $('#logoMoimColored5');
 
@@ -364,6 +457,24 @@ $(document).ready(function () {
     });
 });
 
+
+$(document).ready(function () {
+    var $horizontal = $('#logoMoimColored5a');
+
+    $(window).scroll(function () {
+        var s = $(this).scrollTop(),
+            d = $(document).height(),
+            c = $(this).height();
+
+        scrollPercent = (s / (d - c));
+
+        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
+        
+        $horizontal.css({
+            'right': position
+        });
+    });
+});
 // var scrollBottom = $(window).scrollTop() + $(window).height();
 
 $(document).ready(function () {
@@ -396,10 +507,11 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'left': position
+            'right': position
         });
     });
 });
+
 $(document).ready(function () {
     var $horizontal = $('#logoMoimColored8');
 
@@ -413,10 +525,11 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'right': position
+            'left': position
         });
     });
 });
+
 $(document).ready(function () {
     var $horizontal = $('#logoMoimColored9');
 
@@ -434,6 +547,8 @@ $(document).ready(function () {
         });
     });
 });
+
+
 $(document).ready(function () {
     var $horizontal = $('#logoMoimColored10');
 
@@ -481,7 +596,7 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'left': position
+            'right': position
         });
     });
 });
@@ -498,7 +613,7 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'left': position
+            'right': position
         });
     });
 });
@@ -515,7 +630,7 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'left': position
+            'right': position
         });
     });
 });
@@ -532,10 +647,13 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'left': position
+            'right': position
         });
     });
 });
+
+// ****
+
 $(document).ready(function () {
     var $horizontal = $('#logoMoimColored16');
 
@@ -553,6 +671,7 @@ $(document).ready(function () {
         });
     });
 });
+
 $(document).ready(function () {
     var $horizontal = $('#logoMoimColored17');
 
@@ -566,10 +685,11 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'right': position
+            'left': position
         });
     });
 });
+
 $(document).ready(function () {
     var $horizontal = $('#logoMoimColored18');
 
@@ -583,7 +703,7 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'right': position
+            'left': position
         });
     });
 });
@@ -600,7 +720,7 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'right': position
+            'left': position
         });
     });
 });
@@ -689,6 +809,7 @@ $(document).ready(function () {
         });
     });
 });
+
 $(document).ready(function () {
     var $horizontal = $('#logoMoimColored25');
 
@@ -706,6 +827,7 @@ $(document).ready(function () {
         });
     });
 });
+
 $(document).ready(function () {
     var $horizontal = $('#logoMoimColored26');
 
@@ -736,11 +858,10 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'right': position
+            'left': position
         });
     });
 });
-// ****
 $(document).ready(function () {
     var $horizontal = $('#logoMoimColored28');
 
@@ -754,11 +875,10 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'left': position
+            'right': position
         });
     });
 });
-
 $(document).ready(function () {
     var $horizontal = $('#logoMoimColored29');
 
@@ -772,11 +892,10 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'left': position
+            'right': position
         });
     });
 });
-
 $(document).ready(function () {
     var $horizontal = $('#logoMoimColored30');
 
@@ -790,7 +909,7 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'left': position
+            'right': position
         });
     });
 });
@@ -811,6 +930,7 @@ $(document).ready(function () {
         });
     });
 });
+
 $(document).ready(function () {
     var $horizontal = $('#logoMoimColored32');
 
@@ -828,6 +948,7 @@ $(document).ready(function () {
         });
     });
 });
+
 $(document).ready(function () {
     var $horizontal = $('#logoMoimColored33');
 
@@ -841,12 +962,10 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'right': position
+            'left': position
         });
     });
 });
-
-// var scrollBottom = $(window).scrollTop() + $(window).height();
 
 $(document).ready(function () {
     var $horizontal = $('#logoMoimColored34');
@@ -861,7 +980,7 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'right': position
+            'left': position
         });
     });
 });
@@ -912,7 +1031,7 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'left': position
+            'right': position
         });
     });
 });
@@ -929,7 +1048,7 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'left': position
+            'right': position
         });
     });
 });
@@ -946,10 +1065,28 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'left': position
+            'right': position
         });
     });
 });
+$(document).ready(function () {
+    var $horizontal = $('#logoMoimColored39a');
+
+    $(window).scroll(function () {
+        var s = $(this).scrollTop(),
+            d = $(document).height(),
+            c = $(this).height();
+
+        scrollPercent = (s / (d - c));
+
+        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
+        
+        $horizontal.css({
+            'right': position
+        });
+    });
+});
+
 $(document).ready(function () {
     var $horizontal = $('#logoMoimColored40');
 
@@ -967,6 +1104,7 @@ $(document).ready(function () {
         });
     });
 });
+
 $(document).ready(function () {
     var $horizontal = $('#logoMoimColored41');
 
@@ -984,6 +1122,7 @@ $(document).ready(function () {
         });
     });
 });
+
 $(document).ready(function () {
     var $horizontal = $('#logoMoimColored42');
 
@@ -1019,7 +1158,7 @@ $(document).ready(function () {
     });
 });
 $(document).ready(function () {
-    var $horizontal = $('#logoMoimColored44');
+    var $horizontal = $('#logoMoimColored43a');
 
     $(window).scroll(function () {
         var s = $(this).scrollTop(),
@@ -1032,6 +1171,23 @@ $(document).ready(function () {
         
         $horizontal.css({
             'left': position
+        });
+    });
+});
+$(document).ready(function () {
+    var $horizontal = $('#logoMoimColored44');
+
+    $(window).scroll(function () {
+        var s = $(this).scrollTop(),
+            d = $(document).height(),
+            c = $(this).height();
+
+        scrollPercent = (s / (d - c));
+
+        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
+        
+        $horizontal.css({
+            'right': position
         });
     });
 });
@@ -1087,7 +1243,7 @@ $(document).ready(function () {
     });
 });
 $(document).ready(function () {
-    var $horizontal = $('#logoMoimColored48');
+    var $horizontal = $('#logoMoimColored47a');
 
     $(window).scroll(function () {
         var s = $(this).scrollTop(),
@@ -1103,6 +1259,24 @@ $(document).ready(function () {
         });
     });
 });
+$(document).ready(function () {
+    var $horizontal = $('#logoMoimColored48');
+
+    $(window).scroll(function () {
+        var s = $(this).scrollTop(),
+            d = $(document).height(),
+            c = $(this).height();
+
+        scrollPercent = (s / (d - c));
+
+        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
+        
+        $horizontal.css({
+            'left': position
+        });
+    });
+});
+
 $(document).ready(function () {
     var $horizontal = $('#logoMoimColored49');
 
@@ -1116,10 +1290,11 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'right': position
+            'left': position
         });
     });
 });
+
 $(document).ready(function () {
     var $horizontal = $('#logoMoimColored50');
 
@@ -1133,7 +1308,7 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'right': position
+            'left': position
         });
     });
 });
@@ -1150,7 +1325,24 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'right': position
+            'left': position
+        });
+    });
+});
+$(document).ready(function () {
+    var $horizontal = $('#logoMoimColored51a');
+
+    $(window).scroll(function () {
+        var s = $(this).scrollTop(),
+            d = $(document).height(),
+            c = $(this).height();
+
+        scrollPercent = (s / (d - c));
+
+        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
+        
+        $horizontal.css({
+            'left': position
         });
     });
 });
@@ -1167,7 +1359,7 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'left': position
+            'right': position
         });
     });
 });
@@ -1184,7 +1376,7 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'left': position
+            'right': position
         });
     });
 });
@@ -1201,7 +1393,7 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'left': position
+            'right': position
         });
     });
 });
@@ -1222,7 +1414,40 @@ $(document).ready(function () {
         });
     });
 });
-// ****
+$(document).ready(function () {
+    var $horizontal = $('#logoMoimColored55a');
+
+    $(window).scroll(function () {
+        var s = $(this).scrollTop(),
+            d = $(document).height(),
+            c = $(this).height();
+
+        scrollPercent = (s / (d - c));
+
+        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
+        
+        $horizontal.css({
+            'right': position
+        });
+    });
+});
+$(document).ready(function () {
+    var $horizontal = $('#logoMoimColored55b');
+
+    $(window).scroll(function () {
+        var s = $(this).scrollTop(),
+            d = $(document).height(),
+            c = $(this).height();
+
+        scrollPercent = (s / (d - c));
+
+        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
+        
+        $horizontal.css({
+            'right': position
+        });
+    });
+});
 $(document).ready(function () {
     var $horizontal = $('#logoMoimColored56');
 
@@ -1289,7 +1514,41 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'right': position
+            'left': position
+        });
+    });
+});
+$(document).ready(function () {
+    var $horizontal = $('#logoMoimColored59a');
+
+    $(window).scroll(function () {
+        var s = $(this).scrollTop(),
+            d = $(document).height(),
+            c = $(this).height();
+
+        scrollPercent = (s / (d - c));
+
+        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
+        
+        $horizontal.css({
+            'left': position
+        });
+    });
+});
+$(document).ready(function () {
+    var $horizontal = $('#logoMoimColored59b');
+
+    $(window).scroll(function () {
+        var s = $(this).scrollTop(),
+            d = $(document).height(),
+            c = $(this).height();
+
+        scrollPercent = (s / (d - c));
+
+        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
+        
+        $horizontal.css({
+            'left': position
         });
     });
 });
@@ -1306,7 +1565,7 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'left': position
+            'right': position
         });
     });
 });
@@ -1327,9 +1586,6 @@ $(document).ready(function () {
         });
     });
 });
-
-// var scrollBottom = $(window).scrollTop() + $(window).height();
-
 $(document).ready(function () {
     var $horizontal = $('#logoMoimColored62');
 
@@ -1360,12 +1616,12 @@ $(document).ready(function () {
         var position = (scrollPercent * ($(document).width() - $horizontal.width()));
         
         $horizontal.css({
-            'left': position
+            'right': position
         });
     });
 });
 $(document).ready(function () {
-    var $horizontal = $('#logoMoimColored64');
+    var $horizontal = $('#logoMoimColored63a');
 
     $(window).scroll(function () {
         var s = $(this).scrollTop(),
@@ -1382,143 +1638,7 @@ $(document).ready(function () {
     });
 });
 $(document).ready(function () {
-    var $horizontal = $('#logoMoimColored65');
-
-    $(window).scroll(function () {
-        var s = $(this).scrollTop(),
-            d = $(document).height(),
-            c = $(this).height();
-
-        scrollPercent = (s / (d - c));
-
-        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
-        
-        $horizontal.css({
-            'left': position
-        });
-    });
-});
-$(document).ready(function () {
-    var $horizontal = $('#logoMoimColored66');
-
-    $(window).scroll(function () {
-        var s = $(this).scrollTop(),
-            d = $(document).height(),
-            c = $(this).height();
-
-        scrollPercent = (s / (d - c));
-
-        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
-        
-        $horizontal.css({
-            'left': position
-        });
-    });
-});
-$(document).ready(function () {
-    var $horizontal = $('#logoMoimColored67');
-
-    $(window).scroll(function () {
-        var s = $(this).scrollTop(),
-            d = $(document).height(),
-            c = $(this).height();
-
-        scrollPercent = (s / (d - c));
-
-        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
-        
-        $horizontal.css({
-            'left': position
-        });
-    });
-});
-$(document).ready(function () {
-    var $horizontal = $('#logoMoimColored68');
-
-    $(window).scroll(function () {
-        var s = $(this).scrollTop(),
-            d = $(document).height(),
-            c = $(this).height();
-
-        scrollPercent = (s / (d - c));
-
-        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
-        
-        $horizontal.css({
-            'left': position
-        });
-    });
-});
-$(document).ready(function () {
-    var $horizontal = $('#logoMoimColored69');
-
-    $(window).scroll(function () {
-        var s = $(this).scrollTop(),
-            d = $(document).height(),
-            c = $(this).height();
-
-        scrollPercent = (s / (d - c));
-
-        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
-        
-        $horizontal.css({
-            'left': position
-        });
-    });
-});
-$(document).ready(function () {
-    var $horizontal = $('#logoMoimColored70');
-
-    $(window).scroll(function () {
-        var s = $(this).scrollTop(),
-            d = $(document).height(),
-            c = $(this).height();
-
-        scrollPercent = (s / (d - c));
-
-        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
-        
-        $horizontal.css({
-            'left': position
-        });
-    });
-});
-$(document).ready(function () {
-    var $horizontal = $('#logoMoimColored71');
-
-    $(window).scroll(function () {
-        var s = $(this).scrollTop(),
-            d = $(document).height(),
-            c = $(this).height();
-
-        scrollPercent = (s / (d - c));
-
-        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
-        
-        $horizontal.css({
-            'left': position
-        });
-    });
-});
-$(document).ready(function () {
-    var $horizontal = $('#logoMoimColored72');
-
-    $(window).scroll(function () {
-        var s = $(this).scrollTop(),
-            d = $(document).height(),
-            c = $(this).height();
-
-        scrollPercent = (s / (d - c));
-
-        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
-        
-        $horizontal.css({
-            'left': position
-        });
-    });
-});
-$(document).ready(function () {
-    var $horizontal = $('#logoMoimColored73');
+    var $horizontal = $('#logoMoimColored63b');
 
     $(window).scroll(function () {
         var s = $(this).scrollTop(),
@@ -1534,191 +1654,21 @@ $(document).ready(function () {
         });
     });
 });
-$(document).ready(function () {
-    var $horizontal = $('#logoMoimColored74');
-
-    $(window).scroll(function () {
-        var s = $(this).scrollTop(),
-            d = $(document).height(),
-            c = $(this).height();
-
-        scrollPercent = (s / (d - c));
-
-        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
-        
-        $horizontal.css({
-            'right': position
-        });
-    });
-});
-$(document).ready(function () {
-    var $horizontal = $('#logoMoimColored75');
-
-    $(window).scroll(function () {
-        var s = $(this).scrollTop(),
-            d = $(document).height(),
-            c = $(this).height();
-
-        scrollPercent = (s / (d - c));
-
-        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
-        
-        $horizontal.css({
-            'right': position
-        });
-    });
-});
-$(document).ready(function () {
-    var $horizontal = $('#logoMoimColored76');
-
-    $(window).scroll(function () {
-        var s = $(this).scrollTop(),
-            d = $(document).height(),
-            c = $(this).height();
-
-        scrollPercent = (s / (d - c));
-
-        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
-        
-        $horizontal.css({
-            'right': position
-        });
-    });
-});
-$(document).ready(function () {
-    var $horizontal = $('#logoMoimColored77');
-
-    $(window).scroll(function () {
-        var s = $(this).scrollTop(),
-            d = $(document).height(),
-            c = $(this).height();
-
-        scrollPercent = (s / (d - c));
-
-        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
-        
-        $horizontal.css({
-            'right': position
-        });
-    });
-});
-$(document).ready(function () {
-    var $horizontal = $('#logoMoimColored78');
-
-    $(window).scroll(function () {
-        var s = $(this).scrollTop(),
-            d = $(document).height(),
-            c = $(this).height();
-
-        scrollPercent = (s / (d - c));
-
-        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
-        
-        $horizontal.css({
-            'right': position
-        });
-    });
-});
-$(document).ready(function () {
-    var $horizontal = $('#logoMoimColored79');
-
-    $(window).scroll(function () {
-        var s = $(this).scrollTop(),
-            d = $(document).height(),
-            c = $(this).height();
-
-        scrollPercent = (s / (d - c));
-
-        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
-        
-        $horizontal.css({
-            'right': position
-        });
-    });
-});
-$(document).ready(function () {
-    var $horizontal = $('#logoMoimColored80');
-
-    $(window).scroll(function () {
-        var s = $(this).scrollTop(),
-            d = $(document).height(),
-            c = $(this).height();
-
-        scrollPercent = (s / (d - c));
-
-        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
-        
-        $horizontal.css({
-            'left': position
-        });
-    });
-});
-$(document).ready(function () {
-    var $horizontal = $('#logoMoimColored81');
-
-    $(window).scroll(function () {
-        var s = $(this).scrollTop(),
-            d = $(document).height(),
-            c = $(this).height();
-
-        scrollPercent = (s / (d - c));
-
-        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
-        
-        $horizontal.css({
-            'left': position
-        });
-    });
-});
-$(document).ready(function () {
-    var $horizontal = $('#logoMoimColored82');
-
-    $(window).scroll(function () {
-        var s = $(this).scrollTop(),
-            d = $(document).height(),
-            c = $(this).height();
-
-        scrollPercent = (s / (d - c));
-
-        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
-        
-        $horizontal.css({
-            'left': position
-        });
-    });
-});
-$(document).ready(function () {
-    var $horizontal = $('#logoMoimColored83');
-
-    $(window).scroll(function () {
-        var s = $(this).scrollTop(),
-            d = $(document).height(),
-            c = $(this).height();
-
-        scrollPercent = (s / (d - c));
-
-        var position = (scrollPercent * ($(document).width() - $horizontal.width()));
-        
-        $horizontal.css({
-            'right': position
-        });
-    });
-});
-// ****
-
-
 </script>
 
 <img id='logoMoimColored' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored1' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored2' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored3' src='/assets/moimLogoColored.png'>
+<!-- <img id='logoMoimColoreda' src='/assets/moimLogoColored.png'> -->
 <img id='logoMoimColored4' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored5' src='/assets/moimLogoColored.png'>
+<!-- <img id='logoMoimColored5a' src='/assets/moimLogoColored.png'> -->
 <img id='logoMoimColored6' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored7' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored8' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored9' src='/assets/moimLogoColored.png'>
+
 <img id='logoMoimColored10' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored11' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored12' src='/assets/moimLogoColored.png'>
@@ -1749,30 +1699,41 @@ $(document).ready(function () {
 <img id='logoMoimColored37' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored38' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored39' src='/assets/moimLogoColored.png'>
+<img id='logoMoimColored39a' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored40' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored41' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored42' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored43' src='/assets/moimLogoColored.png'>
+<img id='logoMoimColored43a' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored44' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored45' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored46' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored47' src='/assets/moimLogoColored.png'>
+<img id='logoMoimColored47a' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored48' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored49' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored50' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored51' src='/assets/moimLogoColored.png'>
+<img id='logoMoimColored51a' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored52' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored53' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored54' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored55' src='/assets/moimLogoColored.png'>
+<img id='logoMoimColored55a' src='/assets/moimLogoColored.png'>
+<img id='logoMoimColored55b' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored56' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored57' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored58' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored59' src='/assets/moimLogoColored.png'>
+<img id='logoMoimColored59a' src='/assets/moimLogoColored.png'>
+<img id='logoMoimColored59b' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored60' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored61' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored62' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored63' src='/assets/moimLogoColored.png'>
+<img id='logoMoimColored63a' src='/assets/moimLogoColored.png'>
+<img id='logoMoimColored63b' src='/assets/moimLogoColored.png'>
+<!-- 
 <img id='logoMoimColored64' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored65' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored66' src='/assets/moimLogoColored.png'>
@@ -1792,7 +1753,52 @@ $(document).ready(function () {
 <img id='logoMoimColored80' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored81' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored82' src='/assets/moimLogoColored.png'>
-<img id='logoMoimColored83' src='/assets/moimLogoColored.png'>
+<img id='logoMoimColored83' src='/assets/moimLogoColored.png'> -->
+<div id='bottom' class='involvedBottom'></div>
+<div id='contactUsInvolved' class='animated slideInLeft' onclick='closeLogin();return false;'>
+
+<div id='contactContent'>
+
+<h2 id='contactHeading'>Contact Us</h2>
+  <p id='contactLines1'>
+  For questions or concerns, email us at <a href="mailto:info@moimnewyork.com" id='emailLink'>info@moimnewyork.com</a>.
+  </p>
+  <p id='contactLines2'>
+  For sponsorship opportunities, email us at <a href="mailto:sponsorship@moimnewyork.com" id='emailLink'>sponsorship@moimnewyork.com</a>.
+  </p>
+  <p id='contactLines3'>
+  For event ideas, email us at <a href="mailto:event@moimnewyork.com" id='emailLink'>event@moimnewyork.com</a>.
+  </p>
+
+
+</div>
+
+
+
+<div id='contactBottom'>
+<p id='bottomContent'>Copyright 
+
+<script type="text/javascript">
+var theDate=new Date()
+document.write(theDate.getFullYear())
+</script> 
+
+MOI'M | All Rights Reserved | <a href='#' id='link' onclick='terms();return false;'>Terms of Use</a> | <a href='#' id='link' onclick='privacy();return false;'>Privacy Policy</a>
+<div class='zoom_img'>
+  <a href='https://www.facebook.com/moimnewyork' target='_blank'>
+  <img src='/assets/facebook_icon.png' class='img-zoom' id='fb_small'></a>
+</div>
+<div class='zoom_img'>
+  <a href='https://www.instagram.com/moimnewyork' target='_blank'>
+  <img src='/assets/instagram_icon.png' class='img-zoom' id='insta_small'></a>
+</div>
+<div class='zoom_img'>
+  <a href='https://www.youtube.com/moimmedia' target='_blank'>
+  <img src='/assets/youtube_icon.png' class='img-zoom' id='youtube_small'></a>
+</div>
+</p>
+</div>
+</div>
 </div>
 <div id='welcomeBottom1' onclick='closeLogin();return false;'>
 
