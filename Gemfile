@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'devise'
 
-# gem 'valid_email'
+gem 'valid_email'
 
 gem 'waypoints-rails'
 
