@@ -101,6 +101,18 @@ $(".aboutSelect").mouseover(function(){
 <div id="header2">
 <!-- <h1>trigger</h1> -->
 </div>
+<div id="sponsorTrigger1">
+</div>
+<div id="sponsorTrigger2">
+</div>
+<div id="sponsorTrigger3">
+</div>
+<div id="sponsorTrigger4">
+</div>
+<div id="sponsorTrigger5">
+</div>
+<div id="sponsorTrigger6">
+</div>
 <div id='top_helper'></div>
 <div id='top_banner' class='navigation'>
   <!-- <nav> -->
@@ -201,6 +213,21 @@ $('#header1').waypoint(function() {
 $(document).ready(function() {
 $('#header').waypoint(function() {
    $('#welcomeBottom1').fadeIn( "slow" );
+    $('#sponsorHead1').hide();
+    $('#sponsorHead2').hide();
+    $('#sponsorHead3').hide();
+    $('#sponsorRow1').hide();
+    $('#sponsorRow2').hide();
+    $('#sponsorRow3').hide();
+    $('#sponsorRow4').hide();
+    $('#sponsorRow5').hide();
+    $('#sponsorRow6').hide();
+    $('#sponsorRow7').hide();
+    $('#sponsorRow8').hide();
+    $('#sponsorRow9').hide();
+    $('#sponsorRow10').hide();
+    $('#sponsorRow11').hide();
+    $('#sponsorRow12').hide();
 });
 });
 
@@ -253,79 +280,115 @@ $('#sWrap').show( "slide", { direction: "right" }, 300 );
     // $(this).fadeOut(1000, function() {
     //     $(this).css("background-color", "#FF0000").fadeIn(1000);
 
+var sponsorHead1="<p id='sponsorHead1'>OFFICIAL AND SIGNATURE SPONSORS</p>"
+var sponsorHead2="<p id='sponsorHead2'>PARTNERS AND COLLABORATORS</p>"
+var sponsorHead3="<p id='sponsorHead3'>SPONSORS</p>"
+var sponsorRow1="<div id='sponsorRow1'><img id='logo1' src='/assets/logos/jinro.png'><img id='logo2' src='/assets/logos/asiana-airline.png'><img id='logo3' src='/assets/logos/hite.png'><img id='logo4' src='/assets/logos/take31.png'></div>"
+var sponsorRow2="<div id='sponsorRow2'><img id='logo1' src='/assets/logos/jinro.png'><img id='logo2' src='/assets/logos/asiana-airline.png'><img id='logo3' src='/assets/logos/hite.png'><img id='logo4' src='/assets/logos/take31.png'></div>"
+var sponsorRow3="<div id='sponsorRow3'><img id='logo9' src='/assets/logos/kbs-america.png'><img id='logo10' src='/assets/logos/dramafever.png'><img id='logo11' src='/assets/logos/ALLKPOP.png'></div>"
+var sponsorRow4="<div id='sponsorRow4'><img id='logo12' src='/assets/logos/kbs-america.png'><img id='logo13' src='/assets/logos/dramafever.png'><img id='logo14' src='/assets/logos/ALLKPOP.png'></div>"
+var sponsorRow5="<div id='sponsorRow5'><img id='logo15' src='/assets/logos/KOLLABORATION_NEW-YORK.png'></div>"
+var sponsorRow6="<div id='sponsorRow6'><img id='logo16' src='/assets/logos/BIZFLOW.png'><img id='logo17' src='/assets/logos/CUP&CUP.png'><img id='logo18' src='/assets/logos/JDDA.png'><img id='logo19' src='/assets/logos/KAKABOKA.png'></div>"
+var sponsorRow7="<div id='sponsorRow7'><img id='logo20' src='/assets/logos/mew.png'><img id='logo21' src='/assets/logos/SylvanDental.png'><img id='logo22' src='/assets/logos/YESSTYLE.COM.png'><img id='logo23' src='/assets/logos/Bliss.png'></div>"
+var sponsorRow8="<div id='sponsorRow8'><img id='logo24' src='/assets/logos/GAONNURI.png'><img id='logo25' src='/assets/logos/INCOCO.png'><img id='logo26' src='/assets/logos/KRISTALBELLI.png'><img id='logo27' src='/assets/logos/Olympia.png'></div>"
+var sponsorRow9="<div id='sponsorRow9'><img id='logo28' src='/assets/logos/LOCK-STOCK-BARREL.png'><img id='logo29' src='/assets/logos/SOJU-HAUS.png'><img id='logo30' src='/assets/logos/INCOCO.png'></div>"
+var sponsorRow10="<div id='sponsorRow10'><img id='logo24' src='/assets/logos/GAONNURI.png'><img id='logo25' src='/assets/logos/INCOCO.png'><img id='logo26' src='/assets/logos/KRISTALBELLI.png'><img id='logo27' src='/assets/logos/Olympia.png'></div>"
+var sponsorRow11="<div id='sponsorRow11'><img id='logo24' src='/assets/logos/GAONNURI.png'><img id='logo25' src='/assets/logos/INCOCO.png'><img id='logo26' src='/assets/logos/KRISTALBELLI.png'><img id='logo27' src='/assets/logos/Olympia.png'></div>"
+var sponsorRow12="<div id='sponsorRow12'><img id='logo24' src='/assets/logos/GAONNURI.png'><img id='logo25' src='/assets/logos/INCOCO.png'><img id='logo26' src='/assets/logos/KRISTALBELLI.png'><img id='logo27' src='/assets/logos/Olympia.png'></div>"
+
+$(window).load(function() {
+    $('#welcomeContent').append(sponsorHead1);
+    $('#welcomeContent').append(sponsorHead2);
+    $('#welcomeContent').append(sponsorHead3);
+    $('#welcomeContent').append(sponsorRow1);
+    $('#welcomeContent').append(sponsorRow2);
+    $('#welcomeContent').append(sponsorRow3);
+    $('#welcomeContent').append(sponsorRow4);
+    $('#welcomeContent').append(sponsorRow5);
+    $('#welcomeContent').append(sponsorRow6);
+    $('#welcomeContent').append(sponsorRow7);
+    $('#welcomeContent').append(sponsorRow8);
+    $('#welcomeContent').append(sponsorRow9);
+    $('#welcomeContent').append(sponsorRow10);
+    $('#welcomeContent').append(sponsorRow11);
+    $('#welcomeContent').append(sponsorRow12);
+    $('#sponsorHead1').hide();
+    $('#sponsorHead2').hide();
+    $('#sponsorHead3').hide();
+    $('#sponsorRow1').hide();
+    $('#sponsorRow2').hide();
+    $('#sponsorRow3').hide();
+    $('#sponsorRow4').hide();
+    $('#sponsorRow5').hide();
+    $('#sponsorRow6').hide();
+    $('#sponsorRow7').hide();
+    $('#sponsorRow8').hide();
+    $('#sponsorRow9').hide();
+    $('#sponsorRow10').hide();
+    $('#sponsorRow11').hide();
+    $('#sponsorRow12').hide();
+});
+
+$(document).ready(function() {
+$('#sponsorTrigger1').waypoint(function() {
+$('#sponsorHead1').fadeIn( "slow" );
+setTimeout(function() {
+$('#sponsorRow1').show( "slide", { direction: "right" }, 1000 );
+$('#sponsorRow2').show( "slide", { direction: "left" }, 1000 );
+}, 100);
+});
+});
+
+$(document).ready(function() {
+$('#sponsorTrigger2').waypoint(function() {
+$('#sponsorHead2').fadeIn( "slow" );
+setTimeout(function() {
+$('#sponsorRow3').show( "slide", { direction: "right" }, 1000 );
+$('#sponsorRow4').show( "slide", { direction: "left" }, 1000 );
+$('#sponsorRow5').show( "slide", { direction: "right" }, 1000 );
+}, 100);
+});
+});
+
+$(document).ready(function() {
+$('#sponsorTrigger3').waypoint(function() {
+$('#sponsorHead3').fadeIn( "slow" );
+setTimeout(function() {
+$('#sponsorRow6').show( "slide", { direction: "right" }, 1000 );
+$('#sponsorRow7').show( "slide", { direction: "left" }, 1000 );
+}, 100);
+});
+});
+$(document).ready(function() {
+$('#sponsorTrigger4').waypoint(function() {
+setTimeout(function() {
+$('#sponsorRow8').show( "slide", { direction: "right" }, 1000 );
+$('#sponsorRow9').show( "slide", { direction: "left" }, 1000 );
+}, 100);
+});
+});
+$(document).ready(function() {
+$('#sponsorTrigger5').waypoint(function() {
+setTimeout(function() {
+$('#sponsorRow10').show( "slide", { direction: "right" }, 1000 );
+$('#sponsorRow11').show( "slide", { direction: "left" }, 1000 );
+$('#sponsorRow12').show( "slide", { direction: "right" }, 1000 );
+}, 100);
+});
+});
+// $(document).ready(function() {
+// $('#sponsorTrigger6').waypoint(function() {
+// setTimeout(function() {
+// $('#sponsorRow12').show( "slide", { direction: "right" }, 1000 );
+// }, 100);
+// });
+// });
+
 </script>
 
 <!-- alert($("div").scrollTop()); -->
 <div id='welcomeContent' class='animated slideInUp' onclick='closeLogin();return false;'>
-<p id='sponsorHead1'>OFFICIAL AND SIGNATURE SPONSORS</p>   
-<div id='sponsorRow1'>
-<img id='logo1' src='/assets/logos/jinro.png'>
-<img id='logo2' src='/assets/logos/asiana-airline.png'>
-<img id='logo3' src='/assets/logos/hite.png'>
-<img id='logo4' src='/assets/logos/take31.png'>
-</div>
-<div id='sponsorRow2'>
-<img id='logo1' src='/assets/logos/jinro.png'>
-<img id='logo2' src='/assets/logos/asiana-airline.png'>
-<img id='logo3' src='/assets/logos/hite.png'>
-<img id='logo4' src='/assets/logos/take31.png'>
-</div>
-<p id='sponsorHead2'>PARTNERS AND COLLABORATORS</p> 
-<div id='sponsorRow3'>
-<img id='logo9' src='/assets/logos/kbs-america.png'>
-<img id='logo10' src='/assets/logos/dramafever.png'>
-<img id='logo11' src='/assets/logos/ALLKPOP.png'>
-</div>
-<div id='sponsorRow4'>
-<img id='logo12' src='/assets/logos/kbs-america.png'>
-<img id='logo13' src='/assets/logos/dramafever.png'>
-<img id='logo14' src='/assets/logos/ALLKPOP.png'>
-</div>
-<div id='sponsorRow5'>
-<img id='logo15' src='/assets/logos/KOLLABORATION_NEW-YORK.png'>
-</div>
-<p id='sponsorHead3'>SPONSORS</p> 
-<div id='sponsorRow6'>
-<img id='logo16' src='/assets/logos/BIZFLOW.png'>
-<img id='logo17' src='/assets/logos/CUP&CUP.png'>
-<img id='logo18' src='/assets/logos/JDDA.png'>
-<img id='logo19' src='/assets/logos/KAKABOKA.png'>
-</div>
-<div id='sponsorRow7'>
-<img id='logo20' src='/assets/logos/mew.png'>
-<img id='logo21' src='/assets/logos/SylvanDental.png'>
-<img id='logo22' src='/assets/logos/YESSTYLE.COM.png'>
-<img id='logo23' src='/assets/logos/Bliss.png'>
-</div>
-<div id='sponsorRow8'>
-<img id='logo24' src='/assets/logos/GAONNURI.png'>
-<img id='logo25' src='/assets/logos/INCOCO.png'>
-<img id='logo26' src='/assets/logos/KRISTALBELLI.png'>
-<img id='logo27' src='/assets/logos/Olympia.png'>
-</div>
-<div id='sponsorRow9'>
-<img id='logo28' src='/assets/logos/LOCK-STOCK-BARREL.png'>
-<img id='logo29' src='/assets/logos/SOJU-HAUS.png'>
-<img id='logo30' src='/assets/logos/INCOCO.png'>
-</div>
-<div id='sponsorRow10'>
-<img id='logo24' src='/assets/logos/GAONNURI.png'>
-<img id='logo25' src='/assets/logos/INCOCO.png'>
-<img id='logo26' src='/assets/logos/KRISTALBELLI.png'>
-<img id='logo27' src='/assets/logos/Olympia.png'>
-</div>
-<div id='sponsorRow11'>
-<img id='logo24' src='/assets/logos/GAONNURI.png'>
-<img id='logo25' src='/assets/logos/INCOCO.png'>
-<img id='logo26' src='/assets/logos/KRISTALBELLI.png'>
-<img id='logo27' src='/assets/logos/Olympia.png'>
-</div>
-<div id='sponsorRow12'>
-<img id='logo24' src='/assets/logos/GAONNURI.png'>
-<img id='logo25' src='/assets/logos/INCOCO.png'>
-<img id='logo26' src='/assets/logos/KRISTALBELLI.png'>
-<img id='logo27' src='/assets/logos/Olympia.png'>
-</div>
+
 
 <script>
 $(document).ready(function () {
@@ -1655,15 +1718,15 @@ $(document).ready(function () {
     });
 });
 </script>
-
-<img id='logoMoimColored' src='/assets/moimLogoColored.png'>
+<!--  -->
+<!-- <img id='logoMoimColored' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored1' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored2' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored3' src='/assets/moimLogoColored.png'>
-<!-- <img id='logoMoimColoreda' src='/assets/moimLogoColored.png'> -->
+
 <img id='logoMoimColored4' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored5' src='/assets/moimLogoColored.png'>
-<!-- <img id='logoMoimColored5a' src='/assets/moimLogoColored.png'> -->
+
 <img id='logoMoimColored6' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored7' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored8' src='/assets/moimLogoColored.png'>
@@ -1731,8 +1794,8 @@ $(document).ready(function () {
 <img id='logoMoimColored61' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored62' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored63' src='/assets/moimLogoColored.png'>
-<img id='logoMoimColored63a' src='/assets/moimLogoColored.png'>
-<img id='logoMoimColored63b' src='/assets/moimLogoColored.png'>
+<img id='logoMoimColored63a' src='/assets/moimLogoColored.png'> -->
+<!-- <img id='logoMoimColored63b' src='/assets/moimLogoColored.png'> -->
 <!-- 
 <img id='logoMoimColored64' src='/assets/moimLogoColored.png'>
 <img id='logoMoimColored65' src='/assets/moimLogoColored.png'>

@@ -2,6 +2,56 @@ html {
   height: 100%;
 }
 
+#sponsorTrigger1 {
+	margin-top:200px;
+	height:1px;
+	width:auto;
+	position:absolute;
+	background:white;
+	z-index: 100;
+}
+#sponsorTrigger2 {
+	margin-top:600px;
+	height:1px;
+	width:auto;
+	position:absolute;
+	background:white;
+	z-index: 100;
+}
+#sponsorTrigger3 {
+	margin-top:1200px;
+	height:1px;
+	width:auto;
+	position:absolute;
+	background:white;
+	z-index: 100;
+}
+#sponsorTrigger4 {
+	margin-top:1600px;
+	height:1px;
+	width:auto;
+	position:absolute;
+	background:white;
+	z-index: 100;
+}
+#sponsorTrigger5 {
+	margin-top:2000px;
+	height:1px;
+	width:auto;
+	position:absolute;
+	background:white;
+	z-index: 100;
+}
+#sponsorTrigger6 {
+	margin-top:2100px;
+	height:1px;
+	width:auto;
+	position:absolute;
+	background:white;
+	z-index: 100;
+}
+
+
 #header {
 	margin-top:1px;
 	height:1px;
@@ -258,53 +308,78 @@ margin-top:150px;
 #sponsorRow1{
 	position:absolute;
 	margin-top:100px;
+	width:1260px;
+	/*background-color:white;*/
+	height:100px;
 }
 
 #sponsorRow2{
 	position:absolute;
 	margin-top:275px;
+	width:1260px;
+	height:100px;
 }
 
 #sponsorRow3{
 	position:absolute;
 	margin-top:535px;
+	width:1260px;
+	height:100px;
 }
 #sponsorRow4{
 	position:absolute;
 	margin-top:710px;
+	width:1260px;
+	height:100px;
 }
 #sponsorRow5{
 	position:absolute;
 	margin-top:885px;
+	width:1260px;
+	height:100px;
 }
 #sponsorRow6{
 	position:absolute;
 	margin-top:1115px;
+	width:1260px;
+	height:100px;
 }
 
 #sponsorRow7{
 	position:absolute;
 	margin-top:1290px;
+	width:1260px;
+	height:100px;
 }
 #sponsorRow8{
 	position:absolute;
 	margin-top:1465px;
+	width:1260px;
+	height:100px;
 }
 #sponsorRow9{
 	position:absolute;
 	margin-top:1640px;
+	width:1260px;
+	height:100px;
 }
 #sponsorRow10{
 	position:absolute;
 	margin-top:1815px;
+	width:1260px;
+	height:100px;
 }
 #sponsorRow11{
 	position:absolute;
 	margin-top:1990px;
+	width:1260px;
+	height:100px;
 }
 #sponsorRow12{
 	position:absolute;
 	margin-top:2165px;
+	width:1260px;
+	height:100px;
 }
 /***175*/
 
