@@ -29,12 +29,20 @@ $(window).load(function() {
 $(document).ready(function() {
 $('#header1').waypoint(function() {
    $('#welcomeBottom1').fadeOut();
+     $( "#chronicleContent" ).animate({
+    backgroundColor: "white",
+    // height:"15px"
+  }, 1000 );
 });
 });
 
 $(document).ready(function() {
 $('#header').waypoint(function() {
    $('#welcomeBottom1').fadeIn( "slow" );
+  //       $( "#chronicleContent" ).animate({
+  //   backgroundColor: "#161616",
+  //   // height:"15px"
+  // }, 200 );
 });
 });
 
@@ -288,7 +296,7 @@ $(".aboutSelect").mouseover(function(){
 </div>
 
 
-<img id='whiteGuyPic'  class='animated zoomIn' src='/assets/whiteguy.jpg' onclick='closeLogin();return false;'>
+<img id='whiteGuyPic'  class='animated zoomIn' src='/assets/city1.jpg' onclick='closeLogin();return false;'>
 
 <!-- <img id='chronicleLine'  class='animated slideInLeft' src = "/assets/line.png"> -->
 
