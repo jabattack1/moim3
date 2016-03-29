@@ -2,11 +2,11 @@ source 'https://rubygems.org'
 
 gem 'devise'
 
-gem 'valid_email'
+# gem 'valid_email'
 
 gem 'waypoints-rails'
 
-gem 'jquery-waypoints-rails','>= 2.0.5'
+gem 'jquery-waypoints-rails', '~> 2.0', '>= 2.0.5'
 
 gem 'rubylight'
 
