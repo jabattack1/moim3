@@ -3,12 +3,19 @@
 	<title></title>
 
 </head>
-<body>
+<body id='galleriesPage'>
 
 <script type="text/javascript" charset="utf-8">
+
+
 $(document).ready(function() {
-    $('#gallery').finalTilesGallery();
-});
+            $('#gallery').finalTilesGallery({onComplete: function(){
+                // console.log("completed");
+                var total_height = parseInt($('#gallery').height()) + 280;
+                // console.log(total_height);
+                $('#galleriesContent').height(total_height);
+            }});
+        });
 
 
 $(document).ready(function() {
@@ -25,14 +32,14 @@ $('#header').waypoint(function() {
 
 $(document).ready(function() {
 $('#header2').waypoint(function() {
-  $( "#top_helper" ).animate({
-    backgroundColor: "#161616",
+  $( "#top_helper_users" ).animate({
+    // backgroundColor: "#161616",
     height:"0px"
   }, 200 );
 
-  $( "#top_banner" ).animate({
+  $( "#top_banner_users" ).animate({
     // width: "70%",
-    backgroundColor: "#161616",
+    // backgroundColor: "#161616",
     marginTop: "0px"
     // fontSize: "3em",
     // borderWidth: "10px"
@@ -42,13 +49,13 @@ $('#header2').waypoint(function() {
 
 $(document).ready(function() {
 $('#header1').waypoint(function() {
-  $( "#top_helper" ).animate({
-    backgroundColor: "rgba(0,0,0,0.1)",
+  $( "#top_helper_users" ).animate({
+    // backgroundColor: "rgba(0,0,0,0.1)",
     height:"15px"
   }, 200 );
-  $( "#top_banner" ).animate({
+  $( "#top_banner_users" ).animate({
     // width: "70%",
-    backgroundColor: "rgba(0,0,0,0.1)",
+    // backgroundColor: "rgba(0,0,0,0.1)",
     marginTop: "15px"
     // fontSize: "3em",
     // borderWidth: "10px"
@@ -84,8 +91,8 @@ $(window).load(function() {
 <div id="header2">
 <!-- <h1>trigger</h1> -->
 </div>
-<div id='top_helper'></div>
-<div id='top_banner' class='navigation animated slideInRight'>
+<div id='top_helper_users'></div>
+<div id='top_banner_users' class='navigation'>
   <!-- <nav> -->
 
 <section class="webdesigntuts-workshop">
@@ -153,10 +160,10 @@ $(window).load(function() {
                 
 </div>
 
-<img id='whiteGuyPic' class='animated slideInLeft' src = '/assets/whiteguy.jpg' onclick='closeLogin();return false;'>
-<h2 id='chronicleBlend' class='animated slideInLeft'>PHOTOS & VIDEOS</h2>
+<!-- <img id='whiteGuyPic' class='animated slideInLeft' src = '/assets/whiteguy.jpg' onclick='closeLogin();return false;'>
+<h2 id='galleryBlend' class='animated slideInLeft'>PHOTOS & VIDEOS</h2> -->
 <a href="#top" class="back-to-top">Back to Top</a>
-<div id='galleriesContent' class='animated slideInUp' onclick='closeLogin();return false;'>
+<div id='galleriesContent' class='animated slideInUp flex-container' onclick='closeLogin();return false;'>
 
 
 <div id="gallery" class='galleryCSS'>

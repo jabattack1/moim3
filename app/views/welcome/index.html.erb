@@ -216,6 +216,7 @@ $('#header').waypoint(function() {
     $('#sponsorHead1').hide();
     $('#sponsorHead2').hide();
     $('#sponsorHead3').hide();
+    $('#sponsorHead4').hide();
     $('#sponsorRow1').hide();
     $('#sponsorRow2').hide();
     $('#sponsorRow3').hide();
@@ -283,8 +284,9 @@ $('#sWrap').show( "slide", { direction: "right" }, 300 );
 var sponsorHead1="<p id='sponsorHead1'>OFFICIAL AND SIGNATURE SPONSORS</p>"
 var sponsorHead2="<p id='sponsorHead2'>PARTNERS AND COLLABORATORS</p>"
 var sponsorHead3="<p id='sponsorHead3'>SPONSORS</p>"
+var sponsorHead4="<p id='sponsorHead4'>PARTICIPATING ORGANIZATIONS</p>"
 var sponsorRow1="<div id='sponsorRow1'><img id='logo1' src='/assets/logos/jinro.png'><img id='logo2' src='/assets/logos/asiana-airline.png'><img id='logo3' src='/assets/logos/hite.png'><img id='logo4' src='/assets/logos/take31.png'></div>"
-var sponsorRow2="<div id='sponsorRow2'><img id='logo1' src='/assets/logos/jinro.png'><img id='logo2' src='/assets/logos/asiana-airline.png'><img id='logo3' src='/assets/logos/hite.png'><img id='logo4' src='/assets/logos/take31.png'></div>"
+var sponsorRow2="<div id='sponsorRow2'><img id='logo5' src='/assets/logos/harman.png'><img id='logo2' src='/assets/logos/asiana-airline.png'><img id='logo3' src='/assets/logos/hite.png'><img id='logo4' src='/assets/logos/take31.png'></div>"
 var sponsorRow3="<div id='sponsorRow3'><img id='logo9' src='/assets/logos/kbs-america.png'><img id='logo10' src='/assets/logos/dramafever.png'><img id='logo11' src='/assets/logos/ALLKPOP.png'></div>"
 var sponsorRow4="<div id='sponsorRow4'><img id='logo12' src='/assets/logos/kbs-america.png'><img id='logo13' src='/assets/logos/dramafever.png'><img id='logo14' src='/assets/logos/ALLKPOP.png'></div>"
 var sponsorRow5="<div id='sponsorRow5'><img id='logo15' src='/assets/logos/KOLLABORATION_NEW-YORK.png'></div>"
@@ -300,6 +302,7 @@ $(window).load(function() {
     $('#welcomeContent').append(sponsorHead1);
     $('#welcomeContent').append(sponsorHead2);
     $('#welcomeContent').append(sponsorHead3);
+    $('#welcomeContent').append(sponsorHead4);
     $('#welcomeContent').append(sponsorRow1);
     $('#welcomeContent').append(sponsorRow2);
     $('#welcomeContent').append(sponsorRow3);
@@ -315,6 +318,7 @@ $(window).load(function() {
     $('#sponsorHead1').hide();
     $('#sponsorHead2').hide();
     $('#sponsorHead3').hide();
+    $('#sponsorHead4').hide();
     $('#sponsorRow1').hide();
     $('#sponsorRow2').hide();
     $('#sponsorRow3').hide();
@@ -376,13 +380,14 @@ $('#sponsorRow12').show( "slide", { direction: "right" }, 1000 );
 }, 100);
 });
 });
-// $(document).ready(function() {
-// $('#sponsorTrigger6').waypoint(function() {
+$(document).ready(function() {
+$('#sponsorTrigger6').waypoint(function() {
+$('#sponsorHead4').fadeIn( "slow" );
 // setTimeout(function() {
 // $('#sponsorRow12').show( "slide", { direction: "right" }, 1000 );
 // }, 100);
-// });
-// });
+});
+});
 
 </script>
 

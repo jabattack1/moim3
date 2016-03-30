@@ -12,37 +12,39 @@
 
 <script>
 
-var head="<h2 id='chronicleBlend'>THE CHRONICLE</h2>"
-var missionLine ="<img id='missionLine' src = '/assets/line.png'>"
 
-$(window).load(function() {
-  $('body').append( head );
-  $('body').append( missionLine );
-  $('#chronicleBlend').hide();
-  $('#missionLine').hide();
-  setTimeout(function() {
-  $('#chronicleBlend').fadeIn( "slow" );
-  $('#missionLine').fadeIn( "slow" );
-}, 300);
-});
+// $(window).load(function() {
+//   $('body').append( head );
+//   $('body').append( missionLine );
+//   $('#chronicleBlend').hide();
+//   $('#missionLine').hide();
+//   setTimeout(function() {
+//   $('#chronicleBlend').fadeIn( "slow" );
+//   $('#missionLine').fadeIn( "slow" );
+// }, 300);
+// });
 
 $(document).ready(function() {
 $('#header1').waypoint(function() {
    $('#welcomeBottom1').fadeOut();
+   $("#chronicleBlend").fadeOut();
      $( "#chronicleContent" ).animate({
-    backgroundColor: "white",
+    backgroundColor: "white"
     // height:"15px"
-  }, 1000 );
+  }, 500 );
+
 });
 });
 
 $(document).ready(function() {
 $('#header').waypoint(function() {
    $('#welcomeBottom1').fadeIn( "slow" );
-  //       $( "#chronicleContent" ).animate({
-  //   backgroundColor: "#161616",
-  //   // height:"15px"
-  // }, 200 );
+   $("#chronicleBlend").fadeIn( "slow" );
+        $( "#chronicleContent" ).animate({
+    backgroundColor: "#161616",
+    // height:"15px"
+  }, 200 );
+
 });
 });
 
@@ -302,6 +304,9 @@ $(".aboutSelect").mouseover(function(){
 
 <a href="#top" class="back-to-top">Back to Top</a>
 <div id='chronicleContent' class='animated slideInUp' onclick='closeLogin();return false;'>
+
+<h2 id='chronicleBlend1'>THE CHRONICLE</h2>"
+<!-- <img id='missionLine1' src = '/assets/line.png'>" -->
 
 <script>
 var chronicle ="<div id='chronicleContent1'></div>"

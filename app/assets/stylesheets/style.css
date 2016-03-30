@@ -43,7 +43,7 @@ html {
 	z-index: 100;
 }
 #sponsorTrigger6 {
-	margin-top:2100px;
+	margin-top:2500px;
 	height:1px;
 	width:auto;
 	position:absolute;
@@ -189,10 +189,10 @@ margin-top:150px;
 	/*min-width:1260px ;*/
   	/*height: 100%;*/
   	width:1260px;
-  	height: 3200px;
+  	height: 4000px;
   	margin: 0 auto;
   position:relative;
-  overflow-x:hidden;
+  /*overflow-x:hidden;*/
 }
 
 #chroniclePage{
@@ -304,6 +304,18 @@ margin-top:150px;
     color:white;
     z-index:9;
 }
+#sponsorHead4{
+	position:absolute;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+    font-size: 13px;
+    width:1000px;
+    /*text-align:center;*/
+    margin-top:2375px;
+    margin-left:50px;
+    color:white;
+    z-index:9;
+}
+
 
 #sponsorRow1{
 	position:absolute;
@@ -405,6 +417,12 @@ margin-top:150px;
 	position:absolute;
 	z-index: 9;
 	margin-left:925px;
+	/*margin-top:70px;*/
+}
+#logo5{
+	position:absolute;
+	z-index: 9;
+	margin-left:40px;
 	/*margin-top:70px;*/
 }
 
@@ -2060,7 +2078,7 @@ a.back-to-top:hover{
 	margin-top:623px;
 	margin-left:0px;
 	width:1260px;
-	height:2600px;
+	height:3400px;
 	background-color:#161616;
 	z-index:9;
 	/*width:1800px;*/
@@ -2108,7 +2126,7 @@ a.back-to-top:hover{
 	margin-left:0px;
 	width:1260px;
 	height:2900px;
-	background-color:white;
+	background-color:#161616;
 	z-index:8;
 	padding-top:30px;
 	/*width:1800px;*/
@@ -2140,7 +2158,7 @@ a.back-to-top:hover{
 #galleriesContent {
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	position: absolute;
-	margin-top:623px;
+	margin-top:78px;
 	margin-left:0px;
 	width:1260px;
 	height:1900px;
@@ -2166,9 +2184,9 @@ a.back-to-top:hover{
 	/*position:absolute;*/
 /*	margin-left:495px;
 	margin-top:320px;*/
-	text-shadow: 1px 1px 1px #000;
-	position:fixed;
-	top: 40%;
+	/*text-shadow: 1px 1px 1px #000;*/
+	position:absolute;
+	margin-top:-25px;
 	width:1260px;
 	display: block;
 	text-align:center;
@@ -2179,7 +2197,7 @@ a.back-to-top:hover{
 	position:fixed;
 	margin-left:605px;
 	margin-top:335px;
-	-webkit-filter: invert(100%);
+	/*-webkit-filter: invert(100%);*/
     /*filter: invert(100%);*/
     width:50px;
     height:3px;
@@ -4392,6 +4410,11 @@ z-index: 100;
   /*overflow-x: hidden;*/
 }
 
+#galleriesPage{
+	background-color:#161616;
+	width:1260px;
+}
+
 
 
 
@@ -4485,8 +4508,34 @@ z-index: 100;
     height:4px;
 	-webkit-filter: invert(100%);
 }
+#missionLine1{
+	z-index:5;
+	margin-top:-10px;
+	position:absolute;
+	margin-left:613px;
+	display: block;
+    width:30px;
+    height:4px;
+	/*-webkit-filter: invert(100%);*/
+}
 
 #involvedBlend{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
+	color:white;
+	z-index:5;
+	/*position:absolute;*/
+/*	margin-left:495px;
+	margin-top:320px;*/
+	text-shadow: 1px 1px 1px #000;
+	position:fixed;
+	top: 40%;
+	width:1260px;
+	display: block;
+	text-align:center;
+}
+
+#galleryBlend{
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight: normal;
 	color:white;
@@ -5066,7 +5115,7 @@ z-index: 100;
 #backArrow{
 	/*background-image: url('/assets/backArrow.png');*/
 	position:absolute;
-    margin-top:80px;
+    margin-top:130px;
     margin-left:10px;
     z-index: 10;
     display: inline;
@@ -5082,7 +5131,7 @@ z-index: 100;
 #forwardArrow{
 	/*background-image: url('/assets/backArrow.png');*/
 	position:absolute;
-    margin-top:80px;
+    margin-top:130px;
     margin-left:1175px;
     z-index: 10;
     display: inline;
