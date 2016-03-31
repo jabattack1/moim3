@@ -5194,7 +5194,7 @@ z-index: 100;
 #x{
 	/*background-image: url('/assets/backArrow.png');*/
 	position:absolute;
-    margin-top:230px;
+    margin-top:250px;
     margin-left:20px;
     z-index: 10;
     display: inline;
@@ -5963,7 +5963,7 @@ z-index: 100;
 
 #profilePic{
 	position:absolute;
-	margin-top:50px;
+	margin-top:70px;
 	margin-left:200px;
 	width:400px;
 	height:400px;
@@ -5988,7 +5988,7 @@ z-index: 100;
 #mainButton{
 	position:absolute;
 	margin-left:900px;
-	margin-top:20px;
+	margin-top:30px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight:bold;
 }
@@ -6001,7 +6001,7 @@ z-index: 100;
 #bioButton{
 	position:absolute;
 	margin-left:976px;
-	margin-top:20px;
+	margin-top:30px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight:bold;
 }
@@ -6014,7 +6014,7 @@ z-index: 100;
 #qaButton{
 	position:absolute;
 	margin-left:1110px;
-	margin-top:20px;
+	margin-top:30px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight:bold;
 }
@@ -6027,7 +6027,7 @@ z-index: 100;
 #profileHeadBio{
 	position:absolute;
 	/*margin-left:520px;*/
-	margin-top:20px;
+	margin-top:25px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight:bold;
 	width:1260px;
@@ -6061,7 +6061,7 @@ z-index: 100;
 #profileQuestions1{
 	position:absolute;
 	margin-left:120px;
-	margin-top:80px;
+	margin-top:100px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	/*font-weight:bold;*/
 	font-size:13px;
@@ -6071,7 +6071,7 @@ z-index: 100;
 #profileQuestions1a{
 	position:absolute;
 	margin-left:230px;
-	margin-top:80px;
+	margin-top:100px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	/*font-weight:bold;*/
 	font-size:13px;
@@ -6081,7 +6081,7 @@ z-index: 100;
 #profileQuestions1b{
 	position:absolute;
 	margin-left:290px;
-	margin-top:80px;
+	margin-top:100px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	/*font-weight:bold;*/
 	font-size:13px;
@@ -6091,7 +6091,7 @@ z-index: 100;
 #profileQuestions1c{
 	position:absolute;
 	margin-left:150px;
-	margin-top:80px;
+	margin-top:100px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	/*font-weight:bold;*/
 	font-size:13px;
@@ -6101,7 +6101,7 @@ z-index: 100;
 #profileQuestions1d{
 	position:absolute;
 	margin-left:0px;
-	margin-top:80px;
+	margin-top:100px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	/*font-weight:bold;*/
 	font-size:13px;
@@ -6111,7 +6111,7 @@ z-index: 100;
 #profileQuestions2{
 	position:absolute;
 	margin-left:650px;
-	margin-top:80px;
+	margin-top:100px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	/*font-weight:bold;*/
 	font-size:13px;
@@ -7747,12 +7747,13 @@ width:1200px;
     color: #1BAAC6;
     border: 1px solid #1BAAC6; }
   .digg_pagination .current {
-    font-style: normal;
+    font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
     font-weight: bold;
     background: #1BAAC6;
     color: white;
     border: 1px solid #1BAAC6; }
   .digg_pagination a {
+  	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
     text-decoration: none;
     color: #1BAAC6;
     border: 1px solid #1BAAC6; }
@@ -7760,6 +7761,7 @@ width:1200px;
       color: #66E5FF;
       border-color: #66E5FF; }
   .digg_pagination .page_info {
+  	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
     background: #2e6ab1;
     color: white;
     padding: 0.4em 0.6em;
