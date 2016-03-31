@@ -163,8 +163,7 @@ $(window).load(function() {
 <!-- <img id='whiteGuyPic' class='animated slideInLeft' src = '/assets/whiteguy.jpg' onclick='closeLogin();return false;'>
 <h2 id='galleryBlend' class='animated slideInLeft'>PHOTOS & VIDEOS</h2> -->
 <a href="#top" class="back-to-top">Back to Top</a>
-<div id='galleriesContent' class='animated slideInUp flex-container' onclick='closeLogin();return false;'>
-
+<div id='galleriesContent' class='animated slideInUp flex-container' onclick='closeLogin();'>
 
 <div id="gallery" class='galleryCSS'>
 
@@ -185,9 +184,8 @@ $(window).load(function() {
             </a>
         </div>
             <% end %>
-
-
     </div>    
+    <div id='pagination' class='digg_pagination'><%= will_paginate @photos %></div>
 </div>
 
 

@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+gem 'will_paginate'
 gem 'devise'
 
 gem 'valid_email'
