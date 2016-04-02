@@ -2201,16 +2201,7 @@ a.back-to-top:hover{
 	border-color:#1BAAC6;*/
 }
 
-/*#usersContent {
-	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-	position: absolute;
-	margin-top:103px;
-	margin-left:0px;
-	width:1260px;
-	height:780px;
-	background-color:#161616;
-	z-index:8;
-}*/
+
 
 #chronicleContent {
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
@@ -2336,7 +2327,7 @@ a.back-to-top:hover{
 	margin-top:0px;
 	margin-left:0px;
 	width:1260px;
-	height:1150px;
+	height:1450px;
 	background-color:white;
 	z-index:8;
 	/*width:1800px;*/
@@ -7241,6 +7232,7 @@ width:1200px;
 }
 
 #emailSignUpText{
+	/*position:absolute;*/
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight:bold;
 	margin-left:0px;
@@ -7259,6 +7251,14 @@ width:1200px;
 }
 
 #passwordSignUpText{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:bold;
+	margin-left:0px;
+	width:300px;
+	/*background-color:black;*/
+	text-align: left;
+}
+#passwordSignUpText2{
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight:bold;
 	margin-left:0px;
@@ -7615,19 +7615,24 @@ width:1200px;
 
 #emailSignup{
 	height:30px;
-	margin-left:-210px;
+	margin-left:-230px;
 	width:220px;
 }
 
 #usernameSignup{
 	height:30px;
-	margin-left:-210px;
+	margin-left:-230px;
 	width:220px;
 }
 
 #passwordSignup{
 	height:30px;
-	margin-left:-210px;
+	margin-left:-338px;
+	width:220px;
+}
+#passwordSignup2{
+	height:30px;
+	margin-left:7px;
 	width:220px;
 }
 
@@ -7840,3 +7845,25 @@ width:1200px;
     margin-right: 1em; }
   .flickr_pagination .next_page {
     margin-left: 1em; }
+
+#minimum{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size:10px;	
+	font-style:normal;
+}
+
+#error_explanation{
+	margin-left:-380px;
+	position:absolute;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+}
+#error_explanation_head{
+	/*position:absolute;*/
+	font-weight: bold;
+	font-size:13px;
+	color:red;
+}
+#error_explanation_body{
+	/*position:absolute;*/
+	font-size:12px;
+}

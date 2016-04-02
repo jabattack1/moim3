@@ -1,0 +1,750 @@
+<html>
+<head>
+  <title></title>
+</head>
+
+<body id='usersPage'>
+
+
+<script type="text/javascript">
+
+var emailRequired = "<p id='emailRequired'>Invalid Email Address</p>";
+var usernameRequired = "<p id='usernameRequired'>Username Required</p>";
+var passwordRequired = "<p id='passwordRequired'>Password Required</p>";
+var firstnameRequired = "<p id='firstnameRequired'>First Name Required</p>";
+var lastnameRequired = "<p id='lastnameRequired'>Last Name Required</p>";
+var birthdayRequired = "<p id='birthdayRequired'>Birthday Required</p>";
+var genderRequired = "<p id='genderRequired'>Gender Required</p>";
+
+$(document).ready(function() { 
+        $('#signUp').append(emailRequired);
+        $('#signUp').append(usernameRequired);
+        $('#signUp').append(passwordRequired);
+        $('#signUp').append(firstnameRequired);
+        $('#signUp').append(lastnameRequired);
+        $('#signUp').append(birthdayRequired);
+        $('#signUp').append(genderRequired);
+        $('#emailRequired').hide();
+        $('#usernameRequired').hide();
+        $('#passwordRequired').hide();
+        $('#firstnameRequired').hide();
+        $('#lastnameRequired').hide();
+        $('#birthdayRequired').hide();
+        $('#genderRequired').hide();
+});
+
+$(document).ready(function() {
+
+
+$('#signupButton').click(function (e) {
+
+    var value = $('#emailSignup').val();
+    var valueUsername = $('#usernameSignup').val();
+    var valuePassword = $('#passwordSignup').val();
+    var valueFirstname = $('#firstnameSignup').val();
+    var valueLastname = $('#lastnameSignup').val();
+    var valueMonth = $('#monthSignup').val();
+    var valueDay = $('#daySignup').val();
+    var valueYear = $('#yearSignup').val();
+    var valueFemale = $('#female').val();
+    var valueMale = $('#male').val();
+
+    var result = email(value);
+
+  var month= $('#daySignup').val();
+  var day= $('#monthSignup').val();
+  var year= $('#yearSignup').val();
+  $('#birth').val(month+day+year);
+
+var schoolTime = $('#collegeSignup').val();
+$('#collegeSignup1').val(schoolTime);
+
+var companyTime = $('#professionalSignup').val();
+$('#professionalSignup1').val(companyTime);
+
+// *****required*****
+        if (result == false) {
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+          $('button[id="signupButton"]').prop("disabled", false);
+      }, 300);
+      $('#emailRequired').show();
+        } 
+
+    if (valueUsername.length == 0){
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+          $('button[id="signupButton"]').prop("disabled", false);
+      }, 300);
+      $('#usernameRequired').show();
+        }
+
+        if (valuePassword.length < 8){
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+          $('button[id="signupButton"]').prop("disabled", false);
+      }, 300);
+      $('#passwordRequired').show();
+        }
+
+        if (valueFirstname.length == 0){
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+          $('button[id="signupButton"]').prop("disabled", false);
+      }, 300);
+      $('#firstnameRequired').show();
+        }
+        
+        if (valueLastname.length == 0){
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+          $('button[id="signupButton"]').prop("disabled", false);
+      }, 300);
+      $('#lastnameRequired').show();
+        }
+
+        if (valueMonth.length < 2){
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+          $('button[id="signupButton"]').prop("disabled", false);
+      }, 300);
+      $('#birthdayRequired').show();
+        }
+        
+        if (valueDay.length < 2){
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+          $('button[id="signupButton"]').prop("disabled", false);
+      }, 300);
+      $('#birthdayRequired').show();
+        }
+        
+        if (valueYear.length < 4){
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+          $('button[id="signupButton"]').prop("disabled", false);
+      }, 300);
+      $('#birthdayRequired').show();
+        }
+
+        if ($('#male').prop('checked') == false && $('#female').prop('checked') == false ){
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+          $('button[id="signupButton"]').prop("disabled", false);
+      }, 300);
+      $('#genderRequired').show();
+        }
+
+// ****remove required****
+
+        if (result == true) {
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+          $('button[id="signupButton"]').prop("disabled", false);
+      }, 300);
+      $('#emailRequired').hide();
+        } 
+
+    if (valueUsername.length != 0){
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+          $('button[id="signupButton"]').prop("disabled", false);
+      }, 300);
+      $('#usernameRequired').hide();
+        }
+
+        if (valuePassword.length > 7){
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+          $('button[id="signupButton"]').prop("disabled", false);
+      }, 300);
+      $('#passwordRequired').hide();
+        }
+
+        if (valueFirstname.length != 0){
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+          $('button[id="signupButton"]').prop("disabled", false);
+      }, 300);
+      $('#firstnameRequired').hide();
+        }
+
+        if (valueLastname.length != 0){
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+          $('button[id="signupButton"]').prop("disabled", false);
+      }, 300);
+      $('#lastnameRequired').hide();
+        }
+
+        if (valueYear.length > 3 && valueDay.length > 1 && valueMonth.length > 1){
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+          $('button[id="signupButton"]').prop("disabled", false);
+      }, 300);
+      $('#birthdayRequired').hide();
+        }
+
+        if ($('#male').prop('checked') == true || $('#female').prop('checked') == true ){
+            $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+          $('button[id="signupButton"]').prop("disabled", false);
+      }, 300);
+      $('#genderRequired').hide();
+        }
+
+
+        if (result == true && valueUsername.length != 0 && valuePassword.length > 7 && valueFirstname.length != 0 && valueLastname.length != 0 && valueYear.length > 3 && valueDay.length > 1 && valueMonth.length > 1 && $('#male').prop('checked') == true){
+            $('button[id="signupButton"]').prop("disabled", false);
+        }
+
+        else if (result == true && valueUsername.length != 0 && valuePassword.length > 7 && valueFirstname.length != 0 && valueLastname.length != 0 && valueYear.length > 3 && valueDay.length > 1 && valueMonth.length > 1 && $('#female').prop('checked') == true){
+            $('button[id="signupButton"]').prop("disabled", false);
+        }
+        else {
+          $('button[id="signupButton"]').prop("disabled", true);
+            setTimeout(function() {
+          $('button[id="signupButton"]').prop("disabled", false);
+      }, 300);
+
+        }
+
+
+});
+    function email(value) {
+        return /^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))$/i.test(value);
+    }
+});
+
+
+$(document).ready(function() {
+
+$('#emailButton').click(function (e) {
+  localStorage.clear();
+    localStorage.setItem('email',$('#emailSignup').val());
+
+    var value = $('#emailSignup').val();
+
+        var result = email(value);
+
+        if (result == false) {
+            $('button[id="emailButton"]').prop("disabled", true);
+            setTimeout(function() {
+          $('button[id="emailButton"]').prop("disabled", false);
+      }, 300);
+      $('#emailRequired').show();
+        } 
+        else if (value.length == 0){
+            $('button[id="emailButton"]').prop("disabled", true);
+            setTimeout(function() {
+          $('button[id="emailButton"]').prop("disabled", false);
+      }, 300);
+      $('#emailRequired').show();
+        }
+        else {
+            $('button[id="emailButton"]').prop("disabled", false);
+        }
+});
+    function email(value) {
+        return /^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))$/i.test(value);
+    }
+});
+
+$(document).ready(function() {
+
+$('#usernameButton').click(function (e) {
+  localStorage.clear();
+    localStorage.setItem('username',$('#usernameSignup').val());
+
+    var valueUsername = $('#usernameSignup').val();
+
+    if (valueUsername.length == 0){
+            $('button[id="usernameButton"]').prop("disabled", true);
+            setTimeout(function() {
+          $('button[id="usernameButton"]').prop("disabled", false);
+      }, 300);
+        }
+        else {
+            $('button[id="usernameButton"]').prop("disabled", false);
+        }
+});
+});
+
+
+
+
+
+$(document).ready(function() {
+
+$(':checkbox').change(function(){
+    if (this.checked) {
+    $(this).siblings(':checkbox').attr('checked',false);
+   }
+
+});
+});
+
+$(document).ready(function() {
+
+$("#female").click(function (evt) { 
+
+if($('#female').prop('checked') == true){
+  $('#gender').val('female');
+  $('#femaleCheck').removeClass('signupOption').addClass('highlight');
+  $('#male').attr('checked', false);
+  $('#maleCheck').removeClass('highlight').addClass('signupOption');
+  evt.stopPropagation();
+}
+else{
+  $('#femaleCheck').removeClass('highlight').addClass('signupOption');
+  evt.stopPropagation();
+  $('#gender').val('');
+}
+});
+});
+
+$(document).ready(function() {
+
+$("#male").click(function (evt) { 
+if($('#male').prop('checked') == true){
+  $('#gender').val('male');
+  $('#maleCheck').removeClass('signupOption').addClass('highlight');
+  $('#female').attr('checked', false);
+  $('#femaleCheck').removeClass('highlight').addClass('signupOption');
+  evt.stopPropagation();
+}
+else{
+  $('#maleCheck').removeClass('highlight').addClass('signupOption');
+  evt.stopPropagation();
+  $('#gender').val('');
+}
+});
+});
+
+$(document).ready(function() {
+
+$("#ny").click(function (evt) { 
+if($('#ny').prop('checked') == true){
+  $('#location').val('NYC/NJ');
+  $('#nyCheck').removeClass('signupOption').addClass('highlight');
+  $('#eastCoast').attr('checked', false);
+  $('#eastCoastCheck').removeClass('highlight').addClass('signupOption');
+  $('#usa').attr('checked', false);
+  $('#usaCheck').removeClass('highlight').addClass('signupOption');
+  $('#international').attr('checked', false);
+  $('#internationalCheck').removeClass('highlight').addClass('signupOption');
+  evt.stopPropagation();
+}
+else{
+  $('#nyCheck').removeClass('highlight').addClass('signupOption');
+  evt.stopPropagation();
+  $('#location').val('');
+}
+});
+});
+
+$(document).ready(function() {
+
+$("#eastCoast").click(function (evt) { 
+if($('#eastCoast').prop('checked') == true){
+  $('#location').val('East Coast');
+  $('#eastCoastCheck').removeClass('signupOption').addClass('highlight');
+  $('#ny').attr('checked', false);
+  $('#nyCheck').removeClass('highlight').addClass('signupOption');
+  $('#usa').attr('checked', false);
+  $('#usaCheck').removeClass('highlight').addClass('signupOption');
+  $('#international').attr('checked', false);
+  $('#internationalCheck').removeClass('highlight').addClass('signupOption');
+  evt.stopPropagation();
+}
+else{
+  $('#eastCoastCheck').removeClass('highlight').addClass('signupOption');
+  evt.stopPropagation();
+  $('#location').val('');
+}
+});
+});
+
+$(document).ready(function() {
+  
+$("#usa").click(function (evt) { 
+if($('#usa').prop('checked') == true){
+  $('#location').val('USA');
+  $('#usaCheck').removeClass('signupOption').addClass('highlight');
+  $('#ny').attr('checked', false);
+  $('#nyCheck').removeClass('highlight').addClass('signupOption');
+  $('#eastCoast').attr('checked', false);
+  $('#eastCoastCheck').removeClass('highlight').addClass('signupOption');
+  $('#international').attr('checked', false);
+  $('#internationalCheck').removeClass('highlight').addClass('signupOption');
+  evt.stopPropagation();
+}
+else{
+  $('#usaCheck').removeClass('highlight').addClass('signupOption');
+  evt.stopPropagation();
+  $('#location').val('');
+}
+});
+});
+
+$(document).ready(function() {
+  
+$("#international").click(function (evt) { 
+if($('#international').prop('checked') == true){
+  $('#location').val('International');
+  $('#internationalCheck').removeClass('signupOption').addClass('highlight');
+  $('#ny').attr('checked', false);
+  $('#nyCheck').removeClass('highlight').addClass('signupOption');
+  $('#usa').attr('checked', false);
+  $('#usaCheck').removeClass('highlight').addClass('signupOption');
+  $('#eastCoast').attr('checked', false);
+  $('#eastCoastCheck').removeClass('highlight').addClass('signupOption');
+  evt.stopPropagation();
+}
+else{
+  $('#internationalCheck').removeClass('highlight').addClass('signupOption');
+  evt.stopPropagation();
+  $('#location').val('');
+}
+});
+});
+
+$(document).ready(function() {
+
+$('#emailSignup').change(function() {
+    $('#emailCheck').val($(this).val());
+});
+
+});
+
+$(document).ready(function() {
+
+$('#usernameSignup').change(function() {
+    $('#usernameCheck').val($(this).val());
+});
+});
+
+$(document).ready(function() {
+$("#userCreation")[0].reset();
+});
+
+$(document).ready(function() {
+  
+var email = $("input#emailSignup").val();  
+if (!validEmail(email)) {
+    $("label#email_error").show();  
+    $("input#email").focus();  
+    return false;
+}
+});
+
+
+// var logo ="<a href='/'><img id='logoMoim' src='/assets/moimLogo.png'></a>"
+// var logo1 ="<a href='/'><img id='logoMoim' src='/assets/moimLogoBlack.png'></a>"
+
+$(document).ready(function() {
+$('#header2a').waypoint(function() {
+  $( "#top_helper" ).animate({
+    backgroundColor: "#161616",
+    height:"0px"
+  }, 200 );
+
+  $( "#top_banner_users" ).animate({
+    // width: "70%",
+    backgroundColor: "#161616",
+    marginTop: "0px"
+    // fontSize: "3em",
+    // borderWidth: "10px"
+  }, 200 );
+});
+});
+
+
+$(document).ready(function() {
+$('#header1').waypoint(function() {
+  $( "#top_helper" ).animate({
+    backgroundColor: "#161616",
+    height:"15px"
+  }, 200 );
+
+  $( "#top_banner_users" ).animate({
+    // width: "70%",
+    backgroundColor: "#161616",
+    marginTop: "15px"
+    // fontSize: "3em",
+    // borderWidth: "10px"
+  }, 200 );
+});
+});
+</script> 
+
+
+<script type="text/javascript">
+$(".aboutSelect").mouseover(function(){
+  console.log('drop');
+  $("#aboutDrop").addClass('animated slideInDown');
+})
+</script> 
+
+
+
+<div id="header">
+<!-- <h1>top</h1> -->
+</div>
+
+<div id="header1">
+<!-- <h1>trigger</h1> -->
+</div>
+
+<div id="header2a">
+<!-- <h1>trigger</h1> -->
+</div>
+<div id="headerLeadershipPic">
+<!-- <h1>trigger</h1> -->
+</div>
+<div id='top_helper_users'></div>
+<div id='top_banner_users' class='navigation'>
+  <!-- <nav> -->
+
+<section class="webdesigntuts-workshop">
+  <form action="" method="">        
+    <input type="search" placeholder="">         
+    <button id='glassButton'><img id='glass' src='/assets/glass.png'></button>
+  </form>
+</section>
+
+
+
+<div id='logInBanner'>
+
+<a id='logInIcon' onclick='logInScreen();return false;'>LOG IN</A><p id='line1'>|</p>
+<a id='signUpIcon'>SIGN UP</A><p id='line2'>|</p>
+<a href='#bottom'id='contactUsIcon' onclick='countUp();return false;'>CONTACT US</A>
+
+
+</div>
+
+<a href='/'><img id='logoMoim' src='/assets/moimLogo.png'></a>
+
+
+<ul>
+        
+                <li><a class='aboutSelect'>ABOUT</a><img id="aboutArrow" src='/assets/downArrow.PNG'/>
+                  <ul id='aboutDrop'>
+                        <li>
+                            <a href='/mission'>THE MISSION</a>
+                        </li>
+                        <li>
+                          <a href='/chronicle'>THE CHRONICLE</a>
+                        </li>
+                        <li>
+                          <a href='/team'>THE TEAM</a>
+                        </li>
+                        <li>
+                          <a href='/getinvolved'>GET INVOLVED</a>
+                        </li>
+                     </ul>
+              </li>
+
+                <li><a href='/events'>EVENTS</a></li>
+                <li><a href='/blogs'>BLOG</a></li>
+                <li><a href='/galleries'>PHOTOS & VIDEOS</a></li>
+                <li><a href='/express_yourselves'>EXPRESS YOURSELF</a></li>
+                <li><a class='communitySelect'>THE COMMUNITY</a><img id="communityArrow" src='/assets/downArrow.PNG'/>
+          <ul id='communityDrop'>
+                        <li>
+                            <a href='/external_events'>EXTERNAL EVENTS</a>
+                        </li>
+                        <li>
+                          <a href='/careerboards'>CAREER BOARD</a>
+                        </li>
+                        <li>
+                          <a href='/localhotspots'>LOCAL HOTSPOTS</a>
+                        </li>
+                        <li>
+                          <a href='/freeboards'>FREEBOARD</a>
+                        </li>
+                     </ul>
+                </li>
+                <li><a href='/presses'>PRESS</a></li>
+            </ul>
+                
+</div>
+
+
+<!-- <img id='involvedLine'  class='animated slideInLeft' src = "/assets/line.png"> -->
+
+<a href="#top" class="back-to-top">Back to Top</a>
+<div id='usersContent' onclick='closeLogin();'>
+
+<p id='requiredStar'><span id='required'>*&nbsp;</span>= Required Field</p>
+<div id='signUp'>
+<p id='emailSay'>Verification email will be sent to this address.</p>
+<p id='emailSay1'>Email availability.</p>
+<form method="POST" action="/alerta">
+<input type='hidden' name='email' id='emailCheck'>
+<button id='emailButton' type='submit'>Check</button>
+</form>
+<p id='username1'>Username availability.</p>
+<form method="POST" action="/alertb">
+<input type='hidden' name='username' id='usernameCheck'>
+<button id='usernameButton' type='submit' >Check</button>
+</form>
+<!-- <p id='passwordSay'>At least 8 characters.</p> -->
+<p id='monthSay'>MONTH</p>
+<p id='daySay'>DAY</p>
+<p id='yearSay'>YEAR</p>
+<p id='birthdaySay'>example: 06-23-1991</p>
+
+  <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <%= devise_error_messages! %>
+<!-- <form id='userCreation' method="POST" action="/users"> -->
+
+ 
+  <span id='required'>*&nbsp;</span><%= f.label :email, :id => 'emailSignUpText' %>
+  <%= f.email_field :email, autofocus: true, :id => 'emailSignup' %><br><br>
+
+  <span id='required'>*&nbsp;</span><%= f.label :username, :id => 'usernameSignUpText' %>
+  <%= f.text_field :username, :id => 'usernameSignup' %><br><br>
+
+  <span id='required'>*&nbsp;</span><%= f.label :password, :id => 'passwordSignUpText'%>
+  <% if @minimum_password_length %>
+  <em id='minimum'>(<%= @minimum_password_length %> characters minimum)</em>
+  <% end %>
+  <%= f.password_field :password, autocomplete: "off", :id => 'passwordSignup' %><br><br>
+ 
+  <span id='required'>*&nbsp;</span><%= f.label :password_confirmation, 'Password', :id => 'passwordSignupText2' %>
+  <%= f.password_field :password_confirmation, autocomplete: "off", :id => 'passwordSignup2' %><br><br>
+
+  <span id='required'>*&nbsp;</span></label><%= f.label :first_name, :id => 'firstnameSignUpText' %>
+  <%= f.text_field :first_name, :id => 'firstnameSignup' %><br><br>
+
+  <span id='required'>*&nbsp;</span><%= f.label :last_name, :id => 'lastnameSignUpText' %>
+  <%= f.text_field :last_name, :id => 'lastnameSignup' %><br><br>
+
+
+  <span id='required'>*&nbsp;</span><%= f.label :dob, 'Birthday', :id => 'birthdaySignUpText' %>
+    <input type='text' name='month' id='monthSignup' minlength='2' maxlength='2' onkeypress='return isNumberKey(event)' autocomplete='off'>&nbsp;&nbsp;&nbsp;
+    <input type='text' name='day' id='daySignup' minlength='2' maxlength='2' onkeypress='return isNumberKey(event)' autocomplete='off' >&nbsp;&nbsp;&nbsp;
+    <input type='text' name='year' id='yearSignup' minlength='4' maxlength='4' onkeypress='return isNumberKey(event)' autocomplete='off' ><br><br>
+
+
+<%= f.hidden_field :dob, :id => 'birth' %>
+  
+
+<span id='required'>*&nbsp;</span><%= f.label :gender, :id => 'genderSignUpText' %>
+
+    <label id='femaleCheck' class='signupOption'>
+<!--       <input id='female' name='sex' class='signupCheckBox' type='checkbox' value='female' style='opacity:0;'> -->
+      <%= f.check_box :gender, :id => 'female', :name => 'sex', :class => 'signupCheckBox', :value => 'female', :style => 'opacity:0;' %>
+      <span id='checkboxText'>FEMALE</span></label>
+    <label id='maleCheck' class='signupOption'>
+      <!-- <input id='male' name='sex' class='signupCheckBox' type='checkbox' value='male' style='opacity:0;'> -->
+      <%= f.check_box :gender, :id => 'male', :name => 'sex', :class => 'signupCheckBox', :value => 'male', :style => 'opacity:0;' %>
+      <span id='checkboxText'>MALE</span></label>
+  <%= f.hidden_field :gender, :id => 'gender' %><br><br>
+
+  <label id='affiliationSignUpText'>Affiliation</label><br>
+  <label id='collegeSignUpText'>College/Graduated</label> 
+  <input type='text' id='collegeSignup' name='school' autocomplete='off'><br>
+  <%= f.hidden_field :school, :id => 'collegeSignup1' %>
+  <label id='professionalSignUpText'>Professional</label>
+  <input type='text' id='professionalSignup' name='company' autocomplete='off'><br>
+  <%= f.hidden_field :company, :id => 'professionalSignup1' %>
+
+ <!--  <%= f.label :school, 'College/Graduated', :id => 'collegeSignUpText' %>
+  <%= f.text_field :school, :id => 'collegeSignup', :name => 'school' %><br>
+
+  <%= f.label :company, 'Professional', :id => 'professionalSignUpText' %>
+  <%= f.text_field :company, :id => 'professionalSignup', :name => 'company' %><br> -->
+
+
+  <label id='locationSignUpText'>Location</label>
+
+  <label id='nyCheck' class='signupOption'>
+    <!-- <input id='ny' name='location' class='signupCheckBox' type='checkbox' value="NYC/NJ" style='opacity:0;'> -->
+    <%= f.check_box :location, :id => 'ny', :name => 'location', :class => 'signupCheckBox', :value => 'NYC/NJ', :style => 'opacity:0;' %>
+    <span id='checkboxText'>NYC/NJ</span></label><br>
+    <label id='eastCoastCheck' class='signupOption'>
+<!--       <input id='eastCoast' name='location' class='signupCheckBox' type='checkbox' value="East Coast" style='opacity:0;'> -->
+  <%= f.check_box :location, :id => 'eastCoast', :name => 'location', :class => 'signupCheckBox', :value => 'East Coast', :style => 'opacity:0;' %>
+    <span id='checkboxText'>Other (East Coast)</span></label><br>
+    <label id='usaCheck' class='signupOption'>
+    <!-- <input id='usa' name='location' class='signupCheckBox' type='checkbox' value="USA" style='opacity:0;'> -->
+    <%= f.check_box :location, :id => 'usa', :name => 'location', :class => 'signupCheckBox', :value => 'USA', :style => 'opacity:0;' %>
+    <span id='checkboxText'>Other (USA)</span></label><br>
+    <label id='internationalCheck' class='signupOption'>
+<!--     <input id='international' name='location' class='signupCheckBox' type='checkbox' value="International"style='opacity:0;'> -->
+    <%= f.check_box :location, :id => 'international', :name => 'location', :class => 'signupCheckBox', :value => 'International', :style => 'opacity:0;' %>
+    <span id='checkboxText'>Other (International)</span></label>
+    <%= f.hidden_field :location, :id => 'location' %>
+  <br><br>      
+  
+ <%= f.submit "Sign Me Up!", :id => 'signupButton' %>
+
+<!-- <button id='signupButton' type='submit'>Sign Me Up!</button> -->
+<% end %>
+<!-- </form> -->
+
+</div> 
+
+
+<script type="text/javascript">
+  $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+</script>
+
+<div id='bottom' class='involvedBottom'></div>
+<div id='contactUsUsers' onclick='closeLogin();return false;'>
+
+<div id='contactContent'>
+
+<h2 id='contactHeading'>Contact Us</h2>
+  <p id='contactLines1'>
+  For questions or concerns, email us at <a href="mailto:info@moimnewyork.com" id='emailLink'>info@moimnewyork.com</a>.
+  </p>
+  <p id='contactLines2'>
+  For sponsorship opportunities, email us at <a href="mailto:sponsorship@moimnewyork.com" id='emailLink'>sponsorship@moimnewyork.com</a>.
+  </p>
+  <p id='contactLines3'>
+  For event ideas, email us at <a href="mailto:event@moimnewyork.com" id='emailLink'>event@moimnewyork.com</a>.
+  </p>
+
+
+</div>
+
+
+
+<div id='contactBottom'>
+<p id='bottomContent'>Copyright 
+
+<script type="text/javascript">
+var theDate=new Date()
+document.write(theDate.getFullYear())
+</script> 
+
+MOI'M | All Rights Reserved | <a href='#' id='link' onclick='terms();return false;'>Terms of Use</a> | <a href='#' id='link' onclick='privacy();return false;'>Privacy Policy</a>
+<div class='zoom_img'>
+  <a href='https://www.facebook.com/moimnewyork' target='_blank'>
+  <img src='/assets/facebook_icon.png' class='img-zoom' id='fb_small'></a>
+</div>
+<div class='zoom_img'>
+  <a href='https://www.instagram.com/moimnewyork' target='_blank'>
+  <img src='/assets/instagram_icon.png' class='img-zoom' id='insta_small'></a>
+</div>
+<div class='zoom_img'>
+  <a href='https://www.youtube.com/moimmedia' target='_blank'>
+  <img src='/assets/youtube_icon.png' class='img-zoom' id='youtube_small'></a>
+</div>
+</p>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+<!-- </p> -->
+</body>
+</html>

@@ -165,14 +165,14 @@
   opacity: .9;
 }
 .final-tiles-gallery.caption-top .tile:hover span.subtitle {
-  top: 39px;
+  top: 47px;
 }
 .final-tiles-gallery.caption-top .tile {
   display: block;
   background: #000;
 }
 .final-tiles-gallery.caption-top .tile span {
-  font-family: 'Lato', sans-serif;
+  font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
   
   display: block;
   position: absolute;
@@ -180,7 +180,7 @@
   left: 20px;
   color: #fff;
   z-index: 10;
-  font-size: 18px;
+  font-size: 14px;
   opacity: 0;
   transition: all .5s;
 }
@@ -192,7 +192,7 @@
 }
 .final-tiles-gallery.caption-top .tile span.subtitle {
   top: 70px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 300;
 }
 /* CAPTION BOTTOM */
@@ -211,14 +211,14 @@
   background: #000;
 }
 .final-tiles-gallery.caption-bottom .tile span {
-  font-family: 'Lato', sans-serif;
+  font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
   display: block;
   position: absolute;
   width: 68%;
   left: 20px;
   color: #fff;
   z-index: 10;
-  font-size: 18px;
+  font-size: 12px;
   opacity: 0;
   transition: all .5s;
 }
@@ -230,7 +230,7 @@
 }
 .final-tiles-gallery.caption-bottom .tile span.subtitle {
   bottom: 0px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 300;
 }
 /* EFFECT FRAME */

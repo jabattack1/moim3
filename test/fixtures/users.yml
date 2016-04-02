@@ -4,8 +4,6 @@ one:
   last_name: MyString
   first_name: MyString
   username: MyString
-  password_digest: MyString
-  email: MyString
   gender: MyString
   dob: MyString
   location: MyString
@@ -16,8 +14,6 @@ two:
   last_name: MyString
   first_name: MyString
   username: MyString
-  password_digest: MyString
-  email: MyString
   gender: MyString
   dob: MyString
   location: MyString
