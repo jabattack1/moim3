@@ -421,6 +421,11 @@ margin-top:150px;
 }
 /***175*/
 
+.logoLogo:hover{
+	cursor:pointer;
+	-webkit-filter: invert(50%) !important;
+}
+
 #logo1{
 	position:absolute;
 	z-index: 9;
