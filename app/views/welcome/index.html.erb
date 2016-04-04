@@ -128,9 +128,24 @@ $(".aboutSelect").mouseover(function(){
 
 <div id='logInBanner'>
 
-<a id='logInIcon' onclick='logInScreen();return false;'>LOG IN</A><p id='line1'>|</p>
-<a id='signUpIcon' href='/users/sign_up'>SIGN UP</A><p id='line2'>|</p>
+    <% if user_signed_in? %>
+        <p id='greetings'>HELLO <%= current_user.first_name %>!dfasdfsadfafdfdss</p>
+        <p id='line1a'>|</p>
+        <%= link_to "LOG OUT", destroy_user_session_path, :id => 'logOutIcon', :method => :delete %>
+        <p id='line2a'>|</p>
+    <% else %>
+        <%= link_to 'LOG IN', new_user_session_path, :id => 'logInIcon' %>
+        <p id='line1'>|</p>
+        <%= link_to 'SIGN UP', new_user_registration_path, :id => 'signUpIcon' %> 
+        <p id='line2'>|</p>
+    <% end %>
 <a href='#'id='contactUsIcon' onclick='contactUsNow();return false;'>CONTACT US</A>
+
+<!-- <a id='logInIcon' onclick='logInScreen();return false;'>LOG IN</A> -->
+  <!-- <p id='line1'>|</p> -->
+<!-- <a id='signUpIcon' href='/users/sign_up'>SIGN UP</A> -->
+  <!-- <p id='line2'>|</p> -->
+<!-- <a href='#'id='contactUsIcon' onclick='contactUsNow();return false;'>CONTACT US</A> -->
 
 </div>
 
@@ -392,31 +407,44 @@ $('#sWrap').show( "slide", { direction: "right" }, 300 );
 </script>
 
 <!-- alert($("div").scrollTop()); -->
-<div id='welcomeContent' class='animated slideInUp' onclick='closeLogin();return false;'>
+<div id='welcomeContent' class='animated slideInUp' onclick='closeLogin();'>
 
 <p id='sponsorHead1'>OFFICIAL AND SIGNATURE SPONSORS</p>
 <p id='sponsorHead2'>PARTNERS AND COLLABORATORS</p>
 <p id='sponsorHead3'>SPONSORS</p>
 <p id='sponsorHead4'>PARTICIPATING ORGANIZATIONS</p>
-<div id='sponsorRow1'><img id='logo1' class='logoLogo' src='/assets/logos/jinro.png'><img id='logo2' class='logoLogo' src='/assets/logos/asiana-airline.png'><img id='logo3' class='logoLogo' src='/assets/logos/hite.png'><img id='logo4' class='logoLogo' src='/assets/logos/take31.png'></div>
-<div id='sponsorRow2'><img id='logo5' class='logoLogo' src='/assets/logos/harman.png'><img id='logo2' class='logoLogo' src='/assets/logos/asiana-airline.png'><img id='logo3' class='logoLogo' src='/assets/logos/hite.png'><img id='logo4' class='logoLogo' src='/assets/logos/take31.png'></div>
-<div id='sponsorRow3'><img id='logo9' class='logoLogo' src='/assets/logos/kbs-america.png'><img id='logo10' class='logoLogo' src='/assets/logos/dramafever.png'><img id='logo11' class='logoLogo' src='/assets/logos/ALLKPOP.png'></div>
+<div id='sponsorRow1'><a href="http://www.jinrousa.com/" target="_blank"><img id='logo1' class='logoLogo' src='/assets/logos/jinro.png'></a><a href="http://flyasiana.com/" target="_blank"><img id='logo2' class='logoLogo' src='/assets/logos/asiana-airline.png'></a><a href="http://english.hitejinro.com/" target="_blank"><img id='logo3' class='logoLogo' src='/assets/logos/hite.png'></a><a href="http://www.mytake31.com/" target="_blank"><img id='logo4' class='logoLogo' src='/assets/logos/take31.png'></a></div>
+
+<div id='sponsorRow2'><a href="http://www.harman.com/" target="_blank"><img id='logo5' class='logoLogo' src='/assets/logos/harman.png'></a><img id='logo2' class='logoLogo' src='/assets/logos/asiana-airline.png'><img id='logo3' class='logoLogo' src='/assets/logos/hite.png'><img id='logo4' class='logoLogo' src='/assets/logos/take31.png'></div>
+
+<div id='sponsorRow3'><a href="http://kbs-america.com/" target="_blank"><img id='logo9' class='logoLogo' src='/assets/logos/kbs-america.png'></a><a href="https://www.dramafever.com/" target="_blank"><img id='logo10' class='logoLogo' src='/assets/logos/dramafever.png'></a><a href="http://www.allkpop.com/" target="_blank"><img id='logo11' class='logoLogo' src='/assets/logos/ALLKPOP.png'></a></div>
+
 <div id='sponsorRow4'><img id='logo12' class='logoLogo' src='/assets/logos/kbs-america.png'><img id='logo13' class='logoLogo' src='/assets/logos/dramafever.png'><img id='logo14' class='logoLogo' src='/assets/logos/ALLKPOP.png'></div>
-<div id='sponsorRow5'><img id='logo15' class='logoLogo' src='/assets/logos/KOLLABORATION_NEW-YORK.png'></div>
-<div id='sponsorRow6'><img id='logo16' class='logoLogo' src='/assets/logos/BIZFLOW.png'><img id='logo17' class='logoLogo' src='/assets/logos/CUP&CUP.png'><img id='logo18' class='logoLogo' src='/assets/logos/JDDA.png'><img id='logo19' class='logoLogo' src='/assets/logos/KAKABOKA.png'></div>
-<div id='sponsorRow7'><img id='logo20' class='logoLogo' src='/assets/logos/mew.png'><img id='logo21' class='logoLogo' src='/assets/logos/SylvanDental.png'><img id='logo22' class='logoLogo' src='/assets/logos/YESSTYLE.COM.png'><img id='logo23' class='logoLogo' src='/assets/logos/Bliss.png'></div>
-<div id='sponsorRow8'><img id='logo24' class='logoLogo' src='/assets/logos/GAONNURI.png'><img id='logo25'  class='logoLogo' src='/assets/logos/INCOCO.png'><img id='logo26' class='logoLogo' src='/assets/logos/KRISTALBELLI.png'><img id='logo27' class='logoLogo' src='/assets/logos/Olympia.png'></div>
-<div id='sponsorRow9'><img id='logo28' class='logoLogo' src='/assets/logos/LOCK-STOCK-BARREL.png'><img id='logo29' class='logoLogo' src='/assets/logos/SOJU-HAUS.png'><img id='logo30' class='logoLogo' src='/assets/logos/INCOCO.png'></div>
+
+<div id='sponsorRow5'><a href="http://www.kollab.nyc/" target="_blank"><img id='logo15' class='logoLogo' src='/assets/logos/KOLLABORATION_NEW-YORK.png'></a></div>
+
+<div id='sponsorRow6'><a href="http://www.bizflow.com/" target="_blank"><img id='logo16' class='logoLogo' src='/assets/logos/BIZFLOW.png'></a><a href="https://www.facebook.com/Cupncupnyc/" target="_blank"><img id='logo17' class='logoLogo' src='/assets/logos/CUP&CUP.png'></a><a href="http://www.jddagroup.com/" target="_blank"><img id='logo18' class='logoLogo' src='/assets/logos/JDDA.png'></a><a href="http://www.kakabokahair.com/" target="_blank"><img id='logo19' class='logoLogo' src='/assets/logos/KAKABOKA.png'></a></div>
+
+<div id='sponsorRow7'><a href="http://mewnyc.com/" target="_blank"><img id='logo20' class='logoLogo' src='/assets/logos/mew.png'></a><a href="http://sylvandental.com/" target="_blank"><img id='logo21' class='logoLogo' src='/assets/logos/SylvanDental.png'></a><a href="http://www.yesstyle.com/" target="_blank"><img id='logo22' class='logoLogo' src='/assets/logos/YESSTYLE.COM.png'></a><a href="http://www.blissacuclinic.com/" target="_blank"><img id='logo23' class='logoLogo' src='/assets/logos/Bliss.png'></a></div>
+
+<div id='sponsorRow8'><a href="http://gaonnurinyc.com/" target="_blank"><img id='logo24' class='logoLogo' src='/assets/logos/GAONNURI.png'></a><a href="http://www.incoco.com/" target="_blank"><img id='logo25'  class='logoLogo' src='/assets/logos/INCOCO.png'></a><a href="http://kristalbelli.com/" target="_blank"><img id='logo26' class='logoLogo' src='/assets/logos/KRISTALBELLI.png'></a><a href="http://www.olympiatourusa.com/" target="_blank"><img id='logo27' class='logoLogo' src='/assets/logos/Olympia.png'></a></div>
+
+<div id='sponsorRow9'><a href="http://www.lockstockandbarrelspirits.com/" target="_blank"><img id='logo28' class='logoLogo' src='/assets/logos/LOCK-STOCK-BARREL.png'></a><a href="http://www.sojuhaus.com/" target="_blank"><img id='logo29' class='logoLogo' src='/assets/logos/SOJU-HAUS.png'></a><img id='logo30' class='logoLogo' src='/assets/logos/INCOCO.png'></div>
+
 <div id='sponsorRow10'><img id='logo24' class='logoLogo' src='/assets/logos/GAONNURI.png'><img id='logo25' class='logoLogo' src='/assets/logos/INCOCO.png'><img id='logo26' class='logoLogo' src='/assets/logos/KRISTALBELLI.png'><img id='logo27' class='logoLogo' src='/assets/logos/Olympia.png'></div>
+
 <div id='sponsorRow11'><img id='logo24' class='logoLogo' src='/assets/logos/GAONNURI.png'><img id='logo25' class='logoLogo' src='/assets/logos/INCOCO.png'><img id='logo26' class='logoLogo' src='/assets/logos/KRISTALBELLI.png'><img id='logo27' class='logoLogo' src='/assets/logos/Olympia.png'></div>
+
 <div id='sponsorRow12'><img id='logo24' class='logoLogo' src='/assets/logos/GAONNURI.png'><img id='logo25' class='logoLogo' src='/assets/logos/INCOCO.png'><img id='logo26' class='logoLogo' src='/assets/logos/KRISTALBELLI.png'><img id='logo27' class='logoLogo' src='/assets/logos/Olympia.png'></div>
-<div id='sponsorRow13'><img id='logo31' class='logoLogo' src='/assets/logos/2Columbia KGSA_W.png'><img id='logo32' class='logoLogo' src='/assets/logos/3Columbia KISAC_W.png'><img id='logo33' class='logoLogo' src='/assets/logos/1BaruchKSA_White Gradient.png'>
-<img id='logo34' class='logoLogo' src='/assets/logos/4KSOF_WhiteGradient.png'>
+
+<div id='sponsorRow13'><a href="http://www.columbiakgsa.com/" target="_blank"><img id='logo31' class='logoLogo' src='/assets/logos/2Columbia KGSA_W.png'></a><a href="http://www.cukisac.com/" target="_blank"><img id='logo32' class='logoLogo' src='/assets/logos/3Columbia KISAC_W.png'></a><a href="https://www.facebook.com/Baruch-KSA-541063416043412/" target="_blank"><img id='logo33' class='logoLogo' src='/assets/logos/1BaruchKSA_White Gradient.png'></a>
+<a href="https://www.facebook.com/KSOF-Korean-Student-Organization-of-FIT-156589561104386/" target="_blank"><img id='logo34' class='logoLogo' src='/assets/logos/4KSOF_WhiteGradient.png'></a>
 </div>
-<div id='sponsorRow14'><img id='logo35' class='logoLogo' src='/assets/logos/5NYU KGSA_W.png'><img id='logo36' class='logoLogo' src='/assets/logos/7NYU KSA_WhiteGradient.png'><img id='logo37' class='logoLogo' src='/assets/logos/6NYU KISO_W.png'>
-<img id='logo38' class='logoLogo' src='/assets/logos/11SVA KISA_W.png'>
+<div id='sponsorRow14'><a href="http://www.nyukgsa.com/" target="_blank"><img id='logo35' class='logoLogo' src='/assets/logos/5NYU KGSA_W.png'></a><a href="https://www.facebook.com/nyuksa/" target="_blank"><img id='logo36' class='logoLogo' src='/assets/logos/7NYU KSA_WhiteGradient.png'></a><a href="http://www.nyukiso.com/" target="_blank"><img id='logo37' class='logoLogo' src='/assets/logos/6NYU KISO_W.png'></a>
+<a href="https://www.facebook.com/SvaKisa-1543266182631771/" target="_blank"><img id='logo38' class='logoLogo' src='/assets/logos/11SVA KISA_W.png'></a>
 </div>
-<div id='sponsorRow15'><img id='logo39' class='logoLogo' src='/assets/logos/8Parsons KAP_White Gradient.png'><img id='logo40' class='logoLogo' src='/assets/logos/9Pratt KSA_WG.png'><img class='logoLogo' id='logo41' src='/assets/logos/10Stonybrook KOLA_White Gradient.png'>
+
+<div id='sponsorRow15'><a href="https://www.facebook.com/koreaparsons/" target="_blank"><img id='logo39' class='logoLogo' src='/assets/logos/8Parsons KAP_White Gradient.png'></a><a href="http://www.prattkorea.com/" target="_blank"><img id='logo40' class='logoLogo' src='/assets/logos/9Pratt KSA_WG.png'></a><a href="https://www.facebook.com/kolakoreanlife.stonybrook" target="_blank"><img class='logoLogo' id='logo41' src='/assets/logos/10Stonybrook KOLA_White Gradient.png'></a>
 </div>
 
 <script>

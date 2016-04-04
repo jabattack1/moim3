@@ -7,6 +7,98 @@
 
 
 <script type="text/javascript">
+$(document).ready(function() {
+$('#emailButton').click(function(e){
+  // var email=$('#emailSignup').val();
+   e.preventDefault();
+  $.ajax({
+       url: "/alerta",
+       type: "POST",
+       data: {email:$('#emailSignup').val()},
+       dataType : "json",
+       success: function (data) {
+        console.log('success');
+        var emailSayYes="<p id='emailSayYes'><span id='yesEmail'>This email is not yet registered.</span></p>"
+        // if(data.available == true){
+        $('#emailSayYes').remove();
+        $('#emailSayNo').remove();
+        $('#usersContent').append(emailSayYes);    
+        // }
+       },
+       error: function(xhr, ajaxOptions, thrownError){
+        console.log('fail')
+          var emailSayNo="<p id='emailSayNo'><span id='noEmail'>This email is already registered.</span></p>"
+        $('#emailSayYes').remove();
+        $('#emailSayNo').remove();
+        $('#usersContent').append(emailSayNo);  
+       }
+  });
+});
+});
+
+$(document).ready(function() {
+$('#usernameButton').click(function(e){
+  // var username=$('#usernameSignup').val();
+   e.preventDefault();
+  $.ajax({
+       url: "/alertb",
+       type: "POST",
+       data: {username:$('#usernameSignup').val()},
+       dataType : "json",
+       success: function (data) {
+        console.log('success');
+        var usernameSayYes="<p id='usernameSayYes'><span id='yesUsername'>This username is not yet registered.</span></p>"
+        // if(data.available == true){
+        $('#usernameSayYes').remove();
+        $('#usernameSayNo').remove();
+        $('#usersContent').append(usernameSayYes);    
+        // }
+       },
+       error: function(xhr, ajaxOptions, thrownError){
+        console.log('fail')
+          var usernameSayNo="<p id='usernameSayNo'><span id='noUsername'>This username is already registered.</span></p>"
+        $('#usernameSayYes').remove();
+        $('#usernameSayNo').remove();
+        $('#usersContent').append(usernameSayNo);  
+       }
+  });
+});
+});
+
+$(document).ready(function() {
+$('#header2a').waypoint(function() {
+  $( "#top_helper" ).animate({
+    backgroundColor: "#161616",
+    height:"0px"
+  }, 200 );
+
+  $( "#top_banner_users" ).animate({
+    // width: "70%",
+    backgroundColor: "#161616",
+    marginTop: "0px"
+    // fontSize: "3em",
+    // borderWidth: "10px"
+  }, 200 );
+});
+});
+
+
+$(document).ready(function() {
+$('#header1').waypoint(function() {
+  $( "#top_helper" ).animate({
+    backgroundColor: "#161616",
+    height:"15px"
+  }, 200 );
+
+  $( "#top_banner_users" ).animate({
+    // width: "70%",
+    backgroundColor: "#161616",
+    marginTop: "15px"
+    // fontSize: "3em",
+    // borderWidth: "10px"
+  }, 200 );
+});
+});
 
 var emailRequired = "<p id='emailRequired'>Invalid Email Address</p>";
 var usernameRequired = "<p id='usernameRequired'>Username Required</p>";
@@ -438,44 +530,6 @@ if (!validEmail(email)) {
 }
 });
 
-
-// var logo ="<a href='/'><img id='logoMoim' src='/assets/moimLogo.png'></a>"
-// var logo1 ="<a href='/'><img id='logoMoim' src='/assets/moimLogoBlack.png'></a>"
-
-$(document).ready(function() {
-$('#header2a').waypoint(function() {
-  $( "#top_helper" ).animate({
-    backgroundColor: "#161616",
-    height:"0px"
-  }, 200 );
-
-  $( "#top_banner_users" ).animate({
-    // width: "70%",
-    backgroundColor: "#161616",
-    marginTop: "0px"
-    // fontSize: "3em",
-    // borderWidth: "10px"
-  }, 200 );
-});
-});
-
-
-$(document).ready(function() {
-$('#header1').waypoint(function() {
-  $( "#top_helper" ).animate({
-    backgroundColor: "#161616",
-    height:"15px"
-  }, 200 );
-
-  $( "#top_banner_users" ).animate({
-    // width: "70%",
-    backgroundColor: "#161616",
-    marginTop: "15px"
-    // fontSize: "3em",
-    // borderWidth: "10px"
-  }, 200 );
-});
-});
 </script> 
 
 
@@ -577,15 +631,20 @@ $(".aboutSelect").mouseover(function(){
 <a href="#top" class="back-to-top">Back to Top</a>
 <div id='usersContent' onclick='closeLogin();'>
 
+
+
+
+
+
 <p id='requiredStar'><span id='required'>*&nbsp;</span>= Required Field</p>
 <div id='signUp'>
 <p id='emailSay'>Verification email will be sent to this address.</p>
 <p id='emailSay1'>Email availability.</p>
-<form method="POST" action="/alerta">
+<!-- <form method="POST" action="/alerta"> -->
 <input type='hidden' name='email' id='emailCheck'>
 <button id='emailButton' type='submit'>Check</button>
-</form>
-<p id='username1'>Username availability.</p>
+<!-- </form> -->
+<p id='usernameSay1'>Username availability.</p>
 <form method="POST" action="/alertb">
 <input type='hidden' name='username' id='usernameCheck'>
 <button id='usernameButton' type='submit' >Check</button>
