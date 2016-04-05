@@ -1,4 +1,21 @@
-	<nav class="navbar navbar-inverse">
+<script>
+$(document).ready(function() {
+
+$('.btn').click(function (e) {
+  localStorage.clear();
+  localStorage.setItem('titleField',$('#titleField').val());
+  localStorage.setItem('descriptionField',$('#descriptionField').val());
+});
+
+$('#titleField').val(localStorage.getItem('titleField'));
+$('#descriptionField').val(localStorage.getItem('descriptionField'));
+});
+
+
+
+</script>
+
+  <nav class="navbar navbar-inverse">
   <div class="container">
     <div class="navbar-header">
       <%= link_to 'MOI\'M Gallery', galleries_path, class: 'navbar-brand' %>
@@ -26,11 +43,11 @@
   <%= render 'shared/errors', object: @photo %>
   <div class="form-group">
     <%= f.label :title %>
-    <%= f.text_field :title, class: 'form-control' %>
+    <%= f.text_field :title, class: 'form-control', :id => 'titleField' %>
   </div>
     <div class="form-group">
     <%= f.label :description %>
-    <%= f.text_field :description, class: 'form-control' %>
+    <%= f.text_field :description, class: 'form-control', :id => 'descriptionField' %>
   </div>
   <div class="form-group">
     <%= f.label :image %><p>(image dimensions max: 500px by 400px)</p>

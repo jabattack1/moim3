@@ -8,15 +8,15 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'welcome#index'
 
-  resources :users
+  # resources :users
   resources :admins
   resources :admin_session
   resources :adminlands
-  resources :session, only: [:create, :destroy, :new]
+  # resources :session, only: [:create, :destroy, :new]
   resources :teams, only: [:index, :create]
   resources :teams_session
   resources :useralert
-  resources :user_session
+  # resources :user_session
   resources :alerta
   resources :alertb
 

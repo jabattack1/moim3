@@ -21,5 +21,7 @@ class SessionController < ApplicationController
   	reset_session
     '/'
   end
+    def new
+  end
 
 end

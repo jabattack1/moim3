@@ -16,6 +16,12 @@ class Users::SessionsController < Devise::SessionsController
   #   super
   # end
 
+# def create
+# resource = warden.authenticate!(:scope => resource_name, :recall => 'new')
+# set_flash_message :notice, :signed_in
+# sign_in_and_redirect(resource_name, resource)
+# end
+
   # protected
 
   # If you have extra params to permit, append them to the sanitizer.

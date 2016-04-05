@@ -1,6 +1,7 @@
 class PhotosController < ApplicationController
   def index
     @photos = Photo.order('created_at')
+   
   end
 
   def new
@@ -12,7 +13,7 @@ class PhotosController < ApplicationController
  
     if @photo.save
       flash[:success] = "The photo was added!"
-      redirect_to "/photos"
+      redirect_to "/photos/new"
     else
       render 'new'
     end

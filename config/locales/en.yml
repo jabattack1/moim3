@@ -40,9 +40,9 @@ en:
       unconfirmed: "You have to confirm your email address before continuing."
     mailer:
       confirmation_instructions:
-        subject: "Confirmation instructions"
+        subject: "MOI'M Account Confirmation instructions"
       reset_password_instructions:
-        subject: "Reset password instructions"
+        subject: "MOI'M Reset password instructions"
       unlock_instructions:
         subject: "Unlock instructions"
       password_change:

@@ -1,5 +1,8 @@
-<p>Welcome <%= @email %>!</p>
 
-<p>You can confirm your account email through the link below:</p>
+<p>Welcome to MOI'M <%= @resource.first_name %>!</p>
 
-<p><%= link_to 'Confirm my account', confirmation_url(@resource, confirmation_token: @token) %></p>
+<p>You can confirm your account by clicking on the link below:</p>
+
+<p><%= link_to 'Confirm my account', confirmation_url(@resource, :confirmation_token => @token) %></p>
+
+<p>**This mailbox is not monitored. Please do not reply to this email directly.</p>
