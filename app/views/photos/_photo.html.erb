@@ -6,7 +6,7 @@
   </div>
   <div class="media-body">
     <h4 class="media-heading"><%= photo.description %></h4>
-    <%= link_to 'Remove', photo_path(photo), class: 'btn btn-danger', method: :delete, data: {confirm: 'Are you sure?'} %>
+    <%= link_to 'REMOVE', photo_path(photo), :id => 'removeButton', class: 'btn btn-danger', method: :delete, data: {confirm: 'Are you sure?'} %>
   </div>
 </div>
 

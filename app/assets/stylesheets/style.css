@@ -1980,14 +1980,14 @@ a.back-to-top:hover{
 }
 
 #deleteAllPhoto{
-	margin-top:-43px;
+	margin-top:-46px;
 	margin-left:80px;
 	position:absolute;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight:bold;
 	font-size: 10px;
-	/*padding-top:3px;*/
-	/*padding-bottom:3px;*/
+	padding-top:3px;
+	padding-bottom:3px;
 	padding-left:3px;
 	padding-right:3px;
 	background-color:white;
@@ -2000,6 +2000,32 @@ a.back-to-top:hover{
 
 
 #deleteAllPhoto:active{
+	background-color:#66E5FF;
+	border-color:#66E5FF;
+	color:white;
+	outline:0;
+}
+
+#removeButton{
+/*	margin-top:-43px;
+	margin-left:80px;*/
+	position:absolute;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:bold;
+	font-size: 12px;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:3px;
+	padding-right:3px;
+	background-color:white;
+	border-style:solid;
+    border-color:#1BAAC6;
+    border-width:3px;
+    color:#1BAAC6;
+    text-align: center;
+}
+
+#removeButton:active{
 	background-color:#66E5FF;
 	border-color:#66E5FF;
 	color:white;
@@ -8049,7 +8075,7 @@ width:1200px;
 
 .page-header{
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-	
+
 }
 
 
