@@ -8,6 +8,12 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'welcome#index'
 
+    resources :photos do
+    collection do
+      delete 'destroy_multiple'
+    end
+  end
+
   # resources :users
   resources :admins
   resources :admin_session
