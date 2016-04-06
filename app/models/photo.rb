@@ -13,6 +13,7 @@ class Photo < ActiveRecord::Base
     content_type: { content_type: ["image/jpeg", "image/gif", "image/png"] }
     has_attached_file :image, :styles => lambda { |attachment| { :thumb => (attachment.instance.title == 'Special' ? "100x100#" : "64x64#") } }                                     
     default_scope -> { order(created_at: :desc) }
+    validates :image, :presence => true
 end
 
 
