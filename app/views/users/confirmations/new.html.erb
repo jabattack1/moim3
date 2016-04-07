@@ -1,20 +1,227 @@
-<div flash_notice></div>
-<% flash.each do |name, msg| %>
-      <%= content_tag :div, msg, :id => "flash_#{name}" %>
-<% end %>
-<h2>Resend confirmation instructions</h2>
+<html>
+<head>
+  <title></title>
+</head>
+<body id='resetPage'>
+
+<script>
+
+$(document).ready(function() {
+$('#header2a').waypoint(function() {
+  $( "#top_helper" ).animate({
+    backgroundColor: "#161616",
+    height:"0px"
+  }, 200 );
+
+  $( "#top_banner_users" ).animate({
+    // width: "70%",
+    backgroundColor: "#161616",
+    marginTop: "0px"
+    // fontSize: "3em",
+    // borderWidth: "10px"
+  }, 200 );
+});
+});
+
+
+$(document).ready(function() {
+$('#header1').waypoint(function() {
+  $( "#top_helper" ).animate({
+    backgroundColor: "#161616",
+    height:"15px"
+  }, 200 );
+
+  $( "#top_banner_users" ).animate({
+    // width: "70%",
+    backgroundColor: "#161616",
+    marginTop: "15px"
+    // fontSize: "3em",
+    // borderWidth: "10px"
+  }, 200 );
+});
+});
+</script> 
+
+
+<script type="text/javascript">
+$(".aboutSelect").mouseover(function(){
+  console.log('drop');
+  $("#aboutDrop").addClass('animated slideInDown');
+})
+</script> 
+
+
+<div id="header">
+<!-- <h1>top</h1> -->
+</div>
+
+<div id="header1">
+<!-- <h1>trigger</h1> -->
+</div>
+
+<div id="header2a">
+<!-- <h1>trigger</h1> -->
+</div>
+<div id="headerLeadershipPic">
+<!-- <h1>trigger</h1> -->
+</div>
+<div id='top_helper_users'></div>
+<div id='top_banner_users' class='navigation'>
+  <!-- <nav> -->
+
+<section class="webdesigntuts-workshop">
+  <form action="" method="">        
+    <input type="search" placeholder="">         
+    <button id='glassButton'><img id='glass' src='/assets/glass.png'></button>
+  </form>
+</section>
+
+
+
+<div id='logInBanner'>
+
+<a id='logInIcon' onclick='logInScreen();return false;'>LOG IN</A><p id='line1'>|</p>
+<a id='signUpIcon'>SIGN UP</A><p id='line2'>|</p>
+<a href='#bottom'id='contactUsIcon' onclick='countUp();return false;'>CONTACT US</A>
+
+
+</div>
+
+<a href='/'><img id='logoMoim' src='/assets/moimLogo.png'></a>
+
+
+<ul>
+        
+                <li><a class='aboutSelect'>ABOUT</a><img id="aboutArrow" src='/assets/downArrow.PNG'/>
+                  <ul id='aboutDrop'>
+                        <li>
+                            <a href='/mission'>THE MISSION</a>
+                        </li>
+                        <li>
+                          <a href='/chronicle'>THE CHRONICLE</a>
+                        </li>
+                        <li>
+                          <a href='/team'>THE TEAM</a>
+                        </li>
+                        <li>
+                          <a href='/getinvolved'>GET INVOLVED</a>
+                        </li>
+                     </ul>
+              </li>
+
+                <li><a href='/events'>EVENTS</a></li>
+                <li><a href='/blogs'>BLOG</a></li>
+                <li><a href='/galleries'>PHOTOS & VIDEOS</a></li>
+                <li><a href='/express_yourselves'>EXPRESS YOURSELF</a></li>
+                <li><a class='communitySelect'>THE COMMUNITY</a><img id="communityArrow" src='/assets/downArrow.PNG'/>
+          <ul id='communityDrop'>
+                        <li>
+                            <a href='/external_events'>EXTERNAL EVENTS</a>
+                        </li>
+                        <li>
+                          <a href='/careerboards'>CAREER BOARD</a>
+                        </li>
+                        <li>
+                          <a href='/localhotspots'>LOCAL HOTSPOTS</a>
+                        </li>
+                        <li>
+                          <a href='/freeboards'>FREEBOARD</a>
+                        </li>
+                     </ul>
+                </li>
+                <li><a href='/presses'>PRESS</a></li>
+            </ul>
+                
+</div>
+
+
+<!-- <img id='involvedLine'  class='animated slideInLeft' src = "/assets/line.png"> -->
+
+<a href="#top" class="back-to-top">Back to Top</a>
+<div id='resetContent' onclick='closeLogin();'>
+
+<div id='logInBox'>
+
+<img id='logoMoimLogIn' src='/assets/moimLogo.png'>
+
 
 <%= form_for(resource, as: resource_name, url: confirmation_path(resource_name), html: { method: :post }) do |f| %>
   <%= devise_error_messages! %>
 
   <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, value: (resource.pending_reconfirmation? ? resource.unconfirmed_email : resource.email) %> 
+    <%= f.email_field :email, autofocus: true, value: (resource.pending_reconfirmation? ? resource.unconfirmed_email : resource.email), :placeholder => "Email address", :id => 'logInEmail' %> 
   </div>
-
+  <br>
   <div class="actions">
-    <%= f.submit "Resend confirmation instructions" %>
+    <%= f.submit "RESEND CONFIRMATION INSTRUCTIONS", :id => 'logInButton1' %>
   </div>
 <% end %>
 
 <%= render "users/shared/links" %>
+
+
+</div>
+
+<div flash_notice id='flashMessage'></div>
+<% flash.each do |name, msg| %>
+      <%= content_tag :div, msg, :id => "flash_#{name}", :class => 'flashMessage' %>
+<% end %>
+
+<script type="text/javascript">
+  $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+</script>
+
+<div id='bottom' class='involvedBottom'></div>
+<div id='contactUsUsers' onclick='closeLogin();return false;'>
+
+<div id='contactContent'>
+
+<h2 id='contactHeading'>Contact Us</h2>
+  <p id='contactLines1'>
+  For questions or concerns, email us at <a href="mailto:info@moimnewyork.com" id='emailLink'>info@moimnewyork.com</a>.
+  </p>
+  <p id='contactLines2'>
+  For sponsorship opportunities, email us at <a href="mailto:sponsorship@moimnewyork.com" id='emailLink'>sponsorship@moimnewyork.com</a>.
+  </p>
+  <p id='contactLines3'>
+  For event ideas, email us at <a href="mailto:event@moimnewyork.com" id='emailLink'>event@moimnewyork.com</a>.
+  </p>
+
+
+</div>
+
+
+
+<div id='contactBottom'>
+<p id='bottomContent'>Copyright 
+
+<script type="text/javascript">
+var theDate=new Date()
+document.write(theDate.getFullYear())
+</script> 
+
+MOI'M | All Rights Reserved | <a href='#' id='link' onclick='terms();return false;'>Terms of Use</a> | <a href='#' id='link' onclick='privacy();return false;'>Privacy Policy</a>
+<div class='zoom_img'>
+  <a href='https://www.facebook.com/moimnewyork' target='_blank'>
+  <img src='/assets/facebook_icon.png' class='img-zoom' id='fb_small'></a>
+</div>
+<div class='zoom_img'>
+  <a href='https://www.instagram.com/moimnewyork' target='_blank'>
+  <img src='/assets/instagram_icon.png' class='img-zoom' id='insta_small'></a>
+</div>
+<div class='zoom_img'>
+  <a href='https://www.youtube.com/moimmedia' target='_blank'>
+  <img src='/assets/youtube_icon.png' class='img-zoom' id='youtube_small'></a>
+</div>
+</p>
+</div>
+</div>
+
+
+
+</div>
+
+
+</body>
+</html>
+

@@ -689,6 +689,17 @@ margin-top:150px;
 	margin-top:14px;
 }
 
+#logoMoimLogIn{
+	-webkit-filter: invert(100%) !important;
+	position:relative;
+	width:130px;
+	/*top:2px;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+	margin-top:-10px;
+}
+
 #logoMoimBlack{
 	position:absolute;
 	width:110px;
@@ -2179,6 +2190,42 @@ a.back-to-top:hover{
 	outline:0;
 }
 
+#logInButton1{
+	position:relative;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:bold;
+	font-size: 12px;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:5px;
+	padding-right:5px;
+	background-color:white;
+	border-style:solid;
+    border-color:#1BAAC6;
+    border-width:3px;
+    color:#1BAAC6;
+    width:300px;
+    /*margin-left:90px;*/
+    /*margin-top:77px;*/
+    /*display: table;*/
+    outline:0;
+    text-align: center;
+}
+
+
+#logInButton1:active{
+	background-color:#66E5FF;
+	border-color:#66E5FF;
+	color:white;
+	outline:0;
+}
+
+#signInWrapper{
+	text-align: center;
+	/*width:240px;*/
+}
+
+
 #eventsSlideShow{
 	position:absolute;
 }
@@ -2496,6 +2543,38 @@ a.back-to-top:hover{
     text-align: center;
     z-index: 9;
     font-weight: bold;
+}
+
+#logInContent {
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
+	position: absolute;
+	margin-top:0px;
+	margin-left:0px;
+	width:1260px;
+	height:745px;
+	background-color:white;
+	z-index:8;
+	/*width:1800px;*/
+	/*border-top:solid;
+	border-width:7px;
+	border-color:#1BAAC6;*/
+}
+
+#resetContent {
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
+	position: absolute;
+	margin-top:0px;
+	margin-left:0px;
+	width:1260px;
+	height:692px;
+	background-color:white;
+	z-index:8;
+	/*width:1800px;*/
+	/*border-top:solid;
+	border-width:7px;
+	border-color:#1BAAC6;*/
 }
 
 #thankyou{
@@ -2986,6 +3065,21 @@ a.back-to-top:hover{
 	margin-left:130px;
 	font-size: 15px;
     color:white;
+}
+
+.links{
+	color: #1BAAC6; 
+	text-decoration: none;
+	z-index:10;
+}
+
+.links:hover{
+	color:#66E5FF;
+	text-decoration: underline;
+}
+
+#renderedLinks{
+	margin-top:50px;
 }
 
 #emailLink{
@@ -4566,6 +4660,36 @@ z-index: 100;
 	width:1260px;
   	height: 1900px;
   	margin: 0 auto;
+  position:relative;
+  overflow:auto;
+}
+
+#logInPage{
+	/*background: url() no-repeat;*/
+  /*background-color:black;*/
+  background:url()center top;
+  background-size: 1200px;
+  background-color:#161616;
+  /*background-repeat: repeat-y;*/
+	width:1260px;
+  	height: 750px;
+  	min-height: 100%;
+  	/*margin: 0 auto;*/
+  position:relative;
+  overflow:auto;
+}
+
+#resetPage{
+	/*background: url() no-repeat;*/
+  /*background-color:black;*/
+  background:url()center top;
+  background-size: 1200px;
+  background-color:#161616;
+  /*background-repeat: repeat-y;*/
+	width:1260px;
+  	height: 705px;
+  	min-height: 100%;
+  	/*margin: 0 auto;*/
   position:relative;
   overflow:auto;
 }
@@ -7344,6 +7468,21 @@ z-index:8;
 width:1200px;
 }
 
+#logInBox{
+    display: table;
+    margin: 0 auto;
+    margin-top:125px;
+    background-color:white;
+    padding-left:70px;
+    padding-right:70px;
+    padding-top:40px;
+    padding-bottom:40px;
+    border-style:solid;
+    border-color:black;
+    border-width:3px;
+    z-index: 9;
+}
+
 /****user Sign up****/
 #signUp{
 	/*position:absolute;*/
@@ -8089,8 +8228,26 @@ width:1200px;
 }
 
 
+#logInEmail{
+	/*margin-left:100px;*/
+	width:300px;
+	height:30px;
+	margin-top:20px;
+}
 
+#passwordEmail{
+	/*margin-left:100px;*/
+	width:300px;
+	height:30px;
+	margin-top:15px;
+}
 
+.flashMessage{
+	position:absolute;
+	color: #1BAAC6; 
+	margin-top:5px;
+	margin-left:410px;
+}
 
 
 

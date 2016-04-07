@@ -129,7 +129,7 @@ $(".aboutSelect").mouseover(function(){
 <div id='logInBanner'>
 
     <% if user_signed_in? %>
-        <p id='greetings'>HELLO <%= current_user.first_name %>!dfasdfsadfafdfdss</p>
+        <p id='greetings'>HELLO <%= current_user.first_name %>!</p>
         <p id='line1a'>|</p>
         <%= link_to "LOG OUT", destroy_user_session_path, :id => 'logOutIcon', :method => :delete %>
         <p id='line2a'>|</p>
