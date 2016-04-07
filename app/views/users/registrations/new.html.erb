@@ -27,11 +27,17 @@ $('#signupButton').click(function (e) {
   var month= $('#monthSignup').val();
   var day= $('#daySignup').val();
   var year= $('#yearSignup').val();
+  
+  if(month == '' || day == '' || year == ''){
+    ('#birth').val();
+    }
+  else{
   $('#birth').val(month+day+year);
+    }
 
   var college=$('#collegeSignup').val();
   $('#collegeSignup1').val(college);
-  
+
   var professional=$('#professionalSignup').val();
   $('#professionalSignup1').val(professional);
 });
@@ -431,30 +437,24 @@ $(".aboutSelect").mouseover(function(){
 </div>
 
 
-<!-- <img id='involvedLine'  class='animated slideInLeft' src = "/assets/line.png"> -->
-
 <a href="#top" class="back-to-top">Back to Top</a>
 <div id='usersContent' onclick='closeLogin();'>
-
-
-
-
 
 
 <p id='requiredStar'><span id='required'>*&nbsp;</span>= Required Field</p>
 <div id='signUp'>
 <p id='emailSay'>Verification email will be sent to this address.</p>
 <p id='emailSay1'>Email availability.</p>
-<!-- <form method="POST" action="/alerta"> -->
+
 <input type='hidden' name='email' id='emailCheck'>
 <button id='emailButton' type='submit'>Check</button>
-<!-- </form> -->
+
 <p id='usernameSay1'>Username availability.</p>
 <form method="POST" action="/alertb">
 <input type='hidden' name='username' id='usernameCheck'>
 <button id='usernameButton' type='submit' >Check</button>
 </form>
-<!-- <p id='passwordSay'>At least 8 characters.</p> -->
+
 <p id='confirmSay'>(Confirmation)</p>
 <p id='monthSay'>MONTH</p>
 <p id='daySay'>DAY</p>
@@ -463,7 +463,6 @@ $(".aboutSelect").mouseover(function(){
 
   <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= devise_error_messages! %>
-<!-- <form id='userCreation' method="POST" action="/users"> -->
 
  
   <span id='required'>*&nbsp;</span><%= f.label :email, :id => 'emailSignUpText' %>
@@ -500,46 +499,40 @@ $(".aboutSelect").mouseover(function(){
 <span id='required'>*&nbsp;</span><%= f.label :gender, :id => 'genderSignUpText' %>
 
     <label id='femaleCheck' class='signupOption'>
-<!--       <input id='female' name='sex' class='signupCheckBox' type='checkbox' value='female' style='opacity:0;'> -->
+
       <%= f.check_box :gender, :id => 'female', :name => 'sex', :class => 'signupCheckBox', :value => 'female', :style => 'opacity:0;' %>
       <span id='checkboxText'>FEMALE</span></label>
     <label id='maleCheck' class='signupOption'>
-      <!-- <input id='male' name='sex' class='signupCheckBox' type='checkbox' value='male' style='opacity:0;'> -->
+
       <%= f.check_box :gender, :id => 'male', :name => 'sex', :class => 'signupCheckBox', :value => 'male', :style => 'opacity:0;' %>
       <span id='checkboxText'>MALE</span></label>
   <%= f.hidden_field :gender, :id => 'gender' %><br><br>
 
   <label id='affiliationSignUpText'>Affiliation</label><br>
   <label id='collegeSignUpText'>College/Graduated</label> 
-  <input type='text' id='collegeSignup' name='school' autocomplete='off'><br>
+  <input type='text' id='collegeSignup' name='school' autocomplete='on'><br>
   <%= f.hidden_field :school, :id => 'collegeSignup1' %>
   <label id='professionalSignUpText'>Professional</label>
-  <input type='text' id='professionalSignup' name='company' autocomplete='off'><br>
+  <input type='text' id='professionalSignup' name='company' autocomplete='on'><br>
   <%= f.hidden_field :company, :id => 'professionalSignup1' %>
-
- <!--  <%= f.label :school, 'College/Graduated', :id => 'collegeSignUpText' %>
-  <%= f.text_field :school, :id => 'collegeSignup', :name => 'school' %><br>
-
-  <%= f.label :company, 'Professional', :id => 'professionalSignUpText' %>
-  <%= f.text_field :company, :id => 'professionalSignup', :name => 'company' %><br> -->
 
 
   <label id='locationSignUpText'>Location</label>
 
   <label id='nyCheck' class='signupOption'>
-    <!-- <input id='ny' name='location' class='signupCheckBox' type='checkbox' value="NYC/NJ" style='opacity:0;'> -->
+
     <%= f.check_box :location, :id => 'ny', :name => 'location', :class => 'signupCheckBox', :value => 'NYC/NJ', :style => 'opacity:0;' %>
     <span id='checkboxText'>NYC/NJ</span></label><br>
     <label id='eastCoastCheck' class='signupOption'>
-<!--       <input id='eastCoast' name='location' class='signupCheckBox' type='checkbox' value="East Coast" style='opacity:0;'> -->
+
   <%= f.check_box :location, :id => 'eastCoast', :name => 'location', :class => 'signupCheckBox', :value => 'East Coast', :style => 'opacity:0;' %>
     <span id='checkboxText'>Other (East Coast)</span></label><br>
     <label id='usaCheck' class='signupOption'>
-    <!-- <input id='usa' name='location' class='signupCheckBox' type='checkbox' value="USA" style='opacity:0;'> -->
+
     <%= f.check_box :location, :id => 'usa', :name => 'location', :class => 'signupCheckBox', :value => 'USA', :style => 'opacity:0;' %>
     <span id='checkboxText'>Other (USA)</span></label><br>
     <label id='internationalCheck' class='signupOption'>
-<!--     <input id='international' name='location' class='signupCheckBox' type='checkbox' value="International"style='opacity:0;'> -->
+
     <%= f.check_box :location, :id => 'international', :name => 'location', :class => 'signupCheckBox', :value => 'International', :style => 'opacity:0;' %>
     <span id='checkboxText'>Other (International)</span></label>
     <%= f.hidden_field :location, :id => 'location' %>
@@ -547,9 +540,9 @@ $(".aboutSelect").mouseover(function(){
   
  <%= f.submit "Sign Me Up!", :id => 'signupButton' %>
 
-<!-- <button id='signupButton' type='submit'>Sign Me Up!</button> -->
+
 <% end %>
-<!-- </form> -->
+
 
 </div> 
 
