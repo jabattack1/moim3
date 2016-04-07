@@ -2499,6 +2499,22 @@ a.back-to-top:hover{
 	border-color:#1BAAC6;*/
 }
 
+#usersEditContent {
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
+	position: absolute;
+	margin-top:0px;
+	margin-left:0px;
+	width:1260px;
+	height:1330px;
+	background-color:white;
+	z-index:8;
+	/*width:1800px;*/
+	/*border-top:solid;
+	border-width:7px;
+	border-color:#1BAAC6;*/
+}
+
 #usersContent {
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight: normal;
@@ -7483,6 +7499,24 @@ width:1200px;
     z-index: 9;
 }
 
+#signUpEdit{
+	/*position:absolute;*/
+	/*margin-top:100px;*/
+	/*width:1260px;*/
+    display: table;
+    margin: 0 auto;
+    margin-top:125px;
+    background-color:white;
+    padding-left:70px;
+    padding-right:70px;
+    padding-top:40px;
+    padding-bottom:40px;
+    border-style:solid;
+    border-color:black;
+    border-width:3px;
+    z-index: 9;
+}
+
 /****user Sign up****/
 #signUp{
 	/*position:absolute;*/
@@ -7503,6 +7537,17 @@ width:1200px;
 }	
 
 #requiredStar{
+	position:absolute;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:normal;
+	margin-left:318px;
+	margin-top: 130px;
+	width:100px;
+	font-size: 10px;
+	z-index:8;
+}
+
+#requiredStar1{
 	position:absolute;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight:normal;
@@ -7552,6 +7597,14 @@ width:1200px;
 	text-align: left;
 }
 #passwordSignUpText2{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:bold;
+	margin-left:0px;
+	width:300px;
+	/*background-color:black;*/
+	text-align: left;
+}
+#passwordSignUpText3{
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight:bold;
 	margin-left:0px;
@@ -7668,6 +7721,30 @@ width:1200px;
 	color:black;
 }
 
+#emailButton1{
+	position:absolute;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:4px;
+	padding-right:4px;
+	background-color:black;
+    color:white;
+    margin-left:310px;
+    outline:0;
+    text-align: center;
+    border-style:solid;
+    border-color:black;
+    border-width:1px;
+}
+
+#emailButton1:active{
+	background-color:white;
+	color:black;
+}
+
 #usernameButton{
 	position:absolute;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
@@ -7715,6 +7792,32 @@ width:1200px;
 #signupButton:active{
 	background-color:#66E5FF;
 	border-color:#66E5FF;
+	color:white;
+	outline:0;
+}
+
+#signupButton1{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight:bold;
+	font-size: 12px;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:5px;
+	padding-right:5px;
+	background-color:white;
+	border-style:solid;
+    border-color:#E83A3A;
+    border-width:4px;
+    color:#E83A3A;
+    /*margin: 0 auto;*/
+    display: table;
+    outline:0;
+    text-align: center;
+}
+
+#signupButton1:active{
+	background-color:#FF3D3D;
+	border-color:#FF3D3D;
 	color:white;
 	outline:0;
 }
@@ -7789,7 +7892,7 @@ width:1200px;
 	font-size: 9px;
 	position:absolute;
 	margin-top:18px;
-	margin-left:320px;
+	margin-left:310px;
 }
 
 #emailSayYes{
@@ -7798,6 +7901,14 @@ width:1200px;
 	position:absolute;
 	margin-top:-730px;
 	margin-left:747px;
+}
+
+#emailSayYes1{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 9px;
+	position:absolute;
+	margin-top:-860px;
+	margin-left:737px;
 }
 
 #usernameSayYes{
@@ -7814,6 +7925,14 @@ width:1200px;
 	position:absolute;
 	margin-top:-730px;
 	margin-left:747px;
+}
+
+#emailSayNo1{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 9px;
+	position:absolute;
+	margin-top:-860px;
+	margin-left:737px;
 }
 
 #usernameSayNo{
@@ -7920,6 +8039,14 @@ width:1200px;
 	margin-left:8px;
 }
 
+#confirmSay1{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 11px;
+	position:absolute;
+	margin-top:122px;
+	margin-left:0px;
+}
+
 #monthSay{
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-size: 8px;
@@ -7952,6 +8079,38 @@ width:1200px;
 	margin-left:322px;
 }
 
+#monthSay1{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 8px;
+	position:absolute;
+	margin-top:280px;
+	margin-left:84px;
+}
+
+#daySay1{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 8px;
+	position:absolute;
+	margin-top:280px;
+	margin-left:151px;
+}
+
+#yearSay1{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 8px;
+	position:absolute;
+	margin-top:280px;
+	margin-left:216px;
+}
+
+#birthdaySay1{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 9px;
+	position:absolute;
+	margin-top:269px;
+	margin-left:312px;
+}
+
 
 
 #emailSignup{
@@ -7966,12 +8125,24 @@ width:1200px;
 	width:220px;
 }
 
+#passwordSignupEdit{
+	height:30px;
+	margin-left:-225px;
+	width:220px;
+}
+
 #passwordSignup{
 	height:30px;
 	margin-left:-333px;
 	width:220px;
 }
 #passwordSignup2{
+	height:30px;
+	margin-left:10px;
+	width:220px;
+}
+
+#passwordSignup3{
 	height:30px;
 	margin-left:10px;
 	width:220px;
@@ -8193,6 +8364,13 @@ width:1200px;
 	font-style:normal;
 }
 
+#minimum1{
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size:10px;	
+	font-style:normal;
+	color:red;
+}
+
 #error_explanation{
 	margin-left:-372px;
 	position:absolute;
@@ -8249,6 +8427,13 @@ width:1200px;
 	margin-left:410px;
 }
 
-
+#editHeading{
+	position:absolute;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size:18px;
+	margin-top:103px;
+	margin-left:315px;
+	text-transform: uppercase;
+}
 
 
