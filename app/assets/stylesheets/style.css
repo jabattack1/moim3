@@ -2933,8 +2933,9 @@ a.back-to-top:hover{
     /*margin-left:0px;*/
     z-index:8;
     width:1260px;
-    height:240px;
+    height:235px;
     background-color:#1BAAC6;
+    /*border-top: 3.0px solid black;*/
     /*background-color:#161616;*/
 /*    right: 0;
   	bottom: 0;
@@ -2998,9 +2999,40 @@ a.back-to-top:hover{
   	left: 0;*/
 }
 
+#address{
+	position:absolute;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    margin-left:930px;
+    margin-top:40px;
+    color:black;
+}
+
+#addressa{
+	position:absolute;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    margin-left:930px;
+    margin-top:65px;
+    color:black;
+}
+
+#addressb{
+	position:absolute;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    margin-left:930px;
+    margin-top:90px;
+    color:black;
+}
+
 #contactContent{
 	margin-left:30px;	
 	margin-top:15px;
+
 }
 
 #contactHeading{
@@ -3008,7 +3040,7 @@ a.back-to-top:hover{
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
     font-weight: normal;
     font-size: 20px;
-    color:black;
+    color:white;
     z-index:9;
     margin-left:30px;
     margin-top:10px;
@@ -3162,12 +3194,13 @@ a.back-to-top:hover{
 	/*background-color:#161616;*/
 	background-color:white;
 	width:1260px;
-	height:50px;
+	height:40px;
 	margin-top:180px;
 	/*bottom:0;*/
 	z-index:9;
-	border-top: 3.5px solid black;
-}
+/*	border-top: 3.0px solid black;
+	border-bottom: 3.0px solid black;
+*/}
 
 #contactBottomUsers{
 	position:absolute;
@@ -3208,6 +3241,7 @@ a.back-to-top:hover{
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight: normal;
 	font-size: 13px;
+	margin-top:-4px;
 }
 
 #bottomContentWelcome{
@@ -3218,6 +3252,16 @@ a.back-to-top:hover{
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight: normal;
 	font-size: 13px;
+}
+
+#tax{
+	position:absolute;
+	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: normal;
+	font-size: 13px;
+	color:black;
+	margin-left:570px;
+	margin-top:12px;
 }
 
 #welcomeAddress{
@@ -3291,24 +3335,24 @@ width:100px;
 
 #fb_small{
 	position:absolute;
-	margin-top:4px;
-	margin-left:1110px;
+	margin-top:0px;
+	margin-left:930px;
 	height:35px;
 	width:35px;
 }
 
 #insta_small{
 	position:absolute;
-	margin-top:4px;
-	margin-left:1150px;
+	margin-top:0px;
+	margin-left:970px;
 	height:35px;
 	width:35px;
 }
 
 #youtube_small{
 	position:absolute;
-	margin-top:4px;
-	margin-left:1190px;
+	margin-top:0px;
+	margin-left:1010px;
 	height:35px;
 	width:35px;
 }
