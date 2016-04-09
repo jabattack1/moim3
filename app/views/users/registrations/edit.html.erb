@@ -26,7 +26,7 @@ var usernameRequired = "<p id='usernameRequired'>Username Required</p>";
         return /^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))$/i.test(value);
     }
 
-$('#signupButton').click(function (e) {
+$('#signupButton2').click(function (e) {
   var month= $('#monthSignup').val();
   var day= $('#daySignup').val();
   var year= $('#yearSignup').val();
@@ -444,7 +444,7 @@ $(".aboutSelect").mouseover(function(){
 <div id='usersEditContent' onclick='closeLogin();'>
 
 <p id='editHeading'>Edit <%= resource_name.to_s.humanize %></p>
-<p id='requiredStar1'><span id='required'>*&nbsp;</span>= Required Field</p>
+<!-- <p id='requiredStar1'><span id='required'>*&nbsp;</span>= Required Field</p> -->
 <div id='signUpEdit'>
 <p id='emailSay'>Verification email will be sent to this address.</p>
 <p id='emailSay1'>Email availability.</p>
@@ -458,21 +458,21 @@ $(".aboutSelect").mouseover(function(){
 <button id='usernameButton' type='submit' >Check</button>
 </form> -->
 
-<p id='confirmSay1'>(Confirmation)</p>
-<p id='monthSay1'>MONTH</p>
-<p id='daySay1'>DAY</p>
-<p id='yearSay1'>YEAR</p>
-<p id='birthdaySay1'>example: 06-23-1991</p>
+<!-- <p id='confirmSay1'>(Confirmation)</p> -->
+<!-- <p id='monthSay1'>MONTH</p> -->
+<!-- <p id='daySay1'>DAY</p> -->
+<!-- <p id='yearSay1'>YEAR</p> -->
+<!-- <p id='birthdaySay1'>example: 06-23-1991</p> -->
 
-
+ 
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
   <%= devise_error_messages! %>
 
   <div class="field">
-    <%= f.label :email, :id => 'emailSignUpText' %>
-    <%= f.email_field :email, autofocus: true, :id => 'emailSignup' %>
-  </div><br>
+ <%= f.label :email, :id => 'emailSignUpText' %> 
+  <%= f.email_field :email, autofocus: true, :id => 'emailSignup', :value => resource.email %>
+  </div><br> 
 
 <!--     <div class="field">
     <%= f.label :username, :id => 'usernameSignUpText' %>
@@ -480,10 +480,10 @@ $(".aboutSelect").mouseover(function(){
   </div><br> -->
 
   <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
-    <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
+    <div id='waiting'>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
   <% end %>
 
-  <div class="field">
+<!--   <div class="field">
     <%= f.label :password, :id => 'passwordSignUpText' %> 
     <%= f.password_field :password, autocomplete: "off", :id => 'passwordSignupEdit' %>
     <i id='minimum'>(leave blank if you don't want to change it)</i>
@@ -492,30 +492,30 @@ $(".aboutSelect").mouseover(function(){
   <div class="field">
     <%= f.label :password_confirmation, 'Password', :id => 'passwordSignupText2' %>
     <%= f.password_field :password_confirmation, autocomplete: "off", :id => 'passwordSignup2' %>
-  </div><br>
+  </div><br> -->
 
 
   <div class="field">
   <%= f.label :first_name, :id => 'firstnameSignUpText' %>
-  <%= f.text_field :first_name, :id => 'firstnameSignup' %>
+  <%= f.text_field :first_name, :id => 'firstnameSignup', :value => resource.first_name %>
   </div><br>
   
   <div class="field">
   <%= f.label :last_name, :id => 'lastnameSignUpText' %>
-  <%= f.text_field :last_name, :id => 'lastnameSignup' %>
+  <%= f.text_field :last_name, :id => 'lastnameSignup', :value => resource.last_name %>
   </div><br>
 
-  <div class="field">
+<!--   <div class="field">
     <%= f.label :dob, 'Birthday', :id => 'birthdaySignUpText' %>
-    <input type='text' name='month' id='monthSignup' minlength='2' maxlength='2' onkeypress='return isNumberKey(event)' autocomplete='off'>&nbsp;&nbsp;&nbsp;
-    <input type='text' name='day' id='daySignup' minlength='2' maxlength='2' onkeypress='return isNumberKey(event)' autocomplete='off' >&nbsp;&nbsp;&nbsp;
-    <input type='text' name='year' id='yearSignup' minlength='4' maxlength='4' onkeypress='return isNumberKey(event)' autocomplete='off' >
+    <input type='text' name='month' id='monthSignup' minlength='2' maxlength='2' onkeypress='return isNumberKey(event)' autocomplete='off' value= '<%= resource.dob[0]+ resource.dob[1] %>'>&nbsp;&nbsp;&nbsp;
+    <input type='text' name='day' id='daySignup' minlength='2' maxlength='2' onkeypress='return isNumberKey(event)' autocomplete='off' value= '<%= resource.dob[2]+ resource.dob[3] %>'>&nbsp;&nbsp;&nbsp;
+    <input type='text' name='year' id='yearSignup' minlength='4' maxlength='4' onkeypress='return isNumberKey(event)' autocomplete='off' value= '<%= resource.dob[4]+ resource.dob[5]+ resource.dob[6]+ resource.dob[7] %>' >
 
 
   <%= f.hidden_field :dob, :id => 'birth' %>
-  </div><br>
+  </div><br> -->
 
-<div class="field">
+<!-- <div class="field">
 <%= f.label :gender, :id => 'genderSignUpText' %>
 
     <label id='femaleCheck' class='signupOption'>
@@ -527,22 +527,18 @@ $(".aboutSelect").mouseover(function(){
       <%= f.check_box :gender, :id => 'male', :name => 'sex', :class => 'signupCheckBox', :value => 'male', :style => 'opacity:0;' %>
       <span id='checkboxText'>MALE</span></label>
   <%= f.hidden_field :gender, :id => 'gender' %>
-</div><br>
+</div><br> -->
 
 
   <label id='affiliationSignUpText'>Affiliation</label><br>
-
-<div class="field">
   <label id='collegeSignUpText'>College/Graduated</label> 
-  <input type='text' id='collegeSignup' name='school' autocomplete='on'>
+  <input type='text' id='collegeSignup' name='school' autocomplete='on' value = <%= resource.school %>><br>
   <%= f.hidden_field :school, :id => 'collegeSignup1' %>
-</div>
-
-<div class="field">
   <label id='professionalSignUpText'>Professional</label>
-  <input type='text' id='professionalSignup' name='company' autocomplete='on'>
+  <input type='text' id='professionalSignup' name='company' autocomplete='on' value = <%= resource.company %>><br>
   <%= f.hidden_field :company, :id => 'professionalSignup1' %>
-</div><br>
+
+
 
 <div class="field">
 <label id='locationSignUpText'>Location</label>
@@ -566,24 +562,27 @@ $(".aboutSelect").mouseover(function(){
     <%= f.hidden_field :location, :id => 'location' %> 
   </div><br>
 
-  <div class="field">
+<!--   <div class="field">
     <span id='required'>*&nbsp;</span><%= f.label :current_password,  :id => 'passwordSignupText3' %> 
     <%= f.password_field :current_password, autocomplete: "off", :id => 'passwordSignup3' %><br>
   </div>
-    <i id='minimum1'>(we need your current password to confirm your changes)</i>
-  <br><br>
+    <i id='minimum1'>(we need your current password to confirm your changes)</i> -->
+  <br>
   <div class="actions">
-    <%= f.submit "Update", :id => 'signupButton' %>
+    <%= f.submit "Update", :id => 'signupButton2', data: { confirm: "Are you sure?" } %>
   </div>
 <% end %>
 
 <br>
-<p>CANCEL ACCOUNT <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete, :id => 'signupButton1' %></p>
+<p>CANCEL ACCOUNT <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "We Hate to see you go. Are you sure?" }, method: :delete, :id => 'signupButton1' %></p>
 
 <!-- <%= link_to "Back", :back %> -->
 
 </div> 
-
+<div flash_notice id='flashMessage1'></div>
+<% flash.each do |name, msg| %>
+      <%= content_tag :div, msg, :id => "flash_#{name}", :class => 'flashMessage1' %>
+<% end %>
 
 <script type="text/javascript">
   $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');

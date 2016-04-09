@@ -1,5 +1,23 @@
 class Users::RegistrationsController < Devise::RegistrationsController
-  binding.pry
+
+  before_filter :configure_permitted_parameters, if: :devise_controller?
+
+  def configure_permitted_parameters
+    devise_parameter_sanitizer.for(:sign_up) { |u| u.permit(:email, :username, :gender, :password, :password_confirmation, :first_name, :last_name, :dob, :school, :company, :location) }
+    devise_parameter_sanitizer.for(:account_update) { |u| u.permit(:email, :first_name, :last_name, :school, :company, :location) }
+  end
+
+  # before_filter :configure_permitted_parameters
+
+  # def configure_permitted_parameters
+  #   devise_parameter_sanitizer.for(:account_update).push(:first_name, :last_name, :school, :company)
+  # end
+
+# before_filter :configure_permitted_parameters
+
+# def configure_permitted_parameters
+#   devise_parameter_sanitizer.for(:account_update) { |u| u.permit(:first_name, :last_name, :school, :company, :location)}
+# end
 # before_filter :configure_sign_up_params, only: [:create]
 # before_filter :configure_account_update_params, only: [:update]
   # GET /resource/sign_up
@@ -58,8 +76,8 @@ class Users::RegistrationsController < Devise::RegistrationsController
   # def after_inactive_sign_up_path_for(resource)
   #   super(resource)
   # end
-  prepend_before_action :require_no_authentication, only: [:new, :create, :cancel]
-  prepend_before_action :authenticate_scope!, only: [:edit, :update, :destroy]
+  # prepend_before_action :require_no_authentication, only: [:new, :create, :cancel]
+  # prepend_before_action :authenticate_scope!, only: [:edit, :update, :destroy]
 
   # GET /resource/sign_up
   def new
@@ -101,6 +119,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
   # We need to use a copy of the resource because we don't want to change
   # the current user in place.
   def update
+
     self.resource = resource_class.to_adapter.get!(send(:"current_#{resource_name}").to_key)
     prev_unconfirmed_email = resource.unconfirmed_email if resource.respond_to?(:unconfirmed_email)
 
@@ -113,7 +132,8 @@ class Users::RegistrationsController < Devise::RegistrationsController
         set_flash_message :notice, flash_key
       end
       sign_in resource_name, resource, bypass: true
-      respond_with resource, location: after_update_path_for(resource)
+      # respond_with resource, location: after_update_path_for(resource)
+      redirect_to '/users/edit'
     else
       clean_up_passwords resource
       respond_with resource
@@ -203,4 +223,6 @@ class Users::RegistrationsController < Devise::RegistrationsController
   def translation_scope
     'devise.registrations'
   end
+
+
 end
