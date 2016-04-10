@@ -192,7 +192,7 @@ margin-top:150px;
   background:url()center top;
   /*background-size: 1200px;*/
   background-size: 1200px;
-  background-color:#EDEDED;
+  background-color:#CECECE;
   background-repeat: no-repeat;
 	/*min-width:960px ;*/
   	/*height: 100%;*/
@@ -1406,8 +1406,8 @@ margin-top:150px;
             list-style:none; 
         /* get rid of any default or inherited margins and padding: */
             margin-top:32px; 
-            margin-right:150px; 
-            float:right;
+            margin-left:100px;
+            /*float:right;*/
             
         /* styling: */
             font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
