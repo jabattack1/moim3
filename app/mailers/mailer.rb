@@ -21,3 +21,4 @@ if defined?(ActionMailer)
       devise_mail(record, :password_change, opts)
     end
   end
+end
