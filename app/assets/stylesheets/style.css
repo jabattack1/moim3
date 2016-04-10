@@ -2251,10 +2251,10 @@ a.back-to-top:hover{
 #firstQuote{
 	position:absolute;
 	margin-top:6px;
-	margin-left: 15px;
-	width:500px;
+	margin-left: 455px;
+	width:400px;
 	z-index:7;
-	color:black;
+	color:white;
 	font-weight:bold;
 	/*font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
             font-weight: normal;*/
@@ -3229,7 +3229,7 @@ a.back-to-top:hover{
 
 #welcomeBottom1{
 	position:absolute;
-	background-color:white;
+	background-color:#161616;
 	width:960px;
 	height:30px;
 	margin-top:520px;
@@ -3250,7 +3250,7 @@ a.back-to-top:hover{
 
 #bottomContentWelcome{
 	position:absolute;
-	color:black;
+	color:white;
 	margin-left:15px;
 	padding-top:8px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
