@@ -38,7 +38,7 @@ config.action_mailer.perform_deliveries = true
   # Disable serving static files from the `/public` folder by default since
   # Apache or NGINX already handles this.
   config.serve_static_files = ENV['RAILS_SERVE_STATIC_FILES'].present?
-
+    config.secret_key = '6bb3d31e972ef170e998ad99df08a8dbac7e461666586013ca6bd150c0b36220a0232c759f9fb642b37efb3fafd69630e2215da84fa9b22ad05b82d02d345229'
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
