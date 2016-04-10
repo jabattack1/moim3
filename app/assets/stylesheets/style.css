@@ -197,7 +197,7 @@ margin-top:150px;
 	/*min-width:960px ;*/
   	/*height: 100%;*/
   	width:960px;
-  	height: 3800px;
+  	height: 3670px;
   	margin: 0 auto;
   position:relative;
   /*overflow-x:hidden;*/
@@ -2937,7 +2937,7 @@ a.back-to-top:hover{
     /*margin-left:0px;*/
     z-index:8;
     width:960px;
-    height:195px;
+    height:175px;
     background-color:#1BAAC6;
     /*border-top: 3.0px solid black;*/
     /*background-color:#161616;*/
@@ -3007,9 +3007,9 @@ a.back-to-top:hover{
 	position:absolute;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
     font-weight: normal;
-    font-size: 15px;
-    margin-left:930px;
-    margin-top:40px;
+    font-size: 13px;
+    margin-left:670px;
+    margin-top:30px;
     color:black;
 }
 
@@ -3017,9 +3017,9 @@ a.back-to-top:hover{
 	position:absolute;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
     font-weight: normal;
-    font-size: 15px;
-    margin-left:930px;
-    margin-top:65px;
+    font-size: 13px;
+    margin-left:670px;
+    margin-top:50px;
     color:black;
 }
 
@@ -3027,9 +3027,9 @@ a.back-to-top:hover{
 	position:absolute;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
     font-weight: normal;
-    font-size: 15px;
-    margin-left:930px;
-    margin-top:90px;
+    font-size: 13px;
+    margin-left:670px;
+    margin-top:70px;
     color:black;
 }
 
@@ -3076,9 +3076,9 @@ a.back-to-top:hover{
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight: normal;
 	z-index:9;
-	margin-top:40px;
+	margin-top:30px;
 	margin-left:0px;
-	font-size: 15px;
+	font-size: 13px;
     color:black;
 }
 
@@ -3087,9 +3087,9 @@ a.back-to-top:hover{
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight: normal;
 	z-index:9;
-	margin-top:65px;
+	margin-top:50px;
 	margin-left:0px;
-	font-size: 15px;
+	font-size: 13px;
     color:black;
 }
 
@@ -3098,9 +3098,9 @@ a.back-to-top:hover{
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight: normal;
 	z-index:9;
-	margin-top:90px;
+	margin-top:70px;
 	margin-left:0px;
-	font-size: 15px;
+	font-size: 13px;
     color:black;
 }
 
@@ -3196,10 +3196,10 @@ a.back-to-top:hover{
 #contactBottom{
 	position:absolute;
 	/*background-color:#161616;*/
-	background-color:white;
+	background-color:#161616;
 	width:960px;
-	height:40px;
-	margin-top:140px;
+	height:30px;
+	margin-top:130px;
 	/*bottom:0;*/
 	z-index:9;
 /*	border-top: 3.0px solid black;
@@ -3239,13 +3239,13 @@ a.back-to-top:hover{
 
 #bottomContent{
 	position:absolute;
-	color:black;
+	color:white;
 	margin-left:30px;
 	padding-top:15px;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight: normal;
-	font-size: 13px;
-	margin-top:-4px;
+	font-size: 9px;
+	margin-top:-7px;
 }
 
 #bottomContentWelcome{
@@ -3263,10 +3263,10 @@ a.back-to-top:hover{
 	position:absolute;
 	font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight: normal;
-	font-size: 13px;
-	color:black;
-	margin-left:570px;
-	margin-top:12px;
+	font-size: 10px;
+	color:white;
+	margin-left:420px;
+	margin-top:8px;
 }
 
 #welcomeAddress{
@@ -3340,26 +3340,26 @@ width:100px;
 
 #fb_small{
 	position:absolute;
-	margin-top:0px;
-	margin-left:930px;
-	height:35px;
-	width:35px;
+	margin-top:-3px;
+	margin-left:670px;
+	height:27px;
+	width:27px;
 }
 
 #insta_small{
 	position:absolute;
-	margin-top:0px;
-	margin-left:970px;
-	height:35px;
-	width:35px;
+	margin-top:-3px;
+	margin-left:697px;
+	height:27px;
+	width:27px;
 }
 
 #youtube_small{
 	position:absolute;
-	margin-top:0px;
-	margin-left:1010px;
-	height:35px;
-	width:35px;
+	margin-top:-3px;
+	margin-left:724px;
+	height:27px;
+	width:27px;
 }
 
 #fb_smallWelcome{
