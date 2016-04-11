@@ -2532,6 +2532,7 @@ z-index:8;
 /*border-top:solid;
 border-width:7px;
 border-color:#1BAAC6;*/
+
 }
 
 #usersContentAlert {
@@ -4791,18 +4792,13 @@ width:1260px;
 }
 
 #usersPage{
-/*background: url() no-repeat;*/
-  /*background-color:black;*/
   background:url()center top;
   background-size: 1200px;
-  background-color:#161616;
-  /*background-repeat: repeat-y;*/
-width:1260px;
-  height: 1010px;
-  min-height: 100%;
-  /*margin: 0 auto;*/
-  position:relative;
-  overflow:auto;
+  background-color:#EFEFEF;
+  width:1260px;
+  height: 1010px;  
+  margin: 0 auto;
+  position:relative;  
 }
 
 #UserAlertPage{
@@ -8245,7 +8241,7 @@ width:220px;
 }
 #passwordSignup2{
 height:30px;
-margin-left:20px;
+margin-left:10px;
 width:220px;
 }
 
