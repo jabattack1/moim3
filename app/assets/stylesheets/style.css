@@ -1388,11 +1388,11 @@ width: 1260px;
 }
 
 #top_banner_users {
-background-image: url();
-position: fixed;
-margin-top:15px;
-margin-left:0px;
-width: 1260px;
+	background-image: url();
+	position: fixed;
+	margin-top:15px;
+	margin-left:0px;
+	width: 1260px;
  	height: 64px;
  	text-shadow: 2px 2px 2px #000;
  	background-color:#161616;

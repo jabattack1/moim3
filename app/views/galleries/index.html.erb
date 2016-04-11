@@ -6,30 +6,6 @@
 <body id='galleriesPage'>
 
 <script type="text/javascript" charset="utf-8">
-
-
-$(document).ready(function() {
-            $('#gallery').finalTilesGallery({onComplete: function(){
-                // console.log("completed");
-                var total_height = parseInt($('#gallery').height()) + 340;
-                // console.log(total_height);
-                $('#galleriesContent').height(total_height);
-            }});
-        });
-
-
-$(document).ready(function() {
-$('#header1').waypoint(function() {
-   $('#welcomeBottom1').fadeOut();
-});
-});
-
-$(document).ready(function() {
-$('#header').waypoint(function() {
-   $('#welcomeBottom1').fadeIn( "slow" );
-});
-});
-
 $(document).ready(function() {
 $('#header2').waypoint(function() {
   $( "#top_helper_users" ).animate({
@@ -62,6 +38,29 @@ $('#header1').waypoint(function() {
   }, 200 );
 });
 });
+
+$(document).ready(function() {
+            $('#gallery').finalTilesGallery({onComplete: function(){
+                // console.log("completed");
+                var total_height = parseInt($('#gallery').height()) + 340;
+                // console.log(total_height);
+                $('#galleriesContent').height(total_height);
+            }});
+        });
+
+
+$(document).ready(function() {
+$('#header1').waypoint(function() {
+   $('#welcomeBottom1').fadeOut();
+});
+});
+
+$(document).ready(function() {
+$('#header').waypoint(function() {
+   $('#welcomeBottom1').fadeIn( "slow" );
+});
+});
+
 </script>
 
 <script type="text/javascript">
