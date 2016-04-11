@@ -472,13 +472,15 @@ $(".aboutSelect").mouseover(function(){
   <%= f.text_field :username, :id => 'usernameSignup' %><br><br>
 
   <span id='required'>*&nbsp;</span><%= f.label :password, :id => 'passwordSignUpText'%>
+  <%= f.password_field :password, autocomplete: "off", :id => 'passwordSignup' %>
   <% if @minimum_password_length %>
   <em id='minimum'>(<%= @minimum_password_length %> characters minimum)</em>
   <% end %>
-  <%= f.password_field :password, autocomplete: "off", :id => 'passwordSignup' %><br><br>
+  <br><br>
  
   <span id='required'>*&nbsp;</span><%= f.label :password_confirmation, 'Password', :id => 'passwordSignupText2' %>
-  <%= f.password_field :password_confirmation, autocomplete: "off", :id => 'passwordSignup2' %><br><br>
+  <%= f.password_field :password_confirmation, autocomplete: "off", :id => 'passwordSignup2' %>
+  <br><br>
 
   <span id='required'>*&nbsp;</span></label><%= f.label :first_name, :id => 'firstnameSignUpText' %>
   <%= f.text_field :first_name, :id => 'firstnameSignup' %><br><br>
