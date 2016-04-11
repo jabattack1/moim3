@@ -689,7 +689,7 @@ cursor:pointer;
 position:absolute;
 width:110px;
 top:2px;
-margin-left:10px;
+margin-left:40px;
 margin-top:14px;
 }
 
@@ -2255,7 +2255,7 @@ height: 620px;
 #firstQuote{
 position:absolute;
 margin-top:13px;
-margin-left: 540px;
+margin-left: 620px;
 width:500px;
 z-index:7;
 color:white;
