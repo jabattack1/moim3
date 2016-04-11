@@ -7962,7 +7962,8 @@ cursor: pointer;
 }
 
 #checkboxText{
-margin-left:-10px;
+margin-left:-14px;
+/*text-align: center;*/
 }
 
 .highlight{
