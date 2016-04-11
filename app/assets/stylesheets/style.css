@@ -3048,7 +3048,7 @@ position:absolute;
 font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
     font-weight: normal;
     font-size: 20px;
-    color:white;
+    color:black;
     z-index:9;
     margin-left:30px;
     margin-top:10px;
@@ -3210,7 +3210,7 @@ cursor: pointer;
 #contactBottom{
 position:absolute;
 /*background-color:#161616;*/
-background-color:black;
+background-color:#C6C6C6;
 width:1260px;
 height:40px;
 margin-top:140px;
@@ -3253,7 +3253,7 @@ z-index:9;
 
 #bottomContent{
 position:absolute;
-color:white;
+color:black;
 margin-left:30px;
 padding-top:15px;
 font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
@@ -3278,7 +3278,7 @@ position:absolute;
 font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 font-weight: normal;
 font-size: 13px;
-color:white;
+color:black;
 margin-left:570px;
 margin-top:12px;
 }
@@ -5116,7 +5116,7 @@ position:absolute;
 /*background-color: black;*/
 margin-top:1180px;
 margin-left:16px;
-width:1245px;
+width:1240px;
 height:265px;
 }
 
