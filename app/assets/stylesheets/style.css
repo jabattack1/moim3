@@ -1304,6 +1304,10 @@ background-color:#161616;
 z-index: 10;
 }
 
+/*#aboutTag{
+	position:absolute;
+}*/
+
 #top_bannerUsers {
 background-image: url();
 position: absolute;
@@ -1401,7 +1405,7 @@ width: 1260px;
         }
         .navigation ul{
         /* positioning */
-        position:relative;
+        /*position:relative;*/
             z-index:1000;
         /* remove the dots next to list items: */
             list-style:none; 
@@ -4867,8 +4871,13 @@ width:1260px;
 }
 
 #galleriesPage{
-background-color:#161616;
-width:1260px;
+  background:url()center top;
+  background-size: 1260px;
+  background-color:#EFEFEF;
+  width:1260px;
+  /*height: 1010px;  */
+  margin: 0 auto;
+  position:relative;
 }
 
 
@@ -7763,12 +7772,14 @@ text-align: left;
 
 
 #emailSignUp{
-margin-left:100px;
-width:200px;
-height:100px;
+	position:absolute;
+	margin-left:100px;
+	width:200px;
+	height:100px;
 }
 
 #usernameSignUp{
+	position:absolute;
 margin-left:100px;
 width:300px;
 }
@@ -8235,6 +8246,7 @@ width:220px;
 }
 
 #passwordSignup{
+
 height:30px;
 margin-left:-223px;
 width:220px;
