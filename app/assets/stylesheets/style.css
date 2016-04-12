@@ -187,9 +187,14 @@ margin-top:150px;
 }
 
 #welcomeBody {
-  /*background: url() no-repeat;*/
+	background: url("white.jpg")) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*background: url() repeat;*/
   /*background-color:black;*/
-  background:url()center top;
+ /* background:url("white.jpg")center top;*/
   /*background-size: 1200px;*/
   background-size: 1200px;
   background-color:#EFEFEF;
