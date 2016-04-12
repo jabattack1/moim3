@@ -187,25 +187,20 @@ margin-top:150px;
 }
 
 #welcomeBody {
-  background: url("http://i1301.photobucket.com/albums/ag119/jabattack1/white_zpsxyzkjneq.jpg") no-repeat center center fixed; 
+ /* background: url("http://i1301.photobucket.com/albums/ag119/jabattack1/white_zpsxyzkjneq.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  /*background: url() repeat;*/
-  /*background-color:black;*/
- /* background:url("white.jpg")center top;*/
-  /*background-size: 1200px;*/
+  background-size: cover;*/
+
   background-size: 1200px;
-  /*background-color:#EFEFEF;*/
-  /*background-repeat: no-repeat;*/
-/*min-width:1260px ;*/
-  /*height: 100%;*/
+  background-color:#EFEFEF;
+
   width: 1260px;
   height: 3800px;
   margin: 0 auto;
   position:relative;
-  /*overflow-x:hidden;*/
+
 }
 
 #chroniclePage{
