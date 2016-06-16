@@ -693,6 +693,26 @@ margin-left:40px;
 margin-top:14px;
 }
 
+#logoMoimBottom{
+position:absolute;
+width:190px;
+top:0px;
+margin-left:770px;
+margin-top:0px;
+}
+
+#logoMoim:hover{
+cursor:pointer;
+-webkit-filter: invert(50%) !important;
+}
+
+#logoMoimBottom:hover{
+cursor:pointer;
+-webkit-filter: invert(50%) !important;
+}
+
+
+
 #logoMoimLogIn{
 -webkit-filter: invert(100%) !important;
 position:relative;
@@ -1278,12 +1298,6 @@ margin-top:975px;
 }
 
 /******/
-
-#logoMoim:hover{
-cursor:pointer;
--webkit-filter: invert(50%) !important;
-}
-
 #top_helper {
 position: fixed;
 margin-top:0px;
@@ -2357,7 +2371,7 @@ position: absolute;
 margin-top:620px;
 margin-left:0px;
 width: 1260px;
-height:3200px;
+height:3300px;
 background-color:white;
 z-index:9;
 /*width:1800px;*/
@@ -2935,14 +2949,14 @@ bottom:0;
 
 
 #contactUsInvolved{
-position:absolute;
-bottom:0;
+    position:absolute;
+    bottom:0;
     /*margin-top:1205px;*/
     /*margin-left:0px;*/
     z-index:8;
     width:1260px;
-    height:195px;
-    background-color:#1BAAC6;
+    height:355px;
+    background-color:#161616;
     /*border-top: 3.0px solid black;*/
     /*background-color:#161616;*/
 /*    right: 0;
@@ -3038,9 +3052,10 @@ font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', 
 }
 
 #contactContent{
-margin-left:30px;
-margin-top:15px;
-
+margin-left:60px;
+margin-top:40px;
+position:absolute;
+width:800px;
 }
 
 #contactHeading{
@@ -3048,7 +3063,7 @@ position:absolute;
 font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
     font-weight: normal;
     font-size: 20px;
-    color:black;
+    color:white;
     z-index:9;
     margin-left:30px;
     margin-top:10px;
@@ -3082,8 +3097,8 @@ font-weight: normal;
 z-index:9;
 margin-top:40px;
 margin-left:0px;
-font-size: 15px;
-    color:black;
+font-size: 19px;
+    color:white;
 }
 
 #contactLines2{
@@ -3093,8 +3108,8 @@ font-weight: normal;
 z-index:9;
 margin-top:60px;
 margin-left:0px;
-font-size: 15px;
-    color:black;
+font-size: 19px;
+    color:white;
 }
 
 #contactLines3{
@@ -3104,8 +3119,8 @@ font-weight: normal;
 z-index:9;
 margin-top:80px;
 margin-left:0px;
-font-size: 15px;
-    color:black;
+font-size: 19px;
+    color:white;
 }
 
 #contactLines4{
@@ -3115,8 +3130,8 @@ font-weight: normal;
 z-index:9;
 margin-top:100px;
 margin-left:0px;
-font-size: 15px;
-    color:black;
+font-size: 19px;
+    color:white;
 }
 
 #contactLines1Welcome{
@@ -3169,14 +3184,14 @@ margin-top:50px;
 
 #emailLink{
 /*color: #1BAAC6; */
-color:white;
+color:#00ACCE;
 text-decoration: none;
 z-index:10;
 /*font-weight:bold;*/
 }
 
 #emailLink:hover{
-color:#66E5FF;
+color:white;
 text-decoration: underline;
 }
 
@@ -3210,10 +3225,10 @@ cursor: pointer;
 #contactBottom{
 position:absolute;
 /*background-color:#161616;*/
-background-color:#CCCCCC;
+background-color:#161616;
 width:1260px;
 height:40px;
-margin-top:140px;
+margin-top:270px;
 /*bottom:0;*/
 z-index:9;
 /*	border-top: 3.0px solid black;
@@ -3253,12 +3268,12 @@ z-index:9;
 
 #bottomContent{
 position:absolute;
-color:black;
-margin-left:30px;
+color:#AFAFAF;
+margin-left:60px;
 padding-top:15px;
 font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 font-weight: normal;
-font-size: 13px;
+font-size: 19px;
 margin-top:-4px;
 }
 
@@ -3273,14 +3288,25 @@ font-size: 13px;
 /*background-color: white;*/
 }
 
+#moimHead{
+  position:absolute;
+  font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+font-weight: bold;
+font-size: 18px;
+color:white;
+  margin-left:770px;
+  margin-top:80px;
+  width:400px;
+}
 #tax{
 position:absolute;
 font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 font-weight: normal;
-font-size: 13px;
-color:black;
-margin-left:570px;
-margin-top:12px;
+font-size: 19px;
+color:white;
+margin-left:770px;
+margin-top:100px;
+width:350px;
 }
 
 #welcomeAddress{
@@ -3299,12 +3325,12 @@ margin-top:600px;
 }
 
 #link{
-color: #1BAAC6; 
+color: #AFAFAF; 
 text-decoration: none;
 }
 
 #link:hover{
-color:#66E5FF;
+color:white;
 text-decoration: none;
 }
 
@@ -3356,26 +3382,26 @@ z-index:100;
 
 #fb_small{
 position:absolute;
-margin-top:0px;
-margin-left:930px;
-height:35px;
-width:35px;
+margin-top:-15px;
+margin-left:830px;
+height:47px;
+width:47px;
 }
 
 #insta_small{
 position:absolute;
-margin-top:0px;
-margin-left:965px;
-height:35px;
-width:35px;
+margin-top:-15px;
+margin-left:960px;
+height:47px;
+width:47px;
 }
 
 #youtube_small{
 position:absolute;
-margin-top:0px;
-margin-left:1000px;
-height:35px;
-width:35px;
+margin-top:-15px;
+margin-left:895px;
+height:47px;
+width:47px;
 }
 
 #fb_smallWelcome{
