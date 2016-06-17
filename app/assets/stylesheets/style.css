@@ -2513,10 +2513,10 @@ margin-top:2635px;
 font-family:'Montserrat';
 font-weight: normal;
 position: absolute;
-margin-top:623px;
+margin-top:403px;
 margin-left:0px;
 width:1260px;
-height:820px;
+height:935px;
 background-color:white;
 z-index:8;
 /*width:1800px;*/
@@ -2548,7 +2548,7 @@ position: absolute;
 margin-top:0px;
 margin-left:0px;
 width:1260px;
-height:1140px;
+height:1330px;
 background-color:white;
 z-index:8;
 /*width:1800px;*/
@@ -2565,7 +2565,7 @@ position: absolute;
 margin-top:0px;
 margin-left:0px;
 width:1260px;
-height:710px;
+height:820px;
 background-color:white;
 z-index:8;
 /*width:1800px;*/
@@ -2595,7 +2595,7 @@ position: absolute;
 margin-top:0px;
 margin-left:0px;
 width:1260px;
-height:670px;
+height:835px;
 background-color:white;
 z-index:8;
 /*width:1800px;*/
@@ -2611,8 +2611,8 @@ position: absolute;
 margin-top:0px;
 margin-left:0px;
 width:1260px;
-height:692px;
-background-color:#1BAAC6;
+height:780px;
+background-color:white;
 z-index:8;
 /*width:1800px;*/
 /*border-top:solid;
@@ -2627,8 +2627,8 @@ position: absolute;
 margin-top:0px;
 margin-left:0px;
 width:1260px;
-height:740px;
-background-color:#1BAAC6;
+height:835px;
+background-color:white;
 z-index:8;
 /*width:1800px;*/
 /*border-top:solid;
@@ -2675,10 +2675,10 @@ color:#00F210;
 #teamContent {
 font-family:'Montserrat';
 position: absolute;
-margin-top:623px;
+margin-top:403px;
 margin-left:0px;
 width:1260px;
-height:770px;
+height:930px;
 background-color:white;
 z-index:8;
 /*width:1800px;*/

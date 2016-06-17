@@ -10,16 +10,16 @@
 
 <script>
 var head="<h2 id='involvedBlend'>GET INVOLVED</h2>"
-var missionLine ="<img id='missionLine' src = '/assets/line.png'>"
+// var missionLine ="<img id='missionLine' src = '/assets/line.png'>"
 
 $(window).load(function() {
   $('body').append( head );
-  $('body').append( missionLine );
+  // $('body').append( missionLine );
   $('#involvedBlend').hide();
-  $('#missionLine').hide();
+  // $('#missionLine').hide();
   setTimeout(function() {
   $('#involvedBlend').fadeIn( "slow" );
-  $('#missionLine').fadeIn( "slow" );
+  // $('#missionLine').fadeIn( "slow" );
 }, 300);
 });
 
@@ -183,17 +183,17 @@ $(".aboutSelect").mouseover(function(){
 <div id='getInvolvedContent' class='animated slideInUp' onclick='closeLogin();return false;'>
 <img id='leadershipPic' src = '/assets/leadership.png'>
 <p id='sale'>
-Do you want to help organize The Biggest Parties alongside a team of passionate<br> 
+Do you want to help organize The Biggest Parties alongside a team of passionate
 individuals while giving back? Then you are in the right place.<br><br>
-Come join us to produce some of the classiest creative networking events in the<br>
+Come join us to produce some of the classiest creative networking events in the
  world, here in NYC!<br><br>
 
-MOI’M is a community of young professionals and students based in New York<br>
+MOI’M is a community of young professionals and students based in New York
  City, driven by our passion to connect people with people, ideas and<br>
   opportunities to make a difference in the quality of connections people make<br>
    that ultimately inspires a sense of community.<br><br>
 
-Our 2016 schedule will be full of exciting projects, and we want to invite you to<br>
+Our 2016 schedule will be full of exciting projects, and we want to invite you to
  be part of our team! If you are interested, please submit an application<br>
   (<a id='infoLink' onclick="window.open('https://www.surveymonkey.com/s/S7J322S');" target="_blank">HERE</a>) along with your resume to:
    <a onclick='emailInfo();return false;' id='infoLink'>info@moimnewyork.com</a>.<br><br>
@@ -225,22 +225,13 @@ We don’t have any open positions currently. Please check back!
   <p id='contactLines3'>
   For event ideas, email us at <a href="mailto:event@moimnewyork.com" id='emailLink'>event@moimnewyork.com</a>.
   </p>
-  <p id='address'>MOI'M NYC</p>
-  <p id='addressa'>1271 Avenue of The Americas, 44th FL</p>
-  <p id='addressb'>New York, NY 10020</p>
-
-  <div class='zoom_img'>
-  <a href='https://www.facebook.com/moimnewyork' target='_blank'>
-  <img src='/assets/faceBook.png' class='img-zoom' id='fb_small'></a>
-</div>
-<div class='zoom_img'>
-  <a href='https://www.instagram.com/moimnewyork' target='_blank'>
-  <img src='/assets/instagram.png' class='img-zoom' id='insta_small'></a>
-</div>
-<div class='zoom_img'>
-  <a href='https://www.youtube.com/moimmedia' target='_blank'>
-  <img src='/assets/youTube.png' class='img-zoom' id='youtube_small'></a>
-</div>
+  <p id='contactLines4'> 
+  For social outreach opportunities, email us at <a href="mailto:soar@moimnewyork.com" id='emailLink'>soar@moimnewyork.com</a>.
+  </p>
+ 
+  <img id='logoMoimBottom' src='/assets/moimLogo.png'>
+  <h3 id='moimHead'>MOI'M NYC<h3>
+  <p id='tax'>a 501(c)3 organization<br>All contributions will be tax-deductible<br>to the extent allowed by law.</p>
 
 </div>
 
@@ -256,9 +247,22 @@ document.write(theDate.getFullYear())
 
 MOI'M | All Rights Reserved | <a href='#' id='link' onclick='termsWelcome();return false;'>Terms of Use</a> | <a href='#' id='link' onclick='privacyWelcome();return false;'>Privacy Policy</a>
 
-<p id='tax'>MOI'M New York, Inc. is a 501(c)3 organization. All contributions will be tax-deductible to the extent allowed by law.</p>
+
+  <div class='zoom_img'>
+  <a href='https://www.facebook.com/moimnewyork' target='_blank'>
+  <img src='/assets/faceBook.png' class='img-zoom' id='fb_small'></a>
+</div>
+<div class='zoom_img'>
+  <a href='https://www.instagram.com/moimnewyork' target='_blank'>
+  <img src='/assets/instagram.png' class='img-zoom' id='insta_small'></a>
+</div>
+<div class='zoom_img'>
+  <a href='https://www.youtube.com/moimmedia' target='_blank'>
+  <img src='/assets/youTube.png' class='img-zoom' id='youtube_small'></a>
+</div>
 
 </p>
+</div>
 </div>
 </div>
 
