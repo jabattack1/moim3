@@ -97,7 +97,7 @@ z-index: 100;
 }
 
 #header3 {
-margin-top:1120px;
+margin-top:900px;
 height:1px;
 width:auto;
 position:absolute;
@@ -106,7 +106,7 @@ z-index: 100;
 }
 
 #header4 {
-margin-top:1215px;
+margin-top:995px;
 height:1px;
 width:auto;
 position:absolute;
@@ -115,7 +115,7 @@ z-index: 100;
 }
 
 #header5 {
-margin-top:1310px;
+margin-top:1090px;
 height:1px;
 width:auto;
 position:absolute;
@@ -124,7 +124,7 @@ z-index: 100;
 }
 
 #header6 {
-margin-top:1405px;
+margin-top:1185px;
 height:1px;
 width:auto;
 position:absolute;
@@ -133,7 +133,7 @@ z-index: 100;
 }
 
 #header3a {
-margin-top:1010px;
+margin-top:790px;
 height:1px;
 width:auto;
 position:absolute;
@@ -142,7 +142,7 @@ z-index: 100;
 }
 
 #header7 {
-margin-top:660px;
+margin-top:440px;
 height:1px;
 width:auto;
 position:absolute;
@@ -151,7 +151,7 @@ z-index: 100;
 }
 
 #header8 {
-margin-top:659px;
+margin-top:439px;
 height:1px;
 width:auto;
 position:absolute;
@@ -2261,7 +2261,8 @@ height: 620px;
 #whiteGuyPic{
 margin-top:0px;
 width: 1260px;
-height: 620px;
+height: 400px;
+/**220*/
     position:fixed;
     z-index:1;
 }
@@ -2296,11 +2297,12 @@ z-index:5;
 margin-top:320px;*/
 text-shadow: 1px 1px 1px #000;
 position:fixed;
-top: 70%;
+margin-top:150px;
+/*top: 70%;*/
 width:1260px;
 display: block;
 text-align:center;
-    font-size: 25px;
+    font-size: 19px;
    	text-align: center;
 }
 
@@ -2392,10 +2394,10 @@ margin-top:625px;
 #missionContent {
 font-family:'Montserrat';
 position: absolute;
-margin-top:623px;
+margin-top:403px;
 margin-left:0px;
 width:1260px;
-height:1830px;
+height:2000px;
 background-color:white;
 z-index:8;
 /*width:1800px;*/
@@ -4988,7 +4990,7 @@ z-index:5;
 margin-top:320px;*/
 text-shadow: 1px 1px 1px #000;
 position:fixed;
-top: 40%;
+margin-top:300px;
 width:1260px;
 display: block;
 text-align:center;
@@ -5136,7 +5138,7 @@ text-align:center;
 #tileOne1{
 position:absolute;
 /*background-color: black;*/
-margin-top:1180px;
+margin-top:960px;
 margin-left:16px;
 width:600px;
 height:265px;
@@ -5145,7 +5147,7 @@ height:265px;
 #tileTwo1{
 position:absolute;
 /*background-color: black;*/
-margin-top:1180px;
+margin-top:960px;
 margin-left:16px;
 width:1240px;
 height:265px;
