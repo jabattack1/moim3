@@ -2411,11 +2411,11 @@ border-color:#1BAAC6;*/
 #chronicleContent {
 font-family:'Montserrat';
 position: absolute;
-margin-top:623px;
+margin-top:403px;
 margin-left:0px;
 width:1260px;
-height:2880px;
-background-color:#161616;
+height:2980px;
+background-color:white;
 z-index:8;
 padding-top:30px;
 /*width:1800px;*/
@@ -3593,7 +3593,7 @@ color:#E2E2E2;
 }
 
 #headerChronicle1 {
-margin-top:130px;
+margin-top:30px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3602,7 +3602,7 @@ z-index: 100;
 }
 
 #headerChronicle2 {
-margin-top:290px;
+margin-top:70px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3611,7 +3611,7 @@ z-index: 100;
 }
 
 #header2Chro {
-margin-top:230px;
+margin-top:30px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3620,7 +3620,7 @@ z-index: 100;
 }
 
 #headerChronicle3 {
-margin-top:450px;
+margin-top:230px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3629,7 +3629,7 @@ z-index: 100;
 }
 
 #header3Chro {
-margin-top:390px;
+margin-top:170px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3638,7 +3638,7 @@ z-index: 100;
 }
 
 #headerChronicle4 {
-margin-top:610px;
+margin-top:390px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3647,7 +3647,7 @@ z-index: 100;
 }
 
 #header4Chro {
-margin-top:550px;
+margin-top:330px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3656,7 +3656,7 @@ z-index: 100;
 }
 
 #headerChronicle5 {
-margin-top:750px;
+margin-top:480px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3665,7 +3665,7 @@ z-index: 100;
 }
 
 #header5Chro {
-margin-top:690px;
+margin-top:420px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3674,7 +3674,7 @@ z-index: 100;
 }
 
 #headerChronicle6 {
-margin-top:900px;
+margin-top:630px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3683,7 +3683,7 @@ z-index: 100;
 }
 
 #header6Chro {
-margin-top:840px;
+margin-top:570px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3692,7 +3692,7 @@ z-index: 100;
 }
 
 #headerChronicle7 {
-margin-top:960px;
+margin-top:690px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3701,7 +3701,7 @@ z-index: 100;
 }
 
 #header7Chro {
-margin-top:900px;
+margin-top:630px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3710,7 +3710,7 @@ z-index: 100;
 }
 
 #headerChronicle8 {
-margin-top:1060px;
+margin-top:790px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3719,7 +3719,7 @@ z-index: 100;
 }
 
 #header8Chro {
-margin-top:1000px;
+margin-top:730px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3728,7 +3728,7 @@ z-index: 100;
 }
 
 #headerChronicle9 {
-margin-top:1260px;
+margin-top:990px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3737,7 +3737,7 @@ z-index: 100;
 }
 
 #header9Chro {
-margin-top:1200px;
+margin-top:930px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3746,7 +3746,7 @@ z-index: 100;
 }
 
 #headerChronicle10 {
-margin-top:1420px;
+margin-top:1150px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3755,7 +3755,7 @@ z-index: 100;
 }
 
 #header10Chro {
-margin-top:1360px;
+margin-top:1090px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3764,7 +3764,7 @@ z-index: 100;
 }
 
 #headerChronicle11 {
-margin-top:1540px;
+margin-top:1270px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3773,7 +3773,7 @@ z-index: 100;
 }
 
 #header11Chro {
-margin-top:1480px;
+margin-top:1210px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3782,7 +3782,7 @@ z-index: 100;
 }
 
 #headerChronicle12 {
-margin-top:1700px;
+margin-top:1430px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3791,7 +3791,7 @@ z-index: 100;
 }
 
 #header12Chro {
-margin-top:1640px;
+margin-top:1380px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3800,7 +3800,7 @@ z-index: 100;
 }
 
 #headerChronicle13 {
-margin-top:1860px;
+margin-top:1570px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3809,7 +3809,7 @@ z-index: 100;
 }
 
 #header13Chro {
-margin-top:1800px;
+margin-top:1530px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3818,7 +3818,7 @@ z-index: 100;
 }
 
 #headerChronicle14 {
-margin-top:1920px;
+margin-top:1650px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3827,7 +3827,7 @@ z-index: 100;
 }
 
 #header14Chro {
-margin-top:1860px;
+margin-top:1590px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3836,7 +3836,7 @@ z-index: 100;
 }
 
 #headerChronicle15 {
-margin-top:2080px;
+margin-top:1810px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3845,7 +3845,7 @@ z-index: 100;
 }
 
 #header15Chro {
-margin-top:2020px;
+margin-top:1750px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3854,7 +3854,7 @@ z-index: 100;
 }
 
 #headerChronicle16 {
-margin-top:2180px;
+margin-top:1910px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3863,7 +3863,7 @@ z-index: 100;
 }
 
 #header16Chro {
-margin-top:2120px;
+margin-top:1850px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3872,7 +3872,7 @@ z-index: 100;
 }
 
 #headerChronicle17 {
-margin-top:2280px;
+margin-top:2010px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3881,7 +3881,7 @@ z-index: 100;
 }
 
 #header17Chro {
-margin-top:2220px;
+margin-top:1950px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3890,7 +3890,7 @@ z-index: 100;
 }
 
 #headerChronicle18 {
-margin-top:2340px;
+margin-top:2070px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3899,7 +3899,7 @@ z-index: 100;
 }
 
 #header18Chro {
-margin-top:2280px;
+margin-top:2010px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3908,7 +3908,7 @@ z-index: 100;
 }
 
 #headerChronicle19 {
-margin-top:2440px;
+margin-top:2220px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3917,7 +3917,7 @@ z-index: 100;
 }
 
 #header19Chro {
-margin-top:2380px;
+margin-top:2160px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3926,7 +3926,7 @@ z-index: 100;
 }
 
 #header20Chro {
-margin-top:2480px;
+margin-top:2260px;
 height:1px;
 width:auto;
 position:absolute;
@@ -3934,6 +3934,22 @@ background:white;
 z-index: 100;
 }
 /*****chronicle timeline****/
+
+#chronicleDirection{
+font-family:'Montserrat';
+font-weight: normal;
+color:black;
+z-index:10;
+/*position:absolute;*/
+/*  margin-left:495px;
+margin-top:320px;*/
+/*text-shadow: 1px 1px 1px #000;*/
+position:fixed;
+margin-top:40px;
+width:1260px;
+display: block;
+text-align:center;
+}
 
 #chronicleTop1{
 position:absolute;

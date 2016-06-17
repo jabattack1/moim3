@@ -10,43 +10,48 @@
 </head>
 <body id="chroniclePage">
 
+
+
 <script>
 
+var head ="<h2 id='missionBlend'>THE CHRONICLE</h2>"
 
-// $(window).load(function() {
-//   $('body').append( head );
-//   $('body').append( missionLine );
-//   $('#chronicleBlend').hide();
-//   $('#missionLine').hide();
-//   setTimeout(function() {
-//   $('#chronicleBlend').fadeIn( "slow" );
-//   $('#missionLine').fadeIn( "slow" );
-// }, 300);
+
+
+$(window).load(function() {
+  $('body').append( head );
+  // $('body').append( missionLine );
+  $('#missionBlend').hide();
+  // $('#missionLine').hide();
+  setTimeout(function() {
+  $('#missionBlend').fadeIn( "slow" );
+  // $('#missionLine').fadeIn( "slow" );
+}, 300);
+});
+
+// $(document).ready(function() {
+// $('#header1').waypoint(function() {
+//    $('#welcomeBottom1').fadeOut();
+//    $("#chronicleBlend").fadeOut();
+//      $( "#chronicleContent" ).animate({
+//     backgroundColor: "white"
+//     // height:"15px"
+//   }, 500 );
+
+// });
 // });
 
-$(document).ready(function() {
-$('#header1').waypoint(function() {
-   $('#welcomeBottom1').fadeOut();
-   $("#chronicleBlend").fadeOut();
-     $( "#chronicleContent" ).animate({
-    backgroundColor: "white"
-    // height:"15px"
-  }, 500 );
+// $(document).ready(function() {
+// $('#header').waypoint(function() {
+//    $('#welcomeBottom1').fadeIn( "slow" );
+//    $("#chronicleBlend").fadeIn( "slow" );
+//         $( "#chronicleContent" ).animate({
+//     backgroundColor: "#161616",
+//     // height:"15px"
+//   }, 200 );
 
-});
-});
-
-$(document).ready(function() {
-$('#header').waypoint(function() {
-   $('#welcomeBottom1').fadeIn( "slow" );
-   $("#chronicleBlend").fadeIn( "slow" );
-        $( "#chronicleContent" ).animate({
-    backgroundColor: "#161616",
-    // height:"15px"
-  }, 200 );
-
-});
-});
+// });
+// });
 
 $(document).ready(function() {
 $('#header2').waypoint(function() {
@@ -298,14 +303,14 @@ $(".aboutSelect").mouseover(function(){
 </div>
 
 
-<img id='whiteGuyPic'  class='animated zoomIn' src='/assets/city1.jpg' onclick='closeLogin();return false;'>
+<img id='whiteGuyPic' class='animated zoomIn' src = '/assets/city.jpg' onclick='closeLogin();return false;'>
 
 <!-- <img id='chronicleLine'  class='animated slideInLeft' src = "/assets/line.png"> -->
 
 <a href="#top" class="back-to-top">Back to Top</a>
 <div id='chronicleContent' class='animated slideInUp' onclick='closeLogin();return false;'>
 
-<h2 id='chronicleBlend'>THE CHRONICLE</h2>"
+
 <!-- <img id='missionLine1' src = '/assets/line.png'>" -->
 
 <script>
@@ -406,9 +411,11 @@ var chronicle19Circle ="<div id=circleContainer19><img id='chronicle19Circle' sr
 var chronicle19Words = "<div id=wordsContainer19><img id='chronicle19Words' src='/assets/chronicle/chronicleWords19.png'></div>"
 
 var chronicleTop20 ="<img id='chronicleTop20' src='/assets/chronicle/chronicleTop20.png'>"
+ var directions="<h2 id='chronicleDirection'>SCROLL DOWN<br>TO START<br>THE CHRONICLE</h2>"
 
 $(document).ready(function() {
  $('#chronicleContent').append(chronicle); 
+ $('#chronicleContent').append(directions); 
  $('#chronicleContent1').append(chronicleTop);
  $('#chronicleContent1').append(chronicle1Date);
  $('#chronicleContent1').append(chronicle1Circle);
@@ -509,6 +516,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
  $('#chronicle').hide();
+ $('#chronicleTop1').hide();
  $('#chronicle1Date').hide();
  $('#circleContainer1').hide();
  $('#chronicle1Words').hide();
@@ -589,6 +597,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 $('#header').waypoint(function() {
+  $('#chronicleDirection').fadeIn( "fast" );
    $('#chronicleContent1').fadeOut( "slow" );
    $('#chronicleContent1').hide();
     $('#chronicle').hide();
@@ -673,7 +682,15 @@ $('#header').waypoint(function() {
 
 
 $(document).ready(function() {
+$('#header').waypoint(function() {
+  $('#chronicleTop1').fadeIn(); 
+   $('#chronicle').fadeIn( "slow" );
+});
+});
+
+$(document).ready(function() {
 $('#header1').waypoint(function() {
+  $('#chronicleDirection').fadeOut( "fast" );
   $('#chronicleContent1').fadeIn(); 
    $('#chronicle').fadeIn( "slow" );
 });
@@ -1030,7 +1047,7 @@ $('#header20Chro').waypoint(function() {
 </script>
 
 
-<div id='bottom' class='chronicBottom'></div>
+<div id='bottom' class='involvedBottom'></div>
 <div id='contactUsInvolved' onclick='closeLogin();'>
 
 <div id='contactContent'>
@@ -1045,22 +1062,13 @@ $('#header20Chro').waypoint(function() {
   <p id='contactLines3'>
   For event ideas, email us at <a href="mailto:event@moimnewyork.com" id='emailLink'>event@moimnewyork.com</a>.
   </p>
-  <p id='address'>MOI'M NYC</p>
-  <p id='addressa'>1271 Avenue of The Americas, 44th FL</p>
-  <p id='addressb'>New York, NY 10020</p>
-
-  <div class='zoom_img'>
-  <a href='https://www.facebook.com/moimnewyork' target='_blank'>
-  <img src='/assets/faceBook.png' class='img-zoom' id='fb_small'></a>
-</div>
-<div class='zoom_img'>
-  <a href='https://www.instagram.com/moimnewyork' target='_blank'>
-  <img src='/assets/instagram.png' class='img-zoom' id='insta_small'></a>
-</div>
-<div class='zoom_img'>
-  <a href='https://www.youtube.com/moimmedia' target='_blank'>
-  <img src='/assets/youTube.png' class='img-zoom' id='youtube_small'></a>
-</div>
+  <p id='contactLines4'> 
+  For social outreach opportunities, email us at <a href="mailto:soar@moimnewyork.com" id='emailLink'>soar@moimnewyork.com</a>.
+  </p>
+ 
+  <img id='logoMoimBottom' src='/assets/moimLogo.png'>
+  <h3 id='moimHead'>MOI'M NYC<h3>
+  <p id='tax'>a 501(c)3 organization<br>All contributions will be tax-deductible<br>to the extent allowed by law.</p>
 
 </div>
 
@@ -1076,11 +1084,23 @@ document.write(theDate.getFullYear())
 
 MOI'M | All Rights Reserved | <a href='#' id='link' onclick='termsWelcome();return false;'>Terms of Use</a> | <a href='#' id='link' onclick='privacyWelcome();return false;'>Privacy Policy</a>
 
-<p id='tax'>MOI'M New York, Inc. is a 501(c)3 organization. All contributions will be tax-deductible to the extent allowed by law.</p>
+
+  <div class='zoom_img'>
+  <a href='https://www.facebook.com/moimnewyork' target='_blank'>
+  <img src='/assets/faceBook.png' class='img-zoom' id='fb_small'></a>
+</div>
+<div class='zoom_img'>
+  <a href='https://www.instagram.com/moimnewyork' target='_blank'>
+  <img src='/assets/instagram.png' class='img-zoom' id='insta_small'></a>
+</div>
+<div class='zoom_img'>
+  <a href='https://www.youtube.com/moimmedia' target='_blank'>
+  <img src='/assets/youTube.png' class='img-zoom' id='youtube_small'></a>
+</div>
 
 </p>
 </div>
-
+</div>
 </div>
 
 
