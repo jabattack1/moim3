@@ -10,24 +10,23 @@
 </head>
 <body id="chroniclePage">
 
-
-
+<h2 id='missionBlend'>THE CHRONICLE</h2>
 <script>
 
-var head ="<h2 id='missionBlend'>THE CHRONICLE</h2>"
+// var head ="<h2 id='missionBlend'>THE CHRONICLE</h2>"
 
 
 
-$(window).load(function() {
-  $('body').append( head );
-  // $('body').append( missionLine );
-  $('#missionBlend').hide();
-  // $('#missionLine').hide();
-  setTimeout(function() {
-  $('#missionBlend').fadeIn( "slow" );
-  // $('#missionLine').fadeIn( "slow" );
-}, 300);
-});
+// $(window).load(function() {
+//   $('body').append( head );
+//   // $('body').append( missionLine );
+//   $('#missionBlend').hide();
+//   // $('#missionLine').hide();
+//   setTimeout(function() {
+//   $('#missionBlend').fadeIn( "slow" );
+//   // $('#missionLine').fadeIn( "slow" );
+// }, 300);
+// });
 
 // $(document).ready(function() {
 // $('#header1').waypoint(function() {
@@ -248,10 +247,24 @@ $(".aboutSelect").mouseover(function(){
 
 <div id='logInBanner'>
 
-<a id='logInIcon' onclick='logInScreen();return false;'>LOG IN</A><p id='line1'>|</p>
-<a id='signUpIcon'>SIGN UP</A><p id='line2'>|</p>
-<a href='#bottom'id='contactUsIcon' onclick='countUp();return false;'>CONTACT US</A>
+    <% if user_signed_in? %>
+        <p id='greetings'>HELLO <%= current_user.first_name %>!</p>
+        <p id='line1a'>|</p>
+        <%= link_to "LOG OUT", destroy_user_session_path, :id => 'logOutIcon', :method => :delete %>
+        <p id='line2a'>|</p>
+    <% else %>
+        <%= link_to 'LOG IN', new_user_session_path, :id => 'logInIcon' %>
+        <p id='line1'>|</p>
+        <%= link_to 'SIGN UP', new_user_registration_path, :id => 'signUpIcon' %> 
+        <p id='line2'>|</p>
+    <% end %>
+<a href='#'id='contactUsIcon' onclick='contactUsNow();return false;'>CONTACT US</A>
 
+<!-- <a id='logInIcon' onclick='logInScreen();return false;'>LOG IN</A> -->
+  <!-- <p id='line1'>|</p> -->
+<!-- <a id='signUpIcon' href='/users/sign_up'>SIGN UP</A> -->
+  <!-- <p id='line2'>|</p> -->
+<!-- <a href='#'id='contactUsIcon' onclick='contactUsNow();return false;'>CONTACT US</A> -->
 
 </div>
 
@@ -314,6 +327,8 @@ $(".aboutSelect").mouseover(function(){
 <!-- <img id='missionLine1' src = '/assets/line.png'>" -->
 
 <script>
+
+
 var chronicle ="<div id='chronicleContent1'></div>"
 var chronicleTop ="<img id='chronicleTop1' src='/assets/chronicle/chronicleTop.png'>"
 var chronicle1Date ="<img id='chronicle1Date' src='/assets/chronicle/chronicleDate.png'>"
@@ -412,6 +427,9 @@ var chronicle19Words = "<div id=wordsContainer19><img id='chronicle19Words' src=
 
 var chronicleTop20 ="<img id='chronicleTop20' src='/assets/chronicle/chronicleTop20.png'>"
  var directions="<h2 id='chronicleDirection'>SCROLL DOWN<br>TO START<br>THE CHRONICLE</h2>"
+
+setTimeout(function() {
+
 
 $(document).ready(function() {
  $('#chronicleContent').append(chronicle); 
@@ -679,7 +697,7 @@ $('#header').waypoint(function() {
                       $('#chronicleTop20').hide();
 });
 });
-
+    }, 100);
 
 $(document).ready(function() {
 $('#header').waypoint(function() {

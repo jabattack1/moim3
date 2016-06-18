@@ -24,13 +24,26 @@ $(".aboutSelect").mouseover(function(){
 </section>
 
 
-
 <div id='logInBanner'>
 
-<a id='logInIcon' onclick='logInScreen();return false;'>LOG IN</A><p id='line1'>|</p>
-<a id='signUpIcon'>SIGN UP</A><p id='line2'>|</p>
-<a href='#bottom'id='contactUsIcon' onclick='countUp();return false;'>CONTACT US</A>
+    <% if user_signed_in? %>
+        <p id='greetings'>HELLO <%= current_user.first_name %>!</p>
+        <p id='line1a'>|</p>
+        <%= link_to "LOG OUT", destroy_user_session_path, :id => 'logOutIcon', :method => :delete %>
+        <p id='line2a'>|</p>
+    <% else %>
+        <%= link_to 'LOG IN', new_user_session_path, :id => 'logInIcon' %>
+        <p id='line1'>|</p>
+        <%= link_to 'SIGN UP', new_user_registration_path, :id => 'signUpIcon' %> 
+        <p id='line2'>|</p>
+    <% end %>
+<a href='#'id='contactUsIcon' onclick='contactUsNow();return false;'>CONTACT US</A>
 
+<!-- <a id='logInIcon' onclick='logInScreen();return false;'>LOG IN</A> -->
+  <!-- <p id='line1'>|</p> -->
+<!-- <a id='signUpIcon' href='/users/sign_up'>SIGN UP</A> -->
+  <!-- <p id='line2'>|</p> -->
+<!-- <a href='#'id='contactUsIcon' onclick='contactUsNow();return false;'>CONTACT US</A> -->
 
 </div>
 
@@ -88,22 +101,28 @@ $(".aboutSelect").mouseover(function(){
 	$('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
 </script>
 
-<div id='bottom' class='eventsBottom'></div>
-<div id='contactUsEvents' class='animated slideInLeft'>
+<div id='bottom' class='involvedBottom'></div>
+<div id='contactUsInvolved' onclick='closeLogin();'>
 
 <div id='contactContent'>
 
-<h2 id='contactHeading'>Contact Us</h2>
-	<p id='contactLines1'>
-	For questions or concerns, email us at <a href="mailto:info@moimnewyork.com" id='emailLink'>info@moimnewyork.com</a>.
-	</p>
-	<p id='contactLines2'>
-	For sponsorship opportunities, email us at <a href="mailto:sponsorship@moimnewyork.com" id='emailLink'>sponsorship@moimnewyork.com</a>.
-	</p>
-	<p id='contactLines3'>
-	For event ideas, email us at <a href="mailto:event@moimnewyork.com" id='emailLink'>event@moimnewyork.com</a>.
-	</p>
-
+<h3 id='contactHeading'>CONTACT US</h3>
+  <p id='contactLines1'>
+  For questions or concerns, email us at <a href="mailto:info@moimnewyork.com" id='emailLink'>info@moimnewyork.com</a>.
+  </p>
+  <p id='contactLines2'>
+  For sponsorship opportunities, email us at <a href="mailto:sponsorship@moimnewyork.com" id='emailLink'>sponsorship@moimnewyork.com</a>.
+  </p>
+  <p id='contactLines3'>
+  For event ideas, email us at <a href="mailto:event@moimnewyork.com" id='emailLink'>event@moimnewyork.com</a>.
+  </p>
+  <p id='contactLines4'> 
+  For social outreach opportunities, email us at <a href="mailto:soar@moimnewyork.com" id='emailLink'>soar@moimnewyork.com</a>.
+  </p>
+ 
+  <img id='logoMoimBottom' src='/assets/moimLogo.png'>
+  <h3 id='moimHead'>MOI'M NYC<h3>
+  <p id='tax'>a 501(c)3 organization<br>All contributions will be tax-deductible<br>to the extent allowed by law.</p>
 
 </div>
 
@@ -117,23 +136,28 @@ var theDate=new Date()
 document.write(theDate.getFullYear())
 </script> 
 
-MOI'M | All Rights Reserved | <a href='#' id='link' onclick='terms();return false;'>Terms of Use</a> | <a href='#' id='link' onclick='privacy();return false;'>Privacy Policy</a>
-<div class='zoom_img'>
-	<a href='https://www.facebook.com/moimnewyork' target='_blank'>
-	<img src='/assets/facebook_icon.png' class='img-zoom' id='fb_small'></a>
+MOI'M | All Rights Reserved | <a href='#' id='link' onclick='termsWelcome();return false;'>Terms of Use</a> | <a href='#' id='link' onclick='privacyWelcome();return false;'>Privacy Policy</a>
+
+
+  <div class='zoom_img'>
+  <a href='https://www.facebook.com/moimnewyork' target='_blank'>
+  <img src='/assets/faceBook.png' class='img-zoom' id='fb_small'></a>
 </div>
 <div class='zoom_img'>
-	<a href='https://www.instagram.com/moimnewyork' target='_blank'>
-	<img src='/assets/instagram_icon.png' class='img-zoom' id='insta_small'></a>
+  <a href='https://www.instagram.com/moimnewyork' target='_blank'>
+  <img src='/assets/instagram.png' class='img-zoom' id='insta_small'></a>
 </div>
 <div class='zoom_img'>
-	<a href='https://www.youtube.com/moimmedia' target='_blank'>
-	<img src='/assets/youtube_icon.png' class='img-zoom' id='youtube_small'></a>
-</div>
-</p>
+  <a href='https://www.youtube.com/moimmedia' target='_blank'>
+  <img src='/assets/youTube.png' class='img-zoom' id='youtube_small'></a>
 </div>
 
+</p>
 </div>
+</div>
+</div>
+
+
 </div>
 </body>
 </html>

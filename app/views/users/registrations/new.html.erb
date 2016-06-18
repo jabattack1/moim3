@@ -379,16 +379,28 @@ $(".aboutSelect").mouseover(function(){
 </section>
 
 
-
 <div id='logInBanner'>
 
-<a id='logInIcon' onclick='logInScreen();return false;'>LOG IN</A><p id='line1'>|</p>
-<a id='signUpIcon'>SIGN UP</A><p id='line2'>|</p>
-<a href='#bottom'id='contactUsIcon' onclick='countUp();return false;'>CONTACT US</A>
+    <% if user_signed_in? %>
+        <p id='greetings'>HELLO <%= current_user.first_name %>!</p>
+        <p id='line1a'>|</p>
+        <%= link_to "LOG OUT", destroy_user_session_path, :id => 'logOutIcon', :method => :delete %>
+        <p id='line2a'>|</p>
+    <% else %>
+        <%= link_to 'LOG IN', new_user_session_path, :id => 'logInIcon' %>
+        <p id='line1'>|</p>
+        <%= link_to 'SIGN UP', new_user_registration_path, :id => 'signUpIcon' %> 
+        <p id='line2'>|</p>
+    <% end %>
+<a href='#'id='contactUsIcon' onclick='contactUsNow();return false;'>CONTACT US</A>
 
+<!-- <a id='logInIcon' onclick='logInScreen();return false;'>LOG IN</A> -->
+  <!-- <p id='line1'>|</p> -->
+<!-- <a id='signUpIcon' href='/users/sign_up'>SIGN UP</A> -->
+  <!-- <p id='line2'>|</p> -->
+<!-- <a href='#'id='contactUsIcon' onclick='contactUsNow();return false;'>CONTACT US</A> -->
 
 </div>
-
 <a href='/'><img id='logoMoim' src='/assets/moimLogo.png'></a>
 
 
