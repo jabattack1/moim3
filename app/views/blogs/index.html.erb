@@ -1,26 +1,90 @@
 <html>
 <head>
-	<title></title>
-
-          <title>The jQuery Example</title>
-      <script type = "text/javascript" 
-         src = "http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        
-      <script type = "text/javascript" 
-         src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
-        
+  <title></title>
 </head>
 <body>
 
+<script>
+var head ="<h2 id='teamBlend'>MEET THE TEAM</h2>"
+// var missionLine ="<img id='missionLine' src = '/assets/line.png'>"
+
+$(window).load(function() {
+  $('body').append( head );
+  // $('body').append( missionLine );
+  $('#teamBlend').hide();
+  // $('#missionLine').hide();
+  setTimeout(function() {
+  $('#teamBlend').fadeIn( "slow" );
+  // $('#missionLine').fadeIn( "slow" );
+}, 300);
+});
+
+$(document).ready(function() {
+$('#header1').waypoint(function() {
+   $('#welcomeBottom1').fadeOut();
+});
+});
+
+$(document).ready(function() {
+$('#header').waypoint(function() {
+   $('#welcomeBottom1').fadeIn( "slow" );
+});
+});
+
+$(document).ready(function() {
+$('#header2').waypoint(function() {
+  $( "#top_helper" ).animate({
+    backgroundColor: "#161616",
+    height:"0px"
+  }, 200 );
+
+  $( "#top_banner" ).animate({
+    // width: "70%",
+    backgroundColor: "#161616",
+    marginTop: "0px"
+    // fontSize: "3em",
+    // borderWidth: "10px"
+  }, 200 );
+});
+});
+
+$(document).ready(function() {
+$('#header1').waypoint(function() {
+  $( "#top_helper" ).animate({
+    backgroundColor: "rgba(0,0,0,0.1)",
+    height:"15px"
+  }, 200 );
+  $( "#top_banner" ).animate({
+    // width: "70%",
+    backgroundColor: "rgba(0,0,0,0.1)",
+    marginTop: "15px"
+    // fontSize: "3em",
+    // borderWidth: "10px"
+  }, 200 );
+});
+});
+</script>
+
 <script type="text/javascript">
 $(".aboutSelect").mouseover(function(){
-	console.log('drop');
+    console.log('drop');
   $("#aboutDrop").addClass('animated slideInDown');
 })
 </script> 
 
+<div id="header">
+<!-- <h1>top</h1> -->
+</div>
 
-<div id='top_banner' class='navigation animated slideInRight'>
+<div id="header1">
+<!-- <h1>trigger</h1> -->
+</div>
+
+<div id="header2">
+<!-- <h1>trigger</h1> -->
+</div>
+<div id='top_helper'></div>
+<div id='top_banner' class='navigation'>
   <!-- <nav> -->
 
 <section class="webdesigntuts-workshop">
@@ -58,41 +122,41 @@ $(".aboutSelect").mouseover(function(){
 
 
 <ul>
-				
+        
                 <li><a class='aboutSelect'>ABOUT</a><img id="aboutArrow" src='/assets/downArrow.PNG'/>
-                	<ul id='aboutDrop'>
+                  <ul id='aboutDrop'>
                         <li>
                             <a href='/mission'>THE MISSION</a>
-                      	</li>
-                        <li>
-                        	<a href='/chronicle'>THE CHRONICLE</a>
                         </li>
                         <li>
-                        	<a href='/team'>THE TEAM</a>
+                          <a href='/chronicle'>THE CHRONICLE</a>
                         </li>
                         <li>
-                        	<a href='/getinvolved'>GET INVOLVED</a>
+                          <a href='/team'>THE TEAM</a>
+                        </li>
+                        <li>
+                          <a href='/getinvolved'>GET INVOLVED</a>
                         </li>
                      </ul>
-            	</li>
+              </li>
 
                 <li><a href='/events'>EVENTS</a></li>
                 <li><a href='/blogs'>BLOG</a></li>
                 <li><a href='/galleries'>PHOTOS & VIDEOS</a></li>
                 <li><a href='/express_yourselves'>EXPRESS YOURSELF</a></li>
                 <li><a class='communitySelect'>THE COMMUNITY</a><img id="communityArrow" src='/assets/downArrow.PNG'/>
-					<ul id='communityDrop'>
+          <ul id='communityDrop'>
                         <li>
                             <a href='/external_events'>EXTERNAL EVENTS</a>
-                      	</li>
-                        <li>
-                        	<a href='/careerboards'>CAREER BOARD</a>
                         </li>
                         <li>
-                        	<a href='/localhotspots'>LOCAL HOTSPOTS</a>
+                          <a href='/careerboards'>CAREER BOARD</a>
                         </li>
                         <li>
-                        	<a href='/freeboards'>FREEBOARD</a>
+                          <a href='/localhotspots'>LOCAL HOTSPOTS</a>
+                        </li>
+                        <li>
+                          <a href='/freeboards'>FREEBOARD</a>
                         </li>
                      </ul>
                 </li>
@@ -101,15 +165,11 @@ $(".aboutSelect").mouseover(function(){
                 
 </div>
 
-
-
 <a href="#top" class="back-to-top">Back to Top</a>
-<div id='blogsContent' class='animated slideInUp' onclick='closeLogin();return false;'>
-
-    
+<div id='eventsContent' class='animated slideInUp' onclick='closeLogin();return false;'>
 
 <script type="text/javascript">
-	$('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+  $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
 </script>
 
 <div id='bottom' class='involvedBottom'></div>
@@ -167,6 +227,7 @@ MOI'M | All Rights Reserved | <a href='#' id='link' onclick='termsWelcome();retu
 </div>
 </div>
 </div>
+
 
 </div>
 </body>

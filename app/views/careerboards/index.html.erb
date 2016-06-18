@@ -4,14 +4,86 @@
 </head>
 <body>
 
+<script>
+var head ="<h2 id='teamBlend'>MEET THE TEAM</h2>"
+// var missionLine ="<img id='missionLine' src = '/assets/line.png'>"
+
+$(window).load(function() {
+  $('body').append( head );
+  // $('body').append( missionLine );
+  $('#teamBlend').hide();
+  // $('#missionLine').hide();
+  setTimeout(function() {
+  $('#teamBlend').fadeIn( "slow" );
+  // $('#missionLine').fadeIn( "slow" );
+}, 300);
+});
+
+$(document).ready(function() {
+$('#header1').waypoint(function() {
+   $('#welcomeBottom1').fadeOut();
+});
+});
+
+$(document).ready(function() {
+$('#header').waypoint(function() {
+   $('#welcomeBottom1').fadeIn( "slow" );
+});
+});
+
+$(document).ready(function() {
+$('#header2').waypoint(function() {
+  $( "#top_helper" ).animate({
+    backgroundColor: "#161616",
+    height:"0px"
+  }, 200 );
+
+  $( "#top_banner" ).animate({
+    // width: "70%",
+    backgroundColor: "#161616",
+    marginTop: "0px"
+    // fontSize: "3em",
+    // borderWidth: "10px"
+  }, 200 );
+});
+});
+
+$(document).ready(function() {
+$('#header1').waypoint(function() {
+  $( "#top_helper" ).animate({
+    backgroundColor: "rgba(0,0,0,0.1)",
+    height:"15px"
+  }, 200 );
+  $( "#top_banner" ).animate({
+    // width: "70%",
+    backgroundColor: "rgba(0,0,0,0.1)",
+    marginTop: "15px"
+    // fontSize: "3em",
+    // borderWidth: "10px"
+  }, 200 );
+});
+});
+</script>
+
 <script type="text/javascript">
 $(".aboutSelect").mouseover(function(){
-	console.log('drop');
+    console.log('drop');
   $("#aboutDrop").addClass('animated slideInDown');
 })
 </script> 
 
+<div id="header">
+<!-- <h1>top</h1> -->
+</div>
 
+<div id="header1">
+<!-- <h1>trigger</h1> -->
+</div>
+
+<div id="header2">
+<!-- <h1>trigger</h1> -->
+</div>
+<div id='top_helper'></div>
 <div id='top_banner' class='navigation animated slideInRight'>
   <!-- <nav> -->
 
