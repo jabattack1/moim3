@@ -3107,7 +3107,7 @@ font-weight: normal;
 z-index:9;
 margin-top:40px;
 margin-left:0px;
-font-size: 19px;
+font-size: 16px;
     color:white;
 }
 
@@ -3118,7 +3118,7 @@ font-weight: normal;
 z-index:9;
 margin-top:60px;
 margin-left:0px;
-font-size: 19px;
+font-size: 16px;
     color:white;
 }
 
@@ -3129,7 +3129,7 @@ font-weight: normal;
 z-index:9;
 margin-top:80px;
 margin-left:0px;
-font-size: 19px;
+font-size: 16px;
     color:white;
 }
 
@@ -3140,7 +3140,7 @@ font-weight: normal;
 z-index:9;
 margin-top:100px;
 margin-left:0px;
-font-size: 19px;
+font-size: 16px;
     color:white;
 }
 
@@ -3283,8 +3283,8 @@ margin-left:60px;
 padding-top:15px;
 font-family:'Montserrat';
 font-weight: normal;
-font-size: 19px;
-margin-top:-4px;
+font-size: 16px;
+margin-top:-2px;
 }
 
 #bottomContentWelcome{
@@ -3302,7 +3302,7 @@ font-size: 13px;
   position:absolute;
   font-family:'Montserrat';
 font-weight: bold;
-font-size: 18px;
+font-size: 16px;
 color:white;
   margin-left:770px;
   margin-top:80px;
@@ -3312,7 +3312,7 @@ color:white;
 position:absolute;
 font-family:'Montserrat';
 font-weight: normal;
-font-size: 19px;
+font-size: 16px;
 color:white;
 margin-left:770px;
 margin-top:100px;
