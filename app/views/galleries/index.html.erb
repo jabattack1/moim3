@@ -39,14 +39,14 @@ $('#header1').waypoint(function() {
 });
 });
 
-$(document).ready(function() {
-            $('#gallery').finalTilesGallery({onComplete: function(){
-                // console.log("completed");
-                var total_height = parseInt($('#gallery').height()) + 340;
-                // console.log(total_height);
-                $('#galleriesContent').height(total_height);
-            }});
-        });
+// $(document).ready(function() {
+//             $('#gallery').finalTilesGallery({onComplete: function(){
+//                 // console.log("completed");
+//                 var total_height = parseInt($('#gallery').height()) + 340;
+//                 // console.log(total_height);
+//                 $('#galleriesContent').height(total_height);
+//             }});
+// });
 
 
 $(document).ready(function() {
@@ -70,21 +70,7 @@ $(".aboutSelect").mouseover(function(){
 })
 </script> 
 
-<script type="text/javascript" charset="utf-8">
-$(window).load(function() {
-    $('#gallery').finalTilesGallery({
-        autoLoadURL: "get-images.php",
-        autoLoadOffset: 500
-    });
-});
 
-$(window).load(function() {
-$(".final-tiles-gallery").finalTilesGallery({
-         layout: 'columns',
-         gridSize: 0
-  });
-});
-// </script>
 
 <div id="header">
 <!-- <h1>top</h1> -->
@@ -184,6 +170,22 @@ $(".final-tiles-gallery").finalTilesGallery({
 <h2 id='galleryBlend' class='animated slideInLeft'>PHOTOS & VIDEOS</h2> -->
 <a href="#top" class="back-to-top">Back to Top</a>
 <div id='galleriesContent' class='animated slideInUp flex-container' onclick='closeLogin();'>
+
+<script type="text/javascript" charset="utf-8">
+// $(window).load(function() {
+//     $('#gallery').finalTilesGallery({
+//         autoLoadURL: "get-images.php",
+//         autoLoadOffset: 500
+//     });
+// });
+
+$(window).load(function() {
+$(".final-tiles-gallery").finalTilesGallery({
+         layout: 'columns',
+         gridSize: 0
+  });
+});
+</script>
 
 <div id="gallery" class='galleryCSS'>
 
