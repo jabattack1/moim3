@@ -39,14 +39,14 @@ $('#header1').waypoint(function() {
 });
 });
 
-// $(document).ready(function() {
-//             $('#gallery').finalTilesGallery({onComplete: function(){
-//                 // console.log("completed");
-//                 var total_height = parseInt($('#gallery').height()) + 340;
-//                 // console.log(total_height);
-//                 $('#galleriesContent').height(total_height);
-//             }});
-// });
+$(document).ready(function() {
+            $('#gallery').finalTilesGallery({onComplete: function(){
+                // console.log("completed");
+                var total_height = parseInt($('#gallery').height()) + 340;
+                // console.log(total_height);
+                $('#galleriesContent').height(total_height);
+            }});
+});
 
 
 $(document).ready(function() {
@@ -172,13 +172,6 @@ $(".aboutSelect").mouseover(function(){
 <div id='galleriesContent' class='animated slideInUp flex-container' onclick='closeLogin();'>
 
 <script type="text/javascript" charset="utf-8">
-// $(window).load(function() {
-//     $('#gallery').finalTilesGallery({
-//         autoLoadURL: "get-images.php",
-//         autoLoadOffset: 500
-//     });
-// });
-
 $(window).load(function() {
 $(".final-tiles-gallery").finalTilesGallery({
          layout: 'columns',
@@ -209,7 +202,6 @@ $(".final-tiles-gallery").finalTilesGallery({
     </div>    
     <div id='pagination' class='digg_pagination'><%= will_paginate @photos %></div>
 </div>
-
 
 </div>
 
