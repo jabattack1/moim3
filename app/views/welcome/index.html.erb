@@ -9,6 +9,7 @@
 <script type="text/javascript">
 
 var poster="<div id='posterContainer'></div>"
+var quote="<div id='quoteContainer'>“Networking Through Entertainment, Inspiration Through Networking”</div>"
 var meh="<div id='sWrap'><div id='arrowContainer'><p id='arrowWords'>SCROLL DOWN TO SEE OUR SPONSORS</p></div></div>"
 var one="<img id='posterShow1' src = 'http://i1301.photobucket.com/albums/ag119/jabattack1/AFTER%20HOURS%20Poster_Final%20Approved%20LowRes_zpscu1dy8m0.jpg'>";
 var two="<img id='posterShow2' src = 'http://i1301.photobucket.com/albums/ag119/jabattack1/AFTER%20HOURS%20Poster_Final%20Approved%20LowRes_zpscu1dy8m0.jpg'>";
@@ -23,6 +24,11 @@ $(window).load(function() {
   $('body').append( poster );
   $('#posterContainer').hide();
   $('#posterContainer').show( "slide", { direction: "left" }, 500 );
+}, 300);
+    setTimeout(function() {
+  $('body').append( quote );
+  $('#quoteContainer').hide();
+  $('#quoteContainer').show( "slide", { direction: "right" }, 500 );
 }, 300);
   setTimeout(function() {
   $('body').append( meh );
@@ -283,6 +289,7 @@ $('#header1').waypoint(function() {
 $(document).ready(function() {
 $('#header1').waypoint(function() {
 $('#posterContainer').hide( "slide", { direction: "left" }, 500 );
+$('#quoteContainer').hide( "slide", { direction: "right" }, 500 );
 $('#sWrap').hide( "slide", { direction: "right" }, 500 );
 });
 });
@@ -290,6 +297,7 @@ $('#sWrap').hide( "slide", { direction: "right" }, 500 );
 $(document).ready(function() {
 $('#header').waypoint(function() {
 $('#posterContainer').show( "slide", { direction: "left" }, 500 );
+$('#quoteContainer').show( "slide", { direction: "right" }, 500 );
 $('#sWrap').show( "slide", { direction: "right" }, 300 );
 });
 });
@@ -1929,7 +1937,7 @@ MOI'M | All Rights Reserved | <a href='#' id='link' onclick='termsWelcome();retu
 </div>
 </div>
 </div>
-<div id='welcomeBottom1' onclick='closeLogin();'>
+<!-- <div id='welcomeBottom1' onclick='closeLogin();'>
 
 <p id='bottomContentWelcome'>
 Copyright 
@@ -1955,7 +1963,7 @@ MOI'M | All Rights Reserved | <a href='#' id='link' onclick='termsWelcome();'>Te
 </div>
 </p>
 
-</div>
+</div> -->
 
 
 

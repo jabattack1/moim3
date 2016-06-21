@@ -691,15 +691,15 @@ cursor:pointer;
 
 #logoMoim{
 position:absolute;
-width:110px;
+width:150px;
 top:2px;
-margin-left:40px;
-margin-top:14px;
+margin-left:30px;
+margin-top:7px;
 }
 
 #logoMoimBottom{
 position:absolute;
-width:190px;
+width:180px;
 top:0px;
 margin-left:770px;
 margin-top:0px;
@@ -2454,7 +2454,7 @@ position: absolute;
 margin-top:78px;
 margin-left:0px;
 width:1260px;
-height:2750px;
+/*height:2750px;*/
 background-color:white;
 z-index:8;
 /*width:1800px;*/
@@ -2964,7 +2964,7 @@ bottom:0;
     /*margin-left:0px;*/
     z-index:8;
     width:1260px;
-    height:355px;
+    height:325px;
     /*355***/
     background-color:#161616;
     /*border-top: 3.0px solid black;*/
@@ -3238,7 +3238,7 @@ position:absolute;
 background-color:#161616;
 width:1260px;
 height:40px;
-margin-top:270px;
+margin-top:230px;
 /*bottom:0;*/
 z-index:9;
 /*	border-top: 3.0px solid black;
@@ -3305,7 +3305,7 @@ font-weight: bold;
 font-size: 16px;
 color:white;
   margin-left:770px;
-  margin-top:80px;
+  margin-top:75px;
   width:400px;
 }
 #tax{
@@ -3315,7 +3315,7 @@ font-weight: normal;
 font-size: 16px;
 color:white;
 margin-left:770px;
-margin-top:100px;
+margin-top:85px;
 width:350px;
 }
 
@@ -4736,6 +4736,28 @@ position:absolute;
   /*z-index:10;*/
 }
 
+#quoteContainer{
+position:absolute;
+z-index:8;
+margin-top:541px;
+right:0;
+/*background-color:black;*/
+/*height:100px;*/
+width:340px;
+font-family:'Montserrat';
+font-weight: normal;
+font-size: 17px;
+color:white;
+text-align: center;
+font-weight:bold;
+padding-top:7px;
+padding-bottom:7px;
+padding-left:2px;
+padding-right:2px;
+text-shadow: 2px 2px 2px #000;
+background-color:rgba(0,0,0,0.3);
+}
+
 #arrowContainer{
 position:absolute;
 z-index:8;
@@ -4748,22 +4770,23 @@ width:200px;
 
 #sWrap{
 position:absolute;
-margin-top:594px;
+margin-top:620px;
 left:0;
 width:1260px;
 /*background-color:white;*/
 height:100px;
+z-index: 10;
 }
 
 #arrowWords{
 font-family:'Montserrat';
 font-weight: normal;
-font-size: 14px;
+font-size: 16px;
 color:white;
 text-align: center;
 font-weight:bold;
-padding-top:3px;
-padding-bottom:3px;
+padding-top:7px;
+padding-bottom:7px;
 padding-left:5px;
 padding-right:5px;
 position:absolute;
@@ -4772,7 +4795,7 @@ position:absolute;
     background-color:#1BAAC6;
 /*border-color:black;*/
 /*border-right-color:#1BAAC6;*/
-width:300px;
+width:1260px;
 right:0;
 }
 
