@@ -794,6 +794,12 @@ z-index: 9;
 margin-left:800px;
 /*margin-top:70px;*/
 }
+#logo58{
+position:absolute;
+z-index: 9;
+margin-left:1050px;
+/*margin-top:70px;*/
+}
 
 #logoMoimAdminConsole{
 position:absolute;

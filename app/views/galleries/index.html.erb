@@ -36,14 +36,14 @@ $('#header1').waypoint(function() {
   }, 200 );
 });
 });
-$(document).ready(function() {
-            $('#gallery').finalTilesGallery({onComplete: function(){
-                // console.log("completed");
-                var total_height = parseInt($('#gallery').height()) + 340;
-                // console.log(total_height);
-                $('#galleriesContent').height(total_height);
-            }});
-});
+// $(document).ready(function() {
+//             $('#gallery').finalTilesGallery({onComplete: function(){
+//                 // console.log("completed");
+//                 var total_height = parseInt($('#gallery').height()) + 340;
+//                 // console.log(total_height);
+//                 $('#galleriesContent').height(total_height);
+//             }});
+// });
 $(document).ready(function() {
 $('#header1').waypoint(function() {
    $('#welcomeBottom1').fadeOut();
@@ -173,11 +173,23 @@ $(".final-tiles-gallery").finalTilesGallery({
 });
 </script>
 
+<script type="text/javascript" charset="utf-8">
+
+function photoRe(){
+  console.log('re');
+$(".final-tiles-gallery").finalTilesGallery({
+         layout: 'columns',
+         gridSize: 0
+  });
+}
+
+</script>
+
 <div id="gallery" class='galleryCSS'>
 
     <div class="ftg-filters">
         <a href="#ftg-set-ftgall">ALL</a>
-        <a href="#ftg-set-filter-1">PHOTOS</a>
+        <a href="#ftg-set-filter-1" onclick='photoRe();return false;'>PHOTOS</a>
         <a href="#ftg-set-filter-2">VIDEOS</a>
         <!-- <a href="#ftg-set-filter-3">MISC.</a> -->
     </div>
