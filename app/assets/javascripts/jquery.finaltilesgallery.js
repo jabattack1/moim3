@@ -49,7 +49,7 @@ var qualifyURL = function (url) {
                 [480, .5],
                 [320, .3]
             ],
-            gridSize: 40,
+            gridSize: 10,
             allowEnlargement: true,
             autoLoadURL: null,
             autoLoadOffset: 50,

@@ -40,13 +40,22 @@ $('#header1').waypoint(function() {
 });
 
 $(document).ready(function() {
-            $('#gallery').finalTilesGallery({onComplete: function(){
-                // console.log("completed");
-                var total_height = parseInt($('#gallery').height()) + 340;
-                // console.log(total_height);
-                $('#galleriesContent').height(total_height);
-            }});
+            // $('#gallery').finalTilesGallery({onComplete: function(){
+            //     // console.log("completed");
+            //     var total_height = parseInt($('#gallery').height()) + 340;
+            //     // console.log(total_height);
+            //     $('#galleriesContent').height(total_height);
+            // }});
+setTimeout(function() {
+  var location = $('#pagination').position();
+  console.log(location.top);
+  var total_height = parseInt(location.top) + 540;
+  $('#galleriesContent').height(total_height);
+}, 2000);
+
 });
+
+
 
 
 $(document).ready(function() {
@@ -109,7 +118,7 @@ $(".aboutSelect").mouseover(function(){
         <%= link_to 'SIGN UP', new_user_registration_path, :id => 'signUpIcon' %> 
         <p id='line2'>|</p>
     <% end %>
-<a href='#'id='contactUsIcon' onclick='contactUsNow();return false;'>CONTACT US</A>
+<a href='#'id='contactUsIcon' onclick='contactUsNow();'>CONTACT US</A>
 
 <!-- <a id='logInIcon' onclick='logInScreen();return false;'>LOG IN</A> -->
   <!-- <p id='line1'>|</p> -->
@@ -169,7 +178,7 @@ $(".aboutSelect").mouseover(function(){
 <!-- <img id='whiteGuyPic' class='animated slideInLeft' src = '/assets/whiteguy.jpg' onclick='closeLogin();return false;'>
 <h2 id='galleryBlend' class='animated slideInLeft'>PHOTOS & VIDEOS</h2> -->
 <a href="#top" class="back-to-top">Back to Top</a>
-<div id='galleriesContent' class='animated slideInUp flex-container' onclick='closeLogin();'>
+<div id='galleriesContent' class='animated slideInUp flex-container'>
 
 <script type="text/javascript" charset="utf-8">
 $(window).load(function() {
@@ -199,8 +208,10 @@ $(".final-tiles-gallery").finalTilesGallery({
             </a>
         </div>
             <% end %>
-    </div>    
+    </div> 
+   
     <div id='pagination' class='digg_pagination'><%= will_paginate @photos %></div>
+   
 </div>
 
 </div>

@@ -9,10 +9,16 @@ margin-bottom:165px;
 /*height:100px;*/
 /*background-color:black;*/
 z-index:9;
-width:1260px;
-display: block;
+/*width:auto;*/
+/*display: block;*/
 text-align:center;
+    width: auto;
+    /*margin: 0 auto;*/
 }
+
+/*ftg-filters
+
+*/
 
 #sponsorTrigger1 {
 margin-top:200px;
