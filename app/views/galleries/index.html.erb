@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title></title>
+  <title></title>
 
 </head>
 <body id='galleriesPage'>
@@ -12,7 +12,6 @@ $('#header2').waypoint(function() {
     // backgroundColor: "#161616",
     height:"0px"
   }, 200 );
-
   $( "#top_banner_users" ).animate({
     // width: "70%",
     // backgroundColor: "#161616",
@@ -22,7 +21,6 @@ $('#header2').waypoint(function() {
   }, 200 );
 });
 });
-
 $(document).ready(function() {
 $('#header1').waypoint(function() {
   $( "#top_helper_users" ).animate({
@@ -38,43 +36,29 @@ $('#header1').waypoint(function() {
   }, 200 );
 });
 });
-
 $(document).ready(function() {
-            // $('#gallery').finalTilesGallery({onComplete: function(){
-            //     // console.log("completed");
-            //     var total_height = parseInt($('#gallery').height()) + 340;
-            //     // console.log(total_height);
-            //     $('#galleriesContent').height(total_height);
-            // }});
-setTimeout(function() {
-  var location = $('#pagination').position();
-  console.log(location.top);
-  var total_height = parseInt(location.top) + 540;
-  $('#galleriesContent').height(total_height);
-}, 2000);
-
+            $('#gallery').finalTilesGallery({onComplete: function(){
+                // console.log("completed");
+                var total_height = parseInt($('#gallery').height()) + 340;
+                // console.log(total_height);
+                $('#galleriesContent').height(total_height);
+            }});
 });
-
-
-
-
 $(document).ready(function() {
 $('#header1').waypoint(function() {
    $('#welcomeBottom1').fadeOut();
 });
 });
-
 $(document).ready(function() {
 $('#header').waypoint(function() {
    $('#welcomeBottom1').fadeIn( "slow" );
 });
 });
-
 </script>
 
 <script type="text/javascript">
 $(".aboutSelect").mouseover(function(){
-	console.log('drop');
+  console.log('drop');
   $("#aboutDrop").addClass('animated slideInDown');
 })
 </script> 
@@ -118,7 +102,7 @@ $(".aboutSelect").mouseover(function(){
         <%= link_to 'SIGN UP', new_user_registration_path, :id => 'signUpIcon' %> 
         <p id='line2'>|</p>
     <% end %>
-<a href='#'id='contactUsIcon' onclick='contactUsNow();'>CONTACT US</A>
+<a href='#'id='contactUsIcon' onclick='contactUsNow();return false;'>CONTACT US</A>
 
 <!-- <a id='logInIcon' onclick='logInScreen();return false;'>LOG IN</A> -->
   <!-- <p id='line1'>|</p> -->
@@ -178,7 +162,7 @@ $(".aboutSelect").mouseover(function(){
 <!-- <img id='whiteGuyPic' class='animated slideInLeft' src = '/assets/whiteguy.jpg' onclick='closeLogin();return false;'>
 <h2 id='galleryBlend' class='animated slideInLeft'>PHOTOS & VIDEOS</h2> -->
 <a href="#top" class="back-to-top">Back to Top</a>
-<div id='galleriesContent' class='animated slideInUp flex-container'>
+<div id='galleriesContent' class='animated slideInUp flex-container' onclick='closeLogin();'>
 
 <script type="text/javascript" charset="utf-8">
 $(window).load(function() {
@@ -208,10 +192,8 @@ $(".final-tiles-gallery").finalTilesGallery({
             </a>
         </div>
             <% end %>
-    </div> 
-   
+    </div>    
     <div id='pagination' class='digg_pagination'><%= will_paginate @photos %></div>
-   
 </div>
 
 </div>
