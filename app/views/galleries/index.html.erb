@@ -36,14 +36,19 @@ $('#header1').waypoint(function() {
   }, 200 );
 });
 });
-// $(document).ready(function() {
-//             $('#gallery').finalTilesGallery({onComplete: function(){
-//                 // console.log("completed");
-//                 var total_height = parseInt($('#gallery').height()) + 340;
-//                 // console.log(total_height);
-//                 $('#galleriesContent').height(total_height);
-//             }});
-// });
+$(document).ready(function() {
+            $('#gallery').finalTilesGallery({onComplete: function(){
+                $(".final-tiles-gallery").finalTilesGallery({
+                layout: 'columns',
+                gridSize: 0
+                });
+                // console.log("completed");
+                // var total_height = parseInt($('#gallery').height()) + 340;
+                // console.log(total_height);
+                // $('#galleriesContent').height(total_height);
+            }});
+});
+
 $(document).ready(function() {
 $('#header1').waypoint(function() {
    $('#welcomeBottom1').fadeOut();
@@ -162,24 +167,32 @@ $(".aboutSelect").mouseover(function(){
 <!-- <img id='whiteGuyPic' class='animated slideInLeft' src = '/assets/whiteguy.jpg' onclick='closeLogin();return false;'>
 <h2 id='galleryBlend' class='animated slideInLeft'>PHOTOS & VIDEOS</h2> -->
 <a href="#top" class="back-to-top">Back to Top</a>
-<div id='galleriesContent' class='animated slideInUp flex-container' onclick='closeLogin();'>
+<div id='galleriesContent' class='animated slideInUp flex-container'>
 
 <script type="text/javascript" charset="utf-8">
-$(window).load(function() {
-$(".final-tiles-gallery").finalTilesGallery({
-         layout: 'columns',
-         gridSize: 0
-  });
-});
-</script>
+// $(window).load(function() {
+// $(".final-tiles-gallery").finalTilesGallery({
+//          layout: 'columns',
+//          gridSize: 0
+//   });
+// });
+// </script>
 
 <script type="text/javascript" charset="utf-8">
 
 function photoRe(){
-  console.log('re');
-$(".final-tiles-gallery").finalTilesGallery({
-         layout: 'columns',
-         gridSize: 0
+  $(document).ready(function() {
+            // $('#gallery').finalTilesGallery({onComplete: function(){
+              console.log('yo')
+                $(".final-tiles-gallery").finalTilesGallery({
+                layout: 'columns',
+                gridSize: 0
+                });
+                // console.log("completed");
+                // var total_height = parseInt($('#gallery').height()) + 340;
+                // console.log(total_height);
+                // $('#galleriesContent').height(total_height);
+            // }});
   });
 }
 
@@ -189,7 +202,7 @@ $(".final-tiles-gallery").finalTilesGallery({
 
     <div class="ftg-filters">
         <a href="#ftg-set-ftgall">ALL</a>
-        <a href="#ftg-set-filter-1" onclick='photoRe();return false;'>PHOTOS</a>
+        <a href="#ftg-set-filter-1" onclick='photoRe();'>PHOTOS</a>
         <a href="#ftg-set-filter-2">VIDEOS</a>
         <!-- <a href="#ftg-set-filter-3">MISC.</a> -->
     </div>
