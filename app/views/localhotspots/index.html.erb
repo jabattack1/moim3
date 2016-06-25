@@ -1,22 +1,38 @@
 <html>
 <head>
-	<title></title>
+    <title></title>
 </head>
-<body>
+<body id='involvedPage'>
 
 <script>
-var head ="<h2 id='teamBlend'>MEET THE TEAM</h2>"
+var head="<h2 id='involvedBlend'>LOCAL HOTSPOTS</h2>"
 // var missionLine ="<img id='missionLine' src = '/assets/line.png'>"
 
 $(window).load(function() {
   $('body').append( head );
   // $('body').append( missionLine );
-  $('#teamBlend').hide();
+  $('#involvedBlend').hide();
   // $('#missionLine').hide();
   setTimeout(function() {
-  $('#teamBlend').fadeIn( "slow" );
+  $('#involvedBlend').fadeIn( "slow" );
   // $('#missionLine').fadeIn( "slow" );
 }, 300);
+});
+
+
+
+$(document).ready(function() {
+$('#headerLeadershipPic').waypoint(function() {
+  if ($('#leadershipPic').length == 0){
+  console.log('leader!')
+  $('#getInvolvedContent').append(leadershipPic);
+  $('#leadershipPic').hide();
+   $('#leadershipPic').fadeIn( "slow" );
+  }
+  else{
+    $('#leadershipPic').fadeIn( "slow" );
+  }
+});
 });
 
 $(document).ready(function() {
@@ -83,8 +99,10 @@ $(".aboutSelect").mouseover(function(){
 <div id="header2">
 <!-- <h1>trigger</h1> -->
 </div>
+<div id="headerLeadershipPic">
+<!-- <h1>trigger</h1> -->
+</div>
 <div id='top_helper'></div>
-
 <div id='top_banner' class='navigation'>
   <!-- <nav> -->
 
@@ -94,6 +112,7 @@ $(".aboutSelect").mouseover(function(){
     <button id='glassButton'><img id='glass' src='/assets/glass.png'></button>
   </form>
 </section>
+
 
 
 <div id='logInBanner'>
@@ -123,41 +142,41 @@ $(".aboutSelect").mouseover(function(){
 
 
 <ul>
-				
+                
                 <li><a class='aboutSelect'>ABOUT</a><img id="aboutArrow" src='/assets/downArrow.PNG'/>
-                	<ul id='aboutDrop'>
+                    <ul id='aboutDrop'>
                         <li>
                             <a href='/mission'>THE MISSION</a>
-                      	</li>
-                        <li>
-                        	<a href='/chronicle'>THE CHRONICLE</a>
                         </li>
                         <li>
-                        	<a href='/team'>THE TEAM</a>
+                            <a href='/chronicle'>THE CHRONICLE</a>
                         </li>
                         <li>
-                        	<a href='/getinvolved'>GET INVOLVED</a>
+                            <a href='/team'>THE TEAM</a>
+                        </li>
+                        <li>
+                            <a href='/getinvolved'>GET INVOLVED</a>
                         </li>
                      </ul>
-            	</li>
+                </li>
 
                 <li><a href='/events'>EVENTS</a></li>
                 <li><a href='/blogs'>BLOG</a></li>
                 <li><a href='/galleries'>PHOTOS & VIDEOS</a></li>
                 <li><a href='/express_yourselves'>EXPRESS YOURSELF</a></li>
                 <li><a class='communitySelect'>THE COMMUNITY</a><img id="communityArrow" src='/assets/downArrow.PNG'/>
-					<ul id='communityDrop'>
+                    <ul id='communityDrop'>
                         <li>
                             <a href='/external_events'>EXTERNAL EVENTS</a>
-                      	</li>
-                        <li>
-                        	<a href='/careerboards'>CAREER BOARD</a>
                         </li>
                         <li>
-                        	<a href='/localhotspots'>LOCAL HOTSPOTS</a>
+                            <a href='/careerboards'>CAREER BOARD</a>
                         </li>
                         <li>
-                        	<a href='/freeboards'>FREEBOARD</a>
+                            <a href='/localhotspots'>LOCAL HOTSPOTS</a>
+                        </li>
+                        <li>
+                            <a href='/freeboards'>FREEBOARD</a>
                         </li>
                      </ul>
                 </li>
@@ -166,13 +185,18 @@ $(".aboutSelect").mouseover(function(){
                 
 </div>
 
+<img id='whiteGuyPic' class='animated zoomIn' src = '/assets/chairs.jpg' onclick='closeLogin();return false;'>
+
+<!-- <img id='involvedLine'  class='animated slideInLeft' src = "/assets/line.png"> -->
 
 <a href="#top" class="back-to-top">Back to Top</a>
-<div id='localhotspotsContent' class='animated slideInUp' onclick='closeLogin();return false;'>LOCAL HOT SPOTS</div>
+<div id='getInvolvedContent' class='animated slideInUp' onclick='closeLogin();return false;'>
+
 
 <script type="text/javascript">
-	$('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+  $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
 </script>
+
 <div id='bottom' class='involvedBottom'></div>
 <div id='contactUsInvolved' onclick='closeLogin();'>
 
@@ -229,6 +253,9 @@ MOI'M | All Rights Reserved | <a href='#' id='link' onclick='termsWelcome();retu
 </div>
 </div>
 
+
+
 </div>
+
 </body>
 </html>
