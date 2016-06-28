@@ -2067,7 +2067,7 @@ margin-top:-10px;
 
 #logInBanner{
 position:absolute;
-margin-left:1055px;
+margin-left:1068px;
 margin-top:11px;
 }
 
@@ -8755,9 +8755,9 @@ margin-top:15px;
 
 .flashMessage{
 position:absolute;
-color: black; 
-margin-top:5px;
-margin-left:410px;
+color: red; 
+margin-top:-345px;
+margin-left:415px;
 }
 
 .flashMessage1{
