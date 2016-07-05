@@ -4,7 +4,7 @@ class GalleriesController < ApplicationController
   # @photos = Photo.all
   @gallery = Gallery.all
   @photos = Photo.paginate(:page => params[:page], :per_page => 20)
-  @videos = Video.paginate(:page => params[:page], :per_page => 20)
+
 
   end
 
