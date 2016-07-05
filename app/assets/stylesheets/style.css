@@ -5086,11 +5086,12 @@ width:1260px;
 #galleriesPage{
   background:url()center top;
   background-size: 1260px;
-  background-color:#EFEFEF;
+  background-color:#161616;
   width:1260px;
   /*height: 1010px;  */
   margin: 0 auto;
   position:relative;
+  overflow: auto;
 }
 
 

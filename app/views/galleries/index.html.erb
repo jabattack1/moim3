@@ -39,6 +39,7 @@ $('#header1').waypoint(function() {
 $(document).ready(function() {
             $('#gallery').finalTilesGallery({onComplete: function(){
                 $(".final-tiles-gallery").finalTilesGallery({
+                  
                 layout: 'columns',
                 gridSize: 0
                 });
@@ -47,7 +48,9 @@ $(document).ready(function() {
                 // console.log(total_height);
                 // $('#galleriesContent').height(total_height);
             }});
+            
 });
+
 
 $(document).ready(function() {
 $('#header1').waypoint(function() {
@@ -178,49 +181,42 @@ $(".aboutSelect").mouseover(function(){
 // });
 // </script>
 
-<script type="text/javascript" charset="utf-8">
 
-function photoRe(){
-  $(document).ready(function() {
-            // $('#gallery').finalTilesGallery({onComplete: function(){
-              console.log('yo')
-                $(".final-tiles-gallery").finalTilesGallery({
-                layout: 'columns',
-                gridSize: 0
-                });
-                // console.log("completed");
-                // var total_height = parseInt($('#gallery').height()) + 340;
-                // console.log(total_height);
-                // $('#galleriesContent').height(total_height);
-            // }});
-  });
-}
 
-</script>
+
 
 <div id="gallery" class='galleryCSS'>
 
     <div class="ftg-filters">
         <a href="#ftg-set-ftgall">ALL</a>
-        <a href="#ftg-set-filter-1">PHOTOS</a>
+        <a href="#ftg-set-filter-1" class='filter1'>PHOTOS</a>
         <a href="#ftg-set-filter-2">VIDEOS</a>
         <!-- <a href="#ftg-set-filter-3">MISC.</a> -->
     </div>
-      <div class="final-tiles-gallery effect-zoom effect-fade-out caption-top caption-bg">
+
+  <div class="final-tiles-gallery effect-zoom effect-fade-out caption-top caption-bg">
     <div class="ftg-items">
                     <% @photos.each do |photo| %>
         <div class="tile ftg-set-filter-1">
             <a data-lightbox="gallery" data-title="<%= photo.description %>" class="tile-inner" href="<%= photo.image.url %>">
-                <img class="item" data-src="<%= photo.image.url %>" />
+                <img class='item' data-src="<%= photo.image.url %>" />
                 <span class='title'><%= photo.title %></span>
                 <span class='subtitle'><%= photo.description %></span>
             </a>
         </div>
             <% end %>
+
+        <div class="tile ftg-set-filter-2" data-ftg-keep-aspect-ratio="true">
+        
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/g65oWFMSoK0?rel=0&autoplay=0&wmode=opaque" frameborder="0" allowfullscreen="" class='item'></iframe>
+        </div>
+        ...
+        
+
     </div>    
     <div id='pagination' class='digg_pagination'><%= will_paginate @photos %></div>
-</div>
-
+  
+  </div>
 </div>
 
 <script type="text/javascript">
