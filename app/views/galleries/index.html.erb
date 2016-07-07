@@ -178,25 +178,7 @@ $(".aboutSelect").mouseover(function(){
 // });
 // </script>
 
-<script type="text/javascript" charset="utf-8">
 
-function photoRe(){
-  $(document).ready(function() {
-            // $('#gallery').finalTilesGallery({onComplete: function(){
-              console.log('yo')
-                $(".final-tiles-gallery").finalTilesGallery({
-                layout: 'columns',
-                gridSize: 0
-                });
-                // console.log("completed");
-                // var total_height = parseInt($('#gallery').height()) + 340;
-                // console.log(total_height);
-                // $('#galleriesContent').height(total_height);
-            // }});
-  });
-}
-
-</script>
 
 <div id="gallery" class='galleryCSS'>
 
@@ -217,7 +199,21 @@ function photoRe(){
             </a>
         </div>
             <% end %>
+        <div class="tile ftg-set-filter-2" data-ftg-keep-aspect-ratio="true">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/g65oWFMSoK0?rel=0&autoplay=0&wmode=opaque" frameborder="0" allowfullscreen="" class="item"></iframe>
+        </div>
+       
     </div>    
+
+
+
+  
+
+
+
+
+
+
     <div id='pagination' class='digg_pagination'><%= will_paginate @photos %></div>
 </div>
 
