@@ -167,17 +167,7 @@ $(".aboutSelect").mouseover(function(){
 <!-- <img id='whiteGuyPic' class='animated slideInLeft' src = '/assets/whiteguy.jpg' onclick='closeLogin();return false;'>
 <h2 id='galleryBlend' class='animated slideInLeft'>PHOTOS & VIDEOS</h2> -->
 <a href="#top" class="back-to-top">Back to Top</a>
-<div id='galleriesContent' class='animated slideInUp flex-container'>
-
-<script type="text/javascript" charset="utf-8">
-// $(window).load(function() {
-// $(".final-tiles-gallery").finalTilesGallery({
-//          layout: 'columns',
-//          gridSize: 0
-//   });
-// });
-// </script>
-
+<div id='galleriesContent' class='flex-container'>
 
 
 <div id="gallery" class='galleryCSS'>
@@ -188,7 +178,7 @@ $(".aboutSelect").mouseover(function(){
         <a href="#ftg-set-filter-2">VIDEOS</a>
         <!-- <a href="#ftg-set-filter-3">MISC.</a> -->
     </div>
-      <div class="final-tiles-gallery effect-zoom effect-fade-out caption-top caption-bg">
+  <div class="final-tiles-gallery effect-zoom effect-fade-out caption-top caption-bg">
     <div class="ftg-items">
                     <% @photos.each do |photo| %>
         <div class="tile ftg-set-filter-1">
@@ -205,17 +195,8 @@ $(".aboutSelect").mouseover(function(){
        
     </div>    
 
-
-
-  
-
-
-
-
-
-
     <div id='pagination' class='digg_pagination'><%= will_paginate @photos %></div>
-</div>
+  </div>
 
 </div>
 
