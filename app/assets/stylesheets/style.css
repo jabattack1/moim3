@@ -2545,7 +2545,7 @@ position: absolute;
 margin-top:403px;
 margin-left:0px;
 width:1260px;
-height:2980px;
+height:3735px;
 background-color:white;
 z-index:8;
 padding-top:30px;
@@ -4086,44 +4086,45 @@ text-align:center;
 #chronicleTop1{
 position:absolute;
 display: block;
-    margin-left: 595px;
+    margin-left:610px;
+    width:55px;
     margin-right: auto; 
     margin-top:20px;
-    width:85px;
 }
 
 
 #chronicleTop2{
 position:absolute;
 display: block;
-    margin-left: 625px;
+    margin-left: 610px;
     margin-right: auto; 
-    margin-top:240px;
+    margin-top:300px;
+    width:55px;
 }
 
-#chronicleTop3{
+/*#chronicleTop3{
 position:absolute;
 display: block;
     margin-left: 625px;
     margin-right: auto; 
     margin-top:55px;
-}
+}*/
 
-#chronicleTop4{
+/*#chronicleTop4{
 position:absolute;
 display: block;
     margin-left: 625px;
     margin-right: auto; 
     margin-top:50px;
-}
+}*/
 
-#chronicleTop5{
+/*#chronicleTop5{
 position:absolute;
 display: block;
     margin-left: 625px;
     margin-right: auto; 
     margin-top:45px;
-}
+}*/
 
 #chronicleTop6{
 position:absolute;
@@ -4144,9 +4145,10 @@ display: block;
 #chronicleTop8{
 position:absolute;
 display: block;
-    margin-left: 625px;
+    margin-left:610px;
+    width:55px;
     margin-right: auto; 
-    margin-top:70px;
+    margin-top:550px;
 }
 
 #chronicleTop9{
@@ -4192,9 +4194,10 @@ display: block;
 #chronicleTop14{
 position:absolute;
 display: block;
-    margin-left: 625px;
+        margin-left:610px;
+    width:55px;
     margin-right: auto; 
-    margin-top:60px;
+    margin-top:555px;
 }
 
 #chronicleTop15{
@@ -4240,50 +4243,52 @@ display: block;
 #chronicleTop20{
 position:absolute;
 display: block;
-    margin-left: 563px;
+    margin-left:609px;
+    width:55px;
     margin-right: auto; 
-    margin-top:50px;
+    margin-top:790px;
 }
 
 #chronicle1Date{
 position:absolute;
 display: block;
-    margin-left: 575px;
+    margin-left: 585px;
+    width:105px;
+    margin-top:165px;
     margin-right: auto; 
-    margin-top:115px;
 }
 
-#chronicle2Date{
+/*#chronicle2Date{
 position:absolute;
 display: block;
     margin-left: 575px;
     margin-right: auto; 
     margin-top:290px;
-}
+}*/
 
-#chronicle3Date{
+/*#chronicle3Date{
 position:absolute;
 display: block;
     margin-left: 575px;
     margin-right: auto; 
     margin-top:160px;
-}
+}*/
 
-#chronicle4Date{
+/*#chronicle4Date{
 position:absolute;
 display: block;
     margin-left: 575px;
     margin-right: auto; 
     margin-top:90px;
-}
-
+}*/
+/*
 #chronicle5Date{
 position:absolute;
 display: block;
     margin-left: 575px;
     margin-right: auto; 
     margin-top:90px;
-}
+}*/
 
 #chronicle6Date{
 position:absolute;
@@ -4304,9 +4309,10 @@ display: block;
 #chronicle8Date{
 position:absolute;
 display: block;
-    margin-left: 575px;
+    margin-left: 585px;
+    width:105px;    
     margin-right: auto; 
-    margin-top:195px;
+    margin-top:510px;
 }
 
 #chronicle9Date{
@@ -4352,9 +4358,10 @@ display: block;
 #chronicle14Date{
 position:absolute;
 display: block;
-    margin-left: 575px;
+    margin-left: 585px;
+    width:105px;
     margin-right: auto; 
-    margin-top:160px;
+    margin-top:510px;
 }
 
 #chronicle15Date{
@@ -4392,21 +4399,22 @@ display: block;
 #chronicle19Date{
 position:absolute;
 display: block;
-    margin-left: 580px;
+    margin-left: 585px;
+    width:105px;
     margin-right: auto; 
-    margin-top:105px;
+    margin-top:838px;
 }
 
 #chronicle1Circle{
 position:absolute;
 display: block;
-margin-left: 690px;
-width:150px;
+margin-left: 680px;
+/*width:150px;*/
 }
 
 #circleContainer1{
 position:absolute;
-margin-top:75px;
+margin-top:250px;
 width:1260px;
 height:100px;
 }
@@ -4414,7 +4422,8 @@ height:100px;
 #chronicle2Circle{
 position:absolute;
 display: block;
-margin-left: 465px;
+margin-left: 495px;
+margin-top:180px;
 }
 
 #circleContainer2{
@@ -4427,7 +4436,8 @@ height:100px;
 #chronicle3Circle{
 position:absolute;
 display: block;
-margin-left: 690px;
+margin-left: 680px;
+margin-top: 170px;
 }
 
 #circleContainer3{
@@ -4440,7 +4450,8 @@ height:100px;
 #chronicle4Circle{
 position:absolute;
 display: block;
-margin-left: 465px;
+margin-left: 495px;
+margin-top: 190px;
 }
 
 #circleContainer4{
@@ -4453,7 +4464,8 @@ height:100px;
 #chronicle5Circle{
 position:absolute;
 display: block;
-margin-left: 690px;
+margin-left: 680px;
+margin-top: 245px;
 }
 
 #circleContainer5{
@@ -4466,7 +4478,8 @@ height:100px;
 #chronicle6Circle{
 position:absolute;
 display: block;
-margin-left: 465px;
+margin-left: 495px;
+margin-top:245px;
 }
 
 #circleContainer6{
@@ -4479,7 +4492,8 @@ height:100px;
 #chronicle7Circle{
 position:absolute;
 display: block;
-margin-left: 700px;
+margin-left: 690px;
+margin-top: 300px;
 }
 
 #circleContainer7{
@@ -4492,7 +4506,8 @@ height:100px;
 #chronicle8Circle{
 position:absolute;
 display: block;
-margin-left: 460px;
+margin-left: 495px;
+margin-top:430px;
 }
 
 #circleContainer8{
@@ -4505,7 +4520,8 @@ height:100px;
 #chronicle9Circle{
 position:absolute;
 display: block;
-margin-left: 705px;
+margin-left: 690px;
+margin-top: 385px;
 }
 
 #circleContainer9{
@@ -4518,7 +4534,8 @@ height:100px;
 #chronicle10Circle{
 position:absolute;
 display: block;
-margin-left: 465px;
+margin-left: 495px;
+margin-top:330px;
 }
 
 #circleContainer10{
@@ -4531,7 +4548,8 @@ height:100px;
 #chronicle11Circle{
 position:absolute;
 display: block;
-margin-left: 710px;
+margin-left: 690px;
+margin-top: 355px;
 }
 
 #circleContainer11{
@@ -4544,7 +4562,8 @@ height:100px;
 #chronicle12Circle{
 position:absolute;
 display: block;
-margin-left: 448px;
+margin-left: 495px;
+margin-top:350px;
 }
 
 #circleContainer12{
@@ -4557,7 +4576,8 @@ height:100px;
 #chronicle13Circle{
 position:absolute;
 display: block;
-margin-left: 705px;
+margin-left: 690px;
+margin-top: 355px;
 }
 
 #circleContainer13{
@@ -4570,7 +4590,8 @@ height:100px;
 #chronicle14Circle{
 position:absolute;
 display: block;
-margin-left: 465px;
+margin-left: 495px;
+margin-top:460px;
 }
 
 #circleContainer14{
@@ -4583,7 +4604,8 @@ height:100px;
 #chronicle15Circle{
 position:absolute;
 display: block;
-margin-left: 715px;
+margin-left: 690px;
+margin-top: 480px;
 }
 
 #circleContainer15{
@@ -4596,7 +4618,8 @@ height:100px;
 #chronicle16Circle{
 position:absolute;
 display: block;
-margin-left: 465px;
+margin-left: 495px;
+margin-top:520px;
 }
 
 #circleContainer16{
@@ -4609,7 +4632,8 @@ height:100px;
 #chronicle17Circle{
 position:absolute;
 display: block;
-margin-left: 715px;
+margin-left: 690px;
+margin-top: 550px;
 }
 
 #circleContainer17{
@@ -4622,7 +4646,8 @@ height:100px;
 #chronicle18Circle{
 position:absolute;
 display: block;
-margin-left: 470px;
+margin-left: 495px;
+margin-top:520px;
 }
 
 #circleContainer18{
@@ -4635,7 +4660,8 @@ height:100px;
 #chronicle19Circle{
 position:absolute;
 display: block;
-margin-left: 715px;
+margin-left: 690px;
+margin-top: 560px;
 }
 
 #circleContainer19{
@@ -4649,8 +4675,8 @@ height:100px;
 #chronicle1Words{
 position:absolute;
 display: block;
-margin-left: 805px;
-    margin-top:182px;
+margin-left: 795px;
+    margin-top:335px;
     /*-webkit-filter: invert(100%)*/
 }
 
@@ -4661,7 +4687,8 @@ margin-top:-90px;
 #chronicle2Words{
 position:absolute;
 display: block;
-margin-left: 234px;
+margin-left: 80px;
+margin-top:160px;
 /*-webkit-filter: invert(100%)*/
 }
 
@@ -4672,7 +4699,8 @@ margin-top:285px;
 #chronicle3Words{
 position:absolute;
 display: block;
-margin-left: 805px;
+margin-left: 795px;
+margin-top:130px;
     /*-webkit-filter: invert(100%)*/
 }
 
@@ -4683,7 +4711,8 @@ margin-top:445px;
 #chronicle4Words{
 position:absolute;
 display: block;
-margin-left: 234px;
+margin-left: 80px;
+margin-top: 170px;
     /*-webkit-filter: invert(100%)*/
 }
 
@@ -4695,6 +4724,7 @@ margin-top:535px;
 position:absolute;
 display: block;
 margin-left: 805px;
+margin-top:230px;
     /*-webkit-filter: invert(100%)*/
 }
 
@@ -4705,7 +4735,8 @@ margin-top:605px;
 #chronicle6Words{
 position:absolute;
 display: block;
-margin-left: 214px;
+margin-left: 80px;
+margin-top:255px;
     /*-webkit-filter: invert(100%)*/
 }
 
@@ -4716,7 +4747,8 @@ margin-top:705px;
 #chronicle7Words{
 position:absolute;
 display: block;
-margin-left: 815px;
+margin-left: 805px;
+margin-top:295px;
     /*-webkit-filter: invert(100%)*/
 }
 
@@ -4727,7 +4759,8 @@ margin-top:795px;
 #chronicle8Words{
 position:absolute;
 display: block;
-margin-left: 169px;
+margin-left: 80px;
+margin-top:410px;
     /*-webkit-filter: invert(100%)*/
 }
 
@@ -4738,7 +4771,8 @@ margin-top:975px;
 #chronicle9Words{
 position:absolute;
 display: block;
-margin-left: 820px;
+margin-left: 805px;
+margin-top:355px;
     /*-webkit-filter: invert(100%)*/
 }
 
@@ -4749,7 +4783,8 @@ margin-top:1160px;
 #chronicle10Words{
 position:absolute;
 display: block;
-margin-left: 150px;
+margin-left: 80px;
+margin-top:310px;
     /*-webkit-filter: invert(100%)*/
 }
 
@@ -4760,7 +4795,8 @@ margin-top:1337px;
 #chronicle11Words{
 position:absolute;
 display: block;
-margin-left: 825px;
+margin-left: 805px;
+margin-top:335px;
     /*-webkit-filter: invert(100%)*/
 }
 
@@ -4771,7 +4807,8 @@ margin-top:1442px;
 #chronicle12Words{
 position:absolute;
 display: block;
-margin-left: 190px;
+margin-left: 80px;
+margin-top:326px;
     /*-webkit-filter: invert(100%)*/
 }
 
@@ -4782,7 +4819,8 @@ margin-top:1587px;
 #chronicle13Words{
 position:absolute;
 display: block;
-margin-left: 830px;
+margin-left: 805px;
+margin-top:335px;
     /*-webkit-filter: invert(100%)*/
 }
 
@@ -4793,7 +4831,8 @@ margin-top:1680px;
 #chronicle14Words{
 position:absolute;
 display: block;
-margin-left: 225px;
+margin-left: 80px;
+margin-top:432px;
     /*-webkit-filter: invert(100%)*/
 }
 
@@ -4804,7 +4843,8 @@ margin-top:1845px;
 #chronicle15Words{
 position:absolute;
 display: block;
-margin-left: 830px;
+margin-left: 805px;
+margin-top:470px;
     /*-webkit-filter: invert(100%)*/
 }
 
@@ -4815,7 +4855,8 @@ margin-top:1930px;
 #chronicle16Words{
 position:absolute;
 display: block;
-margin-left: 190px;
+margin-left: 80px;
+margin-top:500px;
     /*-webkit-filter: invert(100%)*/
 }
 
@@ -4826,7 +4867,8 @@ margin-top:2035px;
 #chronicle17Words{
 position:absolute;
 display: block;
-margin-left: 835px;
+margin-left: 805px;
+margin-top:535px;
     /*-webkit-filter: invert(100%)*/
 }
 
@@ -4837,7 +4879,8 @@ margin-top:2135px;
 #chronicle18Words{
 position:absolute;
 display: block;
-margin-left: 235px;
+margin-left: 80px;
+margin-top:490px;
     /*-webkit-filter: invert(100%)*/
 }
 
@@ -4848,7 +4891,8 @@ margin-top:2315px;
 #chronicle19Words{
 position:absolute;
 display: block;
-margin-left: 835px;
+margin-left: 805px;
+margin-top:535px;
     /*-webkit-filter: invert(100%)*/
 }
 

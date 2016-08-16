@@ -39,8 +39,8 @@ $('#header1').waypoint(function() {
 $(document).ready(function() {
             $('#gallery').finalTilesGallery({onComplete: function(){
                 $(".final-tiles-gallery").finalTilesGallery({
-                layout: 'columns',
-                gridSize: 0
+                // layout: 'columns',
+                // gridSize: 0
                 });
                 // console.log("completed");
                 // var total_height = parseInt($('#gallery').height()) + 340;
@@ -66,7 +66,24 @@ $(".aboutSelect").mouseover(function(){
   console.log('drop');
   $("#aboutDrop").addClass('animated slideInDown');
 })
+
+var videoContent = "<div class='tile ftg-set-filter-2' data-ftg-keep-aspect-ratio='true'><iframe width='560' height='315' src='https://www.youtube.com/embed/g65oWFMSoK0?rel=0&autoplay=0&wmode=opaque' frameborder='0'allowfullscreen=\"\" class='item'></iframe></div>"
+function videos(){
+  console.log('video');
+    $('.ftg-items').empty();
+    // $('#content').append(mission2);
+     setTimeout(function() {
+        $('.ftg-items').append(videoContent);
+    }, 1800);    
+}
 </script> 
+
+<script>
+$(document).ready(function () {
+  console.log('clicked');
+   $('#photoButton').click();
+});
+</script>
 
 
 
@@ -141,7 +158,7 @@ $(".aboutSelect").mouseover(function(){
 
                 <li><a href='/events'>EVENTS</a></li>
                 <li><a href='/blogs'>BLOG</a></li>
-                <li><a href='/galleries'>PHOTOS & VIDEOS</a></li>
+                <li><a href='/galleries#ftg-set-filter-1'>PHOTOS & VIDEOS</a></li>
                 <li><a href='/express_yourselves'>EXPRESS YOURSELF</a></li>
                 <li><a class='communitySelect'>THE COMMUNITY</a><img id="communityArrow" src='/assets/downArrow.PNG'/>
                     <ul id='communityDrop'>
@@ -173,8 +190,8 @@ $(".aboutSelect").mouseover(function(){
 <div id="gallery" class='galleryCSS'>
 
     <div class="ftg-filters">
-        <a href="#ftg-set-ftgall">ALL</a>
-        <a href="#ftg-set-filter-1">PHOTOS</a>
+        <!-- <a href="#ftg-set-ftgall">ALL</a> -->
+        <a id='photoButton' href="#ftg-set-filter-1">PHOTOS</a>
         <a href="#ftg-set-filter-2">VIDEOS</a>
         <!-- <a href="#ftg-set-filter-3">MISC.</a> -->
     </div>
@@ -188,11 +205,9 @@ $(".aboutSelect").mouseover(function(){
                 <span class='subtitle'><%= photo.description %></span>
             </a>
         </div>
-            <% end %>
-        <div class="tile ftg-set-filter-2" data-ftg-keep-aspect-ratio="true">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/g65oWFMSoK0?rel=0&autoplay=0&wmode=opaque" frameborder="0" allowfullscreen="" class="item"></iframe>
-        </div>
-       
+                    <% end %>
+        <div class='tile ftg-set-filter-2' data-ftg-keep-aspect-ratio='true'><iframe width='560' height='315' src='https://www.youtube.com/embed/g65oWFMSoK0?rel=0&autoplay=0&wmode=opaque' frameborder='0'allowfullscreen=\"\" class='item'></iframe>
+        </div> 
     </div>    
 
     <div id='pagination' class='digg_pagination'><%= will_paginate @photos %></div>
