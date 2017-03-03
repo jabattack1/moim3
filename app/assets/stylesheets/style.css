@@ -232,7 +232,7 @@ width:1260px;
   background-size: 1200px;
   background-color:white;
   /*background-repeat: repeat-y;*/
-width:1260px;
+  width:1260px;
   height: 2220px;
   max-width:1260px;
   /*max-height:1200px;*/
@@ -827,10 +827,11 @@ cursor:pointer;
 
 #logoMoim{
 position:absolute;
-width:150px;
+width:120px;
 top:2px;
-margin-left:30px;
-margin-top:7px;
+margin-left:180px;
+margin-top:37px;
+-webkit-filter: invert(100%) !important;
 }
 
 #logoMoimBottom{
@@ -843,7 +844,7 @@ margin-top:0px;
 
 #logoMoim:hover{
 cursor:pointer;
--webkit-filter: invert(50%) !important;
+/*-webkit-filter: invert(50%) !important;*/
 }
 
 #logoMoimBottom:hover{
@@ -1438,15 +1439,15 @@ margin-top:975px;
 }
 
 /******/
-#top_helper {
+/*#top_helper {
 position: fixed;
 margin-top:0px;
 margin-left:0px;
 width: 1260px;
- 	height: 15px;
-background-color:rgba(0,0,0,0.1);
+height: 15px;
+background-color:rgba(255, 255, 255, 0.5);
 z-index: 10;
-}
+}*/
 
 #top_helper_users {
 position: fixed;
@@ -1521,14 +1522,15 @@ width: 1260px;
         }
 
 #top_banner {
-position: fixed;
-margin-top:15px;
+position: absolute;
+margin-top:0px;
 margin-left:0px;
 width: 1260px;
- 	height: 64px;
- 	text-shadow: 2px 2px 2px #000;
- 	background-color:rgba(0,0,0,0.1);
-
+ 	height: 200px;
+ 	/*text-shadow: 2px 2px 2px #000;*/
+ 	background-color:rgba(255,255,255,0.7);
+/*      border-bottom-left-radius:-50%;
+    border-bottom-right-radius:-50%;*/
  	z-index: 10;
 }
 
@@ -1539,7 +1541,7 @@ width: 1260px;
 	margin-left:0px;
 	width: 1260px;
  	height: 64px;
- 	text-shadow: 2px 2px 2px #000;
+ 	/*text-shadow: 2px 2px 2px #000;*/
  	background-color:#161616;
  	z-index: 10;
 }
@@ -1555,14 +1557,15 @@ width: 1260px;
         /* remove the dots next to list items: */
             list-style:none; 
         /* get rid of any default or inherited margins and padding: */
-            margin-top:32px; 
-            margin-right:200px; 
+            margin-top:60px; 
+            margin-right:150px; 
             float:right;
             
         /* styling: */
-            font-family:'Montserrat';
+            font-family:'GothamBook';
             font-weight: thin;
             font-size: 14px;
+            /*color:black;*/
             /*text-align: center;*/
             /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
         }
@@ -1585,7 +1588,7 @@ width: 1260px;
             padding-left:9px;
             padding-right:9px;
             text-decoration:none;
-            color:white; 
+            color:black; 
             /*text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;*/
         
         }
@@ -2046,10 +2049,11 @@ box-shadow: 0 0 20px rgba(124, 255, 255, 6), inset 0 0 10px rgba(124, 255, 255, 
 
 #glass{
 position:absolute;
-width:20px;
-margin-left:-10px;
-margin-top:-10px;
-
+width:25px;
+margin-left:195px;
+margin-top:7px;
+border-left-style:solid;
+-webkit-filter: invert(70%) !important;
 }
 
 /*#glass:hover{
@@ -2058,15 +2062,15 @@ margin-top:-10px;
 
 #logInBanner{
 position:absolute;
-margin-left:1068px;
-margin-top:11px;
+margin-left:915px;
+margin-top:40px;
 }
 
 #logInIcon{
 position:absolute;
-font-family:'Montserrat';
+font-family:'GothamBook';
 font-size:9px;
-color:white;
+color:#878787;
 width:40px;
 }
 
@@ -2079,9 +2083,9 @@ text-decoration: none;
 
 #greetings{
 position:absolute;
-font-family:'Montserrat';
+font-family:'GothamBook';
 font-size:9px;
-color:white;
+color:#878787;
 width:75px;
 margin-left:-20px;
 /*margin-top:-10px;*/
@@ -2094,9 +2098,9 @@ text-overflow: ellipsis;
 
 #logOutIcon{
 position:absolute;
-font-family:'Montserrat';
+font-family:'GothamBook';
 font-size:9px;
-color:white;
+color:#878787;
 width:50px;
 margin-left:57px;
 }
@@ -2207,9 +2211,9 @@ font-family:'Montserrat';
 
 #signUpIcon{
 position:absolute;
-font-family:'Montserrat';
+font-family:'GothamBook';
 font-size:9px;
-color:white;
+color:#878787;
 width:48px;
 margin-left:50px;
 }
@@ -2222,9 +2226,9 @@ text-decoration: none;
 
 #contactUsIcon{
 position:absolute;
-font-family:'Montserrat';
+font-family:'GothamBook';
 font-size:9px;
-color:white;
+color:#878787;
 width:75px;
 margin-left:108px;
 text-decoration: none;
@@ -3596,7 +3600,7 @@ z-index:10;
 #termsOfUseWelcome{
 position:fixed;
 margin: 0 auto; 
-    width:1260px;
+width:1260px;
 height:700px;
 background-color:rgba(0,0,0,0.8);
 border-style:solid;
@@ -3667,14 +3671,14 @@ font-size: 13px;
 
 #line1{
 position:absolute;
-color:white;
+color:#878787;
 margin-left:38px;
 margin-top:-1px;
 font-size:9px;
 }
 #line1a{
 position:absolute;
-color:white;
+color:#878787;
 margin-left:51px;
 margin-top:-1px;
 font-size:9px;
@@ -3682,7 +3686,7 @@ font-size:9px;
 
 #line2{
 position:absolute;
-color:white;
+color:#878787;
 margin-left:96px;
 margin-top:-1px;
 
@@ -3691,11 +3695,23 @@ font-size:9px;
 
 #line2a{
 position:absolute;
-color:white;
+color:#878787;
 margin-left:102px;
 margin-top:-1px;
 
 font-size:9px;
+}
+
+#line4{
+position:absolute;
+margin-left:182px;
+margin-top:0px;
+border-left-style:solid;
+border-color:#878787;
+border-width:1.5px;
+/*width:100px;*/
+height:37px;
+/*font-size:20px;*/
 }
 
 
@@ -7541,6 +7557,11 @@ z-index:100;
   font-style: normal;
   font-weight: 400;
   src: local('Vampiro One'), local('VampiroOne-Regular'), url(http://themes.googleusercontent.com/static/fonts/vampiroone/v3/Ho2Xld8UbQyBA8XLxF1_NYbN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'GothamBook';
+  src: url(/assets/GothamBook.otf) format("truetype");
 }
 
 /*body {
