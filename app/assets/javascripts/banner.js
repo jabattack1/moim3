@@ -11,14 +11,14 @@ var searchField = "<input id='searchMoim' type='text' name='search'>"
 	$('#searchMoim').hide();
 
 $('#glass').on('click', function(){
-	$('#searchMoim').show('slow');
+	$('#searchMoim').show();
 	$('#searchMoim').focus();
-	$('#glass').hide('slow');
+	$('#glass').hide();
 });
 
 $('#searchMoim').blur(function() {
-	$('#searchMoim').hide('slow');
-  	$('#glass').show('slow');
+	$('#searchMoim').hide();
+  	$('#glass').show();
 });
 
 });
