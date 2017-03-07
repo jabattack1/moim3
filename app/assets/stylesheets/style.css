@@ -2061,9 +2061,10 @@ border-left-style:solid;
 -webkit-filter: invert(70%) !important;
 }
 
-/*#glass:hover{
--webkit-filter: invert(70%) !important;
-}*/
+#glass:hover{
+-webkit-filter: invert(30%) !important;
+cursor: pointer;
+}
 
 #logInBanner{
 position:absolute;
@@ -8844,3 +8845,25 @@ margin-left:575px;
 text-transform: uppercase;
 }
 
+#searchMoim[type=text] {
+    width: 0px;
+    font-family:'GothamBook';
+    border: 0px none;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type="text"], textarea{
+  background-color:rgba(255,255,255,0.8);
+} 
+
+#searchMoim[type=text]:focus {
+    width: 140px;
+    outline: none;
+}
+
+#searchMoim{
+  position:absolute;
+  margin-left:1110px;
+  margin-top:41px;
+}
