@@ -2,7 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     width: 100%;
-    min-height: 100%;
+    /*min-height: 100%;*/
     /*height: 100%;*/
 }
 
@@ -14,7 +14,7 @@ margin-bottom:165px;
 /*background-color:black;*/
 z-index:9;
 text-align:center;
-    width: auto;
+   /* width: auto;*/
 }
 
 /*ftg-filters
@@ -23,7 +23,7 @@ text-align:center;
 #sponsorTrigger1 {
 margin-top:200px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -31,7 +31,7 @@ z-index: 100;
 #sponsorTrigger2 {
 margin-top:600px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -39,7 +39,7 @@ z-index: 100;
 #sponsorTrigger3 {
 margin-top:1100px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -47,7 +47,7 @@ z-index: 100;
 #sponsorTrigger4 {
 margin-top:1550px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -55,7 +55,7 @@ z-index: 100;
 #sponsorTrigger5 {
 margin-top:1900px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -63,7 +63,7 @@ z-index: 100;
 #sponsorTrigger6 {
 margin-top:2500px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -73,7 +73,7 @@ z-index: 100;
 #header {
 margin-top:1px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -82,7 +82,7 @@ z-index: 100;
 #header1 {
 margin-top:10px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -91,7 +91,7 @@ z-index: 100;
 #header2 {
 margin-top:75px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -100,7 +100,7 @@ z-index: 100;
 #header2a {
 margin-top:12px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -109,7 +109,7 @@ z-index: 100;
 #header3 {
 margin-top:900px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -118,7 +118,7 @@ z-index: 100;
 #header4 {
 margin-top:995px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -127,7 +127,7 @@ z-index: 100;
 #header5 {
 margin-top:1090px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -136,7 +136,7 @@ z-index: 100;
 #header6 {
 margin-top:1185px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -145,7 +145,7 @@ z-index: 100;
 #header3a {
 margin-top:790px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -154,7 +154,7 @@ z-index: 100;
 #header7 {
 margin-top:440px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -163,7 +163,7 @@ z-index: 100;
 #header8 {
 margin-top:439px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -173,7 +173,7 @@ z-index: 100;
 #headerLeadershipPic {
 margin-top:175px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -197,24 +197,22 @@ margin-top:150px;
 }
 
 #welcomeBody {
- /* background: url("http://i1301.photobucket.com/albums/ag119/jabattack1/white_zpsxyzkjneq.jpg") no-repeat center center fixed; */
-/*  -webkit-background-size: cover;
+/*  background: url("http://i1301.photobucket.com/albums/ag119/jabattack1/white_zpsxyzkjneq.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-*/
-  /*background-size: 100%;*/
-  /*background-color:#EFEFEF;*/
+
+background-size: 100%;
+background-color:#EFEFEF;
 
   
-      /*position: absolute;*/
-/*    top: 0;
+      position: absolute;
+top: 0;
     left: 0;*/
-  margin: 0 auto;
-  padding: 0;
+margin: 0 auto;
+  padding: 0;*/*/
   /*height: 3800px;*/
-
-
 }
 
 #chroniclePage{
@@ -236,7 +234,7 @@ width:100%;
 /*background: url() no-repeat;*/
   /*background-color:black;*/
   background:url()center top;
-  background-size: 1200px;
+  /*background-size: 1200px;*/
   background-color:white;
   /*background-repeat: repeat-y;*/
   width:100%;
@@ -250,7 +248,7 @@ width:100%;
 }
 
 #container{
-position:absolute;
+/*position:absolute;*/
 /*z-index:10;*/
 }
 
@@ -845,7 +843,7 @@ margin-top:35px;
 position:absolute;
 width:180px;
 top:0px;
-right:320px;
+right:260px;
 margin-top:0px;
 }
 
@@ -936,7 +934,7 @@ margin-top:65px;
 position:absolute;
 width:220px;
 top:2px;
-margin-right:-80px;
+/*margin-right:-80px;*/
 margin-top:65px;
 }
 
@@ -944,7 +942,7 @@ margin-top:65px;
 position:absolute;
 width:220px;
 top:2px;
-margin-right:-520px;
+/*margin-right:-520px;*/
 margin-top:65px;
 }
 
@@ -998,7 +996,7 @@ margin-top:195px;
 position:absolute;
 width:220px;
 top:2px;
-margin-right:-80px;
+/*margin-right:-80px;*/
 margin-top:195px;
 }
 
@@ -1006,7 +1004,7 @@ margin-top:195px;
 position:absolute;
 width:220px;
 top:2px;
-margin-right:-520px;
+/*margin-right:-520px;*/
 margin-top:195px;
 }
 
@@ -1058,7 +1056,7 @@ margin-top:325px;
 position:absolute;
 width:220px;
 top:2px;
-margin-right:-80px;
+/*margin-right:-80px;*/
 margin-top:325px;
 }
 
@@ -1066,7 +1064,7 @@ margin-top:325px;
 position:absolute;
 width:220px;
 top:2px;
-margin-right:-520px;
+/*margin-right:-520px;*/
 margin-top:325px;
 }
 
@@ -1450,7 +1448,7 @@ margin-top:975px;
 position: fixed;
 margin-top:0px;
 margin-left:0px;
-width: 1260px;
+width: 100%;
 height: 15px;
 background-color:rgba(255, 255, 255, 0.5);
 z-index: 10;
@@ -1460,7 +1458,7 @@ z-index: 10;
 position: fixed;
 margin-top:0px;
 margin-left:0px;
-width: 1260px;
+width: 100%;
  	height: 15px;
 background-color:#161616;
 z-index: 10;
@@ -1476,7 +1474,7 @@ position: absolute;
 /*	background-size:cover;*/
 margin-top:-100px;
 margin-left:0px;
-width: 1260px;
+width: 100%;
  	height: 64px;
  	text-shadow: 2px 2px 2px #000;
  	background-color:#161616;
@@ -1490,7 +1488,7 @@ position: absolute;
 /*	background-size:cover;*/
 margin-top:-100px;
 margin-left:0px;
-width: 1260px;
+width: 100%;
  	height: 64px;
  	text-shadow: 2px 2px 2px #000;
  	background-color:#161616;
@@ -2398,14 +2396,15 @@ position:absolute;
 
 #frontPic{
 margin-top:0px;
-width: 100%;
+width:100%;
+
 height: 620px;
-    position:fixed;
+position:fixed;
 }
 
 #whiteGuyPic{
 margin-top:0px;
-width: 1260px;
+width: 100%;
 height: 400px;
 /**220*/
     position:fixed;
@@ -3204,8 +3203,9 @@ font-family:'GothamBook';
 }
 
 #contactContent{
-margin-left:60px;
+margin-left:0px;
 margin-top:40px;
+padding-left:60px;
 position:absolute;
 width:100%;
 }
@@ -3446,7 +3446,7 @@ font-size: 13px;
 font-weight: bold;
 font-size: 16px;
 color:white;
-  right:410px;
+  right:350px;
   margin-top:75px;
   /*width:400px;*/
 }
@@ -3456,7 +3456,7 @@ font-family:'GothamBook';
 font-weight: normal;
 font-size: 16px;
 color:white;
-right:190px;
+right:130px;
 margin-top:85px;
 /*width:350px;*/
 }
@@ -3754,7 +3754,7 @@ color:#E2E2E2;
 #headerChronicle1 {
 margin-top:30px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3763,7 +3763,7 @@ z-index: 100;
 #headerChronicle2 {
 margin-top:110px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3772,7 +3772,7 @@ z-index: 100;
 #header2Chro {
 margin-top:30px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3781,7 +3781,7 @@ z-index: 100;
 #headerChronicle3 {
 margin-top:240px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3790,7 +3790,7 @@ z-index: 100;
 #header3Chro {
 margin-top:170px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3799,7 +3799,7 @@ z-index: 100;
 #headerChronicle4 {
 margin-top:350px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3808,7 +3808,7 @@ z-index: 100;
 #header4Chro {
 margin-top:230px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3817,7 +3817,7 @@ z-index: 100;
 #headerChronicle5 {
 margin-top:480px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3826,7 +3826,7 @@ z-index: 100;
 #header5Chro {
 margin-top:320px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3835,7 +3835,7 @@ z-index: 100;
 #headerChronicle6 {
 margin-top:620px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3844,7 +3844,7 @@ z-index: 100;
 #header6Chro {
 margin-top:470px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3853,7 +3853,7 @@ z-index: 100;
 #headerChronicle7 {
 margin-top:740px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3862,7 +3862,7 @@ z-index: 100;
 #header7Chro {
 margin-top:530px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3871,7 +3871,7 @@ z-index: 100;
 #headerChronicle8 {
 margin-top:1000px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3880,7 +3880,7 @@ z-index: 100;
 #header8Chro {
 margin-top:630px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3889,7 +3889,7 @@ z-index: 100;
 #headerChronicle9 {
 margin-top:1180px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3898,7 +3898,7 @@ z-index: 100;
 #header9Chro {
 margin-top:830px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3907,7 +3907,7 @@ z-index: 100;
 #headerChronicle10 {
 margin-top:1270px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3916,7 +3916,7 @@ z-index: 100;
 #header10Chro {
 margin-top:990px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3925,7 +3925,7 @@ z-index: 100;
 #headerChronicle11 {
 margin-top:1400px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3934,7 +3934,7 @@ z-index: 100;
 #header11Chro {
 margin-top:1140px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3943,7 +3943,7 @@ z-index: 100;
 #headerChronicle12 {
 margin-top:1600px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3952,7 +3952,7 @@ z-index: 100;
 #header12Chro {
 margin-top:1250px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3961,7 +3961,7 @@ z-index: 100;
 #headerChronicle13 {
 margin-top:1740px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3970,7 +3970,7 @@ z-index: 100;
 #header13Chro {
 margin-top:1430px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3979,7 +3979,7 @@ z-index: 100;
 #headerChronicle14 {
 margin-top:1950px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3988,7 +3988,7 @@ z-index: 100;
 #header14Chro {
 margin-top:1490px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -3997,7 +3997,7 @@ z-index: 100;
 #headerChronicle15 {
 margin-top:2110px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -4006,7 +4006,7 @@ z-index: 100;
 #header15Chro {
 margin-top:1650px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -4015,7 +4015,7 @@ z-index: 100;
 #headerChronicle16 {
 margin-top:2210px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -4024,7 +4024,7 @@ z-index: 100;
 #header16Chro {
 margin-top:1730px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -4033,7 +4033,7 @@ z-index: 100;
 #headerChronicle17 {
 margin-top:2330px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -4042,7 +4042,7 @@ z-index: 100;
 #header17Chro {
 margin-top:1850px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -4051,7 +4051,7 @@ z-index: 100;
 #headerChronicle18 {
 margin-top:2470px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -4060,7 +4060,7 @@ z-index: 100;
 #header18Chro {
 margin-top:1910px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -4069,7 +4069,7 @@ z-index: 100;
 #headerChronicle19 {
 margin-top:2520px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -4078,7 +4078,7 @@ z-index: 100;
 #header19Chro {
 margin-top:2060px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -4087,7 +4087,7 @@ z-index: 100;
 #header20Chro {
 margin-top:2160px;
 height:1px;
-width:auto;
+/*width:auto;*/
 position:absolute;
 background:white;
 z-index: 100;
@@ -6857,7 +6857,7 @@ cursor:pointer;
  width:130px; display:block; float:left; line-height:26px; 
 }
 .iform0 label.ilabel { 
- width:auto; display:inline; float:none; margin-bottom: 10px;line-height:26px; padding:5px; 
+ /*width:auto;*/ display:inline; float:none; margin-bottom: 10px;line-height:26px; padding:5px; 
 }
 
 .iform0 .itext,.iform0 .itextarea,.iform0 .iselect,.iform0 .ibutton {
@@ -6899,7 +6899,7 @@ height:100px; width: 250px;
 }
 .iform0 .ibutton {
 
-width:auto;
+/*width:auto;*/
 background: #efefef;
 background: -webkit-gradient(linear, left top, left 25, from(#dadada), color-stop(6%, #efefef), to(#dadada));
 background: -moz-linear-gradient(top, #dadada, #efefef 2px, #dadada 25px);
@@ -6930,7 +6930,7 @@ color:#fff;
  width:130px; display:block; float:left; line-height:26px; 
 }
 .iform label.ilabel { 
- width:auto; display:inline; float:none; margin-bottom: 10px;line-height:26px; padding:5px; 
+ /*width:auto;*/ display:inline; float:none; margin-bottom: 10px;line-height:26px; padding:5px; 
 }
 
 .iform .itext,.iform .itextarea,.iform .iselect,.iform .ibutton {
@@ -6972,7 +6972,7 @@ height:100px; width: 250px;
 }
 .iform .ibutton {
 
-width:auto;
+/*width:auto;*/
 background: #efefef;
 background: -webkit-gradient(linear, left top, left 25, from(#dadada), color-stop(6%, #efefef), to(#dadada));
 background: -moz-linear-gradient(top, #dadada, #efefef 2px, #dadada 25px);
@@ -7003,7 +7003,7 @@ color:#fff;
  width:130px; display:block; float:left; line-height:26px; 
 }
 .iform1 label.ilabel { 
- width:auto; display:inline; float:none; margin-bottom: 10px;line-height:26px; padding:5px; 
+ /*width:auto;*/ display:inline; float:none; margin-bottom: 10px;line-height:26px; padding:5px; 
 }
 
 .iform1 .itext,.iform1 .itextarea,.iform1 .iselect,.iform1 .ibutton {
@@ -7045,7 +7045,7 @@ height:100px; width: 250px;
 }
 .iform1 .ibutton {
 
-width:auto;
+/*width:auto;*/
 background: #efefef;
 background: -webkit-gradient(linear, left top, left 25, from(#dadada), color-stop(6%, #efefef), to(#dadada));
 background: -moz-linear-gradient(top, #dadada, #efefef 2px, #dadada 25px);
@@ -7076,7 +7076,7 @@ color:#fff;
  width:130px; display:block; float:left; line-height:26px; 
 }
 .iform2 label.ilabel { 
- width:auto; display:inline; float:none; margin-bottom: 10px;line-height:26px; padding:5px; 
+ /*width:auto;*/ display:inline; float:none; margin-bottom: 10px;line-height:26px; padding:5px; 
 }
 
 .iform2 .itext,.iform2 .itextarea,.iform2 .iselect,.iform2 .ibutton {
@@ -7118,7 +7118,7 @@ height:100px; width: 250px;
 }
 .iform2 .ibutton {
 
-width:auto;
+/*width:auto;*/
 background: #efefef;
 background: -webkit-gradient(linear, left top, left 25, from(#dadada), color-stop(6%, #efefef), to(#dadada));
 background: -moz-linear-gradient(top, #dadada, #efefef 2px, #dadada 25px);
@@ -7151,7 +7151,7 @@ color:#fff;
  width:130px; display:block; float:left; line-height:26px; 
 }
 .iform3 label.ilabel { 
- width:auto; display:inline; float:none; margin-bottom: 10px;line-height:26px; padding:5px; 
+ /*width:auto;*/ display:inline; float:none; margin-bottom: 10px;line-height:26px; padding:5px; 
 }
 
 .iform3 .itext,.iform3 .itextarea,.iform3 .iselect,.iform3 .ibutton {
@@ -7193,7 +7193,7 @@ height:100px; width: 250px;
 }
 .iform3 .ibutton {
 
-width:auto;
+/*width:auto;*/
 background: #efefef;
 background: -webkit-gradient(linear, left top, left 25, from(#dadada), color-stop(6%, #efefef), to(#dadada));
 background: -moz-linear-gradient(top, #dadada, #efefef 2px, #dadada 25px);
@@ -7226,7 +7226,7 @@ color:#fff;
  width:130px; display:block; float:left; line-height:26px; 
 }
 .iformGalleries label.ilabel { 
- width:auto; display:inline; float:none; margin-bottom: 10px;line-height:26px; padding:5px; 
+ /*width:auto;*/ display:inline; float:none; margin-bottom: 10px;line-height:26px; padding:5px; 
 }
 
 .iformGalleries .itext,.iformGalleries .itextarea,.iformGalleries .iselect,.iformGalleries .ibutton {
@@ -7268,7 +7268,7 @@ height:100px; width: 250px;
 }
 .iformGalleries .ibutton {
 
-width:auto;
+/*width:auto;*/
 background: #efefef;
 background: -webkit-gradient(linear, left top, left 25, from(#dadada), color-stop(6%, #efefef), to(#dadada));
 background: -moz-linear-gradient(top, #dadada, #efefef 2px, #dadada 25px);
