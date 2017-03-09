@@ -196,21 +196,21 @@ margin-top:150px;
 
 #welcomeBody {
  /* background: url("http://i1301.photobucket.com/albums/ag119/jabattack1/white_zpsxyzkjneq.jpg") no-repeat center center fixed; */
-  -webkit-background-size: cover;
+/*  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
 
-  background-size: 100%;
+  /*background-size: 100%;*/
   /*background-color:#EFEFEF;*/
 
   width: 100%;
-      position: absolute;
+      /*position: absolute;*/
     top: 0;
     left: 0;
   height: 3800px;
   margin: 0 auto;
-  /*position:absolute;
+
 
 }
 
