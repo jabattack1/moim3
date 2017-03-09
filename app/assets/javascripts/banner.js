@@ -5,19 +5,22 @@
 
 $(window).load(function() {
 
-var searchField = "<input id='searchMoim' type='text' name='search'>"
+var searchField = "<input id='searchMoim' type='text' name='search'><p id='searchButton'>Press Enter to Search</p>"
 
 	$('#top_banner').append(searchField);
 	$('#searchMoim').hide();
+	$('#searchButton').hide();
 
 $('#glass').on('click', function(){
 	$('#searchMoim').show();
 	$('#searchMoim').focus();
+	$('#searchButton').show();
 	$('#glass').hide();
 });
 
 $('#searchMoim').blur(function() {
 	$('#searchMoim').hide();
+	$('#searchButton').hide();
   	$('#glass').show();
 });
 
