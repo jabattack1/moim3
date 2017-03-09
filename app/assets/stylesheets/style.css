@@ -1556,18 +1556,18 @@ width: 100%;
 
 
 .navigation {
-            width:700px;
+            width:100%;
         }
         .navigation ul{
         /* positioning */
-        /*position:relative;*/
+        position:absolute;
             z-index:1000;
         /* remove the dots next to list items: */
             list-style:none; 
         /* get rid of any default or inherited margins and padding: */
-            margin-top:55px; 
-            margin-right:150px; 
-            float:right;
+            margin-top:50px; 
+            right:145px; 
+            /*float:right;*/
             
         /* styling: */
             font-family:'GothamBook';
@@ -2072,8 +2072,8 @@ cursor: pointer;
 
 #logInBanner{
 position:absolute;
-margin-left:915px;
-margin-top:35px;
+right:340px;
+margin-top:30px;
 }
 
 #logInIcon{
