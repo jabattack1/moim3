@@ -8,6 +8,7 @@ $(window).load(function() {
 var searchField = "<input id='searchMoim' type='text' name='search'><p id='searchButton'>Press Enter to Search</p>"
 
 	$('#top_banner').append(searchField);
+	$('#top_banner_users').append(searchField);
 	$('#searchMoim').hide();
 	$('#searchButton').hide();
 
