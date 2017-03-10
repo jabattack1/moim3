@@ -5330,10 +5330,13 @@ margin-top:335px;
 }
 
 #longLineFour{
-position:absolute;
+/*position:absolute;*/
 z-index: 10;
-margin-top:330px;
-margin-left:75px;
+/*margin-top:330px;*/
+/*margin-left:75px;*/
+display: block;
+margin: 0 auto;
+padding-top:330px;
 }
 
 #fourHead{
