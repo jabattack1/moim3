@@ -6,36 +6,36 @@
 <body id='galleriesPage'>
 
 <script type="text/javascript" charset="utf-8">
-$(document).ready(function() {
-$('#header2').waypoint(function() {
-  $( "#top_helper_users" ).animate({
-    // backgroundColor: "#161616",
-    height:"0px"
-  }, 200 );
-  $( "#top_banner_users" ).animate({
-    // width: "70%",
-    // backgroundColor: "#161616",
-    marginTop: "0px"
-    // fontSize: "3em",
-    // borderWidth: "10px"
-  }, 200 );
-});
-});
-$(document).ready(function() {
-$('#header1').waypoint(function() {
-  $( "#top_helper_users" ).animate({
-    // backgroundColor: "rgba(0,0,0,0.1)",
-    height:"15px"
-  }, 200 );
-  $( "#top_banner_users" ).animate({
-    // width: "70%",
-    // backgroundColor: "rgba(0,0,0,0.1)",
-    marginTop: "15px"
-    // fontSize: "3em",
-    // borderWidth: "10px"
-  }, 200 );
-});
-});
+// $(document).ready(function() {
+// $('#header2').waypoint(function() {
+//   $( "#top_helper_users" ).animate({
+//     // backgroundColor: "#161616",
+//     height:"0px"
+//   }, 200 );
+//   $( "#top_banner_users" ).animate({
+//     // width: "70%",
+//     // backgroundColor: "#161616",
+//     marginTop: "0px"
+//     // fontSize: "3em",
+//     // borderWidth: "10px"
+//   }, 200 );
+// });
+// });
+// $(document).ready(function() {
+// $('#header1').waypoint(function() {
+//   $( "#top_helper_users" ).animate({
+//     // backgroundColor: "rgba(0,0,0,0.1)",
+//     height:"15px"
+//   }, 200 );
+//   $( "#top_banner_users" ).animate({
+//     // width: "70%",
+//     // backgroundColor: "rgba(0,0,0,0.1)",
+//     marginTop: "15px"
+//     // fontSize: "3em",
+//     // borderWidth: "10px"
+//   }, 200 );
+// });
+// });
 $(document).ready(function() {
             $('#gallery').finalTilesGallery({onComplete: function(){
                 $(".final-tiles-gallery").finalTilesGallery({
@@ -98,16 +98,10 @@ $(document).ready(function () {
 <div id="header2">
 <!-- <h1>trigger</h1> -->
 </div>
-<div id='top_helper_users'></div>
+
 <div id='top_banner_users' class='navigation'>
   <!-- <nav> -->
 
-<section class="webdesigntuts-workshop">
-  <form action="" method="">        
-    <input type="search" placeholder="">         
-    <button id='glassButton'><img id='glass' src='/assets/glass.png'></button>
-  </form>
-</section>
 
 
 
@@ -125,7 +119,8 @@ $(document).ready(function () {
         <p id='line2'>|</p>
     <% end %>
 <a href='#'id='contactUsIcon' onclick='contactUsNow();return false;'>CONTACT US</A>
-
+  <p id='line4'></p>
+<img id='glass' src='/assets/magnifying.png'>
 <!-- <a id='logInIcon' onclick='logInScreen();return false;'>LOG IN</A> -->
   <!-- <p id='line1'>|</p> -->
 <!-- <a id='signUpIcon' href='/users/sign_up'>SIGN UP</A> -->
@@ -138,45 +133,45 @@ $(document).ready(function () {
 
 
 <ul>
-                
-                <li><a class='aboutSelect'>ABOUT</a><img id="aboutArrow" src='/assets/downArrow.PNG'/>
-                    <ul id='aboutDrop'>
+        
+                <li><a class='aboutSelect' id='aboutTab'>About</a><!-- <img id="aboutArrow" src='/assets/downArrow.PNG'/> -->
+                  <ul id='aboutDrop'>
                         <li>
-                            <a href='/mission'>THE MISSION</a>
+                            <a href='/'>MOI'M</a>
                         </li>
                         <li>
-                            <a href='/chronicle'>THE CHRONICLE</a>
+                          <a href='/'>SPONSORS</a>
                         </li>
                         <li>
-                            <a href='/team'>THE TEAM</a>
+                          <a href='/'>PRESS</a>
                         </li>
-                        <li>
-                            <a href='/getinvolved'>GET INVOLVED</a>
-                        </li>
+<!--                         <li>
+                          <a href='/getinvolved'>GET INVOLVED</a>
+                        </li> -->
                      </ul>
-                </li>
+              </li>
 
-                <li><a href='/events'>EVENTS</a></li>
-                <li><a href='/blogs'>BLOG</a></li>
-                <li><a href='/galleries#ftg-set-filter-1'>PHOTOS & VIDEOS</a></li>
-                <li><a href='/express_yourselves'>EXPRESS YOURSELF</a></li>
-                <li><a class='communitySelect'>THE COMMUNITY</a><img id="communityArrow" src='/assets/downArrow.PNG'/>
-                    <ul id='communityDrop'>
+                <li><a href='/events'>Events</a></li>
+                <!-- <li><a href='/blogs'>BLOG</a></li> -->
+                <li><a href='/galleries'>Gallery</a></li>
+                <!-- <li><a href='/express_yourselves'>EXPRESS YOURSELF</a></li> -->
+                <li><a class='communitySelect'>Community</a><!-- <img id="communityArrow" src='/assets/downArrow.PNG'/> -->
+          <ul id='communityDrop'>
                         <li>
                             <a href='/external_events'>EXTERNAL EVENTS</a>
                         </li>
                         <li>
-                            <a href='/careerboards'>CAREER BOARD</a>
+                          <a href='/careerboards'>CAREER BOARD</a>
                         </li>
                         <li>
-                            <a href='/localhotspots'>LOCAL HOTSPOTS</a>
+                          <a href='/localhotspots'>LOCAL HOTSPOTS</a>
                         </li>
                         <li>
-                            <a href='/freeboards'>FREEBOARD</a>
+                          <a href='/freeboards'>FREEBOARD</a>
                         </li>
                      </ul>
                 </li>
-                <li><a href='/presses'>PRESS</a></li>
+                <li><a href='/presses'>Press</a></li>
             </ul>
                 
 </div>
