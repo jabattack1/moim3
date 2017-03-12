@@ -54,3 +54,33 @@
     right:150px;
 	margin-top:120px;
 }
+
+.localLink{
+	position:absolute;
+	width:300px;
+	font-family:'gothamBold';
+	color:black;
+	margin-top:460px;
+	margin-left:150px;
+}
+
+.localLink:hover{
+	cursor: pointer;
+}
+
+.localAuthor{
+	position:absolute;
+	font-family:'gothamItalic';
+	color:black;
+	margin-top:508px;
+	margin-left:150px;
+}
+
+.localDate{
+	position:absolute;
+	font-family:'GothamBook';
+	color:black;
+	margin-top:505px;
+	margin-left:275px;
+}
+

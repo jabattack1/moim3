@@ -2514,6 +2514,16 @@ font-family:'GothamBook';
   src: url(/assets/Montserrat-Regular.otf) format("truetype");
 }
 
+@font-face {
+  font-family: "gothamBold";
+  src: url(/assets/gothamBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "gothamItalic";
+  src: url(/assets/gothamItalic.ttf) format("truetype");
+}
+
 #welcomeContent {
 /*font-family: 'Proxima Nova';*/
 position: absolute;
@@ -3727,6 +3737,17 @@ height:34px;
 /*font-size:20px;*/
 }
 
+#line5{
+position:absolute;
+margin-left:260px;
+margin-top:509px;
+border-left-style:solid;
+border-color:#878787;
+border-width:1.7px;
+/*width:100px;*/
+height:14px;
+/*font-size:20px;*/
+}
 
 
 #chronicleHead{
