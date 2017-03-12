@@ -3749,6 +3749,30 @@ height:14px;
 /*font-size:20px;*/
 }
 
+#line6{
+position:absolute;
+margin-left:-40px;
+margin-top:509px;
+border-left-style:solid;
+border-color:#878787;
+border-width:1.7px;
+/*width:100px;*/
+height:14px;
+/*font-size:20px;*/
+}
+
+#line7{
+position:absolute;
+right:335px;
+margin-top:509px;
+border-left-style:solid;
+border-color:#878787;
+border-width:1.7px;
+/*width:100px;*/
+height:14px;
+/*font-size:20px;*/
+}
+
 
 #chronicleHead{
 position:absolute;

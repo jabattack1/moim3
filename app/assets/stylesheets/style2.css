@@ -85,3 +85,82 @@
 	margin-left:275px;
 }
 
+#whereContainerBase{
+	position:absolute;
+	width:100%;
+	/*background-color: black;*/
+	/*height:100px;*/
+}
+
+#whereContainer{
+	/*position:absolute;*/
+	/*padding-top:0px;*/
+	margin: 0 auto;
+	display: table;
+	/*text-align: center;*/
+}
+
+.whereLink{
+	position:absolute;
+	width:300px;
+	font-family:'gothamBold';
+	color:black;
+	margin-top:460px;
+	margin-left: -150px;
+    /*margin-right: auto;*/
+    width:300px;
+    display: inline-block;
+    /*text-align: center;*/
+}
+
+.whereLink:hover{
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.whereAuthor{
+	position:absolute;
+	font-family:'gothamItalic';
+	color:black;
+	margin-top:508px;
+	margin-left:-150px;
+}
+
+.whereDate{
+	position:absolute;
+	font-family:'GothamBook';
+	color:black;
+	margin-top:505px;
+	margin-left:-25px;
+}
+
+.careerLink{
+	position:absolute;
+	width:300px;
+	font-family:'gothamBold';
+	color:black;
+	margin-top:460px;
+	right:150px;
+}
+
+.careerLink:hover{
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.careerAuthor{
+	position:absolute;
+	font-family:'gothamItalic';
+	color:black;
+	margin-top:508px;
+	right:350px;
+}
+
+.careerDate{
+	position:absolute;
+	font-family:'GothamBook';
+	color:black;
+	margin-top:505px;
+	right:240px;
+}
+
