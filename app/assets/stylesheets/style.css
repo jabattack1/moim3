@@ -3739,8 +3739,8 @@ height:34px;
 
 #line5{
 position:absolute;
-margin-left:260px;
-margin-top:509px;
+margin-left:10px;
+/*margin-top:-30px;*/
 border-left-style:solid;
 border-color:#878787;
 border-width:1.7px;
@@ -3751,8 +3751,8 @@ height:14px;
 
 #line6{
 position:absolute;
-margin-left:-40px;
-margin-top:509px;
+margin-left:10px;
+/*margin-top:509px;*/
 border-left-style:solid;
 border-color:#878787;
 border-width:1.7px;
@@ -3763,8 +3763,8 @@ height:14px;
 
 #line7{
 position:absolute;
-right:335px;
-margin-top:509px;
+margin-left:10px;
+/*margin-top:509px;*/
 border-left-style:solid;
 border-color:#878787;
 border-width:1.7px;
