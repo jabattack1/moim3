@@ -67,6 +67,7 @@
 .localLink:hover{
 	cursor: pointer;
 	text-decoration: none;
+	color:#B2B2B2;
 }
 
 .localAuthor{
@@ -116,6 +117,7 @@
 .whereLink:hover{
 	cursor: pointer;
 	text-decoration: none;
+	color:#B2B2B2;
 }
 
 .whereAuthor{
@@ -146,6 +148,7 @@
 .careerLink:hover{
 	cursor: pointer;
 	text-decoration: none;
+	color:#B2B2B2;
 }
 
 .careerAuthor{
