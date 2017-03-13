@@ -4,51 +4,7 @@
 </head>
 <body id='logInPage'>
 
-<script>
 
-$(document).ready(function() {
-$('#header2a').waypoint(function() {
-  $( "#top_helper" ).animate({
-    backgroundColor: "#161616",
-    height:"0px"
-  }, 200 );
-
-  $( "#top_banner_users" ).animate({
-    // width: "70%",
-    backgroundColor: "#161616",
-    marginTop: "0px"
-    // fontSize: "3em",
-    // borderWidth: "10px"
-  }, 200 );
-});
-});
-
-
-$(document).ready(function() {
-$('#header1').waypoint(function() {
-  $( "#top_helper" ).animate({
-    backgroundColor: "#161616",
-    height:"15px"
-  }, 200 );
-
-  $( "#top_banner_users" ).animate({
-    // width: "70%",
-    backgroundColor: "#161616",
-    marginTop: "15px"
-    // fontSize: "3em",
-    // borderWidth: "10px"
-  }, 200 );
-});
-});
-</script> 
-
-
-<script type="text/javascript">
-$(".aboutSelect").mouseover(function(){
-  console.log('drop');
-  $("#aboutDrop").addClass('animated slideInDown');
-})
-</script> 
 
 
 <div id="header">
@@ -62,19 +18,19 @@ $(".aboutSelect").mouseover(function(){
 <div id="header2a">
 <!-- <h1>trigger</h1> -->
 </div>
-<div id="headerLeadershipPic">
+<!-- <div id="headerLeadershipPic"> -->
 <!-- <h1>trigger</h1> -->
-</div>
-<div id='top_helper_users'></div>
+<!-- </div> -->
+<!-- <div id='top_helper_users'></div> -->
 <div id='top_banner_users' class='navigation'>
   <!-- <nav> -->
 
-<section class="webdesigntuts-workshop">
+<!-- <section class="webdesigntuts-workshop">
   <form action="" method="">        
     <input type="search" placeholder="">         
     <button id='glassButton'><img id='glass' src='/assets/glass.png'></button>
   </form>
-</section>
+</section> -->
 
 
 <div id='logInBanner'>
@@ -85,13 +41,14 @@ $(".aboutSelect").mouseover(function(){
         <%= link_to "LOG OUT", destroy_user_session_path, :id => 'logOutIcon', :method => :delete %>
         <p id='line2a'>|</p>
     <% else %>
-        <%= link_to 'LOG IN', new_user_session_path, :id => 'logInIcon' %>
+        <%= link_to 'LOGIN', new_user_session_path, :id => 'logInIcon' %>
         <p id='line1'>|</p>
         <%= link_to 'SIGN UP', new_user_registration_path, :id => 'signUpIcon' %> 
         <p id='line2'>|</p>
     <% end %>
-<a href='#'id='contactUsIcon' onclick='contactUsNow();return false;'>CONTACT US</A>
-
+<a href='#'id='contactUsIcon' onclick='contactUsNow();'>CONTACT US</A>
+  <p id='line4'></p>
+<img id='glass' src='/assets/magnifying.png'>
 <!-- <a id='logInIcon' onclick='logInScreen();return false;'>LOG IN</A> -->
   <!-- <p id='line1'>|</p> -->
 <!-- <a id='signUpIcon' href='/users/sign_up'>SIGN UP</A> -->
@@ -105,28 +62,28 @@ $(".aboutSelect").mouseover(function(){
 
 <ul>
         
-                <li><a class='aboutSelect'>ABOUT</a><img id="aboutArrow" src='/assets/downArrow.PNG'/>
+                <li><a class='aboutSelect' id='aboutTab'>About</a><!-- <img id="aboutArrow" src='/assets/downArrow.PNG'/> -->
                   <ul id='aboutDrop'>
                         <li>
-                            <a href='/mission'>THE MISSION</a>
+                            <a href='/'>MOI'M</a>
                         </li>
                         <li>
-                          <a href='/chronicle'>THE CHRONICLE</a>
+                          <a href='/'>SPONSORS</a>
                         </li>
                         <li>
-                          <a href='/team'>THE TEAM</a>
+                          <a href='/'>PRESS</a>
                         </li>
-                        <li>
+<!--                         <li>
                           <a href='/getinvolved'>GET INVOLVED</a>
-                        </li>
+                        </li> -->
                      </ul>
               </li>
 
-                <li><a href='/events'>EVENTS</a></li>
-                <li><a href='/blogs'>BLOG</a></li>
-                <li><a href='/galleries'>PHOTOS & VIDEOS</a></li>
-                <li><a href='/express_yourselves'>EXPRESS YOURSELF</a></li>
-                <li><a class='communitySelect'>THE COMMUNITY</a><img id="communityArrow" src='/assets/downArrow.PNG'/>
+                <li><a href='/events'>Events</a></li>
+                <!-- <li><a href='/blogs'>BLOG</a></li> -->
+                <li><a href='/galleries'>Gallery</a></li>
+                <!-- <li><a href='/express_yourselves'>EXPRESS YOURSELF</a></li> -->
+                <li><a class='communitySelect'>Community</a><!-- <img id="communityArrow" src='/assets/downArrow.PNG'/> -->
           <ul id='communityDrop'>
                         <li>
                             <a href='/external_events'>EXTERNAL EVENTS</a>
@@ -142,12 +99,12 @@ $(".aboutSelect").mouseover(function(){
                         </li>
                      </ul>
                 </li>
-                <li><a href='/presses'>PRESS</a></li>
+                <li><a href='/presses'>Press</a></li>
             </ul>
                 
 </div>
 
-
+<img id='frontPic' src = "/assets/street.jpg">
 <!-- <img id='involvedLine'  class='animated slideInLeft' src = "/assets/line.png"> -->
 
 <a href="#top" class="back-to-top">Back to Top</a>
@@ -155,12 +112,12 @@ $(".aboutSelect").mouseover(function(){
 
 <div id='logInBox'>
 
-<img id='logoMoimLogIn' src='/assets/moimLogo.png'>
-
+<!-- <img id='logoMoimLogIn' src='/assets/moimLogo.png'> -->
+<h3 id='loginHeading'>LOGIN</h3>
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
   <div class="field">
     <!-- <%= f.label :email %><br /> -->
-    <%= f.email_field :email, autofocus: true, :placeholder => "Email address", :id => 'logInEmail' %>
+    <%= f.email_field :email, autofocus: true, :placeholder => "Email", :id => 'logInEmail' %>
   </div>
 
   <div class="field">
@@ -176,7 +133,7 @@ $(".aboutSelect").mouseover(function(){
   <% end -%>
 
   <div class="actions" id='signInWrapper'>
-    <%= f.submit "LOG IN", :id => 'logInButton1' %>
+    <%= f.submit "SIGN IN", :id => 'logInButton1' %>
   </div>
 <% end %>
 
