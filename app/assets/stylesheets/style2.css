@@ -1,7 +1,7 @@
 #localHeading{
 	position:absolute;
 	font-family:'gothamBold';
-	margin-left:230px;
+	margin-left:18%;
 	margin-top:70px;
 	font-size:20px;
 }
@@ -25,7 +25,7 @@
 	font-family:'gothamBold';
 	/*margin-left: auto;
     margin-right: auto;*/
-    right:260px;
+    right:20%;
 	margin-top:70px;
 	font-size:20px;
 	/*width:100%;*/
@@ -35,7 +35,7 @@
 	position:absolute;
 	width:300px;
 	margin-top:120px;
-	margin-left:150px;
+	margin-left:12%;
 }
 
 #imageTwo{
@@ -51,7 +51,7 @@
 #imageThree{
 	position:absolute;
 	width:300px;
-    right:150px;
+    right:12%;
 	margin-top:120px;
 }
 
@@ -61,7 +61,7 @@
 	font-family:'gothamBold';
 	color:black;
 	margin-top:460px;
-	margin-left:150px;
+	margin-left:12%;
 }
 
 .localLink:hover{
@@ -75,7 +75,7 @@
 	font-family:'gothamItalic';
 	color:black;
 	margin-top:508px;
-	margin-left:150px;
+	margin-left:12%;
 }
 
 .localDate{
@@ -144,7 +144,7 @@
 	font-family:'gothamBold';
 	color:black;
 	margin-top:460px;
-	right:150px;
+	right:12%;
 }
 
 .careerLink:hover{
@@ -158,7 +158,7 @@
 	font-family:'gothamItalic';
 	color:black;
 	margin-top:508px;
-	right:350px;
+	right:28%;
 }
 
 .careerDate{
