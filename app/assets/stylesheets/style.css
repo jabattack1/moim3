@@ -415,29 +415,29 @@ height:100px;
 }
 #sponsorRow13{
 position:absolute;
-margin-top:2420px;
+margin-top:220px;
 /*width:100%;*/
 height:100px;
 }
 #sponsorRow14{
 position:absolute;
-margin-top:2595px;
+margin-top:395px;
 width:100%;
 height:100px;
 }
 #sponsorRow15{
 position:absolute;
-margin-top:2770px;
+margin-top:570px;
 width:100%;
 height:100px;
 }
 #sponsorRow16{
 position:absolute;
-margin-top:2945px;
+margin-top:745px;
 width:100%;
 height:100px;
 }
-#sponsorRow17{
+/*#sponsorRow17{
 position:absolute;
 margin-top:3120px;
 width:100%;
@@ -448,7 +448,7 @@ position:absolute;
 margin-top:3295px;
 width:100%;
 height:100px;
-}
+}*/
 /***175*/
 
 .logoLogo:hover{
@@ -2531,7 +2531,7 @@ position: absolute;
 margin-top:620px;
 /*margin: 0 620 auto;*/
 width: 100%;
-height:4130px;
+height:2700px;
 background-color:white;
 z-index:9;
 /*width:1800px;*/
@@ -5384,6 +5384,16 @@ z-index: 10;
 display: block;
 margin: 0 auto;
 padding-top:330px;
+}
+
+#longLineFive{
+/*position:absolute;*/
+z-index: 10;
+/*margin-top:330px;*/
+/*margin-left:75px;*/
+display: block;
+margin: 0 auto;
+padding-top:930px;
 }
 
 #fourHead{
