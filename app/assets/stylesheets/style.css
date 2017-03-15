@@ -8066,6 +8066,15 @@ margin-left:405px;
 margin-top:-177px;
 }
 
+#required7{
+  position:absolute;
+color:black;
+font-weight:bold;
+margin-left:405px;
+margin-top:-207px;
+}
+
+
 #emailField{
 width:900px;
 background-color: black;
@@ -8166,8 +8175,8 @@ position:absolute;
 text-transform: uppercase;
 font-family:'GothamBook';
 font-weight:bold;
-margin-left:330px;
-margin-top:-217px;
+margin-left:340px;
+margin-top:-207px;
 width:300px;
 /*background-color:black;*/
 text-align: left;
@@ -8179,7 +8188,7 @@ text-align: left;
 font-family:'GothamBook';
 font-weight:normal;
 margin-left:342px;
-margin-top:-200px;
+margin-top:-185px;
 width:300px;
 /*background-color:black;*/
 text-align: left;
@@ -8191,7 +8200,7 @@ text-align: left;
 font-family:'GothamBook';
 font-weight:normal;
 margin-left:350px;
-margin-top:-200px;
+margin-top:-185px;
 width:300px;
 /*background-color:black;*/
 text-align: left;
@@ -8203,7 +8212,7 @@ text-align: left;
 font-family:'GothamBook';
 font-weight:normal;
 margin-left:350px;
-margin-top:-180px;
+margin-top:-165px;
 width:300px;
 /*background-color:black;*/
 text-align: left;
@@ -8215,7 +8224,7 @@ text-align: left;
 font-family:'GothamBook';
 font-weight:normal;
 margin-left:342px;
-margin-top:-130px;
+margin-top:-115px;
 width:300px;
 /*background-color:black;*/
 text-align: left;
@@ -8764,7 +8773,7 @@ margin-top:-215px;
 width:260px;
 height:30px;
 margin-left:350px;
-margin-top:-180px;
+margin-top:-165px;
 }
 
 #professionalSignup{
@@ -8772,7 +8781,7 @@ margin-top:-180px;
 width:260px;
 height:30px;
 margin-left:350px;
-margin-top:-150px;
+margin-top:-135px;
 }
 
 #daySignup{
@@ -8799,38 +8808,38 @@ padding-top:10px;
 
 #femaleCheck{
   position:absolute;
-  margin-top:-197px;
-  margin-left:390px;
+  margin-top:-183px;
+  margin-left:402px;
 }
 
 #maleCheck{
   position:absolute;
-  margin-top:-197px;
-  margin-left:328px;
+  margin-top:-183px;
+  margin-left:340px;
 }
 
 #nyCheck{
   position:absolute;
   margin-left:340px;
-  margin-top:-105px;
+  margin-top:-90px;
 }
 
 #eastCoastCheck{
   position:absolute;
   margin-left:415px;
-  margin-top:-125px;
+  margin-top:-110px;
 }
 
 #usaCheck{
   position:absolute;
   margin-left:340px;
-  margin-top:-110px;
+  margin-top:-95px;
 }
 
 #internationalCheck{
   position:absolute;
   margin-left:440px;
-  margin-top:-130px;
+  margin-top:-115px;
 }
 /******/
 
