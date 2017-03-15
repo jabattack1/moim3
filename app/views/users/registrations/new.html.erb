@@ -471,7 +471,7 @@ $(".aboutSelect").mouseover(function(){
 <button id='usernameButton' type='submit' >Check</button>
 </form>
 
-<p id='confirmSay'>(Confirmation)</p>
+<!-- <p id='confirmSay'>(Confirmation)</p> -->
 <p id='monthSay'>MONTH</p>
 <p id='daySay'>DAY</p>
 <p id='yearSay'>YEAR</p>
@@ -499,7 +499,7 @@ $(".aboutSelect").mouseover(function(){
   <% end %>
   <br><br>
  
-  <%= f.label :password_confirmation, 'Password', :id => 'passwordSignUpText2' %><span id='required5'>*</span>
+  <%= f.label :password_confirmation, :id => 'passwordSignUpText2' %><span id='required5'>*</span>
   <%= f.password_field :password_confirmation, autocomplete: "off", :id => 'passwordSignup2' %>
   <br><br>
 

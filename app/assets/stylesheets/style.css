@@ -7973,7 +7973,7 @@ width:1200px;
     padding-left:70px;
     padding-right:70px;
     padding-top:40px;
-    padding-bottom:40px;
+    padding-bottom:10px;
     width:750px;
 /*    border-style:solid;
     border-color:black;
@@ -8054,16 +8054,16 @@ margin-top:80px;
   position:absolute;
 color:black;
 font-weight:bold;
-margin-left:416px;
-margin-top:-200px;
+margin-left:207px;
+margin-top:100px;
 }
 
 #required6{
   position:absolute;
 color:black;
 font-weight:bold;
-margin-left:405px;
-margin-top:-177px;
+margin-left:416px;
+margin-top:-240px;
 }
 
 #required7{
