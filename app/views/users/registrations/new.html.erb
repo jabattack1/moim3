@@ -480,7 +480,7 @@ $(".aboutSelect").mouseover(function(){
   <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= devise_error_messages! %>
 
-  <%= f.label :first_name, :id => 'firstnameSignUpText' %><span id='required'>*</span>
+  <%= f.label :first_name, :id => 'firstnameSignUpText' %><span id='requireda'>*</span>
   <%= f.text_field :first_name, :id => 'firstnameSignup' %><br><br>
 
   <%= f.label :last_name, :id => 'lastnameSignUpText' %><span id='required1'>*</span>
@@ -513,7 +513,7 @@ $(".aboutSelect").mouseover(function(){
 <%= f.hidden_field :dob, :id => 'birth' %>
   
 
-<span id='required7'>*&nbsp;</span><%= f.label :gender, :id => 'genderSignUpText' %>
+<span id='required7'>*</span><%= f.label :gender, :id => 'genderSignUpText' %>
 
     <label id='femaleCheck' class='signupOption'>
 

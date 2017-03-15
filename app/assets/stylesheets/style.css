@@ -7974,7 +7974,7 @@ width:1200px;
     padding-right:70px;
     padding-top:40px;
     padding-bottom:40px;
-    width:100%;
+    width:750px;
 /*    border-style:solid;
     border-color:black;
     border-width:3px;*/
@@ -7985,8 +7985,8 @@ width:1200px;
 position:absolute;
 font-family:'GothamBook';
 font-weight:normal;
-margin-left:200px;
-margin-top:0px;
+margin-left:220px;
+margin-top:-24px;
 width:100px;
 font-size: 10px;
 z-index:8;
@@ -8005,6 +8005,13 @@ z-index:8;
 
 
 #required{
+  position:absolute;
+color:black;
+font-weight:bold;
+margin-left:-10px;
+}
+
+#requireda{
   position:absolute;
 color:black;
 font-weight:bold;
@@ -8240,8 +8247,8 @@ padding-left:4px;
 padding-right:4px;
 background-color:black;
     color:white;
-    margin-left:220px;
-    margin-top:150px;
+    margin-left:223px;
+    margin-top:143px;
     outline:0;
     text-align: center;
     border-style:solid;
@@ -8289,8 +8296,8 @@ padding-left:4px;
 padding-right:4px;
 background-color:black;
     color:white;
-    margin-left:220px;
-    margin-top:200px;
+    margin-left:223px;
+    margin-top:203px;
     outline:0;
     text-align: center;
      border-style:solid;
@@ -8445,15 +8452,15 @@ font-family:'GothamBook';
 font-size: 9px;
 position:absolute;
 margin-top:127px;
-margin-left:55px;
+margin-left:63px;
 }
 
 #emailSay1{
 font-family:'GothamBook';
 font-size: 9px;
 position:absolute;
-margin-top:158px;
-margin-left:220px;
+margin-top:162px;
+margin-left:222px;
 }
 
 #emailSayYes{
@@ -8516,8 +8523,8 @@ margin-left:320px;
 font-family:'GothamBook';
 font-size: 9px;
 position:absolute;
-margin-top:188px;
-margin-left:220px;
+margin-top:224px;
+margin-left:223px;
 }
 
 #emailRequired{
