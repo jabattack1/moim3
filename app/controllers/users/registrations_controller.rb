@@ -3,8 +3,8 @@ class Users::RegistrationsController < Devise::RegistrationsController
   before_filter :configure_permitted_parameters, if: :devise_controller?
 
   def configure_permitted_parameters
-    devise_parameter_sanitizer.for(:sign_up) { |u| u.permit(:email, :username, :gender, :password, :password_confirmation, :first_name, :last_name, :dob, :school, :company, :location) }
-    devise_parameter_sanitizer.for(:account_update) { |u| u.permit(:email, :first_name, :last_name, :school, :company, :location) }
+    devise_parameter_sanitizer.permit(:sign_up) { |u| u.permit(:email, :username, :gender, :password, :password_confirmation, :first_name, :last_name, :dob, :school, :company, :location) }
+    devise_parameter_sanitizer.permit(:account_update) { |u| u.permit(:email, :first_name, :last_name, :school, :company, :location) }
   end
 
   # before_filter :configure_permitted_parameters

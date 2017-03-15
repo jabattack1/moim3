@@ -140,40 +140,40 @@ $('#usernameButton').click(function(e){
 });
 });
 
-$(document).ready(function() {
-$('#header2a').waypoint(function() {
-  $( "#top_helper" ).animate({
-    backgroundColor: "#161616",
-    height:"0px"
-  }, 200 );
+// $(document).ready(function() {
+// $('#header2a').waypoint(function() {
+//   $( "#top_helper" ).animate({
+//     backgroundColor: "#161616",
+//     height:"0px"
+//   }, 200 );
 
-  $( "#top_banner_users" ).animate({
-    // width: "70%",
-    backgroundColor: "#161616",
-    marginTop: "0px"
-    // fontSize: "3em",
-    // borderWidth: "10px"
-  }, 200 );
-});
-});
+//   $( "#top_banner_users" ).animate({
+//     // width: "70%",
+//     backgroundColor: "#161616",
+//     marginTop: "0px"
+//     // fontSize: "3em",
+//     // borderWidth: "10px"
+//   }, 200 );
+// });
+// });
 
 
-$(document).ready(function() {
-$('#header1').waypoint(function() {
-  $( "#top_helper" ).animate({
-    backgroundColor: "#161616",
-    height:"15px"
-  }, 200 );
+// $(document).ready(function() {
+// $('#header1').waypoint(function() {
+//   $( "#top_helper" ).animate({
+//     backgroundColor: "#161616",
+//     height:"15px"
+//   }, 200 );
 
-  $( "#top_banner_users" ).animate({
-    // width: "70%",
-    backgroundColor: "#161616",
-    marginTop: "15px"
-    // fontSize: "3em",
-    // borderWidth: "10px"
-  }, 200 );
-});
-});
+//   $( "#top_banner_users" ).animate({
+//     // width: "70%",
+//     backgroundColor: "#161616",
+//     marginTop: "15px"
+//     // fontSize: "3em",
+//     // borderWidth: "10px"
+//   }, 200 );
+// });
+// });
 
 
 
@@ -367,16 +367,16 @@ $(".aboutSelect").mouseover(function(){
 <div id="headerLeadershipPic">
 <!-- <h1>trigger</h1> -->
 </div>
-<div id='top_helper_users'></div>
+<!-- <div id='top_helper_users'></div> -->
 <div id='top_banner_users' class='navigation'>
   <!-- <nav> -->
 
-<section class="webdesigntuts-workshop">
+<!-- <section class="webdesigntuts-workshop">
   <form action="" method="">        
     <input type="search" placeholder="">         
     <button id='glassButton'><img id='glass' src='/assets/glass.png'></button>
   </form>
-</section>
+</section> -->
 
 
 <div id='logInBanner'>
@@ -387,13 +387,14 @@ $(".aboutSelect").mouseover(function(){
         <%= link_to "LOG OUT", destroy_user_session_path, :id => 'logOutIcon', :method => :delete %>
         <p id='line2a'>|</p>
     <% else %>
-        <%= link_to 'LOG IN', new_user_session_path, :id => 'logInIcon' %>
+        <%= link_to 'LOGIN', new_user_session_path, :id => 'logInIcon' %>
         <p id='line1'>|</p>
         <%= link_to 'SIGN UP', new_user_registration_path, :id => 'signUpIcon' %> 
         <p id='line2'>|</p>
     <% end %>
-<a href='#'id='contactUsIcon' onclick='contactUsNow();return false;'>CONTACT US</A>
-
+<a href='#'id='contactUsIcon' onclick='contactUsNow();'>CONTACT US</A>
+  <p id='line4'></p>
+<img id='glass' src='/assets/magnifying.png'>
 <!-- <a id='logInIcon' onclick='logInScreen();return false;'>LOG IN</A> -->
   <!-- <p id='line1'>|</p> -->
 <!-- <a id='signUpIcon' href='/users/sign_up'>SIGN UP</A> -->
@@ -401,33 +402,34 @@ $(".aboutSelect").mouseover(function(){
 <!-- <a href='#'id='contactUsIcon' onclick='contactUsNow();return false;'>CONTACT US</A> -->
 
 </div>
+
 <a href='/'><img id='logoMoim' src='/assets/moimLogo.png'></a>
 
 
 <ul>
         
-                <li><a class='aboutSelect'>ABOUT</a><img id="aboutArrow" src='/assets/downArrow.PNG'/>
+                <li><a class='aboutSelect' id='aboutTab'>About</a><!-- <img id="aboutArrow" src='/assets/downArrow.PNG'/> -->
                   <ul id='aboutDrop'>
                         <li>
-                            <a href='/mission'>THE MISSION</a>
+                            <a href='/'>MOI'M</a>
                         </li>
                         <li>
-                          <a href='/chronicle'>THE CHRONICLE</a>
+                          <a href='/'>SPONSORS</a>
                         </li>
                         <li>
-                          <a href='/team'>THE TEAM</a>
+                          <a href='/'>PRESS</a>
                         </li>
-                        <li>
+<!--                         <li>
                           <a href='/getinvolved'>GET INVOLVED</a>
-                        </li>
+                        </li> -->
                      </ul>
               </li>
 
-                <li><a href='/events'>EVENTS</a></li>
-                <li><a href='/blogs'>BLOG</a></li>
-                <li><a href='/galleries'>PHOTOS & VIDEOS</a></li>
-                <li><a href='/express_yourselves'>EXPRESS YOURSELF</a></li>
-                <li><a class='communitySelect'>THE COMMUNITY</a><img id="communityArrow" src='/assets/downArrow.PNG'/>
+                <li><a href='/events'>Events</a></li>
+                <!-- <li><a href='/blogs'>BLOG</a></li> -->
+                <li><a href='/galleries'>Gallery</a></li>
+                <!-- <li><a href='/express_yourselves'>EXPRESS YOURSELF</a></li> -->
+                <li><a class='communitySelect'>Community</a><!-- <img id="communityArrow" src='/assets/downArrow.PNG'/> -->
           <ul id='communityDrop'>
                         <li>
                             <a href='/external_events'>EXTERNAL EVENTS</a>
@@ -443,18 +445,20 @@ $(".aboutSelect").mouseover(function(){
                         </li>
                      </ul>
                 </li>
-                <li><a href='/presses'>PRESS</a></li>
+                <li><a href='/presses'>Press</a></li>
             </ul>
                 
 </div>
 
+<img id='frontPic' src = "/assets/street.jpg">
 
 <a href="#top" class="back-to-top">Back to Top</a>
 <div id='usersContent' onclick='closeLogin();'>
 
 
-<p id='requiredStar'><span id='required'>*&nbsp;</span>= Required Field</p>
 <div id='signUp'>
+<h3 id='signUpHeading'>CREATE ACCOUNT</h3>
+<p id='requiredStar'><span id='required'>*</span>= Required Field</p>
 <p id='emailSay'>Verification email will be sent to this address.</p>
 <p id='emailSay1'>Email availability.</p>
 
@@ -476,32 +480,31 @@ $(".aboutSelect").mouseover(function(){
   <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= devise_error_messages! %>
 
+  <%= f.label :first_name, :id => 'firstnameSignUpText' %><span id='required'>*</span>
+  <%= f.text_field :first_name, :id => 'firstnameSignup' %><br><br>
+
+  <%= f.label :last_name, :id => 'lastnameSignUpText' %><span id='required1'>*</span>
+  <%= f.text_field :last_name, :id => 'lastnameSignup' %><br><br>
  
-  <span id='required'>*&nbsp;</span><%= f.label :email, :id => 'emailSignUpText' %>
+  <%= f.label :email, :id => 'emailSignUpText' %><span id='required2'>*</span>
   <%= f.email_field :email, autofocus: true, :id => 'emailSignup' %><br><br>
 
-  <span id='required'>*&nbsp;</span><%= f.label :username, :id => 'usernameSignUpText' %>
+  <%= f.label :username, :id => 'usernameSignUpText' %><span id='required3'>*</span>
   <%= f.text_field :username, :id => 'usernameSignup' %><br><br>
 
-  <span id='required'>*&nbsp;</span><%= f.label :password, :id => 'passwordSignUpText'%>
+  <%= f.label :password, :id => 'passwordSignUpText'%><span id='required4'>*</span>
   <%= f.password_field :password, autocomplete: "off", :id => 'passwordSignup' %>
   <% if @minimum_password_length %>
   <em id='minimum'>(<%= @minimum_password_length %> characters minimum)</em>
   <% end %>
   <br><br>
  
-  <span id='required'>*&nbsp;</span><%= f.label :password_confirmation, 'Password', :id => 'passwordSignupText2' %>
+  <%= f.label :password_confirmation, 'Password', :id => 'passwordSignUpText2' %><span id='required5'>*</span>
   <%= f.password_field :password_confirmation, autocomplete: "off", :id => 'passwordSignup2' %>
   <br><br>
 
-  <span id='required'>*&nbsp;</span></label><%= f.label :first_name, :id => 'firstnameSignUpText' %>
-  <%= f.text_field :first_name, :id => 'firstnameSignup' %><br><br>
 
-  <span id='required'>*&nbsp;</span><%= f.label :last_name, :id => 'lastnameSignUpText' %>
-  <%= f.text_field :last_name, :id => 'lastnameSignup' %><br><br>
-
-
-  <span id='required'>*&nbsp;</span><%= f.label :dob, 'Birthday', :id => 'birthdaySignUpText' %>
+  <%= f.label :dob, 'Birthday', :id => 'birthdaySignUpText' %><span id='required6'>*</span>
     <input type='text' name='month' id='monthSignup' minlength='2' maxlength='2' onkeypress='return isNumberKey(event)' autocomplete='off'>&nbsp;&nbsp;&nbsp;
     <input type='text' name='day' id='daySignup' minlength='2' maxlength='2' onkeypress='return isNumberKey(event)' autocomplete='off' >&nbsp;&nbsp;&nbsp;
     <input type='text' name='year' id='yearSignup' minlength='4' maxlength='4' onkeypress='return isNumberKey(event)' autocomplete='off' ><br><br>
@@ -510,7 +513,7 @@ $(".aboutSelect").mouseover(function(){
 <%= f.hidden_field :dob, :id => 'birth' %>
   
 
-<span id='required'>*&nbsp;</span><%= f.label :gender, :id => 'genderSignUpText' %>
+<span id='required7'>*&nbsp;</span><%= f.label :gender, :id => 'genderSignUpText' %>
 
     <label id='femaleCheck' class='signupOption'>
 
@@ -552,7 +555,7 @@ $(".aboutSelect").mouseover(function(){
     <%= f.hidden_field :location, :id => 'location' %>
   <br><br>      
   
- <%= f.submit "Sign Me Up!", :id => 'signupButton' %>
+ <%= f.submit "REGISTER", :id => 'signupButton' %>
 
 
 <% end %>

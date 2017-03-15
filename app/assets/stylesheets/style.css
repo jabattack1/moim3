@@ -2704,8 +2704,8 @@ position: absolute;
 margin-top:0px;
 margin-left:0px;
 width:100%;
-height:1330px;
-background-color:white;
+height:1430px;
+/*background-color:white;*/
 z-index:8;
 /*width:1800px;*/
 /*border-top:solid;
@@ -7923,6 +7923,11 @@ width:1200px;
   font-size:20px;
 }
 
+#signUpHeading{
+  font-family:'GothamBook';
+  font-size:20px;
+}
+
 #logInBox{
     display: table;
     margin: 0 auto;
@@ -7963,15 +7968,16 @@ width:1200px;
 /*width:100%;*/
     display: table;
     margin: 0 auto;
-    margin-top:125px;
+    margin-top:225px;
     background-color:white;
     padding-left:70px;
     padding-right:70px;
     padding-top:40px;
     padding-bottom:40px;
-    border-style:solid;
+    width:100%;
+/*    border-style:solid;
     border-color:black;
-    border-width:3px;
+    border-width:3px;*/
     z-index: 9;
 }
 
@@ -7979,8 +7985,8 @@ width:1200px;
 position:absolute;
 font-family:'GothamBook';
 font-weight:normal;
-margin-left:318px;
-margin-top: 130px;
+margin-left:200px;
+margin-top:0px;
 width:100px;
 font-size: 10px;
 z-index:8;
@@ -7999,8 +8005,58 @@ z-index:8;
 
 
 #required{
-color:red;
+  position:absolute;
+color:black;
 font-weight:bold;
+margin-left:93px;
+}
+
+#required1{
+  position:absolute;
+color:black;
+font-weight:bold;
+margin-left:89px;
+margin-top:20px;
+}
+
+#required2{
+  position:absolute;
+color:black;
+font-weight:bold;
+margin-left:89px;
+margin-top:40px;
+}
+
+#required3{
+  position:absolute;
+color:black;
+font-weight:bold;
+margin-left:89px;
+margin-top:60px;
+}
+
+#required4{
+  position:absolute;
+color:black;
+font-weight:bold;
+margin-left:89px;
+margin-top:80px;
+}
+
+#required5{
+  position:absolute;
+color:black;
+font-weight:bold;
+margin-left:89px;
+margin-top:100px;
+}
+
+#required6{
+  position:absolute;
+color:black;
+font-weight:bold;
+margin-left:418px;
+margin-top:-240px;
 }
 
 #emailField{
@@ -8009,36 +8065,47 @@ background-color: black;
 }
 
 #emailSignUpText{
-/*position:absolute;*/
+  text-transform: uppercase;
+  position:absolute;
 font-family:'GothamBook';
 font-weight:bold;
 margin-left:0px;
+margin-top:40px;
 width:300px;
 /*background-color:black;*/
 text-align: left;
 }
 
 #usernameSignUpText{
+  text-transform: uppercase;
+  position:absolute;
 font-family:'GothamBook';
 font-weight:bold;
 margin-left:0px;
+margin-top:60px;
 width:300px;
 /*background-color:black;*/
 text-align: left;
 }
 
 #passwordSignUpText{
+  text-transform: uppercase;
+  position:absolute;
 font-family:'GothamBook';
 font-weight:bold;
 margin-left:0px;
+margin-top:80px;
 width:300px;
 /*background-color:black;*/
 text-align: left;
 }
 #passwordSignUpText2{
+  text-transform: uppercase;
+  position:absolute;
 font-family:'GothamBook';
 font-weight:bold;
 margin-left:0px;
+margin-top:100px;
 width:300px;
 /*background-color:black;*/
 text-align: left;
@@ -8053,6 +8120,8 @@ text-align: left;
 }
 
 #firstnameSignUpText{
+position:absolute;
+text-transform: uppercase;
 font-family:'GothamBook';
 font-weight:bold;
 margin-left:0px;
@@ -8062,18 +8131,24 @@ text-align: left;
 }
 
 #lastnameSignUpText{
+  position:absolute;
+text-transform: uppercase;
 font-family:'GothamBook';
 font-weight:bold;
 margin-left:0px;
+margin-top:20px;
 width:300px;
 /*background-color:black;*/
 text-align: left;
 }
 
 #birthdaySignUpText{
+  position:absolute;
+  text-transform: uppercase;
 font-family:'GothamBook';
-font-weight:bold;
-margin-left:0px;
+/*font-weight:bold;*/
+margin-left:340px;
+margin-top:-240px;
 width:300px;
 /*background-color:black;*/
 text-align: left;
@@ -8127,7 +8202,8 @@ text-align: left;
 
 #emailSignUp{
 	position:absolute;
-	margin-left:100px;
+	margin-left:0px;
+  margin-top:30px;
 	width:200px;
 	height:100px;
 }
@@ -8149,7 +8225,8 @@ padding-left:4px;
 padding-right:4px;
 background-color:black;
     color:white;
-    margin-left:320px;
+    margin-left:220px;
+    margin-top:150px;
     outline:0;
     text-align: center;
     border-style:solid;
@@ -8197,8 +8274,8 @@ padding-left:4px;
 padding-right:4px;
 background-color:black;
     color:white;
-    margin-left:320px;
-    margin-top:50px;
+    margin-left:220px;
+    margin-top:200px;
     outline:0;
     text-align: center;
      border-style:solid;
@@ -8219,11 +8296,11 @@ padding-top:3px;
 padding-bottom:3px;
 padding-left:5px;
 padding-right:5px;
-background-color:white;
+background-color:black;
 border-style:solid;
-    border-color:#1BAAC6;
+    border-color:black;
     border-width:4px;
-    color:#1BAAC6;
+    color:white;
     margin: 0 auto;
     display: table;
     outline:0;
@@ -8231,9 +8308,9 @@ border-style:solid;
 }
 
 #signupButton:active{
-background-color:#66E5FF;
-border-color:#66E5FF;
-color:white;
+background-color:white;
+border-color:black;
+color:black;
 outline:0;
 }
 
@@ -8351,16 +8428,16 @@ cursor: pointer;
 font-family:'GothamBook';
 font-size: 9px;
 position:absolute;
-margin-top:30px;
-margin-left:92px;
+margin-top:130px;
+margin-left:0px;
 }
 
 #emailSay1{
 font-family:'GothamBook';
 font-size: 9px;
 position:absolute;
-margin-top:18px;
-margin-left:320px;
+margin-top:158px;
+margin-left:220px;
 }
 
 #emailSayYes{
@@ -8423,8 +8500,8 @@ margin-left:320px;
 font-family:'GothamBook';
 font-size: 9px;
 position:absolute;
-margin-top:68px;
-margin-left:320px;
+margin-top:188px;
+margin-left:220px;
 }
 
 #emailRequired{
@@ -8503,7 +8580,7 @@ margin-left:95px;
 font-family:'GothamBook';
 font-size: 11px;
 position:absolute;
-margin-top:172px;
+margin-top:292px;
 margin-left:8px;
 }
 
@@ -8582,50 +8659,64 @@ margin-left:312px;
 
 
 #emailSignup{
+  position:absolute;
 height:30px;
-margin-left:-225px;
+margin-left:0px;
+margin-top:63px;
 width:220px;
 }
 
 #usernameSignup{
+  position:absolute;
 height:30px;
-margin-left:-225px;
+margin-left:0px;
+margin-top:83px;
 width:220px;
 }
 
 #passwordSignupEdit{
+  position:absolute;
 height:30px;
-margin-left:-225px;
+margin-left:225px;
 width:220px;
 }
 
 #passwordSignup{
-
+position:absolute;
 height:30px;
-margin-left:-223px;
+margin-left:0px;
+margin-top:103px;
 width:220px;
 }
 #passwordSignup2{
+  position:absolute;
 height:30px;
-margin-left:10px;
+margin-left:0px;
+margin-top:123px;
 width:220px;
 }
 
 #passwordSignup3{
+position:absolute;
 height:30px;
-margin-left:10px;
+margin-left:0px;
+margin-top:123px;
 width:220px;
 }
 
 #firstnameSignup{
+position:absolute;
 height:30px;
-margin-left:-223px;
+margin-left:0px;
+margin-top:25px;
 width:220px;
 }
 
 #lastnameSignup{
+position:absolute;
 height:30px;
-margin-left:-223px;
+margin-left:0px;
+margin-top:43px;
 width:220px;
 }
 
@@ -8638,9 +8729,11 @@ height:30px;
 }
 
 #monthSignup{
+position:absolute;
 width:50px;
 height:30px;
-margin-left:-223px;
+margin-left:340px;
+margin-top:-215px;
 }
 
 #collegeSignup{
@@ -8656,15 +8749,20 @@ margin-left:-173px;
 }
 
 #daySignup{
+position:absolute;
 width:50px;
 height:30px;
-/*margin-left:-210px;*/
+margin-left:385px;
+margin-top:-215px;
+
 }
 
 #yearSignup{
+  position:absolute;
 width:97px;
 height:30px;
-/*margin-left:-210px;*/
+margin-top:-215px;
+margin-left:430px;
 }
 
 #professionalSignUpText{
@@ -8833,7 +8931,9 @@ color:#66E5FF;
     margin-left: 1em; }
 
 #minimum{
+  position:absolute;
 font-family:'GothamBook';
+margin-top:100px;
 font-size:10px;
 font-style:normal;
 }
