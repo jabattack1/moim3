@@ -8023,7 +8023,7 @@ margin-top:20px;
   position:absolute;
 color:black;
 font-weight:bold;
-margin-left:89px;
+margin-left:47px;
 margin-top:40px;
 }
 
@@ -8031,7 +8031,7 @@ margin-top:40px;
   position:absolute;
 color:black;
 font-weight:bold;
-margin-left:89px;
+margin-left:86px;
 margin-top:60px;
 }
 
@@ -8039,7 +8039,7 @@ margin-top:60px;
   position:absolute;
 color:black;
 font-weight:bold;
-margin-left:89px;
+margin-left:87px;
 margin-top:80px;
 }
 
@@ -8047,16 +8047,16 @@ margin-top:80px;
   position:absolute;
 color:black;
 font-weight:bold;
-margin-left:89px;
-margin-top:100px;
+margin-left:416px;
+margin-top:-200px;
 }
 
 #required6{
   position:absolute;
 color:black;
 font-weight:bold;
-margin-left:418px;
-margin-top:-240px;
+margin-left:405px;
+margin-top:-177px;
 }
 
 #emailField{
@@ -8155,45 +8155,60 @@ text-align: left;
 }
 
 #genderSignUpText{
+position:absolute;
+text-transform: uppercase;
 font-family:'GothamBook';
 font-weight:bold;
-margin-left:0px;
+margin-left:330px;
+margin-top:-217px;
 width:300px;
 /*background-color:black;*/
 text-align: left;
 }
 
 #affiliationSignUpText{
+  position:absolute;
+  text-transform: uppercase;
 font-family:'GothamBook';
 font-weight:normal;
-margin-left:10px;
+margin-left:342px;
+margin-top:-200px;
 width:300px;
 /*background-color:black;*/
 text-align: left;
 }
 
 #collegeSignUpText{
+ position:absolute;
+  text-transform: uppercase;
 font-family:'GothamBook';
 font-weight:normal;
-margin-left:20px;
+margin-left:350px;
+margin-top:-200px;
 width:300px;
 /*background-color:black;*/
 text-align: left;
 }
 
 #professionalSignUpText{
+  position:absolute;
+  text-transform: uppercase;
 font-family:'GothamBook';
 font-weight:normal;
-margin-left:20px;
+margin-left:350px;
+margin-top:-180px;
 width:300px;
 /*background-color:black;*/
 text-align: left;
 }
 
 #locationSignUpText{
+  position:absolute;
+  text-transform: uppercase; 
 font-family:'GothamBook';
 font-weight:normal;
-margin-left:10px;
+margin-left:342px;
+margin-top:-130px;
 width:300px;
 /*background-color:black;*/
 text-align: left;
@@ -8289,6 +8304,7 @@ color:black;
 }
 
 #signupButton{
+  position:absolute;
 font-family:'GothamBook';
 font-weight:bold;
 font-size: 12px;
@@ -8301,10 +8317,10 @@ border-style:solid;
     border-color:black;
     border-width:4px;
     color:white;
-    margin: 0 auto;
-    display: table;
     outline:0;
     text-align: center;
+    margin-left:530px;
+    margin-top:-110px;
 }
 
 #signupButton:active{
@@ -8428,8 +8444,8 @@ cursor: pointer;
 font-family:'GothamBook';
 font-size: 9px;
 position:absolute;
-margin-top:130px;
-margin-left:0px;
+margin-top:127px;
+margin-left:55px;
 }
 
 #emailSay1{
@@ -8580,8 +8596,8 @@ margin-left:95px;
 font-family:'GothamBook';
 font-size: 11px;
 position:absolute;
-margin-top:292px;
-margin-left:8px;
+margin-top:300px;
+margin-left:100px;
 }
 
 #confirmSay1{
@@ -8596,32 +8612,32 @@ margin-left:0px;
 font-family:'GothamBook';
 font-size: 8px;
 position:absolute;
-margin-top:330px;
-margin-left:94px;
+margin-top:55px;
+margin-left:340px;
 }
 
 #daySay{
 font-family:'GothamBook';
 font-size: 8px;
 position:absolute;
-margin-top:330px;
-margin-left:161px;
+margin-top:55px;
+margin-left:402px;
 }
 
 #yearSay{
 font-family:'GothamBook';
 font-size: 8px;
 position:absolute;
-margin-top:330px;
-margin-left:226px;
+margin-top:55px;
+margin-left:464px;
 }
 
 #birthdaySay{
 font-family:'GothamBook';
 font-size: 9px;
 position:absolute;
-margin-top:319px;
-margin-left:322px;
+margin-top:6px;
+margin-left:432px;
 }
 
 #monthSay1{
@@ -8737,15 +8753,19 @@ margin-top:-215px;
 }
 
 #collegeSignup{
+  position:absolute;
 width:260px;
 height:30px;
-margin-left:-173px;
+margin-left:350px;
+margin-top:-180px;
 }
 
 #professionalSignup{
+  position:absolute;
 width:260px;
 height:30px;
-margin-left:-173px;
+margin-left:350px;
+margin-top:-150px;
 }
 
 #daySignup{
@@ -8771,27 +8791,39 @@ padding-top:10px;
 }
 
 #femaleCheck{
-margin-left:-223px;
+  position:absolute;
+  margin-top:-197px;
+  margin-left:390px;
 }
 
 #maleCheck{
-margin-left:5px;
+  position:absolute;
+  margin-top:-197px;
+  margin-left:328px;
 }
 
 #nyCheck{
-margin-left:-220px;
+  position:absolute;
+  margin-left:340px;
+  margin-top:-105px;
 }
 
 #eastCoastCheck{
-margin-left:93px;
+  position:absolute;
+  margin-left:415px;
+  margin-top:-125px;
 }
 
 #usaCheck{
-margin-left:93px;
+  position:absolute;
+  margin-left:340px;
+  margin-top:-110px;
 }
 
 #internationalCheck{
-margin-left:93px;
+  position:absolute;
+  margin-left:440px;
+  margin-top:-130px;
 }
 /******/
 
@@ -8933,7 +8965,8 @@ color:#66E5FF;
 #minimum{
   position:absolute;
 font-family:'GothamBook';
-margin-top:100px;
+margin-top:84px;
+margin-left:100px;
 font-size:10px;
 font-style:normal;
 }
