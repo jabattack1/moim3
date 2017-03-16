@@ -7929,7 +7929,8 @@ width:1200px;
 
 #signUpHeading{
   font-family:'GothamBook';
-  font-size:20px;
+  font-size:17px;
+  padding-bottom:20px;
 }
 
 #logInBox{
@@ -7989,8 +7990,8 @@ width:1200px;
 position:absolute;
 font-family:'GothamBook';
 font-weight:normal;
-margin-left:220px;
-margin-top:-24px;
+margin-left:190px;
+margin-top:-42px;
 width:100px;
 font-size: 10px;
 z-index:8;
