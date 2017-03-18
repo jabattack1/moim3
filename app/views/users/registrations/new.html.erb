@@ -8,8 +8,8 @@
 
 <script type="text/javascript">
 $(document).ready(function() {
-var emailRequired = "<p id='emailRequired'>Invalid Email Address</p>";
-var usernameRequired = "<p id='usernameRequired'>Username Required</p>";
+var emailRequired = "<p id='emailRequired'>Invalid</p>";
+var usernameRequired = "<p id='usernameRequired'>Invalid</p>";
 
 
 
@@ -75,7 +75,7 @@ $('#emailButton').click(function(e){
        dataType : "json",
        success: function (data) {
         console.log('success');
-        var emailSayYes="<p id='emailSayYes'><span id='yesEmail'>This email is not yet registered.</span></p>"
+        var emailSayYes="<p id='emailSayYes'><span id='yesEmail'>available</span></p>"
         // if(data.available == true){
         $('#emailSayYes').remove();
         $('#emailSayNo').remove();
@@ -84,7 +84,7 @@ $('#emailButton').click(function(e){
        },
        error: function(xhr, ajaxOptions, thrownError){
         console.log('fail')
-          var emailSayNo="<p id='emailSayNo'><span id='noEmail'>This email is already registered.</span></p>"
+          var emailSayNo="<p id='emailSayNo'><span id='noEmail'>not available</span></p>"
         $('#emailSayYes').remove();
         $('#emailSayNo').remove();
         $('#usersContent').append(emailSayNo);  
@@ -121,7 +121,7 @@ $('#usernameButton').click(function(e){
        dataType : "json",
        success: function (data) {
         console.log('success');
-        var usernameSayYes="<p id='usernameSayYes'><span id='yesUsername'>This username is not yet registered.</span></p>"
+        var usernameSayYes="<p id='usernameSayYes'><span id='yesUsername'>available</span></p>"
         // if(data.available == true){
         $('#usernameSayYes').remove();
         $('#usernameSayNo').remove();
@@ -130,7 +130,7 @@ $('#usernameButton').click(function(e){
        },
        error: function(xhr, ajaxOptions, thrownError){
         console.log('fail')
-          var usernameSayNo="<p id='usernameSayNo'><span id='noUsername'>This username is already registered.</span></p>"
+          var usernameSayNo="<p id='usernameSayNo'><span id='noUsername'>not available</span></p>"
         $('#usernameSayYes').remove();
         $('#usernameSayNo').remove();
         $('#usersContent').append(usernameSayNo);  
@@ -379,76 +379,7 @@ $(".aboutSelect").mouseover(function(){
 </section> -->
 
 
-<div id='logInBanner'>
 
-    <% if user_signed_in? %>
-        <p id='greetings'>HELLO <%= current_user.first_name %>!</p>
-        <p id='line1a'>|</p>
-        <%= link_to "LOG OUT", destroy_user_session_path, :id => 'logOutIcon', :method => :delete %>
-        <p id='line2a'>|</p>
-    <% else %>
-        <%= link_to 'LOGIN', new_user_session_path, :id => 'logInIcon' %>
-        <p id='line1'>|</p>
-        <%= link_to 'SIGN UP', new_user_registration_path, :id => 'signUpIcon' %> 
-        <p id='line2'>|</p>
-    <% end %>
-<a href='#'id='contactUsIcon' onclick='contactUsNow();'>CONTACT US</A>
-  <p id='line4'></p>
-<img id='glass' src='/assets/magnifying.png'>
-<!-- <a id='logInIcon' onclick='logInScreen();return false;'>LOG IN</A> -->
-  <!-- <p id='line1'>|</p> -->
-<!-- <a id='signUpIcon' href='/users/sign_up'>SIGN UP</A> -->
-  <!-- <p id='line2'>|</p> -->
-<!-- <a href='#'id='contactUsIcon' onclick='contactUsNow();return false;'>CONTACT US</A> -->
-
-</div>
-
-<a href='/'><img id='logoMoim' src='/assets/moimLogo.png'></a>
-
-
-<ul>
-        
-                <li><a class='aboutSelect' id='aboutTab'>About</a><!-- <img id="aboutArrow" src='/assets/downArrow.PNG'/> -->
-                  <ul id='aboutDrop'>
-                        <li>
-                            <a href='/'>MOI'M</a>
-                        </li>
-                        <li>
-                          <a href='/'>SPONSORS</a>
-                        </li>
-                        <li>
-                          <a href='/'>PRESS</a>
-                        </li>
-<!--                         <li>
-                          <a href='/getinvolved'>GET INVOLVED</a>
-                        </li> -->
-                     </ul>
-              </li>
-
-                <li><a href='/events'>Events</a></li>
-                <!-- <li><a href='/blogs'>BLOG</a></li> -->
-                <li><a href='/galleries'>Gallery</a></li>
-                <!-- <li><a href='/express_yourselves'>EXPRESS YOURSELF</a></li> -->
-                <li><a class='communitySelect'>Community</a><!-- <img id="communityArrow" src='/assets/downArrow.PNG'/> -->
-          <ul id='communityDrop'>
-                        <li>
-                            <a href='/external_events'>EXTERNAL EVENTS</a>
-                        </li>
-                        <li>
-                          <a href='/careerboards'>CAREER BOARD</a>
-                        </li>
-                        <li>
-                          <a href='/localhotspots'>LOCAL HOTSPOTS</a>
-                        </li>
-                        <li>
-                          <a href='/freeboards'>FREEBOARD</a>
-                        </li>
-                     </ul>
-                </li>
-                <li><a href='/presses'>Press</a></li>
-            </ul>
-                
-</div>
 
 <img id='frontPic' src = "/assets/street.jpg">
 
