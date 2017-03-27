@@ -2553,6 +2553,7 @@ z-index:9;
 #welcomeContent {
 /*font-family: 'Proxima Nova';*/
 position: absolute;
+margin: 0 auto;
 /*padding: 0;*/
 /*margin-top:620px;*/
 /*margin: 0 620 auto;*/
