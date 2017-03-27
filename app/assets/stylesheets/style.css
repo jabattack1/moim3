@@ -847,9 +847,9 @@ margin-top:35px;
 #logoMoimBottom{
 position:absolute;
 width:180px;
-top:0px;
+/*top:0px;*/
 right:260px;
-margin-top:0px;
+/*padding-top:0px;*/
 }
 
 #logoMoim:hover{
@@ -1543,6 +1543,7 @@ width: 100%;
 
 #top_banner {
 position: absolute;
+margin: 0 auto;
 /*margin-top:0px;
 margin-left:0px;
 width: 1280px;
@@ -3237,9 +3238,10 @@ font-family:'GothamBook';
 }
 
 #contactContent{
-margin-left:0px;
-margin-top:40px;
+margin: 0 auto;
+/*margin-top:40px;*/
 padding-left:60px;
+padding-top:40px;
 position:absolute;
 width:1280px;
 }
@@ -3251,13 +3253,13 @@ font-family:'GothamBook';
     font-size: 20px;
     color:white;
     z-index:9;
-    margin-left:30px;
-    margin-top:10px;
+/*    margin-left:30px;
+    margin-top:10px;*/
     padding-left: 0px;
     padding-right:0px;
     padding-bottom:12px;
     /*border-bottom: 2px solid #66E5FF;*/
-    margin: 0px;
+    margin: 0 auto;
 }
 
 #contactBottom{
