@@ -3217,20 +3217,20 @@ font-family:'GothamBook';
     color:black;
 }
 
-/*#contactCover{
+#contactCover{
   position:absolute;
   bottom:0;
   z-index:8;
   width:100%;
   height:325px;
   background-color:#161616;
-}*/
+}
 
 #contactUsInvolved{
     position:absolute;
     bottom:0;
     z-index:8;
-    width:100%;
+    width:1280px;
     height:325px;
     background-color:#161616;
 }
