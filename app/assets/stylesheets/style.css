@@ -849,6 +849,7 @@ position:absolute;
 width:180px;
 /*top:0px;*/
 right:260px;
+z-index: 9;
 /*padding-top:0px;*/
 }
 
@@ -3235,10 +3236,10 @@ font-family:'GothamBook';
     width:1280px;
     height:325px;
     background-color:#161616;
+    /*margin: 0 auto;*/
 }
 
 #contactContent{
-margin: 0 auto;
 /*margin-top:40px;*/
 padding-left:60px;
 padding-top:40px;
@@ -3259,7 +3260,7 @@ font-family:'GothamBook';
     padding-right:0px;
     padding-bottom:12px;
     /*border-bottom: 2px solid #66E5FF;*/
-    margin: 0 auto;
+    /*margin: 0 auto;*/
 }
 
 #contactBottom{
@@ -3268,9 +3269,9 @@ position:absolute;
 background-color:#161616;
 width:1280px;
 height:40px;
-margin-top:230px;
+padding-top:230px;
 /*bottom:0;*/
-z-index:9;
+z-index:8;
 }
 
 #contactHeadingWelcome{
@@ -3493,11 +3494,12 @@ font-size: 13px;
 #moimHead{
   position:absolute;
   font-family:'GothamBook';
-font-weight: bold;
-font-size: 16px;
-color:white;
+  font-weight: bold;
+  font-size: 16px;
+  color:white;
   right:350px;
-  margin-top:75px;
+  padding-top:60px;
+  z-index:9;
   /*width:400px;*/
 }
 #tax{
@@ -3507,7 +3509,8 @@ font-weight: normal;
 font-size: 16px;
 color:white;
 right:130px;
-margin-top:85px;
+padding-top:85px;
+z-index:9;
 /*width:350px;*/
 }
 
