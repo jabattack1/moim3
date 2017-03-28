@@ -15,7 +15,7 @@
     margin-right: auto;
 	margin-top:70px;
 	font-size:20px;
-	width:100%;
+	width:1280px;
 }
 
 #careerHeading{
@@ -43,8 +43,8 @@
 	width:300px;
 	padding-top:120px;
 	margin:auto;
-	  left:0;
-  right:0;
+	left:0;
+  	right:0;
 	display: block;
 }
 
@@ -89,7 +89,7 @@
 
 #whereContainerBase{
 	position:absolute;
-	width:100%;
+	width:1280px;
 	/*background-color: black;*/
 	/*height:100px;*/
 }
@@ -184,7 +184,7 @@ width:100%;
 }
 
 #sponsorsIntro{
-position:absolute;
+	position:absolute;
     margin-top:30px;
     /*margin-left:220px;*/
     font-family:'GothamBook';
@@ -192,8 +192,8 @@ position:absolute;
     /*text-align: center;*/
     font-size:14px;
     /*display: inline;*/
-    width:100%;
-display: block;
-text-align:center;
+    width:1280px;
+	display: block;
+	text-align:center;
 }
 
