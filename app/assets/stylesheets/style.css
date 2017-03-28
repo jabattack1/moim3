@@ -2553,7 +2553,7 @@ overflow: hidden
 }
 
 #welcomeContent {
-  position:absolute;
+  position: relative;
   margin: 0 auto;
   display: table;
   width: 1280px;
